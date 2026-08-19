@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Annagaa ku siinnay fatxi (gargaar) cad Nabiyow.';
+$t[2] = 'Si Eebe kuugu dhaafo waxaad hormarsatay iyo wixii dib maray oo gaf ah, Nicmadiisana kuugu taam yeelo, Jidka toosanna kuugu hanuuniyo,';
+$t[3] = 'Kuuna gargaaro Eebe Gargaar wayn.';
+$t[4] = 'Eebe waa kan ku dajiyay xasilloonida Quluubta mu\'miniinta si ay Iimaan ugu siyaadsadaan Iimaankoodii, Eebaana iska leh Samaawaadka iyo dhulka Junuudda ku sugan, Eebana waa wax walba oge falsan.';
+$t[5] = 'si uu u galiyo mu\'miniinta rag iyo haweenba Jannooyin ay dureereyso dhexdeeda Wabiyaal iyagoo ku waari, Dambigoodana wuu asturi, arrintaasuna Eebe agtiisa waxay ku tahay Liibaan wayn.';
+$t[6] = 'iyo inuu caddibo munaafiqiinta Rag iyo Haweeenba, iyo mushrikiinta (gaalada) rag iyo haweenba, Eebana u maleeyey mala xun, xumaantu korkooda ha ku wareegto, Eebana Ha u cadhoodo, hana lacnado, hana u darbo Naarta Jahannamo, meel loo ahaadana iyadaa u xun.';
+$t[7] = 'Eebaa iska leh Junuudda ku sugan Samaawaadka iyo Dhulka, Eebana waa adkaade falsan.';
+$t[8] = 'Annagaa ku dirray Nabiyow adigoo marag ah, Bishaareeye Digena ah.';
+$t[9] = 'Si aad dadow Eebe u rumaysaan iyo Rasuulkiisa uguna gargaartaan, una waynaysaan, Eebana ugu tasbiixsataan Aroor iyo Galabba.';
+$t[10] = 'Kuwa Nabiyow kula ballamaya waxay la ballamayaan uun Eebe, ballanna ka qaadeen, Ruuxiise burriya Naftiisa umbuu ku buriyay, Ruuxii oofiyana wuxuu Eebe kula ballamay wuxuu siin Ajri wayn.';
+$t[11] = 'Waxay kugu dhihi kuwii kaddib maray (Jahaadka) ee Ree-Baadiyaha (carbeed ahaa), waxaa na shuqliyay xoolahannagii, iyo ahalkannagii, ee Eebe noo dambi dhaaf waydii, Carrabkooda yay ka dhihi waxaan qalbigooda jirin, waxaad ku dhahdaa yaa Eebe wasx idiinka hanankara hadduu dhib idinla doono, ama gargaar idinla doono Saas ma aha, ee Eebe waa ogyahay waxaad camal falaysaan.';
+$t[12] = 'Waxaadse u malayseen inayan Rasuulka iyo Mu\'miniinta u soo noqonnaynin ehelkooda waligood, saasaana loogu qurxiyay qalbigiinna, waxaadna ahaateen kuwo halaagsamay.';
+$t[13] = 'Ruuxaan Eebe rumayn iyo Rasuulkiisa waxaan Gaalo u darabnay Naarta Saciiro.';
+$t[14] = 'Eebaa iska leh xukunka waxa Samaawaadka iyo Dhulka ku sugan, wuxuuna u dambi dhaafi cidduu doono, wuxuu caddibi cidduu doono, waana dambi dhaafe naxariiste ah.';
+$t[15] = 'Waxay idinku odhan kuwii dib maray markaad qaniimo aadaan si aad u soo qaadataan nadaaya aan idin raacnee, iyagoo dooni inay baddalaan hadalka Eebe, waxaad dhahdaa naraaci maysaan Eebaana sidaa yidhi mar hore, waxayse dhihi waad na xasdaysaan, waase kuwo aan wax kasaynin in yar mooyeen.';
+$t[16] = 'Waxaad ku dhahdaa Nabiyow kuwa dib maray ee Ree baadiyaha ah waxaa laydinku yeedhi kuwa xoog badan oo daran inaad la dagaallantaan intay ka islaamaan, haddaadse addeecdaan wuxuu Eebe idin siin ajri fiican, haddaadse jeedsataan saad horayba ugu jeedsateen wuu idin caddibi caddibaad daran.';
+$t[17] = 'Ruux Indha la\' korkiisa dhib (Jahaad) ma saarra iyo ka naafada ah iyo kan buka, Ruuxiise Eebe addeeca iyo Rasuulkiisa wuxuu galin Jannooyin ay dhexdureeri Wabiyaal, Ruuxiise jeedsada wuu caddibi caddibaad daran.';
+$t[18] = 'Eebe wuu ka raalli noqday mu\'miniinta markay kugula ballantamayeen Nabiyow Geedka hoostiisa, Eebana waa ogaaday waxa Quluubtooda ku sugan, wuxuuna ku dajiyay xasilooni, wuxuuna ku abaal marin fatxi (nasri) dhaw.';
+$t[19] = 'Iyo Qaniimooyin badan oy qaadandoonaan, Eebana waa adkaade falsan.';
+$t[20] = 'Eebena wuxuu idiin yaboohay Qaniimooyin badan ood Qaadanaysaan, Tanna wuu idiin hormariyay, (qaa Qaniimadii khaybar), wuuna idinka reebay Gacmaha dadka (gaalada) si ay ugu noqoto mu\'miniinta calaamo (Runta Nabiga) idiinkuna hanuuniyo jidka toosan.';
+$t[21] = 'Waxaa kale oo uu idiin dadajiyay Qaniimo kale oydaan awooddeen, Eebana wax walba waa karaa.';
+$t[22] = 'Hadday idinla diriraan kuwa gaaloobay way carari (oy jabi) sokeeye iyo gargaarna heli maayaan.';
+$t[23] = 'Saasna waa waddadii Eebe ee u horreysay ummadihii tagay, wax baddali karana ma jiro.';
+$t[24] = 'Eebe waa kan idin kala reebay &laquo;idinna kala ilaaliyay&raquo; gaaladii markaad maka gudeheeda joogteen intuu idin makaniyay korkooda kaddib, Eebana waa arkaa waxaad camal falaysaan.';
+$t[25] = 'Gaaladii makaad waa kuwii masaadjidka xurmaysan idinka reebay iyadooy hadyadii darbantahay inaygaadho halkii lagu xalaalaynlahaa, haddaynan jirin Rag iyo Haween mu\'miniin ah (oo la nool) idinna aydaan ogayn marka aad baabi\'neeysaan ayna mashaqo idin haleesho (Eebe waa idiin fasixi lahaa). Si uu u galiyo naxariistiisa cidduu doono (yuu saas u yeelay), Hadday mu\'miniintu ka soocmi lahaayeen gaalada wuxuu Eebe caddibi lahaa gaalada caddibaad daran.';
+$t[26] = 'Xusuusta marka Eebe yeelay kuwii gaaloobay Quluubtooda islawayni iyo cadho, sidii isla waynidii iyocadhadii jaahiliinta oo Eebe ku dajiyay xasilloonidiisii Rasuulkiisa korkiisa iyo mu\'miniinta, waafajiyayna kalimada dhawrsashada (Ashahaadada iyo ballan ku sugnaanshaha), iyagaana ugu mudan kalimadaas chelna u ah, Eebana wax walba waa ogyahay.';
+$t[27] = 'Eebe waa u rumeeyay Rasuulka riyadiisii si dhab ah, abaydna in mu\'miniintu gali MAsjidka xurmaysan hadduu Eebe doono, iyagoo aamin ah oo Timaha xiiri ama gaabin (Xajka iyo Cumrada ka dib) iyagoon cidna ka cabsanaynin, wuxuuna Eebe ogyahay waxaydaan ogayn, markaasuu yeelay galitaanka Maka ka soke Fatxi (Xudaybiya).';
+$t[28] = 'Eebe waa kan la diray Rasuulkiisa hanuun iyo diin xaq ah, si uu uga sare mariyo Diimaha oo dhan, Eebaana marag ku filan.';
+$t[29] = 'Muxammad waa Rasuulkii Eebe kuwa la jirana waa ku daranyihiin gaalada, dhexdoodana way isu naxariistaant waxaad arkaysaa iyagoo rukuucsan oo sujuudsan oo dalbi Deeqda Eebe iyo raalli ahaanshihiisa, Calaamadooduna wajigooday ka muuqataa, Sujuudda raadkeeda darteed, saasaana iagu tilmaamay Tawreed, Tilmaantooda injiilna waxay lamid yihiin Beer soo bixisay fiidda oo xoogaysatay oo si fiican u istaagtay layaabna galisay beertaha, si uu Eebe ugu Cadho galiyo gaalada, Eebe wuxuu u yaboohay kuwa xaqa rumeeyay';
+?>

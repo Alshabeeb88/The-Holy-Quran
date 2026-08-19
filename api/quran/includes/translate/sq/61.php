@@ -1,0 +1,17 @@
+<?php
+$t = array();
+$t[1] = 'All-llahun e madh&euml;roi &ccedil;ka ka n&euml; qiej dhe &ccedil;ka ka n&euml; tok&euml;, e Ai &euml;sht&euml; mbizot&euml;ruesi, i urti.';
+$t[2] = 'O ju q&euml; besuat, pse po e thoni at&euml; q&euml; nuk e punoni?';
+$t[3] = 'te All-llahu &euml;sht&euml; shum&euml; e urrejtur ta thoni at&euml; q&euml; nuk e punoni!';
+$t[4] = 'All-llahu i do ata q&euml; luftojn&euml; n&euml; rrug&euml;n e Tij t&euml; rreshtuar si t&euml; jet&euml; nd&euml;rtes&euml; e fortifikuar.';
+$t[5] = 'Dhe, (rikujto) kur Musai popullit t&euml; vet i tha: &ldquo;O populli imi, pse m&euml; shqet&euml;soni kur e dini se me t&euml; v&euml;rtet&euml; un&euml; jam i d&euml;rguar i All-llahut te ju!&rdquo; E kur ata u shmang&euml;n (nga e v&euml;rteta), All-llahui largoi zemrat e tyre, pse All-llahu nuk v&euml; n&euml; rrug&euml; t&euml; drejt&euml; popullin e prishur.';
+$t[6] = 'Dhe, kur Isai, biri i Merjemes tha: &ldquo;O beni israil&euml;, un&euml; jam i d&euml;rguar i All-llahut te ju, jam v&euml;rtetues i Tevratit q&euml; ishte para meje dhe jam p&euml;rg&euml;zues p&euml;r nj&euml; t&euml; d&euml;rguar q&euml; do t&euml; vij&euml; pas meje, emri i t&euml; cilit &euml;sht&euml; Ahmed!&rdquo; E kur ai u erdhi atyre me argumente t&euml; qarta, ata than&euml;: &ldquo;Kjo &euml;sht&euml; magji e hap&euml;t&rdquo;.';
+$t[7] = 'E kush &euml;sht&euml; m&euml; mizor se ai q&euml; p&euml;r All-llahun shpif g&euml;njesht&euml;r p&euml;r fen&euml; islame; po All-llahu nuk i ofron udh&euml;zimin p&euml;r n&euml; rrug&euml;n e drejt&euml; popullin zullumqar&euml;.';
+$t[8] = 'Ata duan ta shuajn&euml; drit&euml;n e All-llahut me goj&euml;t e tyre, po All-llahu e plot&euml;son (e p&euml;rhap) drit&euml;n e vet, edhe pse e urrejn&euml; jobesimtar&euml;t.';
+$t[9] = 'Ai (All-llahu) &euml;sht&euml; q&euml; e d&euml;rgoi t&euml; d&euml;rguarin e vet me udh&euml;zim t&euml; qart&euml; e fe t&euml; v&euml;rtet&euml; p&euml;r ta b&euml;r&euml; mbizot&euml;rues mbi t&euml; gjitha fet&euml;, edhe pse idhujtar&euml;t e urrejn&euml;.';
+$t[10] = 'O ju q&euml; keni besuar, a t&rsquo;ju tregoj p&euml;r j&euml; tregti t&euml; bujshme q&euml; ju shp&euml;ton prej j&euml; d&euml;nimi t&euml; dhembsh&euml;:';
+$t[11] = 'T&rsquo;i besoni All-llahut dhe t&euml; d&euml;rguarit t&euml; Tij, t&euml; luftoni n&euml; rrug&euml;n e All-llahut me pasurin&euml; tuaj dhe veten tuaj, e kjo &euml;sht&euml; shum&euml; m&euml; e dobishme p&euml;r ju, n&euml;se jeni q&euml; e dini.';
+$t[12] = 'Ai (All-llahu) iu fal&euml; m&euml;katet tuaja, ju shpie n&euml; Xhennete n&euml;p&euml;r t&euml; cilat rrjedhin dhe n&euml; pallate t&euml; bukura n&euml; Xhennetet e amshueshme, e k&euml;to jan&euml; ai suksesi m&euml; i madh.';
+$t[13] = 'Edhe t&euml; tjera q&euml; ju i d&euml;shironi: ndihm&euml; prej All-llahut dhe fitore e af&euml;rt, e pra, p&euml;rg&euml;zoji besimtar&euml;t!';
+$t[14] = 'O ju q&euml; besuat, b&euml;huni ndihm&euml;tar&euml; t&euml; All-llahut, si Isai biri i Merjemes havarijun&euml;ve (besimtar&euml;ve t&euml; vet t&euml; sinqert&euml;) u pat th&euml;n&euml;: &ldquo;Kush &euml;sht&euml; ndihm&euml;tar&euml; imi p&euml;r n&euml; rrug&euml;n e All-llahut?&rdquo; Havarijun&euml;t i than&euml;: &ldquo;ne jemi ndihm&euml;tar&euml; t&euml; rrug&euml;s s&euml; All-llahut!&rdquo; E nj&euml; grup prej beni israil&euml;ve besoi, e nj&euml; grup refuzoi, e Ne, ata q&euml; besuan i p&euml;rkrah&euml;m kund&euml;r armikut t&euml; tyre dhe ashtu u b&euml;n&euml; ngadh&euml;njyes.';
+?>

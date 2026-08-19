@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Annagaa Nabi Nuux u dirray Qoomkiisii si uu ugu digo Caddibaadda horteed.';
+$t[2] = 'Wuxuuna ku yidhi Qoomkayow waxaan idiin ahay dige Cad &laquo;oo muuqda&raquo;';
+$t[3] = 'ee Eebe Caabuda kana dhawrsada\'anigana i adeeca.';
+$t[4] = 'Wuu idiin dambi dhaafi wuuna idin dib dhigi ilaa muddo Magacaaban, marka Eebe la yimaaddo ajasha wax dib u dhigi ma jiro haddaad wax ogtihiin.';
+$t[5] = 'Nabi Nuux wuxuu yiri Eebbow waan u yeeray Qoomkaygii Habeen iyo dharaar.';
+$t[6] = 'Yeedhiddayduna uma siyaadinin waxaan caraar ahayn.';
+$t[7] = 'Markasta oo aan u yeedhana si aad ugu dambi dhaafto waxay farahooda yeelaan dhagahooda, maryahoodana way isku dadaan, wayna ku Madax adaygaan xumaanta wayna is weyneeyaan.';
+$t[8] = 'si kor ah yaan ugu yeedhay, &laquo;dadka dhexdiisa&raquo;';
+$t[9] = 'Waana u qaylyey, hoosna waan ugu yeeray.';
+$t[10] = 'Waxaana ku idhi Eebihiin dambi dhaaf weydiista waa dambi dhaaf badance.';
+$t[11] = 'Cirkana Roob badan ha idinka keenee.';
+$t[12] = 'Hana idiin kordhiyo Xoolo iyo Wiilal iyo Beero hana idiin yeelo Wabi yaal.';
+$t[13] = 'Maxaad leedihiin ood weynida Eebe uga cabsoon weydeen.';
+$t[14] = 'Isagoo idin abuuray idinkoo soo maray Xaalado kala duwan.';
+$t[15] = 'Miyaydaan arkaynin sida Eebe u Abuuray toddoba Samo oo isdulsaaran.';
+$t[16] = 'Dayaxana uga yeelay Dhexdooda Nuur, qorraxdana ka yeelay siraad.';
+$t[17] = 'Eebe waa Kan idinka soo Bixiyay Dhulka.';
+$t[18] = 'Haddana idinku Celin doona Dhexdiisa idinkana soo bixindoona.';
+$t[19] = 'Eebe waa kan Idiinka yeelay Dhulka gogol.';
+$t[20] = 'Si aad ugu socotaan Dhexdiisa waddooyin waawayn.';
+$t[21] = '(Nabi) Nuux wuxuu yidhi Eebow way I caasiyeen waxayna Raaceen kuwo aan xoolohoodu iyo Carrurtoodu waxaan khasaara ahayn u kordhinaynin.';
+$t[22] = 'Dhagar waynna way Dhakreen.';
+$t[23] = 'Waxay isu Dheheen ha ka tagina Ilaahyaalkiinna, hana ka Tagina wuddi iyo suwaax iyo yaguuth, iyo Yacuuq iyo Nasri.';
+$t[24] = 'Waxayna Dhumiyeen dad Badan ee Eebow ha kordhinnin Daalimiinta waxaan baadi ahayn.';
+$t[25] = 'Gafkoodi Dartiis yaa loo Maansheeyay Naarna Loo Galiyey, mana helayaan Eebe ka soke gargaare,';
+$t[26] = 'Nuux wuxuu yidhi Eebow ha kaga tagin Dhulka korkiisa Gaalada Ruxna.';
+$t[27] = 'Maxaayeelay Hadaad kaga tagto waxay Dhumin Addomahaaga, mana dhalayaan waxaan gaal xun ahayn.';
+$t[28] = 'Eeboow u dambi Dhaaf Aniga iyo waalidiintay iyo ruuxii gala gurigeyga isagoo Mu\'min ah Raf iyo haweenba, hana u kordhinnin Daalimiinta waxaan halaag ahayn.';
+?>

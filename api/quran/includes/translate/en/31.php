@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'Alif, Lam, Meem.';
+$t[2] = 'These are verses of the wise Book,';
+$t[3] = 'As guidance and mercy for the doers of good';
+$t[4] = 'Who establish prayer and give zakah, and they, of the Hereafter, are certain [in faith].';
+$t[5] = 'Those are on [right] guidance from their Lord, and it is those who are the successful.';
+$t[6] = 'And of the people is he who buys the amusement of speech to mislead [others] from the way of Allah without knowledge and who takes it in ridicule. Those will have a humiliating punishment.';
+$t[7] = 'And when our verses are recited to him, he turns away arrogantly as if he had not heard them, as if there was in his ears deafness. So give him tidings of a painful punishment.';
+$t[8] = 'Indeed, those who believe and do righteous deeds - for them are the Gardens of Pleasure.';
+$t[9] = 'Wherein they abide eternally; [it is] the promise of Allah [which is] truth. And He is the Exalted in Might, the Wise.';
+$t[10] = 'He created the heavens without pillars that you see and has cast into the earth firmly set mountains, lest it should shift with you, and dispersed therein from every creature. And We sent down rain from the sky and made grow therein [plants] of every noble kind.';
+$t[11] = 'This is the creation of Allah. So show Me what those other than Him have created. Rather, the wrongdoers are in clear error.';
+$t[12] = 'And We had certainly given Luqman wisdom [and said], &quot;Be grateful to Allah.&quot; And whoever is grateful is grateful for [the benefit of] himself. And whoever denies [His favor] - then indeed, Allah is Free of need and Praiseworthy.';
+$t[13] = 'And [mention, O Muhammad], when Luqman said to his son while he was instructing him, &quot;O my son, do not associate [anything] with Allah. Indeed, association [with him] is great injustice.&quot;';
+$t[14] = 'And We have enjoined upon man [care] for his parents. His mother carried him, [increasing her] in weakness upon weakness, and his weaning is in two years. Be grateful to Me and to your parents; to Me is the [final] destination.';
+$t[15] = 'But if they endeavor to make you associate with Me that of which you have no knowledge, do not obey them but accompany them in [this] world with appropriate kindness and follow the way of those who turn back to Me [in repentance]. Then to Me will be your return, and I will inform you about what you used to do.';
+$t[16] = '[And Luqman said], &quot;O my son, indeed if wrong should be the weight of a mustard seed and should be within a rock or [anywhere] in the heavens or in the earth, Allah will bring it forth. Indeed, Allah is Subtle and Acquainted.';
+$t[17] = 'O my son, establish prayer, enjoin what is right, forbid what is wrong, and be patient over what befalls you. Indeed, [all] that is of the matters [requiring] determination.';
+$t[18] = 'And do not turn your cheek [in contempt] toward people and do not walk through the earth exultantly. Indeed, Allah does not like everyone self-deluded and boastful.';
+$t[19] = 'And be moderate in your pace and lower your voice; indeed, the most disagreeable of sounds is the voice of donkeys.&quot;';
+$t[20] = 'Do you not see that Allah has made subject to you whatever is in the heavens and whatever is in the earth and amply bestowed upon you His favors, [both] apparent and unapparent? But of the people is he who disputes about Allah without knowledge or guidance or an enlightening Book [from Him].';
+$t[21] = 'And when it is said to them, &quot;Follow what Allah has revealed,&quot; they say, &quot;Rather, we will follow that upon which we found our fathers.&quot; Even if Satan was inviting them to the punishment of the Blaze?';
+$t[22] = 'And whoever submits his face to Allah while he is a doer of good - then he has grasped the most trustworthy handhold. And to Allah will be the outcome of [all] matters.';
+$t[23] = 'And whoever has disbelieved - let not his disbelief grieve you. To Us is their return, and We will inform them of what they did. Indeed, Allah is Knowing of that within the breasts.';
+$t[24] = 'We grant them enjoyment for a little; then We will force them to a massive punishment.';
+$t[25] = 'And if you asked them, &quot;Who created the heavens and earth?&quot; they would surely say, &quot;Allah.&quot; Say, &quot;[All] praise is [due] to Allah &quot;; but most of them do not know.';
+$t[26] = 'To Allah belongs whatever is in the heavens and earth. Indeed, Allah is the Free of need, the Praiseworthy.';
+$t[27] = 'And if whatever trees upon the earth were pens and the sea [was ink], replenished thereafter by seven [more] seas, the words of Allah would not be exhausted. Indeed, Allah is Exalted in Might and Wise.';
+$t[28] = 'Your creation and your resurrection will not be but as that of a single soul. Indeed, Allah is Hearing and Seeing.';
+$t[29] = 'Do you not see that Allah causes the night to enter the day and causes the day to enter the night and has subjected the sun and the moon, each running [its course] for a specified term, and that Allah, with whatever you do, is Acquainted?';
+$t[30] = 'That is because Allah is the Truth, and that what they call upon other than Him is falsehood, and because Allah is the Most High, the Grand.';
+$t[31] = 'Do you not see that ships sail through the sea by the favor of Allah that He may show you of His signs? Indeed in that are signs for everyone patient and grateful.';
+$t[32] = 'And when waves come over them like canopies, they supplicate Allah, sincere to Him in religion. But when He delivers them to the land, there are [some] of them who are moderate [in faith]. And none rejects Our signs except everyone treacherous and ungrateful.';
+$t[33] = 'O mankind, fear your Lord and fear a Day when no father will avail his son, nor will a son avail his father at all. Indeed, the promise of Allah is truth, so let not the worldly life delude you and be not deceived about Allah by the Deceiver.';
+$t[34] = 'Indeed, Allah [alone] has knowledge of the Hour and sends down the rain and knows what is in the wombs. And no soul perceives what it will earn tomorrow, and no soul perceives in what land it will die. Indeed, Allah is Knowing and Acquainted.';
+?>

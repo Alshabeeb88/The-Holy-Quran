@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Czy doszło do ciebie opowiadanie o oszałamiającym wydarzeniu?';
+$t[2] = 'Twarze, tego Dnia, pokornie spuszczone,';
+$t[3] = 'Utrudzone, udręczone';
+$t[4] = 'Będą narażone na ogień palący,';
+$t[5] = 'Będą pojone ze źr&oacute;dła wrzącego.';
+$t[6] = 'Pożywieniem ich będą tylko suche ciernie,';
+$t[7] = 'Kt&oacute;re nikogo nie utuczą i nie zaspokajają głodu.';
+$t[8] = 'Tego Dnia twarze uszczęśliwione';
+$t[9] = 'I z własnych gorliwości zadowolone';
+$t[10] = 'Będą w Ogrodzie wyniosłym,';
+$t[11] = 'Gdzie nie usłyszą pustej gadaniny.';
+$t[12] = 'Tam będzie źr&oacute;dło płynące,';
+$t[13] = 'Tam będą łoża podniesione,';
+$t[14] = 'Puchary postawione,';
+$t[15] = 'Poduszki w rząd ułożone';
+$t[16] = 'I kobierce rozesłane.';
+$t[17] = 'Czyż oni nie popatrzą na wielbłądy, jak one zostały stworzone?';
+$t[18] = 'I na niebo, jak ono zostało wzniesione?';
+$t[19] = 'I na g&oacute;ry, jak one zostały utwierdzone?';
+$t[20] = 'I na ziemię, jak ona została rozpostarta?';
+$t[21] = 'Przypominaj więc, bo ty jesteś tylko napominającym,';
+$t[22] = 'A nie jesteś żadnym ich władcą.';
+$t[23] = 'Tylko tego, kto się odwr&oacute;ci i pozostaje niewiernym,';
+$t[24] = 'Ukarze B&oacute;g karą największą!';
+$t[25] = 'Zaprawdę, do Nas oni powr&oacute;cą!';
+$t[26] = 'Potem, zaprawdę, Nam wypadnie zażądać od nich rachunku!';
+?>

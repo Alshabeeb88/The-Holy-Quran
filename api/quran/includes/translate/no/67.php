@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Velsignelsesrik er Han, i Hans h&aring;nd er herred&oslash;mmet! Han evner alt!';
+$t[2] = 'Han er det som skapte d&oslash;d og liv for &aring; pr&oslash;ve dere, hvem av dere som er best i gjerninger. Han er den Mektige, den Ettergivende.';
+$t[3] = 'Han er det som skapte syv himler lagvis. Du ser ikke i den Barmhjertiges skapning noen mangler. Blunk med &oslash;ynene, ser du vel noen revner?';
+$t[4] = 'Om du blunker med &oslash;ynene to ganger, s&aring; vender ditt blikk tilbake til deg, svakt og trett.';
+$t[5] = 'Vi har prydet den nederste himmel med bluss, og gjort dem til kastev&aring;pen mot satanene. For dem har Vi gjort i stand Ildens straff.';
+$t[6] = 'Dem som fornekter sin Herre, venter helvetes straff.';
+$t[7] = 'En s&oslash;rgelig skjebne! N&aring;r de kastes inn der, h&oslash;rer de et br&oslash;l,';
+$t[8] = 'idet det koker opp og er n&aelig;r ved &aring; sprekke av raseri. Hver gang en flokk kastes inn i det, sp&oslash;r dets voktere dem: &laquo;Kom det ingen advarer til dere?&raquo;';
+$t[9] = 'Og de svarer: &laquo;Jo, det kom en advarer til oss, men vi holdt det for l&oslash;gn, og sa: &rsquo;Gud har ikke &aring;penbart noe! Dere er helt p&aring; villspor.&rsquo;&raquo;';
+$t[10] = 'Og de tilf&oslash;yer: &laquo;Om vi hadde h&oslash;rt, eller forst&aring;tt,';
+$t[11] = 'ville vi ikke v&aelig;rt Ildens folk.&raquo; De erkjenner sin synd. Bort med Ildens folk!';
+$t[12] = 'De som frykter Herren i det skjulte, dem venter tilgivelse og stor l&oslash;nn.';
+$t[13] = 'Om dere holder hemmelig eller gir h&oslash;ylytt til kjenne det dere sier, s&aring; vet Han hva som bor i hjertene.';
+$t[14] = 'Skulle ikke Han kjenne den Han har skapt? Han er den Uutgrunnelige, den Innsiktsfulle.';
+$t[15] = 'Han er det som gjorde jorden underdanig for dere. S&aring; dra rundt p&aring; dens overflate og spis av Hans gaver. Til Ham f&oslash;rer oppstandelsen!';
+$t[16] = 'Kan dere v&aelig;re sikre p&aring; Ham som er i himmelen, at Han ikke lar jorden oppsluke dere, for se, den skjelver?';
+$t[17] = 'Kan dere v&aelig;re sikre p&aring; Ham som er i Himmelen, at Han ikke sender over dere en skur av sm&aring;stein, s&aring; dere f&aring;r vite hva Min advarsel inneb&aelig;rer?';
+$t[18] = 'De som levde f&oslash;r dem, kalte ogs&aring; sannhet for l&oslash;gn, og hvordan var vel Min refselse?';
+$t[19] = 'Har de ikke sett p&aring; fuglene over seg som brer ut sine vinger og sl&aring;r dem sammen? Intet holder dem oppe, unntatt den Barmhjertige. Han er observant for alle ting.';
+$t[20] = 'Hvem er det vel som er som en h&aelig;rskare som hjelper dere, unntatt den Barmhjertige? De vantro er helt p&aring; avveie.';
+$t[21] = 'Hvem er det vel som gir dere livets underhold, om Han holder tilbake sitt underhold? Nei, de turer frem i oppsetsighet og motvilje.';
+$t[22] = 'Er vel den som g&aring;r og faller hodekulls, best rettledet, eller den som vandrer raskt p&aring; rett vei?';
+$t[23] = 'Si: &laquo;Han er det som har frembrakt dere og gitt dere h&oslash;rsel, syn og forstand. Hvor lite dere takker!&raquo;';
+$t[24] = 'Si: &laquo;Han er det som har spredt dere p&aring; jorden. Og til Ham vil dere bli samlet inn.&raquo;';
+$t[25] = 'S&aring; sier de: &laquo;N&aring;r kommer s&aring; denne trussel, om dere snakker sant?&raquo;';
+$t[26] = 'Si: &laquo;Kunnskapen beror hos Gud! Jeg er bare en klar advarer.&raquo;';
+$t[27] = 'N&aring;r de ser at den er n&aelig;r, form&oslash;rkes de vantros ansikter, og det lyder: &laquo;Dette er det dere etterlyste.&raquo;';
+$t[28] = 'Si: &laquo;Hva synes dere, om Gud utsletter meg og dem som f&oslash;lger meg, eller Han viser oss n&aring;de, hvem skal da beskytte de vantro mot en smertelig straff?&raquo;';
+$t[29] = 'Si: &laquo;Han er den Barmhjertige! Vi tror p&aring; Ham, og p&aring; Ham forlater vi oss. Dere f&aring;r snart vite hvem det er, som er klart p&aring; villstr&aring;.&raquo;';
+$t[30] = 'Si: &laquo;Hva ville dere synes om deres vann en morgen var sunket ned i jorden, hvem skal da bringe dere rinnende vann?&raquo;';
+?>

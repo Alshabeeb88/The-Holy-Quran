@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Noi l-am trimis pe Noe poporului său: &ldquo;Previne-ţi poporul &icirc;nainte să-i vină o dureroasă os&acirc;ndă!&rdquo;';
+$t[2] = 'El spuse: &ldquo;O, popor al meu! Eu vouă vă sunt predicator limpede la vorbă.';
+$t[3] = '&Icirc;nchinaţi-vă lui Dumnezeu! Temeţi-vă de El! Daţi-i ascultare!';
+$t[4] = 'El vă iartă vouă din păcatele voastre şi vă dă vouă un răgaz p&acirc;nă la un anumit soroc. C&acirc;nd va veni &icirc;nsă sorocul lui Dumnezeu, nimic nu-l va &icirc;nt&acirc;rzia. O, dacă aţi şti!&rdquo;';
+$t[5] = 'El spuse: &ldquo;Domnul meu! Eu mi-am chemat poporul noapte şi zi,';
+$t[6] = '&icirc;nsă chemarea mea mai mult i-a pus pe fugă.';
+$t[7] = 'De fiece dată c&acirc;nd i-am chemat ca Tu să le ierţi lor, ei şi-au băgat degetele &icirc;n urechi, s-au &icirc;nfăşurat &icirc;n veşmintele lor şi s-au &icirc;nverşunat arăt&acirc;ndu-se plini de m&acirc;ndrie.';
+$t[8] = 'I-am chemat răspicat.';
+$t[9] = 'Le-am spus pe faţă şi &icirc;n taină.';
+$t[10] = 'Le-am spus: &ldquo;Cereţi-i iertare Domnului vostru, căci El este Iertător.';
+$t[11] = 'El vă va trimite vouă, din cer, multă ploaie.';
+$t[12] = 'El vă va spori averile şi numărul fiilor şi vă va da grădini şi r&acirc;uri.';
+$t[13] = 'De ce nu aşteptaţi de la Dumnezeu ceva vrednic de El.';
+$t[14] = 'El este Cel ce v-a creat r&acirc;nd pe r&acirc;nd.';
+$t[15] = 'N-aţi văzut cum Dumnezeu a creat cele şapte ceruri aşezate unul asupra celuilalt?';
+$t[16] = 'Şi a făcut luna &icirc;n ele precum o lumină şi soarele precum un opaiţ.';
+$t[17] = 'Dumnezeu v-a făcut să răsăriţi din păm&acirc;nt precum ierburile,';
+$t[18] = 'apoi vă va &icirc;napoia &icirc;n el ca să vă scoată deodată.';
+$t[19] = 'Dumnezeu v-a făcut vouă păm&acirc;ntul covor';
+$t[20] = 'ca voi să-l străbateţi pe drumuri largi.&rdquo;';
+$t[21] = 'Noe spuse: &ldquo;Domnul meu! Ei nu m-au ascultat şi l-au urmat pe cel ale cărui bogăţii şi fii nu fac dec&acirc;t să-i apropie pierzania.&rdquo;';
+$t[22] = 'Ei au viclenit şi au spus:';
+$t[23] = '&ldquo;Nu-i părăsiţi niciodată pe dumnezeii voştri! Nu-i părăsiţi pe Wadd, şi nici pe Suwa&rsquo;, şi nici pe Yaghut, şi nici pe Ya&rsquo;uq, şi nici pe Nasr!&rdquo;';
+$t[24] = 'Aceştia au rătăcit mulţi oameni. Tu nu faci dec&acirc;t să măreşti rătăcirea celor nedrepţi.';
+$t[25] = 'Ei au fost &icirc;necaţi şi aruncaţi &icirc;n Foc pentru păcatele lor şi nu aflară nici un ajutor afară de Dumnezeu.';
+$t[26] = 'Noe spuse: &ldquo;Domnul meu! Nu lăsa pe păm&acirc;nt nici un locuitor dintre tăgăduitori.';
+$t[27] = 'Dacă &icirc;i laşi, ei &icirc;i vor rătăci pe robii Tăi şi nu vor zămisli dec&acirc;t desfr&acirc;naţi mult-tăgăduitori.';
+$t[28] = 'Domnul meu! Iartă-mi mie şi părinţilor mei, precum şi celui ce intră, credincios, &icirc;n casa mea, credincioşilor şi credincioaselor. Sporeşte doar prăpădul celor nedrepţi!&rdquo;';
+?>

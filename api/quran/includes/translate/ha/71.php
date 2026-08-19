@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Lalle ne Mun aiki Nũhu zuwa ga mut&atilde;nensa, cẽwa ka yi gargaɗi ga mut&atilde;nenka gab&atilde;nin wata az&atilde;ba mai raɗaɗi ta zo musu.';
+$t[2] = 'Ya ce: &quot;Ya mut&atilde;nena ni, a gare ku, mai gargaɗi ne, mai bayyan&atilde;wa.&quot;';
+$t[3] = '&quot;Cewa ku bauta wa Allah, ku ji ts&otilde;ronSa, kuma ku bĩ ni.&quot;';
+$t[4] = '&quot;Allah zai g&atilde;farta muku daga zunubanku kuma Ya jinkirta muku zuwa ga ajalin da aka ambata. Lalle ne ajalin Allah idan ya zo, ba za a jinkirta Shi ba, d&atilde; kun kasance masana (ga abin da nake faɗ&atilde; d&atilde;, kun bar k&atilde;firci).&quot;';
+$t[5] = 'Nũhu) ya ce: &quot;Ya Ubangijina! Lalle ne, na kir&atilde;yi mut&atilde;nena, a cikin dare da yini.&quot;';
+$t[6] = '&quot;To, amma kirana bai ƙ&atilde;re su ba sai da, gudu (daga gare ni).&quot;';
+$t[7] = '&quot;Kuma lalle ne ni, k&otilde; da yaushe na kir&atilde;ye su d&otilde;min Ka g&atilde;farta musu, sai su sanya yatsunsu a cikin kunnuwansu, su lulluɓe da tuf&atilde;finsu, su d&otilde;ge ga yin laifi. Sun yi girman kai iy&atilde;kar girman kai.&quot;';
+$t[8] = '&quot;Sa\'an nan lalle ne ni, na kira su, a bayyane.&quot;';
+$t[9] = '&quot;Sa\'an nan lalle ne, na yi yẽkuwa sab&otilde;da su, kuma na g&atilde;na da su a cikin asĩri.&quot;';
+$t[10] = '&quot;Shi na ce, \'Ku nẽmi g&atilde;fara daga Ubangijinku, lalle ne shi Ya kasance Mai g&atilde;fara ne.&quot;';
+$t[11] = '&quot;Ya sako (girgijen) sama a kanku da ruwa mai ɓuɓɓuga.&quot;';
+$t[12] = '&quot;Kuma ya yalwata muku game da dũkiya da ɗiya, Ya sanya muku (albarka) ga g&otilde;naki, kuma Ya sanya muku koguna.&quot;';
+$t[13] = '&quot;Me ya s&atilde;me ku, b&atilde; ku f&atilde;tar s&atilde;mun natsuwa daga Allah,&quot;';
+$t[14] = '&quot;Alh&atilde;li kuwa, lalle ne, Ya halitta. ku, a cikin h&atilde;l&atilde;ye?&quot;';
+$t[15] = '&quot;Ba ku ga yadda Allah Ya halitta wasu sammai bakwai ɗabaƙ&otilde;ƙĩ a kan jũna ba?&quot;';
+$t[16] = '&quot;Ya sanya wat&atilde; a cikinsu, yana mai haske, Ya sanya r&atilde;n&atilde; babbar fitila?&quot;';
+$t[17] = '&quot;Kuma Allah Ya tsirar da ku daga ƙasa (kamar ganye) tsirarwa.&quot;';
+$t[18] = '&quot;Sa\'an nan Ya mayar da ku a cikinta, kuma Ya fitar da ku fitarwa.&quot;';
+$t[19] = '&quot;Kuma Allah Ya sanya muku ƙasa shimfidaɗɗiya.&quot;';
+$t[20] = '&quot;D&otilde;min ku shiga a cikinta, hany&otilde;yi m&atilde;su f&atilde;ɗi.&quot;';
+$t[21] = 'Nũhu ya ce: &quot;Ya Ubangijina! Lalle ne sũ sun saɓa mini sun bi wanda dukiyarsa da ɗiyansa ba su ƙ&atilde;re shi da k&otilde;me ba sai da has&atilde;ra.&quot;';
+$t[22] = '&quot;Kuma sun yi wani m&atilde;kirci, m&atilde;kirci babba.&quot;';
+$t[23] = '&quot;Kuma suka ce: Faufau kada ku bar gum&atilde;kanku, kuma faufau, kada ku bar wadda, kuma kada ku bar suw&atilde; kuma kada ku bar Yagũsa da Ya\'ũƙa da Nasra.&quot;';
+$t[24] = '&quot;Kuma lalle ne sun ɓatar da (mut&atilde;ne) m&atilde;su yawa, kuma kada Ka ƙ&atilde;r&atilde; wa azz&atilde;lumai (k&otilde;me) sai ɓata.&quot;';
+$t[25] = 'Sab&otilde;da laifukansu na ganganci aka nutsar da su, sa\'an nan aka sanya su a wuta. Saboda haka ba su s&atilde;m&atilde; wa kansu wani mataimaki wanin Allah ba.';
+$t[26] = 'Kuma Nũhu ya ce: &quot;Ya Ublngijina! Kada Ka bari, a kan ƙasa, daga cikin k&atilde;firai, wanda ke zama a cikin gida.&quot;';
+$t[27] = '&quot;Lalle ne, Kai idan Ka bar su, z&atilde; su ɓatar da b&atilde;yinKa, kuma b&atilde; z&atilde; su haifi kowa ba f&atilde;ce f&atilde;jiri mai yawan k&atilde;firci&quot;';
+$t[28] = '&quot;Ya Ubanginjina! Ka yi mini g&atilde;fara (ni) da mahaifana biyu, da wanda ya shiga gidana, yana mai ĩm&atilde;ni, da mũminai maza da mũminai m&atilde;t&atilde;, kuma kada Ka ƙ&atilde;r&atilde; wa azz&atilde;lumai k&otilde;me sai halaka.&quot;';
+?>

@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Elif Lām Mīm.';
+$t[2] = 'Knjigu objavljuje, u to nema sumnje, Gospodar svjetova,';
+$t[3] = 'a oni govore: &quot;On je izmi&scaron;lja!&quot; Ne, ona je istina od Gospodara tvoga da opominje&scaron; narod kojemu prije tebe nije do&scaron;ao niko da ga opominje, da bi i&scaron;ao Pravim putem.';
+$t[4] = 'Allah je nebesa i Zemlju i ono &scaron;to je između njih u &scaron;est vremenskih razdoblja stvorio, a onda svemirom zagospodario; vi, osim Njega, ni za&scaron;titnika ni posrednika nemate, pa za&scaron;to se ne urazumite?';
+$t[5] = 'On upravlja svima, od neba do Zemlje, a onda se sve to Njemu vraća u danu koji, prema va&scaron;em računanju vremena, hiljadu godina traje.';
+$t[6] = 'To je Onaj koji zna i nevidljivi i vidljivi svijet, Silni i Milostivi,';
+$t[7] = 'koji sve savr&scaron;eno stvara, koji je prvog čovjeka stvorio od ilovače &ndash;';
+$t[8] = 'a potomstvo njegovo stvara od kapi hude tekućine,';
+$t[9] = 'zatim mu savr&scaron;eno udove uobliči i život mu udahne &ndash; i On vam i sluh i vid i pameti daje &ndash; a kako vi malo zahvaljujete!';
+$t[10] = 'Oni govore: &quot;Zar ćemo, kad nestanemo pod zemljom, ponovo stvoreni biti?&quot; Oni ne vjeruju da će pred Gospodara svoga izići.';
+$t[11] = 'Reci: &quot;Melek smrti, koji vam je za to određen, du&scaron;e će vam uzeti, a poslije ćete se Gospodaru svome vratiti.&quot;';
+$t[12] = 'A da ti je vidjeti grje&scaron;nike kako će, oborenih glava pred Gospodarom svojim, reći: &quot;Gospodaru na&scaron;, vidjeli smo i čuli smo, pa nas povrati da dobra djela činimo, mi, doista, čvrsto vjerujemo!&quot;';
+$t[13] = 'A kad bismo htjeli, svakog čovjeka bismo na Pravi put uputili, ali Ja sam već istinu rekao: &quot;Napuniću, zaista, Džehennem džinima i ljudima zajedno!&quot;';
+$t[14] = 'Pa trpite zato &scaron;to ste zaboravljali da ćete ovaj dan doživjeti &ndash; i Mi ćemo vas zaboraviti &ndash; i vječnu patnju trpite zbog onoga &scaron;to ste radili.';
+$t[15] = 'U Na&scaron;e riječi vjeruju samo oni koji, kad se njima opomenu, licem na tle padaju, i koji Gospodara svoga veličaju i hvale i koji se ne ohole.';
+$t[16] = 'Bokovi njihovi se postelja li&scaron;avaju i oni se Gospodaru svome iz straha i želje klanjaju, a dio onog &scaron;to im Mi dajemo udjeljuju.';
+$t[17] = 'I niko ne zna kakve ih, kao nagrada za ono &scaron;to su činili, skrivene radosti čekaju.';
+$t[18] = 'Zar da vjerniku bude isto kao grje&scaron;niku? Ne, njima neće biti isto:';
+$t[19] = 'one koji su vjerovali i dobra djela činili čekaju džennetske ba&scaron;če u kojima će boraviti, kao nagrada za ono &scaron;to su radili;';
+$t[20] = 'a one koji nisu vjerovali čeka vatra u kojoj će prebivati; kad god poku&scaron;aju iz nje izići, biće u nju vraćeni i biće im rečeno: &quot;Trpite kaznu u vatri koju ste poricali.&quot;';
+$t[21] = 'I Mi ćemo učiniti da blažu kaznu iskuse, prije one najveće, ne bi li se pokajali.';
+$t[22] = 'A ima li nepravednijeg od onoga koji, opomenut riječima Gospodara svoga, njima leđa okrene? Mi ćemo, zaista, kazniti zlikovce!';
+$t[23] = 'Musau smo Mi Knjigu dali &ndash; ne sumnjaj nimalo u to da je on nije primio &ndash; i putokazom je sinovima Israilovim učinili.';
+$t[24] = 'Između njih smo Mi vođe određivali i oni su, odazivajući se zapovijedi Na&scaron;oj, na Pravi put upućivali, jer su strpljivi bili i u dokaze Na&scaron;e čvrsto vjerovali.';
+$t[25] = 'Gospodar tvoj će među njima na Sudnjem danu presuditi u onome oko čega su se razilazili.';
+$t[26] = 'Zar ovima nije jasno koliko smo Mi prije njih naroda uni&scaron;tili, po čijim oni nastambama hodaju? To su, zaista, dokazi, pa za&scaron;to neće da čuju?';
+$t[27] = 'Kako oni ne vide da Mi gonimo ki&scaron;u u ogoljelu zemlju, i činimo da, uz pomoć njenu, niče rastinje kojim se hrani stoka njihova, a i oni sami &ndash; pa za&scaron;to neće da vide?!';
+$t[28] = 'I oni govore: &quot;Kad će već jednom ta pobjeda, ako istinu govorite?&quot;';
+$t[29] = 'Reci: &quot;Na Sudnjem danu, kada nevjernicima neće nikako koristiti to &scaron;to će tada vjerovati i kad im se nimalo vremena neće dati.&quot;';
+$t[30] = 'Zato se ti okreni od njih i čekaj, i oni doista čekaju!';
+?>

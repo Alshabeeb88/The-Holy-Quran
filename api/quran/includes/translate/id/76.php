@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Bukankah telah datang atas manusia satu waktu dari masa, sedang dia ketika itu belum merupakan sesuatu yang dapat disebut?';
+$t[2] = 'Sesungguhnya Kami telah menciptakan manusia dari setetes mani yang bercampur yang Kami hendak mengujinya (dengan perintah dan larangan), karena itu Kami jadikan dia mendengar dan melihat.';
+$t[3] = 'Sesungguhnya Kami telah menunjukinya jalan yang lurus; ada yang bersyukur dan ada pula yang kafir.';
+$t[4] = 'Sesungguhnya Kami menyediakan bagi orang-orang kafir rantai, belenggu dan neraka yang menyala-nyala.';
+$t[5] = 'Sesungguhnya orang-orang yang berbuat kebajikan minum dari gelas (berisi minuman) yang campurannya adalah air kafur,';
+$t[6] = '(yaitu) mata air (dalam surga) yang daripadanya hamba-hamba Allah minum, yang mereka dapat mengalirkannya dengan sebaik-baiknya.';
+$t[7] = 'Mereka menunaikan nazar dan takut akan suatu hari yang azabnya merata di mana-mana.';
+$t[8] = 'Dan mereka memberikan makanan yang disukainya kepada orang miskin, anak yatim dan orang yang ditawan.';
+$t[9] = 'Sesungguhnya kami memberi makanan kepadamu hanyalah untuk mengharapkan keridhaan Allah, kami tidak menghendaki balasan dari kamu dan tidak pula (ucapan) terima kasih.';
+$t[10] = 'Sesungguhnya kami takut akan (azab) Tuhan kami pada suatu hari yang (di hari itu) orang-orang bermuka masam penuh kesulitan.';
+$t[11] = 'Maka Tuhan memelihara mereka dari kesusahan hari itu, dan memberikan kepada mereka kejernihan (wajah) dan kegembiraan hati.';
+$t[12] = 'Dan Dia memberi balasan kepada mereka karena kesabaran mereka (dengan) surga dan (pakaian) sutera,';
+$t[13] = 'di dalamnya mereka duduk bertelakan di atas dipan, mereka tidak merasakan di dalamnya (teriknya) matahari dan tidak pula dingin yang bersangatan.';
+$t[14] = 'Dan naungan (pohon-pohon surga itu) dekat di atas mereka dan buahnya dimudahkan memetiknya semudah-mudahnya.';
+$t[15] = 'Dan diedarkan kepada mereka bejana-bejana dari perak dan piala-piala yang bening laksana kaca,';
+$t[16] = '(yaitu) kaca-kaca (yang terbuat) dari perak yang telah diukur mereka dengan sebaik-baiknya.';
+$t[17] = 'Di dalam surga itu mereka diberi minum segelas (minuman) yang campurannya adalah jahe.';
+$t[18] = '(Yang didatangkan dari) sebuah mata air surga yang dinamakan salsabil.';
+$t[19] = 'Dan mereka dikelilingi oleh pelayan-pelayan muda yang tetap muda. Apabila kamu melihat mereka, kamu akan mengira mereka, mutiara yang bertaburan.';
+$t[20] = 'Dan apabila kamu melihat di sana (surga), niscaya kamu akan melihat berbagai macam kenikmatan dan kerajaan yang besar.';
+$t[21] = 'Mereka memakai pakaian sutera halus yang hijau dan sutera tebal dan dipakaikan kepada mereka gelang terbuat dari perak, dan Tuhan memberikan kepada mereka minuman yang bersih.';
+$t[22] = 'Sesungguhnya ini adalah balasan untukmu, dan usahamu adalah disyukuri (diberi balasan).';
+$t[23] = 'Sesungguhnya Kami telah menurunkan Al Quran kepadamu (hai Muhammad) dengan berangsur-angsur.';
+$t[24] = 'Maka bersabarlah kamu untuk (melaksanakan) ketetapan Tuhanmu, dan janganlah kamu ikuti orang yang berdosa dan orang yang kafir di antar mereka.';
+$t[25] = 'Dan sebutlah nama Tuhanmu pada (waktu) pagi dan petang.';
+$t[26] = 'Dan pada sebagian dari malam, maka sujudlah kepada-Nya dan bertasbihlah kepada-Nya pada bagian yang panjang dimalam hari.';
+$t[27] = 'Sesungguhnya mereka (orang kafir) menyukai kehidupan dunia dan mereka tidak memperdulikan kesudahan mereka, pada hari yang berat (hari akhirat).';
+$t[28] = 'Kami telah menciptakan mereka dan menguatkan persendian tubuh mereka, apabila Kami menghendaki, Kami sungguh-sungguh mengganti (mereka) dengan orang-orang yang serupa dengan mereka.';
+$t[29] = 'Sesungguhnya (ayat-ayat) ini adalah suatu peringatan, maka barangsiapa menghendaki (kebaikan bagi dirinya) niscaya dia mengambil jalan kepada Tuhannya.';
+$t[30] = 'Dan kamu tidak mampu (menempuh jalan itu), kecuali bila dikehendaki Allah. Sesungguhnya Allah adalah Maha Mengetahui lagi Maha Bijaksana.';
+$t[31] = 'Dan memasukkan siapa yang dikehendaki-Nya ke dalam rahmat-Nya (surga). Dan bagi orang-orang zalim disediakan-Nya azab yang pedih.';
+?>

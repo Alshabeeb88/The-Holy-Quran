@@ -1,0 +1,10 @@
+<IfModule mod_authz_core.c>
+  Require all denied
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Order allow,deny
+  Deny from all
+</IfModule>
+<FilesMatch "^(admin_auth_store\.php|admin-auth\.php|config\.php|contact_messages\.php|contact_messages-archive\.php|contact_messages\.jsonl)$">
+  Require all denied
+</FilesMatch>

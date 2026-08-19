@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'A t&euml; erdhi ty lajmi p&euml;r belan&euml; q&euml; kaplon (kijameti)?';
+$t[2] = 'At&euml; dit&euml; sheh fytyra t&euml; p&euml;rulura,';
+$t[3] = 'T&euml; lodhura e t&euml; rraskapitura (nga mundimi).';
+$t[4] = 'Ato hyjn&euml; n&euml; zjarrin t&euml; ndezur fort,';
+$t[5] = 'U jepet t&euml; pijn&euml; prej nj&euml; kroi t&euml; val&euml;.';
+$t[6] = 'Ata kan&euml; ushqim tjet&euml;r pos nj&euml; barishte me ferra helmuese.';
+$t[7] = 'Q&euml; as nuk jep fuqi, as nuk largon uri.';
+$t[8] = 'At&euml; dit&euml; dheh fytyra t&euml; ndritshme,';
+$t[9] = 'T&euml; k&euml;naqura p&euml;r veprimet e veta,';
+$t[10] = 'N&euml; Xhennet t&euml; shkall&euml;s s&euml; lart&euml;,';
+$t[11] = 'Aty nuk d&euml;gjojn&euml; fjal&euml; t&euml; pak&euml;ndshme,';
+$t[12] = 'Aty ka kroje q&euml; rrjedhin,';
+$t[13] = 'Aty kan&euml; shtret&euml;r t&euml; lart&euml;,';
+$t[14] = 'Aty kan&euml; shtret&euml;r t&euml; lart&euml;,';
+$t[15] = 'Edhe jastek&euml; t&euml; renduar p&euml;r mb&euml;shtetje,';
+$t[16] = 'Edhe qilima t&euml; shtruar.';
+$t[17] = 'A nuk i shikojn&euml; devet se si jan&euml; krijuar?';
+$t[18] = 'Edhe qiellin se si &euml;sht&euml; ngritur lart!';
+$t[19] = 'Edhe kodrat se si jan&euml; venduar!';
+$t[20] = 'Edhe tok&euml;n se si &euml;sht&euml; shtruar!';
+$t[21] = 'E ti pra, k&euml;shillo, se je vet&euml;m p&euml;rkujtues,';
+$t[22] = 'Ti ndaj tyre nuk je mbizot&euml;rues!';
+$t[23] = 'P&euml;rve&ccedil; atij zbrapset e nuk beson,';
+$t[24] = 'All-llahu at&euml; me vuajtje e d&euml;non.';
+$t[25] = 'Vet&euml;m te Ne kthimin e kan&euml;.';
+$t[26] = 'Dhe vet&euml;m detyr&euml; Jona &euml;sht&euml; llogaira e tyre.';
+?>

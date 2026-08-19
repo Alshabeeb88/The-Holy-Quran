@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'We sent Noah to his People (with the Command): &quot;Do thou warn thy People before there comes to them a grievous Penalty.&quot;';
+$t[2] = 'He said: &quot;O my People! I am to you a Warner, clear and open:';
+$t[3] = '&quot;That ye should worship Allah, fear Him and obey me:';
+$t[4] = '&quot;So He may forgive you your sins and give you respite for a stated Term: for when the Term given by Allah is accomplished, it cannot be put forward: if ye only knew.&quot;';
+$t[5] = 'He said: &quot;O my Lord! I have called to my People night and day:';
+$t[6] = '&quot;But my call only increases (their) flight (from the Right).';
+$t[7] = '&quot;And every time I have called to them, that Thou mightest forgive them, they have (only) thrust their fingers into their ears, covered themselves up with their garments, grown obstinate, and given themselves up to arrogance.';
+$t[8] = '&quot;So I have called to them aloud;';
+$t[9] = '&quot;Further I have spoken to them in public and secretly in private,';
+$t[10] = '&quot;Saying, \'Ask forgiveness from your Lord; for He is Oft-Forgiving;';
+$t[11] = '&quot;\'He will send rain to you in abundance;';
+$t[12] = '&quot;\'Give you increase in wealth and sons; and bestow on you gardens and bestow on you rivers (of flowing water).';
+$t[13] = '&quot;\'What is the matter with you, that ye place not your hope for kindness and long-suffering in Allah,-';
+$t[14] = '&quot;\'Seeing that it is He that has created you in diverse stages?';
+$t[15] = '&quot;\'See ye not how Allah has created the seven heavens one above another,';
+$t[16] = '&quot;\'And made the moon a light in their midst, and made the sun as a (Glorious) Lamp?';
+$t[17] = '&quot;\'And Allah has produced you from the earth growing (gradually),';
+$t[18] = '&quot;\'And in the End He will return you into the (earth), and raise you forth (again at the Resurrection)?';
+$t[19] = '&quot;\'And Allah has made the earth for you as a carpet (spread out),';
+$t[20] = '&quot;\'That ye may go about therein, in spacious roads.\'&quot;';
+$t[21] = 'Noah said: &quot;O my Lord! They have disobeyed me, but they follow (men) whose wealth and children give them no increase but only Loss.';
+$t[22] = '&quot;And they have devised a tremendous Plot.';
+$t[23] = '&quot;And they have said (to each other), \'Abandon not your gods: Abandon neither Wadd nor Suwa\', neither Yaguth nor Ya\'uq, nor Nasr\';-';
+$t[24] = '&quot;They have already misled many; and grant Thou no increase to the wrong-doers but in straying (from their mark).&quot;';
+$t[25] = 'Because of their sins they were drowned (in the flood), and were made to enter the Fire (of Punishment): and they found- in lieu of Allah- none to help them.';
+$t[26] = 'And Noah, said: &quot;O my Lord! Leave not of the Unbelievers, a single one on earth!';
+$t[27] = '&quot;For, if Thou dost leave (any of) them, they will but mislead Thy devotees, and they will breed none but wicked ungrateful ones.';
+$t[28] = '&quot;O my Lord! Forgive me, my parents, all who enter my house in Faith, and (all) believing men and believing women: and to the wrong-doers grant Thou no increase but in perdition!&quot;';
+?>

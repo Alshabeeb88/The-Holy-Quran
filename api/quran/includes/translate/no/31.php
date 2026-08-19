@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'Alif Lam Mim';
+$t[2] = 'Dette er den vise skriftens ord,';
+$t[3] = 'ledelse og n&aring;de for dem som gj&oslash;r godt,';
+$t[4] = 'som forretter b&oslash;nnen, gir det rituelle bidrag og har visshets tro p&aring; det hinsidige.';
+$t[5] = 'Disse f&oslash;lger ledelsen fra Herren. Dem vil det g&aring; godt.';
+$t[6] = 'Det finnes slike som byr frem underholdende historier, for &aring; f&oslash;re folk bort fra Guds veier i uvitenhet og for &aring; drive ap med det. Dem venter en ydmykende straff.';
+$t[7] = 'N&aring;r V&aring;rt ord fremleses for en slik, vender han seg bort i hovmod, som om han intet hadde h&oslash;rt, som om hans &oslash;rer var tungh&oslash;rte. Bebud en smertelig straff for ham.';
+$t[8] = 'Dem som tror og handler rett, venter lykksalighetens haver.';
+$t[9] = 'Her skal de v&aelig;re og bli. Guds l&oslash;fte, i sannhet! Han er den Mektige, den Vise.';
+$t[10] = 'Han har skapt himlene og det er ingen st&oslash;ttepilarer, som dere ser. P&aring; jorden har Han lagt faste fjell, s&aring; den ikke skal vakle med dere. Alle slags dyr har Han spredt ut p&aring; den. Vi sender regn fra oven, og frembringer p&aring; den alle slags herlige arter.';
+$t[11] = 'Dette er Guds skapelse. Vis meg hva de har skapt som er utenom Ham. Nei, de urettferdige er i &aring;penbar villfarelse.';
+$t[12] = 'Vi gav visdom til Loqman: &laquo;Vis takknemlighet mot Gud. Den som er takknemlig, viser takknemlighet kun til eget beste. Og er noen utakknemlig, s&aring; er Gud selvtilstrekkelig, verdig all pris.&raquo;';
+$t[13] = 'En gang sa Loqman til sin s&oslash;nn, idet han formante ham: &laquo;Min s&oslash;nn, sett intet ved Guds side. Flerguderi er en sv&aelig;r urett!&raquo;';
+$t[14] = 'Vi har gitt mennesket anvisninger vedr&oslash;rende hans foreldre, hans mor har b&aring;ret ham med m&oslash;ye etter m&oslash;ye, og to &aring;r tar hans avvenning: Vis takknemlighet mot Meg og mot dine foreldre. Hos Meg er reisen slutt.';
+$t[15] = 'Men hvis de &oslash;nsker at du skal sette ved Min side noe du ikke vet hva er, s&aring; adlyd dem ikke. Ta deg av dem p&aring; beste m&aring;te i denne verden, men f&oslash;lg deres vei, som vender seg mot Meg. S&aring; skal dere vende tilbake til Meg.';
+$t[16] = '&laquo;Kj&aelig;re s&oslash;nn, om det er s&aring; lite som et sennepskorn, og var skjult i en klippe eller i himlene eller p&aring; jorden, s&aring; vil Gud bringe det frem. Gud kjenner alle detaljer, Han er vel underrettet.';
+$t[17] = 'Min s&oslash;nn, overhold b&oslash;nnen, p&aring;by det rette og forby det urette, og b&aelig;r standhaftig det som rammer deg. Dette er sann fasthet.';
+$t[18] = 'Sett ikke nesen i v&aelig;ret overfor din neste, og g&aring; ikke hovmodig omkring p&aring; jorden. Gud liker ikke innbilske skrytepaver.';
+$t[19] = 'V&aelig;r h&oslash;visk i din gange og demp din stemme. Den verste av alle l&aring;ter er eselets stemme.&raquo;';
+$t[20] = 'Dere har vel sett hvordan Gud har gjort tjenlig for dere alt som er i himlene og p&aring; jord, og har over&oslash;st dere med gaver, i det &aring;pne og i det skjulte. Det finnes slike som diskuterer om Gud, uten kunnskap, ledelse og en opplysende Bok.';
+$t[21] = 'Hvis man sier til dem: &laquo;F&oslash;lg det som Gud har &aring;penbart,&raquo; svarer de: &laquo;Nei, vi vil f&oslash;lge v&aring;re fedres tradisjoner.&raquo; Og det selv om Satan kaller dem til Ildens straff?';
+$t[22] = 'Den som gir seg inn under Gud, og handler vel, han har grepet det p&aring;liteligste feste. Hos Gud beror alle tings utgang.';
+$t[23] = 'Om noen er vantro, s&aring; la ikke hans vantro bedr&oslash;ve deg. Til Oss skal de vende tilbake, og Vi skal fortelle dem hva de bedrev. Gud er vel vitende om det som bor i hjertene.';
+$t[24] = 'Vi skal la dem f&aring; gode dager en kort tid, s&aring; vil Vi ub&oslash;nnh&oslash;rlig sende dem til hard straff.';
+$t[25] = 'Hvis du sp&oslash;r dem hvem som skapte himlene og jorden, vil de nok svare: &laquo;Gud.&raquo; Si: &laquo;Gud v&aelig;re lovet.&raquo; Men de fleste av dem vet ingenting.';
+$t[26] = 'Gud tilh&oslash;rer alt som er i himlene og p&aring; jord. Gud er den Selvtilstrekkelige, den Lovpriste.';
+$t[27] = 'Om alle tr&aelig;r som p&aring; jorden er, var penner, om havet, og syv hav til i tillegg var blekk, ville ikke Guds ord v&aelig;re utt&oslash;mt. Gud er mektig, vis.';
+$t[28] = 'Menneskenes skapelse og oppstandelse er som om det var ett enkelt individ. Gud h&oslash;rer, ser.';
+$t[29] = 'Du har vel sett at Gud lar natt bli til dag, og dag til natt, at Han har satt solen og m&aring;nen i tjeneste, hver med sin bestemte tid? Gud er vel underrettet om hva dere gj&oslash;r.';
+$t[30] = 'Dette fordi Gud er den Sanne, og det de p&aring;kaller utenom Ham, er falskhet og intethet, fordi Gud er den Opph&oslash;yde, den Store.';
+$t[31] = 'Du har vel sett skipene som seiler p&aring; havet ved Guds godhet, s&aring; Han kan vise dere av Sine j&aelig;rtegn? I dette er sannelig et j&aelig;rtegn for den standhaftige, takknemlige.';
+$t[32] = 'Og n&aring;r b&oslash;lgene skyller over dem som skyer, da ber de til Gud i troens oppriktighet mot Ham. N&aring;r Han s&aring; berger dem til land, blir noen mer lunkne. Fornekte V&aring;rt tegn gj&oslash;r bare utakknemlige svikere.';
+$t[33] = 'Dere mennesker, frykt deres Herre, og frykt for den dag da en far intet kan overta for sin s&oslash;nn, eller en s&oslash;nn det ringeste for sin far. Guds l&oslash;fter er sannhet! La ikke jordelivet forlede dere. La ikke forf&oslash;reren forlede dere n&aring;r det gjelder Gud.';
+$t[34] = 'Gud alene kjenner timen. Han sender regnet ned. Han vet hva som er i mors liv. Ingen vet hva morgendagen vil bringe. Ingen vet i hvilket land han vil d&oslash;. Gud vet, er vel underrettet.';
+?>

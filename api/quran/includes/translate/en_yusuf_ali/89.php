@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'By the break of Day';
+$t[2] = 'By the Nights twice five;';
+$t[3] = 'By the even and odd (contrasted);';
+$t[4] = 'And by the Night when it passeth away;-';
+$t[5] = 'Is there (not) in these an adjuration (or evidence) for those who understand?';
+$t[6] = 'Seest thou not how thy Lord dealt with the \'Ad (people),-';
+$t[7] = 'Of the (city of) Iram, with lofty pillars,';
+$t[8] = 'The like of which were not produced in (all) the land?';
+$t[9] = 'And with the Thamud (people), who cut out (huge) rocks in the valley?-';
+$t[10] = 'And with Pharaoh, lord of stakes?';
+$t[11] = '(All) these transgressed beyond bounds in the lands,';
+$t[12] = 'And heaped therein mischief (on mischief).';
+$t[13] = 'Therefore did thy Lord pour on them a scourge of diverse chastisements:';
+$t[14] = 'For thy Lord is (as a Guardian) on a watch-tower.';
+$t[15] = 'Now, as for man, when his Lord trieth him, giving him honour and gifts, then saith he, (puffed up), &quot;My Lord hath honoured me.&quot;';
+$t[16] = 'But when He trieth him, restricting his subsistence for him, then saith he (in despair), &quot;My Lord hath humiliated me!&quot;';
+$t[17] = 'Nay, nay! but ye honour not the orphans!';
+$t[18] = 'Nor do ye encourage one another to feed the poor!-';
+$t[19] = 'And ye devour inheritance - all with greed,';
+$t[20] = 'And ye love wealth with inordinate love!';
+$t[21] = 'Nay! When the earth is pounded to powder,';
+$t[22] = 'And thy Lord cometh, and His angels, rank upon rank,';
+$t[23] = 'And Hell, that Day, is brought (face to face),- on that Day will man remember, but how will that remembrance profit him?';
+$t[24] = 'He will say: &quot;Ah! Would that I had sent forth (good deeds) for (this) my (Future) Life!&quot;';
+$t[25] = 'For, that Day, His Chastisement will be such as none (else) can inflict,';
+$t[26] = 'And His bonds will be such as none (other) can bind.';
+$t[27] = '(To the righteous soul will be said:) &quot;O (thou) soul, in (complete) rest and satisfaction!';
+$t[28] = '&quot;Come back thou to thy Lord,- well pleased (thyself), and well-pleasing unto Him!';
+$t[29] = '&quot;Enter thou, then, among My devotees!';
+$t[30] = '&quot;Yea, enter thou My Heaven!';
+?>

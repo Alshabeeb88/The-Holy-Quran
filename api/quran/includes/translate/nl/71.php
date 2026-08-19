@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Waarlijk, wij zonden Noach tot zijn volk, zeggende: Waarschuw uw volk, alvorens hen eene vreeselijke straf overvalt.';
+$t[2] = 'Noach zeide: O mijn volk! waarlijk, ik ben een openbaar prediker voor u.';
+$t[3] = 'Daarom, dient den eenigen God, vreest hem en gehoorzaamt mij.';
+$t[4] = 'Hij zal u een gedeelte uwer zonden vergeven, en zal u uitstel verleenen tot een bepaalden tijd; want als de door God bepaalde tijd komt, zal die niet worden uitgesteld; indien gij lieden van verstand waart, zoudt gij dit weten.';
+$t[5] = 'Hij zeide: O Heer! waarlijk, ik heb mijn volk nacht en dag geroepen;';
+$t[6] = 'Maar mijne stem heeft hunnen tegenzin slechts vermeerderd.';
+$t[7] = 'En wanneer ik hen tot het ware geloof riep, opdat gij hun zoudt vergeven, staken zij hunne vingers in hunne ooren, en bedekten zich met hunne kleederen; zij volhardden in hunne ongeloovigheid, en versmaadden mijn raad hoovaardig.';
+$t[8] = 'Daarop heb ik hen in het openbaar uitgenoodigd,';
+$t[9] = 'En ik sprak tot hen in het openbaar. Ik vermaande hen ook in het geheim.';
+$t[10] = 'En ik zeide: vraagt vergiffenis van uwen Heer; want hij is vergevensgezind.';
+$t[11] = 'Hij zal rijkelijk regen van den hemel op u doen nederstroomen.';
+$t[12] = 'Hij zal u vermeerdering van welvaart en van kinderen schenken, en hij zal u tuinen geven en u met rivieren voorzien.';
+$t[13] = 'Wat scheelt u, dat gij niet op Gods goedheid vertrouwt?';
+$t[14] = 'Hij heeft u toch in verschillende vormen geschapen.';
+$t[15] = 'Ziet gij niet, hoe God de zeven hemelen boven elkander heeft geschapen?';
+$t[16] = 'En hoe hij de maan ter verlichting daarin heeft geplaatst, en dat hij de zon als tot een fakkel heeft bestemd.';
+$t[17] = 'God heeft ook u voortgebracht, en u uit de aarde doen voortspruiten.';
+$t[18] = 'Hierna zal hij u weder daarin doen terugkeeren, en hij zal u daaruit weder wegnemen, door u uit uwe graven te doen verrijzen.';
+$t[19] = 'God heeft de aarde als een voetkleed voor u uitgespreid.';
+$t[20] = 'Opdat gij langs ruime paden daar zoudt mogen wandelen.';
+$t[21] = 'Noach zeide: Heer! waarlijk, zij zijn mij ongehoorzaam, en zij volgen hen, wier rijkdommen en kinderen hun verderf slechts vermeerderen.';
+$t[22] = 'Zij smeedden eene gevaarlijke samenspanning tegen Noach.';
+$t[23] = 'Hun opperhoofd zeide tot de anderen: Gij zult uwe goden volstrekt niet verlaten, en gij zult Wedd noch Sowa verzaken, Noch Jaghoeth en Yaoek en Nesr.';
+$t[24] = 'En zij verleidden velen (want gij zult slechts de dwaling der zondaren vermeerderen).';
+$t[25] = 'Zij werden verdronken om hunne zonden, en in het hellevuur geworpen. Zij vonden niemand die hen tegen God ondersteunde.';
+$t[26] = 'En Noach zeide: Heer, laat geen gezin der ongeloovigen op de aarde.';
+$t[27] = 'Want indien gij hen daar laat, zullen zij uwe dienaren verleiden, en slechts eene zondige en ongeloovige nakomelingschap voortbrengen.';
+$t[28] = 'Heer! vergeef mij en mijnen bloedverwanten, en ieder die mijn huis zal binnen gaan, en die een waar geloovige is, en de ware geloovigen van beiderlei kunne, en geef den onrechtvaardigen niets dan verdelging.';
+?>

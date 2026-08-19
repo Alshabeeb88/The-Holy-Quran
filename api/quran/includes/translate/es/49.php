@@ -1,0 +1,21 @@
+<?php
+$t = array();
+$t[1] = '&iexcl;Creyentes! &iexcl;No os adelant&eacute;is a Al&aacute; y a su Enviado y temed a Al&aacute;! Al&aacute; todo lo oye, todo lo sabe.';
+$t[2] = '&iexcl;Creyentes! &iexcl;No elev&eacute;is vuestra voz por encima de la del Profeta! &iexcl;No le habl&eacute;is en voz alta, como hac&eacute;is entre vosotros! Os expondr&iacute;ais a hacer vanas vuestras obras sin daros cuenta.';
+$t[3] = 'Quienes en presencia del Enviado de Al&aacute; bajan la voz son aqu&eacute;llos cuyos corazones ha probado Al&aacute; para disponerlos a Su temor. Obtendr&aacute;n perd&oacute;n y magn&iacute;fica recompensa.';
+$t[4] = 'La mayor&iacute;a de los que te llaman desde fuera de las habitaciones privadas no tienen entendimiento.';
+$t[5] = 'M&aacute;s les valdr&iacute;a esperar a que t&uacute; salieras adonde ellos est&aacute;n. Al&aacute; es indulgente, misericordioso.';
+$t[6] = '&iexcl;Creyentes! Si un malvado os trae una noticia, examinadla bien, no sea que lastim&eacute;is a gente por ignorancia y teng&aacute;is que arrepentiros de lo que hab&eacute;is hecho.';
+$t[7] = 'Sabed que est&aacute; entre vosotros el Enviado de Al&aacute;. En muchos casos, si os obedeciera, os ver&iacute;ais en apuro. Pero Al&aacute; os ha hecho amar la fe, engalan&aacute;ndola a vuestros corazones. En cambio, os ha hecho aborrecer la incredulidad, el vicio y la desobediencia. &Eacute;sos son los bien dirigidos,';
+$t[8] = 'por favor y gracia de Al&aacute;. Al&aacute; es omnisciente, sabio.';
+$t[9] = 'Si dos grupos de creyentes combaten unos contra otros, &iexcl;reconciliadles! Y, si uno de ellos oprime al otro, &iexcl;combatid contra el opresor hasta reducirle a la obediencia de Al&aacute;! Y, cuando sea reducido, &iexcl;reconciliadles de acuerdo con la justicia y sed equitativos! Al&aacute; ama a los que observan la equidad.';
+$t[10] = 'Los creyentes son, en verdad, hermanos. &iexcl;Reconciliad, pues, a vuestos hermanos y temed a Al&aacute;! Quiz&aacute;s, as&iacute;, se os tenga piedad.';
+$t[11] = '&iexcl;Creyentes! &iexcl;No os burl&eacute;is unos de otros! Podr&iacute;a ser que los burlados fueran mejores que los que se burlan. Ni las mujeres unas de otras. Podr&iacute;a ser que las burladas fueran mejores que las que se burlan. &iexcl;No os critiqu&eacute;is ni os llam&eacute;is con motes ofensivos! &iexcl;Mala cosa es ser llamado \'perverso\' despu&eacute;s de haber recibido la fe! Los que no se arrepienten, &eacute;sos son los imp&iacute;os.';
+$t[12] = '&iexcl;Creyentes! &iexcl;Evitad conjeturar demasiado! Algunas conjeturas son pecado. &iexcl;No espi&eacute;is! &iexcl;No calumni&eacute;is! &iquest;Os gustar&iacute;a comer la carne de un hermano muerto? Os causar&iacute;a horror... &iexcl;Temed a Al&aacute;! Al&aacute; es indulgente, misericordioso.';
+$t[13] = '&iexcl;Hombres! Os hemos creado de un var&oacute;n y de una hembra y hemos hecho de vosotros pueblos y tribus, para que os conozc&aacute;is unos a otros. Para Al&aacute;, el m&aacute;s noble de entre vosotros es el que m&aacute;s Le teme. Al&aacute; es omnisciente, est&aacute; bien informado.';
+$t[14] = 'Los beduinos dicen: &laquo;&iexcl;Creemos!&raquo; Di: &laquo;&iexcl;No cre&eacute;is! &iexcl;Decid, m&aacute;s bien: \'Hemos abrazado el islam\'! La fe no ha entrado a&uacute;n en vuestros corazones. Pero, si obedec&eacute;is a Al&aacute; y a Su Enviado, no menoscabar&aacute; nada vuestras obras. Al&aacute; es indulgente, misericordioso&raquo;.';
+$t[15] = 'Son creyentes &uacute;nicamente los que creen en Al&aacute; y en Su Enviado, sin abrigar ninguna duda, y combaten por Al&aacute; con su hacienda y sus personas. &iexcl;&Eacute;sos son los veraces!';
+$t[16] = 'Di: &laquo;&iquest;Vais a ense&ntilde;ar a Al&aacute; en qu&eacute; consiste vuestra religi&oacute;n, siendo as&iacute; que Al&aacute; conoce lo que est&aacute; en los cielos y en la tierra?&raquo; Al&aacute; es omnisciente.';
+$t[17] = 'Te recuerdan su conversi&oacute;n al islam como si, con ello, te hubieran agraciado. Di: &laquo;&iexcl;No me record&eacute;is vuestra conversi&oacute;n al islam como si me hubi&eacute;rais agraciado! &iexcl;Al contrario! Es Al&aacute; quien os ha agraciado dirigi&eacute;ndoos hacia la fe. Si es verdad lo que dec&iacute;is...&raquo;';
+$t[18] = 'Al&aacute; conoce lo oculto de los cielos y de la tierra. Al&aacute; ve bien lo que hac&eacute;is.';
+?>

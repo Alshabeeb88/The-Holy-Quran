@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Ka ce: &quot;An yi wahayi zuwa gare ni cewa wasu jama\'a na aljannu sun saurũri (karatuna), sai suka ce: Lalle ne mũ mun ji wani abin karant&atilde;wa (Alƙui\'&atilde;ni), mai ban m&atilde;m&atilde;ki.&quot;';
+$t[2] = '&quot;Yana nũni zuwa ga hanyar ƙwarai, sab&otilde;da haka mun yi ĩm&atilde;ni da shi b&atilde; z&atilde; mu k&otilde;ma baut&atilde; wa Ubangijinmu t&atilde;re da k&otilde;wa ba.&quot;';
+$t[3] = '&quot;Kuma lalle ne shĩ girman Ubangijinmu, Ya ɗaukaka, bai riƙi m&atilde;ta ba, kuma bai riƙi ɗ&atilde; ba.&quot;';
+$t[4] = '&quot;Kuma lalle ne shi, w&atilde;wanmu ya kasance yana faɗar abin da ya ƙetare haddi ga Allah.&quot;';
+$t[5] = '&quot;Kuma lalle ne mũ, mun yi zaton mutum da aljani b&atilde; z&atilde; su iya faɗar ƙarya ba ga Allah.&quot;';
+$t[6] = '&quot;Kuma lalle ne shi wasu maza daga cikin mut&atilde;ne, sun kasance sun&atilde; nẽman tsari da wasu maza daga cikin aljannu, sab&otilde;da haka suka ƙara musu girman kai.&quot;';
+$t[7] = '&quot;Kuma lalle ne sũ, sun yi zato, kamar yadda kuka yi zato, cewa Allah b&atilde; zai aiko kowa ba.&quot;';
+$t[8] = '&quot;Kuma lalle ne mũ mun nẽmi (hawan) sama, sai muka, s&atilde;me ta an cika ta da tsaro mai tsanani da kuma yũl&atilde;ye.&quot;';
+$t[9] = '&quot;Kuma lalle ne mũ, mun kasance muna zama daga garẽta, a wur&atilde;ren zama d&otilde;min saurare. To wanda ya yi saur&atilde;re a yanzu, zai s&atilde;mi yũla, mai d&atilde;ko d&otilde;minsa.&quot;';
+$t[10] = '&quot;Kuma lalle ne mũ ba mu sani ba, shin, sharri ne aka yi nufi ga waɗanda ke cikin ƙasa, ko Ubangijinsu Y&atilde; yi nufin shiriya a gare su ne?&quot;';
+$t[11] = '&quot;Kuma lalle ne mũ, akwai s&atilde;laihai a cikinmu, kuma akwai a cikinmu waɗanda ba haka b&atilde; mun kasance ƙungiy&otilde;yi dabam-dabam.&quot;';
+$t[12] = '&quot;Kuma lalle ne mũ mun tabbat&atilde; b&atilde; z&atilde; mu buw&atilde;yi Allah ba, a cikin ƙasa, kuma b&atilde; z&atilde; mu buw&atilde;ye Shi da gudu ba.&quot;';
+$t[13] = '&quot;Kuma lalle ne mũ, a l&otilde;kacin da muka ji shiriya, mun yi ĩm&atilde;ni da ita. To wanda ya yi ĩim&atilde;ni da Uhangijinsa, b&atilde; zai ji ts&otilde;ron nakkasa ba, kuma b&atilde; zai ji ts&otilde;ron z&atilde;lunci ba.&quot;';
+$t[14] = '&quot;Kuma lalle ne mũ akwai a cikinmu, waɗanda suka mĩƙa wuya, kuma akwai a cikinmu karkatattu. to, wanda ya mĩƙa wuya waɗancan kam sun nufi shiryuwa.&quot;';
+$t[15] = '&quot;Kuma amma karkatattu sai suka kasance mak&atilde;mashi ga Jahannama.&quot;';
+$t[16] = '&quot;Kuma d&atilde; sun tsayu s&otilde;sai a kan hanya, d&atilde; lalle Mun sh&atilde;yar da su ruwa mai yawa.&quot;';
+$t[17] = '&quot;Domin Mu jarraba su a ciki, kuma wanda ya kau da kai daga tuna Ubangijinsa, Ubangijinsa zai shigar da shi az&atilde;ba mai hauhawa.&quot;';
+$t[18] = '&quot;Kuma lalle ne wur&atilde;ren sujada na Allah ne, saboda haka kada ku kira k&otilde;wa t&atilde;re da Allah (da su, a cikinsu).&quot;';
+$t[19] = '&quot;Kuma, lalle ne shi, a l&otilde;kacin da b&atilde;wan Allah ke kiran Sa sun yi kusa su zama kamar shirgi a kansa.&quot;';
+$t[20] = 'Ka ce: &quot;lna kiran Ubangijina ne kawai, kuma b&atilde; zan t&atilde;ra kowa da Shi ba.&quot;';
+$t[21] = 'Ka ce: &quot;Lalle ne, nĩ b&atilde; ni mallakar wata cũta gare ku, kuma b&atilde; ni mallakar wani alhẽri.&quot;';
+$t[22] = 'Ka ce: &quot;Lalle ne, nĩ k&otilde;wa b&atilde; ya iya cẽtona daga Allah, kuma b&atilde; zan iya s&atilde;mun mafaka ba daga gare Shi.&quot;';
+$t[23] = '&quot;F&atilde;ce iyarwa, daga Allah, da manzancinsa. To, wanda ya s&atilde;ɓa wa Allah da ManzonSa, to, lalle yana da wutar Jahannama suna m&atilde;su dawwama a cikinta, har abada.&quot;';
+$t[24] = 'Har idan sun ga abin da ake yi musu gargaɗi da shi, to, z&atilde; su san wanda ya zama mafi raunin mataimaki da mafi ƙarancin adadi.';
+$t[25] = 'Ka ce: &quot;Ban sani ba a kusa ne abin da ake yi muku gargaɗi da shi, ko Ubangijina Ya sanya maSa d&otilde;gon ajali!&quot;';
+$t[26] = '&quot;Shi ɗai ne Masanin fake sab&otilde;da haka, b&atilde; Ya bayyana gaibinSa ga kowa.&quot;';
+$t[27] = '&quot;F&atilde;ce ga wanda Y&atilde; yarda da shi, wato wani manzo sa\'an nan lalle ne, zai sanya g&atilde;di a gaba gare shi da b&atilde;ya gare shi.&quot;';
+$t[28] = '&quot;D&otilde;min Ya san lalle, sun iyar da s&atilde;ƙonnin Ubangijinsu, kuma (Shi Ubangijin) Y&atilde; kẽwaye su da sani, kuma Y&atilde; lissafe dukan k&otilde;me da ƙididdiga.&quot;';
+?>

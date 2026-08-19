@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Zar je to davno bilo kad čovjek nije bio spomena vrijedan?';
+$t[2] = 'Mi čovjeka od smjese sjemena stvaramo da bismo ga na ku&scaron;nju stavili i činimo da on čuje i vidi;';
+$t[3] = 'Mi mu na Pravi put ukazujemo, a njegovo je da li će zahvalan ili nezahvalan biti;';
+$t[4] = 'Mi smo za nevjernike okove i sindžire i oganj razbuktali pripremili.';
+$t[5] = 'Čestiti će iz pehara piti kamforom začinjeno piće';
+$t[6] = 'sa izvora iz kojeg će samo Allahovi &scaron;tićenici piti, i koji će kuda hoće bez muke razvoditi.';
+$t[7] = 'Oni su zavjet ispunjavali pla&scaron;eći se Dana čija će kob svuda prisutna biti,';
+$t[8] = 'i hranu su davali &ndash; mada su je i sami željeli &ndash; siromahu i siročetu i sužnju.';
+$t[9] = '&quot;Mi vas samo za Allahovu ljubav hranimo, od vas ni priznanja ni zahvalnosti ne tražimo!';
+$t[10] = 'Mi se Gospodara na&scaron;eg bojimo, onog Dana kada će lica smrknuta i namrgođena biti.&quot;';
+$t[11] = 'I njih će Allah strahote toga Dana sačuvati i blaženstvo i radost im darovati';
+$t[12] = 'i Džennetom i svilom ih za ono &scaron;to su trpjeli nagraditi:';
+$t[13] = 'naslonjeni na divanima, oni u njemu ni mraz ni žegu neće osjetiti,';
+$t[14] = 'i blizu će im hladovina njegova biti, a plodovi njegovi će im nadohvat ruke stajati.';
+$t[15] = 'Služiće ih iz srebrenih posuda i ča&scaron;a prozirnih,';
+$t[16] = 'prozirnih, od srebra, čiju će veličinu prema željama njihovim odrediti.';
+$t[17] = 'U njemu će iz ča&scaron;e piće inbirom začinjeno piti';
+$t[18] = 'sa izvora u Džennetu, koji će se Selsebil zvati.';
+$t[19] = 'Služiće ih vječno mlada posluga &ndash; da ih vidi&scaron;, pomislio bi da su biser prosutī.';
+$t[20] = 'I kud god pogleda&scaron;, vidjeće&scaron; udobnost i carstvo prostrano.';
+$t[21] = 'Na njima će biti odijela od tanke zelene svile, i od te&scaron;ke svile, nakićeni narukvicama od srebra, i daće im Gospodar njihov da piju čisto piće.';
+$t[22] = '&quot;To vam je nagrada; va&scaron; trud je dostojan blagodarnosti!&quot;';
+$t[23] = 'Od vremena do vremena Mi objavljujemo Kur\'an tebi,';
+$t[24] = 'zato izdrži do odluke Gospodara tvoga, i ne slu&scaron;aj ni grje&scaron;nika ni nevjernika njihova!';
+$t[25] = 'I spominji ime Gospodara svoga ujutro i predvečer,';
+$t[26] = 'i u jednom dijelu noći radi Njega molitvu obavljaj, i dugo Ga noću hvali!';
+$t[27] = 'A ovi, oni život na ovom svijetu vole doista, a ni&scaron;ta ih se ne tiče Dan tegobni, koji ih čeka.';
+$t[28] = 'Mi ih stvaramo i zglobove im vezujemo, a ako htjednemo, zamijenićemo ih njima sličnim.';
+$t[29] = 'Ovo je pouka, pa ko hoće držaće se puta koji Gospodaru njegovu vodi &ndash;';
+$t[30] = 'a vi ćete htjeti samo ono &scaron;to Allah hoće &ndash; Allah, uistinu, sve zna i mudar je,';
+$t[31] = 'On koga hoće uvodi u milost Svoju, a nevjernicima je pripremio te&scaron;ku patnju.';
+?>

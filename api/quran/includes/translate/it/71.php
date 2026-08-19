@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'In verit&agrave; inviammo No&egrave; al suo popolo: &ldquo;Avverti il tuo popolo prima che giunga loro un doloroso castigo&rdquo;.';
+$t[2] = 'Disse: &ldquo;O popol mio, in verit&agrave; io sono per voi un ammonitore evidente:';
+$t[3] = 'adorate Allah, temeteLo e obbeditemi,';
+$t[4] = 'affinch&eacute; perdoni una parte dei vostri peccati e vi conceda dilazione fino a un termine stabilito; ma quando giunger&agrave; il termine di Allah non potr&agrave; essere rimandato, se [solo] lo sapeste&rdquo;.';
+$t[5] = 'Disse: &ldquo;Signore, ho chiamato il mio popolo giorno e notte,';
+$t[6] = 'ma il mio richiamo ha solo accresciuto la loro repulsione.';
+$t[7] = 'Ogni volta che li chiamavo affinch&eacute; Tu li perdonassi, si turavano le orecchie con le dita e si avvolgevano nelle loro vesti, pervicaci e tronfi di superbia.';
+$t[8] = 'Poi li ho chiamati ad alta voce.';
+$t[9] = 'Li ho arringati e ho parlato loro in segreto,';
+$t[10] = 'dicendo: Implorate il perdono del vostro Signore, Egli &egrave; Colui Che molto perdona,';
+$t[11] = 'affinch&eacute; vi invii dal cielo una pioggia abbondante,';
+$t[12] = 'accresca i vostri beni e i vostri figli e vi conceda giardini e ruscelli.';
+$t[13] = 'Perch&eacute; non confidate nella magnanimit&agrave; di Allah,';
+$t[14] = 'quando &egrave; Lui che vi ha creati in fasi successive?';
+$t[15] = 'Non avete considerato come Allah ha creato sette cieli sovrapposti';
+$t[16] = 'e della luna ha fatto una luce e del sole un luminare.';
+$t[17] = '&Egrave; Allah che vi ha fatto sorgere dalla terra come piante.';
+$t[18] = 'Poi vi rimander&agrave; [ad essa] e vi far&agrave; risorgere.';
+$t[19] = 'Allah ha fatto della terra un tappeto per voi,';
+$t[20] = 'affinch&eacute; possiate viaggiare su spaziose vie&rdquo;.';
+$t[21] = 'Disse No&egrave;: &ldquo;Signore, mi hanno disobbedito seguendo coloro i cui beni e figli non fanno che aumentarne la rovina;';
+$t[22] = 'hanno tramato un\'enorme trama';
+$t[23] = 'e hanno detto: Non abbandonate i vostri d&egrave;i, non abbandonate n&eacute; Wadd, n&eacute; Suw&acirc;, n&eacute; Yagh&ucirc;th, n&eacute; Ya&ucirc;q, n&eacute; Nasr&rdquo;.';
+$t[24] = 'Essi ne hanno traviati molti; [Signore,] non accrescere gli ingiusti altro che nella perdizione&rdquo;.';
+$t[25] = 'A causa dei loro peccati sono stati affogati e poi introdotti nel Fuoco, e non trovarono nessun soccorritore all\'infuori di Allah.';
+$t[26] = 'Preg&ograve; No&egrave;: &ldquo;Signore, non lasciare sulla terra alcun abitante che sia miscredente!';
+$t[27] = 'Se li risparmierai, travieranno i Tuoi servi e non genereranno altro che perversi ingrati.';
+$t[28] = 'Signore, perdona a me, ai miei genitori, a chi entra nella mia casa come credente, ai credenti e alle credenti; non accrescere gli ingiusti altro che nella rovina&rdquo;.';
+?>

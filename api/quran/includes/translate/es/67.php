@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = '&iexcl;Bendito sea Aqu&eacute;l en Cuya mano est&aacute; el dominio! Es omnipotente.';
+$t[2] = 'Es Quien ha creado la muerte y la vida para probaros, para ver qui&eacute;n de vosotros es el que mejor se porta. Es el Poderoso, el Indulgente.';
+$t[3] = 'Es Quien ha creado siete cielos superpuestos. No ves ninguna contradici&oacute;n en la creaci&oacute;n del Compasivo. &iexcl;Mira otra vez! &iquest;Adviertes alguna falla?';
+$t[4] = 'Luego, mira otras dos veces: tu mirada volver&aacute; a ti cansada, agotada.';
+$t[5] = 'Hemos engalanado el cielo m&aacute;s bajo con luminares, de los que hemos hecho proyectiles contra los demonios y hemos preparado para ellos el castigo del fuego de la gehena.';
+$t[6] = 'Quienes no hayan cre&iacute;do en su Se&ntilde;or tendr&aacute;n el castigo de la gehena. &iexcl;Qu&eacute; mal fin...!';
+$t[7] = 'Cuando sean arrojados a ella, oir&aacute;n su fragor, en plena ebullici&oacute;n,';
+$t[8] = 'a punto de estallar de furor. Siempre que se le arroje una oleada, sus guardianes les preguntar&aacute;n: &laquo;&iquest;Es que no vino a vosotros un monitor?&raquo;';
+$t[9] = '&laquo;&iexcl;Claro que s&iacute;!&raquo; dir&aacute;n: &laquo;Vino a nosotros un monitor, pero desmentimos, y dijimos: \'Al&aacute; no ha revelado nada. No est&aacute;is sino muy extraviados\'&raquo;.';
+$t[10] = 'Y dir&aacute;n: &laquo;Si hubi&eacute;ramos o&iacute;do o comprendido, no morar&iacute;amos ahora en el fuego de la gehena&raquo;.';
+$t[11] = 'Confesar&aacute;n su pecado. &iexcl;Que Al&aacute; aleje a los moradores del fuego de la gehena!';
+$t[12] = 'Quienes hayan tenido miedo a su Se&ntilde;or en secreto tendr&aacute;n perd&oacute;n y una gran recompensa.';
+$t[13] = 'Da lo mismo que manteng&aacute;is ocultas vuestras palabras o que las divulgu&eacute;is. &Eacute;l conoce bien lo que encierran los pechos.';
+$t[14] = '&iquest;No va a saber Quien ha creado, &Eacute;l, Que es el Sutil, el Bien Informado?';
+$t[15] = '&Eacute;l es Quien os ha hecho d&oacute;cil la tierra. Recorredla, pues, de ac&aacute; para all&aacute; y comed de Su sustento. La Resurrecci&oacute;n se har&aacute; hacia &Eacute;l.';
+$t[16] = '&iquest;Est&aacute;is a salvo de que Quien est&aacute; en el cielo haga que la tierra os trague? He aqu&iacute; que tiembla...';
+$t[17] = '&iquest;O est&aacute;is a salvo de que Quien est&aacute; en el cielo env&iacute;e contra vosotros una tempestad de arena? Entonces ver&eacute;is c&oacute;mo era Mi advertencia...';
+$t[18] = 'Quienes fueron antes que ellos desmintieron y &iexcl;cu&aacute;l no fue Mi reprobaci&oacute;n!';
+$t[19] = '&iquest;Es que no han visto las aves encima de ellos, desplegando y recogiendo las alas? S&oacute;lo el Compasivo las sostiene. Lo ve bien todo.';
+$t[20] = 'O &iquest;qui&eacute;n es el que podr&iacute;a auxiliaros cual legi&oacute;n, fuera del Compasivo? Los infieles son presa de una ilusi&oacute;n.';
+$t[21] = 'O &iquest;quien es el que os proveer&iacute;a de sustento si &Eacute;l interrumpiera Su sustento? S&iacute;, persisten en su insolencia y aversi&oacute;n.';
+$t[22] = 'Quien anda agachado &iquest;va mejor dirigido que quien anda erguido por una v&iacute;a recta?';
+$t[23] = 'Di: &laquo;&Eacute;l es Quien os ha creado, Quien os ha dado el o&iacute;do, la vista y el intelecto. &iexcl;Qu&eacute; poco agradecidos sois!&raquo;';
+$t[24] = 'Di: &laquo;&Eacute;l es Quien os ha diseminado por la tierra. Y hacia &Eacute;l ser&eacute;is congregados&raquo;.';
+$t[25] = 'Y dicen: &laquo;&iquest;Cu&aacute;ndo se cumplir&aacute; esta amenaza, si es verdad lo que dec&iacute;s?&raquo;';
+$t[26] = 'Di: &laquo;S&oacute;lo Al&aacute; lo sabe. Yo soy solamente un monitor que habla claro&raquo;.';
+$t[27] = 'Pero, en cuanto vean su inminencia, se afligir&aacute;n los rostros de los infieles. Y se dir&aacute;: &laquo;Aqu&iacute; ten&eacute;is lo que reclamabais&raquo;.';
+$t[28] = 'Di: &laquo;&iquest;Qu&eacute; os parece? Lo mismo si Al&aacute; nos hace perecer, a m&iacute; y a los que est&aacute;n conmigo, que si se apiada de nosotros, &iquest;qui&eacute;n preservar&aacute; a los infieles de un castigo doloroso?';
+$t[29] = 'Di: &laquo;&iexcl;Es el Compasivo! &iexcl;Creemos en &Eacute;l y confiamos en &Eacute;l! Ya ver&eacute;is qui&eacute;n es el que est&aacute; evidentemente extraviado&raquo;.';
+$t[30] = 'Di: &laquo;&iquest;Qu&eacute; os parece? Si el agua se os agotara una ma&ntilde;ana, &iquest;quien iba a traeros agua viva?&raquo;';
+?>

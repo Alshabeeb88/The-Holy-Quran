@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Na jutrzenkę!';
+$t[2] = 'Na dziesięć nocy!';
+$t[3] = 'Na podw&oacute;jne i pojedyncze!';
+$t[4] = 'Na noc, kiedy przemija!';
+$t[5] = 'Czy to nie jest przysięga człowieka rozsądnego?';
+$t[6] = 'Czy nie widziałeś, jak postąpił tw&oacute;j Pan z ludem Ad';
+$t[7] = 'I z Iramem, posiadającym kolumny';
+$t[8] = '- czegoś podobnego nie stworzono w żadnym kraju -';
+$t[9] = 'I z ludem Samud, kt&oacute;ry wydrążył skałę w dolinie,';
+$t[10] = 'I z Faraonem, władcą pali namiot&oacute;w?';
+$t[11] = 'Oni popełniali przestępstwa w kraju';
+$t[12] = 'I szerzyli w nim zgorszenie,';
+$t[13] = 'Tak iż tw&oacute;j Pan spuścił na nich bicz kary.';
+$t[14] = 'Zaprawdę, tw&oacute;j Pan pilnie wszystko obserwuje!';
+$t[15] = 'A człowiek, kiedy Pan go doświadcza - uszanowawszy go i obdarzywszy dobrodziejstwami - m&oacute;wi: &quot;M&oacute;j Pan mnie uszanował!&quot;';
+$t[16] = 'A kiedy doświadcza go, ograniczając mu jego zaopatrzenie, wtedy on m&oacute;wi: &quot;Pan m&oacute;j wzgardził mną!&quot;';
+$t[17] = 'Wcale nie! Lecz wy nie szanujecie sieroty;';
+$t[18] = 'Nie zachęcacie się wzajemnie do nakarmienia biedaka;';
+$t[19] = 'I zjadacie dziedzictwo z wielką chciwością;';
+$t[20] = 'I kochacie bogactwo miłością ogromną!';
+$t[21] = 'Ale miejcie się na baczności! Kiedy ziemia zostanie obr&oacute;cona w pył,';
+$t[22] = 'Kiedy przyjdzie tw&oacute;j Pan i aniołowie, szereg za szeregiem,';
+$t[23] = 'I kiedy zostanie ukazana Gehenna, tego Dnia przypomni sobie człowiek:.. lecz na c&oacute;ż mu się zda to przypomnienie?';
+$t[24] = 'Będzie on m&oacute;wił: &quot;O, gdybym był przygotował coś dla mego życia!&quot;';
+$t[25] = 'I tego Dnia nikt nie ukarze tak jak On;';
+$t[26] = 'I nie skrępuje łańcuchami tak jak On.';
+$t[27] = 'O ty, duszo uspokojona,';
+$t[28] = 'Powr&oacute;ć do twego Pana, zadowolona i z upodobaniem przyjęta!';
+$t[29] = 'Wejdź więc między Moje sługi!';
+$t[30] = 'Wejdź do Mojego Ogrodu!';
+?>

@@ -1,0 +1,14 @@
+<?php
+$t = array();
+$t[1] = '(Ya Peyğəmbər!) M&uuml;nafiqlər (riyakarlar) sənin yanına gəldikləri zaman: &ldquo;Biz sənin, doğrudan da, Allahın Peyğəmbəri olduğuna şəhadət veririk! &ndash; deyirlər. Allah sənin Onun həqiqi Peyğəmbər olduğunu bilir. Allah həm də m&uuml;nafiqlərin xalis yalan&ccedil;ı olduqlarına şəhadət verir.';
+$t[2] = 'Onlar (yalan) andlarını &ouml;zlərində sipər edib (xalqı) Allah yolundan d&ouml;ndərirlər. Həqiqətən, onların t&ouml;rətdikləri əməllər necə də pisdir!';
+$t[3] = 'Bunun səbəbi odur ki, onlar (dildə) iman gətirdilər, sonra isə (&uuml;rəklərində gizli) kafir oldular. Buna g&ouml;rə də onların &uuml;rəklərinə m&ouml;h&uuml;r vurulmuş, &ouml;zləri isə anlamaz kimsələr olmuşlar.';
+$t[4] = '(Ya Peyğəmbər!) Sən onları g&ouml;rd&uuml;kdə c&uuml;ssələri (boy-buxunları, g&ouml;zəllikləri) xoşuna gəlir, danışanda s&ouml;zlərinə qulaq asırsan. Onlar, sanki (divara) s&ouml;ykədilmiş dirəklərdir (ruhsuz bədən, m&uuml;qəvva kimidirlər). Onlar (iki&uuml;zl&uuml;l&uuml;klərinin Peyğəmbərə və m&ouml;&rsquo;minlərə əyan olacağından qorxub) hər bir qışqırığın (səs-k&uuml;y&uuml;n) &ouml;z əleyhlərinə olduğunu zənn edirlər. Onlar d&uuml;şməndirlər, sən onlardan həzər et! Allah onları &ouml;ld&uuml;rs&uuml;n, necə də haqdan d&ouml;ndərilirlər!';
+$t[5] = 'Onlara: &ldquo;Gəlin Allahın Peyğəmbəri (Rəbbinizdən) sizin bağışlanmağınızı diləsin!&rdquo; &ndash;deyildiyi zaman (istehza ilə) başlarını bulayar və sən (Ya Rəsulum!) onların təkəbb&uuml;rlə &uuml;z &ccedil;evirdiklərini g&ouml;rərsən.';
+$t[6] = 'Sən onların bağışlanmasını diləsən də, diləməsən də, fərqi yoxdur. Onsuz da Allah onları bağışlamayacaqdır. Ş&uuml;bhəsiz ki, Allah fasiq q&ouml;vm&uuml; doğru yola y&ouml;nəltməz!';
+$t[7] = 'Onlar: &ldquo;Allahın Peyğəmbəri yanında olanlara bir şey verməyin ki, dağılıb getsinlər!&rdquo; &ndash; deyən kimsələrdir. Halbuki g&ouml;ylərin və yerin xəzinələri Allaha məxsusdur, lakin m&uuml;nafiqlər (bunu) anlamazlar.';
+$t[8] = 'Onlar: &ldquo;Əgər biz (Bəni M&uuml;stəliq vuruşunda) Mədinəyə qayıtsaq, ən g&uuml;cl&uuml;lər (ən şərəflilər &ndash; m&uuml;nafiqlər) ən zəifləri (ən həqirləri &ndash; Peyğəmbəri və ona iman gətirənləri), əlbəttə, oradan &ccedil;ıxardacaqlar!&rdquo; &ndash; deyirlər. Halbuki şərəf-şan da, (q&uuml;vvət və qələbə də) yalnız Allaha, Onun Peyğəmbərinə və m&ouml;&rsquo;minlərə məxsusdur, lakin m&uuml;nafiqlər (bunu) bilməzlər!';
+$t[9] = 'Ey iman gətirənlər! Nə mal-d&ouml;vlətiniz, nə də oğul-uşağınız sizi Allahın zikrindən yayındırmasın! Hər kəs bunu etsə (Allahı yada salmasa), belələri əsl ziyana uğrayanlardır.';
+$t[10] = 'Birinizin &ouml;l&uuml;m&uuml; &ccedil;atıb: &ldquo;Ey Rəbbim! Mənə bir az m&ouml;hlət versəydin, sədəqə verib salehlərdən olardım! &ndash; deməmişdən əvvəl sizə verdiyim ruzidən (Allah yolunda) xərcləyin.';
+$t[11] = 'Və (bilin ki) Allah əcəli &ccedil;atan he&ccedil; kəsə m&ouml;hlət verməz. Allah sizin nə etdiklərinizdən xəbərdardır!';
+?>

@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Has there reached you the report of the Overwhelming [event]?';
+$t[2] = '[Some] faces, that Day, will be humbled,';
+$t[3] = 'Working [hard] and exhausted.';
+$t[4] = 'They will [enter to] burn in an intensely hot Fire.';
+$t[5] = 'They will be given drink from a boiling spring.';
+$t[6] = 'For them there will be no food except from a poisonous, thorny plant';
+$t[7] = 'Which neither nourishes nor avails against hunger.';
+$t[8] = '[Other] faces, that Day, will show pleasure.';
+$t[9] = 'With their effort [they are] satisfied';
+$t[10] = 'In an elevated garden,';
+$t[11] = 'Wherein they will hear no unsuitable speech.';
+$t[12] = 'Within it is a flowing spring.';
+$t[13] = 'Within it are couches raised high';
+$t[14] = 'And cups put in place';
+$t[15] = 'And cushions lined up';
+$t[16] = 'And carpets spread around.';
+$t[17] = 'Then do they not look at the camels - how they are created?';
+$t[18] = 'And at the sky - how it is raised?';
+$t[19] = 'And at the mountains - how they are erected?';
+$t[20] = 'And at the earth - how it is spread out?';
+$t[21] = 'So remind, [O Muhammad]; you are only a reminder.';
+$t[22] = 'You are not over them a controller.';
+$t[23] = 'However, he who turns away and disbelieves -';
+$t[24] = 'Then Allah will punish him with the greatest punishment.';
+$t[25] = 'Indeed, to Us is their return.';
+$t[26] = 'Then indeed, upon Us is their account.';
+?>

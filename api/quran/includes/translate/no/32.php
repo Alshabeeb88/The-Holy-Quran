@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alif Lam Mim';
+$t[2] = 'Skriftens &aring;penbaring er fra all verdens Herre, tvil har ingen plass.';
+$t[3] = 'Mon de sier: &laquo;Han har oppdiktet den?&raquo; Nei, den er sann- heten fra din Herre, for at du skal advare et folk, som det ikke er kommet noen advarer til f&oslash;r deg, s&aring; de m&aring; f&oslash;lge ledelsen.';
+$t[4] = 'Gud er den som skapte himlene og jorden og alt som mellom dem er, p&aring; seks dager. S&aring; tok Han plass p&aring; tronen. Uten Ham har dere ingen som tar seg av dere, og ingen som taler deres sak. Vil dere da ikke komme til ettertanke?';
+$t[5] = 'Han utsender Sitt styrende ord fra himmelen til jorden. S&aring; stiger det opp til Ham p&aring; en dag, hvis m&aring;l er tusen &aring;r etter deres regning.';
+$t[6] = 'Slik er Han, som kjenner det skjulte og det &aring;penbare, den Mektige, den N&aring;derike,';
+$t[7] = 'som har gjort vel alt Han har skapt. I begynnelsen skapte Han mennesket av leire.';
+$t[8] = 'S&aring; frembrakte Han dets avkom av en slump skr&oslash;pelig v&aelig;ske,';
+$t[9] = 'formet ham, og bl&aring;ste Sin &aring;nd i ham, og Han har gitt dere h&oslash;rsel, syn og forstand. Lite takknemlighet viser dere.';
+$t[10] = 'De sier: &laquo;N&aring;r vi er blitt borte i jorden, skal vi da bli en ny skapning?&raquo; Ja, de fornekter m&oslash;tet med Herren.';
+$t[11] = 'Si: &laquo;D&oslash;dsengelen, som er gitt ansvar for dere, vil ta dere bort, og s&aring; vil dere bli brakt tilbake til deres Herre.&raquo;';
+$t[12] = 'Om du kunne se synderne henge med hodet fremfor sin Herre: &laquo;V&aring;r Herre, vi har sett og h&oslash;rt. Send oss tilbake s&aring; vi kan leve rettskaffent. Vi har full visshet n&aring;.&raquo;';
+$t[13] = 'Om Vi hadde bestemt slik, kunne Vi gitt hver enkelt ledelse. Men Mitt ord er n&aring; blitt realitet: &laquo;Jeg vil fylle helvete med folk og dsjinner, om hverandre.';
+$t[14] = 'Dere skal n&aring; f&aring; f&oslash;le, fordi dere glemte denne deres dags m&oslash;te! Vi har glemt dere! Ta n&aring; straffen, som varer, for det dere bedrev!&raquo;';
+$t[15] = 'Kun de tror p&aring; V&aring;rt ord som faller ned i &aelig;refrykt n&aring;r de p&aring;minnes om det, idet de priser sin Herre og er uten hovmod.';
+$t[16] = 'De skyr sitt leie idet de st&aring;ende p&aring;kaller Herren i frykt og lengsel, og gir av det som Vi har gitt dem.';
+$t[17] = 'Men ingen vet hvilken lyst for &oslash;yet som venter dem i det skjulte, som bel&oslash;nning for deres gjerninger.';
+$t[18] = 'Er vel en troende lik en ugudelig? De er ikke like!';
+$t[19] = 'De som tror og handler vel, venter paradisets haver som oppholdssted. En velkomsthilsen for deres gjerninger.';
+$t[20] = 'De som er ugudelige, venter Ilden som oppholdssted. Hver gang de &oslash;nsker &aring; komme ut av den, blir de sendt tilbake i den, og det blir sagt til dem: &laquo;F&oslash;l Ildens straff, som dere pleide &aring; fornekte!&raquo;';
+$t[21] = 'Men Vi skal la dem f&oslash;le den dennesidige straffen, f&oslash;r den store, s&aring; de m&aring; vende om!';
+$t[22] = 'Hvem er vel mer urettferdig enn den som p&aring;minnes om Herrens ord, og s&aring; vender seg bort fra det. Vi s&oslash;ker hevn over synderne!';
+$t[23] = 'Vi gav Moses skriften, s&aring; v&aelig;r ikke i tvil om m&oslash;tet med Ham, og Vi gjorde den til ledelse for Israels barn.';
+$t[24] = 'Vi innsatte ledere fra deres midte, som rettledet ved V&aring;rt bud, da de var standhaftige og trodde fast p&aring; V&aring;rt ord.';
+$t[25] = 'Herren vil treffe avgj&oslash;relser mellom dem p&aring; oppstandelsens dag vedr&oslash;rende det de var uenige om.';
+$t[26] = 'Finner de ingen rettledning i hvor mange slekter Vi har utslettet f&oslash;r dem, p&aring; hvis boplasser de vandrer omkring? I dette er visselig tegn. Vil de da ikke h&oslash;re?';
+$t[27] = 'Har de da ikke sett hvordan Vi f&oslash;rer vannet til det t&oslash;rre land, og frembringer med det avlinger som deres fe og de selv kan spise av? Ser de da ikke?';
+$t[28] = 'De sier: &laquo;N&aring;r er s&aring; denne seierens dag, om dere snakker sant?&raquo;';
+$t[29] = 'Si: &laquo;P&aring; seierens dag vil det ikke gagne de vantro &aring; tro, og de f&aring;r ingen utsettelse!&raquo;';
+$t[30] = 'S&aring; vend deg bort fra dem og vent. De venter ogs&aring;.';
+?>

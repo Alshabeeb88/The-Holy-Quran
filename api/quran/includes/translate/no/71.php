@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Vi sendte Noa til hans folk: &laquo;Advar ditt folk, f&oslash;r en smertelig straff kommer over dem.&raquo;';
+$t[2] = 'Han sa: &laquo;H&oslash;r, mitt folk, jeg er en klar advarer for dere!';
+$t[3] = 'Tjen Gud, og frykt Ham, og adlyd meg,';
+$t[4] = 's&aring; vil Han tilgi deres synder og gi dere en viss frist! N&aring;r Guds frist kommer, gis ingen utsettelse, om dere bare visste!&raquo;';
+$t[5] = 'Han sa videre: &laquo;Herre, jeg har kalt p&aring; mitt folk natt og dag,';
+$t[6] = 'men mitt kall har forsterket deres avstandtagen.';
+$t[7] = 'S&aring; ofte som jeg kalte dem, s&aring; Du kunne tilgi dem, satte de fingrene i &oslash;rene og gjemte seg i sine kl&aelig;r, og turet frem i st&oslash;rste hovmod.';
+$t[8] = 'S&aring; kalte jeg p&aring; dem &aring;pent,';
+$t[9] = 'og s&aring; talte jeg b&aring;de offentlig og privat,';
+$t[10] = 'og jeg sa: &rsquo;Be om Herrens tilgivelse! Han er det som tilgir,';
+$t[11] = 'og s&aring; vil Han sende dere str&oslash;mmende regn fra oven,';
+$t[12] = 'og forstrekke dere med rikdom og barn, og gi dere haver, og gi dere bekker.';
+$t[13] = 'Hva er det med dere, at dere ikke h&aring;per p&aring; Guds langmodighet,';
+$t[14] = 'da Han jo har skapt dere i utviklingsfaser?';
+$t[15] = 'Har dere ikke sett hvordan Gud har skapt syv himler lagvis,';
+$t[16] = 'og satt m&aring;nen der som et bluss, og solen som en lysende lampe?';
+$t[17] = 'Gud har latt dere vokse opp av jorden,';
+$t[18] = 'og s&aring; lar Han dere vende tilbake dit, og s&aring; bringer Han dere frem p&aring; nytt.';
+$t[19] = 'Gud har bredt ut jorden for dere som et teppe,';
+$t[20] = 's&aring; dere kan vandre p&aring; dens vide veier.&rsquo;&raquo;';
+$t[21] = 'Han fortsatte: &laquo;Herre, de har ikke adlydt meg, men fulgt ham, hvis rikdom og barn kun &oslash;ker hans fortapelse,';
+$t[22] = 'og de har smidd sv&aelig;re renker,';
+$t[23] = 'og sier: &rsquo;Oppgi ikke deres guder! Forlat ikke Wadd og Suwa, og ikke Yaroth, Yahok eller Nasr.&rsquo;';
+$t[24] = 'De har f&oslash;rt mange vill. La de urettferdige bare tilta i villfarelse!&raquo;';
+$t[25] = 'For sine overtredelsers skyld ble de druknet, og f&oslash;rt inn i en ild, og de fant ingen hjelpere utenom Gud.';
+$t[26] = 'Og Noa sa: &laquo;Herre, etterlat ikke en eneste av de vantro p&aring; jorden!';
+$t[27] = 'Om Du lar dem tilbake, s&aring; vil de f&oslash;re dine tjenere vill, og de vil ikke fostre annet enn syndefulle vantro.';
+$t[28] = 'Herre, tilgi meg og mine foreldre, og enhver som kommer inn i mitt hus som troende, og de troende menn og kvinner! Og la de urettferdige bare tilta i fordervelse.&raquo;';
+?>

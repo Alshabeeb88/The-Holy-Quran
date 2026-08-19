@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Mi smo poslali Nuha narodu njegovu: &quot;Opominji narod svoj prije nego &scaron;to ga stigne patnja nesnosna!&quot;';
+$t[2] = '&quot;O narode moj&quot; &ndash; govorio je on &ndash; &quot;ja vas otvoreno opominjem:';
+$t[3] = 'Allahu se klanjajte i Njega se bojte i meni poslu&scaron;ni budite,';
+$t[4] = 'On će vam grijehe va&scaron;e oprostiti i u životu vas do određenog časa ostaviti, a kada Allahov određeni čas dođe zaista se neće, neka znate, odgoditi.&quot;';
+$t[5] = 'On reče: &quot;Gospodaru moj, ja sam narod svoj i noću i danju, doista, pozivao,';
+$t[6] = 'ali ga je pozivanje moje jo&scaron; vi&scaron;e udaljilo.';
+$t[7] = 'I kad god sam ih pozivao da im oprosti&scaron;, prste su svoje u u&scaron;i stavljali i haljinama svojim se pokrivali &ndash; bili su uporni i pretjerano oholi.';
+$t[8] = 'Zatim, ja sam ih otvoreno pozivao,';
+$t[9] = 'a onda sam im javno objavljivao i u povjerenju im &scaron;aputao,';
+$t[10] = 'i govorio: \'Tražite od Gospodara svoga oprost jer On, doista, mnogo pra&scaron;ta;';
+$t[11] = 'On će vam ki&scaron;u obilnu slati';
+$t[12] = 'i pomoći će vas imanjima i sinovima, i daće vam ba&scaron;če, i rijeke će vam dati.';
+$t[13] = '&Scaron;ta vam je, za&scaron;to se Allahove sile ne bojite,';
+$t[14] = 'a On vas postepeno stvara?!';
+$t[15] = 'Zar ne vidite kako je Allah sedam nebesa, jedno iznad drugog, stvorio,';
+$t[16] = 'i na njima Mjesec svijetlim dao, a Sunce svjetiljkom učinio?';
+$t[17] = 'Allah vas od zemlje poput bilja stvara,';
+$t[18] = 'zatim vas u nju vraća i iz nje će vas, sigurno, izvesti.';
+$t[19] = 'Allah vam je Zemlju učinio ravnom,';
+$t[20] = 'da biste po njoj hodili putevima prostranim.\'&quot;';
+$t[21] = 'Nuh reče: &quot;Gospodaru moj, oni mene ne slu&scaron;aju i povode se za onima čija bogatstva i djeca samo njihovu propast uvećavaju';
+$t[22] = 'i spletke velike snuju';
+$t[23] = 'i govore: \'Nikako božanstva svoja ne ostavljajte, i nikako ni Vedda, ni Suvaa, a ni Jegusa, ni Jeuka, ni Jesra ne napu&scaron;tajte!\',';
+$t[24] = 'a već su mnoge u zabludu doveli, pa Ti njima, inadžijama, samo propast povećaj!&quot;';
+$t[25] = 'I oni su zbog grijehova svojih potopljeni i u vatru će biti uvedeni i nikoga sebi, osim Allaha, kao pomagača neće naći.';
+$t[26] = 'I Nuh reče: &quot;Gospodaru moj, ne ostavi na Zemlji nijednog nevjernika,';
+$t[27] = 'jer, ako ih ostavi&scaron;, oni će robove Tvoje u zabludu zavoditi i samo će grje&scaron;nika i nevjernika rađati!';
+$t[28] = 'Gospodaru moj, oprosti meni, i roditeljima mojim, i onome koji kao vjernik u dom moj uđe, i vjernicima i vjernicama, a nevjernicima samo propast povećaj!&quot;';
+?>

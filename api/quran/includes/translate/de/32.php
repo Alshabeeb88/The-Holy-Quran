@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alif Lam Mim.';
+$t[2] = 'Die Herabsendung des Buches - an ihm ist kein Zweifel m&ouml;glich - ist vom Herrn der Welten.';
+$t[3] = 'Oder sagen sie: &laquo;Er hat es erdichtet&raquo;? Nein, es ist die Wahrheit vor deinem Herrn, damit du Leute warnst, zu denen vor dir noch kein Warner gekommen ist, auf da&szlig; sie der Rechtleitung folgen.';
+$t[4] = 'Gott ist es, der die Himmel und die Erde und das, was dazwischen ist, in sechs Tagen erschaffen und sich dann auf dem Thron zurechtgesetzt hat. Ihr habt au&szlig;er Ihm weder Freund noch F&uuml;rsprecher. Wollt ihr es denn nicht bedenken?';
+$t[5] = 'Er regelt die Angelegenheit vom Himmel bis zur Erde. Dann steigt sie zu Ihm empor an einem Tag, dessen Ausma&szlig; nach eurer Berechnung tausend Jahre sind.';
+$t[6] = 'Jener ist der, der &uuml;ber das Unsichtbare und das Offenbare Bescheid wei&szlig;, der M&auml;chtige, der Barmherzige,';
+$t[7] = 'Der alles, was Er erschaffen hat, gut gemacht hat. Zuerst erschuf Er den Menschen aus Ton,';
+$t[8] = 'Dann machte Er seine Nachkommenschaft aus dem Ergu&szlig; eines ver&auml;chtlichen Wassers.';
+$t[9] = 'Dann formte Er ihn und blies ihm von seinem Geist ein. Und Er machte euch Geh&ouml;r, Augenlicht und Herz. Ihr seid aber wenig dankbar.';
+$t[10] = 'Und sie sagen: &laquo;Sollen wir, wenn wir uns in der Erde verirrt haben, wirklich wieder neu erschaffen werden?&raquo; Nein, sie verleugnen die Begegnung mit ihrem Herrn.';
+$t[11] = 'Sprich: Abberufen wird euch der Engel des Todes, der mit euch betraut ist. Dann werdet ihr zu eurem Herrn zur&uuml;ckgebracht.';
+$t[12] = 'K&ouml;nntest du nur sehen, wenn die &Uuml;belt&auml;ter vor ihrem Herrn die K&ouml;pfe h&auml;ngenlassen: &laquo;Unser Herr, jetzt haben wir gesehen und geh&ouml;rt. Bring uns zur&uuml;ck, so wollen wir Gutes tun. Wir hegen nun Gewi&szlig;heit&raquo;!';
+$t[13] = 'Und wenn Wir gewollt h&auml;tten, h&auml;tten Wir jedem Menschen seine Rechtleitung zukommen lassen. Aber der Spruch von Mir ist zu Recht f&auml;llig geworden: &laquo;F&uuml;llen werde Ich die H&ouml;lle mit den Djinn und den Menschen allen.&raquo;';
+$t[14] = 'So kostet es daf&uuml;r, da&szlig; ihr die Begegnung mit diesem eurem Tag vergessen habt. Wir haben euch (auch) vergessen. Kostet die Pein der Ewigkeit f&uuml;r das, was ihr zu tun pflegtet.';
+$t[15] = 'Nur die glauben an unsere Zeichen, die, wenn sie damit ermahnt werden, in Anbetung niederfallen und das Lob ihres Herrn singen, und die nicht hochm&uuml;tig sind.';
+$t[16] = 'Ihre Seiten halten sich fern von den Schlafst&auml;tten. Sie rufen ihren Herrn in Furcht und Begehren an und spenden von dem, was Wir ihnen beschert haben.';
+$t[17] = 'Und niemand wei&szlig;, welche Freuden f&uuml;r sie im Verborgenen bestimmt sind als Lohn f&uuml;r das, was sie zu tun pflegten.';
+$t[18] = 'Ist denn derjenige, der gl&auml;ubig ist, wie der, der ein Frevler ist? Sie sind eben nicht gleich.';
+$t[19] = 'Diejenigen, die glauben und die guten Werke tun, erhalten die G&auml;rten der Heimst&auml;tte als Herberge f&uuml;r das, was sie zu tun pflegten.';
+$t[20] = 'Denjenigen aber, die freveln, dient das Feuer zur Heimst&auml;tte. Sooft sie aus ihm herauskommen wollen, werden sie zu ihm zur&uuml;ckgebracht, und es wird zu ihnen gesagt: &laquo;Kostet die Pein des Feuers, die ihr immer wieder f&uuml;r L&uuml;ge erkl&auml;rt habt.&raquo;';
+$t[21] = 'Und Wir werden sie vor der gr&ouml;&szlig;eren Pein etwas von der diesseitigen Pein kosten lassen, auf da&szlig; sie dann umkehren.';
+$t[22] = 'Und wer ist ungerechter als der, der mit den Zeichen seines Herrn ermahnt wird und sich dann von ihnen abwendet? Wir werden uns an den &Uuml;belt&auml;tern r&auml;chen.';
+$t[23] = 'Und Wir haben Mose das Buch zukommen lassen. So sei nicht im Zweifel &uuml;ber die Begegnung mit Ihm. Und Wir haben es zu einer Rechtleitung f&uuml;r die Kinder Israels gemacht.';
+$t[24] = 'Und Wir haben aus ihren Reihen Vorbilder bestellt, die (sie) nach unserem Befehl leiteten, als sie sich geduldig gezeigt hatten und &uuml;ber unsere Zeichen Gewi&szlig;heit hegten.';
+$t[25] = 'Wahrlich, dein Herr wird um Tag der Auferstehung zwischen ihnen &uuml;ber das entscheiden, wor&uuml;ber sie uneins waren.';
+$t[26] = 'Ist es ihnen nicht aufgegangen, wie viele Generationen, in deren Wohnungen sie nun schreiten, Wir vor ihnen haben verderben lassen? Darin sind Zeichen. Wollen sie denn nicht h&ouml;ren?';
+$t[27] = 'Haben sie nicht gesehen, da&szlig; Wir das Wasser zum d&uuml;rren Land treiben und dadurch Getreide hervorbringen, das ihr Vieh und sie selbst verzehren? Wollen sie denn nicht einsichtig sein?';
+$t[28] = 'Und sie sagen: &laquo;Wann wird dieser Richterspruch eintreten, so ihr die Wahrheit sagt?&raquo;';
+$t[29] = 'Sprich: Am Tag des Richterspruchs wird denen, die ungl&auml;ubig waren, ihr Glaube nicht (mehr) n&uuml;tzen. Und ihnen wird kein Aufschub gew&auml;hrt.';
+$t[30] = 'So wende dich ab von ihnen und warte ab. Sie warten auch selbst ab.';
+?>

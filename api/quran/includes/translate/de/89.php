@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Bei der Morgenr&ouml;te';
+$t[2] = 'Und den zehn N&auml;chten,';
+$t[3] = 'Und der geraden und der ungeraden (Zahl),';
+$t[4] = 'Und der Nacht, wenn sie dahingeht!';
+$t[5] = 'Ist darin wohl ein (ausreichender) Schwur f&uuml;r den, der Verstand hat?';
+$t[6] = 'Hast du nicht gesehen, wie dein Herr an den Aad gehandelt hat,';
+$t[7] = '(der Stadt) Iram, ber&uuml;hmt f&uuml;r ihre S&auml;ulen,';
+$t[8] = 'Dergleichen nicht erschaffen wurde in den L&auml;ndern?';
+$t[9] = 'Und an den Thamud, die im Tal die Felsen aushauten?';
+$t[10] = 'Und an Pharao, dem Besitzer der Pf&auml;hle?';
+$t[11] = 'Sie zeigten im Land ein &Uuml;berma&szlig; an Frevel';
+$t[12] = 'Und stifteten darin viel Unheil.';
+$t[13] = 'Da lie&szlig; dein Herr auf sie die Gei&szlig;el einer (schlimmen) Pein fallen.';
+$t[14] = 'Dein Herr liegt auf der Lauer.';
+$t[15] = 'Aber der Mensch, wenn sein Herr ihn pr&uuml;ft und gro&szlig;z&uuml;gig behandelt und ihm ein angenehmes Leben schenkt, sagt: &laquo;Mein Herr behandelt mich gro&szlig;z&uuml;gig.&raquo;';
+$t[16] = 'Wenn Er ihn aber pr&uuml;ft und ihm seinen Lebensunterhalt bemessen zuteilt, sagt er: &laquo;Mein Herr l&auml;&szlig;t mich Schmach erleiden.&raquo;';
+$t[17] = 'Aber nein, ihr behandelt die Waise nicht gro&szlig;z&uuml;gig,';
+$t[18] = 'Und ihr haltet nicht zur Speisung des Bed&uuml;rftigen an.';
+$t[19] = 'Ihr verzehrt das Erbe ohne Unterschied.';
+$t[20] = 'Und ihr hegt f&uuml;r den Besitz eine allzu gro&szlig;e Liebe.';
+$t[21] = 'Nein, wenn die Erde ganz zu Staub gemacht wird';
+$t[22] = 'Und dein Herr kommt, und die Engel in Reihen, die eine hinter der anderen,';
+$t[23] = 'Und die H&ouml;lle an jenem Tag herbeigebracht wird, an jenem Tag wird der Mensch es bedenken. Was soll ihm aber dann das Bedenken?';
+$t[24] = 'Er sagt: &laquo;O h&auml;tte ich doch f&uuml;r mein Leben (hier) etwas vorausgeschickt!&raquo;';
+$t[25] = 'Niemand kann an jenem Tag peinigen, so wie Er peinigt,';
+$t[26] = 'Und niemand kann fesseln, so wie Er fesselt.';
+$t[27] = '- O du Seele, die du Ruhe gefunden hast,';
+$t[28] = 'Kehre zu deinem Herrn zufrieden und von seinem Wohlgefallen begleitet zur&uuml;ck.';
+$t[29] = 'Tritt in die Reihen meiner Diener ein,';
+$t[30] = 'Und tritt ein in mein Paradies.';
+?>

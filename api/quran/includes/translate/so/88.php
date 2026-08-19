@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Ma ku soo gadhay Qiyaamada warkeedii.';
+$t[2] = 'Wajiyaal Maalintaas way dullaysnaan.';
+$t[3] = 'Waxayna qaban Shaqo dhib ah.';
+$t[4] = 'Waxayna gali Naar kulul.';
+$t[5] = 'Waxaana laga waraabin il kulayl daran.';
+$t[6] = 'Wax cunto ahna kama helaan oon ahayn cunno xun (oo wax dhibta).';
+$t[7] = 'Taasoon waxna cayilinhaynin Gaajana wax ka taraynin.';
+$t[8] = 'Wajiyaalna maalintaas way Nicmaysnaan (Waa mu\'miniinta).';
+$t[9] = 'Waxayna ka raalli noqotay camalkeedii.';
+$t[10] = 'Janno sarana way gali.';
+$t[11] = 'Kumana maqasho Jannada hadal macna darro.';
+$t[12] = 'Waxaana ah dhexdeed il socota.';
+$t[13] = 'iyo Sariiro la koryeelay.';
+$t[14] = 'Iyo koobab la hor dhigay (ehlu Jannaha).';
+$t[15] = 'Iyo Barkimooyin la safay.';
+$t[16] = 'Iyo gogol la fidiyay.';
+$t[17] = 'Miyayna fiirinaynin sida Deela loo abuuray.';
+$t[18] = 'Iyo sida Samada loo koryeelay.';
+$t[19] = 'Iyo sida Ruuraha loo taagay,';
+$t[20] = 'Iyo sida dhulka loo fidiyay.';
+$t[21] = 'Ee Waani dadka waxaad tahay waaniyee (Nabiyow).';
+$t[22] = 'Mana tihid mid xoog ku leh (qasab).';
+$t[23] = 'Hase yeeshee Ruuxii xaqa ka jeedsada oo Gaalooba (ku soo celi xaqa).';
+$t[24] = 'Eebana wuu caddibi Caddibaadda u wayn.';
+$t[25] = 'Xagganagayna u soo noqon (khalqigu).';
+$t[26] = 'Annagaana xisaabin.';
+?>

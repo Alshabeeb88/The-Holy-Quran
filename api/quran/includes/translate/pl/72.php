@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'M&oacute;w: &quot;Zostało mi objawione, że pewna grupa dżin&oacute;w przysłuchiwała się, i wtedy powiedzieli: Zaprawdę, słyszeliśmy cudowny Koran,';
+$t[2] = 'Kt&oacute;ry prowadzi ku prawości; więc uwierzyliśmy w niego i nie będziemy dodawać nikogo za wsp&oacute;łtowarzysza naszemu Panu.';
+$t[3] = 'On - niech będzie wywyższony majestat naszego Pana! - nie przybrał sobie ani towarzyszki, ani dziecka.';
+$t[4] = 'Głupiec spośr&oacute;d nas m&oacute;wił przeciwko Bogu obraźliwe kłamstwo,';
+$t[5] = 'A sądziliśmy, że ani ludzie, ani dżiny nie będą m&oacute;wić przeciwko Bogu kłamstwa.';
+$t[6] = 'I mężczyźni spośr&oacute;d rodzaju ludzkiego szukali opieki u mężczyzn spośr&oacute;d dżin&oacute;w, a ci jeszcze powiększyli ich szaleństwo.';
+$t[7] = 'Oni myśleli, jak i wy myślicie, że B&oacute;g nie wskrzesi nikogo.';
+$t[8] = 'A my dotknęliśmy nieba i znaleźliśmy je wypełnione strażami i płomieniami ognia.';
+$t[9] = 'Usiedliśmy tam na miejscach do siedzenia, aby słuchać; lecz ten, kto się przysłuchuje teraz, znajduje płomień w zasadzce.';
+$t[10] = 'I my nie wiemy, czy chciano zła dla tych na ziemi, czy też chciał dla nich Pan drogi prawości.';
+$t[11] = 'Są wśr&oacute;d nas sprawiedliwi i są wśr&oacute;d nas tacy, kt&oacute;rzy są niżej tego; poszliśmy r&oacute;żnymi drogami.';
+$t[12] = 'I myśleliśmy, że nie potrafimy nigdy uczynić Boga bezsilnym na ziemi; i nie potrafimy nigdy uczynić Go bezsilnym, uciekając.';
+$t[13] = 'Kiedy posłyszeliśmy o drodze prostej, uwierzyliśmy w Niego; a kto uwierzy w swego Pana, nie obawia się ani obrazy, ani ucisku.';
+$t[14] = 'Są wśr&oacute;d nas poddani całkowicie Bogu i są wśr&oacute;d nas zbuntowani. A ten, kto się poddał całkowicie - wybrał sobie drogę prawości;';
+$t[15] = 'Zaś ci zbuntowani - są drewnem dla Gehenny.&quot;';
+$t[16] = 'A jeśliby oni utrzymali się prosto na drodze, to napoilibyśmy ich wodą obfitą,';
+$t[17] = 'Aby ich przez to doświadczyć. A kto odsuwa się od wspomnienia swego Pana, tego poprowadzi On do cierpienia ciągle wzrastającego.';
+$t[18] = 'Miejsca oddawania czci są tylko dla Boga. Nie wzywajcie więc nikogo wraz z Bogiem!';
+$t[19] = 'I kiedy podni&oacute;sł się sługa Boga, modląc się do Niego, to oni zebrali się tłumnie wok&oacute;ł niego, omal go nie dusząc.';
+$t[20] = 'M&oacute;w: &quot;Ja wzywam tylko swego Pana i nie dodaję Mu nikogo za wsp&oacute;łtowarzysza.&quot;';
+$t[21] = 'M&oacute;w: &quot;Ja nie rozporządzam dla was ani złem, ani drogą prawości.&quot;';
+$t[22] = 'M&oacute;w: &quot;Nikt mnie nie uchroni przed Bogiem i nie znajdę, poza Nim, miejsca schronienia';
+$t[23] = '- tylko obwieszczenie pochodzące od Boga i Jego posłannictwa. A wszyscy, kt&oacute;rzy zbuntują się przeciw Bogu i Jego Posłańcowi, to, zaprawdę, dla nich będzie ogień Gehenny - oni tam będą przebywać nieśmiertelni na zawsze.';
+$t[24] = 'A kiedy w końcu zobaczą to, co im zostało obiecane, wtenczas się dowiedzą, kto jest słabszy, jeśli chodzi o pomocnika, kto jest mniejszy, jeśli chodzi o liczbę.&quot;';
+$t[25] = 'M&oacute;w: &quot;Nie wiem, czy bliskie jest to, co wam zostało obiecane, czy też m&oacute;j Pan ustanowi jakiś termin.';
+$t[26] = 'On zna dobrze to, co skryte, i nie ujawni nikomu, co u Niego jest skryte,';
+$t[27] = 'Jedynie posłańcowi, kt&oacute;rego Sobie upodobał. I, zaprawdę, On prowadzi przed nim i za nim straż,';
+$t[28] = 'Aby wiedział,. czy posłańcy przekazują posłannictwa swego Pana. On obejmuje wszystkie ich czyny i wyliczył każdą rzecz liczbą.';
+?>

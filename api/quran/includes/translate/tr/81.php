@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'G&uuml;nes katlanip d&uuml;r&uuml;ld&uuml;g&uuml;nde,';
+$t[2] = 'Yildizlar bulandiginda,';
+$t[3] = 'Daglar y&uuml;r&uuml;t&uuml;ld&uuml;g&uuml;nde,';
+$t[4] = 'Kiyilmaz mallar birakildiginda,';
+$t[5] = 'Vahsi hayvanlar bir araya toplandiginda,';
+$t[6] = 'Denizler ateslendiginde (sulari &ccedil;ekilip, volkanlar halinde ates p&uuml;sk&uuml;rd&uuml;g&uuml;nde),';
+$t[7] = 'Nefisler eslestirildiginde (iyiler iyilerle, k&ouml;t&uuml;ler k&ouml;t&uuml;lerle bir araya toplandiginda),';
+$t[8] = 'Diri diri topraga g&ouml;m&uuml;len kiza soruldugunda,';
+$t[9] = '&quot;Hangi g&uuml;nahtan dolayi &ouml;ld&uuml;r&uuml;ld&uuml;?&quot; diye.';
+$t[10] = 'Amel defterleri a&ccedil;ildiginda,';
+$t[11] = 'G&ouml;k siyrilip a&ccedil;ildiginda,';
+$t[12] = 'Cehennem kizistirildiginda,';
+$t[13] = 'Ve cennet yaklastirildiginda,';
+$t[14] = 'Herkes ne getirmis oldugunu anlar.';
+$t[15] = 'Simdi yemin ederim o sinenlere (g&uuml;nd&uuml;zleri g&ouml;zden kaybolan yildizlara),';
+$t[16] = 'O akip akip yuvasina gidenlere,';
+$t[17] = 'Y&ouml;neldigi an geceye,';
+$t[18] = 'Nefeslendigi (agardigi) an sabaha ki,';
+$t[19] = 'Kuskusuz o Kur\'an, degerli bir el&ccedil;inin s&ouml;z&uuml;d&uuml;r.';
+$t[20] = 'O el&ccedil;i g&uuml;&ccedil;l&uuml;d&uuml;r, Ars\'in sahibinin yaninda &ccedil;ok itibarlidir.';
+$t[21] = 'Orada ona itaat edilir, g&uuml;venilir.';
+$t[22] = 'Arkadasinizi cin &ccedil;arpmis degildir.';
+$t[23] = 'Andolsun o, Cebrail\'i a&ccedil;ik ufukta g&ouml;rd&uuml;.';
+$t[24] = 'O, gayb hakkinda cimri de degildir.';
+$t[25] = 'O, kovulmus bir seytanin s&ouml;z&uuml; degildir.';
+$t[26] = 'H&acirc;l b&ouml;yle iken, siz nereye gidiyorsunuz?';
+$t[27] = 'O, &acirc;lemler i&ccedil;in &ouml;g&uuml;tten baska bir sey degildir,';
+$t[28] = 'I&ccedil;inizden dogru gitmek isteyenler i&ccedil;in.';
+$t[29] = '&Acirc;lemlerin Rabbi olan Allah dilemeyince, siz dileyemezsiniz.';
+?>

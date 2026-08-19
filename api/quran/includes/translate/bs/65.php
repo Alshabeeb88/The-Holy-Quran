@@ -1,0 +1,15 @@
+<?php
+$t = array();
+$t[1] = 'O Vjerovjesniče, kada htjednete žene pustiti, vi ih u vrijeme kada su čiste pustite, a onda vrijeme koje treba proći brojte i Allaha, Gospodara svoga, bojte se. Ne tjerajte ih iz stanova njihovih, a ni one neka ne izlaze, osim ako očito sramno djelo učine. To su Allahovi propisi. Onaj koji Allahove propise kr&scaron;i &ndash; s&acirc;m sebi nepravdu čini. Ti ne zna&scaron;, Allah može poslije toga priliku pružiti.';
+$t[2] = 'I dok traje vrijeme određeno za čekanje, vi ih ili na lijep način zadržite ili se velikodu&scaron;no od njih konačno rastavite i kao svjedoke dvojicu va&scaron;ih pravednih ljudi uzmite, i svjedočenje Allaha radi obavite! To je savjet za onoga koji u Allaha i u onaj svijet vjeruje &ndash; a onome koji se Allaha boji, On će izlaz naći';
+$t[3] = 'i opskrbiće ga odakle se i ne nada; onome koji se u Allaha uzda, On mu je dosta. Allah će, zaista, ispuniti ono &scaron;to je odlučio; Allah je svemu već rok odredio.';
+$t[4] = 'A one žene va&scaron;e koje su nadu u mjesečno pranje izgubile i one koje ga nisu ni dobile, one trebaju čekati tri mjeseca, ako niste znali. Trudne žene čekaju sve dok ne rode. &ndash; A onome ko se Allaha boji, On će sve &scaron;to mu treba učiniti dostupnim.';
+$t[5] = 'To su, eto, Allahovi propisi, koje vam On objavljuje. A onome ko se bude Allaha bojao &ndash; On će preko ružnih postupaka njegovih preći i jo&scaron; mu veliku nagradu dati.';
+$t[6] = 'Njih ostavite da stanuju tamo gdje i vi stanujete, prema svojim mogućnostima, i ne činite im te&scaron;koće zato da biste ih stijesnili. Ako su trudne, dajte im izdržavanje sve dok se ne porode, a ako vam djecu doje, onda im dajte zasluženu nagradu sporazumjev&scaron;i se međusobno na lijep način. A ako nastanu razmirice, neka mu onda druga doji dijete.';
+$t[7] = 'Neka imućan prema bogatstvu svome tro&scaron;i, a onaj koji je u oskudici &ndash; prema tome koliko mu je Allah dao, jer Allah nikoga ne zadužuje vi&scaron;e nego &scaron;to mu je dao; Allah će, sigurno, poslije tegobe, last dati.';
+$t[8] = 'A koliko se sela i gradova oglu&scaron;ilo o naređenje Gospodara njihova i poslanīkā Njegovih; Mi ćemo od njih zatražiti da nam potanko račun polože i užasnom kaznom ćemo ih kazniti;';
+$t[9] = 'oni će pogubnost postupaka svojih iskusiti i propast će njihov kraj biti.';
+$t[10] = 'Allah je za njih neizdržljivu patnju pripremio, zato se bojte Allaha, o vi koji ste razumom obdareni, vi koji vjerujete! Allah vam je već poslao slavu,';
+$t[11] = 'Poslanika, koji vam Allahove ajete jasne kazuje, da bi iz tmina na svjetlo izveo one koji vjeruju i dobra djela čine. A onoga koji bude u Allaha vjerovao i dobro činio &ndash; uve&scaron;će u džennetske ba&scaron;če, kroz koje će rijeke teći, i vječno i zauvijek će u njima ostati, divnu će mu opskrbu Allah davati.';
+$t[12] = 'Allah je sedam nebesa i isto toliko zemalja stvorio; Njegovo naređenje na sve se njih odnosi, a nek znate da je Allah kadar sve i da Allah znanjem Svojim sve obuhvaća!';
+?>

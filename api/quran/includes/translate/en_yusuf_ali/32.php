@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'A. L. M.';
+$t[2] = '(This is) the Revelation of the Book in which there is no doubt,- from the Lord of the Worlds.';
+$t[3] = 'Or do they say, &quot;He has forged it&quot;? Nay, it is the Truth from thy Lord, that thou mayest admonish a people to whom no warner has come before thee: in order that they may receive guidance.';
+$t[4] = 'It is Allah Who has created the heavens and the earth, and all between them, in six Days, and is firmly established on the Throne (of Authority): ye have none, besides Him, to protect or intercede (for you): will ye not then receive admonition?';
+$t[5] = 'He rules (all) affairs from the heavens to the earth: in the end will (all affairs) go up to Him, on a Day, the space whereof will be (as) a thousand years of your reckoning.';
+$t[6] = 'Such is He, the Knower of all things, hidden and open, the Exalted (in power), the Merciful;-';
+$t[7] = 'He Who has made everything which He has created most good: He began the creation of man with (nothing more than) clay,';
+$t[8] = 'And made his progeny from a quintessence of the nature of a fluid despised:';
+$t[9] = 'But He fashioned him in due proportion, and breathed into him something of His spirit. And He gave you (the faculties of) hearing and sight and feeling (and understanding): little thanks do ye give!';
+$t[10] = 'And they say: &quot;What! when we lie, hidden and lost, in the earth, shall we indeed be in a Creation renewed? Nay, they deny the Meeting with their Lord.';
+$t[11] = 'Say: &quot;The Angel of Death, put in charge of you, will (duly) take your souls: then shall ye be brought back to your Lord.&quot;';
+$t[12] = 'If only thou couldst see when the guilty ones will bend low their heads before their Lord, (saying:) &quot;Our Lord! We have seen and we have heard: Now then send us back (to the world): we will work righteousness: for we do indeed (now) believe.&quot;';
+$t[13] = 'If We had so willed, We could certainly have brought every soul its true guidance: but the Word from Me will come true, &quot;I will fill Hell with Jinns and men all together.&quot;';
+$t[14] = '&quot;Taste ye then - for ye forgot the Meeting of this Day of yours, and We too will forget you - taste ye the Penalty of Eternity for your (evil) deeds!&quot;';
+$t[15] = 'Only those believe in Our Signs, who, when they are recited to them, fall down in prostration, and celebrate the praises of their Lord, nor are they (ever) puffed up with pride.';
+$t[16] = 'Their limbs do forsake their beds of sleep, the while they call on their Lord, in Fear and Hope: and they spend (in charity) out of the sustenance which We have bestowed on them.';
+$t[17] = 'Now no person knows what delights of the eye are kept hidden (in reserve) for them - as a reward for their (good) deeds.';
+$t[18] = 'Is then the man who believes no better than the man who is rebellious and wicked? Not equal are they.';
+$t[19] = 'For those who believe and do righteous deeds are Gardens as hospitable homes, for their (good) deeds.';
+$t[20] = 'As to those who are rebellious and wicked, their abode will be the Fire: every time they wish to get away therefrom, they will be forced thereinto, and it will be said to them: &quot;Taste ye the Penalty of the Fire, the which ye were wont to reject as false.&quot;';
+$t[21] = 'And indeed We will make them taste of the Penalty of this (life) prior to the supreme Penalty, in order that they may (repent and) return.';
+$t[22] = 'And who does more wrong than one to whom are recited the Signs of his Lord, and who then turns away therefrom? Verily from those who transgress We shall exact (due) Retribution.';
+$t[23] = 'We did indeed aforetime give the Book to Moses: be not then in doubt of its reaching (thee): and We made it a guide to the Children of Israel.';
+$t[24] = 'And We appointed, from among them, leaders, giving guidance under Our command, so long as they persevered with patience and continued to have faith in Our Signs.';
+$t[25] = 'Verily thy Lord will judge between them on the Day of Judgment, in the matters wherein they differ (among themselves)';
+$t[26] = 'Does it not teach them a lesson, how many generations We destroyed before them, in whose dwellings they (now) go to and fro? Verily in that are Signs: Do they not then listen?';
+$t[27] = 'And do they not see that We do drive rain to parched soil (bare of herbage), and produce therewith crops, providing food for their cattle and themselves? Have they not the vision?';
+$t[28] = 'They say: &quot;When will this decision be, if ye are telling the truth?&quot;';
+$t[29] = 'Say: &quot;On the Day of Decision, no profit will it be to Unbelievers if they (then) believe! nor will they be granted a respite.&quot;';
+$t[30] = 'So turn away from them, and wait: they too are waiting.';
+?>

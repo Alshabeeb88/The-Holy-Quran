@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Bendito seja Aquele em Cujas m&atilde;os est&aacute; a Soberania, e que &eacute; Onipotente;';
+$t[2] = 'Que criou a vida e a morte, para testar quem de v&oacute;s melhor se comporta - porque &eacute; o Poderoso, o Indulgent&iacute;ssimo -,';
+$t[3] = 'Que criou sete c&eacute;us sobrepostos; tu n&atilde;o achar&aacute;s imperfei&ccedil;&atilde;o alguma na cria&ccedil;&atilde;o do Clemente! Volta, pois, a olhar! V&ecirc;s, acaso, alguma fenda?';
+$t[4] = 'Novamente, olha e torna a faz&ecirc;-lo, e o teu olhar voltar&aacute; a ti, confuso e fatigado.';
+$t[5] = 'E adornamos o c&eacute;u aparente com l&acirc;mpadas, e lhes destinamos apedrejarem os dem&ocirc;nios, e preparamos, para eles o supl&iacute;cio do fogo infernal.';
+$t[6] = 'Bem como a pena do inferno, para aqueles que negam o seu Senhor. Que funesto destino!';
+$t[7] = 'Quando nele forem precipitados, ouvi-lo-&atilde;o rugir, borbulhante,';
+$t[8] = 'A ponto de estalar de f&uacute;ria. Cada vez que um grupo (de r&eacute;probos) for precipitado nele, os seus guardi&atilde;es lhes perguntar&atilde;o. Acaso, n&atilde;o vos foi enviado nenhum admoestador?';
+$t[9] = 'Dir&atilde;o: Sim! Foi-nos enviado um admoestador, por&eacute;m desmentimo-lo, dizendo: Deus nada revelou! Estais em grave erro!';
+$t[10] = 'E dir&atilde;o (mais): Se tiv&eacute;ssemos escutado o meditado, n&atilde;o estar&iacute;amos entre os condenados ao t&aacute;rtaro!';
+$t[11] = 'E confessar&atilde;o os seus pecados; an&aacute;tema aos condenados ao t&aacute;rtaro!';
+$t[12] = 'Em verdade aqueles que temerem intimamente o seu Senhor obter&atilde;o indulg&ecirc;ncia e uma grande recompensa.';
+$t[13] = 'Quer faleis privativa ou publicamente, Ele &eacute; Conhecedor das intimidades dos cora&ccedil;&otilde;es.';
+$t[14] = 'Como n&atilde;o haveria de conhec&ecirc;-las o Criados, sendo Ele o Onisciente, o Sutil&iacute;ssimo?';
+$t[15] = 'Ele foi Quem vos fez a terra manej&aacute;vel. Percorrei-a pois, por todos os seus quadrantes e desfrutai das Suas merc&ecirc;s; a Ele ser&aacute; o retorno!';
+$t[16] = 'Estais, acaso, seguros de que Aquele que est&aacute; no c&eacute;u n&atilde;o vos far&aacute; ser tragados pela terra? Ei-la que treme!';
+$t[17] = 'Ou estais seguros de que Aquele que est&aacute; no c&eacute;u n&atilde;o desencadear&aacute; um violento furac&atilde;o sobre v&oacute;s? Logo sabereis como &eacute; a Nossa advert&ecirc;ncia.';
+$t[18] = 'Em verdade, os seus antepassados desmentiram os Meus enviados. Por&eacute;m, que terr&iacute;vel foi a Minha rejei&ccedil;&atilde;o!';
+$t[19] = 'N&atilde;o reparam, acaso, nos p&aacute;ssaros que pairam sobre eles, protraindo e recolhendo as suas asas? Ningu&eacute;m os mant&eacute;m no espa&ccedil;o, sen&atilde;o o Clemente, porque &eacute; Onividente.';
+$t[20] = 'Ou ent&atilde;o, qual &eacute; o ex&eacute;rcito com que contais para socorrer-vos, em vez do Clemente? Em verdade, os incr&eacute;dulos est&atilde;o grandemente iludidos.';
+$t[21] = 'Ou ent&atilde;o, quem ser&aacute; que os sustentar&aacute; se Ele retiver as Suas merc&ecirc;s? N&atilde;o obstante, obstinam-se na perf&iacute;dia e no extravio.';
+$t[22] = 'Quem est&aacute; melhor encaminhado: o que anda, vacilante, pela tortuosidade, ou quem anda, altaneiro, pela senda reta?';
+$t[23] = 'Dize-lhes: Foi Ele Quem vos criou e vos dotou de ouvidos, de vistas e de faculdades. Qu&atilde;o pouco Lhe agradeceis!';
+$t[24] = 'Dize-lhes (mais): Foi Ele Quem vos multiplicou, na terra, e ante Ele sereis congregados.';
+$t[25] = 'Por&eacute;m, perguntaram: Quando se cumprir&aacute; tal promessa? Dizei-nos, se estais certos.';
+$t[26] = 'Responde-lhes: S&oacute; Deus o sabe, e eu sou unicamente um admoestador elucidante.';
+$t[27] = 'Mas, quando o virem (o castigo) de perto, os rostos dos incr&eacute;dulos se ensombrecer&atilde;o e lhes ser&aacute; dito: Aqui tendes o que ped&iacute;eis!';
+$t[28] = 'Dize-lhes: Se Deus me fizesse perecer, juntamente com os meus seguidores ou se se apiedasse de n&oacute;s, quem livraria os incr&eacute;dulos de um doloroso castigo?';
+$t[29] = 'Dize-lhes (mais): Ele &eacute; o Clemente, no Qual cremos e ao Qual nos encomendamos. Logo sabereis quem est&aacute; em erro evidente!';
+$t[30] = 'Dize-lhes (ainda): Que vos parece? Se a vossa &aacute;gua, ao amanhecer, tivesse sido toda absorvida (pela terra), quem faria manar &aacute;gua pot&aacute;vel para v&oacute;s?';
+?>

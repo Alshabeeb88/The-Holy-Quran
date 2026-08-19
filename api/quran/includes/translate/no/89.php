@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Ved morgengryet!';
+$t[2] = 'Ved ti netter!';
+$t[3] = 'Ved det like og det ulike!';
+$t[4] = 'Ved natten n&aring;r den svinner hen!';
+$t[5] = 'Er det ikke i dette en ed for den som har innsikt?';
+$t[6] = 'Du har vel sett hva Herren gjorde med folket Ad?';
+$t[7] = 'Med det s&oslash;ylerike Iram,';
+$t[8] = 'hvis like ikke er skapt i verden?';
+$t[9] = 'Og med folket Thamod, som hugget seg inn i fjellsiden i dalen?';
+$t[10] = 'Og Farao, han med pyramidene?';
+$t[11] = 'De som vandret i overmot p&aring; jorden,';
+$t[12] = 'og spredte ufred og fordervelse?';
+$t[13] = 'Men Herren lot tuktens svepe ramme dem!';
+$t[14] = 'Herren er p&aring; vakt!';
+$t[15] = 'N&aring;r Herren setter mennesket p&aring; pr&oslash;ve ved &aelig;re og velstand, sier det: &laquo;Herren har hedret meg!&raquo;';
+$t[16] = 'Men hvis Han setter det p&aring; pr&oslash;ve ved &aring; utm&aring;le knapt hans levem&aring;te, s&aring; sier det: &laquo;Herren ringeakter meg!&raquo;';
+$t[17] = 'Nei, sannelig, men dere hedrer ikke den faderl&oslash;se';
+$t[18] = 'og ansporer ikke til &aring; gi den fattige mat,';
+$t[19] = 'dere sluker gr&aring;dig hans lille arv.';
+$t[20] = 'Dere elsker rikdom over all m&aring;te.';
+$t[21] = 'Nei, sannelig! N&aring;r jorden jevnes til st&oslash;v,';
+$t[22] = 'n&aring;r Herren kommer, og englene, rekke etter rekke,';
+$t[23] = 'n&aring;r helvete bringes frem, p&aring; denne dag vil mennesket saktens erindre. Men hva tjener det da til med ettertanke?';
+$t[24] = 'Og det vil si: &laquo;Om jeg bare hadde sendt i forveien noe godt for mitt liv!&raquo;';
+$t[25] = 'Ingen kan straffe som Han gj&oslash;r p&aring; denne dag.';
+$t[26] = 'Ingen lenker slik som Han.';
+$t[27] = 'Du sjel, som har ro og harmoni,';
+$t[28] = 'vend tilbake til din Herre tilfreds og godtatt:';
+$t[29] = 'G&aring; inn blant Mine tjenere!';
+$t[30] = 'G&aring; inn i Mitt paradis!';
+?>

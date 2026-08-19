@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'When the sun is wrapped up [in darkness]';
+$t[2] = 'And when the stars fall, dispersing,';
+$t[3] = 'And when the mountains are removed';
+$t[4] = 'And when full-term she-camels are neglected';
+$t[5] = 'And when the wild beasts are gathered';
+$t[6] = 'And when the seas are filled with flame';
+$t[7] = 'And when the souls are paired';
+$t[8] = 'And when the girl [who was] buried alive is asked';
+$t[9] = 'For what sin she was killed';
+$t[10] = 'And when the pages are made public';
+$t[11] = 'And when the sky is stripped away';
+$t[12] = 'And when Hellfire is set ablaze';
+$t[13] = 'And when Paradise is brought near,';
+$t[14] = 'A soul will [then] know what it has brought [with it].';
+$t[15] = 'So I swear by the retreating stars -';
+$t[16] = 'Those that run [their courses] and disappear -';
+$t[17] = 'And by the night as it closes in';
+$t[18] = 'And by the dawn when it breathes';
+$t[19] = '[That] indeed, the Qur\'an is a word [conveyed by] a noble messenger';
+$t[20] = '[Who is] possessed of power and with the Owner of the Throne, secure [in position],';
+$t[21] = 'Obeyed there [in the heavens] and trustworthy.';
+$t[22] = 'And your companion is not [at all] mad.';
+$t[23] = 'And he has already seen Gabriel in the clear horizon.';
+$t[24] = 'And Muhammad is not a withholder of [knowledge of] the unseen.';
+$t[25] = 'And the Qur\'an is not the word of a devil, expelled [from the heavens].';
+$t[26] = 'So where are you going?';
+$t[27] = 'It is not except a reminder to the worlds';
+$t[28] = 'For whoever wills among you to take a right course.';
+$t[29] = 'And you do not will except that Allah wills - Lord of the worlds.';
+?>

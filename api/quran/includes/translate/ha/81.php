@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Idan r&atilde;na aka shafe haskenta';
+$t[2] = 'Kuma idan taur&atilde;ri suka gurɓ&atilde;ce (wani ya shiga a cikin wani).';
+$t[3] = 'Kuma idan duw&atilde;tsu aka tafiyar da su.';
+$t[4] = 'Kuma idan r&atilde;ƙuma m&atilde;su cikunna aka sakẽ su w&atilde;wai, b&atilde; ga k&otilde;wa ba.';
+$t[5] = 'Kuma idan dabb&otilde;bin d&atilde;ji aka tattara su.';
+$t[6] = 'Kuma idan tẽkuna aka mayar da su wuta.';
+$t[7] = 'Kuma idan r&atilde;yuka aka haɗa su da jikunkunansu.';
+$t[8] = 'Kuma idan wadda aka turbuɗe ta da rai aka tambaye ta.';
+$t[9] = '&quot;Sab&otilde;da wane laifi ne aka kashe ta?&quot;';
+$t[10] = 'Idan takardun ayyuka aka w&atilde;tsa su (ga m&atilde;su su).';
+$t[11] = 'Kuma idan sama aka fẽɗe ta.';
+$t[12] = 'Kuma idan Jahĩm aka hũra ta';
+$t[13] = 'Kuma idan Aljanna aka kusantar da ita.';
+$t[14] = 'Rai ya san abin da ya halartar (a r&atilde;nar nan).';
+$t[15] = 'To, ba sai Na yi rantsuwa da taur&atilde;ri mataf&atilde; ba.';
+$t[16] = 'M&atilde;su gudu suna ɓũya.';
+$t[17] = 'Da dare idan ya b&atilde;yar da b&atilde;ya.';
+$t[18] = 'Da s&atilde;fiya idan ta yi lumfashi.';
+$t[19] = 'Lalle ne shi (Alƙur\'&atilde;ni) haƙƙan, maganar wani manzon (Allah) ne mai girma ga Allah.';
+$t[20] = 'Mai ƙarfi, mai daraja a wurin Mai Al\'arshi.';
+$t[21] = 'Wanda ake yi wa ɗ&atilde;\'a (wato shugaban mal&atilde;\'iku) ne a can, amintacce.';
+$t[22] = 'Kuma abokinku ba mahaukaci ba ne.';
+$t[23] = 'Kuma lalle ne, y&atilde; gan shi a cikin sararin sama mabayyani.';
+$t[24] = 'Kuma shi, ga gaibi b&atilde; mai rowa ba ne.';
+$t[25] = 'Kuma shi (Alƙur\'ani) b&atilde; maganar shaiɗani, wanda aka la\'ana, ba ce.';
+$t[26] = 'Shin, a in&atilde; z&atilde; ku tafi?';
+$t[27] = 'Lalle ne shi (Alƙur\'&atilde;ni), b&atilde; k&otilde;me ba ne f&atilde;ce gargaɗi ga talikai.';
+$t[28] = 'Ga wanda ya so, daga cikinku, ya shiryu.';
+$t[29] = 'Kuma b&atilde; z&atilde; ku so ba sai idan Allah Ubangijin halitta Y&atilde; yarda.';
+?>

@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Porventura, chegou-te a not&iacute;cia do evento assolador?';
+$t[2] = 'Haver&aacute; rostos humildes, nesse dia,';
+$t[3] = 'Fatigados, abatidos,';
+$t[4] = 'Chamuscados, pelo fogo abrasador!';
+$t[5] = 'Ser-lhes-&aacute; dado a beber de um manancial fervente;';
+$t[6] = 'N&atilde;o ter&atilde;o, por alimento, nada al&eacute;m de frutos amargos e espinhosos,';
+$t[7] = 'Que n&atilde;o os alimentar&aacute;, nem lhes saciar&atilde;o a fome!';
+$t[8] = '(Outros) rostos, nesse dia, estar&atilde;o calmos,';
+$t[9] = 'Contentes, por seus (passados) esfor&ccedil;os;';
+$t[10] = 'Estar&atilde;o em um jardim suspenso,';
+$t[11] = 'Onde n&atilde;o ouvir&atilde;o futilidade alguma;';
+$t[12] = 'Nele haver&aacute; um manancial fluente,';
+$t[13] = 'Nele haver&aacute; leitos elevados,';
+$t[14] = 'E ta&ccedil;as, ao alcance da m&atilde;o.';
+$t[15] = 'E almofadas enfileiradas,';
+$t[16] = 'E tapetes de seda estendidos.';
+$t[17] = 'Porventura, n&atilde;o reparam nos camel&iacute;deos, como s&atilde;o criados?';
+$t[18] = 'E no c&eacute;u, como foi elevado?';
+$t[19] = 'E nas montanhas, como foram fixadas?';
+$t[20] = 'E na terra, como foi dilatada?';
+$t[21] = 'Admoesta, pois, porque &eacute;s t&atilde;o-somente um admoestador!';
+$t[22] = 'N&atilde;o &eacute;s, de maneira alguma, guardi&atilde;o deles.';
+$t[23] = 'E, &agrave;quele que te for adverso e incr&eacute;dulo,';
+$t[24] = 'Deus infligir&aacute; o maior castigo.';
+$t[25] = 'Em verdade, o seu retorno ser&aacute; para N&oacute;s;';
+$t[26] = 'E o seu c&ocirc;mputo Nos concerne.';
+?>

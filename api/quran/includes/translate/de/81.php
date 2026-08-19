@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Wenn die Sonne (von einer H&uuml;lle) umwunden wird,';
+$t[2] = 'Und wenn die Sterne herabst&uuml;rzen,';
+$t[3] = 'Und wenn die Berge versetzt werden,';
+$t[4] = 'Und wenn die im zehnten Monat stehenden Kamelstuten vernachl&auml;ssigt werden,';
+$t[5] = 'Und wenn die wilden Tiere versammelt werden,';
+$t[6] = 'Und wenn die Meere angef&uuml;llt werden,';
+$t[7] = 'Und wenn die Seelen zu ihren Partnern gesellt werden,';
+$t[8] = 'Und wenn das M&auml;dchen, das verscharrt wurde, gefragt wird,';
+$t[9] = 'Wegen welcher S&uuml;nde es denn get&ouml;tet wurde,';
+$t[10] = 'Und wenn die Bl&auml;tter ausgebreitet werden,';
+$t[11] = 'Und wenn der Himmel (wie ein Fell) abgezogen wird,';
+$t[12] = 'Und wenn die H&ouml;lle angefacht wird,';
+$t[13] = 'Und wenn das Paradies herangebracht wird,';
+$t[14] = 'Dann wird jeder erfahren, was er vorgebracht hat.';
+$t[15] = 'Nein, Ich schw&ouml;re bei den r&uuml;ckl&auml;ufigen Planeten,';
+$t[16] = 'Die dahineilen und sich in ihrem Bau verbergen,';
+$t[17] = 'Und bei der Nacht, wenn sie an einem Ende steht,';
+$t[18] = 'Und beim Morgen, wenn er anbricht:';
+$t[19] = 'Das ist die Rede eines edlen Gesandten,';
+$t[20] = 'Der Kraft besitzt und beim Herrn des Thrones hochgestellt ist,';
+$t[21] = 'Dem man gehorcht und der treu ist.';
+$t[22] = 'Euer Gef&auml;hrte ist kein Besessener.';
+$t[23] = 'Er hat ihn gewi&szlig; am deutlichen Horizont gesehen,';
+$t[24] = 'Und er h&auml;lt nicht aus Geiz das (ihm offenbarte) Verborgene zur&uuml;ck.';
+$t[25] = 'Das ist nicht die Rede eines gesteinigten Satans.';
+$t[26] = 'Wo geht ihr denn hin?';
+$t[27] = 'Das ist nur eine Ermahnung f&uuml;r die Weltenbewohner,';
+$t[28] = 'F&uuml;r die von euch, die sich recht verhalten wollen.';
+$t[29] = 'Und ihr wollt nicht, es sei denn, Gott will es, (Er), der Herr der Welten.';
+?>

@@ -1,0 +1,21 @@
+<?php
+$t = array();
+$t[1] = 'O, voi cei ce credeţi! Nu o luaţi &icirc;naintea lui Dumnezeu şi a trimisului Său! Temeţi-vă de Dumnezeu! Dumnezeu este Auzitorul, Ştiutorul!';
+$t[2] = 'O, voi cei ce credeţi! Nu vă ridicaţi glasurile peste glasul Profetului şi nu-i vorbiţi &icirc;n gura mare, precum faceţi &icirc;ntre voi, căci deşarte vor fi faptele voastre, fără să vă daţi seama.';
+$t[3] = 'Cei care &icirc;şi coboară &icirc;nsă glasurile &icirc;n preajma trimisului lui Dumnezeu, acelora Dumnezeu le-a pus la &icirc;ncercare inimile &icirc;ntru teamă şi ei vor căpăta iertare şi mare răsplată.';
+$t[4] = 'Cei care te cheamă din afara &icirc;ncăperilor, &icirc;n majoritatea lor, nu au minte.';
+$t[5] = 'Dacă ar răbda p&acirc;nă c&acirc;nd ai ieşi la ei, ar fi mai bine pentru ei. Dumnezeu este Iertător, Milostiv.';
+$t[6] = 'O, voi cei ce credeţi! Dacă un desfr&acirc;nat vă aduce o veste, limpeziţi-o ca să nu loviţi un popor din neştiinţă, iar apoi să vă pară rău de ceea ce-aţi făcut.';
+$t[7] = 'Să ştiţi că &icirc;ntre voi este trimisul lui Dumnezeu. Dacă, &icirc;n multe treburi v-ar da ascultare, voi aţi avea de suferit. Dumnezeu v-a făcut &icirc;nsă să iubiţi credinţa pe care a &icirc;mpodobit-o &icirc;n inimile voastre, precum v-a făcut să ur&acirc;ţi tăgada, desfr&acirc;narea şi neascultarea. Aceştia sunt cei drept călăuziţi';
+$t[8] = 'prin harul lui Dumnezeu şi binefacerea Sa. Dumnezeu este Ştiutor, &Icirc;nţelept.';
+$t[9] = 'Dacă două tabere de credincioşi se războiesc, &icirc;mpăcaţi-le. Dacă una din ele s-a ridicat pe nedrept &icirc;mpotriva celeilalte, luptaţi &icirc;mpotriva celei ce s-a ridicat, p&acirc;nă ce se va pleca &icirc;naintea Poruncii lui Dumnezeu. Dacă se pleacă, &icirc;mpăcaţi-le cu dreptate. Fiţi nepărtinitori! Dumnezeu &icirc;i iubeşte pe cei nepărtinitori!';
+$t[10] = 'Credincioşii sunt fraţi. &Icirc;mpăcaţi-i pe fraţii voştri! Temeţi-vă de Dumnezeu! Poate veţi fi miluiţi!';
+$t[11] = 'O, voi cei ce credeţi! Să nu-şi bată joc unii oameni de alţii care ar putea fi mai buni dec&acirc;t ei. Şi nici unele femei de altele care ar putea fi mai bune dec&acirc;t ele. Nu vă defăimaţi unii pe alţii. Nu vă răniţi unii pe alţii cu porecle. Ce ur&acirc;t este numele rău după credinţă! Cei care nu se căiesc, aceia sunt nedrepţi!';
+$t[12] = 'O, voi cei ce credeţi! Feriţi-vă mult de născociri, căci unele născociri sunt cu păcat. Să nu iscodiţi! Să nu vă vorbiţi de rău unii pe alţii &icirc;n lipsă. I-ar plăcea vreunuia dintre voi să măn&acirc;nce carnea fratelui său mort? Nu, ur&acirc;ţi acest lucru! Temeţi-vă de Dumnezeu! Dumnezeu se &icirc;ntoarce către cel care se căieşte, căci El este Milos.';
+$t[13] = 'O, voi oameni! Noi v-am creat dintr-un bărbat şi o femeie şi v-am făcut popoare şi triburi ca voi să vă cunoaşteţi unii pe alţii. Cel mai cinstit dintre voi &icirc;naintea lui Dumnezeu este cel mai temător. Dumnezeu este Ştiutor, Cunoscător.';
+$t[14] = 'Beduinii spun: &ldquo;Noi credem!&rdquo; Spune: &ldquo;Voi nu credeţi, ci mai bine aţi spune: Noi ne supunem... Credinţa nu a intrat &icirc;ncă &icirc;n inimile voastre!&rdquo; Dacă daţi ascultare lui Dumnezeu şi trimisului Său, Dumnezeu nu vă va micşora din faptele voastre. Dumnezeu este Iertător, Milostiv.';
+$t[15] = 'Credincioşii sunt numai cei care cred &icirc;n Dumnezeu şi &icirc;n trimisul Său şi nu se &icirc;ndoiesc mai apoi şi se luptă pe calea lui Dumnezeu cu averile şi făpturile lor. Aceştia sunt cei sinceri.';
+$t[16] = 'Spune: &ldquo;&Icirc;l &icirc;nvăţaţi pe Dumnezeu legea voastră?&rdquo; Dumnezeu cunoaşte ceea ce este &icirc;n ceruri, precum şi pe păm&acirc;nt.&rdquo; Dumnezeu este Atotştiutor.';
+$t[17] = 'Beduinii vor să le fii recunoscător pentru supunerea lor! Spune: &ldquo;Nu trebuie să vă fiu eu recunoscător pentru supunerea voastră, ci voi trebuie să-I fiţi recunoscători lui Dumnezeu că v-a călăuzit către credinţă, dacă spuneţi adevărul!&rdquo;';
+$t[18] = 'Da, Dumnezeu cunoaşte Taina cerurilor şi a păm&acirc;ntului. Dumnezeu este Văzător a ceea ce făptuiţi.';
+?>

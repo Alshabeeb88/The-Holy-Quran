@@ -1,0 +1,13 @@
+body{ margin:10px 0 0 0; }
+
+div.ayat4tafseer { 
+text-align:justify;
+font: bold 25px KFGQPC_Naskh,'traditional arabic',tahoma; 
+line-height:45px;
+color:#333;
+}
+
+div.ayat4tafseer span { 
+font: normal 20px KFGQPC_Naskh,'traditional arabic',tahoma; 
+color:#A3B926;
+}

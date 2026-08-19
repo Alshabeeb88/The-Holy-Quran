@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Andolsun fecre.';
+$t[2] = 'On geceye (Zilhicce ayinin ilk on gecesine).';
+$t[3] = '&Ccedil;ifte ve teke.';
+$t[4] = 'Gitmekte olan geceye.';
+$t[5] = 'Nasil, bunlarda bir akil sahibi i&ccedil;in yemin var degil mi?';
+$t[6] = 'G&ouml;rmedin mi Rabbin ne yapti &Acirc;d kavmine?';
+$t[7] = 'S&uuml;tunlar sahibi Irem\'e?';
+$t[8] = 'Ki &uuml;lkeler i&ccedil;inde onun benzeri yaratilmamisti.';
+$t[9] = 'V&acirc;dide kayalari yontan Semud kavmine?';
+$t[10] = 'Kaziklar sahibi (g&uuml;&ccedil;l&uuml;, kuvvetli) Firavun\'a?';
+$t[11] = 'Bunlar &uuml;lkelerde azmislardi.';
+$t[12] = 'Oralarda &ccedil;ok bozgunculuk yapmislardi.';
+$t[13] = 'Bu y&uuml;zden Rabbin onlarin &uuml;st&uuml;ne azap kam&ccedil;isi yagdirdi.';
+$t[14] = 'Kuskusuz Rabbin her an g&ouml;zetlemededir.';
+$t[15] = 'Ama insan, her ne zaman Rabbi onu sinayip da ikramda bulunur, nimet verirse, &quot;Rabbim bana ikram etti.&quot; der.';
+$t[16] = 'Ama her ne zaman da sinayip rizkini daraltirsa, o vakit de, &quot;Rabbim beni zillete d&uuml;s&uuml;rd&uuml;.&quot; der.';
+$t[17] = 'Hayir hayir, dogrusu siz yetime ikram etmiyorsunuz.';
+$t[18] = 'Birbirinizi yoksulu yedirmeye tesvik etmiyorsunuz.';
+$t[19] = 'Oysa mirasi &ouml;yle bir yiyorsunuz ki, haram-helal g&ouml;zetmeden.';
+$t[20] = 'Mali &ouml;yle bir seviyorsunuz ki, yigmacasina.';
+$t[21] = 'Hayir hayir, yer birbiri ardinca sarsilip d&uuml;md&uuml;z oldugu zaman,';
+$t[22] = 'Rabbinin emri gelip melekler sira sira dizildigi zaman,';
+$t[23] = 'Ki cehennem de o g&uuml;n getirilmistir. Iste o g&uuml;n insan anlar. Fakat bu anlamanin ona ne yarari var?';
+$t[24] = '&quot;Keske hayatim i&ccedil;in bir seyler yapip g&ouml;nderseydim.&quot; der.';
+$t[25] = 'Artik o g&uuml;n Allah\'in edecegi azabi kimse edemez.';
+$t[26] = 'Onun vuracagi bagi kimse vuramaz.';
+$t[27] = 'Ey, Rabbine, itaat edip huzura eren nefis!';
+$t[28] = 'Hem hosnut edici, hem de hosnut edilmis olarak Rabbine d&ouml;n.';
+$t[29] = 'Kullarimin arasina gir.';
+$t[30] = 'Cennetime gir.';
+?>

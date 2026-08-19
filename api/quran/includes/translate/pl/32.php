@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alif. Lam. Mim.';
+$t[2] = 'Objawienie Księgi - nie ma co do tego żadnej wątpliwości - pochodzi od Pana świat&oacute;w.';
+$t[3] = 'Może oni powiedzą: &quot;On ją wymyślił!&quot;? Wcale nie! To jest prawda od twego Pana, abyś ostrzegał ludzi, do kt&oacute;rych nie przyszedł przed tobą żaden ostrzegający. Być może, oni p&oacute;jdą drogą prostą.';
+$t[4] = 'B&oacute;g jest Tym, kt&oacute;ry stworzył niebiosa i ziemię, i to, co jest między nimi, w ciągu sześciu dni. Potem umocnił się na tronie. Nie ma dla was, poza Nim, żadnego opiekuna ani orędownika. Czy sobie przypomnicie?';
+$t[5] = 'On kieruje z nieba na ziemię Sw&oacute;j rozkaz, kt&oacute;ry potem wznosi się do Niego w ciągu dnia liczącego tysiąc lat, według waszej rachuby.';
+$t[6] = 'To On wie, co skryte i co jawne. On jest Potężny, Litościwy!';
+$t[7] = 'On jest Tym, kt&oacute;ry doskonale stworzył każdą rzecz, On zaczął stworzenie człowieka z gliny,';
+$t[8] = 'Potem uczynił jego potomstwo z ekstraktu nędznej wody.';
+$t[9] = 'Następnie ukształtował go harmonijnie i tchnął w niego nieco ze Swojego Ducha; i dał wam słuch, wzrok i serca. Jakże mało jesteście wdzięczni!';
+$t[10] = 'Powiedzieli: &quot;Czy kiedy zabłądzimy na ziemi, to czy z pewnością pojawimy się w nowym stworzeniu?&quot; Ależ nie! Oni nie wierzą w spotkanie ze swoim Panem.';
+$t[11] = 'Powiedz: &quot;Zabierze was anioł śmierci, kt&oacute;ry miał pieczę nad wami; potem do waszego Pana zostaniecie sprowadzeni!&quot;';
+$t[12] = 'Gdybyś widział, jak grzesznicy skłaniają głowy przed swoim Panem: &quot;Panie nasz! Zobaczyliśmy i usłyszeliśmy. Zawr&oacute;ć nas, abyśmy mogli czynić dobro! My przecież jesteśmy przekonani o prawdzie.&quot;';
+$t[13] = 'Gdybyśmy chcieli, to dalibyśmy każdej duszy drogę prostą. Lecz prawdziwe jest Moje słowo: &quot;Ja z pewnością napełnię Gehennę dżinami i ludźmi - wszystkimi razem!&quot;';
+$t[14] = 'Zakosztujcie więc za to, iż zapomnieliście o spotkaniu tego waszego Dnia! Oto My zapomnieliśmy o was! Zakosztujcie kary wieczności za to, co czyniliście!';
+$t[15] = 'Tylko ci wierzą w Nasze znaki, kt&oacute;rzy, kiedy są napominani przez nie, padają na twarz, wybijając pokłony, głoszą chwałę swego Pana i nie wbijają się w pychę.';
+$t[16] = 'Ich boki wyrywają się z pościeli oni wzywają swego Pana z obawą i nadzieją i rozdają z tego, w co ich zaopatrzyliśmy.';
+$t[17] = 'I żadna dusza nie wie, jaka radość jest trzymana dla nich w ukryciu w nagrodę za to, co oni czynili.';
+$t[18] = 'Czy ten, kto jest wierzącym, jest podobny do bezbożnego? Oni obydwaj nie są sobie r&oacute;wni.';
+$t[19] = 'A dla tych, kt&oacute;rzy uwierzyli i pełnili dobre dzieła - będą Ogrody schronienia, jako przyjęcie gościnne za to, co czynili.';
+$t[20] = 'A dla tych, kt&oacute;rzy byli bezbożni, miejscem schronienia będzie ogień. Za każdym razem, kiedy zechcą z niego wyjść, zostaną zawr&oacute;ceni i będzie im powiedziane: &quot;Zakosztujcie kary ognia, kt&oacute;ry uznaliście za kłamstwo!&quot;';
+$t[21] = 'I damy im zakosztować kary bliższej przed karą większą. Być może, oni powr&oacute;cą!';
+$t[22] = 'Kto jest bardziej niesprawiedliwy aniżeli ten, kt&oacute;ry został napomniany przez znaki swego Pana, a potem odwr&oacute;cił się od nich? Zaprawdę, zemścimy się na grzesznikach!';
+$t[23] = 'Oto daliśmy Księgę Mojżeszowi - nie pozostawaj więc w wątpliwości co do spotkania z Nim i uczyniliśmy ją drogą prostą dla syn&oacute;w Izraela.';
+$t[24] = 'I uczyniliśmy z nich imam&oacute;w, kt&oacute;rzy prowadzą drogą prostą według Naszego rozkazu - za to, iż byli cierpliwi i że byli przekonani o prawdziwości Naszych znak&oacute;w.';
+$t[25] = 'Zaprawdę, Pan tw&oacute;j rozstrzygnie między nimi w Dniu Zmartwychwstania sprawy, w jakich się r&oacute;żnili.';
+$t[26] = 'Czyż nie jest dla nich przewodnictwem, iż wiele pokoleń wytraciliśmy przed nimi? Oni depczą po ich domostwach. Zaprawdę, w tym są znaki! Czy oni nie posłuchają?';
+$t[27] = 'Czyż oni nie widzieli, że My pędzimy wodę ku wyschniętej ziemi i sprawiamy, iż wyrastają dzięki niej zasiewy, z kt&oacute;rych jedzą ich trzody i oni sami? Czyż oni nie widzą jasno?';
+$t[28] = 'Oni m&oacute;wią: &quot;Kiedy będzie to zwycięstwo, jeśli jesteście prawdom&oacute;wni?&quot;';
+$t[29] = 'Powiedz: &quot;W Dniu Zwycięstwa nie pomoże już tym,. kt&oacute;rzy nie uwierzyli, ich wiara ani nie będzie im dana zwłoka.&quot;';
+$t[30] = 'Odwr&oacute;ć się więc od nich i czekaj! Oni też czekają.';
+?>

@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Har du f&aring;tt beretningen om det overdekkende?';
+$t[2] = 'Noen vil p&aring; denne dag v&aelig;re ydmykede,';
+$t[3] = 'anstrengte, utslitte,';
+$t[4] = 'idet de er i den hete Ild,';
+$t[5] = 'f&aring;r drikke fra en kokhet kilde';
+$t[6] = 'og bare har kaktus til mat,';
+$t[7] = 'som ikke gir n&aelig;ring og ikke stiller hungeren.';
+$t[8] = 'Andre vil p&aring; denne dag v&aelig;re glade,';
+$t[9] = 'tilfredse med sitt strev,';
+$t[10] = 'idet de er i en frittliggende have,';
+$t[11] = 'hvor de ikke h&oslash;rer tomt prat.';
+$t[12] = 'Det er en sprudlende kilde,';
+$t[13] = 'behagelige benker,';
+$t[14] = 'fremsatte glass,';
+$t[15] = 'puter p&aring; rekke og rad';
+$t[16] = 'og tepper bredt ut.';
+$t[17] = 'Ser de da ikke p&aring; kamelen, p&aring; hvordan den er skapt?';
+$t[18] = 'P&aring; himmelen, hvordan den hvelves h&oslash;yt oppe?';
+$t[19] = 'P&aring; fjellene, hvordan de er reist opp?';
+$t[20] = 'P&aring; jorden, hvordan den er strukket ut?';
+$t[21] = 'S&aring; minn dem p&aring;! Du er bare en formaner.';
+$t[22] = 'Du har ingen makt over dem.';
+$t[23] = 'Den som vender seg bort i vantro,';
+$t[24] = 'vil Gud hjems&oslash;ke med den st&oslash;rste straff.';
+$t[25] = 'Til Oss skal de vende tilbake,';
+$t[26] = 'og s&aring; skal Vi ordne med deres regnskap.';
+?>

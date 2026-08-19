@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'waxay ku tusin mucjisada Quraanka (sida soo hormartay).';
+$t[2] = 'tan waa aayaadka Kitaabka (Quraanka) xigmada leh.';
+$t[3] = 'waana hanuunka iyo naxariista samalfalayaasha.';
+$t[4] = 'kuwa salaadda ooga, Zakadana bixiya, iyagoo aakhiro yaqiinsan.';
+$t[5] = 'kuwaasi waxay ku suganyihiin hanuun Eebe, kuwaasina waa kuwa liibaanay.';
+$t[6] = 'Dadka waxaa ka mid ah kuwo gadan hadal wax shuqliya si uu uga dhumiyo (Dadka) Jidka Eebe iyagoon wax ogayn, Jidka Eebene ku Jees jeesa, kuwaasi waxay mudan Cadaab Dulleeya.';
+$t[7] = 'marka lagu akhriyo aayadkanaga wuu jeedsadaa isagoo iskibrin, sidii isagoon maqal, oo dhagihiisu culusyihiin, ugu bishaaree Cadaab daran.';
+$t[8] = 'kuwa rumeeyey (xaqa) camal wanaagsanna falay waxay mudan Janatu Naciima.';
+$t[9] = 'iyagoo ku waari dhexdeeda waana yabooh Eebe oo xaq ah, Eebana waa adkaade falsan.';
+$t[10] = 'isaga abuuray Samooyinka Tiir aad aragtaan la\'aantiis, dhulkana wuxuu ku tuuray Buuro (suga) inayan dhaqdhaqaaqin, wuxuuna ku fidiyey dhexdiisa daabad kasta, Samadana waxaan ka soo dejinay Biyo, waxaana ku soo bixiney nooc kasta oo quruxsan.';
+$t[11] = 'kaasi waa abuurkii Eebe, ee i tusiya waxay abuureen kuwa ka soo hadhay Eebe, saas ma aha, ee dulmi falayaashu waxay ku suganyihiin baadi Cad.';
+$t[12] = 'dhab dhaan ayaan luqmaan u siinay Xigmad iyo inuu Eebe ku mahdiyo, ruuxii mahdiya wuxuu uun u mahdiyey naftiisa, ruuxii Gaaloobana Eebe waa ka kaaftoonyahay waana amaananyahay.';
+$t[13] = '(xusuuso) markuu ku yidhi Luqmaan Wiilkiisa isagoo waanin Wiilkayow Eebe hawshariigyeelin, shirkigu waa dulmi weyne.';
+$t[14] = 'waxaan u dardaaranay dadka labadiisii Waalid, way sidday Hooyadis iyadoo tabaryar tabar yari kalana ku sugan, Gudhidiisuna waa Labo sano ee ku mahadi ani iyo Labadaadii Waalid, xagaygaana loo ahaan.';
+$t[15] = 'hadday kugula dadaalaan (Labada waalid) inaad ii shariig yeesho (ila wadaajiso) waxaadan aqoon u lahayn ha ku adeecin kulana noolow adduunka si fiican, raacna Jidka kuwa ii noqda, xagayga yaa laydiin soo celin waxaana idiinka warami waxaad camalfali jirteen.';
+$t[16] = 'Wiilkayow hadday xumaantu tahay Xabbad Khardal ah oo kale (wax yar) oo sallax dhexdii ku sugnaato ama samooyinka dhexdooda ama Dhulka dhexdiisa wuu keeni Eebe, Eebana waa oge xeeldheer.';
+$t[17] = 'Wiilkayow oog Salaadda, oo far waanaagga oo reeb waxa lanaco kuna Samir waxa ku gaadha, arrintaasu waxay ka midtahay umuuraha wanaagsane.';
+$t[18] = 'hana ka jeedin Wajiga dadka hana ugu socon dhulka kibir, Eebana ma jeela mid kastoo isla weyn oo faanbadane.';
+$t[19] = 'socodkaagana ku dhexdhexayso, hoosna u dhig Codkaaga, Cod waxaa ugu xun Codka Dameerahee.';
+$t[20] = 'miyeydaan arkayn in Eebe idiin sakhiray waxa Samooyinka iyo Dhulka ku sugan oo idin mid qarsoonba, Dadkana waxaa ka mid ah kuwo Eebe ku murmi Cilmi iyo hanuun iyo Kitaab nuuriya la\'aantiis.';
+$t[21] = 'marka loodhaho raaca waxa Eebe soo dajiyeyna waxay dhahaan waxaannu raaci waxaan ka helay Aabayaalkanno, haduu Shaydaan ugu yeedho Cadaabka Saciirana (miyey raaci).';
+$t[22] = 'ruuxii u jeediya Wajigiisa xagga Eebe isagoo samo fali wuxuu qabsaday guntin (Ballan adag), xagga Eebaana Cihdhibta arrimuhu u noqon.';
+$t[23] = 'Ciddiise Gaalowda yuuna ku walbahaar galin Gaalimadiisu, xagganagay u soo noqon waxaana uga warramaynaa waxay camalfali jireen, illeen Eebaa og waxa laabta ku sugane.';
+$t[24] = 'waanu u raaxayn wax yar, markaasaannu u dhibaatayn (u iili) Cadaab adag.';
+$t[25] = 'haddaad waydiisid yaa abuuray samooyinka iyo dhulka waay odhan ilaahay, waxaad dhahdaa mahad Eebaa iska leh, hadankoodse ma oga.';
+$t[26] = 'Eebaa iska leh waxa samooyinka iyo Dhulka ku sugan, Eebana waa hodan amaanan.';
+$t[27] = 'hadday waxa dhulka ku sugan oo geeda ah Qalimo noqdaan Badduna khadayso oo gadaasheeda Todobo badood yihiin madhamaateen Kalimooyinka Eebe, Eebana waa adkaade falsan.';
+$t[28] = 'abuurkiinna iyo soobixintiinu ma aha sida Nafkaliya mooyee (Fudaydka), Eebana waa maqle arke ah.';
+$t[29] = 'miyeydaan ogayn in Eebe Habeenka dhex galiyo Maalinta, Maalintana dhexgaliyo Habeenka sakhirayna Qoraxda iyo Dayaxa mid, kastana uu u socdo muddo magacaaban, Eebana waxaad Camalfalaysaan waa ogyahay.';
+$t[30] = 'Taasna wa in Eebe xaq yahay waxay caabudi ee ka soohadhayna baadil yahay iyo in Eebe yahay Sareeye wayn.';
+$t[31] = 'miyeydaan ogayn in Doontu dhexsocoto Badda Nicmada Eebe darteed si uu idiin tusiyo aayaadkiisa, arrintaasna aayaadbaa ugu sugan Samirbadane shugri badan oo dhan.';
+$t[32] = 'marka hirku daboolo dadka oo Hoos la moodo waxay baryaan Eebe iyagoo u kali yeeli Diinta (Cibaadada) markuu u koriyo xagga Barrigana waxaa ka mid noqon Dadka mid dhexdexeysan, mana diido aayadkanaga mid khaa\'in ah oo gaalimo badan mooyee.';
+$t[33] = 'Dadow ka dhawrsada Eebihiin oo ka Cabsada Maalin uusan ka abaalmarinayn Waalid Ilmihiisa, Ilmuhuna Waalidka waxba, yabooha Eebana waa Xaq, ee yeyna idinku dhagrin nolosha adduunyo, yuuna idinku dhagrin Eebe dhagar badane (shaydaan).';
+$t[34] = 'Eebe agtiisuu yahay ogaanshaha Saacadda (Qiyaame) iyo Roob di\'iddu, wuxuuna ogyahay waxa makaanka (Ilma galeenka) ku sugan, nafna ma oga waxay mudan Barri, Nafna ma oga Dhulkay ku dhiman, Eebaa og xeelna dheer.';
+?>

@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Hakika Sisi tulimtuma Nuh\'u kwa watu wake: Uwaonye kaumu yako kabla ya kuwafikia adhabu chungu.';
+$t[2] = 'Akasema: Enyi watu wangu! Kwa hakika mimi ni mwonyaji wa dhaahiri kwenu,';
+$t[3] = 'Ya kwamba mumuabudu Mwenyezi Mungu, na mumche Yeye, na mumt\'ii.';
+$t[4] = 'Atakughufirieni madhambi yenu, na atakuakhirisheni mpaka muda ulio wekwa. Hakika muda wa Mwenyezi Mungu utapo fika haucheleweshwi. Laiti mngejua!';
+$t[5] = 'Akasema: Ee Mola wangu Mlezi! Hakika mimi nimewaita watu wangu usiku na mchana,';
+$t[6] = 'Lakini wito wangu haukuwazidisha ila kukimbia.';
+$t[7] = 'Na hakika mimi kila nilipo waita ili upate kuwaghufiria, walijiziba masikio yao kwa vidole vyao, na wakajigubika nguo zao, na wakakamia, na wakatakabari vikubwa mno!';
+$t[8] = 'Tena niliwaita kwa uwazi,';
+$t[9] = 'Kisha nikawatangazia kwa kelele, tena nikasema nao kwa siri.';
+$t[10] = 'Nikasema: Ombeni msamaha kwa Mola wenu Mlezi; hakika Yeye ni Mwingi wa kusamehe.';
+$t[11] = 'Atakuleteeni mvua inyeshe mfululizo.';
+$t[12] = 'Na atakupeni mali na wana, na atakupeni mabustani na atakufanyieni mito.';
+$t[13] = 'Mna nini hamweki heshima ya Mwenyezi Mungu?';
+$t[14] = 'Na hali Yeye kakuumbeni daraja baada ya daraja?';
+$t[15] = 'Kwani hamwoni jinsi Mwenyezi Mungu alivyo ziumba mbingu saba kwa matabaka?';
+$t[16] = 'Na akaufanya mwezi ndani yake uwe nuru, na akalifanya jua kuwa taa?';
+$t[17] = 'Na Mwenyezi Mungu amekuotesheni katika ardhi kama mimea.';
+$t[18] = 'Kisha atakurudsheni humo na atakutoeni tena.';
+$t[19] = 'Na Mwenyezi Mungu amekukunjulieni ardhi kama busati.';
+$t[20] = 'Ili mtembee humo katika njia zilizo pana.';
+$t[21] = 'Nuh\'u akasema: Mola wangu Mlezi! Hakika hao wameniasi, na wamemfuata yule ambaye mali yake na wanawe hawakumzidishia ila khasara.';
+$t[22] = 'Na wakapanga vitimbi vikubwa.';
+$t[23] = 'Na wakasema: Msiwaache miungu yenu, wala msimwache Wadda wala Suwaa\' wala Yaghutha, wala Yau\'qa, wala Nasra.';
+$t[24] = 'Na hao walikwisha wapoteza wengi, wala usiwazidishie walio dhulumu ila kupotea.';
+$t[25] = 'Basi kwa ajili ya makosa yao waligharikishwa wakaingizwa Motoni, wala hawakuwapata wa kuwanusuru badala ya Mwenyezi Mungu.';
+$t[26] = 'Na Nuh\'u akasema: Mola wangu Mlezi! Usimwache juu ya ardhi mkaazi wake yeyote katika makafiri!';
+$t[27] = 'Hakika ukiwaacha watawapoteza waja wako, wala wao hawatazaa ila waovu makafiri.';
+$t[28] = 'Mola wangu Mlezi! Nighufirie mimi na wazazi wangu, na kila aliye ingia nyumbani mwangu kuwa ni mwenye kuamini, na Waumini wote wanaume, na Waumini wanawake. Na wala usiwazidishie walio dhulumu ila kupotea.';
+?>

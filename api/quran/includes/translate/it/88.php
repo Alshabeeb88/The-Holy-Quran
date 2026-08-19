@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Ti &egrave; giunta notizia dell\'Avvolgente?';
+$t[2] = 'Ci saranno in quel Giorno volti umiliati,';
+$t[3] = 'di spossati e afflitti,';
+$t[4] = 'che bruceranno nel Fuoco ardente,';
+$t[5] = 'e saranno abbeverati da una fonte bollente.';
+$t[6] = 'Per essi non ci sar&agrave; altro cibo che il dar&icirc;,';
+$t[7] = 'che non nutre e non placa la fame.';
+$t[8] = 'Ci saranno in quel Giorno volti lieti,';
+$t[9] = 'soddisfatti delle loro opere,';
+$t[10] = 'in un Giardino elevato,';
+$t[11] = 'in cui non s\'odono discorsi vani.';
+$t[12] = 'Col&agrave; vi &egrave; una fonte che scorre,';
+$t[13] = 'col&agrave; alti divani,';
+$t[14] = 'e coppe poste [a portata di mano]';
+$t[15] = 'e cuscini assestati';
+$t[16] = 'e tappeti distesi.';
+$t[17] = 'Non riflettono sui cammelli e su come sono stati creati,';
+$t[18] = 'sul cielo e come &egrave; stato elevato,';
+$t[19] = 'sulle montagne e come sono state infisse,';
+$t[20] = 'sulla terra e come &egrave; stata distesa?';
+$t[21] = 'Ammonisci dunque, ch&eacute; tu altro non sei che un ammonitore';
+$t[22] = 'e non hai autorit&agrave; alcuna su di loro.';
+$t[23] = 'Quanto a chi volge le spalle e non crede,';
+$t[24] = 'Allah lo castigher&agrave; con il castigo pi&ugrave; grande.';
+$t[25] = 'In verit&agrave; a Noi ritorneranno,';
+$t[26] = 'e allora spetter&agrave; a Noi chieder loro conto [delle loro azioni].';
+?>

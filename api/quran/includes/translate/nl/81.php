@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Als de zon zal opgevouwen worden.';
+$t[2] = 'Als de sterren zullen vallen.';
+$t[3] = 'Als de bergen in beweging gebracht zullen worden.';
+$t[4] = 'Als de kameelen hunne wijfjes zullen verlaten.';
+$t[5] = 'Als de wilde dieren bijeen verzameld zullen worden.';
+$t[6] = 'En als de zee&euml;n zullen koken.';
+$t[7] = 'Als de zielen weder met hare lichamen zullen vereenigd worden.';
+$t[8] = 'Als aan het meisje, dat levend wordt begraven, zal gevraagd worden.';
+$t[9] = 'Voor welke misdaad zij ter dood gebracht werd;';
+$t[10] = 'Als de boeken opengelegd zullen worden.';
+$t[11] = 'En als de hemelen ter zijde gebracht zullen worden.';
+$t[12] = 'Als de hel met gedruis zal branden.';
+$t[13] = 'En als het paradijs naderbij gebracht zal worden.';
+$t[14] = 'Dan zal elke ziel weten, wat zij verricht heeft.';
+$t[15] = 'Waarlijk, ik zweer bij de teruggaande sterren.';
+$t[16] = 'Die zich snel bewegen en zich verbergen,';
+$t[17] = 'En bij den nacht als die invalt.';
+$t[18] = 'En bij den morgen als die verschijnt.';
+$t[19] = 'Dat dit de woorden van den eerbiedwaardigen gezant zijn,';
+$t[20] = 'Begaafd met kracht, en met waardigheid in het aangezicht van den bezitter van den troon,';
+$t[21] = 'Gehoorzaamd door de engelen, die onder zijn bevel staan en gelooven.';
+$t[22] = 'Uw makker Mahomet is niet bezeten.';
+$t[23] = 'Hij heeft hem reeds aan den helderen gezichteinder gezien.';
+$t[24] = 'En hij verdenkt de geheimen niet, die hem werden geopenbaard.';
+$t[25] = 'Dit zijn niet de woorden van een gesteenigden duivel.';
+$t[26] = 'Waar gaat (dwaalt) gij dus heen?';
+$t[27] = 'De Koran is eene vermaning voor alle schepselen,';
+$t[28] = 'Voor dengene uwer, die geneigd is oprecht te wandelen.';
+$t[29] = 'Maar gij zult niet willen, tenzij God wil, de Heer van alle schepselen.';
+?>

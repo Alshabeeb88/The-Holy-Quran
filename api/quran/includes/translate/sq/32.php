@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Elif, Lam&euml;, Mim&euml;.';
+$t[2] = 'Shpallja e librit (e Kuranit), nuk ka dyshim se &euml;sht&euml; (shpallje) nga Zoti i gjith&euml;sis&euml;.';
+$t[3] = 'A mos po thon&euml; se ai (Muhammedi) e trilloi? Jo, ajo &euml;sht&euml; e v&euml;rtet&euml; prej Zotit t&euml;nd q&euml; t&rsquo;i t&euml;rheq&euml;sh v&euml;rejtjen nj&euml; populli q&euml; nuk u erdhi ndonj&euml; pejgamber para teje, ashtu q&euml; ata t&euml; gjejn&euml; rrug&euml;n e drejt&euml;.';
+$t[4] = 'All-llahu &euml;sht&euml; Ai q&euml; krijoi qiejt dhe tok&euml;n dhe gjith&euml; &ccedil;&rsquo;ka nd&euml;rmjet tyre, brenda gjasht&euml; dite, pastaj mbizot&euml;roi Arshin. P&euml;rve&ccedil; Tij nuk keni ndonj&euml; ndihm&euml;tar tjet&euml;r e as nd&euml;rmjet&euml;sues, pra a nuk jeni kah mendoni!';
+$t[5] = 'Ai &euml;sht&euml; q&euml; udh&euml;heq &ccedil;&euml;shtjen (e t&euml; gjitha krijesave) prej qiellit n&euml; tok&euml;, pastaj ajo (&ccedil;&euml;shtja) ngritet te Ai n&euml; nj&euml; dit&euml; q&euml; sipas llogaris&euml; suaj &euml;sht&euml; sa nj&euml;mij&euml; vjet.';
+$t[6] = 'Ai &euml;sht&euml; njoh&euml;s i t&euml; (gjitha) fsheht&euml;s dhe t&euml; dukshmes, i gjith&euml;fuqishmi, M&euml;shir&euml;b&euml;r&euml;si.';
+$t[7] = 'Ai q&euml; p&euml;rsosi krijimin e &ccedil;do sendi, e krijimin e njeriut e filloi nga balta.';
+$t[8] = 'Pastaj b&euml;ri q&euml; pasardh&euml;sit e tij t&euml; rrjedhin prej nj&euml; pike uji t&euml; dob&euml;t.';
+$t[9] = 'Mandej, Ai e form&euml;son at&euml; (n&euml; barkun e n&euml;n&euml;s) dhe nga ana e vet i jep shpirt atij dhe Ai &euml;sht&euml; q&euml; juve ju pajis edhe me d&euml;gjim, me t&euml; parit dhe me zem&euml;r, e pak send &euml;sht&euml; ajoq&euml; ju fal&euml;nderoni.';
+$t[10] = 'E ata than&euml;: &ldquo;A pasi q&euml; ne t&euml; tretemi n&euml; tok&euml;, a thua ne rishtazi do t&euml; krijohemi?&rdquo; Por (&ccedil;ka &euml;sht&euml; edhe m&euml; keq) ata nuk besojn&euml; se do t&euml; dalin para Zotit t&euml; tyre.';
+$t[11] = 'Thuaj: &ldquo;Engj&euml;lli i vdekjes, i cili &euml;sht&euml; caktuar p&euml;r ju, ua merr shpirtrat, e pastaj do t&euml; ktheheni te Zoti juaj&rdquo;.';
+$t[12] = 'E, sikur t&euml; shihje m&euml;katar&euml;t se si ukin kokat e veta pran&euml; Zotit t&euml; tyre: &ldquo;Zoti yn&euml;, tash pam&euml; dhe d&euml;gjuam, na kthe pra edhe nj&euml; her&euml; e t&euml; b&euml;jm&euml; vepra t&euml; mira, se tash jemi t&euml; bindur&rdquo;.';
+$t[13] = 'Sikur t&euml; kishim d&euml;shiruar Ne, scilit do t&rsquo;i jepnim udh&euml;zimin, por fjala (vendimi) Ime ka marr&euml; fund (definitiv) se do ta mbush Xhehennemin s&euml; bashku me exhin&euml; e njer&euml;z.';
+$t[14] = 'Prandaj shijoni k&euml;t&euml; (d&euml;nim) p&euml;r shkak se ju t&euml; e pat&euml;t harruar takimin tuaj n&euml; k&euml;t&euml; dit&euml;, e edhe Ne tash u harruam juve, ndaj, p&euml;r shkak t&euml; asaj q&euml; keni vepruar, shijoni d&euml;nimin e p&euml;rjetsh&euml;m.';
+$t[15] = 'Argumentet tona, i besojn&euml;, n&euml; t v&euml;rtet&euml;, ata q&euml; kur k&euml;shillohen me to, bien n&euml; fytyra (b&euml;jn&euml; sexhde), q&euml; madh&euml;rojn&euml; Zotin e tyre n&euml; shenj&euml; fal&euml;nderimi dhe ata nuk b&euml;jn&euml; kryelart&euml;si,';
+$t[16] = 'I heqen trupat e tyre prej dyshek&euml;ve, duke e lutur Zotin e tyre nga frika dhe nga shpresa dhe nga ajo q&euml; Ne u kemi dh&euml;n&euml; (pasuria) atyre, ata japin.';
+$t[17] = 'Pra, p&euml;r ata q&euml; kan&euml; vepruar nuk di askush p&euml;r at&euml; k&euml;naq&euml;si (t&euml; zemr&euml;s e shpirtit) q&euml; u &euml;sht&euml; caktuar atyre si shp&euml;rblim.';
+$t[18] = 'A mos &euml;sht&euml; ai q&euml; ishte besimtar&euml;, sikurse ai q&euml; ishte jasht rrug&euml;s? Jo! K&euml;ta nuk jan&euml; t&euml; barabart&euml;.';
+$t[19] = 'P&euml;r sa u p&euml;rket atyre q&euml; besuan dhe b&euml;n&euml; vepra t&euml; mira, ata, p&euml;r hir t&euml; veprave q&euml; i b&euml;n&euml;, vendpritje e kan&euml; Xhennetin.';
+$t[20] = 'E ata q&euml; nuk respektuan All-llahun, skut&euml; e tyre &euml;sht&euml; zjarri. Sa her&euml; q&euml; t&euml; tentojn&euml; t&euml; dalin nga ai, kthehen n&euml; t&euml; dhe atyre u thuhet: &ldquo;Shijoni d&euml;nimin e zjarrit q&euml; ju e konsideronit rren&euml;.';
+$t[21] = 'Ne do t&rsquo;u shijojm&euml; atyre d&euml;nimin m&euml; t&euml; shpejt&euml; (n&euml; dynja) para d&euml;nimit t&euml; madh (n&euml; Ahiret), ndoshta do t&euml; t&euml;rhiqen (prej t&euml; k&euml;qiave).';
+$t[22] = 'E kush &euml;sht&euml; m&euml; zullumqar&euml; se ai q&euml; k&euml;shillohet me ajetet e Zotit t&euml; vet, e pastaj u kthyen shpin&euml;n atyre? Ne me siguri do t&euml; hakmirremi kund&euml;r kriminel&euml;ve.';
+$t[23] = 'Ne i pat&euml;m dh&euml;n&euml; edhe Musait librin, e ti (Muhammed) mos ke dyshim n&euml; &ccedil;ka pranon (n&euml; Kur&rsquo;anin lib&euml;r qiellor si Musait), kurse at&euml; (librin e Musait) e b&euml;m&euml; udh&euml;rr&euml;fyes p&euml;r beni israil&euml;t.';
+$t[24] = 'Dhe prej tyre Ne b&euml;m&euml; prij&euml;s q&euml; me urdh&euml;rin Ton&euml; udh&euml;zojm&euml;, pasi q&euml; ata (q&euml; i b&euml;m&euml; prij&euml;sa) ishin t&euml; duruesh&euml;m dhe ndaj argumenteve Tona ishin t&euml; bindur.';
+$t[25] = 'S&rsquo;ka dyshim se Zoti yt &euml;sht&euml; Ai q&euml; n&euml; dit&euml;n e kijametit do t&euml; gjykoj&euml; mes tyre n&euml; at&euml; q&euml; ishin t&euml; p&euml;r&ccedil;ar&euml;.';
+$t[26] = 'A nk e kan&euml; t&euml; qart&euml; ata (mekasit) se sa nga popujt para tyre i shkat&euml;rruam, q&euml; n&euml;p&euml;r ato vendbanime t&euml; tyre jan&euml; kah kalojn&euml;? &Euml;sht&euml; e v&euml;rtet&euml; se ato (vende t&euml; shkat&euml;rruara) ka fakte, se nuk jan&euml; duke d&euml;gjuar me v&euml;mendje?';
+$t[27] = 'Si nuk kan&euml; par&euml; ata se Ne e sjellim ujn n&euml; tok&euml;n e that&euml; dhe me t&euml; nxjerrim bim&euml; q&euml; prej tyre ushqehen kafsh&euml;t e tyre, bile edhe ata vet&euml;, A nuk jan&euml; duke par&euml; (e t&euml; kuptojn&euml;)?';
+$t[28] = 'E n&euml; an&euml;n tjet&euml;r ata thon&euml;: &ldquo;e kur do t&euml; jet&euml; ai ngadh&euml;njim (&ccedil;lirimi i Mek&euml;s ose gjykimi i Zotit), n&euml;se jeni t&euml; drejt&euml; &ccedil;ka thoni.';
+$t[29] = 'Thuaj: &ldquo;Dit&euml;n e kijametit, atyre q&euml; kan&euml; qen&euml; jobesimtar&euml;, nuk u b&euml;n dobi besimi e as nuk u jepet afat.';
+$t[30] = 'Andaj, ti largohu prej tyre dhe prit, edhe ata jan&euml; duke pritur.';
+?>

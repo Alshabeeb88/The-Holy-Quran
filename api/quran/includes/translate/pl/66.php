@@ -1,0 +1,15 @@
+<?php
+$t = array();
+$t[1] = 'O Proroku! Dlaczego zakazujesz sobie tego, co pozwolił ci B&oacute;g, chcąc przypodobać się twoim żonom? B&oacute;g jest przebaczający, litościwy!';
+$t[2] = 'B&oacute;g nałożył na was obowiązek zwolnienia się z takich przysiąg. B&oacute;g jest waszym opiekunem! On jest Wszechwiedzący, Mądry!';
+$t[3] = 'Oto Prorok powierzył w tajemnicy jednej ze swoich żon pewną historię. A kiedy ona ją rozgłosiła i B&oacute;g ujawnił to jemu, w&oacute;wczas on częściowo dał jej to poznać, a częściowo przemilczał. A kiedy Prorok jej o tym m&oacute;wił, rzekła: &quot;Kt&oacute;ż ci to obwieścił?&quot; Powiedział: &quot;Obwieścił mi Wszechwiedzący, Świadomy.&quot;';
+$t[4] = 'Jeśli wy obydwie nawr&oacute;cicie się do Boga... przecież już skłoniły się wasze serca. Ale jeśli będziecie się wzajemnie wspomagać przeciwko Prorokowi - to, zaprawdę, B&oacute;g jest jego Opiekunem, a Gabriel i sprawiedliwi między wiernymi, a także aniołowie są jego wspomożycielami!';
+$t[5] = 'Być może, jego Pan - jeśli on was odprawi - da mu w zamian żony lepsze od was, całkowicie poddane Bogu, wierzące, gorliwe w modlitwie, okazujące skruchę, pobożne, przestrzegające postu, czy to zamężne, czy dziewice.';
+$t[6] = 'O wy, kt&oacute;rzy wierzycie! Strzeżcie się sami i wasze rodziny od ognia; kt&oacute;rego strawą będą ludzie i kamienie! Wok&oacute;ł niego będą aniołowie, ogromni, straszni; oni nie buntują się przeciw rozkazowi Boga, lecz wypełniają to, co jest im nakazane.';
+$t[7] = 'O wy, kt&oacute;rzy nie wierzycie! Nie usprawiedliwiajcie się dzisiaj! Zostanie wam zapłacone tylko za to, co czyniliście.';
+$t[8] = 'O wy, kt&oacute;rzy wierzycie! Nawracajcie się do Boga ze szczerą skruchą! Być może, wasz Pan odpuści wam złe czyny i wprowadzi was do Ogrod&oacute;w, gdzie w dole płyną strumyki - tego Dnia, kiedy B&oacute;g nie okryje hańbą ani Proroka, ani tych, kt&oacute;rzy z nim uwierzyli; światło ich p&oacute;jdzie przed nimi i po ich prawicy. Oni będą m&oacute;wili: &quot;Panie nasz! Uczyń doskonałym dla nas nasze światło i przebacz nam! Zaprawdę, Ty jesteś nad każdą rzeczą wszechwładny!&quot;';
+$t[9] = 'O Proroku! Zwalczaj niewiernych i obłudnik&oacute;w i bądź względem nich surowy! Ich miejscem schronienia będzie Gehenna. A jakże nieszczęsne to miejsce przybycia!';
+$t[10] = 'B&oacute;g dał przypowieść tym, kt&oacute;rzy nie uwierzyli: o żonie Noego i żonie Lota. Obie one były pod władzą Naszych dw&oacute;ch sług, spośr&oacute;d Naszych sług sprawiedliwych, lecz one zdradziły ich. I oni nic nie mogli dla nich uczynić wobec Boga. I powiedziano im: &quot;Wejdźcie do ognia obie wraz z tymi, kt&oacute;rzy tam wchodzą!&quot;';
+$t[11] = 'I B&oacute;g dał jako przykład tym, kt&oacute;rzy uwierzyli, żonę Faraona. Oto ona powiedziała: &quot;Panie m&oacute;j! Zbuduj dla mnie u Siebie dom w Ogrodzie! Wybaw mnie od Faraona i od jego dzieła! I wybaw mnie od ludzi niesprawiedliwych!&quot;';
+$t[12] = 'I Marię, c&oacute;rkę Imrana, kt&oacute;ra zachowała dziewictwo; tak więc tchnęliśmy w nią nieco z Naszego Ducha. I ona potwierdziła słowa swego Pana i Jego Ksiąg, i była wśr&oacute;d pokornych.';
+?>

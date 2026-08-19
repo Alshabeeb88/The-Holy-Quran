@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'V&euml;rtet&euml; ka kaluar nj&euml; periudh&euml; kohore, q&euml; njeriu nuk ekzistonnte fare si nj&euml; di&ccedil;ka i p&euml;rmendur.';
+$t[2] = 'Ne e krijuam prej nj&euml; uji t&euml; bashk&euml;dyzuar p&euml;r t&euml; sprovuar at&euml;, andaj e b&euml;m&euml; t&euml; d&euml;gjoj&euml; e t&euml; shoh&euml;.';
+$t[3] = 'Ne e udh&euml;zuam at&euml; n&euml; rrug&euml;n t&euml; drejt&euml;, e ai do t&euml; jet&euml;: mir&euml;njoh&euml;s ose p&euml;rbuz&euml;s.';
+$t[4] = 'Ne p&euml;r jobesimt&euml;r&euml;t kemi p&euml;rgatitur zinxhir&euml;, pranga e zjarr.';
+$t[5] = 'S&rsquo;ka dyshim se t&euml; devotshmit do t&euml; pijn&euml; nga gota q&euml; p&euml;rziejra brenda saj &euml;sht&euml; nga kafuri (aromatik).';
+$t[6] = '&Euml;sht&euml; nj&euml; burim prej t&euml; cilit pijn&euml; rob&euml;rit e All-llahut dhe e bartin at&euml; ku t&euml; duan.';
+$t[7] = 'Ata jan&euml; q&euml; zbatojn&euml; premtimet e tyre dhe i frik&euml;sohen nj&euml; dite d&euml;mi i s&euml; cil&euml;s ka p&euml;rmasa t&euml; m&euml;dha.';
+$t[8] = 'Ata jan&euml; q&euml; p&euml;r hir t&euml; Tij u japin ushqim t&euml; varvf&euml;rve, jetimm&euml;ve dhe t&euml; z&euml;n&euml;ve rob&euml;r.';
+$t[9] = 'Ne po ju ushqejm&euml; vet&euml;m p&euml;r hir t&euml; All-llahut dhe prej jush nuk k&euml;rkojm&euml; ndonj&euml; shp&euml;rblim e as fal&euml;nderim.';
+$t[10] = 'Ne i frik&euml;sohemi (d&euml;nimit) Zotit ton&euml; n&euml; nj&euml; dit&euml; q&euml; fytyrat i b&euml;n t&euml; zymta dhe &euml;sht&euml; sshum&euml; v&euml;shtir&euml;.';
+$t[11] = 'Po All-llahu i ruajti ata prej sherrit t&euml; asaj dite dhe u dhuroi shk&euml;lqim n&euml; fytyra e g&euml;zim t&euml; madh.';
+$t[12] = 'Dhe p&euml;r shkak se ata duran, i shp&euml;rbleu me Xhennet dhe me petka m&euml;ndafshi.';
+$t[13] = 'Aty jan&euml; t&euml; mb&euml;shtetur n&euml; koltuk&euml; dh aty nk shohin as diell (vap&euml;) e as t&euml; ftoht&euml;.';
+$t[14] = 'Hijet e tyre (t&euml; pem&euml;ve) jan&euml; af&euml;r mbi ta dhe kalavesh&euml;t e pem&euml;ve jan&euml; t&euml; qaur shum&euml; af&euml;r.';
+$t[15] = 'Dhe atyre u b&euml;het sh&euml;rbim me en&euml; dhe me gota t&euml; tejdukshme.';
+$t[16] = 'T&euml; tejdukshme nga argjenti q&euml; ata (sh&euml;rb&euml;tor&euml;t) i p&euml;rcaktuan t&euml; jen&euml; sa duhet (t&euml; m&euml;dha o t&euml; vogla).';
+$t[17] = 'Dhe u jepet t&euml; pijn&euml; aty gota t&euml; ver&euml;s t&euml; p&euml;rzier zenxhebil&euml; (bim&euml; aromatike).';
+$t[18] = '(nga) burimi aty q&euml; queht selsebil (i leht&euml; n&euml; t&euml; pim&euml;).';
+$t[19] = 'Dhe atyre u sillen p&euml;r sh&euml;rbim djelmosha q&euml; p&euml;rher&euml; jan&euml; t&euml; till&euml; sa q&euml; kur t&rsquo;i kundrosh t&euml; duken si margairtar&euml; t&euml; d&euml;rdhur.';
+$t[20] = 'Dhe kur t&euml; shikosh sty, sheh begati t&euml; m&euml;dha e zot&euml;rim (pron&euml;, pauri) t&euml; madh.';
+$t[21] = 'Kan&euml; t&euml; veshura petka m&euml;ndafshi t&euml; holl&euml; e t&euml; gjelb&euml;r (atllas) dhe t&euml; m&euml;ndafshit t&euml; trash&euml; (brokat); jan&euml; t&euml; stoliur me bylyzyk&euml; t&euml; argjent&euml; dhe Zoti i tyre ujep t&euml; pijn&euml; pije t&euml; past&euml;r.';
+$t[22] = 'Ky &euml;sht&euml; shp&euml;rblimi juaji, sepse angazhimi juaji ka qen&euml; i pranish&euml;m.';
+$t[23] = 'Ne t&euml; shpall&euml;m ty Kur&rsquo;anin n&euml; intervale (pjes&euml;-pjes&euml;).';
+$t[24] = 'Andaj ti b&euml;hu i duruesh&euml;m deri n&euml; vendimin e Zotit t&euml;nd e mos d&euml;gjo as m&euml;katar&euml;, as jobesimtar&euml;.';
+$t[25] = 'Adhuroje Zotin t&euml;nd m&euml;ngjes e mbr&euml;mje.';
+$t[26] = 'Dhe falu p&euml;r hir&euml; t&euml; Tij n&euml; nj&euml; koh&euml; t&euml; nat&euml;s, mandej adhuroje At&euml; edhe nat&euml;n m&euml; gjat&euml;.';
+$t[27] = 'V&euml;rtet, ata (idhujtar&euml;t) e duan shum&euml; k&euml;t&euml; jet&euml; dhe e z&euml;n&euml; asgj&euml; dit&euml;n e r&euml;nd&euml; q&euml; i pret.';
+$t[28] = 'Ne i krijuam ata dhe Ne e p&euml;rsos&euml;m krijimin e tyre, e sikur t&euml; duam, Ne i zhdukim ata e sjellim t&euml; tjer&euml; m&euml; t&euml; mir&euml; se ata.';
+$t[29] = 'V&euml;rtet, k&euml;to jan&euml; nj&euml; k&euml;shill&euml;, e kush do e merr rrug&euml;n q&euml; e &ccedil;on te Zoti i tij.';
+$t[30] = 'Po ju nuk mund t&euml; doni gj&euml;, pos n&euml;se do All-llahu, e All-llahu &euml;sht&euml; shum&euml; i dijsh&euml;m, shum&euml; i urt&euml;.';
+$t[31] = 'Ai at&euml; q&euml; do, e shtie n&euml; m&euml;shir&euml;n e Vet, kurse p&euml;r zullumqar&euml;t ka p&euml;rgatitur d&euml;nim t&euml; dhembsh&euml;m.';
+?>

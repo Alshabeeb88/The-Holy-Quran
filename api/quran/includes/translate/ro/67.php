@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Binecuv&acirc;ntat fie Cel ce are &icirc;n m&acirc;na Sa &icirc;mpărăţia, Cel ce asupra tuturor are putere,';
+$t[2] = 'Cel ce a creat viaţa şi moartea ca să dovedească care dintre voi este mai bun la faptă. El este Puternic, Iertător.';
+$t[3] = 'Binecuv&acirc;ntat fie Cel ce a creat cele şapte ceruri puse unele asupra altora! Nu vei vedea &icirc;n creaţia Milostivului nici o nepotrivire. &Icirc;ntoarce-ţi privirea! Zăreşti pe undeva vreun cusur?';
+$t[4] = 'Roteşte-ţi apoi privirea &icirc;ncă de două ori! Şi privirea ţi se va &icirc;ntoarce obosită, slăbită.';
+$t[5] = 'Noi am &icirc;mpodobit cerul cel mai apropiat cu lumini pe care le-am făcut ca să-i lovim pe diavolii cărora le-am pregătit şi os&acirc;nda Iadului.';
+$t[6] = 'Cei care L-au tăgăduit pe Domnul lor vor avea parte de os&acirc;nda Gheenei. Ce rea devenire!';
+$t[7] = 'C&acirc;nd vor fi aruncaţi acolo, vor auzi un răget, iar Gheena va clocoti';
+$t[8] = 'gata să se sfarme de furie. De fiece dată c&acirc;nd o ceată &icirc;i este aruncată, păzitorii săi vor &icirc;ntreba: &ldquo;Nu vi s-a predicat şi vouă?&rdquo;';
+$t[9] = 'Ei vor spune: &ldquo;Ba da, cineva a venit să ne predice, &icirc;nsă noi l-am hulit zic&acirc;ndu-i: &lsquo;Dumnezeu n-a pogor&acirc;t nimic, iar voi sunteţi &icirc;ntr-o ad&acirc;ncă rătăcire.&rsquo;&rdquo;';
+$t[10] = 'Ei vor spune: &ldquo;Dacă noi am fi ascultat ori dacă am fi &icirc;nţeles, nu am fi fost acum printre soţii Focului.&rdquo;';
+$t[11] = 'Ei şi-au recunoscut păcatul. Să piară soţii Focului!';
+$t[12] = 'Cei care s-au temut de Domnul lor &icirc;ntru Taină vor avea iertare şi mare răsplată.';
+$t[13] = 'Fie că vă tăinuiţi vorbele, fie că le spuneţi tare, El cunoaşte lăuntrul inimilor voastre.';
+$t[14] = 'Nu cunoaşte El ceea ce a creat, El, Pătrunzătorul, Cunoscătorul?';
+$t[15] = 'El a făcut păm&acirc;ntul supus vouă. Străbateţi marile sale &icirc;ntinderi şi m&acirc;ncaţi din dăruirea Lui. Către El va fi &Icirc;nvierea.';
+$t[16] = 'Credeţi oare că Cel ce este &icirc;n Cer nu poate face păm&acirc;ntul să vă &icirc;nghită? Iată-l cum se zg&acirc;lţ&acirc;ie!';
+$t[17] = 'Credeţi oare că Cel ce este &icirc;n Cer nu poate dezlănţui asupra voastră o furtună de pietre? Atunci veţi şti ce a &icirc;nsemnat predica Mea!';
+$t[18] = 'Cei dinaintea lor au hulit. Şi cum a fost mustrarea Mea!';
+$t[19] = 'Ei nu văd păsările deasupra lor cum &icirc;şi &icirc;ntind şi &icirc;şi str&acirc;ng aripile? Numai Milostivul le ţine acolo. El este Atotvăzător.';
+$t[20] = 'Cel ce are o oştire pentru voi, vă poate ajuta &icirc;n locul Milostivului? Tăgăduitorii sunt &icirc;n amăgire.';
+$t[21] = 'Cine v-ar putea hrăni, dacă Dumnezeu şi-ar lua darurile &icirc;napoi? Ei se &icirc;ncăpăţ&acirc;nează &icirc;nsă &icirc;n obrăznicie şi ură.';
+$t[22] = 'Cel care merge cu capul &icirc;n jos este mai bine călăuzit dec&acirc;t cel care merge pe Calea cea Dreaptă cu capul sus?';
+$t[23] = 'Spune: &ldquo;El este Cel ce a făcut să vă naşteţi. El v-a dat auzul, văzul şi inimile.&rdquo; Voi sunteţi &icirc;nsă at&acirc;t de puţin recunoscători!';
+$t[24] = 'Spune: &ldquo;El este Cel ce v-a &icirc;mprăştiat pe păm&acirc;nt şi la El veţi fi iarăşi str&acirc;nşi.&rdquo;';
+$t[25] = 'Ei vor spune: &ldquo;C&acirc;nd se va &icirc;mplini această făgăduială, dacă spuneţi adevărul?&rdquo;';
+$t[26] = 'Spune: &ldquo;Ştiinţa nu este dec&acirc;t la Dumnezeu. Eu nu sunt dec&acirc;t un predicator cu vorba limpede!&rdquo;';
+$t[27] = 'C&acirc;nd cei care tăgăduiesc o vor vedea de aproape, chipurile li se vor schimonosi. Li se va spune: &ldquo;Aceasta este ceea ce aţi chemat!&rdquo;';
+$t[28] = 'Spune: &ldquo;Ce credeţi? Fie că Dumnezeu mă va nimici pe mine şi pe cei dimpreună cu mine, fie că se va milostivi de noi, &icirc;nsă cine &icirc;i va apăra pe tăgăduitori de os&acirc;nda dureroasă?&rdquo;';
+$t[29] = 'Spune: &ldquo;El este Milostivul! Noi credem &icirc;n El. Lui ne &icirc;ncredinţăm.&rdquo; Veţi şti atunci cine este &icirc;ntr-o rătăcire făţişă!';
+$t[30] = 'Spune: &ldquo;Ce credeţi? Dacă apa voastră se va scurge &icirc;n păm&acirc;nt peste noapte cine vă va mai da apă de izvor?&rdquo;';
+?>

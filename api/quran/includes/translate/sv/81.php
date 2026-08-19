@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'N&Auml;R SOLEN lindas in [i m&ouml;rker],';
+$t[2] = 'och stj&auml;rnorna mister sitt sken,';
+$t[3] = 'och bergen s&auml;tts i r&ouml;relse,';
+$t[4] = 'och de dr&auml;ktiga kamelstona l&auml;mnas utan tillsyn,';
+$t[5] = 'och de vilda djuren tyr sig till varandra,';
+$t[6] = 'och haven fattar eld,';
+$t[7] = 'och sj&auml;larna f&ouml;rs samman [de goda med de goda, de onda med de onda],';
+$t[8] = 'och den nyf&ouml;dda, som begravdes levande, tillfr&aring;gas';
+$t[9] = 'f&ouml;r vilket brott hon miste livet,';
+$t[10] = 'och [r&auml;kenskapens] b&ouml;cker &ouml;ppnas,';
+$t[11] = 'och himlens [f&ouml;rh&auml;nge] dras ifr&aring;n,';
+$t[12] = 'och helvetets [ugnar] fyras under,';
+$t[13] = 'och paradiset g&ouml;rs synligt -';
+$t[14] = '[d&aring;] skall varje sj&auml;l f&aring; veta vad den har f&ouml;rt med sig [till Domen].';
+$t[15] = 'JAG kallar att vittna planeterna,';
+$t[16] = 'som, n&auml;r de f&ouml;ljer sina banor, d&ouml;ljer sig [under horisonten],';
+$t[17] = 'och natten, n&auml;r dess m&ouml;rker s&auml;nker sig,';
+$t[18] = 'och morgonen, n&auml;r den drar sitt [f&ouml;rsta] andetag. -';
+$t[19] = 'Denna [Skrift] &auml;r f&ouml;rvisso [Guds] ord, framsagda av en &auml;del budb&auml;rare,';
+$t[20] = 'en som &auml;ger stor makt och vars plats &auml;r n&auml;ra Herren till allmaktens tron,';
+$t[21] = '&aring;tlydd och d&auml;rtill h&ouml;gt betrodd!';
+$t[22] = 'Er landsman &auml;r inte besatt av andar -';
+$t[23] = 'han s&aring;g helt visst [budb&auml;raren] vid den klara horisonten -';
+$t[24] = 'och han undanh&aring;ller ingenting av [vad han f&aring;tt veta av] det som &auml;r dolt f&ouml;r m&auml;nniskor.';
+$t[25] = 'Och i [Skriften] finns ingalunda ord av en utst&ouml;tt demon.';
+$t[26] = 'Vilken v&auml;g skall ni [nu] sl&aring; in p&aring; [i f&ouml;rs&ouml;ken att beljuga och misst&auml;nkligg&ouml;ra den]';
+$t[27] = 'Denna [Skrift] &auml;r ingenting mindre &auml;n en p&aring;minnelse till alla m&auml;nniskor -';
+$t[28] = 'till dem av er som vill f&ouml;lja en rak v&auml;g.';
+$t[29] = 'Men ni kan bara vilja [det] i den m&aring;n Gud, v&auml;rldarnas Herre, vill [att ni f&ouml;ljer denna v&auml;g].';
+?>

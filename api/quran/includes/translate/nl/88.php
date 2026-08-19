@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Heeft het nieuws van den overvallenden dag des oordeels u bereikt.';
+$t[2] = 'Die sommigen de aangezichten zal doen buigen?';
+$t[3] = 'Werkende en afgemat van vermoeienis.';
+$t[4] = 'Zullen zij in het gloeiende vuur geworpen worden, om geroosterd te worden.';
+$t[5] = 'Men zal hun uit eene kokende fontein geven te drinken.';
+$t[6] = 'Zij zullen geen voedsel hebben, dan droge doornen en distels (al Dari).';
+$t[7] = 'Dat voeden, noch den honger stillen zal.';
+$t[8] = 'Maar de aangezichten van anderen zullen op dien dag vroolijk zijn.';
+$t[9] = 'Voldaan over hetgeen zij vroeger zullen hebben verricht.';
+$t[10] = 'Zij zullen in een sierlijken tuin worden geplaatst.';
+$t[11] = 'Waar zij geene ijdele gesprekken zullen hooren.';
+$t[12] = 'Daar zal eene springende fontein wezen;';
+$t[13] = 'Daar zullen verheven zetels opgericht wezen.';
+$t[14] = 'En bekers zullen voor hen geplaatst zijn,';
+$t[15] = 'En kussens in orde gelegd,';
+$t[16] = 'En tapijten geheel uitgespreid.';
+$t[17] = 'Overwegen zij niet hoe de kameelen geschapen zijn';
+$t[18] = 'En hoe de hemel verheven is;';
+$t[19] = 'En hoe de bergen zijn bevestigd.';
+$t[20] = 'En hoe de aarde is uitgespreid?';
+$t[21] = 'Daarom, waarschuw uw volk, want gij zijt slechts een waarschuwer,';
+$t[22] = 'Eene onbepaalde macht is u niet over hen opgedragen.';
+$t[23] = 'Maar wie zich afwenden, en niet gelooven zal,';
+$t[24] = 'Maar wie zich afwenden, en niet gelooven zal,';
+$t[25] = 'Maar wie zich afwenden, en niet gelooven zal,';
+$t[26] = 'En dan is het mijne taak, hun rekenschap af te vragen.';
+?>

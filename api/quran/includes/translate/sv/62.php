@@ -1,0 +1,14 @@
+<?php
+$t = array();
+$t[1] = 'ALLT det som himlarna rymmer och det som jorden b&auml;r prisar Gud, Konungen, den Helige, den Allsm&auml;ktige, den Vise.';
+$t[2] = 'Det &auml;r Han som har s&auml;nt ett S&auml;ndebud till de ol&auml;rda ur deras egna led f&ouml;r att framf&ouml;ra Hans budskap till dem och [l&auml;ra] dem renhet och undervisa dem i Skriften och [profeternas] visdom - de hade f&ouml;rut helt uppenbart g&aring;tt vilse -';
+$t[3] = 'och till andra [folk], som &auml;nnu inte kommit i ber&ouml;ring med dem - Han &auml;r den Allsm&auml;ktige, den Vise.';
+$t[4] = 'S&aring;dan &auml;r Guds n&aring;d, och Han sk&auml;nker den till den Han vill. Guds n&aring;d &auml;r en outsinlig k&auml;lla.';
+$t[5] = 'DE som anf&ouml;rtroddes Tora och som d&auml;refter inte f&ouml;rm&aring;dde b&auml;ra denna [b&ouml;rda], kan liknas vid &aring;snan som b&auml;r en last av heliga b&ouml;cker. Ett folk som p&aring;st&aring;r att Guds budskap &auml;r l&ouml;gn visar upp sin mest motbjudande sida; Gud v&auml;gleder inte dem som oupph&ouml;rligt beg&aring;r or&auml;tt.';
+$t[6] = 'S&auml;g: &quot;Ni, bek&auml;nnare av den judiska tron! Om ni som ni p&aring;st&aring;r &auml;r Guds enda v&auml;nner bland m&auml;nniskorna, borde ni &ouml;nska er d&ouml;den - om ni talar sanning!&quot;';
+$t[7] = 'Men de kommer aldrig att &ouml;nska sig d&ouml;den p&aring; grund av det som deras h&auml;nder har s&auml;nt f&ouml;re dem [till Domen]; och Gud k&auml;nner de or&auml;ttf&auml;rdiga.';
+$t[8] = 'S&auml;g: &quot;D&ouml;den, som ni vill fly fr&aring;n, skall infinna sig till det m&ouml;te [som &auml;r utsatt] f&ouml;r er och d&aring; skall ni f&ouml;ras &aring;ter till Honom som k&auml;nner allt det som &auml;r dolt f&ouml;r m&auml;nniskor och det som de kan bevittna, och d&aring; skall Han l&aring;ta er veta vad era handlingar [var v&auml;rda].&quot;';
+$t[9] = 'TROENDE! N&auml;r b&ouml;neutroparen kallar till fredagsb&ouml;nen, l&auml;mna d&aring; handel och k&ouml;penskap och skynda er dit d&auml;r Guds namn &aring;kallas; detta &auml;r f&ouml;r er det b&auml;sta - om ni [bara] visste!';
+$t[10] = 'Och n&auml;r b&ouml;nen &auml;r slut skall var och en g&aring; tillbaka till sitt f&ouml;r att s&ouml;ka det som Gud i Sin godhet [beviljar honom]. Och ha alltid Gud i tankarna, f&ouml;r att det skall g&aring; er v&auml;l i h&auml;nder.';
+$t[11] = '[Men om] m&auml;nniskorna blir varse [ett tillf&auml;lle att g&ouml;ra] en vinst eller [att f&aring; en stunds] f&ouml;rlustelse, bryter de upp [fr&aring;n b&ouml;nen] och l&auml;mnar dig [Muhammad] st&aring;ende [i predikstolen]. [Varna dem och] s&auml;g: &quot;Det som [v&auml;ntar er] hos Gud &auml;r b&auml;ttre &auml;n ytlig f&ouml;rstr&ouml;else eller [ett tillf&auml;lle att g&ouml;ra] en vinst; ingen s&ouml;rjer b&auml;ttre [f&ouml;r de sina] &auml;n Gud!&quot;';
+?>

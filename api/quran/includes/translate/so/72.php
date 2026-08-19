@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Waxaad Dhahdaa (Nabiyow) waxaa lay waxyooday inay Dhagaysteen Koox Jinni ah (Quraanka) Dheheen waxaan maqallay quraan layaab leh.';
+$t[2] = 'Oo ku hanuunin xaqa waana Rumaynay waxaan Eebe cibaada la wadaajinhaynana ma jiro.';
+$t[3] = 'Waxaana Sarreeya sharafta Eebeheen, mana yeelan haweenay iyo ilmo midna.';
+$t[4] = 'Waxay Ahaayeen kuwannagii xumaa inay ku dhaheen hadallo xadgudug ah Eebe.';
+$t[5] = 'Waxaana u Malaynaynay inuusan insi iyo Jini Midna Eebe ku beensheegaynin.';
+$t[6] = 'Waxayna ahaayeen kuwo insiga ka mid ah inay Magangalaan kuwo Jinniga ka mida markaasna u kordhiyeen kibir (iyo xad Gudub).';
+$t[7] = 'Waxayna jinnigu u maleeyeen sidaad u malayseen inaan Eebe soo Bixinhaynin Ruuxna.';
+$t[8] = 'Waxaan Doonnay samada waxaana hellay iyadoo ka buuxda Ilaalin daran iyo danabyo.';
+$t[9] = 'Waxaana ahayn kuwo Fadhiista xageeda meelo si aan wax uga dhagaysanno Ruuxiise Dhagaysta hadda wuxuu heli danabyo darban &laquo;la kulmi&raquo;.';
+$t[10] = 'Mana ogin inay tahay shar lala Doonay dadka Dhulka ku nool ama Eebohood la Doonay hanuun (iyo khayr).';
+$t[11] = 'Waxaa naga mid ah kuwo suuban iyo kuwo kaleba, waxaan nahay kooxa kala duwan.';
+$t[12] = 'Waxaanna Ognahay Inaannaan Eebe ku daalinkarin Dhulka Dhexdiisa, kuna Daalinhaynin Cararid.';
+$t[13] = 'Markaan Maqallay hanuunkana waan Rumaynay, Ruuxii rumeeya Eebihiisana kama yaabo Nusqaan iyo Dulmi Midna.';
+$t[14] = 'Waxaa naga mida Muslimiin iyo Kuwo xadgudbay, Ruusiise islaama waa mid ku dadaalay hanuun.';
+$t[15] = 'Kuwiise xadgudbay waxay ahaan Qoryaha Jahannamo.';
+$t[16] = 'Hadday ku toosaan Dadku jidka (wanaagsan) waxaaan ka waraabinlahayn biyo badan.';
+$t[17] = 'Imtixaan Dartiis, Ruuxii ka Jeedsada Xusidda Eebihiis wuxuu galin cadaab daran.';
+$t[18] = 'Masaajidda Eebaa iska leh ee ha kula baryina &laquo;caabudina&raquo; Eeb Cid kale.';
+$t[19] = 'Markuu istaagay Addoonkii Eebe (Nabigu) isagoo Caabudi Eebe waxay Jinnigu u dhawaadeen inay korkiisa is dulfuulan.';
+$t[20] = 'Waxaad Dhahdaa Nabiyow waxaan uun Caabudi Eebahay lana wadaajinmahayo cidna.';
+$t[21] = 'Waxaad dhahdaa idiin ma hanto shar iyo khayr midna.';
+$t[22] = 'Waxaad Dhahdaa cidna igama korinayso Eebe, mana helayo isaga ka sakow Magangalyo.';
+$t[23] = 'Hase yeeshee waxaan hantaa Gaadhsiinta xaqa Eebe iyo Farriimihiisa, Ruuxiise Eebe Caasiya iyo Rasuulkiisa waxaa u sugnaaday Naarta Jahannama isagoo ku waari Dhexdeeda.';
+$t[24] = 'Markay Gaaladu Arkaan waxa loo yaboohi waxay ogaan cidda Gargaarihiisu tabaryaryahay tirana yaryahay.';
+$t[25] = 'Waxaad Dhahdaa ma ogi inuu Dhawyahay waxa la idiinku Gooddin ama Eebahay waqti u yeeli.';
+$t[26] = 'Eebaa og waxa Maqan, umana muujiyo waxaa maqan Ruuxna.';
+$t[27] = 'Marka laga Reebo ciduu ka raalli Noqday oo Rasuulah, Isagoo hor iyo gadaalba ka ilaalin.';
+$t[28] = 'Si Eebe u muujiyo inay Gaadhsiiyeen Farriimihii Eebohood, Eebana waa koobay waxa Agtooda ah wayna u tirakoobanyihiin wax walba.';
+?>

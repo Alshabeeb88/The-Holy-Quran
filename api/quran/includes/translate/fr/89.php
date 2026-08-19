@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Par l\'Aube !';
+$t[2] = 'et par les dix nuits !';
+$t[3] = 'Par le pair et l\'impair !';
+$t[4] = 'Et par la nuit quand elle s\'&eacute;coule !';
+$t[5] = 'N\'est-ce pas l&agrave; un serment, pour un dou&eacute; d\'intelligence ?';
+$t[6] = 'N\'as-tu pas vu comment ton Seigneur a agi avec les Aad';
+$t[7] = '[avec] Iram , [la cit&eacute;] &agrave; la colonne remarquable,';
+$t[8] = 'dont jamais pareille ne fut construite parmi les villes ?';
+$t[9] = 'et avec les Tamud qui taillaient le rocher dans la vall&eacute;e ?';
+$t[10] = 'ainsi qu\'avec Pharaon, l\'homme aux &eacute;pieux ?';
+$t[11] = 'Tous, &eacute;taient des gens qui transgressaient dans [leurs] pays,';
+$t[12] = 'et y avaient commis beaucoup de d&eacute;sordre.';
+$t[13] = 'Donc, ton Seigneur d&eacute;versa sur eux un fouet du ch&acirc;timent.';
+$t[14] = 'Car ton Seigneur demeure aux aguets.';
+$t[15] = 'Quant &agrave; l\'homme, lorsque son Seigneur l\'&eacute;prouve en l\'honorant et en le comblant de bienfaits, il dit : &quot;Mon Seigneur m\'a honor&eacute;&quot;.';
+$t[16] = 'Mais par contre, quand Il l\'&eacute;prouve en lui restreignant sa subsistance, il dit : &quot;Mon Seigneur m\'a avili&quot;.';
+$t[17] = 'Mais non ! C\'est vous plut&ocirc;t, qui n\'&ecirc;tes pas g&eacute;n&eacute;reux envers les orphelins;';
+$t[18] = 'qui ne vous incitez pas mutuellement &agrave; nourrir le pauvre,';
+$t[19] = 'qui d&eacute;vorez l\'h&eacute;ritage avec une avidit&eacute; vorace,';
+$t[20] = 'et aimez les richesses d\'un amour sans bornes.';
+$t[21] = 'Prenez garde ! Quand la terre sera compl&egrave;tement pulv&eacute;ris&eacute;e,';
+$t[22] = 'et que ton Seigneur viendra ainsi que les Anges, rang par rang,';
+$t[23] = 'et que ce jour-l&agrave;, on am&egrave;nera l\'Enfer; ce jour-l&agrave;, l\'homme se rappellera. Mais &agrave; quoi lui servira de se souvenir ?';
+$t[24] = 'Il dira : &quot;H&eacute;las ! Que n\'ai-je fait du bien pour ma vie future !';
+$t[25] = 'Ce jour-l&agrave; donc, nul ne saura ch&acirc;tier comme Lui ch&acirc;tie,';
+$t[26] = 'et nul ne saura garrotter comme Lui garrotte.';
+$t[27] = '&quot;&ocirc; toi, &acirc;me apais&eacute;e,';
+$t[28] = 'retourne vers ton Seigneur, satisfaite et agr&eacute;&eacute;e;';
+$t[29] = 'entre donc parmi Mes serviteurs,';
+$t[30] = 'et entre dans Mon Paradis&quot;.';
+?>

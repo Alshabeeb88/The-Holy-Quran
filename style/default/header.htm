@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme-color" content="#0c4f42">
+  <title>{title}</title>
+  {seo}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
+  <link rel="shortcut icon" type="image/x-icon" href="{style}/favicon.ico">
+  <script type="text/javascript" src="{style}/js/quran.js" defer></script>
+  {js}
+  <script>
+    (function(){
+      try {
+        var savedTheme = localStorage.getItem('qfa_theme');
+        var initialTheme = savedTheme === 'dark' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', initialTheme);
+        document.documentElement.style.setProperty('--breadcrumb-inline-color', initialTheme === 'dark' ? '#f1f5f3' : '#0b6555');
+        document.documentElement.style.setProperty('--breadcrumb-active-inline-color', initialTheme === 'dark' ? '#b7c7c1' : '#66756f');
+      } catch(e) {
+        document.documentElement.setAttribute('data-theme', 'light');
+        document.documentElement.style.setProperty('--breadcrumb-inline-color', '#0b6555');
+        document.documentElement.style.setProperty('--breadcrumb-active-inline-color', '#66756f');
+      }
+    })();
+  </script>
+  <script>
+    // V22: legacy hash routes are no longer valid. Redirect before the page renders.
+    (function(){
+      var h = window.location.hash;
+      if (h === '#contact-us') { window.location.replace('{site_url}contact.php'); }
+      if (h === '#date-converter') { window.location.replace('{site_url}date-converter.php'); }
+    })();
+  </script>
+</head>
+<body class="{page-class}">
+  {admin-nav}
+  <div class="mobile-fixed-header-stack">
+  <div class="memorial-bar{memorial-class}">
+    <div class="container memorial-inner">
+      <span class="memorial-icon" aria-hidden="true">﷽</span>
+      <span>{memorial-title}</span>
+      <span class="memorial-dua">{memorial-dua}</span>
+    </div>
+  </div>
+
+  <nav class="mobile-safe-nav" aria-label="التنقل على الجوال">
+    <div class="mobile-safe-nav-inner">
+      <a class="mobile-safe-brand" href="{site_url}" aria-label="الصفحة الرئيسية">
+        <span class="mobile-safe-brand-mark"><img src="{site_url}style/default/images/quran-logo.png" alt="القرآن الكريم"></span>
+        <span class="mobile-safe-brand-text">القرآن الكريم</span>
+      </a>
+      <div class="mobile-safe-tools">
+        <button class="mobile-theme-toggle" type="button" aria-label="تبديل الوضع الفاتح والداكن" aria-pressed="false">
+          <span class="mobile-theme-icon" aria-hidden="true">☀</span>
+        </button>
+        <button class="mobile-menu-toggle" type="button" aria-controls="mobileSafeMenu" aria-expanded="false" aria-label="فتح القائمة">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+    <div class="mobile-safe-menu" id="mobileSafeMenu" hidden>
+      <a href="{site_url}quran.php">القرآن الكريم</a>
+      <a href="{site_url}tafseer.php">التفاسير</a>
+      <a href="{site_url}qibla.php">اتجاه القبلة</a>
+      <a href="{site_url}tasbeeh.php">المسبحة الرقمية</a>
+      <details class="mobile-nav-group">
+        <summary><span><i class="fas fa-book" aria-hidden="true"></i> كتب - القرآن بلغات العالم</span><i class="fas fa-chevron-down mobile-group-chevron" aria-hidden="true"></i></summary>
+        <div><a href="{site_url}books.php">الكتب</a><a href="{site_url}#languages">القرآن بلغات العالم</a></div>
+      </details>
+      <details class="mobile-nav-group">
+        <summary><span><i class="fas fa-hands" aria-hidden="true"></i> الأذكار</span><i class="fas fa-chevron-down mobile-group-chevron" aria-hidden="true"></i></summary>
+        <div><a href="{site_url}morning-adhkar.php">أذكار الصباح</a><a href="{site_url}evening-adhkar.php">أذكار المساء</a></div>
+      </details>
+      <details class="mobile-nav-group">
+        <summary><span><i class="fas fa-ellipsis-h" aria-hidden="true"></i> المزيد</span><i class="fas fa-chevron-down mobile-group-chevron" aria-hidden="true"></i></summary>
+        <div><a href="{site_url}date-converter.php">محول التاريخ</a><a href="{site_url}contact.php">تواصل معنا</a></div>
+      </details>
+    </div>
+  </nav>
+  </div>
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top custom-nav">
+    <div class="container">
+      <a class="navbar-brand custom-navbar-brand" href="{site_url}">
+        <span class="brand-mark"><img src="{site_url}style/default/images/quran-logo.png" alt="القرآن الكريم"></span>
+        <span class="brand-copy"><strong>القرآن الكريم</strong><small>تلاوة • تفسير • ترجمة</small></span>
+      </a>
+      <div class="nav-tools">
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="تفعيل الوضع الداكن" aria-pressed="false" title="تبديل الوضع الفاتح والداكن">
+          <span class="theme-toggle-track" aria-hidden="true"><i class="fas fa-sun theme-sun"></i><i class="fas fa-moon theme-moon"></i><span class="theme-toggle-knob"></span></span>
+          <span class="theme-toggle-label">الوضع الداكن</span>
+        </button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNav"><ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="{site_url}quran.php">القرآن الكريم</a></li>
+        <li class="nav-item"><a class="nav-link" href="{site_url}tafseer.php">التفاسير</a></li>
+        <li class="nav-item"><a class="nav-link" href="{site_url}qibla.php">اتجاه القبلة</a></li>
+        <li class="nav-item"><a class="nav-link" href="{site_url}tasbeeh.php">المسبحة</a></li>
+        <li class="nav-item nav-dropdown-item"><details class="nav-dropdown"><summary class="nav-link">كتب - القرآن بلغات العالم <i class="fas fa-chevron-down" aria-hidden="true"></i></summary><div class="nav-dropdown-menu nav-dropdown-menu-wide"><a href="{site_url}books.php"><i class="fas fa-book" aria-hidden="true"></i><span>الكتب</span></a><a href="{site_url}#languages"><i class="fas fa-globe" aria-hidden="true"></i><span>القرآن بلغات العالم</span></a></div></details></li>
+        <li class="nav-item nav-dropdown-item"><details class="nav-dropdown"><summary class="nav-link">الأذكار <i class="fas fa-chevron-down" aria-hidden="true"></i></summary><div class="nav-dropdown-menu"><a href="{site_url}morning-adhkar.php"><i class="fas fa-sun" aria-hidden="true"></i><span>أذكار الصباح</span></a><a href="{site_url}evening-adhkar.php"><i class="fas fa-moon" aria-hidden="true"></i><span>أذكار المساء</span></a></div></details></li>
+        <li class="nav-item nav-dropdown-item"><details class="nav-dropdown"><summary class="nav-link">المزيد <i class="fas fa-chevron-down" aria-hidden="true"></i></summary><div class="nav-dropdown-menu nav-dropdown-menu-wide"><a href="{site_url}date-converter.php"><i class="fas fa-calendar-alt" aria-hidden="true"></i><span>محول التاريخ</span></a><a href="{site_url}contact.php"><i class="fas fa-envelope" aria-hidden="true"></i><span>تواصل معنا</span></a></div></details></li>
+      </ul></div>
+    </div>
+  </nav>
+
+  <header class="site-hero home-only">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <span class="hero-kicker">القرآن الكريم للجميع</span>
+          <h2 class="hero-main-title">كتاب الله بين يديك<br><span>قراءةً واستماعًا وتدبرًا</span></h2>
+          <p>تصفح القرآن الكريم، استمع لقراء متعددين، واقرأ التفاسير وترجمات المعاني بعدة لغات في واجهة هادئة ومريحة.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary hero-btn" href="{site_url}#quran"><i class="fas fa-book-open"></i> ابدأ القراءة</a>
+            <a class="btn hero-btn hero-btn-light" href="{site_url}#languages"><i class="fas fa-globe"></i> الترجمات</a>
+          </div>
+        </div>
+
+        <section class="prayer-widget" id="prayer-widget" aria-label="مواقيت الصلاة">
+          <div class="prayer-head">
+            <div><span class="prayer-eyebrow">مواقيت الصلاة اليوم</span><h2 id="prayer-location">الرياض، المملكة العربية السعودية</h2></div>
+            <button type="button" class="location-btn" id="use-location" title="استخدم موقعي"><i class="fas fa-location-arrow"></i></button>
+          </div>
+          <div class="prayer-date"><span id="hijri-date">—</span><span id="gregorian-date">—</span></div>
+          <div class="next-prayer"><span>الصلاة القادمة</span><strong id="next-prayer-name">—</strong><b id="next-prayer-countdown">--:--:--</b></div>
+          <div class="prayer-times" id="prayer-times">
+            <div><span>الفجر</span><strong data-prayer="Fajr">--:--</strong></div>
+            <div><span>الشروق</span><strong data-prayer="Sunrise">--:--</strong></div>
+            <div><span>الظهر</span><strong data-prayer="Dhuhr">--:--</strong></div>
+            <div><span>العصر</span><strong data-prayer="Asr">--:--</strong></div>
+            <div><span>المغرب</span><strong data-prayer="Maghrib">--:--</strong></div>
+            <div><span>العشاء</span><strong data-prayer="Isha">--:--</strong></div>
+          </div>
+          <form class="prayer-search" id="prayer-search">
+            <input id="prayer-city" type="text" value="Riyadh" placeholder="المدينة" aria-label="المدينة">
+            <input id="prayer-country" type="text" value="Saudi Arabia" placeholder="الدولة" aria-label="الدولة">
+            <button type="submit">تحديث</button>
+          </form>
+          <div class="prayer-note" id="prayer-status">طريقة الحساب: أم القرى - مكة</div>
+        </section>
+      </div>
+      {code}
+    </div>
+  </header>
+
+  <section class="haram-live-section home-only" id="haram-live" aria-labelledby="haram-live-title">
+    <div class="container">
+      <div class="haram-live-card haram-live-card--video-only">
+        <div class="haram-video-wrap">
+          <button class="youtube-lite" type="button"
+            data-youtube-id="Op4Wt3S5wRQ"
+            aria-label="تشغيل البث المباشر للحرم المكي">
+            <img src="https://i.ytimg.com/vi/Op4Wt3S5wRQ/hqdefault.jpg"
+                 alt="البث المباشر للحرم المكي"
+                 loading="lazy"
+                 decoding="async">
+            <span class="youtube-lite-play" aria-hidden="true"><i class="fas fa-play"></i></span>
+            <span class="youtube-lite-label">اضغط لتشغيل البث المباشر</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="internal-page-head internal-only">
+    <div class="container internal-page-head-inner">
+      <div class="internal-page-title">
+        <span class="internal-page-eyebrow">القرآن الكريم للجميع</span>
+        <h1>{title}</h1>
+      </div>
+    </div>
+  </section>
+
+  <main class="site-main {container-class}">{bodycode}

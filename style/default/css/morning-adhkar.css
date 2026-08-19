@@ -1,0 +1,107 @@
+.morning-adhkar-page-body .internal-page-head,.morning-adhkar-page-body .custom-breadcrumb,.evening-adhkar-page-body .internal-page-head,.evening-adhkar-page-body .custom-breadcrumb{display:none!important}
+.morning-adhkar-page-body.internal-page .site-main,.evening-adhkar-page-body.internal-page .site-main{padding-top:0!important;padding-bottom:0!important}
+.adhkar-page{background:linear-gradient(180deg,#f4f8f6 0%,#fbfcfb 100%);padding:32px 0 70px;color:var(--q-text)}
+.adhkar-container{max-width:920px}
+.adhkar-hero{position:relative;display:flex;align-items:center;justify-content:space-between;gap:24px;overflow:hidden;margin-bottom:22px;padding:34px 38px;border:1px solid #d7e6e0;border-radius:26px;background:radial-gradient(circle at 12% 25%,rgba(205,167,89,.22),transparent 32%),linear-gradient(135deg,#0a5c4c,#0b7560);box-shadow:0 20px 55px rgba(8,75,62,.16);color:#fff}
+.adhkar-hero:after{position:absolute;inset:8px;content:"";border:1px solid rgba(255,255,255,.15);border-radius:20px;pointer-events:none}
+.adhkar-eyebrow{display:block;margin-bottom:7px;color:#f0d390;font-size:13px;font-weight:800;letter-spacing:.04em}
+.adhkar-hero h1{margin:0 0 8px;color:#fff;font-size:36px;font-weight:800}
+.adhkar-hero p{max-width:620px;margin:0;color:#e3f3ee;font-size:15px;line-height:1.9}
+.adhkar-sun{display:grid;place-items:center;flex:0 0 84px;width:84px;height:84px;border:1px solid rgba(255,255,255,.22);border-radius:50%;background:rgba(255,255,255,.1);color:#efd083;font-size:36px;box-shadow:inset 0 0 0 8px rgba(255,255,255,.04)}
+.evening-adhkar-page .adhkar-hero{background:radial-gradient(circle at 12% 25%,rgba(216,180,91,.18),transparent 32%),linear-gradient(135deg,#102f3c,#174f50)}
+.evening-adhkar-page .adhkar-sun{color:#f1d78f}
+.adhkar-progress-panel{position:sticky;z-index:20;top:116px;margin-bottom:22px;padding:18px 22px;border:1px solid #d9e7e2;border-radius:20px;background:rgba(255,255,255,.94);box-shadow:0 14px 40px rgba(17,67,56,.1);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px)}
+.adhkar-progress-copy,.adhkar-actions{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.adhkar-progress-copy{margin-bottom:10px;color:#51645e;font-size:13px;font-weight:700}
+.adhkar-progress-copy strong{color:#0b6555;font-size:14px}
+.adhkar-progress-copy b{font-weight:800}
+.adhkar-progress-track{overflow:hidden;height:9px;border-radius:99px;background:#e6efec}
+.adhkar-progress-track span{display:block;width:0;height:100%;border-radius:inherit;background:linear-gradient(90deg,#cba65a,#0c7b65);transition:width .35s ease}
+.adhkar-actions{margin-top:11px;color:#71827c;font-size:12px}
+.adhkar-actions button{border:0;background:transparent;color:#0b6555;font:700 12px 'Cairo',Tahoma,sans-serif;cursor:pointer}
+.adhkar-actions button:hover{text-decoration:underline}
+.adhkar-list{display:grid;gap:18px}
+.adhkar-card{position:relative;padding:25px 28px;border:1px solid #dae7e2;border-radius:22px;background:#fff;box-shadow:0 12px 34px rgba(19,64,54,.07);transition:border-color .25s ease,transform .25s ease,box-shadow .25s ease}
+.adhkar-card:hover{transform:translateY(-2px);border-color:#b9d7cd;box-shadow:0 18px 42px rgba(19,64,54,.11)}
+.adhkar-card.is-complete{border-color:#83bca9;background:linear-gradient(135deg,#fff,#f4fbf8)}
+.adhkar-card.is-complete:after{position:absolute;top:17px;left:18px;content:"✓";display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:#0c7b65;color:#fff;font-weight:800}
+.adhkar-card-head{display:flex;align-items:center;gap:11px;padding-left:34px}
+.adhkar-card-head h2{flex:1;margin:0;color:#153f35;font-size:18px;font-weight:800}
+.adhkar-number{display:grid;place-items:center;width:32px;height:32px;border-radius:10px;background:#e9f3ef;color:#0b6555;font-size:13px;font-weight:800}
+.adhkar-times{padding:5px 10px;border-radius:99px;background:#fbf3df;color:#876b2f;font-size:11px;font-weight:800;white-space:nowrap}
+.adhkar-text{padding:24px 5px;color:#263b35;font-family:'Kitab','Scheherazade',serif;font-size:24px;line-height:2.05;text-align:right}
+.adhkar-card-foot{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-top:17px;border-top:1px solid #edf2f0}
+.adhkar-source{display:flex;align-items:center;gap:8px;margin:0;color:#7b8984;font-size:11px;line-height:1.7}
+.adhkar-source i{color:#b28e42}
+.adhkar-counter{display:flex;align-items:center;gap:12px;flex:0 0 auto;min-height:48px;padding:6px 7px 6px 15px;border:1px solid #0c735f;border-radius:14px;background:#0c735f;color:#fff;font-family:'Cairo',Tahoma,sans-serif;cursor:pointer;touch-action:manipulation;transition:.2s ease;-webkit-tap-highlight-color:transparent}
+.adhkar-counter:hover{background:#095e4e}
+.adhkar-counter:focus-visible{outline:3px solid rgba(203,166,90,.4);outline-offset:3px}
+.adhkar-counter strong{display:grid;place-items:center;min-width:36px;height:36px;padding:0 5px;border-radius:10px;background:rgba(255,255,255,.16);font-size:17px}
+.counter-label{font-size:11px;font-weight:700}
+.is-complete .adhkar-counter{border-color:#b8d8cd;background:#e9f3ef;color:#0b6555}
+.is-complete .adhkar-counter strong{background:#0c7b65;color:#fff}
+.adhkar-reference{display:flex;align-items:center;gap:15px;margin-top:24px;padding:18px 22px;border:1px solid #dfd6bc;border-radius:18px;background:#fffaf0;color:#655b45}
+.adhkar-reference>i{color:#b28e42;font-size:21px}
+.adhkar-reference p{flex:1;margin:0;font-size:12px;line-height:1.8}
+.adhkar-reference p strong,.adhkar-reference p span{display:block}
+.adhkar-reference a{color:#0b6555;font-size:12px;font-weight:800;text-decoration:none;white-space:nowrap}
+html[data-theme="dark"] .adhkar-page{background:linear-gradient(180deg,#071a15,#091e19);color:#f1f5f3}
+html[data-theme="dark"] .adhkar-hero{border-color:#285247;background:radial-gradient(circle at 12% 25%,rgba(216,180,91,.13),transparent 32%),linear-gradient(135deg,#0b211b,#12382e);box-shadow:0 20px 55px rgba(0,0,0,.3)}
+html[data-theme="dark"] .adhkar-progress-panel{border-color:#285247;background:rgba(13,42,34,.94);box-shadow:0 14px 40px rgba(0,0,0,.28)}
+html[data-theme="dark"] .adhkar-progress-copy{color:#b7c7c1}
+html[data-theme="dark"] .adhkar-progress-copy strong,html[data-theme="dark"] .adhkar-actions button{color:#e4c977}
+html[data-theme="dark"] .adhkar-progress-track{background:#071a15}
+html[data-theme="dark"] .adhkar-actions{color:#9fb1ab}
+html[data-theme="dark"] .adhkar-card{border-color:#285247;background:#0d2a22;box-shadow:0 14px 38px rgba(0,0,0,.2)}
+html[data-theme="dark"] .adhkar-card:hover{border-color:#37695b;background:#12382e}
+html[data-theme="dark"] .adhkar-card.is-complete{border-color:#4d8e7b;background:linear-gradient(135deg,#0d2a22,#12382e)}
+html[data-theme="dark"] .adhkar-card-head h2,html[data-theme="dark"] .adhkar-text{color:#f1f5f3}
+html[data-theme="dark"] .adhkar-number{background:#12382e;color:#e4c977}
+html[data-theme="dark"] .adhkar-times{background:#2d2a1c;color:#dec77f}
+html[data-theme="dark"] .adhkar-card-foot{border-color:#285247}
+html[data-theme="dark"] .adhkar-source{color:#b7c7c1}
+html[data-theme="dark"] .adhkar-reference{border-color:#4b4930;background:#17271e;color:#d7c890}
+html[data-theme="dark"] .adhkar-reference a{color:#e4c977}
+@media(max-width:991px){.adhkar-progress-panel{top:126px}}
+@media(max-width:991px){html.qfa-mobile-compact .adhkar-progress-panel{top:104px}}
+@media(max-width:767px){.adhkar-page{padding:24px 0 48px}.adhkar-hero{padding:26px 24px;border-radius:22px}.adhkar-hero h1{font-size:30px}.adhkar-sun{flex-basis:64px;width:64px;height:64px;font-size:28px}.adhkar-progress-panel{margin-inline:-2px;padding:15px 16px;border-radius:17px}.adhkar-card{padding:20px 18px}.adhkar-card-head{align-items:flex-start;flex-wrap:wrap;padding-left:32px}.adhkar-card-head h2{min-width:calc(100% - 50px);font-size:16px}.adhkar-times{margin-right:43px}.adhkar-text{padding:20px 1px;font-size:22px;line-height:2}.adhkar-card-foot{align-items:stretch;flex-direction:column}.adhkar-counter{justify-content:space-between;width:100%;min-height:52px}.adhkar-reference{align-items:flex-start;flex-wrap:wrap}.adhkar-reference a{margin-right:35px}}
+@media(max-width:420px){.adhkar-hero p{font-size:13px}.adhkar-sun{display:none}.adhkar-actions span{max-width:190px}.adhkar-card{border-radius:18px}.adhkar-text{font-size:20px}.adhkar-source{font-size:10px}}
+@media(prefers-reduced-motion:reduce){.adhkar-progress-track span,.adhkar-card,.adhkar-counter{transition:none}}
+
+/* Palette integration for morning and evening adhkar */
+body[class*="color-"] .adhkar-page{background:linear-gradient(180deg,var(--q-soft),#fff)}
+body[class*="color-"] .adhkar-hero,
+body[class*="color-"] .evening-adhkar-page .adhkar-hero{border-color:color-mix(in srgb,var(--q-primary) 28%,#fff);background:radial-gradient(circle at 12% 25%,color-mix(in srgb,var(--q-gold) 21%,transparent),transparent 32%),linear-gradient(135deg,var(--q-deep),var(--q-primary));box-shadow:0 20px 55px color-mix(in srgb,var(--q-primary) 20%,transparent)}
+body[class*="color-"] .adhkar-progress-copy strong,
+body[class*="color-"] .adhkar-actions button,
+body[class*="color-"] .adhkar-card-head h2,
+body[class*="color-"] .adhkar-reference a{color:var(--q-primary)}
+body[class*="color-"] .adhkar-progress-track span{background:linear-gradient(90deg,var(--q-gold),var(--q-primary-2))}
+body[class*="color-"] .adhkar-card:hover{border-color:color-mix(in srgb,var(--q-primary) 38%,#fff)}
+body[class*="color-"] .adhkar-card.is-complete{border-color:color-mix(in srgb,var(--q-primary) 55%,#fff);background:linear-gradient(135deg,#fff,var(--q-soft))}
+body[class*="color-"] .adhkar-card.is-complete:after,
+body[class*="color-"] .adhkar-counter,
+body[class*="color-"] .is-complete .adhkar-counter strong{border-color:var(--q-primary);background:var(--q-primary)}
+body[class*="color-"] .adhkar-counter:hover{background:var(--q-primary-2)}
+body[class*="color-"] .adhkar-number{background:var(--q-soft);color:var(--q-primary)}
+body[class*="color-"] .is-complete .adhkar-counter{border-color:color-mix(in srgb,var(--q-primary) 30%,#fff);background:var(--q-soft);color:var(--q-primary)}
+
+html[data-theme="dark"] body[class*="color-"] .adhkar-page{background:linear-gradient(180deg,var(--q-dark-bg),var(--q-dark-header))}
+html[data-theme="dark"] body[class*="color-"] .adhkar-hero,
+html[data-theme="dark"] body[class*="color-"] .evening-adhkar-page .adhkar-hero{border-color:var(--q-dark-border);background:radial-gradient(circle at 12% 25%,color-mix(in srgb,var(--q-gold) 13%,transparent),transparent 32%),linear-gradient(135deg,var(--q-dark-header),var(--q-dark-card));box-shadow:0 20px 55px rgba(0,0,0,.3)}
+html[data-theme="dark"] body[class*="color-"] .adhkar-progress-panel{border-color:var(--q-dark-border);background:color-mix(in srgb,var(--q-dark-surface) 94%,transparent)}
+html[data-theme="dark"] body[class*="color-"] .adhkar-progress-track{background:var(--q-dark-bg)}
+html[data-theme="dark"] body[class*="color-"] .adhkar-card{border-color:var(--q-dark-border);background:var(--q-dark-surface)}
+html[data-theme="dark"] body[class*="color-"] .adhkar-card:hover{border-color:var(--q-dark-accent);background:var(--q-dark-card)}
+html[data-theme="dark"] body[class*="color-"] .adhkar-card.is-complete{border-color:var(--q-dark-accent);background:linear-gradient(135deg,var(--q-dark-surface),var(--q-dark-card))}
+html[data-theme="dark"] body[class*="color-"] .adhkar-number{background:var(--q-dark-card);color:var(--q-dark-gold)}
+html[data-theme="dark"] body[class*="color-"] .adhkar-card-foot{border-color:var(--q-dark-border)}
+html[data-theme="dark"] body[class*="color-"] .adhkar-reference{border-color:var(--q-dark-border);background:var(--q-dark-surface);color:var(--q-dark-gold)}
+html[data-theme="dark"] body[class*="color-"] .adhkar-card-head h2,
+html[data-theme="dark"] body[class*="color-"] .adhkar-text{color:var(--q-dark-text)!important}
+html[data-theme="dark"] body[class*="color-"] .adhkar-progress-copy strong,
+html[data-theme="dark"] body[class*="color-"] .adhkar-actions button,
+html[data-theme="dark"] body[class*="color-"] .adhkar-reference a{color:var(--q-dark-gold)!important}
+html[data-theme="dark"] body[class*="color-"] .adhkar-progress-copy,
+html[data-theme="dark"] body[class*="color-"] .adhkar-actions,
+html[data-theme="dark"] body[class*="color-"] .adhkar-source{color:var(--q-dark-muted)!important}

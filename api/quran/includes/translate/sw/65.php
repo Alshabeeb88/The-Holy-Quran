@@ -1,0 +1,15 @@
+<?php
+$t = array();
+$t[1] = 'Ewe Nabii! Mtakapo wapa talaka wanawake, basi wapeni talaka katika wakati wa eda zao. Na fanyeni hisabu ya eda. Na mcheni Mwenyezi Mungu, Mola wenu Mlezi. Msiwatoe katika nyumba zao, wala wasitoke wenyewe, ila wakifanya jambo la uchafu ulio wazi. Hiyo ndiyo mipaka ya Mwenyezi Mungu, msiikiuke. Na mwenye kuikiuka mipaka ya Mwenyezi Mungu, basi amejidhulumu nafsi yake. Hujui; labda Mwenyezi Mungu ataleta jambo jengine baada ya haya.';
+$t[2] = 'Basi wanapo fikia muda wao, ima warejeeni muwaweke kwa wema, au farikianeni nao kwa wema. Na mshuhudishe mashahidi wawili waadilifu miongoni mwenu. Na simamisheni ushahidi kwa ajili ya Mwenyezi Mungu. Hivyo ndivyo anavyo agizwa anaye muamini Mwenyezi Mungu na Siku ya Mwisho. Na anaye mcha Mwenyezi Mungu humtengezea njia ya kutokea.';
+$t[3] = 'Na humruzuku kwa jiha asiyo tazamia. Na anaye mtegemea Mwenyezi Mungu Yeye humtosha. Hakika Mwenyezi Mungu anatimiza amri yake. Mwenyezi Mungu kajaalia kila kitu na kipimo chake.';
+$t[4] = 'Na wale walio sita hedhi miongoni mwa wanawake wenu, ikiwa mnayo shaka, basi muda wa eda yao ni miezi mitatu, pamoja na ambao hawapati hedhi. Na wenye mimba eda yao mpaka watakapo zaa. Na anaye mcha Mwenyezi Mungu, Mwenyezi Mungu humfanyia mambo yake kuwa mepesi.';
+$t[5] = 'Hiyo ni amri ya Mwenyezi Mungu amekuteremshieni. Na anaye mcha Mwenyezi Mungu atamfutia maovu yake, na atampa ujira mkubwa.';
+$t[6] = 'Wawekeni humo humo mnamo kaa nyinyi kwa kadiri ya pato lenu, wala msiwaletee madhara kwa kuwadhiki. Na wakiwa wana mimba, wagharimieni mpaka wajifungue. Na wakikunyonyesheeni, basi wapeni ujira wao, na shaurianeni kwa wema. Na mkiona uzito kati yenu, basi amnyonyeshee mwanamke mwengine.';
+$t[7] = 'Mwenye wasaa atoe kadiri ya wasaa wake, na mwenye dhiki atoe katika alicho mpa Mwenyezi Mungu. Mwenyezi Mungu hamkalifishi mtu ila kwa kadiri ya alicho mpa. Mwenyezi Mungu atajaalia baada ya dhiki faraji.';
+$t[8] = 'Na miji mingapi iliyo vunja amri ya Mola wake Mlezi na Mitume wake, basi tuliihisabia hisabu ngumu na tukaiadhibu kwa adhabu kali.';
+$t[9] = 'Basi ikauonja ubaya wa mambo yake; na mwisho wa mambo yao ilikuwa khasara.';
+$t[10] = 'Mwenyezi Mungu aliwaandalia adhabu kali. Basi mcheni Mwenyezi Mungu, enyi wenye akili, mlio amini! Hakika Mwenyezi Mungu amekuteremshieni Ukumbusho,';
+$t[11] = 'Mtume anaye kusomeeni Aya za Mwenyezi Mungu zinazo bainisha, ili kuwatoa walio amini na wakatenda mema kutoka gizani kuwapeleka kwenye nuru. Na mwenye kumuamini Mwenyezi Mungu, na akatenda mema, atamwingiza katika Bustani zipitazo mito kati yake, wadumu humo milele. Mwenyezi Mungu amekwisha mpa riziki nzuri.';
+$t[12] = 'Mwenyezi Mungu ni yule ambaye ameziumba mbingu saba, na ardhi kwa mfano wa hizo. Amri zake zinashuka baina yao, ili mjue kwamba Mwenyezi Mungu ni Mwenye uweza juu ya kila kitu, na kwamba Mwenyezi Mungu amekizunguka kila kitu kukijua vilivyo kwa ilimu yake.';
+?>

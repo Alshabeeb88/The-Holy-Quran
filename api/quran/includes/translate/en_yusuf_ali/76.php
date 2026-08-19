@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Has there not been over Man a long period of Time, when he was nothing - (not even) mentioned?';
+$t[2] = 'Verily We created Man from a drop of mingled sperm, in order to try him: So We gave him (the gifts), of Hearing and Sight.';
+$t[3] = 'We showed him the Way: whether he be grateful or ungrateful (rests on his will).';
+$t[4] = 'For the Rejecters we have prepared chains, yokes, and a blazing Fire.';
+$t[5] = 'As to the Righteous, they shall drink of a Cup (of Wine) mixed with Kafur,-';
+$t[6] = 'A Fountain where the Devotees of Allah do drink, making it flow in unstinted abundance.';
+$t[7] = 'They perform (their) vows, and they fear a Day whose evil flies far and wide.';
+$t[8] = 'And they feed, for the love of Allah, the indigent, the orphan, and the captive,-';
+$t[9] = '(Saying),&quot;We feed you for the sake of Allah alone: no reward do we desire from you, nor thanks.';
+$t[10] = '&quot;We only fear a Day of distressful Wrath from the side of our Lord.&quot;';
+$t[11] = 'But Allah will deliver them from the evil of that Day, and will shed over them a Light of Beauty and (blissful) Joy.';
+$t[12] = 'And because they were patient and constant, He will reward them with a Garden and (garments of) silk.';
+$t[13] = 'Reclining in the (Garden) on raised thrones, they will see there neither the sun\'s (excessive heat) nor (the moon\'s) excessive cold.';
+$t[14] = 'And the shades of the (Garden) will come low over them, and the bunches (of fruit), there, will hang low in humility.';
+$t[15] = 'And amongst them will be passedround vessels of silver and goblets of crystal,-';
+$t[16] = 'Crystal-clear, made of silver: they will determine the measure thereof (according to their wishes).';
+$t[17] = 'And they will be given to drink there of a Cup (of Wine) mixed with Zanjabil,-';
+$t[18] = 'A fountain there, called Salsabil.';
+$t[19] = 'And round about them will (serve) youths of perpetual (freshness): If thou seest them, thou wouldst think them scattered Pearls.';
+$t[20] = 'And when thou lookest, it is there thou wilt see a Bliss and a Realm Magnificent.';
+$t[21] = 'Upon them will be green Garments of fine silk and heavy brocade, and they will be adorned with Bracelets of silver; and their Lord will give to them to drink of a Wine Pure and Holy.';
+$t[22] = '&quot;Verily this is a Reward for you, and your Endeavour is accepted and recognised.&quot;';
+$t[23] = 'It is We Who have sent down the Qur\'an to thee by stages.';
+$t[24] = 'Therefore be patient with constancy to the Command of thy Lord, and hearken not to the sinner or the ingrate among them.';
+$t[25] = 'And celebrate the name of thy Lord morning and evening,';
+$t[26] = 'And part of the night, prostrate thyself to Him; and glorify Him a long night through.';
+$t[27] = 'As to these, they love the fleeting life, and put away behind them a Day (that will be) hard.';
+$t[28] = 'It is We Who created them, and We have made their joints strong; but, when We will, We can substitute the like of them by a complete change.';
+$t[29] = 'This is an admonition: Whosoever will, let him take a (straight) Path to his Lord.';
+$t[30] = 'But ye will not, except as Allah wills; for Allah is full of Knowledge and Wisdom.';
+$t[31] = 'He will admit to His Mercy whom He will; But the wrong-doers,- for them has He prepared a grievous Penalty.';
+?>

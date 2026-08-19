@@ -1,0 +1,27 @@
+<?php
+$t = array();
+$t[1] = 'Wysławia Boga to, co jest w niebiosach, i to, co jest na ziemi. On jest Potężny, Mądry!';
+$t[2] = 'On jest Tym, kt&oacute;ry wypędził z domostw tych spośr&oacute;d ludu Księgi, kt&oacute;rzy nie uwierzyli - na pierwsze zebranie. Wy nie myśleliście, że oni odejdą, a oni myśleli, że twierdze obronią ich przed Bogiem. Lecz przyszedł do nich B&oacute;g ze strony, z kt&oacute;rej oni się Go nie spodziewali, i rzucił w ich serca przerażenie. Niszczą oni swoje domy swoimi rękami i rękami wiernych. Bierzcie więc sobie z tego pouczenie, o ludzie, kt&oacute;rzy posiadacie jasne spojrzenie!';
+$t[3] = 'Gdyby B&oacute;g nie przepisał im wysiedlenia, to ukarałby ich na tym świecie, ale w życiu ostatecznym czeka ich kara ognia.';
+$t[4] = 'Stało się tak dlatego, że oni sprzeciwili się Bogu i Jego Posłańcowi. A kto sprzeciwia się Bogu... to, zaprawdę, B&oacute;g jest straszny w karaniu!';
+$t[5] = 'Wszelkie drzewo palmowe, kt&oacute;re ścięliście albo kt&oacute;re pozostawiliście stojącym na jego korzeniach, ścięliście lub pozostawiliście za zezwoleniem Boga, aby On m&oacute;gł okryć hańbą bezbożnych.';
+$t[6] = 'B&oacute;g dał Swojemu Posłańcowi od nich taką zdobycz wojenną; że nie potrzebowaliście pędzić ani koni, ani wielbłąd&oacute;w. B&oacute;g daje władzę Swoim posłańcom, nad kim chce. B&oacute;g jest nad każdą rzeczą wszechwładny!';
+$t[7] = 'To, co dał B&oacute;g Swojemu Posłańcowi jako zdobycz od mieszkańc&oacute;w miast, to należy do Boga i do Jego Posłańca, do bliskich krewnych i do sierot, do biedak&oacute;w i do podr&oacute;żnego; tak żeby to nie przechodziło kolejno do bogatych spośr&oacute;d was. A to, co wam daje Posłaniec, to bierzcie; a czego wam zakazał, od tego się powstrzymajcie! I b&oacute;jcie się Boga! Zaprawdę, B&oacute;g jest straszny w karaniu!';
+$t[8] = 'To jest dla biednych muhadżir&oacute;w, kt&oacute;rzy zostali wypędzeni ze swoich domostw i kt&oacute;rzy zostali pozbawieni swoich majątk&oacute;w, gdy poszukiwali łaski i zadowolenia Boga i starali się pom&oacute;c Bogu i Jego Posłańcowi. Oni są naprawdę szczerzy.';
+$t[9] = 'A ci, kt&oacute;rzy się umocnili w swoim domu i w swojej wierze przed nimi, miłują tych, kt&oacute;rzy do nich wywędrowali, i nie znajdują w swoich sercach żadnego pożądania dla tego; co tamtym zostało dane. Oni dają im pierwszeństwo, nawet gdyby bieda była ich udziałem. A ten, kto się uchroni przed skąpstwem własnej duszy, będzie szczęśliwy.';
+$t[10] = 'A ci, kt&oacute;rzy przyszli po nich, m&oacute;wią: &quot;Panie nasz! Przebacz nam i naszym braciom, kt&oacute;rzy nas wyprzedzili w wierze! I nie umieszczaj w naszych sercach urazy do tych, kt&oacute;rzy uwierzyli! Panie nasz! Ty, zaprawdę, jesteś dobrotliwy, litościwy!&quot;';
+$t[11] = 'Czyż nie widziałeś obłudnik&oacute;w, m&oacute;wiących do swoich braci spośr&oacute;d ludu Księgi, kt&oacute;rzy uwierzyli: &quot;Jeśli zostaniecie wypędzeni, to my, z pewnością, p&oacute;jdziemy z wami; i nie usłuchamy nigdy nikogo przeciwko wam. A jeśli będą przeciw wam walczyć, to my, z pewnością, wam pomożemy!&quot; B&oacute;g jest świadkiem, że oni są kłamcami!';
+$t[12] = 'Jeśli tamci będą wypędzeni, to oni nie p&oacute;jdą razem z nimi; a jeśli tamci będą zwalczani, to oni nie przyjdą im z pomocą; a jeśli im nawet pomogą, to wnet odwr&oacute;cą się plecami i tamci nie będą mieli pomocy.';
+$t[13] = 'Wy przecież wzbudzacie więcej strachu w ich duszach aniżeli sam B&oacute;g, ponieważ to są ludzie, kt&oacute;rzy nie pojmują.';
+$t[14] = 'Oni nie będą walczyć z wami wszyscy razem, jedynie w miastach ufortyfikowanych albo spoza mur&oacute;w. Ich waleczność jest wielka, kiedy są między sobą; ty myślisz, że oni są razem, lecz serca ich są podzielone. Tak jest dlatego, że oni są ludem, kt&oacute;ry nie rozumie.';
+$t[15] = 'Oni są podobni do tych, kt&oacute;rzy na kr&oacute;tko przed nimi zakosztowali złych skutk&oacute;w swojego postępowania. Dla nich kara będzie bolesna!';
+$t[16] = 'Oni są podobni do szatana, kiedy m&oacute;wi do człowieka: &quot;Bądź niewierny!&quot; A kiedy jest niewierny, on m&oacute;wi: &quot;Ja się ciebie wyrzekam! Zaprawdę, boję się Boga, Pana świat&oacute;w!&quot;';
+$t[17] = 'I ich ostateczny koniec będzie taki, iż obydwaj znajdą się w ogniu, w kt&oacute;rym będą przebywać na wieki. Oto jest zapłata dla niesprawiedliwych!';
+$t[18] = 'O wy, kt&oacute;rzy wierzycie! B&oacute;jcie się Boga! I niech każda dusza patrzy na to, co przygotowała na jutro! I b&oacute;jcie się Boga! Zaprawdę, B&oacute;g jest w pełni świadomy tego, co wy czynicie!';
+$t[19] = 'Nie bądźcie tak jak ci, kt&oacute;rzy zapomnieli o Bogu, aż sprawił On, że oni zapomnieli o swoich duszach. Oni są ludźmi występnymi.';
+$t[20] = 'Nie są r&oacute;wni mieszkańcy Ognia i mieszkańcy Ogrodu. Mieszkańcy Ogrodu - triumfują!';
+$t[21] = 'Jeślibyśmy objawili ten Koran na jakiejś g&oacute;rze, zobaczyłbyś ją pokorną, rozerwaną ze strachu przed Bogiem. Te przypowieści podajemy ludziom; być może, oni się zastanowią!';
+$t[22] = 'On jest Bogiem! Nie ma boga, jak tylko On! On zna skryte i widzialne. On jest Miłosierny, Litościwy!';
+$t[23] = 'On jest Bogiem! Nie ma boga, jak tylko On!; - Kr&oacute;l, Przenajświętszy, Pok&oacute;j, Wierny, Zachowujący, Potężny, Przemożny, Wyniosły! Chwała niech będzie Bogu! On jest ponad to, co dodają Mu jako wsp&oacute;łtowarzyszy!';
+$t[24] = 'On jest Bogiem! Stworzycielem, Tw&oacute;rcą, Kształtującym! Do Niego należą najpiękniejsze imiona! Głosi Jego chwałę to, co jest w niebiosach, i to, co jest na ziemi! On jest Potężny, Mądry!';
+?>

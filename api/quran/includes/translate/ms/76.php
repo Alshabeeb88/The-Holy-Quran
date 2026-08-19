@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Bukankah telah berlalu kepada manusia satu ketika dari masa (yang beredar), sedang ia (masih belum wujud lagi, dan) tidak menjadi sesuatu benda yang disebut-sebut, (maka mengapa kaum musyrik itu mengingkari hari akhirat)?';
+$t[2] = 'Sesungguhnya Kami telah aturkan cara mencipta manusia bermulanya dari air mani yang bercampur (dari pati benih lelaki dan perempuan), serta Kami tetap mengujinya (dengan kewajipan-kewajipan); oleh itu maka Kami jadikan dia berkeadaan mendengar dan melihat.';
+$t[3] = 'Kerana keadaan itu tidak mencukupi, maka) sesungguhnya Kami telah menunjukkan kepadanya (melalui akal dan Rasul) akan jalan-jalan (yang benar dan yang salah; maka terserahlah kepadanya) sama ada ia bersyukur (dengan beriman dan taat), ataupun ia berlaku kufur (dengan mengingkari kebenaran atau menderhaka).';
+$t[4] = '(Dalam pada itu), sesungguhnya Kami telah menyediakan bagi sesiapa yang berlaku kufur (atau menderhaka): beberapa rantai dan belenggu serta neraka yang menjulang-julang.';
+$t[5] = 'Sesungguhnya orang-orang yang berbakti (dengan taat dan kebajikan), akan meminum dari piala: sejenis minuman yang bercampur dengan &quot;Kafur&quot;, -';
+$t[6] = 'Iaitu sebuah matair (di Syurga), yang diminum daripadanya oleh hamba-hamba Allah (yang taat); mereka boleh mengalirkannya (di tempat-tempat tinggal mereka) dengan aliran yang semudah-mudahnya dan menurut kemahuannya.';
+$t[7] = '(Mereka dikurniakan kesenangan itu kerana) mereka menyempurnakan nazarnya (apatah lagi yang diwajibkan Tuhan kepadanya), serta mereka takutkan hari (akhirat) yang azab seksanya merebak di sana sini.';
+$t[8] = 'Mereka juga memberi makan benda-benda makanan yang dihajati dan disukainya, kepada orang miskin dan anak yatim serta orang tawanan,';
+$t[9] = '(Sambil berkata dengan lidah atau dengan hati): &quot;Sesungguhnya kami memberi makan kepada kamu kerana Allah semata-mata; kami tidak berkehendakkan sebarang balasan dari kamu atau ucapan terima kasih,';
+$t[10] = '&quot;Kami sebenarnya takutkan Tuhan kami, takut Ia kenakan kami azab hari yang padanya muka orang-orang yang bersalah: masam berkerut-kerut&quot;.';
+$t[11] = 'Dengan sebab (mereka menjaga diri dari kesalahan), maka Allah selamatkan mereka dari kesengsaraan hari yang demikian keadaannya, serta memberikan kepada mereka keindahan yang berseri-seri (di muka), dan perasaan ria gembira (di hati).';
+$t[12] = 'Dan kerana kesabaran mereka (mengerjakan suruhan Allah dan meninggalkan laranganNya), mereka dibalas oleh Allah dengan Syurga dan (persalinan dari) sutera.';
+$t[13] = 'Mereka berehat di dalam Syurga dengan berbaring di atas pelamin-pelamin (yang berhias), mereka tidak nampak di situ adanya matahari (usahkan hawa panasnya), dan tidak juga merasai suasana yang terlampau sejuk;';
+$t[14] = 'Sedang naungan pohon-pohon Syurga itu dekat kepada mereka, dan buah-buahannya pula dimudahkan (untuk mereka memetiknya) dengan semudah-mudahnya.';
+$t[15] = 'Dan (selain itu) diedarkan kepada mereka (oleh pelayan-pelayannya): bijana dari perak dan piala-piala minuman yang keadaannya laksana kaca (nampak jelas isinya) -';
+$t[16] = '(Keadaannya laksana) kaca, (sedang ia) dari perak; pelayan-pelayan itu menentukan kadar isinya sekadar yang cukup betul dengan kehendak penggunanya.';
+$t[17] = 'Dan mereka dalam Syurga itu, diberi minum sejenis minuman yang campurannya dari &quot;Zanjabil&quot;,';
+$t[18] = 'Iaitu sebuah matair dalam Syurga, yang disebutkan sifatnya sebagai &quot;Salsabil&quot;.';
+$t[19] = 'Dan mereka dilayani oleh anak-anak muda lelaki yang tetap kekal (dalam keadaan mudanya), yang sentiasa beredar di sekitar mereka; apabila engkau melihat anak-anak muda itu, nescaya engkau menyangkanya mutiara yang bertaburan.';
+$t[20] = 'Dan apabila engkau melihat di sana (dalam Syurga itu), engkau melihat nikmat yang melimpah-limpah dan kerajaan yang besar (yang tidak ada bandingannya).';
+$t[21] = 'Mereka di dalam Syurga memakai pakaian hijau yang diperbuat dari sutera halus dan sutera tebal (yang bertekat), serta mereka dihiasi dengan gelang-gelang tangan dari perak; dan mereka diberi minum oleh Tuhan mereka dengan sejenis minuman (yang lain) yang bersih suci.';
+$t[22] = '(Serta dikatakan kepada mereka): &quot;Sesungguhnya (segala pemberian) ini adalah untuk kamu sebagai balasan, dan adalah usaha amal kamu (di dunia dahulu) diterima dan dihargai (oleh Allah)&quot;.';
+$t[23] = 'Sesungguhnya Kami telah menurunkan Al-Quran kepadamu (wahai Muhammad), dengan beransur-ansur.';
+$t[24] = 'Oleh itu hendaklah engkau bersabar menerima hukum Tuhanmu (memberi tempoh kepada golongan yang menentangmu), dan janganlah engkau menurut kehendak orang yang berdosa di antara mereka, atau orang yang kufur ingkar.';
+$t[25] = 'Dan sebutlah dengan lidah atau dengan hati akan nama Tuhanmu (di dalam dan di luar sembahyang), pada waktu pagi dan petang;';
+$t[26] = 'Dan (dengan apa keadaan pun maka) pada sebahagian dari waktu malam sujudlah kepada Tuhan (dengan mengerjakan sembahyang), dan (seboleh-bolehnya) bertasbihlah memujiNya (dengan mengerjakan sembahyang Tahajjud), pada sebahagian yang panjang dari waktu malam.';
+$t[27] = 'Sesungguhnya orang-orang (yang menentangmu) itu sentiasa mencintai (kesenangan dan kemewahan dunia) yang cepat habisnya, serta mereka membelakangkan (tidak menghiraukan bekalan) untuk hari akhirat yang amat berat (penderitaannya kepada orang-orang yang tidak bertaqwa).';
+$t[28] = 'Kamilah yang menciptakan mereka serta menguatkan tulang sendi dan urat saraf mereka; (Kami berkuasa membinasakan mereka) dan apabila Kami kehendaki, Kami gantikan (mereka dengan) orang-orang yang serupa dengan mereka, dengan penggantian yang sebaik-baiknya.';
+$t[29] = 'Sesungguhnya (segala keterangan yang disebutkan) ini, menjadi peringatan; maka sesiapa yang mahukan (kebaikan dirinya) bolehlah ia mengambil jalan yang menyampaikan kepada keredaan Allah (dengan iman dan taat).';
+$t[30] = 'Dan tiadalah kamu berkemahuan (melakukan sesuatu perkara) melainkan dengan cara yang dikehendaki Allah; sesungguhnya Allah adalah Maha Mengetahui, lagi Maha Bijaksana (mengaturkan sebarang perkara yang dikehendakiNya).';
+$t[31] = 'Ia memasukkan sesiapa yang dikehendakiNya (menurut aturan yang ditetapkan) ke dalam rahmatNya (dengan ditempatkannya di dalam Syurga); dan orang-orang yang zalim, Ia menyediakan untuk mereka azab seksa yang tidak terperi sakitnya.';
+?>

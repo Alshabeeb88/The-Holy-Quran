@@ -1,0 +1,320 @@
+@font-face { font-family: "me_quran"; src: local("me_quran"), url("../fonts/me_quran.ttf"); }
+@font-face { font-family: "KFGQPC Uthmanic Script HAFS"; src: local("KFGQPC Uthmanic Script HAFS"), url("../fonts/UthmanicHafs.ttf"); }
+@font-face { font-family: "kitab"; src: local("kitab"), url("../fonts/Kitab-Regular.ttf"); }
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background:#251e20 url(images/main-bg.jpg) repeat center top;
+  color:#333;
+  font-family: 'Roboto', sans-serif, Tahoma, Arial;
+}
+
+a { text-decoration: none; color:#666; }
+a:hover { color:#115292; }
+
+.header-wrapper { background:url(images/header-bg.png); }
+.header-wrapper .container { background:none; padding-top:0px; }
+.ads { margin: 0; padding: 15px 0; text-align: center; }
+
+footer { padding:10px; color:#fff; background-color:#4a3f33; }
+footer a, footer a:hover { color:#f6c489; }
+.powered { text-align:center; margin:10px 0 0 0; color:#fff; }
+
+.custom-breadcrumb { margin-top: 15px; }
+.custom-breadcrumb .breadcrumb { background-color:#f9c875; padding: 15px; border-radius: 5px; }
+.custom-breadcrumb .breadcrumb > li + li:before {  color: #666; }
+.custom-breadcrumb .breadcrumb > .active {  color: #666; }
+.custom-breadcrumb .breadcrumb li a span, .breadcrumb li a { color: #fff; }
+
+.card-custom { margin-bottom: 10px; border:none; border-radius:0; border-bottom:1px solid #1774b1; }
+.card-custom .card-header { color:#fff; padding: 10px; background:#4a3f33; border-bottom:5px solid #f9c875; border-radius:0px;  }
+.card-custom .card-header:first-child { border-radius: 0; }
+
+.block { border: 1px solid #ddd; background-color:#ffffff; margin-bottom:10px; }
+
+.navbar-collapse { padding-left: 0px; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #666666; } /*ff8a00, 64ad15, 1eaade*/
+
+div.spacer { padding:5px; margin: 0; background-color: #ffffff; border-bottom:1px dotted #666; margin-bottom:10px; }
+div:hover.spacer { background-color: #eee; border-bottom:1px dotted #333; }
+
+audio { width:100%; }
+#sound { text-align:center; }
+
+.ayat, .ayat4tafseer, .ayat2  {
+  font-family:  'KFGQPC Uthmanic Script HAFS';
+  font-size: 1.9em;
+  line-height: 1.8em;
+  font-weight: 500;
+}
+.surah-text {
+  margin-top: 30px;
+  text-align: center;
+}
+.aya-number {
+  font-family: "Traditional Arabic", "Times New Roman";
+  font-size: 25px;
+  white-space: nowrap;
+  color: #0e6efd;
+}
+#translateindex { font-family: 'KFGQPC Uthmanic Script HAFS'; }
+#translateindex h1 { padding: 10px 0; margin: 0; color: #333; text-align:center; direction: ltr; }
+#translateindex .englishtext { padding: 10px 0; margin: 0; color: #CC0000; text-align:center; direction: ltr; }
+#translateindex .translate { margin: 10px 0; text-align:left; direction: ltr; }
+#translateindex .translate_rtl { margin: 10px 5px 10px 0; }
+#translateindex .ayat, #translateindex .ayat2, #translateindex .translate_rtl { direction: rtl; text-align:right; }
+#translateindex .ayat { padding: 10px; margin-bottom: 10px; background-color:#fff; border: 1px solid #cccccc; }
+#translateindex .ayat2 { padding: 10px; margin-bottom: 10px; background-color:#f2f2f2; border: 1px solid #cccccc; }
+
+/* Start View All Sorah */
+span.ayat { color:#333; padding: 0; }
+span:hover.ayat { color:#425406; }
+span:active.ayat { color:#425406; }
+img.ayatnumber {  margin:0 5px 0 5px; }
+/* End View All Sorah */
+
+/* Start tafseer.php */
+.tafseer { padding: 5px; margin: 0; color:#333; text-align:justify; }
+.tafseer img { padding: 0; margin: 0; border:none; }
+.ayat4tafseer {
+  position: relative;
+  margin-bottom: 25px;
+  background-color:#fff;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px;
+}
+.ayat4tafseer .number { color:#3499cc; }
+.ayat4tafseer .author { font-size: .7em; }
+.ayat4tafseer img { position:relative; top:1px; }
+.ayat4tafseer_text {
+  margin-bottom: 25px;
+  background-color: #fff;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #000;
+}
+.ayat4tafseersearch { padding: 10px; margin: 0 5px 25px 5px; background-color:#f2f2f2; border: 1px solid #cccccc; text-align:center; }
+.ayat4tafseer_info { font-size: .7em; margin-bottom: 0; line-height: 1em; }
+.share-content a { color: #4a3f33; }
+.share-content a:hover { color: #f9c875; }
+
+.share { text-align:center; margin-top: 10px;  margin-bottom: 20px; border: 1px solid #ddd; padding: 15px; }
+.share h5 { margin-bottom: 15px; }
+.share a { margin: 0 15px; font-size: 35px; color: #3499cc; }
+
+.ayat, .ayat2 {
+  position: relative;
+}
+
+.listen_aya {
+  position: absolute;
+  left: 0;
+  top: 10px;
+}
+
+.section-content {
+  background: #fff;
+  padding: 15px;
+  background: rgba(250,250,250,.9);
+}
+
+.section-title {
+  text-align: center;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.section-title h1 {
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  border-bottom: 4px solid #f9c875;
+  display: inline-block;
+}
+
+.section-1, .section-2, .section-3 {
+  padding: 15px 0;
+  margin: 0;
+  background: #f2f2f2;
+  margin-bottom: 0;
+}
+
+.section-1 {
+  background:#251e20 url(images/section-bg.jpg) repeat center top;
+}
+
+.section-2 {
+  background:#251e20;
+  border-top: 4px solid #56493d;
+  border-bottom: 4px solid #56493d;
+}
+
+.section-2 .section-content {
+  background:#fff;
+}
+
+.section-3 {
+  background:#251e20 url(images/section-bg.jpg) repeat center top;
+}
+
+.quran-file {
+  margin-bottom: 15px;
+}
+
+.books {
+  margin-top: 30px;
+}
+.books h1, .books h2 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.books .btn {
+  color: #fff;
+}
+.books-type-3 .card-img-top {
+  max-height: 250px;
+}
+.book-image {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+.book-image:hover .overlay {
+  opacity: 1;
+}
+.overlay-text {
+  color: #fff;
+  font-size: 20px;
+  padding: 15px;
+}
+.overlay-text a, .overlay-text .text-muted {
+  color: #fff !important;
+}
+
+.books-languages {
+  background-color: #fff;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+.language-flag {
+  border: 0px solid #f9c875;
+  margin-top: 20px;
+}
+
+.language-flag img {
+  width: 50px;
+  height: 30px;
+}
+
+.language-loop {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #fff;
+  background:#251e20 url(images/section-bg.jpg) repeat center top;
+}
+
+.language-loop a {
+  color: #fff;
+}
+
+.language-loop h1 {
+  margin-top: 15px;
+  padding-top: 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.language-loop h1 a {
+  color: #f9c875;
+}
+
+.language-count {
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+.language-count span {
+  margin: 0 10px;
+}
+
+.language-count .fas, .language-count .far {
+  color: #f9c875;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #fff;
+    background-color: #f9c875;
+    border-color: #f9c875;
+}
+
+.page-link {
+    color: #251e20;
+}
+
+.page-link:hover {
+    color: #f9c875;
+}
+
+.flags {
+  width: 30px;
+  height: 18px;
+}
+
+#languages h5 a {
+  font-size: 16px;
+}
+#quran h5 a {
+  font-size: 16px;
+}
+.custom-navbar-brand {
+  text-decoration: none !important;
+  font-size: 22px;
+  font-weight: 600;
+}
+.custom-nav {
+  background-color: rgba(255, 255, 255, .9) !important;
+}
+@media (max-width: 767px) {
+	.ads_hidden{ display:none; }
+  .logo { width: 100%; float:none; text-align: center; }
+  .ads { width: 100%; float:none; text-align: center; }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+	.ads_hidden{ display:none; }
+}
+
+@media only screen and (min-width: 240px) and (max-width: 320px) {
+	.ads_hidden{ display:none; }
+}
+
+@media only screen and (max-width: 240px) {
+	.ads_hidden{ display:none; }
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+  .logo { width: 100%; float:none; text-align: center; }
+  .ads { width: 100%; float:none; text-align: center; }
+}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+  .logo { width: 100%; float:none; text-align: center; }
+  .ads { width: 100%; float:none; text-align: center; }
+}

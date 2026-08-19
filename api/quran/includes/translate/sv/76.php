@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'EN O&Auml;NDLIG tid f&ouml;rfl&ouml;t f&ouml;re m&auml;nniskans ankomst, [en tid] d&aring; hon var n&aring;got helt ok&auml;nt.';
+$t[2] = 'F&ouml;r att s&auml;tta henne p&aring; prov har Vi skapat m&auml;nniskan av en droppe av ett fl&ouml;de, blandat [med ett annat fl&ouml;de], och s&aring; har Vi gett henne h&ouml;rsel och syn.';
+$t[3] = 'Vi har visat henne [hennes] v&auml;g, [och det &auml;r sedan hennes sak] att antingen visa tacksamhet [och f&ouml;lja v&auml;gledningen] eller att visa otacksamhet och s&aring; f&ouml;rneka [Oss].';
+$t[4] = 'F&ouml;r dem som v&auml;ljer f&ouml;rnekelsens v&auml;g har Vi kedjor och j&auml;rn och en flammande eld i beredskap.';
+$t[5] = 'Men de gudfruktiga skall t&ouml;mma en b&auml;gare [vin] spetsat med kamfer';
+$t[6] = '[fr&aring;n] en k&auml;lla d&auml;r Guds tj&auml;nare sl&auml;cker t&ouml;rsten och vars fl&ouml;de aldrig sinar.';
+$t[7] = '[Det &auml;r] de som st&aring;r fast vid sina l&ouml;ften och som b&auml;var f&ouml;r den Dag d&aring; skr&auml;cken skall &ouml;verskugga allt,';
+$t[8] = 'de som ger den fattige, den faderl&ouml;se och f&aring;ngen att &auml;ta - oavsett deras eget behov och det pris de s&auml;tter p&aring; [f&ouml;dan] -';
+$t[9] = '[och s&auml;ger:] &quot;Det &auml;r f&ouml;r Guds skull vi ger er att &auml;ta och vi v&auml;ntar ingen geng&aring;va och inget tack fr&aring;n er;';
+$t[10] = 'vi fruktar vad v&aring;r Herre [har i beredskap f&ouml;r oss] en olycksdiger Dag!&quot;';
+$t[11] = 'Den Dagen skall Gud skydda dem mot allt ont och sk&auml;nka dem kraft och gl&auml;dje,';
+$t[12] = 'och bel&ouml;na med en [evigt gr&ouml;nskande] lustg&aring;rd och [dr&auml;kter av] silke f&ouml;r deras t&aring;lamod och uth&aring;llighet.';
+$t[13] = 'I denna [lustg&aring;rd] skall de vila p&aring; divaner, st&ouml;dda [p&aring; mjuka kuddar], och d&auml;r skall de varken uts&auml;ttas f&ouml;r solens [hetta] eller f&ouml;r k&ouml;ld;';
+$t[14] = 'skuggorna skall luta sig &ouml;ver dem och [frukttr&auml;den] tj&auml;nstvilligt bjuda ut sin frukt.';
+$t[15] = 'Och fat av silver skall b&auml;ras omkring och b&auml;gare, genomskinliga som kristall -';
+$t[16] = 'som [om de hade varit] av kristall [fast&auml;n de &auml;r] av silver; och de best&auml;mmer [sj&auml;lva] hur mycket [som skall s&auml;ttas f&ouml;r dem].';
+$t[17] = 'Och [i lustg&aring;rden] skall de bjudas en dryck spetsad med ingef&auml;ra';
+$t[18] = 'fr&aring;n en k&auml;lla vars namn &auml;r Salsabeel.';
+$t[19] = 'Och de skall betj&auml;nas av evigt unga gossar, som du skulle kunna tro vara kringstr&ouml;dda p&auml;rlor;';
+$t[20] = 'och vart du &auml;n v&auml;nder dig, ser du &ouml;verallt gl&auml;dje och &ouml;verd&aring;dig prakt.';
+$t[21] = 'Och de skall b&auml;ra dr&auml;kter av gr&ouml;nt siden och brokad och som smycken skall de ha armringar av silver. Och deras Herre skall stilla deras t&ouml;rst med den renaste dryck.';
+$t[22] = '[Och en r&ouml;st skall s&auml;ga:] &quot;Detta &auml;r l&ouml;nen f&ouml;r era m&ouml;dor, som [Gud] har sett med v&auml;lbehag!&quot;';
+$t[23] = 'JA, DET &auml;r Vi, som steg f&ouml;r steg har uppenbarat f&ouml;r dig denna Koran.';
+$t[24] = 'V&auml;nta d&auml;rf&ouml;r med t&aring;lamod [Muhammad] p&aring; din Herres dom, och lyssna inte till n&aring;gon av dem som &auml;r djupt sjunkna i synd eller framh&auml;rdar i f&ouml;rnekelse.';
+$t[25] = 'Och &aring;kalla din Herres namn n&auml;r dagen gryr och n&auml;r aftonen &auml;r n&auml;ra';
+$t[26] = 'och fall ned i tillbedjan inf&ouml;r Honom ocks&aring; under natten, och prisa och lova Honom utan avbrott en hel natt.';
+$t[27] = 'De &auml;lskar livet och dess flyktiga gl&auml;dje&auml;mnen [&ouml;ver allt annat] och de skjuter undan [alla tankar p&aring;] den sv&aring;ra Dag [som skall komma].';
+$t[28] = 'Det &auml;r Vi som har skapat dem och gett deras lemmar och leder styrka, men om Vi vill kan Vi i deras st&auml;lle s&auml;tta andra, som liknar dem.';
+$t[29] = 'DETTA &auml;r en p&aring;minnelse. L&aring;t d&aring; den som vill, s&ouml;ka en v&auml;g till sin Herre!';
+$t[30] = 'Men ni kan bara vilja om [ocks&aring;] Gud vill [att ni s&ouml;ker denna v&auml;g]; Gud &auml;r allvetande, vis.';
+$t[31] = 'Han innesluter den Han vill i Sin n&aring;d; men f&ouml;r de or&auml;ttf&auml;rdiga har Han ett pl&aring;gsamt straff i beredskap.';
+?>

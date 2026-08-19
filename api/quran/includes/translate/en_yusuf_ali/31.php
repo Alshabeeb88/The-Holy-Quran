@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'A. L. M.';
+$t[2] = 'These are Verses of the Wise Book,-';
+$t[3] = 'A Guide and a Mercy to the Doers of Good,-';
+$t[4] = 'Those who establish regular Prayer, and give regular Charity, and have (in their hearts) the assurance of the Hereafter.';
+$t[5] = 'These are on (true) guidance from their Lord: and these are the ones who will prosper.';
+$t[6] = 'But there are, among men, those who purchase idle tales, without knowledge (or meaning), to mislead (men) from the Path of Allah and throw ridicule (on the Path): for such there will be a Humiliating Penalty.';
+$t[7] = 'When Our Signs are rehearsed to such a one, he turns away in arrogance, as if he heard them not, as if there were deafness in both his ears: announce to him a grievous Penalty.';
+$t[8] = 'For those who believe and work righteous deeds, there will be Gardens of Bliss,-';
+$t[9] = 'To dwell therein. The promise of Allah is true: and He is Exalted in Power, Wise.';
+$t[10] = 'He created the heavens without any pillars that ye can see; He set on the earth mountains standing firm, lest it should shake with you; and He scattered through it beasts of all kinds. We send down rain from the sky, and produce on the earth every kind of noble creature, in pairs.';
+$t[11] = 'Such is the Creation of Allah: now show Me what is there that others besides Him have created: nay, but the Transgressors are in manifest error.';
+$t[12] = 'we bestowed (in the past) Wisdom on Luqman: &quot;Show (thy) gratitude to Allah.&quot; Any who is (so) grateful does so to the profit of his own soul: but if any is ungrateful, verily Allah is free of all wants, Worthy of all praise.';
+$t[13] = 'Behold, Luqman said to his son by way of instruction: &quot;O my son! join not in worship (others) with Allah: for false worship is indeed the highest wrong-doing.&quot;';
+$t[14] = 'And We have enjoined on man (to be good) to his parents: in travail upon travail did his mother bear him, and in years twain was his weaning: (hear the command), &quot;Show gratitude to Me and to thy parents: to Me is (thy final) Goal.';
+$t[15] = '&quot;But if they strive to make thee join in worship with Me things of which thou hast no knowledge, obey them not; yet bear them company in this life with justice (and consideration), and follow the way of those who turn to me (in love): in the end the return of you all is to Me, and I will tell you the truth (and meaning) of all that ye did.&quot;';
+$t[16] = '&quot;O my son!&quot; (said Luqman), &quot;If there be (but) the weight of a mustard-seed and it were (hidden) in a rock, or (anywhere) in the heavens or on earth, Allah will bring it forth: for Allah understands the finest mysteries, (and) is well-acquainted (with them).';
+$t[17] = '&quot;O my son! establish regular prayer, enjoin what is just, and forbid what is wrong: and bear with patient constancy whatever betide thee; for this is firmness (of purpose) in (the conduct of) affairs.';
+$t[18] = '&quot;And swell not thy cheek (for pride) at men, nor walk in insolence through the earth; for Allah loveth not any arrogant boaster.';
+$t[19] = '&quot;And be moderate in thy pace, and lower thy voice; for the harshest of sounds without doubt is the braying of the ass.&quot;';
+$t[20] = 'Do ye not see that Allah has subjected to your (use) all things in the heavens and on earth, and has made his bounties flow to you in exceeding measure, (both) seen and unseen? Yet there are among men those who dispute about Allah, without knowledge and without guidance, and without a Book to enlighten them!';
+$t[21] = 'When they are told to follow the (Revelation) that Allah has sent down, they say: &quot;Nay, we shall follow the ways that we found our fathers (following). &quot;What! even if it is Satan beckoning them to the Penalty of the (Blazing) Fire?';
+$t[22] = 'Whoever submits his whole self to Allah, and is a doer of good, has grasped indeed the most trustworthy hand-hold: and with Allah rests the End and Decision of (all) affairs.';
+$t[23] = 'But if any reject Faith, let not his rejection grieve thee: to Us is their return, and We shall tell them the truth of their deeds: for Allah knows well all that is in (men\'s) hearts.';
+$t[24] = 'We grant them their pleasure for a little while: in the end shall We drive them to a chastisement unrelenting.';
+$t[25] = 'If thou ask them, who it is that created the heavens and the earth. They will certainly say, &quot;Allah&quot;. Say: &quot;Praise be to Allah!&quot; But most of them understand not.';
+$t[26] = 'To Allah belong all things in heaven and earth: verily Allah is He (that is) free of all wants, worthy of all praise.';
+$t[27] = 'And if all the trees on earth were pens and the ocean (were ink), with seven oceans behind it to add to its (supply), yet would not the words of Allah be exhausted (in the writing): for Allah is Exalted in Power, full of Wisdom.';
+$t[28] = 'And your creation or your resurrection is in no wise but as an individual soul: for Allah is He Who hears and sees (all things).';
+$t[29] = 'Seest thou not that Allah merges Night into Day and he merges Day into Night; that He has subjected the sun, and the moon (to his Law), each running its course for a term appointed; and that Allah is well-acquainted with all that ye do?';
+$t[30] = 'That is because Allah is the (only) Reality, and because whatever else they invoke besides Him is Falsehood; and because Allah,- He is the Most High, Most Great.';
+$t[31] = 'Seest thou not that the ships sail through the ocean by the Grace of Allah?- that He may show you of His Signs? Verily in this are Signs for all who constantly persevere and give thanks.';
+$t[32] = 'When a wave covers them like the canopy (of clouds), they call to Allah, offering Him sincere devotion. But when He has delivered them safely to land, there are among them those that halt between (right and wrong). But none reject Our Signs except only a perfidious ungrateful (wretch)!';
+$t[33] = 'O mankind! do your duty to your Lord, and fear (the coming of) a Day when no father can avail aught for his son, nor a son avail aught for his father. Verily, the promise of Allah is true: let not then this present life deceive you, nor let the chief Deceiver deceive you about Allah.';
+$t[34] = 'Verily the knowledge of the Hour is with Allah (alone). It is He Who sends down rain, and He Who knows what is in the wombs. Nor does any one know what it is that he will earn on the morrow: Nor does any one know in what land he is to die. Verily with Allah is full knowledge and He is acquainted (with all things).';
+?>

@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Inna fatahna laka fathanmubeena';
+$t[2] = 'Liyaghfira laka Allahu mataqaddama min thanbika wama taakhkhara wayutimmaniAAmatahu AAalayka wayahdiyaka siratan mustaqeema';
+$t[3] = 'Wayansuraka Allahu nasranAAazeeza';
+$t[4] = 'Huwa allathee anzala assakeenatafee quloobi almu/mineena liyazdadoo eemanan maAAaeemanihim walillahi junoodu assamawatiwal-ardi wakana Allahu AAaleeman hakeema';
+$t[5] = 'Liyudkhila almu/mineena walmu/minatijannatin tajree min tahtiha al-anharukhalideena feeha wayukaffira AAanhum sayyi-atihimwakana thalika AAinda Allahi fawzan AAatheema';
+$t[6] = 'WayuAAaththiba almunafiqeena walmunafiqatiwalmushrikeena walmushrikati aththanneenabillahi thanna assaw-iAAalayhim da-iratu assaw-i waghadiba AllahuAAalayhim walaAAanahum waaAAadda lahum jahannama wasaat maseera';
+$t[7] = 'Walillahi junoodu assamawatiwal-ardi wakana Allahu AAazeezan hakeema';
+$t[8] = 'Inna arsalnaka shahidanwamubashshiran wanatheera';
+$t[9] = 'Litu/minoo billahi warasoolihiwatuAAazziroohu watuwaqqiroohu watusabbihoohu bukratan waaseela';
+$t[10] = 'Inna allatheena yubayiAAoonakainnama yubayiAAoona Allaha yadu Allahifawqa aydeehim faman nakatha fa-innama yankuthu AAalanafsihi waman awfa bima AAahada AAalayhu Allahafasayu/teehi ajran AAatheema';
+$t[11] = 'Sayaqoolu laka almukhallafoona mina al-aAArabishaghalatna amwaluna waahloona fastaghfirlana yaqooloona bi-alsinatihim ma laysa feequloobihim qul faman yamliku lakum mina Allahi shay-an inarada bikum darran aw arada bikum nafAAanbal kana Allahu bima taAAmaloona khabeera';
+$t[12] = 'Bal thanantum an lan yanqalibaarrasoolu walmu/minoona ila ahleehimabadan wazuyyina thalika fee quloobikum wathanantumthanna assaw-i wakuntum qawman boora';
+$t[13] = 'Waman lam yu/min billahiwarasoolihi fa-inna aAAtadna lilkafireenasaAAeera';
+$t[14] = 'Walillahi mulku assamawatiwal-ardi yaghfiru liman yashao wayuAAaththibuman yashao wakana Allahu ghafooran raheema';
+$t[15] = 'Sayaqoolu almukhallafoona itha intalaqtumila maghanima lita/khuthooha tharoonanattabiAAkum yureedoona an yubaddiloo kalama Allahiqul lan tattabiAAoona kathalikum qala Allahumin qablu fasayaqooloona bal tahsudoonana bal kanoola yafqahoona illa qaleela';
+$t[16] = 'Qul lilmukhallafeena mina al-aAArabisatudAAawna ila qawmin olee ba/sin shadeedin tuqatiloonahumaw yuslimoona fa-in tuteeAAoo yu/tikumu Allahuajran hasanan wa-in tatawallaw kama tawallaytum minqablu yuAAaththibkum AAathaban aleema';
+$t[17] = 'Laysa AAala al-aAAma harajunwala AAala al-aAAraji harajun walaAAala almareedi harajun waman yutiAAiAllaha warasoolahu yudkhilhu jannatin tajree min tahtihaal-anharu waman yatawalla yuAAaththibhu AAathabanaleema';
+$t[18] = 'Laqad radiya Allahu AAanialmu/mineena ith yubayiAAoonaka tahta ashshajaratifaAAalima ma fee quloobihim faanzala asakeenataAAalayhim waathabahum fathan qareeba';
+$t[19] = 'Wamaghanima katheeratan ya/khuthoonahawakana Allahu AAazeezan hakeema';
+$t[20] = 'WaAAadakumu Allahu maghanimakatheeratan ta/khuthoonaha faAAajjala lakum hathihiwakaffa aydiya annasi AAankum walitakoona ayatanlilmu/mineena wayahdiyakum siratan mustaqeema';
+$t[21] = 'Waokhra lam taqdiroo AAalayhaqad ahata Allahu biha wakana AllahuAAala kulli shay-in qadeera';
+$t[22] = 'Walaw qatalakumu allatheenakafaroo lawallawoo al-adbara thumma la yajidoonawaliyyan wala naseera';
+$t[23] = 'Sunnata Allahi allatee qad khalat minqablu walan tajida lisunnati Allahi tabdeela';
+$t[24] = 'Wahuwa allathee kaffa aydiyahumAAankum waaydiyakum AAanhum bibatni makkata min baAAdi anathfarakum AAalayhim wakana Allahubima taAAmaloona baseera';
+$t[25] = 'Humu allatheena kafaroo wasaddookumAAani almasjidi alharami walhadyamaAAkoofan an yablugha mahillahu walawla rijalunmu/minoona wanisaon mu/minatun lam taAAlamoohum antataoohum fatuseebakum minhum maAAarratun bighayriAAilmin liyudkhila Allahu fee rahmatihi man yashaolaw tazayyaloo laAAaththabna allatheenakafaroo minhum AAathaban aleema';
+$t[26] = 'Ith jaAAala allatheena kafaroofee quloobihimu alhamiyyata hamiyyata aljahiliyyatifaanzala Allahu sakeenatahu AAala rasoolihi waAAalaalmu/mineena waalzamahum kalimata attaqwa wakanooahaqqa biha waahlaha wakana Allahubikulli shay-in AAaleema';
+$t[27] = 'Laqad sadaqa Allahu rasoolahuarru/ya bilhaqqi latadkhulunnaalmasjida alharama in shaa Allahu amineenamuhalliqeena ruoosakum wamuqassireena latakhafoona faAAalima ma lam taAAlamoo fajaAAala mindooni thalika fathan qareeba';
+$t[28] = 'Huwa allathee arsala rasoolahu bilhudawadeeni alhaqqi liyuthhirahu AAala addeenikullihi wakafa billahi shaheeda';
+$t[29] = 'Muhammadun rasoolu Allahi wallatheenamaAAahu ashiddao AAala alkuffari ruhamaobaynahum tarahum rukkaAAan sujjadan yabtaghoona fadlanmina Allahi waridwanan seemahum feewujoohihim min athari assujoodi thalika mathaluhumfee attawrati wamathaluhum fee al-injeelikazarAAin akhraja shat-ahu faazarahu fastaghlathafastawa AAala sooqihi yuAAjibu azzurraAAaliyagheetha bihimu alkuffara waAAada Allahuallatheena amanoo waAAamiloo assalihatiminhum maghfiratan waajran AAatheema';
+?>

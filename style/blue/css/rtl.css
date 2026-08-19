@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+
+body {	direction: rtl;	text-align: right; font-size: 18px; line-height:24px; font-family: 'Tajawal', sans-serif, Tahoma, Arial;	font-weight:normal; font-style:normal; }
+
+.sites ul li h2 a { color:#516472; }
+.section_box p { color:#000000; }
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-size:18px; color:#2e1308; }
+.books ul, .books_ar ul { margin: 0 0 0 0; padding:0 0 0 0; }

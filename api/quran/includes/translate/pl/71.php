@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Zaprawdę, wysłaliśmy Noego do jego ludu: &quot;Ostrzegaj tw&oacute;j lud, zanim spadnie na nich kara bolesna!&quot;';
+$t[2] = 'On powiedział: &quot;O ludu m&oacute;j! Ja jestem dla was jawnie ostrzegającym.';
+$t[3] = 'Czcijcie Boga i b&oacute;jcie się Go, i słuchajcie mnie!';
+$t[4] = 'On wam przebaczy wasze grzechy i da wam zwłokę do określonego terminu. Lecz kiedy nadejdzie termin Boga, to już nie będzie m&oacute;gł być op&oacute;źniony. O, gdybyście wiedzieli!&quot;';
+$t[5] = 'Powiedział: &quot;Panie m&oacute;j! Wzywałem sw&oacute;j lud noc i dzień,';
+$t[6] = 'Lecz moje wezwanie zwiększyło tylko ich oddalenie.';
+$t[7] = 'Zaprawdę, za każdym razem, kiedy ich wzywałem, abyś Ty im przebaczył, oni wkładali palce do uszu, okrywali się szatami i trwali w uporze, i okazywali niezmierną dumę.';
+$t[8] = 'Następnie, wzywałem ich publicznie.';
+$t[9] = 'Następnie, obwieszczałem im jawnie i m&oacute;wiłem im w wielkiej tajemnicy.';
+$t[10] = 'Powiedziałem: Proście o przebaczenie waszego Pana! Zaprawdę, On jest przebaczający!';
+$t[11] = 'On spowoduje, iż niebo ześle wam obfity deszcz.';
+$t[12] = 'On wspomoże was przez bogactwa i syn&oacute;w. On przygotuje dla was ogrody. On przygotuje dla was rzeki.';
+$t[13] = 'Dlaczego nie spodziewacie się od Boga wielkoduszności?';
+$t[14] = 'On stworzył was według pewnych stadi&oacute;w.';
+$t[15] = 'Czyż nie widzieliście, jak B&oacute;g stworzył siedem niebios, nałożonych warstwami?';
+$t[16] = 'I jak umieścił na nich księżyc jako światło, a słońce uczynił lampą?';
+$t[17] = 'I B&oacute;g spowodował, iż wyrośliście z ziemi jak rośliny.';
+$t[18] = 'Ale On sprowadzi was do niej i wyprowadzi znowu niezawodnie.';
+$t[19] = 'I B&oacute;g uczynił dla was ziemię jak kobierzec,';
+$t[20] = 'Abyście chodzili po niej szerokimi drogami. &quot;';
+$t[21] = 'Powiedział Noe: &quot;Panie m&oacute;j! Oni mnie nie posłuchali i poszli za człowiekiem, kt&oacute;rego majątek i dzieci tylko powiększyły jego stratę.';
+$t[22] = 'Oni knuli wielką chytrość';
+$t[23] = 'I powiedzieli: Nie pozostawiajcie waszych b&oacute;stw! Nie pozostawiajcie ani Wadda, ani Suwa\'a, ani Jaghuta, ani Ja`uka, ani Nasra';
+$t[24] = 'Oni wprowadzili w błąd wielu. Nie powiększaj w niesprawiedliwych niczego opr&oacute;cz zabłądzenia!';
+$t[25] = 'Z powodu swoich błęd&oacute;w zostali pochłonięci, a potem wprowadzeni do ognia. I nie znaleźli oni, poza Bogiem, żadnych pomocnik&oacute;w.&quot;';
+$t[26] = 'I powiedział Noe: &quot;Panie m&oacute;j! Nie zostaw na ziemi spośr&oacute;d niewiernych żadnego mieszkańca domostwa!';
+$t[27] = 'Zaprawdę, jeśli Ty ich zostawisz, to wprowadzą oni w zabłądzenie Twoje sługi i nie zrodzą oni nikogo innego, jak tylko rozpustnika i niewiernego.';
+$t[28] = 'Panie m&oacute;j! Przebacz mi i moim rodzicom; i temu, kto wchodzi do mego domu jako wierny, i wierzącym - mężczyznom i kobietom! A niesprawiedliwym nie powiększaj niczego, jak tylko zgubę!&quot;';
+?>

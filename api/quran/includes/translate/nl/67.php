@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Gezegend zij hij in wiens hand het Koninkrijk is! want hij is almachtig;';
+$t[2] = 'Die den dood en het leven heeft geschapen, opdat hij u zou mogen bewijzen, wie uwer het rechtvaardigste in zijn daden is; en hij is machtig en vergevensgezind.';
+$t[3] = 'Hij, die zeven hemelen boven elkander heeft geschapen. Gij kunt in geen schepsel van den Barmhartigste eenige onvolmaaktheid of eenig gebrek vinden. Heft uwe oogen ten hemel op, en ziet of gij er eene enkele scheur ontdekt?';
+$t[4] = 'Heft ze nog tweemalen op, en uwe blikken zullen zwaar en vermoeid tot u terugkeeren.';
+$t[5] = 'Wij hebben den ondersten hemel met lampen versierd, en wij hebben die bestemd om de duivels terug te houden, voor welke wij de marteling van het brandende vuur hebben gereed gemaakt.';
+$t[6] = 'En voor hen, die niet in hunnen Heer gelooven, is mede de marteling der hel bereid; daar zal het een ellendig verblijf wezen.';
+$t[7] = 'Als zij daarin zullen geworpen worden, zullen zij het hooren balken als een ezel, en het zal vreeselijk branden. (En indien zij vernietigd konden worden, zou zijne woede hen vernietigen).';
+$t[8] = 'Zoo dikwijls eene schaar van hen daarin geworpen zal worden, zullen de wachters der hel hun vragen: Kwam er geen gezant?';
+$t[9] = 'Zij zullen antwoorden: Ja, er kwam een gezant tot ons; maar wij beschuldigden hem van bedrog en zeiden: God heeft niets geopenbaard. Gij verkeert slechts in eene groote dwaling.';
+$t[10] = 'En zij zullen zeggen: Indien wij geluisterd of recht hadden verdacht, zouden wij niet tot de makkers van het brandende vuur hebben behoord.';
+$t[11] = 'En zij zullen hunne zonden belijden; maar verre zij het, dat de bewoners van het brandende vuur genade zullen verwerven!';
+$t[12] = 'Waarlijk, zij die hunnen Heer in het geheim vreezen, zullen vergiffenis en eene groote belooning verlangen.';
+$t[13] = 'Hetzij gij uw gesprek verbergt, of het openbaar maakt, hij kent de binnenste deelen uwer borsten.';
+$t[14] = 'Zou hij niet alles kennen, die alles geschapen heeft; hij de Wijze, de Alwetende?';
+$t[15] = 'Hij is het, die de aarde voor u ge&euml;ffend heeft; wandelt dus door hare dreven, en eet van haar voorraad. Gij zult opgewekt worden om tot hem terug te keeren.';
+$t[16] = 'Zijt gij zeker, dat hij die in den hemel woont, u niet door de aarde zal doen verzwelgen? Ziet zij beeft reeds.';
+$t[17] = 'Of zijt gij zeker, dat hij die in den hemel woont, geen hevigen dwarrelwind tegen u zal zenden, die het zand voortdrijft om u te bedekken? Dan eerst zult gij weten, hoe belangrijk mijne waarschuwing was.';
+$t[18] = 'Ook zij die v&oacute;&oacute;r u waren, geloofden niet. Hoe vreeselijk was mijn toorn!';
+$t[19] = 'Zien zij de vogels boven hunne hoofden niet, die hunne vleugels uitspreiden en ineenvouwen? Niemand ondersteunt hen, behalve de Barmhartige; want hij beschouwt alle dingen.';
+$t[20] = 'Waar is degeen die u tot een krijgsheer zal verstrekken om u tegen den Barmhartige te verdedigen? waarlijk, de ongeloovigen zijn verblind.';
+$t[21] = 'Of waar is hij, die u voedsel zal geven, indien God het verhindert? En toch volhardt gij in uwe verdorvenheid en ontvlucht de waarheid.';
+$t[22] = 'Is dus degeen, die op zijn aangezicht kruipt beter dan hij die rechtop een rechten weg bewandelt.';
+$t[23] = 'Zeg: hij is het, die u het aanzijn heeft geschonken, en u het gehoor, het gezicht en het verstand (een hart) heeft gegeven; en echter hoe weinig dankbaar zijt gij!';
+$t[24] = 'Zeg: Hij is het, die u over de aarde heeft verspreid, en tot hem zult gij bijeen verzameld worden.';
+$t[25] = 'Zij zeggen: Wanneer zal deze bedreiging verwezenlijkt worden, indien gij de waarheid spreekt?';
+$t[26] = 'Antwoord: De kennis hiervan is alleen met God want ik ben slechts belast met het in het openbaar te waarschuwen.';
+$t[27] = 'Maar als zij de straf van nabij zullen zien, zullen hunne aangezichten zich verduisteren, en men zal tot hen zeggen: Dat is wat gij gevraagd hebt.';
+$t[28] = 'Zeg: Wat denkt gij? Hetzij God mij en hen die mij volgen, doet sterven, of dat hij mededoogen met ons hebbe, wie zal de ongeloovigen tegen de vreeselijke straf verdedigen?';
+$t[29] = 'Zeg: Hij is de Barmhartige; in hem gelooven wij, en in hem stellen wij ons vertrouwen. Hier namaals zult gij weten, wie in eene duidelijke dwaling verkeert.';
+$t[30] = 'Zeg: Wat denkt gij. Indien uw water des ochtends door de aarde wordt verzwolgen, wie zal dan zuiver en vloeiend water geven?';
+?>

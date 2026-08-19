@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Kur dielli t&euml; jet&euml; mb&euml;shtjellur (dhe err&euml;sohet),';
+$t[2] = 'Dhe kur yjet t&euml; ken&euml; r&euml;n&euml; (e shkap&euml;rderdhur),';
+$t[3] = 'Dhe kur kodrat t&euml; ken&euml; udh&euml;tuar (e b&euml;r&euml; pluhur n&euml; aj&euml;r),';
+$t[4] = 'Dhe kur devet&euml; e shtrenjta t&euml; lihen pa bari n&euml; fush&euml;,';
+$t[5] = 'Dhe kur eg&euml;rsirat t&euml; jen&euml; bashkuar (tubuar).';
+$t[6] = 'Dhe kur detet t&euml; vlojn&euml; si zjarr i flakruar,';
+$t[7] = 'Dhe kur shpirtrat t&euml; jen&euml; bashkuar.';
+$t[8] = 'Dhe kur t&euml; pyeten ato vajza t&euml; varrosura t&euml; gjalla,';
+$t[9] = 'P&euml;r &ccedil;far&euml; m&euml;kati ato jan&euml; mbytur,';
+$t[10] = 'Dhe kur fletushkat t&euml; jen&euml; shpaluar,';
+$t[11] = 'Dhe kur qielli t&euml; jet&euml; hequr,';
+$t[12] = 'Dhe kur Xhehennemi t&euml; jet&euml; ndezur fort,';
+$t[13] = 'Dhe kur Xhenneti t&euml; jet&euml; afruar,';
+$t[14] = 'At&euml;bot&euml; njeriu do t&euml; dij&euml; se &ccedil;ka ka ofruar (t&euml; mir&euml; ose t&euml; keqe).';
+$t[15] = 'Betohem fuqimisht n&euml; yjet q&euml; t&euml;rhiqen (dit&euml;n, e ndri&ccedil;ojn&euml; nat&euml;n),';
+$t[16] = 'Q&euml; udh&euml;tojn&euml; e fshihen (si dreni n&euml; strofk&euml;),';
+$t[17] = 'Pasha nat&euml;n kur ajo ia beh me err&euml;sir&euml;.';
+$t[18] = 'Pasha agimin kur ia shkrep!';
+$t[19] = 'S&rsquo;ka dyshim se ai (Kur&rsquo;ani) &euml;sht&euml; th&euml;nie e t&euml; d&euml;rguarit fisnik (q&euml; e pranoi prej Zotit).';
+$t[20] = 'Q&euml; &euml;sht&euml; i fort&euml; dhe q&euml; ka vend t&euml; lart&euml; te Zoti i Arshit.';
+$t[21] = 'Q&euml; &euml;sht&euml; i respektuar atje (n&euml; mesin e engj&euml;jve) dhe besnik.';
+$t[22] = 'Nuk &euml;sht&euml; i marr&euml; shoku juaj (Muhammedi)!';
+$t[23] = 'Dhe se ai e pat par&euml; at&euml; (Xhibrilin) n&euml; horizontin e qart&euml; lindor.';
+$t[24] = 'Dhe ai nuk &euml;sht&euml; q&euml; n&euml; t&euml; fsheht&euml;n (shpalljen) ka dyshim (ose ua l&euml; mangu).';
+$t[25] = 'Dhe ai (Kur&rsquo;ani) nuk &euml;sht&euml; th&euml;nie e djallit t&euml; mallkuar!';
+$t[26] = 'Pra, ku jeni, kah shkoni?';
+$t[27] = 'Ai (Kur&rsquo;ani) s&rsquo;&euml;sht&euml; tjet&euml;r pos k&euml;shill&euml; p&euml;r njer&euml;zit!';
+$t[28] = 'P&euml;r at&euml; nga mesi juaj q&euml; d&euml;shiron t&euml; gjendet n&euml; t&euml; v&euml;rtet&euml;n.';
+$t[29] = 'Po ju nuk mundeni, por vet&euml;m n&euml;se d&euml;shiron All-llahu, Zoti i bot&euml;ve!';
+?>

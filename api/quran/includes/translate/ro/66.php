@@ -1,0 +1,15 @@
+<?php
+$t = array();
+$t[1] = 'O, Profetule! De ce opreşti ceea ce Dumnezeu ţi-a &icirc;ngăduit cu soţiile tale? Dumnezeu este Iertător, Milostiv.';
+$t[2] = 'Dumnezeu vă cere să vă dezlegaţi de jurămintele voastre. Dumnezeu este Stăp&acirc;nul vostru. El este Ştiutorul, &Icirc;nţeleptul.';
+$t[3] = 'C&acirc;nd Profetul a &icirc;ncredinţat o taină uneia dintre soţii, iar aceasta a dezvăluit-o altei soţii, Dumnezeu &icirc;i dădu de ştire Profetului. El &icirc;i dezvăluise numai o parte şi păstrase o parte ascunsă Atunci c&acirc;nd o preveni de ceea ce a făcut, ea spuse: &ldquo;Cine ţi-a dat de ştire?&rdquo; El răspunse: &ldquo;Mi-a dat de ştire Ştiutorul, Cunoscătorul&rdquo;';
+$t[4] = 'Dacă voi două vă căiţi &icirc;naintea lui Dumnezeu, &icirc;nseamnă că inimile voastre se supun. Dacă veţi unelti &icirc;nsă &icirc;mpreună &icirc;mpotriva profetului, atunci să ştiţi că Dumnezeu este Stăp&acirc;nul Său şi drept ajutoare are pe Gabriel şi pe orice om drept dintre credincioşi şi chiar pe &icirc;ngeri.';
+$t[5] = 'Dacă el vă alungă, Domnul său &icirc;i poate da &icirc;n schimb alte soţii mai bune dec&acirc;t voi, supuse lui Dumnezeu, credincioase, pioase, pline de căinţă, slujitoare ale lui Dumnezeu, gata să plece &icirc;n bejenie, fie dintre cele ce au mai fost măritate, fie fecioare.';
+$t[6] = 'O, voi cei ce credeţi! Păziţi-vă pe voi şi pe ai voştri de Focul care se hrăneşte cu oameni şi pietre! &Icirc;ngeri uriaşi şi aprigi veghează asupra Focului, iar ei nu nesocotesc porunca lui Dumnezeu, ci fac &icirc;ntocmai ce li se porunceşte.';
+$t[7] = 'O, cei ce tăgăduiţi! Nu vă dezvinovăţiţi astăzi! Voi veţi fi răsplătiţi doar pentru ceea ce aţi făcut!';
+$t[8] = 'O, voi cei ce credeţi! &Icirc;ntoarceţi-vă către Dumnezeu căindu-vă sincer. S-ar putea ca Domnul vostru să vă şteargă vouă faptele rele şi să vă lase să intraţi &icirc;n Grădinile pe sub care curg r&acirc;uri &icirc;n Ziua c&acirc;nd Dumnezeu nu va acoperi de ruşine nici pe Profet şi nici pe cei care, dimpreună cu el, au crezut. Lumina lor va zori &icirc;n faţa şi de-a dreapta lor. Ei vor spune: &ldquo;O, Doamne, Dumnezeul nostru! Desăv&acirc;rşeşte-ne nouă lumina Iată-ne nouă! Tu eşti Atotputernicul!&rdquo;';
+$t[9] = 'O, Profetule! Luptă-te cu tăgăduitorii şi cu făţarnicii! Fii aspru cu ei! Singurul lor adăpost va fi Gheena. Ce rea devenire!';
+$t[10] = 'Dumnezeu le-a dat ca pildă tăgăduitorilor pe femeia lui Noe şi pe femeia lui Lot. Am&acirc;ndouă traiau sub oblăduirea a doi oameni drepţi dintre robii Noştri. Ele i-au &icirc;nşelat, &icirc;nsă nimic nu le-a slujit &icirc;mpotriva lui Dumnezeu. Li s-a spus: &ldquo;Intraţi am&acirc;ndouă &icirc;n Foc dimpreună cu cei care intră acolo!&rdquo;';
+$t[11] = 'Dumnezeu a dat ca pildă credincioşilor pe femeia lui Faraon, c&acirc;nd spuse: &ldquo;Domnul meu! Zideşte-mi, la Tine, o casă &icirc;n Rai! M&acirc;ntuieşte-mă de Faraon şi de lucrarea sa! M&acirc;ntuieşte-mă de poporul nedrept!&rdquo;';
+$t[12] = 'Şi Maria, fiica lui Imran, care şi-a păzit fecioria! Noi am suflat din duhul Nostru asupra ei şi ea a mărturisit drept adevărate spusele şi Cărţile Domnului său. Ea a fost dintre cei devotaţi.';
+?>

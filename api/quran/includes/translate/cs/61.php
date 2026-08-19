@@ -1,0 +1,17 @@
+<?php
+$t = array();
+$t[1] = 'Chv&aacute;l&iacute; Boha v&scaron;e, co na nebes&iacute;ch je i na zemi - a On mocn&yacute; je i moudr&yacute;.';
+$t[2] = 'Vy, kteř&iacute; věř&iacute;te! Proč ř&iacute;k&aacute;te to, co nečin&iacute;te?';
+$t[3] = 'Bůh velice nen&aacute;vid&iacute;, že ř&iacute;k&aacute;te něco, co neděl&aacute;te,';
+$t[4] = 'av&scaron;ak Bůh věru miluje ty, kdož bojuj&iacute; na cestě Jeho v sevřen&eacute;m &scaron;iku, jako by byli stavbou olovem spojenou.';
+$t[5] = 'Vzpomeň si, jak pravil Mojž&iacute;&scaron; lidu sv&eacute;mu: &quot;Lide můj, proč se mnou zle nakl&aacute;d&aacute;te, když v&iacute;te, že jsem poslem Bož&iacute;m k v&aacute;m?&quot; A když se odvr&aacute;tili, Bůh odvr&aacute;til srdce jejich, neboť Bůh nevede cestou spr&aacute;vnou lid hanebn&iacute;ků.';
+$t[6] = 'A vzpomeň si, jak pravil Jež&iacute;&scaron;, syn Mariin: &quot;D&iacute;tka Izraele, j&aacute; jsem vskutku poslem Bož&iacute;m k v&aacute;m, potvrzuj&iacute;c&iacute;m pravdivost toho, co bylo přede mnou sesl&aacute;no z T&oacute;ry, a oznamuj&iacute;c&iacute;m v&aacute;m radostnou zvěst o poslu, jenž přijde po mně a jehož jm&eacute;no Ahmad bude.&quot; Av&scaron;ak když předvedl jim jasn&eacute; důkazy, řekli: &quot;To je kouzelnictv&iacute; zjevn&eacute;.&quot;';
+$t[7] = 'Kdo je nespravedlivěj&scaron;&iacute; než ten, kdo si proti Bohu lži vym&yacute;&scaron;l&iacute;, zat&iacute;mco je vyz&yacute;v&aacute;n k přijet&iacute; isl&aacute;mu? Bůh věru nevede cestou spr&aacute;vnou lid nespravedliv&yacute;.';
+$t[8] = 'R&aacute;di by sfoukli světlo Bož&iacute; &uacute;sty sv&yacute;mi, av&scaron;ak Bůh učin&iacute; světlo Sv&eacute; dokonal&yacute;m, i když se to protiv&iacute; nevěř&iacute;c&iacute;m.';
+$t[9] = 'A On je ten, jenž seslal posla Sv&eacute;ho se spr&aacute;vn&yacute;m veden&iacute;m i s n&aacute;boženstv&iacute;m pravdiv&yacute;m, aby zv&iacute;tězilo nad v&scaron;emi n&aacute;boženstv&iacute;mi, i když se to protiv&iacute; modloslužebn&iacute;kům.';
+$t[10] = 'Vy, kteř&iacute; věř&iacute;te! M&aacute;m v&aacute;m uk&aacute;zat obchod, jenž ochr&aacute;n&iacute; v&aacute;s před trestem bolestn&yacute;m?';
+$t[11] = 'Uvěřte v Boha a posla Jeho a veďte boj na cestě Bož&iacute; majetky sv&yacute;mi i osobami sv&yacute;mi! A to bude pro v&aacute;s nejlep&scaron;&iacute;, jestliže jste vědouc&iacute;!';
+$t[12] = 'A tehdy v&aacute;m On odpust&iacute; hř&iacute;chy va&scaron;e a uvede v&aacute;s do zahrad, pod nimiž řeky tekou, a do př&iacute;bytků př&iacute;jemn&yacute;ch v zahrad&aacute;ch Edenu; a to bude &uacute;spěch nesm&iacute;rn&yacute;';
+$t[13] = 'a d&aacute; v&aacute;m i jin&eacute;, jež budete milovat: v&iacute;těznou pomoc od Boha a bl&iacute;zk&eacute; v&iacute;tězstv&iacute;. Oznam věř&iacute;c&iacute;m zvěst radostnou!';
+$t[14] = 'Vy, kteř&iacute; věř&iacute;te! Buďte pomocn&iacute;ky Bož&iacute;mi, tak jak to řekl Jež&iacute;&scaron;, syn Mariin, apo&scaron;tolům: &quot;Kdož budou pomocn&iacute;ky m&yacute;mi na cestě Bož&iacute;?&quot; I odvětili apo&scaron;tolov&eacute;: &quot;My budeme pomocn&iacute;ky Bož&iacute;mi.&quot; A uvěřila č&aacute;st d&iacute;tek Izraele, zat&iacute;mco druh&aacute; č&aacute;st neuvěřila. A podpořili jsme ty, kdož uvěřili, proti nepř&aacute;telům jejich a stali se v&iacute;tězn&yacute;mi.';
+?>

@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'VI S&Auml;NDE Noa till hans folk med uppdraget: &quot;Varna ditt folk, innan ett pl&aring;gsamt straff drabbar dem!&quot;';
+$t[2] = '[Och Noa] sade: &quot;Jag har kommit, mitt folk, f&ouml;r att varna er klart och entydigt:';
+$t[3] = 'dyrka Gud och frukta Honom! Och lyd mig!';
+$t[4] = 'D&aring; skall Gud f&ouml;rl&aring;ta er era synder och ge er uppskov till en tid [som Han] har fastst&auml;llt - n&auml;r den &auml;r inne, kan den inte uppskjutas - om ni [bara] visste...!&quot;';
+$t[5] = '[Noa bad till Gud och] sade: &quot;Herre! Jag har talat till mitt folk natt och dag,';
+$t[6] = 'men mina uppmaningar har bara lett till att de alltmer drar sig undan.';
+$t[7] = 'Och varje g&aring;ng jag kallar dem [till tron] f&ouml;r att Du skall ge dem Din f&ouml;rl&aring;telse, s&auml;tter de fingrarna i &ouml;ronen och sveper kl&auml;derna t&auml;tare om sig, och de f&ouml;rskansar sig i envishet och h&ouml;gmod.';
+$t[8] = 'Jag har v&auml;djat till dem med h&ouml;g r&ouml;st';
+$t[9] = 'och talat offentligt till dem p&aring; allm&auml;n plats, och jag har talat med dem i f&ouml;rtrolighet';
+$t[10] = 'och sagt dem: \'Be er Herre om f&ouml;rl&aring;telse f&ouml;r era synder! Han f&ouml;rl&aring;ter och f&ouml;rl&aring;ter p&aring; nytt;';
+$t[11] = 'Han skall l&aring;ta himlen s&auml;nda er rikligt regn';
+$t[12] = 'och f&ouml;r&ouml;ka er rikedom och era s&ouml;ners [antal] och sk&auml;nka er tr&auml;dg&aring;rdar, vattnade av b&auml;ckar.';
+$t[13] = 'Hur &auml;r det fatt med er? Ni h&aring;ller inte Gud i &auml;ra s&aring; som Han i Sitt h&ouml;ga majest&auml;t b&ouml;r &auml;ras!';
+$t[14] = 'Det &auml;r Han som har skapat er steg f&ouml;r steg!';
+$t[15] = 'Ser ni inte att Gud har skapat sju himlar, som v&auml;lver sig &ouml;ver varandra,';
+$t[16] = 'och satt ibland dem m&aring;nen [som lyser med l&aring;nat] ljus och solen som en sprakande fackla?';
+$t[17] = 'Gud har l&aring;tit er v&auml;xa upp som plantor ur jorden;';
+$t[18] = 'med den skall Han sedan l&aring;ta er &aring;terf&ouml;renas [och till slut] skall Han l&aring;ta er tr&auml;da fram [ur den p&aring; nytt] i uppst&aring;ndelsens [&ouml;gonblick].';
+$t[19] = 'Och Gud har brett ut jordens [yta] f&ouml;r er som en matta,';
+$t[20] = 'f&ouml;r att ni skall kunna f&auml;rdas &ouml;ver den p&aring; v&auml;gar och stigar.\'&rdquo;';
+$t[21] = 'Noa sade [vidare]: &quot;Herre! De lyssnar inte till mig men f&ouml;ljer den som [stoltheten &ouml;ver stora] rikedomar och [m&aring;nga] s&ouml;ner driver allt n&auml;rmare underg&aring;ngen.';
+$t[22] = 'De har gjort upp en slug plan';
+$t[23] = 'och s&auml;ger [till varandra]: \'L&aring;t oss aldrig &ouml;verge v&aring;ra gudar &ndash; varken Wadd, Suwa, Yaghuth, Ya\'uq eller Nasr!\'';
+$t[24] = 'P&aring; detta s&auml;tt har de lett m&aring;nga vilse. Herre! L&aring;t dessa or&auml;ttf&auml;rdiga [m&auml;nniskor] g&aring; vidare fr&aring;n misstag till misstag!&quot;';
+$t[25] = 'De dr&auml;nktes p&aring; grund av sina synder och [en Dag] skall de ledas in i Elden, och de kommer inte att finna en annan hj&auml;lpare &auml;n Gud.';
+$t[26] = 'Och Noa [sade till Gud]: &quot;Herre! L&aring;t ingen av dem som f&ouml;rnekar sanningen bli kvar p&aring; jorden;';
+$t[27] = 'om Du l&aring;ter dem bli kvar, kommer de att leda Dina tj&auml;nare vilse och de kan inte l&auml;mna i arv annat &auml;n [ytterligare] sedligt f&ouml;rd&auml;rv och gudl&ouml;shet.';
+$t[28] = 'Herre! Sk&auml;nk oss Din f&ouml;rl&aring;telse - mig och mina f&ouml;r&auml;ldrar och de troende som stiger in i mitt hus och alla troende m&auml;n och kvinnor! Och l&aring;t de or&auml;ttf&auml;rdiga g&aring; allt snabbare mot sin underg&aring;ng!&quot;';
+?>

@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Pela aurora,';
+$t[2] = 'E pelas dez noites,';
+$t[3] = 'E pelo par e pelo &iacute;mpar,';
+$t[4] = 'E pela noite, quando se retira (que sereis castigados)!';
+$t[5] = 'Porventura, n&atilde;o h&aacute; nisso um juramento adequado, para o sensato?';
+$t[6] = 'N&atilde;o reparaste em como o teu Senhor procedeu, em rela&ccedil;&atilde;o &agrave; (tribo de) Ad,';
+$t[7] = 'Aos (habitantes de) Iram, (cidade) de pilares elevados,';
+$t[8] = 'Cujo similar n&atilde;o foi criado em toda a terra?';
+$t[9] = 'E no povo de Samud, que perfurou rochas no vale?';
+$t[10] = 'E no Fara&oacute;, o senhor das estacas,';
+$t[11] = 'Os quais transgrediram, na terra,';
+$t[12] = 'E multiplicaram, nela, a corrup&ccedil;&atilde;o,';
+$t[13] = 'Pelo que o teu Senhor lhes infligiu variados castigos?';
+$t[14] = 'Atenta para o fato de que o teu Senhor est&aacute; sempre alerta.';
+$t[15] = 'Quanto ao homem, quando seu Senhor o experimenta, honrando-o e agraciando-o, diz (empertigado): Meu Senhor me honra!';
+$t[16] = 'Por&eacute;m, quando o prova, restringindo a Sua gra&ccedil;a, diz: Meu Senhor me afronta!';
+$t[17] = 'Qual! V&oacute;s n&atilde;o honrais o &oacute;rf&atilde;o,';
+$t[18] = 'Nem nos estimulais a alimentar o necessitado;';
+$t[19] = 'E consumis avidamente as heran&ccedil;as,';
+$t[20] = 'E cobi&ccedil;ais insaciavelmente os bens terrenos!';
+$t[21] = 'Qual! Quando a terra for triturada fortemente,';
+$t[22] = 'E aparecer o teu Senhor, com os Seus anjos em desfile,';
+$t[23] = 'E o inferno, nesse dia, for destacado, ent&atilde;o o homem recordar&aacute;; por&eacute;m de que lhe servir&aacute; a recorda&ccedil;&atilde;o!';
+$t[24] = 'Dir&aacute;: Oxal&aacute; tivesse diligenciado (na pr&aacute;tica do bem), durante a minha vida!';
+$t[25] = 'Por&eacute;m, nesse dia, ningu&eacute;m castigar&aacute; como Ele (o far&aacute;),';
+$t[26] = 'Nem ningu&eacute;m acorrentar&aacute;, como Ele (o far&aacute;);';
+$t[27] = 'E tu, &oacute; alma em paz,';
+$t[28] = 'Retorna ao teu Senhor, satisfeita (com Ele) e Ele satisfeito (contigo)!';
+$t[29] = 'Entre no n&uacute;mero dos Meus servos!';
+$t[30] = 'E entra no Meu jardim!';
+?>

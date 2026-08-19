@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'Elif Lām Mīm.';
+$t[2] = 'Ovo su ajeti mudre Knjige,';
+$t[3] = 'upute i milosti onima koji budu dobro činili,';
+$t[4] = 'onima koji molitvu budu obavljali i zekat davali i koji u onaj svijet budu čvrsto vjerovali;';
+$t[5] = 'njima će Gospodar njihov na Pravi put ukazati i oni će želje svoje ostvariti.';
+$t[6] = 'Ima ljudi koji kupuju priče za razonodu da bi, ne znajući koliki je to grijeh, s Allahova puta odvodili i da bi ga predmetom za ismijavanje uzimali. Njih čeka sramna kazna.';
+$t[7] = 'Kad se nekom od njih ajeti Na&scaron;i kazuju, on oholo glavu okreće, kao da ih nije ni čuo, kao da je gluh &ndash; zato mu navijesti patnju nesnosnu.';
+$t[8] = 'One koji budu vjerovali i dobra djela činili doista čekaju ba&scaron;če uživanja,';
+$t[9] = 'u njima će vječno boraviti &ndash; obećanje je Allahovo istinito, a On je silan i mudar.';
+$t[10] = 'Nebesa je, vidite ih, bez stupova stvorio, a po Zemlji planine nepomične razbacao da vas ne trese, i po njoj životinje svih vrsta razasuo. Mi s neba ki&scaron;u spu&scaron;tamo i činimo da po njoj niču svakovrsne plemenite biljke.';
+$t[11] = 'To je Allahovo djelo; a pokažite Mi &scaron;ta su drugi, mimo Njega, stvorili? Ni&scaron;ta! Mnogobo&scaron;ci su u pravoj zabludi.';
+$t[12] = 'A Mi smo Lukmanu mudrost darovali: &quot;Budi zahvalan Allahu! Ko je zahvalan, čini to u svoju korist, a ko je nezahvalan &ndash; pa, Allah je, zaista, neovisan i hvale dostojan.&quot;';
+$t[13] = 'Kada Lukman reče sinu svome, savjetujući ga: &quot;O sinko moj, ne smatraj druge Allahu ravnim, mnogobo&scaron;tvo je, zaista, velika nepravda.&quot;';
+$t[14] = 'Mi smo naredili čovjeku da bude poslu&scaron;an roditeljima svojim. Majka ga nosi, a njeno zdravlje trpi, i odbija ga u toku dvije godine. Budi zahvalan Meni i roditeljima svojim, Meni će se svi vratiti.';
+$t[15] = 'A ako te budu nagovarali da drugog Meni ravnim smatra&scaron;, onoga o kome ni&scaron;ta ne zna&scaron;, ti ih ne slu&scaron;aj i prema njima se, na ovome svijetu, velikodu&scaron;no pona&scaron;aj, a slijedi put onoga koji se iskreno Meni obraća; Meni ćete se poslije vratiti i Ja ću vas o onome &scaron;to ste radili obavijestiti.';
+$t[16] = '&quot;O sinko moj, dobro ili zlo, te&scaron;ko koliko zrno goru&scaron;ice, bilo u stijeni ili na nebesima ili u zemlji, Allah će na vidjelo iznijeti, jer Allah zna najskrivenije stvari, On je Sveznajući.';
+$t[17] = 'O sinko moj, obavljaj molitvu i traži da se čine dobra djela, a odvraćaj od hrđavih i strpljivo podnosi ono &scaron;to te zadesi &ndash; dužnost je tako postupiti.';
+$t[18] = 'I, iz oholosti, ne okreći od ljudi lice svoje i ne idi zemljom nadmeno, jer Allah ne voli ni gordog ni hvalisavog.';
+$t[19] = 'U hodu budi odmjeren, a u govoru ne budi grlat; ta najneprijatniji glas je revanje magarca!&quot;';
+$t[20] = 'Kako ne vidite da vam je Allah omogućio da se koristite svim onim &scaron;to postoji na nebesima i na Zemlji i da vas darežljivo obasipa milo&scaron;ću Svojom, i vidljivom i nevidljivom? A ima ljudi koji raspravljaju o Allahu bez ikakva znanja, bez ikakve upute i bez knjige svjetilje.';
+$t[21] = 'A kad im se govori: &quot;Slijedite ono &scaron;to vam Allah objavljuje!&quot; &ndash; odgovaraju: &quot;Ne, mi slijedimo ono &scaron;to smo zapamtili od predaka na&scaron;ih.&quot; Zar i onda kad ih &scaron;ejtan poziva na patnju u ognju?!';
+$t[22] = 'Onaj ko se sasvim preda Allahu, a uz to čini dobra djela, uhvatio se za najčvr&scaron;ću vezu. Allahu se na koncu sve vraća.';
+$t[23] = 'A onaj koji ne vjeruje, pa, neka te ne zabrinjava nevjerovanje njegovo. Nama će se svi vratiti i Mi ćemo ih o onome &scaron;ta su radili obavijestiti; Allahu su, uistinu, poznate svačije misli.';
+$t[24] = 'Mi im dajemo da kratko uživaju, a onda ćemo ih natjerati u patnju neizdržljivu.';
+$t[25] = 'A da ih upita&scaron;: &quot;Ko je stvorio nebesa i Zemlju?&quot; &ndash; sigurno bi rekli: &quot;Allah!&quot; &ndash; a ti reci: &quot;Hvaljen neka je Allah!&quot; &ndash; samo &scaron;to većina njih ne zna.';
+$t[26] = 'Allahovo je sve na nebesima i na Zemlji! Allah je, uistinu, nezavisan i hvale dostojan.';
+$t[27] = 'Da su sva stabla na Zemlji pisaljke, a da se u more, kad presahne, ulije jo&scaron; sedam mora, ne bi se ispisale Allahove riječi; Allah je, uistinu, silan i mudar.';
+$t[28] = 'Stvoriti sve vas i sve vas oživiti isto je kao stvoriti i oživiti jednoga čovjeka; Allah, zaista, sve čuje i sve vidi.';
+$t[29] = 'Kako ne vidi&scaron; da Allah uvodi noć u dan i uvodi dan u noć, i da je potčinio Sunce i Mjesec &ndash; svako se kreće do roka određenog &ndash; i da Allah dobro zna ono &scaron;to radite?';
+$t[30] = 'To zato &scaron;to je Allah &ndash; Istina, a oni kojima se, pored Njega, oni mole &ndash; neistina, i &scaron;to je Allah uzvi&scaron;en i velik.';
+$t[31] = 'Zar ne vidi&scaron; da lađe Allahovom milo&scaron;ću morem plove da bi vam pokazao neke dokaze Svoje? To su, zaista, pouke za sve strpljive i zahvalne.';
+$t[32] = 'A kad ih talas, kao oblak, prekrije, mole se Allahu iskreno Mu vjeru ispovijedajući; a čim ih On do kopna dovede, samo Mu neki zahvalni ostaju. A dokaze Na&scaron;e samo izdajnik, nezahvalnik poriče.';
+$t[33] = 'O ljudi, bojte se Gospodara svoga i strahujte od Dana kad roditelj djetetu svome neće moći nimalo pomoći, niti će dijete moći svome roditelju imalo pomoći! Allahova prijetnja je istinita, pa neka vas nikako život na ovome svijetu ne zavara i neka vas u Allaha &scaron;ejtan ne pokoleba.';
+$t[34] = 'Samo Allah zna kad će Smak svijeta nastupiti, samo On spu&scaron;ta ki&scaron;u i samo On zna &scaron;ta je u matericama, a čovjek ne zna &scaron;ta će sutra zaraditi i ne zna čovjek u kojoj će zemlji umrijeti; Allah, uistinu, sve zna i o svemu je obavije&scaron;ten.';
+?>

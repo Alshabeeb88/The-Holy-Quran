@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = '(Allah), Wanda gud&atilde;nar da mulki yake ga hannunSa, Ya tsarkaka, kuma Shi Mai ĩko ne a kan kome.';
+$t[2] = 'Shi ne Wanda Ya halitta mutuwa da r&atilde;yuwa domin Ya jarraba ku, Ya nũna w&atilde;ye daga cikinku ya fi ky&atilde;won aiki, Shi ne Mabuw&atilde;yi, Mai gafara.';
+$t[3] = 'Shi ne wanda Ya halitta sammai bakawi, ɗabaƙ&otilde;ƙi a kan jũna, b&atilde; za ka ga goggociya ba a cikin halittar (Allah) Mai rahama. Ka s&atilde;ke dũbawa, ko za ka ga wata ɓaraka?';
+$t[4] = 'Sa\'an nan ka sake maimaita, dũb&atilde;wa, ganinka zai komo maka, gajiyayye, ba da ganin wata naƙasa b&atilde;.';
+$t[5] = 'Kuma lalle Mun ƙaw&atilde;ta samar farko da fitillu, kuma Muka sanya su abin jifa ga shaiɗanu, kuma Muka yi musu tattalin az&atilde;bar Sa\'ĩr.';
+$t[6] = 'Kuma waɗanda suka kafirce wa Ubangjinsu na da az&atilde;bar Jahannama, t&atilde; munana ga zamanta mak&otilde;marsu.';
+$t[7] = 'Idan an jẽfa su a cikinta, sai su ji daga gare ta wata ƙ&atilde;ra, tana tafasa.';
+$t[8] = 'Tana kusa ta ts&atilde;ge domin hushi, ko da yaushe aka jẽfa wani ɓangaren jama\'a a cikinta, matsaranta na tambayar su da cewa, &quot;Wani mai gargaɗi bai je muku ba?&quot;';
+$t[9] = 'Sai su ce: &quot;I, lalle wani mai gargaɗi ya je mana, sai muka ƙaryata shi, muka ce, \'Allah bai saukar da kome ba, b&atilde; ku cikin k&otilde;me sai ɓata babba.\'&quot;';
+$t[10] = 'Kuma suka ce: &quot;D&atilde; mun zamo muna saur&atilde;re, k&otilde; muna da hankali, d&atilde; ba mu kasance a cikin \'yan sa\'ĩr ba.&quot;';
+$t[11] = 'Wato su yi iƙr&atilde;ri da laifinsu. Allah Ya la\'ani\'yan sa\'ĩr!';
+$t[12] = 'Lalle waɗanda ke ts&otilde;ron Ubangjinsu, a ɓoye, suna da wata g&atilde;fara da wani sakamako mai girma.';
+$t[13] = 'Kuma ku asirta maganarku ko ku bayyana ta, lalle shi, (Allah), Masani ne ga abin da ke cikin ƙir&atilde;za.';
+$t[14] = 'Ashe, wanda Ya yi halitta b&atilde; zai iya saninta ba, alh&atilde;li kuwa shi Mai tausas&atilde;wa ne, kuma Mai labartawa?';
+$t[15] = 'Shi, (Allah), Y&atilde; sanya muku ƙasa h&otilde;rarriya, sai ku tafi cikin s&atilde;sanninta, kuma ku ci daga arzikinSa, kuma zuwa gare shi ne t&atilde;shin yake.';
+$t[16] = 'Shin k&otilde; kun amince cewa wanda ke cikin sama, b&atilde; zai iya sh&atilde;fe ƙasa t&atilde;re da ku ba, sai ga ta tana mai girgiza?';
+$t[17] = 'K&otilde; kun amincẽ cewa wanda ke cikin sama b&atilde; zai iya sako muku iskar gũguwa ba? To, z&atilde; ku san yadda (&atilde;ƙibar) gargaɗiNa take.';
+$t[18] = 'Lalle, waɗanda ke gabansu sun ƙaryata (manzanni). To, y&atilde;ya (&atilde;ƙibar) gargaɗiNa ta kasance?';
+$t[19] = 'B&atilde; z&atilde; su yi dũbi ba zuwa ga tsunts&atilde;ye a kansu, m&atilde;su sanw&atilde;, kuma suna fiffik&atilde;wa, b&atilde;bu mai riƙe da su sai (Allah), Mairahama? Lalle shi Mai gani ne ga dukan k&otilde;me.';
+$t[20] = 'W&atilde;ne ne wanda zai zame muku may&atilde;ƙin da zai taimake ku, wanda b&atilde; (Allah) ba, Mai rahama? K&atilde;firai ba su a cikin k&otilde;me f&atilde;ce rũɗu.';
+$t[21] = 'W&atilde;ne ne wanda zai ciyar da ku, idan (Allah) Ya riƙe arzikinSa? A\'aha, sun yi zurfi cikin girman kai da t&atilde;shin hankali.';
+$t[22] = 'Shin, wanda ke tafiya a kife a kan fuskarsa y&atilde; fi zama a kan shiryuwa, ko kuwa wanda ke tafiya miƙe a kan hanya madaidaiciya?';
+$t[23] = 'Ka ce: &quot;(Allah) Shine Wanda Ya ƙaga halittarku, Ya sanya muku ji da gani da tun&atilde;ni, amman kaɗan ce ƙwarai godiyarku!&quot;';
+$t[24] = 'Kuma kace &quot;Shi ne Ya halitta ku daga ƙas&atilde;, kuma zuwa gareShi ne ake t&atilde;shin ku.&quot;';
+$t[25] = 'Kuma sun&atilde; cewa, &quot;Yaushe ne wannan alkawarin zai tabbata in dai kun kasance m&atilde;su gaskiya ne kũ?&quot;';
+$t[26] = 'Ka ce: &quot;Ilmin a wurin Allah kawai yake, kuma ni mai gargaɗi kawai ne, mai bayyana (gargaɗin).&quot;';
+$t[27] = 'To, lokacin da suka gan ta (az&atilde;bar) a kusa, fuskokin waɗanda suka k&atilde;firta suka mũnana, kuma aka ce (musu) wannan shi ne abin da kuka zamo kuna ƙaryat&atilde;wa.';
+$t[28] = 'Ka ce musu &quot;Idan Allah Ya halaka ni nĩ da wanda ke t&atilde;re da ni, ko kuma, Y&atilde; yi mana rahama, to, w&atilde;ne ne zai tserar da kafirai daga wata az&atilde;ba mai raɗaɗi?&quot;';
+$t[29] = 'Ka ce: &quot;Shĩ ne Mai rahama mun yi ĩm&atilde;ni da Shi, gare Shi muka dogara, saboda haka z&atilde; ku san wanda yake a cikin ɓata bayyananniya.&quot;';
+$t[30] = 'Ka ce: &quot;Ko kun gani, idan ruwanku ya w&atilde;yi gari faƙaƙƙe, to, w&atilde;ne ne zai zo muku da ruwa wani mai ɓuɓɓuga?&quot;';
+?>

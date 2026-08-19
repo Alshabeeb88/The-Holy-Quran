@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Při &uacute;svitu';
+$t[2] = 'a při noc&iacute;ch deseti';
+$t[3] = 'a při sp&aacute;rovan&eacute;m a jedinečn&eacute;m';
+$t[4] = 'a při noci, když ub&iacute;h&aacute;!';
+$t[5] = 'Což nen&iacute; v tom pro člověka rozv&aacute;žn&eacute;ho př&iacute;saha?';
+$t[6] = 'Neviděls, co učinil P&aacute;n tvůj &acute;&Aacute;dovcům';
+$t[7] = 'Iramu, jenž proslul sloupy sv&yacute;mi,';
+$t[8] = 'jimž nic podobn&eacute;ho nebylo stvořeno v ž&aacute;dn&eacute; zemi,';
+$t[9] = 'a kmeni Tham&uacute;d, jenž sk&aacute;ly v &uacute;dol&iacute; pror&aacute;žel,';
+$t[10] = 'a Fara&oacute;novi, kter&yacute; na kůly nar&aacute;žel,';
+$t[11] = 'a těm, kdož v zem&iacute;ch vzpurn&iacute; byli';
+$t[12] = 'a pohor&scaron;en&iacute; v nich pak &scaron;&iacute;řili?';
+$t[13] = 'V&scaron;ak P&aacute;n tvůj proti nim důtky trestaj&iacute;c&iacute; rozpoutal,';
+$t[14] = 'neb P&aacute;n tvůj neust&aacute;le na č&iacute;han&eacute; st&aacute;l.';
+$t[15] = 'Co člověka se t&yacute;če, když P&aacute;n jeho jej zkou&scaron;ce podrobuje a &scaron;tědrosti a dobrodin&iacute;m jeho zahrnuje, pak on hovoř&iacute;: &quot;P&aacute;n můj mi poctu prokazuje.';
+$t[16] = 'Když naopak jej zkou&scaron;&iacute; t&iacute;m, že př&iacute;děl obživy mu odměřuje, pak on hovoř&iacute;: &quot;P&aacute;n můj mě ponižuje.&quot;';
+$t[17] = 'V&scaron;ak pozor! Vždyť vy sirotky nect&iacute;te,';
+$t[18] = 'ani k nakrmen&iacute; nuzn&yacute;ch se navz&aacute;jem nevyb&iacute;z&iacute;te';
+$t[19] = 'v&scaron;ak dědictv&iacute; slab&yacute;ch nenasytně pohlcujete';
+$t[20] = 'a jen bohatstv&iacute; v l&aacute;sce v&aacute;&scaron;niv&eacute; m&aacute;te.';
+$t[21] = 'V&scaron;ak pozor! Až země bude rozdrcena ranou za ranou';
+$t[22] = 'a přijde P&aacute;n tvůj i anděl&eacute;, řada za řadou,';
+$t[23] = 'a až v ten den bude peklo předvedeno, tehdy si člověk připomene - v&scaron;ak co bude mu připom&iacute;n&aacute;n&iacute; platno?';
+$t[24] = 'I zvol&aacute;: &quot;K&eacute;ž bych měl na život budouc&iacute; něco předem připraveno!&quot;';
+$t[25] = 'V ten den takov&yacute;m trestem nebude nikdo potrest&aacute;n';
+$t[26] = 'a nikdo takov&yacute;mi okovy spout&aacute;n!';
+$t[27] = 'A ty, du&scaron;e usm&iacute;řen&aacute;,';
+$t[28] = 'vrať se k P&aacute;nu sv&eacute;mu v zal&iacute;ben&iacute; a spokojen&aacute;!';
+$t[29] = 'Vstup mezi služebn&iacute;ky m&eacute;';
+$t[30] = 'a vejdi do zahrady m&eacute;!';
+?>

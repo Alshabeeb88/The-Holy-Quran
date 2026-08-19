@@ -1,0 +1,14 @@
+<?php
+$t = array();
+$t[1] = 'N&Auml;R HYCKLARNA kommer till dig s&auml;ger de: &quot;Vi vittnar att du &auml;r Guds S&auml;ndebud!&quot; Men Gud vet att du &auml;r Hans S&auml;ndebud, och Gud vittnar att hycklarna ljuger.';
+$t[2] = 'De sv&auml;r sina eder f&ouml;r att skydda sig och p&aring; s&aring; s&auml;tt leder de [andra] bort fr&aring;n Guds v&auml;g; det de g&ouml;r &auml;r ont,';
+$t[3] = 'd&auml;rf&ouml;r att de ut&aring;t bek&auml;nner tron men f&ouml;rnekar den [i hj&auml;rtat] - och d&aring; f&ouml;rseglas deras hj&auml;rtan s&aring; att sanningen inte kan n&aring; dem.';
+$t[4] = 'N&auml;r du ser dem kan du f&aring; ett gott intryck av deras yttre och du lyssnar p&aring; dem n&auml;r de talar. [I sj&auml;lva verket &auml;r de lika andefattiga] som uppst&ouml;ttade tr&auml;stockar, och [i sin r&auml;dsla och os&auml;kerhet] tror de att varje rop [fr&aring;n m&auml;ngden] &auml;r ett hot mot dem. De &auml;r dina fiender, [Muhammad]; - var d&auml;rf&ouml;r p&aring; din vakt mot dem. Guds f&ouml;rbannelse &ouml;ver dem! Hur f&ouml;rvirrade &auml;r inte deras begrepp!';
+$t[5] = 'N&auml;r de uppmanas: &quot;Kom [och l&aring;t] Guds S&auml;ndebud be att Han f&ouml;rl&aring;ter er!&quot; v&auml;nder de bort huvudet och du ser dem dra sig undan, fulla av h&ouml;gmod.';
+$t[6] = 'Vad dem betr&auml;ffar &auml;r det likgiltigt om du ber om f&ouml;rl&aring;telse f&ouml;r dem eller inte - Gud kommer inte att f&ouml;rl&aring;ta dem. Gud v&auml;gleder inte dem som f&ouml;rh&auml;rdats i synd och trots.';
+$t[7] = 'Det &auml;r de som s&auml;ger [till andra]: &quot;Ge ingenting till dem som sluter upp kring Guds S&auml;ndebud; d&aring; ger de sig nog av h&auml;rifr&aring;n!&quot; - Men himlarnas och jordens skatter tillh&ouml;r Gud, fast&auml;n hycklarna inte f&ouml;rst&aring;r det.';
+$t[8] = 'De s&auml;ger [ocks&aring;]: &quot;Om vi kommer tillbaka till staden [fr&aring;n detta f&auml;ltt&aring;g], skall de som har makten helt s&auml;kert driva bort dessa f&ouml;raktliga stackare h&auml;rifr&aring;n!&quot; - Men [den verkliga] makten ligger hos Gud - och Hans S&auml;ndebud och de troende - och det vet inte hycklarna.';
+$t[9] = 'TROENDE! L&aring;t inte [omsorgen om] era &auml;godelar och [bekymren f&ouml;r] era barn f&aring; er att gl&ouml;mma att &aring;kalla Guds namn; de som g&ouml;r detta &auml;r f&ouml;rlorarna.';
+$t[10] = 'Och ge av det som Vi har sk&auml;nkt er f&ouml;r er f&ouml;rs&ouml;rjning innan ni k&auml;nner d&ouml;den n&auml;rma sig och ni s&auml;ger: &quot;Herre! Ge mig bara ett kort uppskov; d&aring; skall jag ge &aring;t de beh&ouml;vande och leva som en r&auml;ttskaffens m&auml;nniska!&quot;';
+$t[11] = 'Men Gud beviljar inte uppskov &aring;t den vars tid har l&ouml;pt ut, och Gud har full k&auml;nnedom om vad ni g&ouml;r.';
+?>

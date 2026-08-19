@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Si: &laquo;Det er blitt &aring;penbart meg at en flokk dsjinner gav &oslash;re, og sa: &rsquo;Vi har visselig h&oslash;rt en bemerkelsesverdig forkynnelse (Koran),';
+$t[2] = 'som leder til rettsindighet! Vi tror p&aring; den, og vi vil ikke gi Herren medguder.';
+$t[3] = 'Og Han &ndash; opph&oslash;yet er Herrens majestet &ndash; har ikke lagt seg til hustru eller barn.';
+$t[4] = 'De forstandssvake blant oss uttalte om Gud noe hinsides alt,';
+$t[5] = 'og vi mente at menneske eller dsjinn aldri ville si en l&oslash;gn om Gud.';
+$t[6] = 'Men det var noen blant menneskene som s&oslash;kte sammen med noen av dsjinnene, og for&oslash;ket deres d&aring;rlighet,';
+$t[7] = 'og mente, som ogs&aring; dere mente, at Gud ville aldri gjenoppvekke noen.';
+$t[8] = 'Vi s&oslash;kte over himmelen, men fant den fylt av strenge voktere og ildflammer.';
+$t[9] = 'Vi pleide &aring; ta plass her og der for &aring; lytte, men den som n&aring; lytter, finner en ildflamme som lurer p&aring; ham.';
+$t[10] = 'Vi vet ikke om ondt er tiltenkt dem p&aring; jorden, eller om Herren har tiltenkt dem det som er godt.';
+$t[11] = 'Visselig er det blant oss rettskafne, og slike som ikke er det. Vi f&oslash;lger forskjellige veier.';
+$t[12] = 'Vi mente at vi aldri kunne sette Gud ut av spill p&aring; jorden, og heller ikke forpurre Ham ved flukt.';
+$t[13] = 'Da vi fikk h&oslash;re ledelsen, trodde vi p&aring; den, og den som tror p&aring; Herren, han frykter ikke sm&aring;lighet eller urett.';
+$t[14] = 'Noen av oss har gitt seg Gud i vold, og noen f&oslash;lger det de selv mener er rett: De som har gitt seg Gud i vold, disse har s&oslash;kt det rette.';
+$t[15] = 'Men de som f&oslash;lger egne veier, de blir brensel for helvete.&rsquo;&raquo;';
+$t[16] = '&laquo;Om de holdt seg p&aring; rett vei, ville Vi gi dem rikelig vann &aring; drikke.';
+$t[17] = 'for derved &aring; sette dem p&aring; pr&oslash;ve. Og den som snur seg bort fra Herrens formaning, sender Han til en sv&aelig;r straff.';
+$t[18] = 'Bedestedene tilh&oslash;rer Gud, s&aring; p&aring;kall ingen ved siden av Gud.';
+$t[19] = 'Da Guds tjener stod opp for &aring; p&aring;kalle Ham, var de tett omkring ham.&raquo;';
+$t[20] = 'Si: &laquo;Jeg p&aring;kaller kun Herren, og setter ingen ved Hans side.&raquo;';
+$t[21] = 'Si: &laquo;Jeg form&aring;r ikke &aring; gj&oslash;re dere ondt eller godt.&raquo;';
+$t[22] = 'Si: &laquo;Ingen kan beskytte meg mot Gud, og jeg finner ingen tilflukt utenom Ham.';
+$t[23] = 'Meg p&aring;ligger kun formidling fra Gud og Hans budskap. Den som ikke adlyder Gud og Hans sendebud, har i vente helvetes ild, og der skal de v&aelig;re og bli for alltid.';
+$t[24] = 'N&aring;r de s&aring; endelig f&aring;r se det som var stilt dem i utsikt, da vil de f&aring; vite hvem som st&aring;r svakest med hensyn til hjelpere, og tallmessig.&raquo;';
+$t[25] = 'Si: &laquo;Jeg vet ikke om det som er stilt dere i utsikt er n&aelig;r, eller om Herren vil gi det utsettelse.';
+$t[26] = 'Han kjenner det skjulte, og Han gj&oslash;r ingen kjent med Sitt skjulte,';
+$t[27] = 'unntatt et sendebud Han har velbehag i. Og han ferdes med vakt, foran og bak seg,';
+$t[28] = 's&aring; Han kan vite at de har levert Herrens budskap. Han omfatter alt som hos dem er, og opptegner alt n&oslash;yaktig.&raquo;';
+?>

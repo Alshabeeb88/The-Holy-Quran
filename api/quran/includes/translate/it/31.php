@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'Alif, L&acirc;m, M&icirc;m.';
+$t[2] = 'Questi sono i versetti del Libro saggio';
+$t[3] = 'guida e misericordia per coloro che compiono il bene';
+$t[4] = 'che assolvono all\'orazione e pagano la decima e fermamente credono nell\'altra vita,';
+$t[5] = 'che seguono la guida del loro Signore: questi sono coloro che prospereranno.';
+$t[6] = 'Tra gli uomini vi &egrave; chi compra storie ridicole per traviare gli uomini dal sentiero di Allah e burlarsi di esso: quelli avranno un castigo umiliante.';
+$t[7] = 'Quando gli si recitano i Nostri versetti, volge le spalle superbo come se non li avesse sentiti, come se avesse un peso nelle orecchie. Dagli annuncio di un doloroso castigo.';
+$t[8] = 'Coloro che credono e compiono il bene avranno i Giardini della Delizia,';
+$t[9] = 'dove rimarranno in perpetuo: questa in verit&agrave; la promessa di Allah. Egli &egrave; l\'Eccelso, il Saggio.';
+$t[10] = 'Ha creato i cieli senza pilastri che possiate vedere, ha infisso le montagne sulla terra, ch&eacute; altrimenti si sarebbe mossa e voi con essa e l\'ha popolata di animali di tutte le specie. Abbiamo fatto scendere un\'acqua [dal cielo] e abbiamo fatto germogliare ogni tipo di magnifica specie [di piante].';
+$t[11] = 'Questa la creazione di Allah. Mostratemi allora quello che hanno creato gli altri [che adorate] all\'infuori di Lui. No, gli ingiusti sono in errore palese.';
+$t[12] = 'Certamente fummo Noi a dare la saggezza a Luqm&acirc;n: &ldquo;Sii riconoscente ad Allah: chi &egrave; riconoscente lo &egrave; per se stesso. Quanto a colui che &egrave; ingrato, in verit&agrave; Allah &egrave; Colui Che basta a Se Stesso, il Degno di lode&rdquo;.';
+$t[13] = 'E [ricorda] quando Luqm&acirc;n disse a suo figlio: &ldquo;Figlio mio, non attribuire ad Allah associati. Attribuirgli associati &egrave; un\'enorme ingiustizia&rdquo;.';
+$t[14] = 'Abbiamo imposto all\'uomo di trattare bene i suoi genitori: lo port&ograve; sua madre di travaglio in travaglio e lo svezz&ograve; dopo due anni: &ldquo;Sii riconoscente a Me e ai tuoi genitori. Il destino ultimo &egrave; verso di Me.';
+$t[15] = 'E se entrambi ti obbligassero ad associarMi ci&ograve; di cui non hai conoscenza alcuna, non obbedire loro, ma sii comunque cortese con loro in questa vita e segui la via di chi si rivolge a Me. Poi a Me farete ritorno e vi informer&ograve; su quello che avrete fatto&rdquo;.';
+$t[16] = '&ldquo;O figlio mio, anche se fosse come il peso di un granello di senape, nel profondo di una roccia o nei cieli o sulla terra, Allah lo porter&agrave; alla luce. Allah &egrave; dolce e ben informato.';
+$t[17] = 'O figlio mio, assolvi all\'orazione, raccomanda le buone consuetudini e proibisci il biasimevole e sopporta con pazienza quello che ti succede: questo il comportamento da tenere in ogni impresa.';
+$t[18] = 'Non voltare la tua guancia dagli uomini e non calpestare la terra con arroganza: in verit&agrave; Allah non ama il superbo vanaglorioso.';
+$t[19] = 'Sii modesto nel camminare e abbassa la tua voce: invero la pi&ugrave; sgradevole delle voci &egrave; quella dell\'asino.&rdquo;';
+$t[20] = 'Non vedete come Allah vi ha sottomesso quel che &egrave; nei cieli e sulla terra e ha diffuso su di voi i Suoi favori, palesi e nascosti? Ciononostante vi &egrave; qualcuno tra gli uomini che polemizza a proposito di Allah senza avere n&eacute; scienza, n&eacute; guida, n&eacute; un Libro luminoso.';
+$t[21] = 'E quando si dice loro: &ldquo;Seguite quello che Allah ha rivelato&rdquo;, rispondono: &ldquo;Seguiremo invece quello che abbiamo trovato presso i nostri avi!&rdquo;. [Insisterebbero cos&igrave;] anche se Satana li chiamasse al castigo della Fiamma?';
+$t[22] = 'Chi sottomette il suo volto ad Allah e compie il bene, si afferra all\'ansa pi&ugrave; salda. In Allah &egrave; l\'esito di tutte le cose!';
+$t[23] = 'Quanto a chi &egrave; miscredente, non ti affligga la sua miscredenza: a Noi faranno ritorno e li informeremo di quel che avranno fatto. Allah conosce perfettamente cosa c\'&egrave; nei cuori.';
+$t[24] = 'Diamo loro godimento effimero per un po\' di tempo e poi li spingeremo con forza nel castigo terribile.';
+$t[25] = 'Se domandi loro: &ldquo;Chi ha creato i cieli e la terra?&rdquo;, certamente risponderanno: &ldquo;Allah&rdquo;. Di\': &ldquo;Lode ad Allah!&rdquo;. Ma la maggior parte di loro non sanno.';
+$t[26] = '[Appartiene] ad Allah tutto quello che &egrave; nei cieli e sulla terra. Allah basta a Se Stesso, &egrave; il Degno di lode.';
+$t[27] = 'Anche se tutti gli alberi della terra diventassero calami, e il mare e altri sette mari ancora [fossero inchiostro], non potrebbero esaurire le parole di Allah. In verit&agrave; Allah &egrave; eccelso, saggio.';
+$t[28] = 'La vostra creazione e resurrezione [per Allah] &egrave; [facile] come quella di una sola anima. Allah &egrave; l\'Audiente, Colui Che tutto osserva.';
+$t[29] = 'Non hai visto come Allah ha fatto s&igrave; che la notte compenetri il giorno e il giorno compenetri la notte? E [come] ha sottomesso il sole e la luna, ciascuno dei quali procede [nel suo corso] fino a un termine stabilito?';
+$t[30] = 'Ci&ograve; in quanto Allah &egrave; la Verit&agrave;, mentre quel che invocano all\'infuori di Lui &egrave; falsit&agrave;. Allah &egrave; l\'Altissimo, il Grande.';
+$t[31] = 'Non hai visto che &egrave; per grazia di Allah che la nave solca il mare, affinch&eacute; vi mostri qualcuno dei Suoi segni? In verit&agrave; in ci&ograve; vi sono segni per ogni uomo di perseveranza, di riconoscenza.';
+$t[32] = 'Quando li copre un\'onda come fosse tenebra, invocano Allah e Gli rendono un culto puro; quando poi [Allah] li mette al sicuro sulla terra ferma, alcuni di loro seguono una via intermedia. Solo il peggior traditore, il peggior ingrato rinnegher&agrave; i Nostri segni.';
+$t[33] = 'Uomini, temete il vostro Signore e paventate il Giorno in cui il padre non potr&agrave; soddisfare il figlio n&eacute; il figlio potr&agrave; soddisfare il padre in alcunch&eacute;. La promessa di Allah &egrave; verit&agrave;. Badate che non vi inganni la vita terrena e non vi inganni, su Allah, l\'Ingannatore.';
+$t[34] = 'In verit&agrave; la scienza dell\'Ora &egrave; presso Allah, Colui Che fa scendere la pioggia e conosce quello che c\'&egrave; negli uteri. Nessuno conosce ci&ograve; che guadagner&agrave; l\'indomani e nessuno conosce la terra in cui morr&agrave;. In verit&agrave; Allah &egrave; il Sapiente, il Ben informato.';
+?>

@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Gesegnet sei der, in dessen Hand die K&ouml;nigsherrschaft ist! Und Er hat Macht zu allen Dingen.';
+$t[2] = '(Er), der den Tod und das Leben erschaffen hat, um euch zu pr&uuml;fen (und festzustellen), wer von euch am besten handelt. Und Er ist der, der m&auml;chtig und voller Vergebung ist.';
+$t[3] = '(Er), der sieben Himmel in Schichten erschaffen hat. Und du kannst an der Sch&ouml;pfung des Erbarmers kein Mi&szlig;verh&auml;ltnis sehen. Wende deinen Blick zur&uuml;ck: Siehst du irgendeinen Mangel?';
+$t[4] = 'Dann wende deinen Blick zweimal zur&uuml;ck. Dein Blick kehrt zu dir besch&auml;mt und erm&uuml;det zur&uuml;ck.';
+$t[5] = 'Und Wir haben den untersten Himmel mit Leuchten geschm&uuml;ckt und haben sie zu Wurfsteinen gegen die Satane gemacht. Und Wir haben f&uuml;r sie die Pein des Feuerbrandes bereitet.';
+$t[6] = 'Und bestimmt ist f&uuml;r die, die ihren Herrn verleugnen, die Pein der H&ouml;lle - welch schlimmes Ende!';
+$t[7] = 'Wenn sie hineingeworfen werden, h&ouml;ren sie sie aufheulen, w&auml;hrend sie brodelt,';
+$t[8] = 'Als w&uuml;rde sie bald vor Wut platzen. Sooft eine Schar hineingeworfen wird, werden ihre W&auml;rter sie fragen: &laquo;Ist denn kein Warner zu euch gekommen?&raquo;';
+$t[9] = 'Sie sagen: &laquo;Doch, ein Warner ist zu uns gekommen. Aber wir haben (ihn) der L&uuml;ge geziehen und gesagt: &gt;Gott hat nichts herabgesandt; ihr befindet euch ja in gro&szlig;em Irrtum.';
+$t[10] = 'Und sie sagen: &laquo;H&auml;tten wir nur geh&ouml;rt und Verstand gehabt, w&auml;ren wir nun nicht unter den Gef&auml;hrten des H&ouml;llenbrandes.&raquo;';
+$t[11] = 'Und sie bekennen ihre Schuld. Weg mit den Gef&auml;hrten des H&ouml;llenbrandes!';
+$t[12] = 'F&uuml;r diejenigen, die ihren Herrn im Verborgenen f&uuml;rchten, ist Vergebung und ein gro&szlig;er Lohn bestimmt.';
+$t[13] = 'Ihr m&ouml;gt eure Worte im geheimen sprechen oder offen &auml;u&szlig;ern, Er wei&szlig; &uuml;ber das innere Geheimnis Bescheid.';
+$t[14] = 'Sollte Er denn nicht &uuml;ber die Bescheid wissen, die Er erschaffen hat? Und Er ist der Feinf&uuml;hlige, der Kenntnis von allem hat.';
+$t[15] = 'Er ist es, der euch die Erde gef&uuml;gig gemacht hat. So schreitet auf ihrem R&uuml;cken umher und e&szlig;t von dem, was Er (euch) beschert. Und zu Ihm f&uuml;hrt die Auferstehung.';
+$t[16] = 'W&auml;hnt ihr euch denn in Sicherheit davor, da&szlig; der, der im Himmel ist, die Erde mit euch versinken l&auml;&szlig;t, so da&szlig; sie ins Schwanken ger&auml;t?';
+$t[17] = 'Oder w&auml;hnt ihr euch in Sicherheit davor, da&szlig; der, der im Himmel ist, einen Sandsturm gegen euch schickt? Da werdet ihr erfahren, wie seine Warnung ist.';
+$t[18] = 'Auch diejenigen, die vor ihnen lebten, haben (die Gesandten) der L&uuml;ge geziehen. Und wie war meine Mi&szlig;billigung!';
+$t[19] = 'Haben sie nicht auf die V&ouml;gel &uuml;ber ihnen geschaut, wie sie ihre Fl&uuml;gel ausbreiten und einziehen? Nur der Erbarmer h&auml;lt sie. Er sieht wohl alle Dinge.';
+$t[20] = 'Oder wer ist anstelle des Erbarmers derjenige, der euch eine Heerschar w&auml;re, die euch unterst&uuml;tzen k&ouml;nnte? Die Ungl&auml;ubigen fallen nur der Bet&ouml;rung anheim.';
+$t[21] = 'Oder wer ist denn der, der euch Lebensunterhalt bescheren k&ouml;nnte, wenn Er seine Versorgung zur&uuml;ckh&auml;lt? Aber nein, sie verharren in Rebellion und Abneigung.';
+$t[22] = 'Folgt denn einer, der, auf sein Gesicht gest&uuml;rzt, umherschreitet, eher der Rechtleitung, oder einer, der aufrecht auf einem geraden Weg umherschreitet?';
+$t[23] = 'Sprich: Er ist es, der euch entstehen lie&szlig; und euch Geh&ouml;r, Augenlicht und Herz machte. Ihr seid aber wenig dankbar.';
+$t[24] = 'Sprich: Er ist es, der euch auf der Erde vermehrte. Und zu Ihm werdet ihr versammelt werden.';
+$t[25] = 'Und sie sagen: &laquo;Wann wird diese Androhung eintreffen, so ihr die Wahrheit sagt?&raquo;';
+$t[26] = 'Sprich: Nur Gott wei&szlig; dar&uuml;ber Bescheid. Und ich bin ein deutlicher Warner.';
+$t[27] = 'Wenn sie es aber aus der N&auml;he sehen, dann werden die Gesichter derer, die ungl&auml;ubig sind, schlimm betroffen. Und es wird gesprochen: &laquo;Das ist das, was ihr herbeizurufen suchtet.&raquo;';
+$t[28] = 'Sprich: Was meint ihr, wenn Gott mich und die, die mit mir sind, verderben lassen oder wenn Er sich unser erbarmen sollte, wer wird dann die Ungl&auml;ubigen sch&uuml;tzen vor einer schmerzhaften Pein?';
+$t[29] = 'Sprich: Er ist der Erbarmer. An Ihn glauben Wir, und auf Ihn vertrauen wir. Ihr werdet noch erfahren, wer sich im offenkundigen Irrtum befindet.';
+$t[30] = 'Sprich: Was meint ihr, wenn euer Wasser versiegen sollte, wer k&ouml;nnte euch sprudelndes Wasser bringen?';
+?>

@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Həqiqətən, Biz Nuhu: &ldquo;Q&ouml;vm&uuml;nə şiddətli bir əzab gəlməmişdən əvəl onları (Allahın əzabı ilə) qorxut!&rdquo; &ndash; deyə &ouml;z tayfasına peyğəmbər g&ouml;ndərdik.';
+$t[2] = 'O dedi: &ldquo;Ey q&ouml;vm&uuml;m! Həqiqətən, mən sizi (Allahın əzabı ilə) a&ccedil;ıq-aşkar qorxudan bir peyğəmbərəm!';
+$t[3] = 'Allaha ibadət edin, Ondan qorxun və mənə də itaət edin!';
+$t[4] = '(Əgər belə etsəniz) O sizin g&uuml;nahlarınızdan ke&ccedil;ər, sizə m&uuml;əyyən vaxtadək (əcəliniz &ccedil;atana qədər) m&ouml;hlət verər (cəzanızı d&uuml;nyada verməyib axirətə saxlayar). Allahın (əzəldən l&ouml;vhi-məhfuzda) m&uuml;əyyən etdiyi əcəl (&ouml;l&uuml;m) gəlib &ccedil;atdıqda isə, o əsla tə&rsquo;xirə salınmaz. Kaş biləydiniz!&rdquo;';
+$t[5] = 'O dedi: &ldquo;Ey Rəbbim! Mən q&ouml;vm&uuml;m&uuml; gecə-g&uuml;nd&uuml;z (imana, haqq yola) də&rsquo;vət etdim!';
+$t[6] = 'Lakin də&rsquo;vətim onların (imandan) qa&ccedil;malarını daha da artırmaqdan başqa bir şeyə yaramadı.';
+$t[7] = 'Sənin onları bağışlamağın &uuml;&ccedil;&uuml;n mən nə zaman onları (imana) də&rsquo;vət etdimsə, onlar (də&rsquo;vətimi eşitməsinlər deyə) barmaqlarını qularlarına tıxadılar, (məni g&ouml;rməsinlər deyə) libaslarına b&uuml;r&uuml;nd&uuml;lər, (k&uuml;frlərində) israr edib durdular və təkəbb&uuml;r g&ouml;stərdilər.';
+$t[8] = 'Sonra mən onları uca səslə (a&ccedil;ıq-a&ccedil;ığına haqqa) də&rsquo;vət etdim.';
+$t[9] = 'Daha sonra onlara (iman gətirmək lazım olduğunu) aşkar s&ouml;ylədim və gizli bildirdim&rdquo;.';
+$t[10] = 'Və dedim: &ldquo;(T&ouml;vbə edib) Rəbbinizdən bağışlanmağınızı diləyin. &Ccedil;&uuml;nki O, (t&ouml;vbə edən bəndəsinin g&uuml;nahlarını) &ccedil;ox bağışlayandır!';
+$t[11] = 'O sizə g&ouml;ydən bol yağış g&ouml;ndərər;';
+$t[12] = 'O sizə mal-d&ouml;vlət, oğul-uşaq əta edər. O sizin &uuml;&ccedil;&uuml;n bağlar-bağ&ccedil;alar yaradır və &ccedil;aylar axıdar!';
+$t[13] = 'Sizə nə olub ki, Allahın əzəmətindən &ccedil;əkinmirsiniz? (Sizə nə olub ki, Allahın əzəmət və q&uuml;drətindən qorxmur, Onu layiqincə uca tutmursunuz? Yaxud iman gətirəcəyiniz təqdirdə Allahın axirətdə sizə mərhəmət əta edəcəyinə &uuml;mid bəsləmirsiniz?)';
+$t[14] = 'Halbuki O sizi c&uuml;rbəc&uuml;r (və ya m&uuml;xtəlif mərhələlərlə - əvvəl n&uuml;tfə, sonra laxtalanmış qan, sonra bir par&ccedil;a ət və, nəhayət, insan şəklində) xəlq etdi.';
+$t[15] = 'Məgər g&ouml;rm&uuml;rs&uuml;n&uuml;z ki, Allah yeddi g&ouml;y&uuml; (bir-birinin &uuml;st&uuml;ndə) qat-qat necə yaratdı?!';
+$t[16] = 'Orada ayı bir nur, g&uuml;nəşi də bir &ccedil;ıraq etdi.';
+$t[17] = 'Və Allah sizi (atanız Adəmi) yerdən (torpaqdan) bir bitki kimi g&ouml;yərtdi.';
+$t[18] = 'Sonra sizi yenə ora qaytaracaq və (qiyamət g&uuml;n&uuml; dirildib oradan da) &ccedil;ıxardacaqdır.';
+$t[19] = 'Allah yeri sizin &uuml;&ccedil;&uuml;n xalı etdi (fərş kimi ayaqlarınızın altına d&ouml;şədi) ki,';
+$t[20] = 'Onun geniş yollarında gəzəsiniz!&rdquo;';
+$t[21] = 'Nuh dedi: &ldquo;Ey Rəbbim! Onlar mənə qarşı &ccedil;ıxdılar və mal-d&ouml;vləti, oğul-uşağı &ouml;zlərinə ziyandan başqa bir şey artırmayan kimsələrə (&ouml;z kafir baş&ccedil;ılarına) tabe oldular.';
+$t[22] = '(Onların kafir baş&ccedil;ıları mənim əleyhimə) &ccedil;ox b&ouml;y&uuml;k bir hiylə qurdular.';
+$t[23] = 'Və (tabe&ccedil;iliyində olanlara) dedilər: &ldquo;&Ouml;z tanrılarınızı tərk etməyin, (x&uuml;susilə) Bəddi, Suva&rsquo;ı, Yəğusu, Yəuqu və Nəsri atmayın!&rdquo;';
+$t[24] = 'Onlar &ccedil;oxlarını yoldan &ccedil;ıxartdılar. Sən də (ey Rəbbim!) ancaq onların zəlalətini artır!&rdquo;';
+$t[25] = 'Onlar &ouml;z g&uuml;nahlarından dolayı suda boğdurulub Cəhənnəmə daxil edildilər və &ouml;zlərinə onları Allahdan (Allahın əzabından) qurtaracaq k&ouml;mək&ccedil;ilər də tapa bilmədilər!';
+$t[26] = 'Nuh dedi: &ldquo;Ey Rəbbim! Yer &uuml;z&uuml;ndə bir nəfər belə kafir qoyma!';
+$t[27] = '&Ccedil;&uuml;nki sən onları (sağ) buraxsan, onlar Sənin bəndələrini yoldan &ccedil;ıxardacaq, ancaq pozğun və kafir (oğul-uşaq) doğub-t&ouml;rədəcəklər.';
+$t[28] = 'Ey Rəbbim! Məni, ata-anamı, mənim evimə (yaxud məscidimə) m&ouml;&rsquo;min kimi daxil olan kimsəni və (qiyamət g&uuml;n&uuml;nə qədər olacaq) b&uuml;t&uuml;n m&ouml;&rsquo;min kişiləri və qadınları bağışla. Zalımların isə ancaq və ancaq həlakını (&ouml;l&uuml;m&uuml;n&uuml;) artır!&rdquo;';
+?>

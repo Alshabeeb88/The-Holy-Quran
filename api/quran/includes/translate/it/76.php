@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Non &egrave; forse trascorso un lasso di tempo in cui l\'uomo non sia stato una creatura degna di menzione?';
+$t[2] = 'Invero creammo l\'uomo, per metterlo alla prova, da una goccia di sperma eterogenea e abbiamo fatto s&igrave; che sentisse e vedesse';
+$t[3] = 'e gli abbiamo indicato la Retta Via, sia esso riconoscente o ingrato.';
+$t[4] = 'In verit&agrave; abbiamo preparato per i miscredenti catene, gioghi e la Fiamma.';
+$t[5] = 'In verit&agrave; i giusti berranno da una coppa in cui &egrave; un miscuglio di [acqua e di] Kaf&ucirc;r,';
+$t[6] = '[attinta da una] fonte da cui berranno i servi di Allah, che la faranno fluire con abbondanza,';
+$t[7] = 'coloro che assolvono ai loro voti e temono il giorno il cui male si propagher&agrave; ovunque,';
+$t[8] = '[loro] che, nonostante il loro bisogno, nutrono il povero, l\'orfano e il prigioniero;';
+$t[9] = '[e interiormente affermano:] &ldquo;&Egrave; solo per il volto di Allah, che vi nutriamo; non ci aspettiamo da voi n&eacute; ricompensa, n&eacute; gratitudine.';
+$t[10] = 'Invero noi temiamo un Giorno terribile e catastrofico da parte del nostro Signore&rdquo;.';
+$t[11] = 'Allah li preserver&agrave; dal male di quel Giorno e verser&agrave; su di loro splendore e gioia,';
+$t[12] = 'li compenser&agrave; del loro perseverare con il Giardino e la seta.';
+$t[13] = 'Adagiati su alti divani, non dovranno subire n&eacute; il sole, n&eacute; il freddo pungente.';
+$t[14] = 'Le sue ombre li copriranno e i suoi frutti penderanno a portata di mano.';
+$t[15] = 'Verranno serviti da un vassoio d\'argento e coppe di cristallo,';
+$t[16] = 'di cristallo e d\'argento, convenientemente riempite.';
+$t[17] = 'E berranno col&agrave;, da una coppa contenente una mistura di zenzero,';
+$t[18] = '[attinta] da una fonte di quel luogo chiamata Salsab&icirc;l.';
+$t[19] = 'Saranno serviti da fanciulli di eterna giovinezza: vedendoli, ti sembreranno perle sparse.';
+$t[20] = 'Quando lo vedrai, vedrai delizia e un vasto regno.';
+$t[21] = 'Indosseranno abiti verdi di seta finissima e broccato. Saranno ornati con bracciali d\'argento e il loro Signore dar&agrave; loro una bevanda purissima.';
+$t[22] = 'In verit&agrave; questo vi sar&agrave; concesso in ricompensa e il vostro sforzo sar&agrave; riconosciuto.';
+$t[23] = 'In verit&agrave; siamo stati Noi a far scendere gradualmente il Corano su di te.';
+$t[24] = 'Sii paziente [nell\'attesa] del Decreto del tuo Signore e non obbedire al peccatore e all\'ingrato dei loro.';
+$t[25] = 'Menziona il Nome del tuo Signore, al mattino e alla sera,';
+$t[26] = 'e durante la notte prosternati a Lui e glorificaLo a lungo nella notte.';
+$t[27] = 'Coloro che amano l\'effimero trascurano un Giorno grave.';
+$t[28] = 'Siamo stati Noi a crearli e a consolidare le loro giunture. Se volessimo, li sostituiremmo con altri loro simili.';
+$t[29] = 'In verit&agrave; questo &egrave; un Monito. Chi vuole, intraprenda dunque la via che conduce al suo Signore.';
+$t[30] = 'Ma voi lo vorrete solo se Allah lo vuole. Allah &egrave; sapiente e saggio.';
+$t[31] = 'Introduce chi vuole nella Sua misericordia, mentre per gli ingiusti ha preparato un doloroso castigo.';
+?>

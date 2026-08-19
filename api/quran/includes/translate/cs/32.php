@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alif l&aacute;m m&iacute;m!';
+$t[2] = 'Sesl&aacute;n&iacute; P&iacute;sma tohoto - o němž pochyby nen&iacute; - od P&aacute;na lidstva ve&scaron;ker&eacute;ho poch&aacute;z&iacute;;';
+$t[3] = 'oni v&scaron;ak ř&iacute;kaj&iacute;: &quot;S&aacute;m si to vymyslil!&quot; &Oacute; nikoliv, to pravda je od P&aacute;na tv&eacute;ho poch&aacute;zej&iacute;c&iacute;, abys varoval lid, k němuž nepři&scaron;el před tebou varovatel ž&aacute;dn&yacute; - snad půjdou po spr&aacute;vn&eacute; cestě.';
+$t[4] = 'Bůh je ten, jenž nebesa a zemi i v&scaron;e, co je mezi nimi, v &scaron;esti dnech stvořil a pak na trůnu Sv&eacute;m se usadil. A nem&aacute;te kromě Něho ochr&aacute;nce ani př&iacute;mluvce ž&aacute;dn&eacute;ho. Což se nevzpamatujete?';
+$t[5] = 'On rozkaz z nebe na zem usměrňuje a ten pak k Němu vystoup&iacute; v den, jehož d&eacute;lka - podle poč&iacute;t&aacute;n&iacute; va&scaron;eho - tis&iacute;c let čin&iacute;.';
+$t[6] = 'A tak tomu je - On zn&aacute; nepoznateln&eacute; i v&scaron;eobecně zn&aacute;m&eacute; a On mocn&yacute; je i slitovn&yacute;;';
+$t[7] = 'ten, jenž udělal překr&aacute;sně každou věc j&iacute;m stvořenou a člověka nejdř&iacute;ve z hl&iacute;ny stvořil,';
+$t[8] = 'pak potomstvo jeho z kapky vody nicotn&eacute; učinil';
+$t[9] = 'a potom jej vyrovnal a č&aacute;st ducha Sv&eacute;ho v něj vdechl; a sluch, zrak i srdce v&scaron;em v&aacute;m dal - a přece jak m&aacute;lo jste vděčn&iacute;!';
+$t[10] = 'A ř&iacute;kaj&iacute;: &quot;A až zabloud&iacute;me kdesi v zemi, což vskutku budeme nov&yacute;m stvořen&iacute;m vzkř&iacute;&scaron;eni?&quot; A přece jen v setk&aacute;n&iacute; s P&aacute;nem sv&yacute;m nevěř&iacute;!';
+$t[11] = 'Rci: &quot;Anděl smrti, jenž v&aacute;s na starosti m&aacute;, v&aacute;s povol&aacute; a potom budete k P&aacute;nu sv&eacute;mu navr&aacute;ceni!&quot;';
+$t[12] = 'Kdybys viděl, jak provinilci klop&iacute;ce hlavy před P&aacute;nem sv&yacute;m volat budou: &quot;Pane n&aacute;&scaron;, viděli jsme a sly&scaron;eli jsme; vrať n&aacute;s na zem a my zbožn&eacute; skutky konat budeme, neboť nyn&iacute; jsme o pravdě přesvědčeni.&quot;';
+$t[13] = 'Kdybychom chtěli, dali bychom du&scaron;i každ&eacute; veden&iacute; spr&aacute;vn&eacute;, leč nechť uskutečn&iacute; se slovo M&eacute;: &quot;Věru napln&iacute;m peklo lidmi spolu s džiny!&quot;';
+$t[14] = 'Ochutnejte trestu za to, že jste zapomněli na setk&aacute;n&iacute; s t&iacute;mto sv&yacute;m dnem; My tak&eacute; jsme na v&aacute;s zapomněli, okuste tedy za skutky sv&eacute; trest nesmrteln&yacute;!';
+$t[15] = 'Ve znamen&iacute; Na&scaron;e pak věř&iacute; jedině ti, kdož při zm&iacute;nce o nich na zem padaj&iacute; klan&iacute;ce se a chv&aacute;lu P&aacute;na sv&eacute;ho slav&iacute;, aniž jsou dom&yacute;&scaron;liv&iacute;.';
+$t[16] = 'Boky jejich se lůžkům vyh&yacute;baj&iacute;, neboť oni P&aacute;na sv&eacute;ho z b&aacute;zně i z touhy vz&yacute;vaj&iacute;, a z toho, co jsme jim u&scaron;tědřili, rozd&aacute;vaj&iacute;.';
+$t[17] = 'Ž&aacute;dn&aacute; du&scaron;e nev&iacute;, co z radost&iacute; skryto je pro ně odměnou za skutky jejich.';
+$t[18] = 'Cožpak je věř&iacute;c&iacute; roven tomu, kdo je hanebn&iacute;k? Ne, ti rovni si nebudou.';
+$t[19] = 'Pro ty, kdož uvěřili a zbožn&eacute; skutky konali, pro ty jsou určeny zahrady &uacute;tulku jako př&iacute;bytek za to, co činili,';
+$t[20] = 'v&scaron;ak těm, kdož nepravosti p&aacute;chali, těm oheň bude &uacute;toči&scaron;těm. A kdykoliv budou cht&iacute;t z něho odej&iacute;t, budou v něj navr&aacute;ceni a řečeno jim bude: &quot;Ochutnejte trest ohniv&yacute;, jejž za vylhan&yacute; jste měli!&quot;';
+$t[21] = 'A d&aacute;me jim okusit trestu bliž&scaron;&iacute;ho kromě trestu vět&scaron;&iacute;ho - snad se z bludu sv&eacute;ho navr&aacute;t&iacute;.';
+$t[22] = 'Kdo je nespravedlivěj&scaron;&iacute; než ten, jenž - když připom&iacute;n&aacute;na jsou mu znamen&iacute; P&aacute;na jeho - od nich se odvr&aacute;t&iacute;? My věru se provinil&yacute;m pomst&iacute;me.';
+$t[23] = 'Věru jsme již dali Mojž&iacute;&scaron;ovi P&iacute;smo - a nebuď na pochyb&aacute;ch, že se s Nim setk&aacute;&scaron; - a stanovili jsme je pro d&iacute;tka Izraele jako veden&iacute;';
+$t[24] = 'a z nich pak učinili jsme vedouc&iacute;, aby podle rozkazu Na&scaron;eho vedli za to, že byli neochvějn&iacute; a o znamen&iacute;ch Na&scaron;ich přesvědčeni.';
+$t[25] = 'P&aacute;n tvůj vskutku pak rozsoud&iacute; mezi nimi v den zmrtv&yacute;chvst&aacute;n&iacute; to, o čem se v m&iacute;něn&iacute; rozch&aacute;zej&iacute;.';
+$t[26] = 'Což nebylo jim uk&aacute;z&aacute;no, kolik před nimi jsme již zahubili pokolen&iacute;, okolo jichž př&iacute;bytků tak často proch&aacute;zej&iacute;? A věru jsou v tom znamen&iacute; - což sluchu tomu nepopřej&iacute;?';
+$t[27] = 'Což nepozoruj&iacute;, jak ženeme vodu na zem vyprahlou, takže z n&iacute; obil&iacute; vzrůst&aacute;, j&iacute;mž živ&iacute; se jak oni, tak i jejich st&aacute;da? Což jasně to nezř&iacute;?';
+$t[28] = 'A vypt&aacute;vaj&iacute; se: &quot;Kdy tedy přijde ono rozhodnut&iacute;, jste-li pravdomluvn&iacute;?&quot;';
+$t[29] = 'Odpověz: &quot;V den rozhodnut&iacute; nebude nic platna v&iacute;ra těm, kdož nevěř&iacute;c&iacute; byli, a nebude jim d&aacute;n odklad ž&aacute;dn&yacute;!&quot;';
+$t[30] = 'Odvrať se tedy od nich a vyčk&aacute;vej! V&scaron;ak tak&eacute; oni čekaj&iacute;.';
+?>

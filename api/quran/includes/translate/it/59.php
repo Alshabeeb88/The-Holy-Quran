@@ -1,0 +1,27 @@
+<?php
+$t = array();
+$t[1] = 'Glorifica Allah ci&ograve; che &egrave; nei cieli e ci&ograve; che &egrave; sulla terra. Egli &egrave; eccelso, saggio.';
+$t[2] = 'Egli &egrave; Colui Che ha fatto uscire dalle loro dimore, in occasione del primo esodo, quelli fra la gente della Scrittura che erano miscredenti. Voi non pensavate che sarebbero usciti, e loro credevano che le loro fortezze li avrebbero difesi contro Allah. Ma Allah li raggiunse da dove non se Lo aspettavano e gett&ograve; il terrore nei loro cuori: demolirono le loro case con le loro mani e con il concorso delle mani dei credenti. Traetene dunque una lezione, o voi che avete occhi per vedere.';
+$t[3] = 'E se Allah non avesse decretato il loro bando, li avrebbe certamente castigati in questa vita: nell\'altra vita avranno il castigo del Fuoco,';
+$t[4] = 'poich&eacute; si opposero ad Allah e al Suo Inviato. E quanto a chi si oppone ad Allah... invero Allah &egrave; severo nel castigo!';
+$t[5] = 'Tutte le palme che abbatteste e quelle che lasciaste ritte sulle loro radici, fu con il permesso di Allah, affinch&eacute; Egli copra gli empi di ignominia.';
+$t[6] = 'Il bottino che Allah concesse [spetta] al Suo Inviato; non faceste correre [per conquistarlo] n&eacute; cavalli, n&eacute; cammelli. Allah fa trionfare i Suoi Inviati su chi vuole, e Allah &egrave; onnipotente.';
+$t[7] = 'Il bottino che Allah concesse al Suo Inviato, sugli abitanti delle citt&agrave;, appartiene ad Allah e al Suo Inviato, ai [suoi] familiari, agli orfani, ai poveri e al viandante diseredato, cosicch&eacute; non sia diviso tra i ricchi fra di voi. Prendete quello che il Messaggero vi d&agrave; e astenetevi da quel che vi nega e temete Allah. In verit&agrave; Allah &egrave; severo nel castigo.';
+$t[8] = '[Appartiene] inoltre agli emigrati bisognosi che sono stati scacciati dalle loro case e dai loro beni poich&eacute; bramavano la grazia e il compiacimento di Allah, ausiliari di Allah e del Suo Inviato: essi sono i sinceri;';
+$t[9] = 'e [appartiene] a quanti prima di loro abitavano il paese e [vivevano] nella fede, che amano quelli che emigrarono presso di loro e non provano in cuore invidia alcuna per ci&ograve; che hanno ricevuto e che [li] preferiscono a loro stessi nonostante siano nel bisogno. Coloro che si preservano dalla loro stessa avidit&agrave;, questi avranno successo.';
+$t[10] = 'Coloro che verranno dopo di loro diranno: &ldquo;Signore, perdona noi e i nostri fratelli che ci hanno preceduto nella fede, e non porre nei nostri cuori alcun rancore verso i credenti. Signor nostro, Tu sei dolce e misericordioso&rdquo;.';
+$t[11] = 'Non hai visto gli ipocriti, mentre dicevano ai loro alleati miscredenti fra la gente della Scrittura: &ldquo;Se sarete scacciati, verremo con voi e rifiuteremo di obbedire a chiunque contro di voi. Se sarete attaccati vi porteremo soccorso&rdquo;? Allah &egrave; testimone che in verit&agrave; sono bugiardi.';
+$t[12] = 'Se verranno scacciati, essi non partiranno con loro, mentre se saranno attaccati non li soccorreranno, e quand\'anche portassero loro soccorso, certamente volgerebbero le spalle e quindi non li aiuterebbero affatto.';
+$t[13] = 'Voi mettete nei loro cuori pi&ugrave; terrore che Allah Stesso, poich&eacute; invero &egrave; gente che non capisce.';
+$t[14] = 'Vi combatteranno uniti solo dalle loro fortezze o dietro le mura. Grande &egrave; l\'acrimonia che regna tra loro. Li ritieni uniti, invece i loro cuori sono discordi: &egrave; gente che non ragiona.';
+$t[15] = 'Sono simili a coloro che di poco li precedettero: subirono le conseguenze del loro comportamento, riceveranno doloroso castigo.';
+$t[16] = '[Furono traditi] come quando Satana disse all\'uomo: &ldquo;Non credere&rdquo;; ma quando questo fu miscredente gli disse: &ldquo;Ti sconfesso, io temo Allah, il Signore dei mondi&rdquo;.';
+$t[17] = 'La fine di entrambi sar&agrave; nel Fuoco, in cui rimarranno in perpetuo. Ecco il compenso degli ingiusti.';
+$t[18] = 'O voi che credete, temete Allah e che ognuno rifletta su ci&ograve; che avr&agrave; preparato per l\'indomani. Temete Allah: in verit&agrave; Allah &egrave; ben informato di quello che fate.';
+$t[19] = 'Non siate come coloro che dimenticano Allah e cui Allah fece dimenticare se stessi. Questi sono i malvagi.';
+$t[20] = 'Non saranno uguali i compagni del Fuoco e i compagni del Giardino: i compagni del Giardino avranno la beatitudine.';
+$t[21] = 'Se avessimo fatto scendere questo Corano su una montagna, l\'avresti vista umiliarsi e spaccarsi per il timor di Allah. Ecco gli esempi che proponiamo agli uomini affinch&eacute; riflettano.';
+$t[22] = 'Egli &egrave; Allah, Colui all\'infuori del Quale non c\'&egrave; altro dio, il Conoscitore dell\'invisibile e del palese. Egli &egrave; il Compassionevole, il Misericordioso;';
+$t[23] = 'Egli &egrave; Allah, Colui all\'infuori del Quale non c\'&egrave; altro dio, il Re, il Santo, la Pace, il Fedele, il Custode, l\'Eccelso, Colui Che costringe al Suo volere, Colui Che &egrave; cosciente della Sua grandezza. Gloria ad Allah, ben al di l&agrave; di quanto Gli associano.';
+$t[24] = 'Egli &egrave; Allah, il Creatore, Colui Che d&agrave; inizio a tutte le cose, Colui Che d&agrave; forma a tutte le cose. A Lui [appartengono] i nomi pi&ugrave; belli. Tutto ci&ograve; che &egrave; nei cieli e sulla terra rende gloria a Lui. Egli &egrave; l\'Eccelso, il Saggio.';
+?>

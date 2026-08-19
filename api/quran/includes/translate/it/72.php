@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Di\': &ldquo;Mi &egrave; stato rivelato che un gruppo di d&egrave;moni ascoltarono e dissero: Invero abbiamo ascoltato una Lettura meravigliosa,';
+$t[2] = 'che conduce sulla retta via; abbiamo creduto in essa e non assoceremo nessuno al nostro Signore.';
+$t[3] = 'In verit&agrave; Egli _ esaltata sia la Sua Maest&agrave; - non si &egrave; preso n&eacute; compagna, n&eacute; figlio.';
+$t[4] = 'Uno stolto dei nostri diceva menzogne contro Allah.';
+$t[5] = 'Pensavamo che n&eacute; gli uomini, n&eacute; i d&egrave;moni, potessero proferire menzogne contro Allah.';
+$t[6] = 'Invero c\'erano degli uomini che si rifugiavano presso i d&egrave;moni, e questo non fece che aumentare la loro follia:';
+$t[7] = 'anch\'essi pensavano, come lo pensavate voi, che Allah non avrebbe resuscitato nessuno.';
+$t[8] = 'Invero abbiamo sfiorato il cielo, ma lo abbiamo trovato munito di temibili guardiani e di bolidi fiammeggianti.';
+$t[9] = 'Ci sedevamo [un tempo] in sedi appropriate, per ascoltare. Ma ora chi vuole origliare trova un bolide fiammeggiante in agguato.';
+$t[10] = 'Noi non sappiamo se sia stata decretata una sventura per coloro che stanno sulla terra, o se il loro Signore li voglia guidare [al bene].';
+$t[11] = 'Tra noi ci sono dei giusti e altri che non lo sono: siamo in diverse sette.';
+$t[12] = 'Pensavamo che mai avremmo potuto annullare [la potenza di] Allah sulla terra e che non avremmo mai potuto sfuggire [a Lui].';
+$t[13] = 'Quando udimmo la Guida, credemmo; e chi crede nel suo Signore non teme danno, n&eacute; offesa.';
+$t[14] = '[Ora] tra noi ci sono i musulmani e i ribelli. I musulmani sono quelli che hanno scelto la Retta via. [&ldquo;musulmani&rdquo;: cio&egrave; sottomessi alla volont&agrave; di Allah (gloria a Lui l\'Altissimo)]';
+$t[15] = 'I ribelli, invece, saranno combustibile dell\'Inferno&quot;.';
+$t[16] = 'Se si manterranno sulla Retta via, Noi li disseteremo di acqua abbondante';
+$t[17] = 'per metterli col&agrave; alla prova. Allah condurr&agrave; ad un castigo incessantemente pi&ugrave; severo chi avr&agrave; trascurato il monito del suo Signore.';
+$t[18] = 'Le moschee appartengono ad Allah: non invocate nessuno insieme con Lui.';
+$t[19] = 'Quando il servo di Allah si lev&ograve; per invocarLo, poco manc&ograve; che lo stringessero [fino a soffocarlo]!&rdquo;';
+$t[20] = 'Di\': &ldquo;Non invoco altri che il mio Signore e non Gli associo alcunch&eacute;&rdquo;.';
+$t[21] = 'Di\': &ldquo;In verit&agrave; non posso n&eacute; nuocervi, n&eacute; giovarvi&rdquo;.';
+$t[22] = 'Di\': &ldquo;In verit&agrave; nessuno potr&agrave; proteggermi da Allah e mai trover&ograve; rifugio all\'infuori di Lui,';
+$t[23] = 'se non comunicando, in Nome di Allah, i Suoi messaggi&rdquo;. Coloro che disobbediranno ad Allah e al Suo Messaggero, avranno il fuoco dell\'Inferno e vi rimarranno in perpetuo per sempre.';
+$t[24] = 'Quando poi vedranno quello che &egrave; stato promesso loro, allora sapranno chi avr&agrave; avuto l\'alleato pi&ugrave; debole e [chi sar&agrave; stato] numericamente esiguo!';
+$t[25] = 'Di\': &ldquo;Io non so se quello che vi &egrave; stato promesso &egrave; imminente o se il mio Signore vorr&agrave; ritardarlo:';
+$t[26] = '[Egli &egrave;] Colui Che conosce l\'invisibile e non lo mostra a nessuno,';
+$t[27] = 'se non a un messaggero di cui si compiace, che fa precedere e seguire da una guardia [angelica],';
+$t[28] = 'per sapere se [i profeti] hanno trasmesso i messaggi del loro Signore. Gli &egrave; ben noto tutto ci&ograve; che li concerne e tiene il conto di tutte le cose&rdquo;.';
+?>

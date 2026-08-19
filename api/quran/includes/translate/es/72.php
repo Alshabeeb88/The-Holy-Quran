@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Di: &laquo;Se me ha revelado que un grupo de genios estaba escuchando y dec&iacute;a: \'Hemos o&iacute;do una Recitaci&oacute;n maravillosa,';
+$t[2] = 'que conduce a la v&iacute;a recta. Hemos cre&iacute;do en ella y no asociaremos nadie a nuestro Se&ntilde;or\'.';
+$t[3] = 'Y: \'Nuestro Se&ntilde;or -&iexcl;exaltada sea Su grandeza!- no ha tomado compa&ntilde;era ni hijo\'';
+$t[4] = 'Y: \'Nuestro loco dec&iacute;a contra Al&aacute; una solemne mentira\'.';
+$t[5] = 'Y: \'Nosotros cre&iacute;amos que ni los humanos ni los genios iban a proferir mentira contra Al&aacute;\'.';
+$t[6] = 'Y: \'Hab&iacute;a humanos varones que se refugiaban en los genios varones y &eacute;stos enloquecieron m&aacute;s a aqu&eacute;llos\'.';
+$t[7] = 'Y: \'Cre&iacute;an ellos, como vosotros, que Al&aacute; no iba a enviar a nadie\'.';
+$t[8] = 'Y: \'Hemos palpado el cielo y lo hemos encontrado lleno de guardianes severos y de centellas\'.';
+$t[9] = 'Y: \'Nos sent&aacute;bamos all&iacute;, en sitios apropiados para o&iacute;r. Pero todo aqu&eacute;l que escucha, al punto encuentra una centella que le acecha\'.';
+$t[10] = 'Y: \'No sabemos si se quiere mal a los que est&aacute;n en la tierra o si su Se&ntilde;or quiere dirigirles bien\'.';
+$t[11] = 'Y: \'Entre nosotros hay unos que son justos y otros que no. Seguimos doctrinas diferentes\'.';
+$t[12] = 'Y: \'Cre&iacute;amos que no podr&iacute;amos escapar a Al&aacute; en la tierra, ni aun huyendo\'.';
+$t[13] = 'Y: \'Cuando o&iacute;mos la Direcci&oacute;n, cre&iacute;mos en ella. Quien cree en su Se&ntilde;or no teme da&ntilde;o ni injuria\'.';
+$t[14] = 'Y: \'Entre nosotros los hay que se someten a Al&aacute; y los hay que se apartan. Los que se someten a Al&aacute; han elegido la rectitud.';
+$t[15] = 'Los que se apartan, en cambio, son le&ntilde;a para la gehena\'.';
+$t[16] = 'Y: \'Si se hubieran mantenido en la v&iacute;a recta, les habr&iacute;amos dado de beber agua abundante';
+$t[17] = 'para probarles. A quien se desv&iacute;e de la Amonestaci&oacute;n de su Se&ntilde;or, &Eacute;l le conducir&aacute; a un duro castigo\'.';
+$t[18] = 'Y: \'Los lugares de culto son de Al&aacute;. &iexcl;No invoqu&eacute;is a nadie junto con Al&aacute;!\'';
+$t[19] = 'Y: \'Cuando el siervo de Al&aacute; se levant&oacute; para invocarle, poco les falt&oacute; para, en masa, arremeter contra &eacute;l\'&raquo;.';
+$t[20] = 'Di: &laquo;Invoco s&oacute;lo a mi Se&ntilde;or y no Le asocio nadie&raquo;.';
+$t[21] = 'Di: &laquo;No puedo da&ntilde;aros ni dirigiros&raquo;.';
+$t[22] = 'Di: &laquo;Nadie me proteger&aacute; de Al&aacute; y no encontrar&eacute; asilo fuera de &Eacute;l.';
+$t[23] = 'S&oacute;lo un comunicado de Al&aacute; y Sus mensajes&raquo;. A quien desobedezca a Al&aacute; y a Su Enviado le espera el fuego de la gehena, en el que estar&aacute; eternamente, para siempre.';
+$t[24] = 'Hasta que, cuando vean aquello con que se les ha amenazado, sabr&aacute;n qui&eacute;n es el que recibe auxilio m&aacute;s d&eacute;bil y qui&eacute;n es num&eacute;ricamente inferior.';
+$t[25] = 'Di: &laquo;No s&eacute; si est&aacute; cerca aquello con que se os ha amenazado o si mi Se&ntilde;or lo retardar&aacute; a&uacute;n.';
+$t[26] = 'El Conocedor de lo oculto. No descubre a nadie lo que tiene oculto,';
+$t[27] = 'salvo a aqu&eacute;l a quien acepta como enviado. Entonces, hace que le observen por delante y por detr&aacute;s,';
+$t[28] = 'para saber si han transmitido los mensajes de su Se&ntilde;or. Abarca todo lo concerniente a ellos y lleva cuenta exacta de todo&raquo;';
+?>

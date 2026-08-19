@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Ist die Geschichte von der alles bedeckenden Katastrophe zu dir. gelangt?';
+$t[2] = 'An jenem Tag wird es gesenkte Gesichter geben,';
+$t[3] = 'Die sich abarbeiten und M&uuml;hsal erleiden,';
+$t[4] = 'In einem gl&uuml;henden Feuer. brennen';
+$t[5] = 'Und aus einer siedenden Quelle zu trinken bekommen.';
+$t[6] = 'Ihre Speise besteht nur aus trockenen Dornen,';
+$t[7] = 'Die weder fett machen noch gegen den Hunger helfen.';
+$t[8] = 'An jenem Tag wird es (auch) fr&ouml;hliche Gesichter geben,';
+$t[9] = 'Die mit ihrem M&uuml;hen zufrieden sind';
+$t[10] = 'Und in einem hochgelegenen Garten sind,';
+$t[11] = 'In dem sie keine unbedachten Reden h&ouml;ren.';
+$t[12] = 'Es gibt darin eine flie&szlig;ende Quelle,';
+$t[13] = 'Und es gibt darin erh&ouml;hte Betten,';
+$t[14] = 'Hingestellte Humpen,';
+$t[15] = 'In Reihen gelegte Kissen';
+$t[16] = 'Und ausgebreitete Teppiche.';
+$t[17] = 'Schauen sie denn nicht zu den Kamelen, wie sie erschaffen wurden,';
+$t[18] = 'Und zum Himmel, wie er emporgehoben wurde,';
+$t[19] = 'Und zu den Bergen, wie sie aufgerichtet wurden,';
+$t[20] = 'Und zu der Erde, wie sie als Fl&auml;che gemacht wurde?';
+$t[21] = 'So ermahne. Du bist ja ein Mahner.';
+$t[22] = 'Du hast sie nicht fest in der Hand.';
+$t[23] = 'Wer sich aber abkehrt und ungl&auml;ubig bleibt,';
+$t[24] = 'Den peinigt Gott mit der gr&ouml;&szlig;ten Pein.';
+$t[25] = 'Zu Uns erfolgt ihre R&uuml;ckkehr,';
+$t[26] = 'Und dann obliegt es Uns, mit ihnen abzurechnen.';
+?>

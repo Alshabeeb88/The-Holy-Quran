@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Var det ikke for mennesket en tid da han ikke var noe nevneverdig?';
+$t[2] = 'Vi har skapt mennesket av en s&aelig;ddr&aring;pe, en blanding, for &aring; pr&oslash;ve ham, og Vi gav ham h&oslash;rsel og syn.';
+$t[3] = 'Og Vi har ledet ham til veien, enten han er takknemlig eller utakknemlig.';
+$t[4] = 'Vi har gjort klar for de vantro kjeder og lenker, og en Ild.';
+$t[5] = 'De fromme skal drikke av et beger med en blanding med kamfer,';
+$t[6] = 'en kilde som Guds tjenere drikker fra, og som de lar str&oslash;mme frem rikelig.';
+$t[7] = 'De var tro mot sine l&oslash;fter og fryktet den dag hvis hardhet overalt er p&aring; farten.';
+$t[8] = 'De gav mat til den fattige, den foreldrel&oslash;se og fangen, selv om de trengte den.';
+$t[9] = '&laquo;Vi bespiser dere bare for Guds skyld, og vi &oslash;nsker verken gjengjeldelse eller takk fra dere!';
+$t[10] = 'Vi frykter en truende, uhellsvanger dag fra Herren.&raquo;';
+$t[11] = 'Men Gud har bevart dem fra denne dags hardhet, og har gitt dem fryd og glede,';
+$t[12] = 'og bel&oslash;nnet dem for deres standhaftighet med paradisets have, og silkeskrud.';
+$t[13] = 'Hvilende der p&aring; sine leier m&oslash;ter de verken solens hete eller bitter kulde.';
+$t[14] = 'Havens skygger hviler over dem, og fruktklaser henger ydmykt ned.';
+$t[15] = 'Det g&aring;r rundt blant dem s&oslash;lvkar og krystallbegre,';
+$t[16] = 'krystallblankt s&oslash;lv, fint laget.';
+$t[17] = 'Der f&aring;r de &aring; drikke et beger med ingef&aelig;rblanding.';
+$t[18] = 'fra en kilde der som kalles Salsabil.';
+$t[19] = 'Evig unge gutter kretser rundt dem. N&aring;r du ser dem, tar du dem for utstr&oslash;dde perler.';
+$t[20] = 'N&aring;r du ser deg om, ser du lykksalighet og et herlig rike.';
+$t[21] = 'De b&aelig;rer gr&oslash;nne kl&aelig;r av silke og brokade, og er smykket med s&oslash;lvarmb&aring;nd, og Herren gir dem en ren drikk.';
+$t[22] = '&laquo;Dette er deres l&oslash;nn! Deres innsats m&oslash;ter anerkjennelse.&raquo;';
+$t[23] = 'Vi har visselig sendt deg Koranen som &aring;penbaring.';
+$t[24] = 'B&aelig;r t&aring;lmodig Herrens tilskikkelser, og h&oslash;r ikke etter synderen eller den vantro blant dem,';
+$t[25] = 'men kom Herrens navn i hu tidlig og sent.';
+$t[26] = 'Og n&aring;r natten kommer, fall ned for Ham, og pris Ham inn i den dype natt.';
+$t[27] = 'Disse mennesker elsker det som iler hen, og kaster bak seg en tung dag.';
+$t[28] = 'Vi har skapt dem, og gitt dem deres styrke. N&aring;r Vi vil, bytter Vi dem ut med andre i deres sted.';
+$t[29] = 'Dette er en formaning, og den som vil, tar veien til sin Herre.';
+$t[30] = 'Men dere vil ikke, med mindre Gud vil. Gud vet, er vis.';
+$t[31] = 'Han lar dem Han vil g&aring; inn til Hans n&aring;de. Men de urettferdige har Han beredt en smertelig straff!';
+?>

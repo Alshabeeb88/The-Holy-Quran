@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Elif, L&acirc;m, mim.';
+$t[2] = 'Kendisinde s&uuml;phe olmayan bu kitabin indirilisi, &acirc;lemlerin Rabbi olan Allah tarafindandir.';
+$t[3] = 'Yoksa onu (Muhammed) uydurdu mu diyorlar? Hayir, o senden &ouml;nce kendilerine bir uyarici gelmemis olan bir kavmi korkutman i&ccedil;in, Rabbin tarafindan gelen bir haktir. Gerek ki, hidayeti kabul ederler.';
+$t[4] = 'Allah O\'dur ki, g&ouml;kleri, yeri ve ikisi arasindakileri alti g&uuml;nde yaratmis, sonra Ars &uuml;zerine istiv&acirc; buyurmustur (hakim olmustur). Sizin i&ccedil;in O\'ndan baska ne bir dost vardir, ne de bir sefaat&ccedil;i! Artik d&uuml;s&uuml;nmeyecek misiniz?';
+$t[5] = 'O, g&ouml;kten yere, (yukaridan asagiya) isleri d&uuml;zenler, sonra da o isler, sizin saydiklarinizdan bin yil kadar olan bir g&uuml;nde O\'na y&uuml;kselir.';
+$t[6] = 'Iste g&ouml;r&uuml;leni de g&ouml;r&uuml;lmeyeni de bilen, her seye g&uuml;c&uuml; yeten, &ccedil;ok merhametli olan O\'dur.';
+$t[7] = 'Yarattigi her seyi g&uuml;zel yaratan ve insani yaratmaya bir &ccedil;amurdan baslayan O\'dur.';
+$t[8] = 'Sonra da onun soyunu s&uuml;z&uuml;lm&uuml;s bir &ouml;zden, degersiz bir sudan yaratmistir.';
+$t[9] = 'Sonra onu d&uuml;zenli bir sekle sokup, i&ccedil;ine kendi ruhundan &uuml;f&uuml;rd&uuml;. Ve sizin i&ccedil;in kulaklar, g&ouml;zler ve g&ouml;n&uuml;ller var etti. Siz pek az s&uuml;krediyorsunuz!';
+$t[10] = 'Onlar: &quot;Biz yerde kaybolup gittikten sonra, ger&ccedil;ekten biz mi yeni bir yaratilista bulunacagiz?&quot; dediler. Fakat onlar Rablerine kavusmayi (O\'nun huzuruna varacaklarini) ink&acirc;r eden k&acirc;firlerdir.';
+$t[11] = 'De ki: &quot;Size vekil kilinmis olan &ouml;l&uuml;m melegi caninizi alacak, sonra d&ouml;nd&uuml;r&uuml;l&uuml;p Rabbinize g&ouml;t&uuml;r&uuml;leceksiniz.&quot;';
+$t[12] = 'Ey Muhammed! G&uuml;nahk&acirc;rlarin, Rablerinin huzurunda baslari &ouml;ne egilmis olarak: &quot;Ey Rabbimiz! G&ouml;rd&uuml;k ve dinledik, simdi bizi geri &ccedil;evir de salih bir amel isleyelim, &ccedil;&uuml;nk&uuml; biz artik kesin bir sekilde inaniyoruz.&quot; derlerken bir g&ouml;rsen!';
+$t[13] = 'Eger biz dilemis olsaydik her nefse hid&acirc;yetini verirdik. Fakat benden: &quot;B&uuml;t&uuml;n insanlar ve cinlerden cehennemi elbette dolduracagim.&quot; s&ouml;z&uuml; hak olmustur.';
+$t[14] = '&quot;O halde bu g&uuml;n&uuml;n&uuml;zle karsilasmayi unuttugunuzdan dolayi tadin azabi! Iste biz de sizi unuttuk. Yapmakta oldugunuz isler y&uuml;z&uuml;nden tadin ebed&icirc; azabi!&quot;';
+$t[15] = 'Bizim &acirc;yetlerimize &ouml;yle kimseler iman eder ki, onlarla kendilerine &ouml;g&uuml;t verildigi zaman secdelere kapanirlar ve Rablerine hamd ile tesbih ederler de b&uuml;y&uuml;kl&uuml;k taslamazlar.';
+$t[16] = 'Onlarin yanlari yataklardan uzaklasir, korku ve &uuml;mid i&ccedil;inde Rablerine dua ederler ve kendilerine verdigimiz riziklardan hayira sarfederler.';
+$t[17] = 'Simdi hi&ccedil; kimse kendileri i&ccedil;in, yaptiklarina karsilik g&ouml;zler aydinligi olacak seylerden neler gizlenmis oldugunu bilemez.';
+$t[18] = '&Ouml;yle ya iman eden kimse, f&acirc;sik olan gibi olur mu? Onlar esit olamazlar.';
+$t[19] = 'Evet, iman edip de salih amelleri isleyen kimselerin, yaptiklarina karsilik bir konukluk (agirlanma) olarak me\'v&acirc; (barinak) cennetleri vardir.';
+$t[20] = 'Ama f&acirc;siklik etmis olanlarin barinaklari atestir. Oradan her &ccedil;ikmak istediklerinde oraya geri &ccedil;evrilirler ve kendilerine: &quot;Haydi tadin o atesin yalanlayip durdugunuz azabini!&quot; denir.';
+$t[21] = 'Su bir ger&ccedil;ek ki, onlara o en b&uuml;y&uuml;k azabdan &ouml;nce yakin azabdan (d&uuml;nyada) da tattiracagiz. Umulur ki, (k&ouml;t&uuml;l&uuml;kten) d&ouml;nerler.';
+$t[22] = 'Rabbinin &acirc;yetleriyle kendisine &ouml;g&uuml;t verilip de, sonra onlardan y&uuml;z &ccedil;eviren kimseden daha zalim kim olabilir? Ger&ccedil;ekten biz, g&uuml;nahk&acirc;rlardan intikam alacagiz.';
+$t[23] = 'Andolsun ki biz vaktiyle Musa\'ya kitap vermistik. Simdi de sen ona (&ouml;yle bir kitaba) kavusmaktan s&uuml;phe i&ccedil;inde olma. Biz onu Israilogullarina dogru yolu g&ouml;stren bir rehber kilmistik.';
+$t[24] = 'Onlarin i&ccedil;inden, sabrettikleri zaman bizim emrimizle dogru yola ileten &ouml;nderler yetistirmistik. Onlar, bizim &acirc;yetlerimize kesin bir sekilde inaniyorlardi.';
+$t[25] = 'Simdi ihtilafa d&uuml;st&uuml;kleri seyler hakkinda s&uuml;phesiz ki Rabbin kiyamet g&uuml;n&uuml; aralarinda ayirici h&uuml;km&uuml; verecektir.';
+$t[26] = 'Kendilerinden &ouml;nce, yurtlarinda gezip dolasmakta olduklari nice kusaklari hel&acirc;k etmis olmamiz, daha onlari dogru yola iletmedi mi? S&uuml;phesiz bunda nice ibretler vardir. H&acirc;l&acirc; kulak vermeyecekler mi?';
+$t[27] = 'Ya hi&ccedil; g&ouml;rmediler mi ki, biz kir yere suyu saliveriyoruz da onunla bir ekin &ccedil;ikariyoruz. Ondan hayvanlari da yiyor, kendileri de. H&acirc;l&acirc; g&ouml;zlerini a&ccedil;mayacaklar mi?';
+$t[28] = 'Bir de &quot;Ne zaman o fetih, eger dogru s&ouml;yl&uuml;yorsaniz?&quot; diyorlar.';
+$t[29] = 'De ki: &quot;Ink&acirc;r edenlere o fetih g&uuml;n&uuml; iman etmeleri fayda vermez ve onlara g&ouml;z a&ccedil;tirilmaz.&quot;';
+$t[30] = 'Simdi sen onlardan y&uuml;z &ccedil;evir de g&ouml;zet. &Ccedil;&uuml;nk&uuml; onlar da g&ouml;zetmektedirler.';
+?>

@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'S&auml;g [Muhammad]: &rdquo;Det har uppenbarats f&ouml;r mig att en skara av osynliga v&auml;sen fick lyssna till [Koranen], och [att] de sade [till de sina]: \'Vi har lyssnat till en m&auml;rklig uppl&auml;sning,';
+$t[2] = 'som leder [lyssnaren] till kunskap om r&auml;tt och or&auml;tt. Vi tror p&aring; dess [ord] och vi skall inte s&auml;tta gudar vid v&aring;r Herres sida.';
+$t[3] = 'L&aring;t V&aring;r Herres namn h&aring;llas h&ouml;gt i &auml;ra, Han som aldrig haft en ledsagerska vid Sin sida och inte har [avlat] n&aring;gon son!';
+$t[4] = 'Den d&aring;raktigaste av oss brukade g&ouml;ra oerh&ouml;rda [p&aring;st&aring;enden] om Gud,';
+$t[5] = 'och f&ouml;rr trodde vi att varken m&auml;nniskorna eller de osynliga v&auml;sendena skulle yttra l&ouml;gner om Gud.';
+$t[6] = 'Men det fanns m&auml;nniskor som hade f&ouml;r vana att anropa n&aring;gra av de osynliga v&auml;sendena om skydd, och kom p&aring; s&aring; s&auml;tt deras h&ouml;gmod att v&auml;xa,';
+$t[7] = 'och de trodde, liksom ni har trott, att Gud inte skulle s&auml;nda n&aring;gon ytterligare [profet].';
+$t[8] = 'Vi f&ouml;rs&ouml;kte n&aring; himlen [f&ouml;r att utforska dess hemligheter], men d&auml;r fann vi m&auml;ktiga v&auml;ktare och flammor av eld;';
+$t[9] = 'och vi [f&ouml;rs&ouml;kte] komma till de platser d&auml;r vi brukade lyssna, men den som nu vill lyssna kommer att finna [att] en flamma av eld ligger i beredskap f&ouml;r honom.';
+$t[10] = 'Vi vet inte om de som lever p&aring; jorden skall f&aring; det onda [p&aring; sin lott] eller om deras Herre vill [ge dem] kunskap om r&auml;tt och or&auml;tt.';
+$t[11] = 'Bland oss finns de som vill g&ouml;ra det r&auml;tta och andra som har mindre intresse f&ouml;r det r&auml;tta; ja, vi har alltid varit delade i olika grupper.';
+$t[12] = 'Men vi har insett att vi inte kan trotsa Guds [vilja] p&aring; jorden och inte heller komma undan den genom att fly.';
+$t[13] = 'Och efter att [nu] ha f&aring;tt h&ouml;ra om v&auml;gledningen, tror vi p&aring; den; den som tror p&aring; sin Herre beh&ouml;ver inte vara r&auml;dd att [hans f&ouml;rtj&auml;nster] skall fr&aring;nk&auml;nnas honom eller [att han skall f&aring; lida annan] or&auml;tt.';
+$t[14] = 'Bland oss finns [nu] de som har underkastat sig Guds vilja och de som g&aring;r det ondas v&auml;g. De som har underkastat sig Guds vilja &auml;r de som s&ouml;kte kunskap om r&auml;tt och or&auml;tt;';
+$t[15] = 'men de som v&auml;ljer att g&aring; det ondas v&auml;g skall bli br&auml;nsle f&ouml;r helvetets [ugnar]!\'&rdquo;';
+$t[16] = 'OM DE [som f&ouml;rnekar Oss] hade slagit in p&aring; den raka v&auml;gen, skulle Vi helt visst ha sk&auml;nkt dem regn i riklig m&auml;ngd';
+$t[17] = 'f&ouml;r att pr&ouml;va deras [villighet att tacka Oss f&ouml;r V&aring;ra g&aring;vor]. Och den som v&auml;grar att &aring;kalla sin Herre skall Han utl&auml;mna &aring;t ett straff fr&aring;n vilket ingen lindring ges.';
+$t[18] = 'All dyrkan tillkommer Gud; anropa d&auml;rf&ouml;r ingen vid sidan av Honom!';
+$t[19] = 'Men n&auml;r Guds tj&auml;nare reser sig f&ouml;r att anropa Honom tr&auml;nger massorna p&aring; [som om de ville &ouml;vermanna honom].';
+$t[20] = 'S&auml;g: &quot;Jag anropar ingen annan &auml;n min Herre och jag s&auml;tter ingen vid Hans sida.&quot;';
+$t[21] = 'S&auml;g: &quot;Jag har ingen makt &ouml;ver er och kan inte v&aring;lla er skada; inte heller [kan jag] f&ouml;rm&aring; er att f&ouml;lja den raka v&auml;gen.&quot;';
+$t[22] = 'S&auml;g: &quot;Ingen kan skydda mig mot Gud och jag kan heller inte finna en tillflykt undan Honom,';
+$t[23] = 'om [jag] inte f&ouml;rkunnar vad Gud [befaller mig att f&ouml;rkunna] och framf&ouml;r [alla] Hans budskap.&quot; Och p&aring; den som visar olydnad mot Gud och Hans S&auml;ndebud v&auml;ntar helvetets eld och i den skall han [och hans likar] f&ouml;rbli till evig tid.';
+$t[24] = 'N&auml;r de [som s&auml;tter gudar vid Guds sida] till sist f&aring;r sk&aring;da [straffet], som de varnades f&ouml;r; skall de inse vilka som hade det svagaste st&ouml;det och var obetydligast till antalet [- de eller de troende]!';
+$t[25] = 'S&auml;g: &quot;Jag vet inte om det som har lovats er &auml;r n&auml;ra f&ouml;rest&aring;ende eller om min Herre skall skjuta upp det.&quot;';
+$t[26] = 'Han k&auml;nner det som &auml;r dolt f&ouml;r m&auml;nniskor, men Han l&aring;ter ingen f&aring; insikt i Sina hemligheter';
+$t[27] = 'utom det s&auml;ndebud som Han [utser till detta]. Och d&aring; s&auml;tter Han ut vakter framf&ouml;r och bakom s&auml;ndebudet,';
+$t[28] = 'f&ouml;r att det skall vara uppenbart att [han s&aring;v&auml;l som de andra s&auml;ndebuden] har kunnat framf&ouml;ra sin Herres budskap. Allt som ber&ouml;r dem har Han under uppsikt och Han h&aring;ller r&auml;kning p&aring; allt [i Sin skapelse].';
+?>

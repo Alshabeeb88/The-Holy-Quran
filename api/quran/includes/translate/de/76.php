@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Gab es (nicht) f&uuml;r den Menschen eine Zeitspanne, in der er kein nennenswertes Ding war?';
+$t[2] = 'Wir haben den Menschen aus einem Tropfen, einem Gemisch erschaffen, um ihn zu pr&uuml;fen. Und Wir haben ihn mit Geh&ouml;r und Augenlicht versehen.';
+$t[3] = 'Wir haben ihn den (rechten) Weg gef&uuml;hrt, ob er nun dankbar oder undankbar ist.';
+$t[4] = 'Wir halten f&uuml;r die Ungl&auml;ubigen Ketten und Fesseln und einen Feuerbrand bereit.';
+$t[5] = 'Die Frommen trinken aus einem Becher, in dem Kampfer beigemischt ist,';
+$t[6] = 'Aus einer Quelle, aus der die Diener Gottes trinken, die sie sprudelnd hervorbrechen lassen.';
+$t[7] = 'Sie erf&uuml;llen das Gel&uuml;bde und f&uuml;rchten einen Tag, dessen Unheil sich ausbreitet,';
+$t[8] = 'Und sie geben, aus Liebe zu Ihm, Speise zu essen dem Bed&uuml;rftigen, der Waise und dem Gefangenen:';
+$t[9] = '&laquo;Wir speisen euch in der Suche nach dem Antlitz Gottes. Wir wollen von euch weder Lohn noch Dank.';
+$t[10] = 'Wir f&uuml;rchten von Seiten unseres Herrn einen finsteren, schauderhaften Tag.&raquo;';
+$t[11] = 'So bewahrt sie Gott vor dem Unheil jenes Tages und l&auml;&szlig;t sie strahlendes Gl&uuml;ck und Freude vorfinden,';
+$t[12] = 'Und Er vergibt ihnen daf&uuml;r, da&szlig; sie geduldig sind, mit einem Garten und mit Seide.';
+$t[13] = 'Sie lehnen sich darin auf Liegen, und sie leiden darin weder unter hei&szlig;er Sonne noch unter bitterer K&auml;lte.';
+$t[14] = 'Seine Schatten h&auml;ngen &uuml;ber ihnen herab, und seine Fr&uuml;chte sind ihnen sehr leicht erreichbar gemacht.';
+$t[15] = 'Herumgereicht werden ihnen Gef&auml;&szlig;e aus Silber und Humpen wie Gl&auml;ser,';
+$t[16] = 'Gl&auml;ser aus Silber, die sie nach Ma&szlig; bemessen.';
+$t[17] = 'Und darin wird ihnen ein Becher zu trinken gegeben, in dem Ingwer beigemischt ist,';
+$t[18] = 'Aus einer Quelle darin, die Salsabiel genannt wird.';
+$t[19] = 'Und unter ihnen machen ewig junge Knaben die Runde. Wenn du sie siehst, meinst du, sie seien ausgestreute Perlen.';
+$t[20] = 'Und wenn du dort hinschaust, siehst du Wonne und gro&szlig;es K&ouml;nigreich.';
+$t[21] = 'Sie haben gr&uuml;ne Gew&auml;nder aus Seide und auch Brokat an, und sie sind mit Armringen aus Silber geschm&uuml;ckt. Und ihr Herr gibt ihnen ein reines Getr&auml;nk zu trinken.';
+$t[22] = '&laquo;Das ist der Lohn f&uuml;r euch, und euch wird f&uuml;r euer M&uuml;hen gedankt.&raquo;';
+$t[23] = 'Wir, ja Wir haben den Koran auf dich nach und nach hinabgesandt.';
+$t[24] = 'So sei geduldig, bis das Urteil deines Herrn eintrifft, und gehorche keinem von ihnen, der ein S&uuml;nder oder ein Ungl&auml;ubiger ist.';
+$t[25] = 'Und gedenke des Namens deines Herrn morgens und abends,';
+$t[26] = 'Und wirf dich in der Nacht vor Ihm nieder und preise Ihn lange zur Nachtzeit.';
+$t[27] = 'Diese da lieben das, was schnell eintrifft, und vernachl&auml;ssigen einen Tag, der schwer lasten wird.';
+$t[28] = 'Wir haben sie doch erschaffen und ihre Glieder gefestigt. Und wenn Wir wollen, ersetzen Wir sie durch andere ihresgleichen.';
+$t[29] = 'Dies ist eine Erinnerung. Wer nun will, schl&auml;gt einen Weg zu seinem Herrn ein.';
+$t[30] = 'Und ihr wollt nicht, es sei denn, Gott will es. Gott wei&szlig; Bescheid und ist weise.';
+$t[31] = 'Er l&auml;&szlig;t, wen Er will, in seine Barmherzigkeit eingehen. F&uuml;r die, die Unrecht tun, h&auml;lt Er eine schmerzhafte Pein bereit.';
+?>

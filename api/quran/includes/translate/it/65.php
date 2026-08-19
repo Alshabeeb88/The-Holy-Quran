@@ -1,0 +1,15 @@
+<?php
+$t = array();
+$t[1] = 'O Profeta, quando ripudiate le vostre donne, ripudiatele allo scadere del termine prescritto e contate bene il termine. Temete Allah vostro Signore e non scacciatele dalle loro case, ed esse non se ne vadano, a meno che non abbiano commesso una provata indecenza. Ecco i termini di Allah. Chi oltrepassa i termini di Allah, danneggia se stesso. Tu non sai: forse in questo periodo Allah far&agrave; succedere qualcosa.';
+$t[2] = 'Quando poi siano giunte al loro termine, trattenetele convenientemente o separatevi da esse convenientemente. Richiedete la testimonianza di due dei vostri uomini retti, che testimonino davanti ad Allah. Ecco a che cosa &egrave; esortato chi crede in Allah e nell\'Ultimo Giorno. A chi teme Allah, Egli apre una via d\'uscita,';
+$t[3] = 'e gli concede provvidenze da dove non ne attendeva. Allah basta a chi confida in Lui. In verit&agrave; Allah realizza i Suoi intenti. Allah ha stabilito una misura per ogni cosa.';
+$t[4] = 'Se avete qualche dubbio a proposito di quelle delle vostre donne che non sperano pi&ugrave; nel mestruo, il loro termine sia di tre lunazioni. Lo stesso valga per quelle che non hanno ancora il mestruo. Quelle che sono incinte avranno per termine il parto stesso. A chi teme Allah, Egli facilita i suoi intenti.';
+$t[5] = 'Questo &egrave; l\'Ordine che Allah ha fatto scendere su di voi. A chi teme Allah, Egli cancella i peccati e aumenta la sua ricompensa.';
+$t[6] = 'Fatele abitare dove voi stessi abitate, secondo i vostri mezzi.';
+$t[7] = 'L\'agiato spenda della sua agiatezza, colui che ha scarse risorse spenda di quello che Allah gli ha concesso. Allah non impone a nessuno se non in misura di ci&ograve; che Egli ha concesso. Allah far&agrave; seguire il benessere al disagio.';
+$t[8] = 'Quante citt&agrave; si mostrarono orgogliose di fronte all\'ordine del loro Signore e dei Suoi messaggeri! Le costringemmo ad un rendiconto rigoroso, e le castigammo di un orribile castigo.';
+$t[9] = 'Gustarono le conseguenze della loro condotta e l\'esito della loro condotta fu la dannazione.';
+$t[10] = 'Allah ha preparato loro un severo castigo. Temete dunque Allah, o dotati d\'intelletto, voi che avete la fede. Invero Allah ha fatto scendere su di voi un Monito,';
+$t[11] = 'un Messaggero che vi recita i versetti espliciti di Allah, per trarre dalle tenebre alla luce coloro che credono e compiono il bene. Chi crede in Allah e compie il bene, Egli lo far&agrave; entrare nei Giardini in cui scorrono i ruscelli, dove rimarr&agrave; in perpetuo. A costui Allah ha concesso buona provvidenza.';
+$t[12] = 'Allah &egrave; Colui Che ha creato sette cieli e altrettante terre. Scende il Suo Ordine tra di loro, affinch&eacute; sappiate che in verit&agrave; Allah &egrave; onnipotente e che Allah abbraccia nella Sua Scienza ogni cosa.';
+?>

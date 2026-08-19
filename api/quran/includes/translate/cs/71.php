@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Věru jsme poslali Noema k lidu jeho s rozkazem: &quot;Varuj lid svůj, dř&iacute;ve než postihne jej trest bolestn&yacute;!&quot;';
+$t[2] = 'I pravil Noe: &quot;Lide můj, jsem vysl&aacute;n k v&aacute;m jako varovatel zjevn&yacute;,';
+$t[3] = 'abyste Boha uct&iacute;vali, bohabojn&iacute; byli a mne poslouchali!';
+$t[4] = 'On odpust&iacute; v&aacute;m va&scaron;e viny a d&aacute; v&aacute;m odklad až do lhůty určen&eacute;. V&scaron;ak až lhůta Bož&iacute; přijde, odložena nebude k&eacute;ž byste to znali!&quot;';
+$t[5] = 'A zvolal: &quot;Pane můj, vyz&yacute;val jsem lid svůj noc&iacute; i dnem,';
+$t[6] = 'm&eacute; k&aacute;z&aacute;n&iacute; v&scaron;ak rozmnožilo jejich odpor jen.';
+$t[7] = 'A kdykoliv jsem je vyz&yacute;val - abys jim mohl odpustit - tu prsty si do u&scaron;&iacute; strkali, do &scaron;atů sv&yacute;ch se halili, zatvrdili se a chovali se hrdopy&scaron;ně.';
+$t[8] = 'Potom jsem jim k&aacute;zal zcela veřejně,';
+$t[9] = 'pak jsem vystoupil otevřeně a jednal s nimi skrytě i tajně';
+$t[10] = 'a pravil jsem jim:, Proste P&aacute;na sv&eacute;ho za odpu&scaron;těn&iacute;, vždyť On věru je odpou&scaron;těj&iacute;c&iacute;!';
+$t[11] = 'On se&scaron;le na v&aacute;s nebe de&scaron;těm hojn&yacute;m';
+$t[12] = 'a rozmnož&iacute; v&aacute;m majetky i syny a připrav&iacute; pro v&aacute;s zahrady a řeky.';
+$t[13] = 'Co je v&aacute;m, že nedouf&aacute;te ve velkomyslnost Bož&iacute;?';
+$t[14] = 'On přece stvořil v&aacute;s v postupn&yacute;ch form&aacute;ch;';
+$t[15] = 'což nevid&iacute;te, jak Bůh stvořil sedm nebes ve vrstv&aacute;ch';
+$t[16] = 'a um&iacute;stil mezi nimi měs&iacute;c jako světlo a slunce učinil pochodn&iacute;?';
+$t[17] = 'Bůh dal v&aacute;m vyrůst ze země jako rostlin&aacute;m,';
+$t[18] = 'potom v&aacute;s do n&iacute; vr&aacute;t&iacute; a posl&eacute;ze v&aacute;s z n&iacute; vyvede znenad&aacute;n&iacute;.';
+$t[19] = 'A Bůh zemi jako koberce rozprostřel v&aacute;m,';
+$t[20] = 'abyste cestami &scaron;irok&yacute;mi chodili po n&iacute;.? &quot;';
+$t[21] = 'I pravil Noe d&aacute;le: Pane můj, oni mne neuposlechli a n&aacute;sledovali toho, jehož majetek a děti jen zk&aacute;zu jeho zvět&scaron;ily,';
+$t[22] = 'a nesm&iacute;rn&yacute; &uacute;klad proti mně připravili';
+$t[23] = 'a zvolali:, Neopou&scaron;tějte božstva sv&aacute;! Neopou&scaron;tějte Wadda ani Suw&aacute;&acute;, ani Jagh&uacute;tha a Ja&acute;&uacute;qa a Nasra!?';
+$t[24] = 'A věru oni mnoh&yacute;m zbloudit dali; a nerozmnožuj nespravedliv&yacute;m ničeho, leda jejich blouděn&iacute;!&quot;';
+$t[25] = 'Pro hř&iacute;chy sv&eacute; pak byli utopeni a do ohně pekeln&eacute;ho vrženi a nenalezli pro sebe mimo Boha ž&aacute;dn&eacute; pomocn&iacute;ky.';
+$t[26] = 'A pravil Noe: &quot;Pane můj, neponech&aacute;vej na zemi ž&aacute;dn&eacute;ho obyvatele z nevěř&iacute;c&iacute;ch,';
+$t[27] = 'vždyť ponech&aacute;&scaron;-li je, oni daj&iacute; zbloudit služebn&iacute;kům Tv&yacute;m a nezrod&iacute; nic, než zase zarputil&eacute; nevěř&iacute;c&iacute; a hř&iacute;&scaron;n&iacute;ky.';
+$t[28] = 'Pane můj, odpusť mi a rodičům m&yacute;m i těm, kdož jako věř&iacute;c&iacute; do m&eacute;ho domu vstoupili, a tak&eacute; věř&iacute;c&iacute;m mužům a žen&aacute;m! A nerozmnožuj nespravedliv&yacute;m nic, leda z&aacute;hubu jejich!&quot;';
+?>

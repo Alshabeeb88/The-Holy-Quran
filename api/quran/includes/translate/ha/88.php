@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Lalle ne lab&atilde;rin (&iexcl;iy&atilde;ma) mai rufe mut&atilde;ne da tsoronta y&atilde; zo maka?';
+$t[2] = 'Wasu husk&otilde;ki a r&atilde;nar nan ƙasƙantattu ne.';
+$t[3] = 'M&atilde;su aikin wahala ne, m&atilde;su gajiya.';
+$t[4] = 'Z&atilde; su shiga wata wuta mai z&atilde;fi.';
+$t[5] = 'Ana sh&atilde;yar da su daga wani marmaro mai z&atilde;fin ruwa.';
+$t[6] = 'Ba su da wani abinci f&atilde;ce dai daga danyi.';
+$t[7] = 'B&atilde; ya sanya ƙiba, kuma b&atilde; zai wad&atilde;tar daga yunwa ba.';
+$t[8] = 'Wasu husk&otilde;ki a r&atilde;nar nan m&atilde;su ni\'ima ne.';
+$t[9] = 'Game da aikinsu, masu yarda ne.';
+$t[10] = '(Suna) a cikin Aljanna maɗaukakiya.';
+$t[11] = 'B&atilde; z&atilde; su ji y&atilde;sassar magana ba, a cikinta.';
+$t[12] = 'A cikinta akwai marmaro mai gud&atilde;na.';
+$t[13] = 'A cikinta akwai gad&atilde;je maɗaukaka.';
+$t[14] = 'Da k&otilde;funa ar\'aje.';
+$t[15] = 'Da fil&otilde;li jẽre,';
+$t[16] = 'Da katifu shimfiɗe.';
+$t[17] = 'Ashe to b&atilde; z&atilde; su dũb&atilde;wa ba ga r&atilde;ƙum&atilde; yadda aka halitta su?';
+$t[18] = 'Da zuwa ga sama yadda aka ɗaukaka ta?';
+$t[19] = 'Da zuwa ga duw&atilde;tsu yadda aka kafa su?';
+$t[20] = 'Da zuwa ga ƙasa yadda aka shimfiɗ&atilde; ta?';
+$t[21] = 'sab&otilde;da haka, ka yi wa\'azi, kai mai yin wa\'azi ne kawai.';
+$t[22] = 'Ba ka zama mai ĩkon tanƙwas&atilde;wa a kansu ba.';
+$t[23] = 'F&atilde;ce dai duk wanda ya jũya b&atilde;ya, kuma ya k&atilde;firta.';
+$t[24] = 'To, Allah zai yi masa az&atilde;ba, az&atilde;bar nan da take mafi girma.';
+$t[25] = 'Lalle ne, zuwa gare Mu k&otilde;m&otilde;warsu take.';
+$t[26] = 'Sa\'an nan lalle ne aikinMu ne Mu yi musu his&atilde;bi.';
+?>

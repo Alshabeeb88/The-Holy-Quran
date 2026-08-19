@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'VID gryningsljuset';
+$t[2] = 'och vid de tio n&auml;tterna!';
+$t[3] = 'Vid det j&auml;mna talet och det udda!';
+$t[4] = 'Vid natten, n&auml;r den viker!';
+$t[5] = 'R&auml;cker inte denna f&ouml;rs&auml;kran f&ouml;r [att &ouml;vertyga] den som &auml;r beg&aring;vad med insikt och f&ouml;rst&aring;nd?';
+$t[6] = 'HAR DU inte sett hur din Herre gick till v&auml;ga mot [stammen] Aad?';
+$t[7] = 'Och mot Iram, [de tusen] pelarnas [stad],';
+$t[8] = 'vars like aldrig har &aring;terskapats p&aring; jorden';
+$t[9] = 'Och mot thamudenerna, som h&ouml;gg ut [sina bost&auml;der] i dalens klippv&auml;ggar';
+$t[10] = 'Och mot [de or&auml;kneliga] t&auml;ltmasternas Farao?';
+$t[11] = '[Alla] gick de f&ouml;r l&aring;ngt i sitt trots p&aring; jorden,';
+$t[12] = 'och de st&ouml;rde ordningen och spred &ouml;verallt sedef&ouml;rd&auml;rv,';
+$t[13] = 'och d&auml;rf&ouml;r l&auml;t din Herre straffets piska vina &ouml;ver dem.';
+$t[14] = 'Din Herre f&ouml;rtr&ouml;ttas sannerligen [inte] i Sin vaksamhet!';
+$t[15] = 'MEN vad m&auml;nniskan betr&auml;ffar s&auml;ger hon, var g&aring;ng hennes Herre f&ouml;r att pr&ouml;va henne l&aring;ter henne n&aring; &auml;ra och v&auml;lst&aring;nd: &quot;Min Herre har hedrat mig [p&aring; grund av mina f&ouml;rtj&auml;nster].&quot;';
+$t[16] = 'Men d&aring; Han pr&ouml;var henne genom att ge henne knappare utkomst, s&auml;ger hon: &quot;Min Herre sk&auml;mmer ut mig.&quot;';
+$t[17] = 'Nej, men [se p&aring; er sj&auml;lva]! Mot de faderl&ouml;sa visar ni ingen givmildhet,';
+$t[18] = 'och ni uppmanar inte varandra att ge den n&ouml;dst&auml;llde att &auml;ta,';
+$t[19] = 'och ni slukar [andras] arv med glupande aptit.';
+$t[20] = 'Och er k&auml;rlek till pengar k&auml;nner inga gr&auml;nser!';
+$t[21] = 'Nej [tag er i akt]! N&auml;r jordskorpan smulas s&ouml;nder i st&ouml;t efter st&ouml;t,';
+$t[22] = 'och din Herre visar sig med &auml;nglarna i slutna led,';
+$t[23] = 'och helvetet g&ouml;rs [synligt], den Dagen skall m&auml;nniskan minnas [V&aring;ra varningar] - men vad hj&auml;lper det henne d&aring; att hon minns';
+$t[24] = '[D&aring;] kommer hon att s&auml;ga: &quot;Om jag &auml;nd&aring; hade t&auml;nkt p&aring; [att med goda handlingar] f&ouml;rbereda mig f&ouml;r mitt liv [i evigheten]!&quot;';
+$t[25] = 'Ingen straffar s&aring; h&aring;rt som Han den Dagen skall straffa,';
+$t[26] = 'och ingen kan f&auml;ngsla med s&aring;dana bojor som Han.';
+$t[27] = '[D&aring; s&auml;ger Gud till den r&auml;ttf&auml;rdige:] &quot;Du sj&auml;l, som har kommit till ro!';
+$t[28] = 'V&auml;nd tillbaka till din Herre, tillfredsst&auml;lld [med Hans g&aring;vor och] omsluten av Hans v&auml;lbehag!';
+$t[29] = 'Stig in med skaran av Mina tj&auml;nare!';
+$t[30] = 'Stig in i Mitt paradis!&quot;';
+?>

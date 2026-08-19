@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Demi waktu fajar;';
+$t[2] = 'Dan malam yang sepuluh (yang mempunyai kelebihan di sisi Allah);';
+$t[3] = 'Dan bilangan yang genap serta yang ganjil;';
+$t[4] = 'Dan malam, apabila ia berlalu; -';
+$t[5] = 'Bukankah yang demikian itu mengandungi sumpah (yang diakui kebenarannya) oleh orang yang berakal sempurna?';
+$t[6] = '(Kami tetap akan membinasakan orang-orang yang menentangmu wahai Muhammad), tidakkah engkau perhatikan, bagaimana Tuhanmu telah melakukan terhadap kaum Aad (yang kufur derhaka)';
+$t[7] = 'Iaitu penduduk &quot;Iram&quot; yang mempunyai bangunan-bangunan yang tinggi tiangnya, (sesuai dengan penduduknya)';
+$t[8] = 'Yang belum pernah diciptakan sepertinya (tentang besar dan kukuhnya) di segala negeri (pada zamannya)?';
+$t[9] = 'Dan (terhadap) kaum Thamud yang memahat batu-batu besar di lembah (Wadil-Qura iaitu tempat tinggalnya)?';
+$t[10] = 'Dan (terhadap) Firaun yang menguasai bangunan-bangunan yang handal kukuh?';
+$t[11] = '(Semuanya itu ialah) orang-orang yang telah bermaharajalela di negeri (masing-masing).';
+$t[12] = 'Lalu mereka melakukan dengan banyaknya kerosakan dan bencana di negeri-negeri itu.';
+$t[13] = 'Dengan yang demikian, Tuhanmu mencurahkan ke atas mereka berbagai paluan azab;';
+$t[14] = 'Sesungguhnya Tuhanmu tetap mengawas dan membalas, (terutama balasan akhirat)';
+$t[15] = '(Dalam pada itu manusia tidak menghiraukan balasan akhirat), oleh yang demikian, maka kebanyakan manusia apabila diuji oleh Tuhannya dengan dimuliakan dan dimewahkan hidupnya, (ia tidak mahu bersyukur tetapi terus bersikap takbur) serta berkata dengan sombongnya: &quot;Tuhanku telah memuliakan daku!&quot;';
+$t[16] = 'Dan sebaliknya apabila ia diuji oleh Tuhannya, dengan disempitkan rezekinya, (ia tidak bersabar bahkan ia resah gelisah) serta merepek dengan katanya: &quot;Tuhanku telah menghinakan daku!&quot;';
+$t[17] = 'Jangan demikian, (sebenarnya kata-kata kamu itu salah). Bahkan (perbuatan kamu wahai orang-orang yang hidup mewah, lebih salah lagi kerana) kamu tidak memuliakan anak yatim, (malah kamu menahan apa yang Ia berhak menerimanya);';
+$t[18] = 'Dan kamu tidak menggalakkan untuk memberi makanan (yang berhak diterima oleh) orang miskin;';
+$t[19] = 'Dan kamu sentiasa makan harta pusaka secara rakus (dengan tidak membezakan halal haramnya),';
+$t[20] = 'Serta kamu pula sayangkan harta secara tamak haloba!';
+$t[21] = 'Jangan sekali-kali bersikap demikian! (Sebenarnya) apabila bumi (dihancurkan segala yang ada di atasnya dan) diratakan serata-ratanya,';
+$t[22] = 'Dan (perintah) Tuhanmu pun datang, sedang malaikat berbaris-baris (siap sedia menjalankan perintah),';
+$t[23] = 'Serta diperlihatkan neraka Jahannam pada hari itu, (maka) pada saat itu manusia akan ingat (hendak berlaku baik), dan bagaimana ingatan itu akan berguna lagi kepadanya?';
+$t[24] = 'Ia akan berkata: &quot;Alangkah baiknya kalau aku dahulu sediakan amal-amal baik untuk hidupku (di sini)!&quot;';
+$t[25] = 'Maka pada hari itu tiada sesiapapun yang dapat menyeksa seperti azab (yang ditimpakan oleh) Allah.';
+$t[26] = 'Dan tiada sesiapapun yang dapat mengikat serta membelenggu seperti ikatan dan belengguNya.';
+$t[27] = '(Setelah menerangkan akibat orang-orang yang tidak menghiraukan akhirat, Tuhan menyatakan bahawa orang-orang yang beriman dan beramal soleh akan disambut dengan kata-kata): &quot;Wahai orang yang mempunyai jiwa yang sentiasa tenang tetap dengan kepercayaan dan bawaan baiknya! -';
+$t[28] = '&quot;Kembalilah kepada Tuhanmu dengan keadaan engkau berpuas hati (dengan segala nikmat yang diberikan) lagi diredhai (di sisi Tuhanmu) ! -';
+$t[29] = '&quot;Serta masuklah engkau dalam kumpulan hamba-hambaku yang berbahagia -';
+$t[30] = '&quot;Dan masuklah ke dalam SyurgaKu! &quot;';
+?>

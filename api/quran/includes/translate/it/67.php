@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Benedetto Colui nella Cui mano &egrave; la sovranit&agrave;, Egli &egrave; onnipotente;';
+$t[2] = 'Colui Che ha creato la morte e la vita per mettere alla prova chi di voi meglio opera, Egli &egrave; l\'Eccelso, il Perdonatore;';
+$t[3] = 'Colui Che ha creato sette cieli sovrapposti senza che tu veda alcun difetto nella creazione del Compassionevole. Osserva, vedi una qualche fenditura?';
+$t[4] = 'Osserva ancora due volte: il tuo sguardo ricadr&agrave;, stanco e sfinito.';
+$t[5] = 'Invero abbellimmo di luminarie il cielo pi&ugrave; vicino, e ne abbiamo fatto strumenti per lapidare i d&egrave;moni, per i quali abbiamo preparato la Fiamma.';
+$t[6] = 'Per coloro che non credono nel loro Signore, c\'&egrave; il castigo dell\'Inferno: qual tristo divenire!';
+$t[7] = 'Quando vi sono precipitati, ne sentono il fragore mentre ribolle:';
+$t[8] = 'manca poco a che scoppi di rabbia. Ogni volta che un gruppo vi &egrave; precipitato, i suoi guardiani chiedono: &ldquo;Non vi &egrave; forse giunto un ammonitore?&rdquo;.';
+$t[9] = 'Risponderanno: &ldquo;S&igrave;, ci era giunto un ammonitore, ma noi lo tacciammo di menzogna e dicemmo: Allah non ha fatto scendere alcunch&eacute;, voi siete in evidente errore!&quot;&rdquo;.';
+$t[10] = 'E diranno: &ldquo;Se avessimo ascoltato o compreso, non saremmo tra i compagni della Fiamma&rdquo;.';
+$t[11] = 'Riconoscono il loro peccato. Che siano ridotti in polvere i compagni della Fiamma!';
+$t[12] = 'Coloro che invece temono il loro Signore in ci&ograve; che &egrave; invisibile, avranno perdono e ricompensa grande.';
+$t[13] = 'Sia che nascondiate i vostri intenti o li palesiate, Egli ben conosce quello che contengono i petti.';
+$t[14] = 'Non conoscerebbe ci&ograve; che Egli stesso ha creato, quando Egli &egrave; il Sottile, il Ben informato?';
+$t[15] = 'Egli &egrave; Colui Che vi ha fatto remissiva la terra: percorretela in lungo e in largo, e mangiate della Sua provvidenza. Verso di Lui &egrave; la Resurrezione.';
+$t[16] = 'Siete forse sicuri che Colui Che sta nel cielo non vi faccia inghiottire dalla terra quando trema?';
+$t[17] = 'O siete sicuri che Colui Che sta nel cielo non scateni contro di voi un uragano? Conoscerete allora il Mio avvertimento.';
+$t[18] = 'Invero coloro che li precedettero gi&agrave; tacciarono di menzogna. Quale fu la mia riprovazione!';
+$t[19] = 'Non hanno visto, sopra di loro, gli uccelli spiegare e ripiegare le ali? Non li sostiene altri che il Compassionevole. In verit&agrave; Egli osserva ogni cosa.';
+$t[20] = 'Chi potrebbe costituire un esercito per voi, e [chi potrebbe] soccorrervi all\'infuori del Compassionevole? I miscredenti sono in preda all\'inganno.';
+$t[21] = 'Chi provveder&agrave; a voi, se Egli tratterr&agrave; la Sua provvidenza? No, essi persistono nell\'insolenza e nel rifiuto.';
+$t[22] = 'Colui che cammina con il volto rivolto al suolo &egrave; forse meglio guidato di colui che si erge camminando sulla retta via ?';
+$t[23] = 'Di\': &ldquo;Egli &egrave; Colui Che vi ha creati e vi ha dato l\'udito, gli occhi e i cuori&rdquo;. Quanto poco Gli siete riconoscenti!';
+$t[24] = 'Di\': &ldquo;Egli &egrave; Colui Che vi ha sparsi sulla terra e verso di Lui sarete riuniti&rdquo;.';
+$t[25] = 'Dicono: &ldquo;A quando questa promessa? [Ditecelo,] se siete veridici&rdquo;.';
+$t[26] = 'Di\': &ldquo;La conoscenza [di ci&ograve;] appartiene ad Allah. Io non sono altro che un ammonitore esplicito&rdquo;.';
+$t[27] = 'Quando la vedranno da vicino, saranno stravolti i visi dei miscredenti e sar&agrave; detto loro: &ldquo;Ecco ci&ograve; che vi ostinavate a chiedere!&rdquo;.';
+$t[28] = 'Di\': &ldquo;Cosa credete? Sia che Allah faccia perire me e quelli che sono con me sia che ci usi misericordia, chi potr&agrave; proteggere i miscredenti da un doloroso castigo?&rdquo;.';
+$t[29] = 'Di\': &ldquo;Egli &egrave; il Compassionevole! Crediamo in Lui e in Lui confidiamo. Presto saprete chi &egrave; in errore evidente&rdquo;.';
+$t[30] = 'Di\': &ldquo;Cosa credete? Se la vostra acqua rientrasse nelle profondit&agrave; [della terra] chi vi procurerebbe acqua sorgiva?&rdquo;.';
+?>

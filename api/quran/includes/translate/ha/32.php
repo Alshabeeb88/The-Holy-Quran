@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'A. L̃. M̃.';
+$t[2] = 'Saukar da Littafin b&atilde;bu shakka a gare shi, daga Ubangijin t&atilde;likai yake.';
+$t[3] = 'K&otilde; sun&atilde; cẽwa (Muhammadu ne) ya ƙirƙira shi? &Atilde;\'a, shĩ ne gaskiya daga Ubangijinka, d&otilde;min ka yi gargaɗi ga mut&atilde;ne waɗanda wani mai gargaɗi bai je musu ba a gab&atilde;ninka, f&atilde;tan z&atilde; su shiryu.';
+$t[4] = 'Allah ne wanda Ya halitta sammai da ƙasa da abin da yake a tsak&atilde;ninsu a cikin kw&atilde;nuka shida, sa\'an nan Ya daidaita a kan Al\'arshi. B&atilde; ku da, baicin Shi, wani majiɓinci kuma babu wani maceci. Shin, b&atilde; z&atilde; ku yi tun&atilde;ni ba?';
+$t[5] = 'Yan&atilde; shirya al\'amari daga sama zuwa ga ƙas&atilde;, sa\'an nan ya t&atilde;ka zuwa gare Shi a cikin yini, wanda gwargwadonsa shẽkaru dubu ne ga abin da kuke lissaf&atilde;wa.';
+$t[6] = 'Wannan shĩ ne Masanin fake da bayyane, Mabuw&atilde;yi, Mai jinƙai.';
+$t[7] = 'Wanda Ya kyautata k&otilde;me, Wanda Ya halitta shi. Shi ne kuma Ya f&atilde;ra halittar mutum daga l&atilde;ka.';
+$t[8] = 'Sa\'an nan Ya sanya ɗiyansa daga wani asali na wani ruwa wul&atilde;kantacce.';
+$t[9] = 'Sa\'an nan Ya daidaita shi, kuma Ya hũra a cikinsa, daga ruhinSa kuma Ya sanya muku ji, da ganunuwa da zuk&atilde;ta. G&otilde;diyarku kaɗan ce ƙwarai.';
+$t[10] = 'Kuma suka ce: &quot;Shin, idan mun ɓace a cikin ƙas&atilde;, shin, lalle mu, tabbas ne mun&atilde; zama a cikin wata halitta s&atilde;buwa?&quot; &Atilde;\'a, su game da gamuwa da Ubangijinsu k&atilde;firai';
+$t[11] = 'Ka ce: &quot;Mala, ikin mutuwa ne. wanda aka wakkala a gare ku, shĩ ne ke karɓar r&atilde;yukanku. Sa\'an nan zuwa ga Ubangijinku ake mayar da ku.&quot;';
+$t[12] = 'Kuma da k&atilde; gani a l&otilde;kacin da m&atilde;su laifi suke m&atilde;su sunkuyar da kawunansu a wurin Ubangijinsu, &quot;Ya Ubangijinmu! Mun gani, kuma mun ji, to, Ka mayar da mu mu aikata aiki na ƙwarai. Lalle mũ m&atilde;su yaƙĩni ne.&quot;';
+$t[13] = 'Kuma d&atilde; Mun so d&atilde; Mun bai wa k&otilde;wane rai shiriyarsa to, amma magana ta tabbata daga gare Ni! Lalle ne In&atilde; cika Jahannama daga aljannu da mut&atilde;ne gab&atilde; ɗaya.';
+$t[14] = 'To, ku ɗanɗana sab&otilde;da abin da kuka manta na haɗuwa da ranarku wannan. Lalle Mũ m&atilde; Mun manta da ku, kuma ku d&atilde;nɗani az&atilde;bar dawwama sab&otilde;da abin da kuka kasance kun&atilde; aikat&atilde;wa.';
+$t[15] = 'Waɗanda ke ĩm&atilde;ni da &atilde;y&otilde;yinMu kawai, sũ ne waɗanda idan aka karanta musu &atilde;y&otilde;yinMu sai su f&atilde;ɗi sun&atilde; m&atilde;su sujada kuma su yi tasbĩhi game da g&otilde;de wa Ubangijinsu, alh&atilde;li kuwa su b&atilde; su yin girman kai.';
+$t[16] = 'S&atilde;sanninsu n&atilde; nĩsanta daga wur&atilde;ren kwanciya, sun&atilde; kiran Ubangijinsu bisa ga ts&otilde;ro da ɗamm&atilde;ni, kuma sun&atilde; ciryawa daga abin da Muka azurta su.';
+$t[17] = 'Sab&otilde;da haka wani rai bai san abin da aka ɓ&otilde;ye musu ba, na sanyin id&atilde;nu, d&otilde;min sakamako ga abin da suka kasance sun&atilde; aikat&atilde;wa.';
+$t[18] = 'Shin, wanda ya zama mũmini yan&atilde; kamar wanda ya zama f&atilde;siƙi? B&atilde; z&atilde; su yi daidai ba.';
+$t[19] = 'Amma waɗanda suka yi ĩm&atilde;ni, kuma suka aikata ayyukan ƙwafai, to, sun&atilde; da gid&atilde;jen Aljannar mak&otilde;ma, a kan liy&atilde;fa sab&otilde;da abin da suka kasance sun&atilde; aikat&atilde;wa.';
+$t[20] = 'Kuma waɗanda suka yi f&atilde;siƙanci to mak&otilde;marsu ita ce wuta, k&otilde; da yaushe suka yi nufin su fita daga gare ta, sai a mayar da su a cikinta, kuma a ce musu: &quot;Ku ɗanɗana az&atilde;bai wut&atilde;, wadda kuka kasance kun&atilde; ƙaryat&atilde;wa game da ita.&quot;';
+$t[21] = 'Kuma lalle Mun&atilde; ɗanɗana musu daga az&atilde;ba, mafi ƙasƙanci, k&atilde;fin a kai ga az&atilde;ba mafi girma, d&otilde;min f&atilde;tan za su k&otilde;mo.';
+$t[22] = 'Kuma w&atilde;ne ne ya fi z&atilde;lunci bisa ga wanda aka tun&atilde;tar da &atilde;y&otilde;yin Ubangijinsa, sa\'an na ya bijire daga barinsu? Lalle Mũ, M&atilde;su yin az&atilde;bar r&atilde;muwa ne ga m&atilde;su laifi.';
+$t[23] = 'Kuma lalle haƙĩƙa, Mun bai wa Mũs&atilde; Littafi, sab&otilde;da haka kada ka kasance a cikin shakka daga haɗuwa da shi. Kuma Mun sanya shi ya zama shiriya ga Banĩ Isr&atilde;\'ĩla.';
+$t[24] = 'Kuma Mun sanya shugabanni daga cikinsu, sun&atilde; shiryarwa da umurninMu, a l&otilde;kacin da suka yi haƙuri, kuma sun kasance sun&atilde; yin yaƙĩni da &atilde;y&otilde;yinMu.';
+$t[25] = 'Lalle Ubangijinka shĩ ne zai rarrabe a tsak&atilde;ninsu a R&atilde;nar &iexcl;iy&atilde;ma a cikin abin da suka kasance sun&atilde; s&atilde;ɓa wa jũna a cikinsa.';
+$t[26] = 'Shin, ba ya shiryar da su cẽwa da yawa Muka halakara gab&atilde;ninsu, daga al\'umm&otilde;mi sun&atilde; tafiya a cikin masaukansu? Lalle a cikin wancan akwai &atilde;y&otilde;yi. Shin, ba su jĩ ne?';
+$t[27] = 'Shin, kuma ba su gani ba cẽwa lalle Mũ, Mun&atilde; k&otilde;ra ruwa zuwa ga ƙas&atilde; ƙeƙasasshiya, sa\'an nan Mu fitar, game da shi, wata shũka wadda dabb&otilde;binsu, da su kansu ke ci daga gare ta? Ashe fa ba su gani ba?';
+$t[28] = 'Kuma sun&atilde; cẽwa, &quot;Yaushe wannan hukunci yake, aukuwa idan kun kasance m&atilde;su gaskiya?&quot;';
+$t[29] = 'Ka ce: &quot;Ranar hukuncin nan, ĩm&atilde;nin waɗanda suka k&atilde;firta b&atilde; zai amf&atilde;ne su ba (a cikinta) kuma b&atilde; z&atilde; a yi musu jinkiri ba.&quot;';
+$t[30] = 'Sab&otilde;da haka ka kau da kai daga barinsu, kuma, ka yi jira lalle, sũ ma m&atilde;su jira ne.';
+?>

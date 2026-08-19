@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Zdaž uběhla nad člověkem chv&iacute;le času, kdy nebyl věc&iacute; pojmenovanou?';
+$t[2] = 'Věru jsme člověka stvořili z kapky semene, ze směs&iacute;, zkou&scaron;ej&iacute;ce jej. A sly&scaron;&iacute;c&iacute;m a vidouc&iacute;m jsme jej učinili';
+$t[3] = 'a na spr&aacute;vnou cestu - ať vděčn&yacute; je, či nevděčn&yacute; - jsme jej uvedli.';
+$t[4] = 'Pro nevěř&iacute;c&iacute; jsme pak řetězy, okovy a plamen &scaron;lehaj&iacute;c&iacute; připravili,';
+$t[5] = 'zat&iacute;mco zbožn&iacute; pop&iacute;jet z poh&aacute;ru budou, v němž kafr je přim&iacute;sen,';
+$t[6] = 'z pramene, z něhož služebn&iacute;ci Bož&iacute; pij&iacute; jen, a v hojnosti tryskaj&iacute;c&iacute;m ven.';
+$t[7] = 'A oni důsledně sv&eacute; př&iacute;sliby plnili a ob&aacute;vali se dne, jehož zlo se rozlet&iacute; &scaron;iroce,';
+$t[8] = 'a krmili j&iacute;dlem přes l&aacute;sku svou k němu chuďasa, sirotka i zajatce.';
+$t[9] = '&quot;My krm&iacute;me v&aacute;s z l&aacute;sky k Bohu a nechceme od v&aacute;s ani odměny, ani d&iacute;ku velk&eacute;ho,';
+$t[10] = 'my ob&aacute;v&aacute;me se od P&aacute;na sv&eacute;ho dne mračn&eacute;ho, pohrom pln&eacute;ho.&quot;';
+$t[11] = 'Av&scaron;ak Bůh je ochr&aacute;nil přede zlem dne toho a zahrnul je jasem a radost&iacute;';
+$t[12] = 'a odměnil je za to, co vytrpěli, zahradou rajskou a oděvy z hedv&aacute;b&iacute;;';
+$t[13] = 'tam na podu&scaron;k&aacute;ch odpoč&iacute;vat budou a nespatř&iacute; tam ani slunce ž&aacute;r, ani mr&aacute;z spaluj&iacute;c&iacute;';
+$t[14] = 'a bl&iacute;zko nad nimi budou stromů st&iacute;ny a n&iacute;zko budou se skl&aacute;nět plody vis&iacute;c&iacute;';
+$t[15] = 'a mezi nimi kolovat budou n&aacute;doby stř&iacute;brn&eacute; a poh&aacute;ry kři&scaron;ť&aacute;lov&eacute;';
+$t[16] = 'z kři&scaron;ť&aacute;lu stř&iacute;brn&eacute;ho, m&iacute;rou vhodnou naplněn&eacute;.';
+$t[17] = 'Nap&aacute;jeni budou z č&iacute;&scaron;&iacute;, v nichž z&aacute;zvor je přim&iacute;ch&aacute;n,';
+$t[18] = 'z pramene rajsk&eacute;ho, jenž Salsab&iacute;l je naz&yacute;v&aacute;n.';
+$t[19] = 'Mezi nimi obch&aacute;zet budou chlapci ml&aacute;d&iacute; věčn&eacute;ho; při pohledu na ně bys myslil, že jsou to perly rozsypan&eacute;.';
+$t[20] = 'A když tam pohl&eacute;dne&scaron;, uzř&iacute;&scaron; slasti rozličn&eacute; a panstv&iacute; rozlehl&eacute;.';
+$t[21] = 'Oděni budou do &scaron;atů z atlasu zelen&eacute;ho a z brok&aacute;tu a ozdobeni budou n&aacute;ramky stř&iacute;brn&yacute;mi a P&aacute;n jejich nap&aacute;jet je bude n&aacute;pojem čir&yacute;m.';
+$t[22] = '&quot;Toto v&scaron;e věru je v&aacute;m d&aacute;no za odměnu a z vděčnosti za va&scaron;e &uacute;sil&iacute;.&quot;';
+$t[23] = 'Zajist&eacute; jsme ti seslali Kor&aacute;n sesl&aacute;n&iacute;m;';
+$t[24] = 'vytrvej tedy do rozsudku P&aacute;na sv&eacute;ho a neposlouchej mezi nimi toho, kdo hř&iacute;&scaron;n&iacute;kem je či nevěř&iacute;c&iacute;m!';
+$t[25] = 'Jm&eacute;na P&aacute;na sv&eacute;ho za jitra a za večera vzpom&iacute;nej,';
+$t[26] = 'i v č&aacute;sti noci! A před N&iacute;m na zem padej a za noci dlouho Jeho sl&aacute;vu pěj!';
+$t[27] = 'Ti, kdož miluj&iacute; tento svět pom&iacute;jiv&yacute;, nedbaj&iacute; na den obt&iacute;žn&yacute;, jejž maj&iacute; před sebou.';
+$t[28] = 'My jsme je stvořili a jejich &uacute;dy pos&iacute;lili; a kdybychom chtěli, vystř&iacute;dali bychom v&aacute;s v&aacute;m podobn&yacute;mi snadnou v&yacute;měnou.';
+$t[29] = 'Toto je věru připomenut&iacute;; a kdo si přeje, ať k P&aacute;nu sv&eacute;mu cestu nastoup&iacute;,';
+$t[30] = 'v&scaron;ak př&aacute;t si toho nebudete, pokud Bůh tak nebude cht&iacute;ti. A Bůh věru je v&scaron;evědouc&iacute;, moudr&yacute;,';
+$t[31] = 'koho chce, do milosti Sv&eacute; uv&aacute;d&iacute;, zat&iacute;mco pro nespravedliv&eacute; trest připravil bolestn&yacute;!';
+?>

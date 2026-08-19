@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'İnsanın elə bir d&ouml;vr&uuml; olub ke&ccedil;mişdir ki, o, xatırlanmağa layiq bir şey olmamışdır! (Yaxud insanın elə bir d&ouml;vr&uuml; olub ke&ccedil;mişdir ki, o həmin d&ouml;vrdə xatırlanası bir şey olmasın?! Əlbəttə, olmuşdur. İnsan əvvəlcə m&ouml;vcud deyildi. Sonra o, yə&rsquo;ni ulu babamız Adəm torpaqdan və sudan yoğrulub insan şəklinə salınmış, ona ruh verilmiş və o, həyat s&uuml;rməyə başlamışdır. İnsanın nə &uuml;&ccedil;&uuml;n yaradıldığını əvvəlcə nə g&ouml;y əhli, nə də o &ouml;z&uuml; bilirdi. Tədriclə mələklər və o &ouml;z&uuml; nə &uuml;&ccedil;&uuml;n yaradıldığını anladı).';
+$t[2] = 'Həqiqətən, Biz insanı (sonrakı mərhələdə ata-anasının toxumundan ibarət) qarışıq bir n&uuml;tfədən yaratdıq. Biz onu (d&uuml;nyada &ouml;z&uuml;n&uuml; necə aparacağı, hər şeyin xaliqi olan Allaha itaət edib-etməyəcəyi ilə) imtahana &ccedil;əkəcəyik. Biz onu eşidən, g&ouml;rən yaratdıq.';
+$t[3] = 'Biz ona haqq yolu g&ouml;stərdik. İstər (ne&rsquo;mətlərimizə) minnətdar olsun, istər nankor (bu onun &ouml;z işidir).';
+$t[4] = 'Biz kafirlər &uuml;&ccedil;&uuml;n zəncirlər, qandallar və alovlu bir atəş hazırlamışıq.';
+$t[5] = 'Ş&uuml;bhəsiz ki, yaxşı əməl və itaət sahibləri (Cənnətdə) kafur qatılmış (şərabla dolu) qədəhdən i&ccedil;əcəklər.';
+$t[6] = 'O (kafur) elə bir &ccedil;eşmədir ki, Allahın bəndələri ondan i&ccedil;əcək və onu (istədikləri yerə) asanlıqla axıdacaqlar.';
+$t[7] = 'Onlar (Cənnətə nail olacaq m&uuml;ttəqilər) elə kimsələrdirlər ki, verdikləri s&ouml;z&uuml; (etdikləri nəziri) yerinə yetirər və dəhşətli (aləmi) b&uuml;r&uuml;yəcək (şəri hər tərəfə yayılacaq) g&uuml;ndən (qiyamət g&uuml;n&uuml;ndən) qoxarlar.';
+$t[8] = 'Onlar &ouml;z iştahaları &ccedil;əkdiyi (&ouml;zləri yemək istədikləri) halda (və ya: Allah rizasını qazanmaq uğrunda) yeməyi yoxsula, yetimə və əsirə yedirərlər.';
+$t[9] = '(Və sonra da yedirtdikləri kimsələrə belə deyərlər:) &ldquo;Biz sizi ancaq Allah rizasından &ouml;tr&uuml; yedirdirik. Biz sizdən (bu ehsan m&uuml;qabilində) nə bir m&uuml;kafat, nə də bir təşəkk&uuml;r istəyirik.';
+$t[10] = 'Həqiqətən, biz Rəbbimizdən, &ccedil;ox sərt (m&uuml;dhiş), cətin g&uuml;ndən (&uuml;zlərin dəhşətdən eybəcər k&ouml;kə d&uuml;şəcəyi, &ccedil;&ouml;hrələrin tutulub qaralacağı qiyamət g&uuml;n&uuml;ndən) qorxuruq!&rdquo;';
+$t[11] = 'Allah da onları o g&uuml;n&uuml;n şərindən qoruyacaq, onlara g&ouml;zəllik və sevinc bəxş edəcəkdir (&uuml;zlərinə təravət verəcək, qəlblərini sevindirəcəkdir).';
+$t[12] = 'Və onları etdikləri səbr m&uuml;qabilində Cənnətlə və (geyəcəkləri) ipəklə m&uuml;kafatlandıracaqdır.';
+$t[13] = 'Onlar orada (o cənnətlərdə) taxtlara s&ouml;ykənəcək, orada nə g&uuml;nəş (qızmar isti), nə də sərt soyuq g&ouml;rəcəklər.';
+$t[14] = '(Cənnət ağaclarının) k&ouml;lgələri &uuml;stlərinə d&uuml;şəcək, meyvələri də onların ixtiyarında olacaqdır (istədikləri yerdə, istədikləri zaman onları dərib yeyə biləcəklər).';
+$t[15] = '(Cənnətdəki xidmət&ccedil;ilər) onların ətrafında g&uuml;m&uuml;ş qablar və b&uuml;llur qədəhlərlə dolanacaqlar.';
+$t[16] = 'G&uuml;m&uuml;şdən olan (&ccedil;ox şəffaf olduğu &uuml;&ccedil;&uuml;n bayırından i&ccedil;ərisi g&ouml;r&uuml;nən) elə billur (qədəhlərlə) ki, (xidmət&ccedil;ilər) onları (sahiblərinə) m&uuml;nasib &ouml;l&ccedil;&uuml;də etmişlər.';
+$t[17] = 'Orada onlara zəncəfil qatılmış (zəncəfil dadı verən cənnət şərabı ilə dolu) badə də i&ccedil;irdiləcəkdir.';
+$t[18] = '(Zəncəfil) orada (Cənnətdə) bir &ccedil;eşmədir ki, (suyu boğazdan &ccedil;ox rahat ke&ccedil;diyi &uuml;&ccedil;&uuml;n) Səlsəbil adlanır.';
+$t[19] = 'Onların d&ouml;vrəsində həmişəcavan (xidmət&ccedil;i) oğlanlar olacaqdır. Onları g&ouml;rd&uuml;kdə, sanki (ətrafa) səpilmiş inci olduqlarını zənn edərsən.';
+$t[20] = '(Orada) hara baxsan, ne&rsquo;mət və b&ouml;y&uuml;k bir m&uuml;lk g&ouml;rərsən.';
+$t[21] = '(Cənnət əhlinin) əyinlərində taftadan və atlazdan (nazik və qalın ipəkdən) yaşıl libaslar olacaq, onlara g&uuml;m&uuml;şdən bilərziklər taxılacaqdır. Rəbbi onlara &ccedil;ox pak bir şərab i&ccedil;irdəcəkdir.';
+$t[22] = '(Onlara belə deyiləcəkdir:) &ldquo;Bu sizin (d&uuml;nyada etdiyiniz yaxşı əməllərə g&ouml;rə) m&uuml;kafatınızdır. Zəhmətiniz (Allah yanında) məqbuldur (təqdirəlayiqdir)!&rdquo;';
+$t[23] = '(Ya Peyğəmbər!) Həqiqətən, Biz Qur&rsquo;anı sənə tədriclə (ayə-ayə, surə-surə) nazil etdik.';
+$t[24] = 'Elə isə Rəbbinin h&ouml;km&uuml;nə səbr et və onlardan (Məkkə m&uuml;şriklərindən) g&uuml;nahkar və nankor olana boyun əymə!';
+$t[25] = 'Səhər-axşam Rəbbinin adını zikr et! (Səhər, g&uuml;norta və ikindi namazlarını qıl!)';
+$t[26] = 'Gecənin bir qismində Ona səcdə et (axşam, gecə namazlarını qıl) və gecə uzunu da Onu təqdis edib şə&rsquo;ninə tə&rsquo;riflər de! (Təhəcc&uuml;d namazını qılıb gecəni ibadət i&ccedil;ində ke&ccedil;ir!)';
+$t[27] = 'Həqiqətən, bunlar (Məkkə m&uuml;şrikləri) tez ke&ccedil;ib gedəni (fani d&uuml;nyanı) sevər, ağır g&uuml;nə (qiyamət g&uuml;n&uuml;nə) dal &ccedil;evirərlər.';
+$t[28] = 'Onları yaradan da, g&uuml;cl&uuml;-q&uuml;vvətli edən də (oynaqlarını bir-birinə bağlayan da) Bizik. Əgər istəsək, onları &ouml;zləri kimilərlə əvəz edərik.';
+$t[29] = 'Həqiqətən, bu (surə) bir &ouml;y&uuml;d-nəsihətdir. Kim istəsə, Rəbbinə tərəf bir yol tutar (ibadət və itaətlə Allaha yaxınlaşar).';
+$t[30] = '(Ey insanlar! Onu da bilin ki) Allah istəməsə, siz (bunu) istəyə bilməzsiniz. (Ancaq Allah istəsə, istəyə bilərsiniz). Həqiqətən, Allah (hər şeyi) biləndir, hikmət sahibidir!';
+$t[31] = '(Allah) istədiyi kimsən &Ouml;z mərhəmətinə qovuşdurar. Zalımlara gəldikdə isə, (Allah) onlar &uuml;&ccedil;&uuml;n (axirətdə) şiddətli bir əzab hazırlamışdır!';
+?>

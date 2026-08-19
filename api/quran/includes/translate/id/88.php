@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Sudah datangkah kepadamu berita (tentang) hari pembalasan?';
+$t[2] = 'Banyak muka pada hari itu tunduk terhina,';
+$t[3] = 'bekerja keras lagi kepayahan,';
+$t[4] = 'memasuki api yang sangat panas (neraka),';
+$t[5] = 'diberi minum (dengan air) dari sumber yang sangat panas.';
+$t[6] = 'Mereka tiada memperoleh makanan selain dari pohon yang berduri,';
+$t[7] = 'yang tidak menggemukkan dan tidak pula menghilangkan lapar.';
+$t[8] = 'Banyak muka pada hari itu berseri-seri,';
+$t[9] = 'merasa senang karena usahanya,';
+$t[10] = 'dalam surga yang tinggi,';
+$t[11] = 'tidak kamu dengar di dalamnya perkataan yang tidak berguna.';
+$t[12] = 'Di dalamnya ada mata air yang mengalir.';
+$t[13] = 'Di dalamnya ada takhta-takhta yang ditinggikan,';
+$t[14] = 'dan gelas-gelas yang terletak (di dekatnya),';
+$t[15] = 'dan bantal-bantal sandaran yang tersusun,';
+$t[16] = 'dan permadani-permadani yang terhampar.';
+$t[17] = 'Maka apakah mereka tidak memperhatikan unta bagaimana dia diciptakan,';
+$t[18] = 'Dan langit, bagaimana ia ditinggikan?';
+$t[19] = 'Dan gunung-gunung bagaimana ia ditegakkan?';
+$t[20] = 'Dan bumi bagaimana ia dihamparkan?';
+$t[21] = 'Maka berilah peringatan, karena sesungguhnya kamu hanyalah orang yang memberi peringatan.';
+$t[22] = 'Kamu bukanlah orang yang berkuasa atas mereka,';
+$t[23] = 'tetapi orang yang berpaling dan kafir,';
+$t[24] = 'maka Allah akan mengazabnya dengan azab yang besar.';
+$t[25] = 'Sesungguhnya kepada Kami-lah kembali mereka,';
+$t[26] = 'kemudian sesungguhnya kewajiban Kami-lah menghisab mereka.';
+?>

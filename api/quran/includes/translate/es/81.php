@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Cuando el sol sea obscurecido,';
+$t[2] = 'cuando las estrellas pierdan su brillo,';
+$t[3] = 'cuando las monta&ntilde;as sean puestas en marcha,';
+$t[4] = 'cuando las camellas pre&ntilde;adas de diez meses sean descuidadas,';
+$t[5] = 'cuando las bestias salvajes sean agrupadas,';
+$t[6] = 'cuando los mares sean hinchados,';
+$t[7] = 'cuando las almas sean apareadas,';
+$t[8] = 'cuando se pregunte a la ni&ntilde;a enterrada viva';
+$t[9] = 'qu&eacute; crimen cometi&oacute; para que la mataran,';
+$t[10] = 'cuando las hojas sean desplegadas,';
+$t[11] = 'cuando el cielo sea desollado,';
+$t[12] = 'cuando el fuego de la gehena sea avivado,';
+$t[13] = 'cuando el Jard&iacute;n sea acercado,';
+$t[14] = 'cada cual sabr&aacute; lo que presenta.';
+$t[15] = '&iexcl;Pues no! &iexcl;Juro por los planetas,';
+$t[16] = 'que pasan y desaparecen!';
+$t[17] = '&iexcl;Por la noche cuando se extiende!';
+$t[18] = '&iexcl;Por la ma&ntilde;ana cuando respira!';
+$t[19] = 'S&iacute;, es la palabra de un Enviado noble,';
+$t[20] = 'que dispone de poder junto al Se&ntilde;or del Trono, firme,';
+$t[21] = 'obedecido all&iacute;s de confianza.';
+$t[22] = '&iexcl;Vuestro paisano no es un poseso!';
+$t[23] = 'Le ha visto en el claro horizonte,';
+$t[24] = 'no es avaro de lo oculto.';
+$t[25] = 'No es la palabra de un demonio maldito.';
+$t[26] = '&iquest;Ad&oacute;nde ir&eacute;is, pues?';
+$t[27] = 'No es sino una amonestaci&oacute;n dirigida a todo el mundo,';
+$t[28] = 'para aqu&eacute;llos de vosotros que quieran seguir la v&iacute;a recta.';
+$t[29] = 'Pero vosotros no lo querr&eacute;is, a menos que quiera Al&aacute;, Se&ntilde;or del universo.';
+?>

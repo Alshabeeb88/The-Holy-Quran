@@ -1,0 +1,14 @@
+<?php
+$t = array();
+$t[1] = 'Apabila orang-orang munafik datang kepadamu, mereka berkata: &quot;Kami mengakui, bahwa sesungguhnya kamu benar-benar Rasul Allah&quot;. Dan Allah mengetahui bahwa sesungguhnya kamu benar-benar Rasul-Nya; dan Allah mengetahui bahwa sesungguhnya orang-orang munafik itu benar-benar orang pendusta.';
+$t[2] = 'Mereka itu menjadikan sumpah mereka sebagai perisai, lalu mereka menghalangi (manusia) dari jalan Allah. Sesungguhnya amat buruklah apa yang telah mereka kerjakan.';
+$t[3] = 'Yang demikian itu adalah karena bahwa sesungguhnya mereka telah beriman, kemudian menjadi kafir (lagi) lalu hati mereka dikunci mati; karena itu mereka tidak dapat mengerti.';
+$t[4] = 'Dan apabila kamu melihat mereka, tubuh-tubuh mereka menjadikan kamu kagum. Dan jika mereka berkata kamu mendengarkan perkataan mereka. Mereka adalah seakan-akan kayu yang tersandar. Mereka mengira bahwa tiap-tiap teriakan yang keras ditujukan kepada mereka. Mereka itulah musuh (yang sebenarnya) maka waspadalah terhadap mereka; semoga Allah membinasakan mereka. Bagaimanakah mereka sampai dipalingkan (dari kebenaran)?';
+$t[5] = 'Dan apabila dikatakan kepada mereka: Marilah (beriman), agar Rasulullah memintakan ampunan bagimu, mereka membuang muka mereka dan kamu lihat mereka berpaling sedang mereka menyombongkan diri.';
+$t[6] = 'Sama saja bagi mereka, kamu mintakan ampunan atau tidak kamu mintakan ampunan bagi mereka. Sesungguhnya Allah tidak memberi petunjuk kepada orang-orang yang fasik.';
+$t[7] = 'Mereka orang-orang yang mengatakan (kepada orang-orang Anshar): &quot;Janganlah kamu memberikan perbelanjaan kepada orang-orang (Muhajirin) yang ada disisi Rasulullah supaya mereka bubar (meninggalkan Rasulullah)&quot;. Padahal kepunyaan Allah-lah perbendaharaan langit dan bumi, tetapi orang-orang munafik itu tidak memahami.';
+$t[8] = 'Mereka berkata: &quot;Sesungguhnya jika kita telah kembali ke Madinah, benar-benar orang yang kuat akan mengusir orang-orang yang lemah dari padanya&quot;. Padahal kekuatan itu hanyalah bagi Allah, bagi Rasul-Nya dan bagi orang-orang mukmin, tetapi orang-orang munafik itu tiada mengetahui.';
+$t[9] = 'Hai orang-orang beriman, janganlah hartamu dan anak-anakmu melalaikan kamu dari mengingat Allah. Barangsiapa yang berbuat demikian maka mereka itulah orang-orang yang merugi.';
+$t[10] = 'Dan belanjakanlah sebagian dari apa yang telah Kami berikan kepadamu sebelum datang kematian kepada salah seorang di antara kamu; lalu ia berkata: &quot;Ya Rabb-ku, mengapa Engkau tidak menangguhkan (kematian)ku sampai waktu yang dekat, yang menyebabkan aku dapat bersedekah dan aku termasuk orang-orang yang saleh?&quot;';
+$t[11] = 'Dan Allah sekali-kali tidak akan menangguhkan (kematian) seseorang apabila telah datang waktu kematiannya. Dan Allah Maha Mengenal apa yang kamu kerjakan.';
+?>

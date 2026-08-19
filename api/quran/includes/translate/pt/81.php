@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Quando o sol for enfolado,';
+$t[2] = 'Quando as estrelas forem extintas,';
+$t[3] = 'Quando as montanhas estiverem dispersas,';
+$t[4] = 'Quando as camelas, com crias de dez meses, forem abandonadas,';
+$t[5] = 'Quando as feras forem congregadas,';
+$t[6] = 'Quando os mares transbordarem,';
+$t[7] = 'Quando as almas forem reunidas,';
+$t[8] = 'Quando a filha, sepultada vida, for interrogada:';
+$t[9] = 'Por que delito foste assassinada?';
+$t[10] = 'Quando as p&aacute;ginas forem abertas,';
+$t[11] = 'Quando o c&eacute;u for desvendado,';
+$t[12] = 'Quando o inferno for aceso,';
+$t[13] = 'E quando o jardim for aproximado,';
+$t[14] = 'Ent&atilde;o, saber&aacute;, cada alma, o que est&aacute; apresentando.';
+$t[15] = 'Juro pelos planetas,';
+$t[16] = 'Que se mostram e se escondem,';
+$t[17] = 'E pela noite, quando escurece,';
+$t[18] = 'E pela aurora, quando afasta a escurid&atilde;o,';
+$t[19] = 'Que (o Alcor&atilde;o) &eacute; a palavra de um honor&aacute;vel Mensageiro,';
+$t[20] = 'Forte, dign&iacute;ssimo, ante o Senhor do Trono.';
+$t[21] = 'Que deve ser obedecido, e no qual se deve confiar.';
+$t[22] = 'E o vosso companheiro (&oacute; povos), n&atilde;o &eacute; um energ&uacute;meno!';
+$t[23] = 'Ele o viu (Gabriel), no claro horizonte,';
+$t[24] = 'E n&atilde;o &eacute; avaro, quanto ao incognosc&iacute;vel.';
+$t[25] = 'E n&atilde;o &eacute; (o Alcor&atilde;o) a palavra do maldito Satan&aacute;s.';
+$t[26] = 'Assim, pois, aonde ides?';
+$t[27] = 'Certamente, n&atilde;o &eacute; mais do que uma mensagem, para o universo.';
+$t[28] = 'Para quem de v&oacute;s se quiser encaminhar.';
+$t[29] = 'Por&eacute;m, n&atilde;o vos encaminhareis, salvo se Deus, o Senhor do Universo, assim o permitir.';
+?>

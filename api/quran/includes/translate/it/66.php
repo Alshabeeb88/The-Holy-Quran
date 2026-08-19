@@ -1,0 +1,15 @@
+<?php
+$t = array();
+$t[1] = 'O Profeta, perch&eacute;, cercando di compiacere le tue spose, ti interdici quello che Allah ti ha permesso ? Allah &egrave; perdonatore, misericordioso.';
+$t[2] = 'Eppure Allah vi ha prescritto un modo per sciogliere i vostri giuramenti. Allah &egrave; il vostro Padrone, Egli &egrave; il Sapiente, il Saggio.';
+$t[3] = 'Quando il Profeta confid&ograve; un segreto ad una delle sue spose, e questa lo and&ograve; a riferire [ad un\'altra], Allah lo inform&ograve; [ed egli] ne conferm&ograve; una parte tenendone nascosta un\'altra. Quando le chiese conto della sua indiscrezione, ella disse: &ldquo;Chi te ne ha dato notizia?&rdquo;. Rispose: &ldquo;Il Sapiente, il Ben informato me ne ha dato notizia&rdquo;.';
+$t[4] = 'Se entrambe ritornerete ad Allah, &egrave; segno che i vostri cuori si sono pentiti; se invece vi sosterrete a vicenda contro il Profeta, [sappiate] allora che il suo Padrone &egrave; Allah e che Gabriele e i devoti tra i credenti e gli angeli saranno il suo sostegno.';
+$t[5] = 'Se vi ripudiasse, certamente il suo Signore vi sostituirebbe con delle spose migliori di voi, sottomesse ad Allah, credenti, devote, penitenti, adoranti, osservanti il digiuno, gi&agrave; sposate [in precedenza] o vergini.';
+$t[6] = 'O credenti, preservate voi stessi e le vostre famiglie, da un fuoco il cui combustibile saranno uomini e pietre e sul quale vegliano angeli formidabili, severi, che non disobbediscono a ci&ograve; che Allah comanda loro e che eseguono quello che viene loro ordinato.';
+$t[7] = 'O credenti, non chiedete scusa oggi, sarete compensati solo per quel che avrete fatto.';
+$t[8] = 'O credenti, pentitevi davanti ad Allah d\'un pentimento sincero. Forse il vostro Signore canceller&agrave; i vostri peccati e vi introdurr&agrave; nei Giardini in cui scorrono i ruscelli, nel Giorno in cui non imporr&agrave; umiliazione alcuna al Profeta e a coloro che avranno creduto insieme con lui. La loro luce correr&agrave; innanzi a loro e sulla loro destra ed essi diranno: &ldquo;Signore, completa la nostra luce e perdonaci. In verit&agrave; tu sei l\'Onnipotente&rdquo;.';
+$t[9] = 'O Profeta, combatti i miscredenti e gli ipocriti e sii severo nei loro confronti. Il loro asilo sar&agrave; l\'Inferno, qual triste rifugio!';
+$t[10] = 'Allah ha proposto ai miscredenti l\'esempio della moglie di No&egrave; e della moglie di Lot. Entrambe sottostavano a due dei Nostri servi, uomini giusti. Entrambe li tradirono, ed essi non poterono in alcun modo porle al riparo da Allah. Fu detto loro: &ldquo;Entrate entrambe nel Fuoco, insieme con coloro che vi entrano&rdquo;.';
+$t[11] = 'Allah ha proposto ai credenti l\'esempio della moglie di Faraone, quando invoc&ograve;: &ldquo;Signore, costruiscimi vicino a Te una casa nel Giardino. Salvami da Faraone e dalle sue opere sue. Salvami dagli ingiusti&rdquo;.';
+$t[12] = 'E Maria, figlia di Imr&acirc;n, che conserv&ograve; la sua verginit&agrave;; insufflammo in lei del Nostro Spirito. Attest&ograve; la veridicit&agrave; delle Parole del suo Signore e dei Suoi Libri e fu una delle devote.';
+?>
