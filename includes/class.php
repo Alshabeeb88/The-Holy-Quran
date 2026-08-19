@@ -588,7 +588,13 @@ class QuranForAll extends QuranForAll_API {
 
                 $this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/qfa-navigation.js?v=1.0" defer></script>';
 
-		$copyright = 'Powered by <a target="_balnk" href="https://nwahy.com">Quran For All</a> V'.$this->get_version().'';
+		if( $this->get_language() === 'ar' ){
+		        $release_version = is_file(dirname(__DIR__).'/VERSION') ? trim((string)file_get_contents(dirname(__DIR__).'/VERSION')) : $this->get_version();
+		        $copyright = 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: تركي الشبيب | V'.$release_version;
+		}else{
+		        $release_version = is_file(dirname(__DIR__).'/VERSION') ? trim((string)file_get_contents(dirname(__DIR__).'/VERSION')) : $this->get_version();
+		        $copyright = 'Original Developer: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">Ahmed Al-Anazi</a> | Enhanced and maintained by: Turki Alshabeeb | V'.$release_version;
+		}
 
 		//$clean = str_replace(array('"', "'", "-", "_", ".", "]", "[", "(", ")", "{", "}", "`", "!", ",", "|", "  ", ";"), array('', "", "", "", "", "", "", "", "", "", "", "", "", "", "", " ", ""), $this->title);
 		$admin_nav = '';
