@@ -48,6 +48,8 @@ This project is based on the original **Quran for All** platform:
 
 The original project's website identifies **Ahmed Al-Anazi** as the owner/developer and credits development/supervision to **Nawahi Software and Ahmed Al-Anazi**.
 
+**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki Alshabeeb**
+
 Full credit for the original project, original source code, concept, and original architecture belongs to their respective original rights holders.
 
 The maintainer of this modified edition **does not claim authorship or ownership of the original source code**.
@@ -58,7 +60,7 @@ See [ATTRIBUTION.md](ATTRIBUTION.md) for additional information.
 
 No new license is granted by this repository for the original project's code or for third-party materials.
 
-Public redistribution should only take place when the applicable rights and permissions have been confirmed with the relevant rights holders.
+Public redistribution of this modified edition is permitted with the original developer's approval, while preserving attribution to the original project and its rights holders.
 
 ---
 
@@ -107,6 +109,8 @@ Public redistribution should only take place when the applicable rights and perm
 **الموقع الأصلي:** https://quran-for-all.com/
 
 ويعرّف الموقع الأصلي **أحمد العنزي** بصفته مالكًا/مطورًا للمشروع، كما ينسب التطوير والإشراف إلى **نواحي للبرمجيات وأحمد العنزي**.
+
+**المطور الأصلي: أحمد العنزي | تطوير وتحسين النسخة: تركي الشبيب**
 
 جميع حقوق المشروع الأصلي والكود الأصلي والفكرة والبنية الأصلية محفوظة لأصحاب الحقوق الأصليين.
 

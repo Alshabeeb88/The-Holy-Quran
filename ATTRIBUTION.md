@@ -12,6 +12,8 @@ https://quran-for-all.com/
 
 The original project's website identifies **Ahmed Al-Anazi** as the owner/developer and credits development/supervision to **Nawahi Software and Ahmed Al-Anazi**.
 
+**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki Alshabeeb**
+
 All rights in the original source code, original design, concept, architecture, and other original materials remain with their respective rights holders.
 
 The maintainer of this modified edition does not claim authorship or ownership of the original source code.
@@ -24,7 +26,7 @@ These modifications do not transfer ownership of the underlying original project
 
 ### Public distribution
 
-At the time this attribution notice was prepared, this repository is intended to remain **private unless and until appropriate permission for public redistribution is confirmed**.
+The original developer has granted permission for this modified edition to be developed and publicly redistributed, provided that attribution to the original project and its rights holders is preserved.
 
 No license contained or implied by this repository overrides the rights of the original project owner or any third-party rights holder.
 
@@ -42,6 +44,8 @@ https://quran-for-all.com/
 
 ويعرّف الموقع الأصلي **أحمد العنزي** بصفته مالكًا/مطورًا للمشروع، كما ينسب التطوير والإشراف إلى **نواحي للبرمجيات وأحمد العنزي**.
 
+**المطور الأصلي: أحمد العنزي | تطوير وتحسين النسخة: تركي الشبيب**
+
 تبقى جميع حقوق الكود الأصلي والتصميم الأصلي والفكرة والبنية والمواد الأصلية الأخرى محفوظة لأصحاب الحقوق المعنيين.
 
 ولا يدّعي مطور هذه النسخة ملكية أو تأليف الكود الأصلي.
@@ -54,6 +58,6 @@ https://quran-for-all.com/
 
 ### النشر العام
 
-عند إعداد هذا التنبيه، المقصود أن يبقى هذا المستودع **خاصًا إلى أن يتم التأكد من الحصول على الإذن المناسب لإعادة النشر للعامة**.
+تم الحصول على موافقة المطور الأصلي على تطوير هذه النسخة وإعادة نشرها للعامة، مع المحافظة على نسبة المشروع الأصلي وحقوق أصحابه.
 
 ولا يلغي أو يتجاوز أي نص في هذا المستودع حقوق مالك المشروع الأصلي أو حقوق أي طرف آخر.
