@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'And olsun dan yerinə;';
+$t[2] = 'And olsun on gecəyə (z&uuml;lhiccə ayının birinci, yaxud ramazan ayının sonuncu on gecəsinə);';
+$t[3] = 'And olsun c&uuml;tə və təkə (tək olan xaliqə, erkək və dişi olmaqla c&uuml;t olan məxluqata; c&uuml;t olan hər şeyə, yaxud Qurban bayramına və yaxud Ərəfə g&uuml;n&uuml;nə);';
+$t[4] = 'And olsun ke&ccedil;ib getməkdə olan gecəyə (ki, qiyamət haqdır və siz kafirlər qiyamət g&uuml;n&uuml; dirilib əməllərinizin cəzasını layiqincə alacaqsınız)!';
+$t[5] = 'Məgər bunlarda (qiyamətin haq olması barədə) ağıl sahibi &uuml;&ccedil;&uuml;n and yoxmudur?!';
+$t[6] = '(Ya Peyğəmbər!) məgər g&ouml;rmədinmi ki, Rəbbin nələr etdi Ada (Hud peyğəmbərin Ad q&ouml;vm&uuml;nə)?!';
+$t[7] = 'S&uuml;tunlar sahibi (və ya: s&uuml;tun kimi uca boylu) İrəmə (İrəm camaatına)?!';
+$t[8] = '(Elə bir q&ouml;vm ki) məmləkətlər (əhli) arasında onun kimisi yaradılmamışdı.';
+$t[9] = '(Məgər g&ouml;rmədinmi ki, Rəbbin nələr etdi) vadidə qayaları olan Səmuda (Səmud q&ouml;vm&uuml;nə)?!';
+$t[10] = 'Eləcə də saysız-hesabsız ordular sahibi Fir&rsquo;ona?!';
+$t[11] = 'O kəslər ki, məmləkətlərdə t&uuml;ğyan edir,';
+$t[12] = 'Oralarda &ccedil;oxlu fitnə-fəsad t&ouml;rədirlər.';
+$t[13] = 'Nəhayət, Rəbbin onlara əzab qam&ccedil;ısı endirdi.';
+$t[14] = 'Ş&uuml;bhəsiz ki, Rəbbin (bəndələrinin b&uuml;t&uuml;n əməllərini) baxıb g&ouml;r&uuml;r.';
+$t[15] = 'İnsana gəldikdə, nə zaman Rəbbin onu imtahana &ccedil;əkib ehtiram etsə, ona bir ne&rsquo;mət versə, o: &ldquo;Rəbbim mənə ehtiram g&ouml;stərdi!&rdquo; &ndash;deyər.';
+$t[16] = 'Amma nə zaman (Rəbbin) onu imtahana &ccedil;əkib ruzisini əskiltsə: &ldquo;Rəbbim məni al&ccedil;altdı (mənə xor baxdı)!&rdquo; &ndash; s&ouml;yləyər.';
+$t[17] = 'Xeyr! (Belə deməyin). Doğrusu, siz &ouml;z&uuml;n&uuml;z yetimə h&ouml;rmət etmirsiniz (yetimin haqqını vermirsiniz).';
+$t[18] = 'Bir-birinizi yoxsulu yedirtməyə rəğbətləndirmirsiniz.';
+$t[19] = 'Mirası (halal-haramına) varmadan yeyirsiniz (qadınların, uşaqların paylarını vermirsiniz).';
+$t[20] = 'Mal-d&ouml;vləti isə lap &ccedil;ox sevirsiniz.';
+$t[21] = 'Xeyr! Yer dağılıb par&ccedil;a-par&ccedil;a olacağı;';
+$t[22] = 'Rəbbinin əmri gəlib mələklər səf-səf duracağı';
+$t[23] = 'Və Cəhənnəmin (məhşər meydanına) gətiriləcəyi g&uuml;n &ndash; məhz o g&uuml;n insan (&ouml;z g&uuml;nahlarını) xatırlayacaqdır. Lakin bu xatırlamağın ona nə faydası?!';
+$t[24] = 'O: &ldquo;Kaş ki, mən əvvəlcədən (axirət) həyatım &uuml;&ccedil;&uuml;n (yaxşı əməllər) edəydim!&rdquo; &ndash; deyəcəkdir.';
+$t[25] = 'O g&uuml;n (Allahın) etdiyi əzabı he&ccedil; kəs edə bilməz!';
+$t[26] = '(G&uuml;nahkarları) he&ccedil; kəs Onun kimi zəncirləyə bilməz!';
+$t[27] = '(Qiyamət g&uuml;n&uuml; Allah-təala m&ouml;&rsquo;min kimsəyə belə buyuracaqdır:) &ldquo;Ey (&ouml;z imanından, əməlindən və Allahın və&rsquo;dindən) xatircəm olan kəs! (Və ya: &ldquo;Ey arxayın nəfs!&rdquo;)';
+$t[28] = 'D&ouml;n Rəbbinə, sən Ondan razı olaraq, O da səndən!';
+$t[29] = '(Əməlisaleh) bəndələrimin z&uuml;mrəsinə daxil ol!';
+$t[30] = '(Onlarla birlikdə) Cənnətimə varid ol!&rdquo;';
+?>

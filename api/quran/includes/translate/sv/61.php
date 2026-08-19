@@ -1,0 +1,17 @@
+<?php
+$t = array();
+$t[1] = 'ALLT det som himlarna rymmer och det som jorden b&auml;r prisar Gud; Han &auml;r den Allsm&auml;ktige, den Vise.';
+$t[2] = 'TROENDE! Varf&ouml;r s&auml;ger ni ett och g&ouml;r ett annat?';
+$t[3] = 'Det &auml;r djupt f&ouml;rhatligt f&ouml;r Gud att era ord inte &ouml;verensst&auml;mmer med era handlingar!';
+$t[4] = 'Gud &auml;lskar dem som k&auml;mpar f&ouml;r Hans sak i slutna led [s&aring; att de tillsammans bildar] liksom en stark och solid byggnad.';
+$t[5] = '[Minns] Moses, som talade till sitt folk och sade: &quot;Varf&ouml;r orsakar ni mig sorg och bekymmer, fast&auml;n ni vet att jag &auml;r s&auml;nd till er av Gud?&quot; Men n&auml;r de [&auml;nd&aring;] vek av [fr&aring;n den raka v&auml;gen], st&auml;mplade Gud deras hj&auml;rtan med avvikelsens st&auml;mpel; Gud leder inte dem som f&ouml;rh&auml;rdar sig i trots.';
+$t[6] = 'Och [minns] Jesus, Marias son, som sade: &quot;Israeliter! Jag &auml;r s&auml;nd till er av Gud f&ouml;r att bekr&auml;fta vad som &auml;nnu best&aring;r av Tora och f&ouml;r att f&ouml;rkunna f&ouml;r er det glada budskapet att ett s&auml;ndebud skall komma efter mig vars namn skall vara Ahmad.&quot; Men n&auml;r han kom till dem med klara tecken och vittnesb&ouml;rd, sade de: &quot;Detta &auml;r uppenbart v&auml;ltalighet som bl&auml;ndar och f&ouml;rh&auml;xar!&quot;';
+$t[7] = 'Vem &auml;r mer or&auml;ttf&auml;rdig &auml;n den som, n&auml;r han f&aring;r kallelsen att underkasta sig Guds vilja, finner p&aring; l&ouml;gner om Gud? Gud v&auml;gleder inte dem som beg&aring;r [s&aring;dan] or&auml;tt.';
+$t[8] = 'De vill sl&auml;cka ut Guds ljus med sina ord, men Gud skall l&aring;ta Sitt ljus lysa med full styrka, hur f&ouml;rhatligt detta &auml;n m&aring;ste vara f&ouml;r f&ouml;rnekarna av sanningen.';
+$t[9] = 'Det &auml;r Han som har s&auml;nt Sitt S&auml;ndebud med v&auml;gledningen och [f&ouml;r att f&ouml;rkunna] den sanna tron som skall f&ouml;ras till seger &ouml;ver all [annan form av] gudstro, hur f&ouml;rhatligt detta &auml;n kan vara f&ouml;r dem som s&auml;tter medhj&auml;lpare vid Guds sida.';
+$t[10] = 'TROENDE! Skall Jag ber&auml;tta f&ouml;r er om en byteshandel som kommer att r&auml;dda er fr&aring;n ett sv&aring;rt lidande?';
+$t[11] = '[Den best&aring;r f&ouml;r er del i att] ni tror p&aring; Gud och Hans S&auml;ndebud och str&auml;var och k&auml;mpar f&ouml;r Guds sak med er egendom och ert liv som insats; detta &auml;r f&ouml;r er det b&auml;sta - om ni bara visste &Atilde;&permil;!';
+$t[12] = '[I geng&auml;ld] skall Han f&ouml;rl&aring;ta era synder och f&ouml;ra er till lustg&aring;rdar, vattnade av b&auml;ckar, och de b&auml;sta boningar i [detta] Edens paradis; detta &auml;r den stora, den lysande segern.';
+$t[13] = 'Och d&auml;rtill n&aring;got som ligger er om hj&auml;rtat: Guds hj&auml;lp och en f&ouml;rest&aring;ende seger. - Tillk&auml;nnage detta f&ouml;r de troende!';
+$t[14] = 'TROENDE! Bli Guds medhj&auml;lpare! Liksom Jesus, Marias son, sade till de vitkl&auml;dda: &quot;Vem vill bli min medhj&auml;lpare [i arbetet] f&ouml;r Guds sak?&quot; och de svarade: &quot;Vi vill vara Guds medhj&auml;lpare!&quot;. Bland Israels barn kom n&aring;gra att tro [p&aring; Jesus och hans budskap] medan andra f&ouml;rnekade [honom]. Men Vi st&ouml;dde dem som trodde p&aring; honom mot deras fiender, och de [troende] avgick med segern.';
+?>

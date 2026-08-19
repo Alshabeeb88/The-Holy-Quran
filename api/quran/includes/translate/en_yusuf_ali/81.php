@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'When the sun (with its spacious light) is folded up;';
+$t[2] = 'When the stars fall, losing their lustre;';
+$t[3] = 'When the mountains vanish (like a mirage);';
+$t[4] = 'When the she-camels, ten months with young, are left untended;';
+$t[5] = 'When the wild beasts are herded together (in the human habitations);';
+$t[6] = 'When the oceans boil over with a swell;';
+$t[7] = 'When the souls are sorted out, (being joined, like with like);';
+$t[8] = 'When the female (infant), buried alive, is questioned -';
+$t[9] = 'For what crime she was killed;';
+$t[10] = 'When the scrolls are laid open;';
+$t[11] = 'When the world on High is unveiled;';
+$t[12] = 'When the Blazing Fire is kindled to fierce heat;';
+$t[13] = 'And when the Garden is brought near;-';
+$t[14] = '(Then) shall each soul know what it has put forward.';
+$t[15] = 'So verily I call to witness the planets - that recede,';
+$t[16] = 'Go straight, or hide;';
+$t[17] = 'And the Night as it dissipates;';
+$t[18] = 'And the Dawn as it breathes away the darkness;-';
+$t[19] = 'Verily this is the word of a most honourable Messenger,';
+$t[20] = 'Endued with Power, with rank before the Lord of the Throne,';
+$t[21] = 'With authority there, (and) faithful to his trust.';
+$t[22] = 'And (O people!) your companion is not one possessed;';
+$t[23] = 'And without doubt he saw him in the clear horizon.';
+$t[24] = 'Neither doth he withhold grudgingly a knowledge of the Unseen.';
+$t[25] = 'Nor is it the word of an evil spirit accursed.';
+$t[26] = 'When whither go ye?';
+$t[27] = 'Verily this is no less than a Message to (all) the Worlds:';
+$t[28] = '(With profit) to whoever among you wills to go straight:';
+$t[29] = 'But ye shall not will except as Allah wills,- the Cherisher of the Worlds.';
+?>

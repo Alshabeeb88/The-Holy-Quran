@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'Alif-lam-meem';
+$t[2] = 'Tilka ayatu alkitabi alhakeem';
+$t[3] = 'Hudan warahmatan lilmuhsineen';
+$t[4] = 'Allatheena yuqeemoona assalatawayu/toona azzakata wahum bil-akhiratihum yooqinoon';
+$t[5] = 'Ola-ika AAala hudan minrabbihim waola-ika humu almuflihoon';
+$t[6] = 'Wamina annasi man yashtareelahwa alhadeethi liyudilla AAan sabeeli Allahibighayri AAilmin wayattakhithaha huzuwan ola-ikalahum AAathabun muheen';
+$t[7] = 'Wa-itha tutla AAalayhi ayatunawalla mustakbiran kaan lam yasmaAAha kaanna fee othunayhiwaqran fabashshirhu biAAathabin aleem';
+$t[8] = 'Inna allatheena amanoowaAAamiloo assalihati lahum jannatuannaAAeem';
+$t[9] = 'Khalideena feeha waAAda Allahihaqqan wahuwa alAAazeezu alhakeem';
+$t[10] = 'Khalaqa assamawatibighayri AAamadin tarawnaha waalqa fee al-ardirawasiya an tameeda bikum wabaththa feeha min kullidabbatin waanzalna mina assama-i maanfaanbatna feeha min kulli zawjin kareem';
+$t[11] = 'Hatha khalqu Allahi faarooneematha khalaqa allatheena min doonihi bali aththalimoonafee dalalin mubeen';
+$t[12] = 'Walaqad atayna luqmanaalhikmata ani oshkur lillahi waman yashkur fa-innamayashkuru linafsihi waman kafara fa-inna Allaha ghaniyyun hameed';
+$t[13] = 'Wa-ith qala luqmanu libnihiwahuwa yaAAithuhu ya bunayya latushrik billahi inna ashshirka lathulmunAAatheem';
+$t[14] = 'Wawassayna al-insanabiwalidayhi hamalat-hu ommuhu wahnan AAalawahnin wafisaluhu fee AAamayni ani oshkur lee waliwalidaykailayya almaseer';
+$t[15] = 'Wa-in jahadaka AAala antushrika bee ma laysa laka bihi AAilmun fala tutiAAhumawasahibhuma fee addunya maAAroofanwattabiAA sabeela man anaba ilayya thumma ilayyamarjiAAukum faonabbi-okum bima kuntum taAAmaloon';
+$t[16] = 'Ya bunayya innaha in takumithqala habbatin min khardalin fatakun fee sakhratinaw fee assamawati aw fee al-ardiya/ti biha Allahu inna Allaha lateefunkhabeer';
+$t[17] = 'Ya bunayya aqimi assalatawa/mur bilmaAAroofi wanha AAani almunkari wasbirAAala ma asabaka inna thalika minAAazmi al-omoor';
+$t[18] = 'Wala tusaAAAAir khaddaka linnasiwala tamshi fee al-ardi marahan inna Allahala yuhibbu kulla mukhtalin fakhoor';
+$t[19] = 'Waqsid fee mashyika waghdudmin sawtika inna ankara al-aswati lasawtualhameer';
+$t[20] = 'Alam taraw anna Allaha sakhkharalakum ma fee assamawati wamafee al-ardi waasbagha AAalaykum niAAamahu thahiratanwabatinatan wamina annasi man yujadilufee Allahi bighayri AAilmin wala hudan walakitabin muneer';
+$t[21] = 'Wa-itha qeela lahumu ittabiAAoo maanzala Allahu qaloo bal nattabiAAu ma wajadnaAAalayhi abaana awa law kana ashshaytanuyadAAoohum ila AAathabi assaAAeer';
+$t[22] = 'Waman yuslim wajhahu ila Allahiwahuwa muhsinun faqadi istamsaka bilAAurwatialwuthqa wa-ila Allahi AAaqibatual-omoor';
+$t[23] = 'Waman kafara fala yahzunkakufruhu ilayna marjiAAuhum fanunabbi-ohum bimaAAamiloo inna Allaha AAaleemun bithati assudoor';
+$t[24] = 'NumattiAAuhum qaleelan thumma nadtarruhumila AAathabin ghaleeth';
+$t[25] = 'Wala-in saaltahum man khalaqa assamawatiwal-arda layaqoolunna Allahu quli alhamdulillahi bal aktharuhum la yaAAlamoon';
+$t[26] = 'Lillahi ma fee assamawatiwal-ardi inna Allaha huwa alghaniyyu alhameed';
+$t[27] = 'Walaw annama fee al-ardi minshajaratin aqlamun walbahru yamudduhu minbaAAdihi sabAAatu abhurin ma nafidat kalimatuAllahi inna Allaha AAazeezun hakeem';
+$t[28] = 'Ma khalqukum wala baAAthukumilla kanafsin wahidatin inna AllahasameeAAun baseer';
+$t[29] = 'Alam tara anna Allaha yooliju allaylafee annahari wayooliju annahara feeallayli wasakhkhara ashshamsa walqamara kullunyajree ila ajalin musamman waanna Allaha bimataAAmaloona khabeer';
+$t[30] = 'Thalika bi-anna Allaha huwa alhaqquwaanna ma yadAAoona min doonihi albatilu waanna Allahahuwa alAAaliyyu alkabeer';
+$t[31] = 'Alam tara anna alfulka tajree fee albahribiniAAmati Allahi liyuriyakum min ayatihiinna fee thalika laayatin likulli sabbarinshakoor';
+$t[32] = 'Wa-itha ghashiyahum mawjun kaththulalidaAAawoo Allaha mukhliseena lahu addeenafalamma najjahum ila albarri faminhum muqtasidunwama yajhadu bi-ayatina illakullu khattarin kafoor';
+$t[33] = 'Ya ayyuha annasuittaqoo rabbakum wakhshaw yawman la yajzee walidunAAan waladihi wala mawloodun huwa jazin AAan walidihishay-an inna waAAda Allahi haqqun falataghurrannakumu alhayatu addunya walayaghurrannakum billahi algharoor';
+$t[34] = 'Inna Allaha AAindahu AAilmu assaAAatiwayunazzilu alghaytha wayaAAlamu ma fee al-arhamiwama tadree nafsun matha taksibu ghadan wamatadree nafsun bi-ayyi ardin tamootu inna AllahaAAaleemun khabeer';
+?>

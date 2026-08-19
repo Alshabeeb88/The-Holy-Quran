@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Vi har visselig gitt deg en &aring;penbar seier,';
+$t[2] = 's&aring; Gud kan forlate deg dine tidligere og senere synder og fullbyrde Sin n&aring;de mot deg og lede deg p&aring; rett vei,';
+$t[3] = 's&aring; Gud kan hjelpe deg med en mektig hjelp.';
+$t[4] = 'Han er det, som sendte guddommelig n&aelig;rv&aelig;r i de troendes hjerter s&aring; de kunne legge tro til sin tro, Gud tilh&oslash;rer himlenes og jordens h&aelig;rskarer, Gud vet, er vis,';
+$t[5] = 'og for &aring; f&oslash;re de troende, menn og kvinner, inn i paradisets haver, hvor bekker sildrer og hvor de skal v&aelig;re og bli, og stryke ut deres misgjerninger. Dette er den store seier i Guds &oslash;yne.';
+$t[6] = 'Og for &aring; refse hyklerne og avgudsdyrkerne, menn og kvinner, som har onde tanker om Gud. For dem blir det en skjebnesvanger vending; Guds vrede og forbannelse er over dem, og Han har gjort klar helvete for dem, en s&oslash;rgelig skjebne!';
+$t[7] = 'Gud tilh&oslash;rer himlenes og jordens h&aelig;rskarer. Gud er mektig, vis.';
+$t[8] = 'Vi har visselig sendt deg som vitne, gledesbudb&aelig;rer og advarer,';
+$t[9] = 'at dere m&aring; tro p&aring; Gud og Hans sendebud, hjelpe Ham og vise Ham &aelig;refrykt og prise Ham morgen og kveld.';
+$t[10] = 'De som gir deg sin troskapsed, erkl&aelig;rer faktisk troskap overfor Gud. Guds h&aring;nd er over deres h&aring;nd. Om noen misligholder, gj&oslash;r han det til egen skade. Den som oppfyller det han har p&aring;tatt seg overfor Gud, ham vil Gud gi stor l&oslash;nn.';
+$t[11] = 'Hjemmesitterne blant beduinene vil si til deg: &laquo;Vi var travelt opptatt med v&aring;rt kveg og v&aring;re folk, s&aring; be om tilgivelse for oss.&raquo; De f&oslash;rer p&aring; tungen det som ikke er i deres hjerter. Si: &laquo;Hvem kan vel utrette det ringeste for dere overfor Gud, om Han &oslash;nsker &aring; gi dere ondt eller godt? Gud er vel underrettet om det dere gj&oslash;r.';
+$t[12] = 'Nei, dere trodde at Sendebudet og de troende aldri skulle komme tilbake til sine noen gang, og dette syntes vakkert for deres hjerter. Dere gjorde onde formodninger. Dere er et folk uten lov!&raquo;';
+$t[13] = 'De som ikke tror p&aring; Gud og Hans sendebud, for de vantro har Vi gjort klar en Ild.';
+$t[14] = 'Gud tilh&oslash;rer herred&oslash;mmet over himlene og jorden. Han tilgir dem Han vil, og straffer dem Han vil. Gud er tilgivende, n&aring;derik.';
+$t[15] = 'Hjemmesitterne vil si n&aring;r dere drar av g&aring;rde for &aring; hente krigsbytte: &laquo;La oss f&aring; bli med dere.&raquo; De &oslash;nsker &aring; forandre Guds ord. Si: &laquo;Dere f&aring;r ikke f&oslash;lge oss! S&aring; har Gud sagt tidligere.&raquo; S&aring; vil de si: &laquo;Dere bare misunner oss.&raquo; Nei, det er lite de forst&aring;r.';
+$t[16] = 'Si til hjemmesitterne blant beduinene: &laquo;Dere blir kalt p&aring; mot et folk med stor kampstyrke for &aring; kjempe mot dem, eller de overgir seg. Om dere adlyder, vil Gud gi dere god l&oslash;nn. Men om dere lar v&aelig;re, som dere gjorde tidligere, vil Han refse dere med en smertelig straff.&raquo;';
+$t[17] = 'Det er ingen bebreidelse mot blinde, uf&oslash;re og syke. Den som adlyder Gud og Hans sendebud, vil Han f&oslash;re inn i paradisets haver, hvor bekker sildrer, men den som lar v&aelig;re, vil Han hjems&oslash;ke med en smertelig straff.';
+$t[18] = 'Gud fant velbehag i de troende da de gav deg troskapsed under treet, og Han visste hva som var i deres hjerter. Og Han sendte guddommelig n&aelig;rv&aelig;r over dem, og gav dem seier i utsikt,';
+$t[19] = 'og stort krigsbytte &aring; ta. Gud er mektig, vis.';
+$t[20] = 'Gud lovet dere stort krigsbytte &aring; ta, og skyndet dette p&aring; for dere og holdt menneskenes hender tilbake fra dere. Dette for at det skulle v&aelig;re et j&aelig;rtegn for de troende for &aring; lede dere til rett vei.';
+$t[21] = 'Og annet krigsbytte, som dere ikke r&aring;dde med, har Gud under kontroll. Gud evner alt.';
+$t[22] = 'Om de vantro var g&aring;tt til kamp mot dere, ville de tatt flukten, og s&aring; ville de ikke funnet verken beskytter eller hjelper.';
+$t[23] = 'Det er Guds praksis, anvendt i tidligere tider. Du vil aldri finne endring i Guds praksis.';
+$t[24] = 'Han er det, som holdt deres hender tilbake fra dere, og deres hender fra dem, i Mekkadalen etter at Han lot dere vinne moralsk seier over dem. Gud ser det dere gj&oslash;r.';
+$t[25] = 'Disse er de som var vantro og holdt dere borte fra den hellige mosk&eacute;, og offerdyrene fra sitt offersted. Hadde det ikke v&aelig;rt for troende menn og kvinner som dere ikke kjente, som dere kunne trampet ned i kamptummelen, og uten viten p&aring;dratt dere skyld for dem, for Gud tar inn i Sin n&aring;de hvem Han vil! Hadde de v&aelig;rt klart adskilt, s&aring; ville Vi refset de vantro blant dem med en smertelig straff.';
+$t[26] = 'Da de vantro slapp stridslidenskapen inn i sine hjerter, hedenskapets stridslidenskap, s&aring; sendte Gud sitt guddommelige n&aelig;rv&aelig;r over Sitt sendebud og de troende, og holdt dem til gudsfryktens ord. Og de fortjente det best, og var mest verdige til det. Gud er vitende om alle ting.';
+$t[27] = 'Gud har latt visjonen g&aring; i oppfyllelse for Sitt sendebud: &laquo;Dere vil g&aring; inn i den hellige mosk&eacute;, om Gud vil, i trygghet, med rakede hoder og stusset skjegg og uten frykt.&raquo; For Han visste hva dere ikke visste, og utenom dette stilte Han dere seier i utsikt.';
+$t[28] = 'Han er det som har sendt Sitt sendebud med ledelsen og sannhets religion, for &aring; la den vinne frem overfor all religion. Gud er tilstrekkelig som vitne.';
+$t[29] = 'Muhammad er Guds sendebud, og de som er med ham, er harde mot de vantro og gode mot hverandre. Du ser dem b&oslash;ye seg og falle ned idet de s&oslash;ker Guds gunst og velbehag. Merkene i deres ansikter er spor etter megen nedfallen. Slik er deres beskrivelse i Moseloven. Og i evangeliet sammenlignes de med et korn som skyter opp sitt skudd, og styrker det, s&aring; det blir kraftigere og st&aring;r rakt p&aring; sin stengel, til glede for s&aring;mennene, for &aring; ergre den vantro ved dem. Gud har lovet dem som tror og lever rettskaffent, tilgivelse og stor l&oslash;nn!';
+?>

@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'waxay ku tusin mugjisada Quraanka';
+$t[2] = 'soo dajinta Quraanka shaki kuma jiro, wuxuuna ka soodagay Eebaha Calaamka xaggiisa.';
+$t[3] = 'mise waxay dhihi waxaa been abuurtay (Nabiga) saas ma aha ee waa xaq Quraanku Eebahaa xaggiisa ka yimid si aad ugu digtid qoom uusan u imaanin dige kaa horeeya, si ay u hanuunaan,';
+$t[4] = 'Eebe waa ka ku abuuray Samooyinka, iyo Dhulka iyo waxa u dhaxeeya Lix maalmood dhexdeed, markaasna ku istawooday Carshiga &laquo;si u cunanta&raquo; idiinmana sugnaanin Eebe ka sokow wali (gargaare) iyo shafecee midna, ee miyeydaan wax xusuusanayn.';
+$t[5] = 'amarka Eebaa ka maamula Samada xagga Dhulka markaasaa amarkaasi xagga Eebe u koraa Maalin qadarkeedu yahay Kun sano oo waxaad tirinaysaana.';
+$t[6] = 'kaasina waa Eebaha og wax maqan iyo waxa joogaba, ee adkaada ee Naxariista.';
+$t[7] = 'Eebaa wanaajiyey abuuridda wax kasta, wuxuuna ka billaabay abuuridda Dadka Dhoobo, (Nabigii Aadam ahaa).';
+$t[8] = 'markaas kayeelay faraciisii mid ka soo taxma Biyo taharyar.';
+$t[9] = 'markaas ekeeyey oo ruuxdiisa ku afuufay idiinna yeelay maqal, Aragyaal iyo quluuba, waxyar baadse Eebe ku mahdisaan.';
+$t[10] = 'waxay dhaheen Gaaladii ma markaan ku dhexluno dhulka (geeriyoonno) yaa abuurid cusub nala abuuri, saas ma aha ee iyagu la kulanka Eebahood bay ka gaaloobeen.';
+$t[11] = 'waxaad dhahdaa waxaa idin oofsan (dili) Malaga mowdka laydiin wakiishay markaasaa xagga Eebihiin laydiin celin.';
+$t[12] = 'haddaad arki lahayd marka dambiilayaashu madaxa hoos u dhigi (qiyaamada) Eebahood agtiisa (iyagoo dhihi) Eebahanow waan aragnay waana maqalay ee naceli si aan camalfiican u fallo waan yaqiininaye (waxaad arki lahayd wax yaableh).';
+$t[13] = 'haddaan doono waxaan siin lahayn (ku toosin lahayn) Nafkasta hanuunkeeda hase yeeshee waxaa hormaray Hadalkaygii in laga buuxin Jahannamo Jinno iyo Insi dhammaan.';
+$t[14] = 'ee dhadhamiya halmaanshihiinii la kulanka Maalintiinnan (qiyame) annaguna waan idinka tagaynaa (maanta) ee dhadhamiya cadaabka waaridda camalkiinii dartiis.';
+$t[15] = 'waxaa uun rumayn aayaadkanaga kuwa marka lagu waaniyo aayadaha sujuud la dhaca kuna tasbiixsada mahadda Eebahood iyagoon is kibrinayn (isla waynayn).';
+$t[16] = 'waxayna ka dheeraataa dhinacyadoodu jiifka iyagoo baryi Eebahood cabsi iyo rajaynba waxaan ku arzuqnayna wax ka bixiya.';
+$t[17] = 'ma oga Nafu waxa loo qariyay kuwaas oo Indho ku qaboowsadaan abaal marin waxay camalfalayeen dartiis.';
+$t[18] = 'ruux Mu\'min ah mala midbaa mid faasiq ah, ma eka.';
+$t[19] = 'kuwa rumeeyay (xaqa) oo camal fiican falay waxay mudan Jannooyinka Ma\'wa martiqaad waxay xamal falayeen dartiis.';
+$t[20] = 'kuwase faasiqoobay waxay ku hoyan Naar, markay doonaan inay ka baxaanna waa lagu celin dhexdeeda waxaana lagu dhihi dhadhamiya Cadaabka Naartii aad beenin jirteen.';
+$t[21] = 'waxaana dhadhansiinaynaa cadaab hoose cadaab wayn kasokow inay noqdaan darteed.';
+$t[22] = 'yaa ka dulmi badan ruux lagu waaniyay aayaadka Eebihiis oo ka jeedsaday xaggeeda, anaguna dambiilayaasha waan ka aarsanaynaa.';
+$t[23] = 'dhab ahaanbaan u siinay Nabi Muuse Kitaabkii (Tawreed) ee hashakiyin lakulankiisa waxaana ka yeelay Kitaabkaas hanuunka Banii Israa\'iil.';
+$t[24] = 'waxaana ka yeelay qaarka mid ah imaamyo ku hanuuniya amarkanaga markay samreen, waxayna ahaayeen kuwa aayaadkanaga yaqiiniya.';
+$t[25] = 'Eebahaabaana kala bixin dhexdooda Maalinta Qiyaame waxay ahaayeen kuwo isku diidan.';
+$t[26] = 'myayna ku hanuunin kuwaasi intaan halaagnay hortood oo quruun ah oy socon guryahoodii, taasina waxaa ku sugan calaamado ee miyayna wax maqlaynin.';
+$t[27] = 'miyeyna arkeyn inaan u soo kaxayno Biyaha Dhul abaar ah oon markaas ku soobixino Beero ay wax ka cunaan Xoolahooda iyo Naftooduba miyeyna wax arkaynin.';
+$t[28] = 'waxay dhihi waa goorma kala xukunku haddaad run sheegaysaan.';
+$t[29] = 'waxaad dhahdaa maalinta kala xukunka Gaalada ma anfaco Iimaankoodu lamaga sugo.';
+$t[30] = 'Ee isaga jeedso oo sug iyana ha sugeene.';
+?>

@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Da li je doprla do tebe vijest o te&scaron;koj nevolji? &ndash;';
+$t[2] = 'kada će se neka lica poti&scaron;tena,';
+$t[3] = 'premorena, napaćena';
+$t[4] = 'u vatri užarenoj pržiti,';
+$t[5] = 'sa vrela uzavrelog piti,';
+$t[6] = 'kada drugog jela osim trnja neće imati,';
+$t[7] = 'koje neće ni ugojiti ni glad utoliti.';
+$t[8] = 'Neka lica toga dana biće radosna,';
+$t[9] = 'trudom svojim zadovoljna &ndash;';
+$t[10] = 'u Džennetu izvanrednome,';
+$t[11] = 'u kome prazne besjede neće slu&scaron;ati.';
+$t[12] = 'U njemu su izvor-vode koje teku,';
+$t[13] = 'u njemu su i divani skupocjeni,';
+$t[14] = 'i pehari postavljeni,';
+$t[15] = 'i jastuci poredani,';
+$t[16] = 'i ćilimi ra&scaron;ireni.';
+$t[17] = 'Pa za&scaron;to oni ne pogledaju kamile &ndash; kako su stvorene,';
+$t[18] = 'i nebo &ndash; kako je uzdignuto,';
+$t[19] = 'i planine &ndash; kako su postavljene,';
+$t[20] = 'i Zemlju &ndash; kako je prostrta?!';
+$t[21] = 'Ti poučavaj &ndash; tvoje je da poučava&scaron;,';
+$t[22] = 'ti vlast nad njima nema&scaron;!';
+$t[23] = 'A onoga koji glavu okreće i neće da vjeruje,';
+$t[24] = 'njega će Allah najvećom mukom mučiti.';
+$t[25] = 'Nama će se oni, zaista, vratiti';
+$t[26] = 'i pred Nama će, doista, račun polagati!';
+?>

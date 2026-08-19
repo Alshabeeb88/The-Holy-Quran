@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Blessed be He in Whose hands is Dominion; and He over all things hath Power;-';
+$t[2] = 'He Who created Death and Life, that He may try which of you is best in deed: and He is the Exalted in Might, Oft-Forgiving;-';
+$t[3] = 'He Who created the seven heavens one above another: No want of proportion wilt thou see in the Creation of (Allah) Most Gracious. So turn thy vision again: seest thou any flaw?';
+$t[4] = 'Again turn thy vision a second time: (thy) vision will come back to thee dull and discomfited, in a state worn out.';
+$t[5] = 'And we have, (from of old), adorned the lowest heaven with Lamps, and We have made such (Lamps) (as) missiles to drive away the Evil Ones, and have prepared for them the Penalty of the Blazing Fire.';
+$t[6] = 'For those who reject their Lord (and Cherisher) is the Penalty of Hell: and evil is (such), Destination.';
+$t[7] = 'When they are cast therein, they will hear the (terrible) drawing in of its breath even as it blazes forth,';
+$t[8] = 'Almost bursting with fury: Every time a Group is cast therein, its Keepers will ask, &quot;Did no Warner come to you?&quot;';
+$t[9] = 'They will say: &quot;Yes indeed; a Warner did come to us, but we rejected him and said, \'Allah never sent down any (Message): ye are nothing but an egregious delusion!\'&quot;';
+$t[10] = 'They will further say: &quot;Had we but listened or used our intelligence, we should not (now) be among the Companions of the Blazing Fire!&quot;';
+$t[11] = 'They will then confess their sins: but far will be (Forgiveness) from the Companions of the Blazing Fire!';
+$t[12] = 'As for those who fear their Lord unseen, for them is Forgiveness and a great Reward.';
+$t[13] = 'And whether ye hide your word or publish it, He certainly has (full) knowledge, of the secrets of (all) hearts.';
+$t[14] = 'Should He not know,- He that created? and He is the One that understands the finest mysteries (and) is well-acquainted (with them).';
+$t[15] = 'It is He Who has made the earth manageable for you, so traverse ye through its tracts and enjoy of the Sustenance which He furnishes: but unto Him is the Resurrection.';
+$t[16] = 'Do ye feel secure that He Who is in heaven will not cause you to be swallowed up by the earth when it shakes (as in an earthquake)?';
+$t[17] = 'Or do ye feel secure that He Who is in Heaven will not send against you a violent tornado (with showers of stones), so that ye shall know how (terrible) was My warning?';
+$t[18] = 'But indeed men before them rejected (My warning): then how (terrible) was My rejection (of them)?';
+$t[19] = 'Do they not observe the birds above them, spreading their wings and folding them in? None can uphold them except (Allah) Most Gracious: Truly (Allah) Most Gracious: Truly it is He that watches over all things.';
+$t[20] = 'Nay, who is there that can help you, (even as) an army, besides (Allah) Most Merciful? In nothing but delusion are the Unbelievers.';
+$t[21] = 'Or who is there that can provide you with Sustenance if He were to withhold His provision? Nay, they obstinately persist in insolent impiety and flight (from the Truth).';
+$t[22] = 'Is then one who walks headlong, with his face grovelling, better guided,- or one who walks evenly on a Straight Way?';
+$t[23] = 'Say: &quot;It is He Who has created you (and made you grow), and made for you the faculties of hearing, seeing, feeling and understanding: little thanks it is ye give.';
+$t[24] = 'Say: &quot;It is He Who has multiplied you through the earth, and to Him shall ye be gathered together.&quot;';
+$t[25] = 'They ask: When will this promise be (fulfilled)? - If ye are telling the truth.';
+$t[26] = 'Say: &quot;As to the knowledge of the time, it is with Allah alone: I am (sent) only to warn plainly in public.&quot;';
+$t[27] = 'At length, when they see it close at hand, grieved will be the faces of the Unbelievers, and it will be said (to them): &quot;This is (the promise fulfilled), which ye were calling for!&quot;';
+$t[28] = 'Say: &quot;See ye?- If Allah were to destroy me, and those with me, or if He bestows His Mercy on us,- yet who can deliver the Unbelievers from a grievous Penalty?&quot;';
+$t[29] = 'Say: &quot;He is (Allah) Most Gracious: We have believed in Him, and on Him have we put our trust: So, soon will ye know which (of us) it is that is in manifest error.&quot;';
+$t[30] = 'Say: &quot;See ye?- If your stream be some morning lost (in the underground earth), who then can supply you with clear-flowing water?&quot;';
+?>

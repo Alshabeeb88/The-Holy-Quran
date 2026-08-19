@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'A. L. M.';
+$t[2] = 'Dit zijn de teekens van het wijze boek.';
+$t[3] = 'Eene leiding en eene genade voor de rechtvaardigen.';
+$t[4] = 'Die de tijden voor het gebed bepaald in acht nemen, aalmoezen geven en vast overtuigd zijn van het toekomstige leven.';
+$t[5] = 'Deze worden door hunnen Heer geleid en zullen voorspoed genieten.';
+$t[6] = 'Er is een man die een beuzelachtig verhaal voortplant, om de menschen zonder kennis van Gods weg af te leiden, en hem te doen bespotten. De zoodanigen zullen eene schandelijke straf ondergaan.';
+$t[7] = 'En als hem onze teekenen worden medegedeeld, keert hij zich met verachting af, als hoorde hij die niet, en als ware er eene doofheid in zijne ooren. Kondig hem dus eene gestrenge straf aan.';
+$t[8] = 'Maar zij die gelooven en rechtvaardigheid uitoefenen, zullen tuinen des vermaaks genieten.';
+$t[9] = 'Eeuwig zullen zij daarin verblijven. Dit is de zekere belofte van God; en hij is de Machtige, de Wijze.';
+$t[10] = 'Hij heeft de hemelen geschapen, zonder zichtbare zuilen om die te ondersteunen, en vastgewortelde bergen op de aarde geplaatst opdat zij zich niet met u zoude bewegen, en hij heeft haar met alle soorten van dieren bevolkt: en wij zenden regen van den hemel neder, en doen allerlei soorten van edele gewassen daarop voortspruiten.';
+$t[11] = 'Dit is de schepping van God: toont mij nu wat zij geschapen hebben, welke naast hem worden aangebeden? Waarlijk, de goddeloozen verkeeren in eene duidelijke dwaling.';
+$t[12] = 'Daarom schonken wij wijsheid aan Lokman en geboden hem, zeggende: Wees God dankbaar; want wie dankbaar is, zal in het voordeel van zijn eigen ziel wezen, en indien iemand ondankbaar mocht zijn, waarlijk, dan volstaat God voor zich zelven; en hij is waardig geprezen te worden.';
+$t[13] = 'En gedenk, toen Lokman tot zijn zoon zeide, terwijl hij hem vermaande: O mijn zoon! geef God geen deelgenoot; want het veelgodendom is eene groote snoodheid.';
+$t[14] = 'Wij hebben den mensch bevelen gegeven nopens zijne ouders, (zijne moeder bewaarde hem in haren boezem met zwakheid en smart, en hij wordt na twee jaren gespeend), zeggende: Wees dankbaar jegens mij en jegens uwe ouders: Tot mij zullen allen komen om geoordeeld te worden.';
+$t[15] = 'Maar indien uwe ouders trachten, u datgene met mij te doen vereenigen, waarvan gij geene kennis hebt, gehoorzaam hen niet: houd hun gezelschap in deze wereld, in hetgeen redelijk mocht wezen, maar volg den weg van hem, die zich oprechtelijk tot mij wendt. Daarna zult gij tot mij terugkeeren, en dan zal ik verklaren wat gij hebt bedreven.';
+$t[16] = 'O mijn zoon! waarlijk, iedere zaak, hetzij die goed of kwaad zij, hetzij die de zwaarte van een korrel mostaardzaad hebbe en in eene rots, of in de hemelen of in de aarde zij verborgen, zal door God aan het licht worden gebracht; want God is helderziende en alwetend.';
+$t[17] = 'O mijn zoon! wees standvastig in het gebed, en beveel wat rechtvaardig is; verbied het kwade en wees geduldig onder de rampen die u zullen treffen: want dit is een volstrekt noodzakelijke plicht voor alle menschen.';
+$t[18] = 'Verwring uw aangezicht niet tot verachting der menschen, noch wandel onbeschaamd over de aarde; want God bemint den verwaanden, den ingebeelden mensch niet.';
+$t[19] = 'Wees gematigd in uwe schreden en verzacht uwe stem; want de onaangenaamste van alle stemmen is zekerlijk de stem van ezels.';
+$t[20] = 'Ziet gij niet dat God alles, wat in den hemel en op aarde is, aan uwen dienst heeft onderworpen, en zijne gunsten overvloedig over u heeft uitgestort, zoowel uit- als inwendig? Er zijn sommigen, die zonder kennis en zonder eene leiding, en zonder een voorlichtend boek nopens God twisten.';
+$t[21] = 'En als er tot hen wordt gezegd: Volgt wat God heeft geopenbaard, antwoorden zij: Neen! wij zullen volgen wat wij hebben bevonden dat onze vaderen deden. Maar wat! ofschoon de duivel hen tot de marteling der hel noodigt?';
+$t[22] = 'Die zich aan God onderwerpt en rechtvaardigheid uitoefent houdt zich aan een sterk handvatsel vast en Gode behoort de uitkomst van alle dingen.';
+$t[23] = 'Maar wie een ongeloovige is, laat diens ongeloof u niet bedroeven; tot ons zullen zij terugkeeren; dan zullen wij hun verklaren, wat zij gedaan hebben; want God kent de binnenste gedeelten van de borst der menschen.';
+$t[24] = 'Wij zullen hun deze wereld voor een korten tijd doen genieten; daarna zullen wij hen tot een strenge straf voeren.';
+$t[25] = 'Indien gij hun vraagt, wie de hemelen en de aarde heeft geschapen, zullen zij zekerlijk antwoorden: God. Zeg: God zij geloofd! maar het grootste deel hunner begrijpt het niet.';
+$t[26] = 'Aan God behoort alles wat in den hemelen op aarde is; want God is de Almachtige, de Prijzenswaardige.';
+$t[27] = 'Indien alle boomen die zich op de aarde bevinden, pennen waren, en hij zou daarna de zee tot zeven zee&euml;n van inkt doen opzwellen, zouden Gods woorden niet uitgeput zijn; want God is almachtig en wijs.';
+$t[28] = 'Uwe schepping en uwe opstanding zijn hem slechts als de schepping en de opstanding van &eacute;&eacute;ne ziel. Waarlijk, God hoort en ziet alles.';
+$t[29] = 'Ziet gij niet, dat God den dag door den nacht doet vervangen, en den dag aan den nacht doet opvolgen, en de zon en de maan dwingt u te dienen? Ieder dezer lichten legt zijne baan gedurende een bepaald tijdvak af, en God is wel bekend met hetgeen gij doet.';
+$t[30] = 'Dit laat zich verklaren door de goddelijke kennis en macht, omdat God het ware wezen is, en omdat alles wat gij naast hem aanroept, ijdel is, en omdat God de verhevene, de groote God is.';
+$t[31] = 'Ziet gij niet, dat de schepen door de gunst van God de zee bevaren, opdat hij u zijne teekenen zou kunnen toonen. Waarlijk, hierin zijn teekens voor ieder geduldig en dankbaar mensch.';
+$t[32] = 'Als de golven hen bedekken, zooals schaduw afwerpende wolken, roepen zij God aan, en bekeeren zich tot den zuiveren godsdienst: maar als hij hen ongedeerd aan land brengt, zijn er van hen, die tusschen het ware geloof en de afgoderij twijfelen. Niemand verwerpt echter onze teekenen, behalve de trouweloozen en de ondankbaren.';
+$t[33] = 'O menschen! vreest uwen Heer, en ducht den dag, waarop de vader geene voldoening hoe gering ook, voor zijnen zoon, noch een zoon voldoening voor zijnen vader zal kunnen geven. Zekerlijk, de belofte van God is waar. Laat het tegenwoordige leven u dus niet misleiden, en laat de bedrieger u niet omtrent God verblinden.';
+$t[34] = 'Waarlijk, de kennis van het uur des oordeels is bij God, en hij doet den regen op zijn eigen, bepaalden tijd nederdalen, en hij weet, wat zich in den schoot der vrouwen bevindt. Geene ziel weet, wat zij morgen zal winnen en geene ziel weet in welk land zij zal sterven; maar God is wijs en volkomen bekend met alle dingen.';
+?>

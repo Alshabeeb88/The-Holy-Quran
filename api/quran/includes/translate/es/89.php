@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = '&iexcl;Por el alba!';
+$t[2] = '&iexcl;Por diez noches!';
+$t[3] = '&iexcl;Por el par y el impar!';
+$t[4] = '&iexcl;Por la noche cuando transcurre...';
+$t[5] = '&iquest;No es esto un juramento para el dotado de intelecto?';
+$t[6] = '&iquest;No has visto c&oacute;mo ha obrado tu Se&ntilde;or con los aditas,';
+$t[7] = 'con Iram, la de las columnas,';
+$t[8] = 'sin par en el pa&iacute;s,';
+$t[9] = 'con los tamudeos, que excavaron la roca en el valle,';
+$t[10] = 'con Fara&oacute;n el de las estacas,';
+$t[11] = 'que se hab&iacute;an excedido en el pa&iacute;s';
+$t[12] = 'y que hab&iacute;an corrompido tanto en &eacute;l?';
+$t[13] = 'Tu Se&ntilde;or descarg&oacute; sobre ellos el azote de un castigo.';
+$t[14] = 'Tu Se&ntilde;or est&aacute;, s&iacute;, al acecho.';
+$t[15] = 'El hombre, cuando su Se&ntilde;or le prueba honr&aacute;ndolo y concedi&eacute;ndole gracias, dice: &laquo;&iexcl;Mi Se&ntilde;or me ha honrado!&raquo;';
+$t[16] = 'En cambio. cuando le prueba restringi&eacute;ndole su sustento, dice: &laquo;&iexcl;Mi Se&ntilde;or me ha despreciado!&raquo;';
+$t[17] = '&iexcl;No! Sois vosotros, m&aacute;s bien, los que no honr&aacute;is al hu&eacute;rfano,';
+$t[18] = 'ni os anim&aacute;is unos a otros a alimentar al pobre,';
+$t[19] = 'sino que devor&aacute;is vorazmente la herencia y';
+$t[20] = 'am&aacute;is la hacienda con desordenado amor.';
+$t[21] = '&iexcl;No! Cuando la Tierra sea reducida a polvo fino';
+$t[22] = 'y venga tu Se&ntilde;or con los &aacute;ngeles en filas,';
+$t[23] = 'ese d&iacute;a se traer&aacute; la gehena, ese d&iacute;a el hombre se dejar&aacute; amonestar -y &iquest;de qu&eacute; le servir&aacute; entonces la amonestaci&oacute;n?-';
+$t[24] = 'y dir&aacute;: &laquo;&iexcl;Ojal&aacute; hubiera enviado por delante para mi vida!&raquo;';
+$t[25] = 'Ese d&iacute;a nadie castigar&aacute; como &Eacute;l,';
+$t[26] = 'nadie atar&aacute; como &Eacute;l.';
+$t[27] = '&laquo;&iexcl;Alma sosegada!';
+$t[28] = '&iexcl;Vuelve a tu Se&ntilde;or, satisfecha, acepta!';
+$t[29] = '&iexcl;Y entra con Mis siervos,';
+$t[30] = 'Entra en Mi Jard&iacute;n!&raquo;';
+?>

@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Nous avons envoy&eacute; No&eacute; vers son peuple : &quot;Avertis ton peuple, avant que leur vienne un ch&acirc;timent douloureux&quot;.';
+$t[2] = 'Il [leur] dit : &quot;&ocirc; mon peuple, je suis vraiment pour vous, un avertisseur clair,';
+$t[3] = 'Adorez Allah, craignez-Le et ob&eacute;issez-moi,';
+$t[4] = 'pour qu\'Il vous pardonne vos p&eacute;ch&eacute;s et qu\'Il vous donne un d&eacute;lai jusqu\'&agrave; un terme fix&eacute;. Mais quand vient le terme fix&eacute; par Allah, il ne saurait &ecirc;tre diff&eacute;r&eacute; si vous saviez ! &quot;';
+$t[5] = 'Il dit : &quot;Seigneur ! J\'ai appel&eacute; mon peuple, nuit et jour.';
+$t[6] = 'Mais mon appel n\'a fait qu\'accro&icirc;tre leur fuite.';
+$t[7] = 'Et chaque fois que je les ai appel&eacute;s pour que Tu leur pardonnes, ils ont mis leurs doigts dans leurs oreilles, se sont envelopp&eacute;s de leurs v&ecirc;tements, se sont ent&ecirc;t&eacute;s et se sont montr&eacute;s extr&ecirc;mement orgueilleux.';
+$t[8] = 'Ensuite, je les ai appel&eacute;s ouvertement.';
+$t[9] = 'Puis, je leur ai fait des proclamations publiques, et des confidences en secret.';
+$t[10] = 'J\'ai donc dit : &quot;Implorez le pardon de votre Seigneur, car Il est grand Pardonneur,';
+$t[11] = 'pour qu\'Il vous envoie du ciel, des pluies abondante,';
+$t[12] = 'et qu\'Il vous accorde beaucoup de biens et d\'enfants, et vous donne des jardins et vous donne des rivi&egrave;res.';
+$t[13] = 'Qu\'avez-vous &agrave; ne pas v&eacute;n&eacute;rer Allah comme il se doit,';
+$t[14] = 'alors qu\'Il vous a cr&eacute;&eacute;s par phases successives ?';
+$t[15] = 'N\'avez-vous pas vu comment Allah a cr&eacute;&eacute; sept cieux superpos&eacute;s';
+$t[16] = 'et y a fait de la lune une lumi&egrave;re et du soleil une lampe ?';
+$t[17] = 'Et c\'est Allah qui, de la terre, vous a fait cro&icirc;tre comme des plantes,';
+$t[18] = 'puis Il vous y fera retourner et vous en fera sortir v&eacute;ritablement.';
+$t[19] = 'Et c\'est Allah qui vous a fait de la terre un tapis,';
+$t[20] = 'pour que vous vous acheminiez par ses voies spacieuses&quot;.';
+$t[21] = 'No&eacute; dit : &quot;Seigneur, ils m\'ont d&eacute;sob&eacute;i et ils ont suivi celui dont les biens et les enfants n\'ont fait qu\'accro&icirc;tre la perte.';
+$t[22] = 'Ils ont ourdi un immense stratag&egrave;me,';
+$t[23] = 'et ils ont dit : &quot;N\'abandonnez jamais vos divinit&eacute;s et n\'abandonnez jamais Wadd, Suwaa, Yagout, Yaouq et Nasr .';
+$t[24] = 'Elles [les idoles] ont d&eacute;j&agrave; &eacute;gar&eacute; plusieurs. Ne fais (Seigneur) cro&icirc;tre les injustes qu\'en &eacute;garement.';
+$t[25] = 'A cause de leurs fautes, ils ont &eacute;t&eacute; noy&eacute;s, puis on les a fait entrer au Feu, et ils n\'ont pas trouv&eacute; en dehors d\'Allah, de secoureurs&quot;.';
+$t[26] = 'Et No&eacute; dit : &quot;Seigneur, ne laisse sur la terre aucun infid&egrave;le.';
+$t[27] = 'Si Tu les laisses [en vie], ils &eacute;gareront Tes serviteurs et n\'engendreront que des p&eacute;cheurs infid&egrave;les.';
+$t[28] = 'Seigneur ! Pardonne-moi, et &agrave; mes p&egrave;re et m&egrave;re et &agrave; celui qui entre dans ma demeure croyante, ainsi qu\'aux croyants et croyantes; et ne fait cro&icirc;tre les injustes qu\'en perdition&quot;';
+?>

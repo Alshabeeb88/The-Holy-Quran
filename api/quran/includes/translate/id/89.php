@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Demi fajar,';
+$t[2] = 'dan malam yang sepuluh,';
+$t[3] = 'dan yang genap dan yang ganjil,';
+$t[4] = 'dan malam bila berlalu.';
+$t[5] = 'Pada yang demikian itu terdapat sumpah (yang dapat diterima) oleh orang-orang yang berakal.';
+$t[6] = 'Apakah kamu tidak memperhatikan bagaimana Tuhanmu berbuat terhadap kaum \'Aad?';
+$t[7] = '(yaitu) penduduk Iram yang mempunyai bangunan-bangunan yang tinggi,';
+$t[8] = 'yang belum pernah dibangun (suatu kota) seperti itu, di negeri-negeri lain,';
+$t[9] = 'dan kaum Tsamud yang memotong batu-batu besar di lembah,';
+$t[10] = 'dan kaum Fir\'aun yang mempunyai pasak-pasak (tentara yang banyak),';
+$t[11] = 'yang berbuat sewenang-wenang dalam negeri,';
+$t[12] = 'lalu mereka berbuat banyak kerusakan dalam negeri itu,';
+$t[13] = 'karena itu Tuhanmu menimpakan kepada mereka cemeti azab,';
+$t[14] = 'sesungguhnya Tuhanmu benar-benar mengawasi.';
+$t[15] = 'Adapun manusia apabila Tuhannya mengujinya lalu dia dimuliakan-Nya dan diberi-Nya kesenangan, maka dia akan berkata: &quot;Tuhanku telah memuliakanku&quot;.';
+$t[16] = 'Adapun bila Tuhannya mengujinya lalu membatasi rezekinya maka dia berkata: &quot;Tuhanku menghinakanku&quot;.';
+$t[17] = 'Sekali-kali tidak (demikian), sebenarnya kamu tidak memuliakan anak yatim,';
+$t[18] = 'dan kamu tidak saling mengajak memberi makan orang miskin,';
+$t[19] = 'dan kamu memakan harta pusaka dengan cara mencampur baurkan (yang halal dan yang bathil),';
+$t[20] = 'dan kamu mencintai harta benda dengan kecintaan yang berlebihan.';
+$t[21] = 'Jangan (berbuat demikian). Apabila bumi digoncangkan berturut-turut,';
+$t[22] = 'dan datanglah Tuhanmu; sedang malaikat berbaris-baris.';
+$t[23] = 'Dan pada hari itu diperlihatkan neraka Jahannam; dan pada hari itu ingatlah manusia, akan tetapi tidak berguna lagi mengingat itu baginya.';
+$t[24] = 'Dia mengatakan: &quot;Alangkah baiknya kiranya aku dahulu mengerjakan (amal saleh) untuk hidupku ini&quot;.';
+$t[25] = 'Maka pada hari itu tiada seorangpun yang menyiksa seperti siksa-Nya.';
+$t[26] = 'dan tiada seorangpun yang mengikat seperti ikatan-Nya.';
+$t[27] = 'Hai jiwa yang tenang.';
+$t[28] = 'Kembalilah kepada Tuhanmu dengan hati yang puas lagi diridhai-Nya.';
+$t[29] = 'Maka masuklah ke dalam jama\'ah hamba-hamba-Ku,';
+$t[30] = 'masuklah ke dalam surga-Ku.';
+?>

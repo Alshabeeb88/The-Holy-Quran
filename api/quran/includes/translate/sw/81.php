@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Jua litakapo kunjwa,';
+$t[2] = 'Na nyota zikazimwa,';
+$t[3] = 'Na milima ikaondolewa,';
+$t[4] = 'Na ngamia wenye mimba pevu watakapo achwa wasishughulikiwe,';
+$t[5] = 'Na wanyama wa mwituni wakakusanywa,';
+$t[6] = 'Na bahari zikawaka moto,';
+$t[7] = 'Na nafsi zikaunganishwa,';
+$t[8] = 'Na msichana aliye zikwa hai atapo ulizwa,';
+$t[9] = 'Kwa kosa gani aliuliwa?';
+$t[10] = 'Na madaftari yatakapo enezwa,';
+$t[11] = 'Na mbingu itapo tanduliwa,';
+$t[12] = 'Na Jahannamu itapo chochewa,';
+$t[13] = 'Na Pepo ikasogezwa,';
+$t[14] = 'Kila nafsi itajua ilicho kihudhurisha.';
+$t[15] = 'Naapa kwa nyota zinapo rejea nyuma,';
+$t[16] = 'Zinazo kwenda, kisha zikajificha,';
+$t[17] = 'Na kwa usiku unapo pungua,';
+$t[18] = 'Na kwa asubuhi inapo pambazuka,';
+$t[19] = 'Kwamba hakika bila ya shaka hii ni kauli ya Mjumbe mtukufu,';
+$t[20] = 'Mwenye nguvu na mwenye cheo kwa huyo Mwenye Kiti cha Enzi,';
+$t[21] = 'Anaye t\'iiwa, tena muaminifu.';
+$t[22] = 'Na wala huyu mwenzenu hana wazimu.';
+$t[23] = 'Na hakika yeye alimwona kwenye upeo wa macho ulio safi.';
+$t[24] = 'Wala yeye si bakhili kwa mambo ya ghaibu.';
+$t[25] = 'Wala hii si kauli ya Shetani maluuni.';
+$t[26] = 'Basi mnakwenda wapi?';
+$t[27] = 'Haikuwa hii ila ni ukumbusho kwa walimwengu wote.';
+$t[28] = 'Kwa yule miongoni mwenu anaye taka kwenda sawa.';
+$t[29] = 'Wala nyinyi hamtataka isipo kuwa atake Mwenyezi Mungu Mola Mlezi wa walimwengu wote.';
+?>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /includes/
+Disallow: /cache/
+Disallow: /admin-login.php
+Disallow: /sadaqah-agent.php
+
+Sitemap: https://example.com/sitemap.xml

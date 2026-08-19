@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Ne e d&euml;rguam Nuhun e populli i vet (dhe i tham&euml;): &ldquo;T&euml;rhiqja v&euml;rejtjen popullit t&euml;nd para se ata t&rsquo;i godas&euml; d&euml;nimi i r&euml;nd&euml;!&rdquo;';
+$t[2] = 'Ai tha: &ldquo;O populli im, un&euml; jam i d&euml;ruar te ju, jam i qart&euml;.';
+$t[3] = 'Adhuronie All-llahun, kini frik&euml; prej Tij dhe mua m&euml; d&euml;gjoni.';
+$t[4] = 'Ai u fal&euml; juve nga m&euml;katet tuaja dhe ua vazhdon jet&euml;n deri n&euml; nj&euml; afat t&euml; caktuar (pa u d&euml;nuar), e kur t&euml; vij&euml; afati i caktuar prej All-llahut, ai nuk shtyhet p&euml;r m&euml; von&euml;, n&euml;se jeni q&euml; e dini&rdquo;.';
+$t[5] = 'Ai tha: &ldquo;O Zoti im, un&euml; e thirra popullin tim nat&euml;n e dit&euml;n.';
+$t[6] = 'Por thirrja ime vet&euml;m ua shtoi ikjen.';
+$t[7] = 'Dhe sa her&euml; q&euml; un&euml; i thirritja ata p&euml;r t&rsquo;u falur Ti m&euml;katet, ata i v&euml;nin gishtat e tyre n&euml; vesh&euml; dhe e mbulonin kokat me teshat e tyre dhe vazhdonin n&euml; at&euml; t&euml; tyren me nj&euml; mendjemadh&euml;si t&euml; fort&euml;.';
+$t[8] = 'Pastaj, un&euml; i kam thirrur ata haptazi.';
+$t[9] = 'Pastaj un&euml; thirrjen ua drejtoja atyre haptazi, e shum&euml; her&euml; edhe fshehurazi&rdquo;.';
+$t[10] = 'Un&euml; u thash&euml;: &ldquo;K&euml;rkoni falje Zotit tuaj, se Ai v&euml;rtet fal&euml; shum&euml;;';
+$t[11] = 'Ai ju l&euml;shon nga qielli shi me boll&euml;k,';
+$t[12] = 'Ju shumon pasurin&euml; dhe f&euml;mij&euml;t, ju b&euml;n t&euml; keni kopshte dhe ju jep lumenj.';
+$t[13] = '&ccedil;&rsquo;&euml;sht&euml; me ju q&euml; All-llahut nuk i shprehni madh&euml;rin&euml; q&euml; e meriton?';
+$t[14] = 'Kur Ai ju krijoi n&euml; disa etapa.';
+$t[15] = 'A nuk e keni par&euml; se si All-llahu krijoi shtat&euml; pal&euml; qiej (n&euml; kate).';
+$t[16] = 'Dhe n&euml; ta h&euml;n&euml;n e b&euml;ri drit&euml;, diellin e b&euml;ri ndri&ccedil;ues.';
+$t[17] = 'Dhe All-llahu u shpiku juve prej tok&euml;s si bim&euml;.';
+$t[18] = 'Pastaj ju kthen n&euml; t&euml; pa dyshim ju nxjerr s&euml;rish.';
+$t[19] = 'All-llahu juve ua b&euml;ri tok&euml;n t&euml; shesht&euml;.';
+$t[20] = 'Q&euml; n&euml;p&euml;r t&euml; t&euml; ecni rrug&euml;ve t&euml; gjera&rdquo;.';
+$t[21] = 'Nuhu tha: &ldquo;Zoti im, ata m&euml; kund&euml;rshtuan, ata shkuan pas atyre (pasanik&euml;ve), t&euml; cil&euml;ve pasuria dhe f&euml;mij&euml;t e tyre vet&euml;m ua shtuan d&euml;shp&euml;rimin.';
+$t[22] = 'Dhe ata (pasanik&euml;t) u kurdis&euml;n atyre kurthe shum&euml; t&euml; m&euml;dha&rdquo;.';
+$t[23] = 'Dhe u than&euml;: Mos braktisni zotat tuaj kurrsesi, mos braktisni Vedda-n&euml;, as Suvva-n&euml;, e Jeguth-in, Jeuk&euml;-n e Nesre-n.';
+$t[24] = 'Dhe ata i b&euml;n&euml; t&euml; humbur shum&euml; sish, e Ti zullumqar&euml;ve mos u jep tjet&euml;r, por vet&euml;m humbje.';
+$t[25] = 'P&euml;r shkak t&euml; m&euml;kateve t&euml; tyre ata u p&euml;rmbyt&euml;n dhe menj&euml;her&euml; u fut&euml;n n&euml; zjarr dhe ata, p&euml;rve&ccedil; All-llahut, nuk gjet&euml;n ndihm&euml;tar&euml;.';
+$t[26] = 'E Nuhu tha: &ldquo;O Zoti im, mos l&euml; mbi tok&euml; asnj&euml; nga jobesimtar&euml;t!';
+$t[27] = 'Sepse, n&euml;se Ti i l&euml; ata, rob&euml;rit Tu do t&rsquo;i humbin dhe prej tyre nuk lind tjet&euml;r, vet&euml;m t&euml; prishur e jobesimtar&euml;.';
+$t[28] = 'Zoti im, m&euml; fal&euml; mua dhe prind&euml;rit e mi, dhe ata q&euml; hyn&euml; n&euml; sht&euml;pin&euml; time, duke qen&euml; besimtar&euml;. edhe besimtar&euml;t e besimtaret, nd&euml;rsa jobesimtar&euml;ve mos u shto tjet&euml;r, vet&euml;m d&euml;shp&euml;rim&rdquo;.';
+?>

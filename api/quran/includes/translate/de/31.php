@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'Alif Lam Mim.';
+$t[2] = 'Dies sind die Zeichen des weisen Buches,';
+$t[3] = 'Eine Rechtleitung und Barmherzigkeit f&uuml;r die Rechtschaffenen,';
+$t[4] = 'Die das Gebet verrichten und die Abgabe entrichten, und die &uuml;ber das Jenseits Gewi&szlig;heit hegen.';
+$t[5] = 'Diese folgen einer Rechtleitung von ihrem Herrn, und das sind die, denen es wohl ergeht.';
+$t[6] = 'Unter den Menschen gibt es manch einen, der erg&ouml;tzende Unterhaltung einhandelt, um (die Menschen) vom Weg Gottes ohne (rechtes) Wissen abirren zu lassen und ihn zum Gegenstand des Spottes zu nehmen. F&uuml;r solche ist eine schm&auml;hliche Pein bestimmt.';
+$t[7] = 'Und wenn ihm unsere Zeichen verlesen werden, kehrt er sich hochm&uuml;tig ab, als h&auml;tte er sie nicht geh&ouml;rt, als w&auml;re eine Schwerh&ouml;rigkeit in seinen Ohren. So verk&uuml;nde ihm eine schmerzhafte Pein.';
+$t[8] = 'F&uuml;r diejenigen, die glauben und die guten Werke tun, sind die G&auml;rten der Wonne bestimmt;';
+$t[9] = 'Darin werden sie ewig weilen. Dies ist das Versprechen Gottes in Wahrheit. Und Er ist der M&auml;chtige, der Weise.';
+$t[10] = 'Er hat die Himmel erschaffen ohne St&uuml;tzen, die ihr sehen k&ouml;nntet. Und Er hat auf der Erde festgegr&uuml;ndete Berge gelegt, da&szlig; sie nicht mit euch schwanke. Und Er hat auf ihr allerlei Getier sich ausbreiten lassen. Und Wir haben Wasser vom Himmel herabkommen und damit viele treffliche Arten auf ihr wachsen lassen.';
+$t[11] = 'Das ist die Sch&ouml;pfung Gottes. Zeigt mir nun, was die geschaffen haben, die es au&szlig;er Ihm geben soll. Nein, diejenigen, die Unrecht tun, befinden sich in einem offenkundigen Irrtum.';
+$t[12] = 'Und Wir lie&szlig;en den Luqmaan Weisheit zukommen: &laquo;Du sollst gegen Gott dankbar sein.&raquo; Und wer dankbar ist, ist dankbar zu seinem eigenen Vorteil. Und wenn einer undankbar ist, so ist Gott auf niemanden angewiesen und des Lobes w&uuml;rdig.';
+$t[13] = 'Und als Luqmaan zu seinem Sohn sagte, indem er ihn ermahnte: &laquo;O mein lieber Sohn, geselle Gott nichts bei. Die Beigesellung ist ein gewaltiges Unrecht.&raquo;';
+$t[14] = 'Und Wir haben dem Menschen aufgetragen, seine Eltern gut zu behandeln. Seine Mutter hat ihn ja unter wiederholter Schw&auml;che getragen. Und seine Entw&ouml;hnung erfolgt binnen zwei Jahren. - &laquo;Sei dankbar Mir und deinen Eltern. Zu Mir f&uuml;hrt der Lebensweg.';
+$t[15] = 'Wenn sie dich bedr&auml;ngen, Mir das beizugesellen, wovon du kein Wissen hast, dann gehorche ihnen nicht. Und geh mit ihnen im Diesseits in rechtlicher Weise um. Und folge dem Weg derer, die sich Mir reum&uuml;tig zuwenden. Zu Mir wird dann eure R&uuml;ckkehr sein, da werde Ich euch kundtun, was ihr zu tun pflegtet.';
+$t[16] = 'O mein lieber Sohn, w&auml;re es auch das Gewicht eines Senfkornes und bef&auml;nde es sich in einem Felsen oder in den Himmeln oder auf der Erde, Gott bringt es bei. Gott ist feinf&uuml;hlig und hat Kenntnis von allem.';
+$t[17] = 'O mein lieber Sohn, verrichte das Gebet, gebiete das Rechte und verbiete das Verwerfliche, ertrage geduldig, was dich trifft. Das geh&ouml;rt zur Entschlossenheit in den Anliegen.';
+$t[18] = 'Und zeige den Menschen nicht hochn&auml;sig die Wange, und schreite nicht unbek&uuml;mmert auf der Erde umher. Gott liebt niemanden, der eingebildet und prahlerisch ist.';
+$t[19] = 'Halte das rechte Ma&szlig; in deinem Gang. Und d&auml;mpfe deine Stimme. Die widerlichste unter den Stimmen ist die Stimme der Esel.&raquo;';
+$t[20] = 'Habt ihr nicht gesehen, da&szlig; Gott euch das, was in den Himmeln und auf der Erde ist, dienstbar gemacht hat, und da&szlig; Er &uuml;ber euch seine Gnade ausgegossen hat &auml;u&szlig;erlich und innerlich? Und unter den Menschen gibt es welche, die &uuml;ber Gott streiten ohne (richtiges) Wissen, ohne Rechtleitung und ohne erleuchtendes Buch.';
+$t[21] = 'Und wenn zu ihnen gesagt wird: &laquo;Folgt dem, was Gott herabgesandt hat&raquo;, sagen sie: &laquo;Wir folgen lieber dem, was wir bei unseren V&auml;tern vorgefunden haben.&raquo; Was denn, auch wenn der Satan sie zur Pein des Feuerbrandes ruft?';
+$t[22] = 'Wer sich Gott v&ouml;llig hingibt und dabei rechtschaffen ist, der h&auml;lt sich an der festesten Handhabe. Und zu Gott f&uuml;hrt das Ende der Angelegenheiten.';
+$t[23] = 'Und wer ungl&auml;ubig ist, dessen Unglaube soll dich nicht betr&uuml;ben. Zu Uns wird ihre R&uuml;ckkehr sein, da werden Wir ihnen kundtun, was sie taten. Gott wei&szlig; &uuml;ber das innere Geheimnis Bescheid.';
+$t[24] = 'Wir lassen sie ein wenig genie&szlig;en, alsdann zwingen Wir sie in eine schwere Pein.';
+$t[25] = 'Und wenn du sie fragst, wer die Himmel und die Erde erschaffen hat, sagen sie bestimmt: &laquo;Gott.&raquo; Sprich: Lob sei Gott! Aber die meisten von ihnen wissen nicht Bescheid.';
+$t[26] = 'Gott geh&ouml;rt, was in den Himmeln und auf der Erde ist. Gott ist der, der auf niemanden angewiesen und des Lobes w&uuml;rdig ist.';
+$t[27] = 'Und wenn das, was es auf der Erde an B&auml;umen gibt, Schreibrohre w&auml;ren, und das Meer (als Tinte) bereits einmal leer gemacht w&auml;re und noch sieben weitere Meere dazu erhielte, w&uuml;rden die Worte Gottes nicht zu Ende gehen. Wahrlich, Gott ist m&auml;chtig und weise.';
+$t[28] = 'Euch (alle) erschaffen und auferwecken ist nur so wie bei einem einzigen Menschen. Gott h&ouml;rt und sieht alles.';
+$t[29] = 'Hast du nicht gesehen, da&szlig; Gott die Nacht in den Tag &uuml;bergehen und den Tag in die Nacht &uuml;bergehen l&auml;&szlig;t und die Sonne und den Mond dienstbar gemacht hat, so da&szlig; jedes seinen Lauf zu einer festgelegten Frist nimmt, und da&szlig; Gott Kenntnis hat von dem, was ihr tut?';
+$t[30] = 'Dies, weil Gott die Wahrheit ist und weil das, was sie an seiner Stelle anrufen, das Falsche ist, und weil Gott der Erhabene und Gro&szlig;e ist.';
+$t[31] = 'Hast du nicht gesehen, da&szlig; die Schiffe durch die Gnade Gottes auf dem Meer fahren, damit Er euch etwas von seinen Zeichen sehen l&auml;&szlig;t? Darin sind wahrlich Zeichen f&uuml;r jeden, der sehr geduldig und sehr dankbar ist.';
+$t[32] = 'Und wenn Wellen wie &uuml;berschattende H&uuml;llen sie &uuml;berdecken, rufen sie zu Gott, wobei sie Ihm gegen&uuml;ber aufrichtig in der Religion sind. Wenn Er sie ans Land errettet, zeigen nur einige von ihnen einen ma&szlig;vollen Wandel. Und nur der verleugnet unsere Zeichen, der ganz treulos und sehr undankbar ist.';
+$t[33] = 'O ihr Menschen, f&uuml;rchtet euren Herrn und habt Angst vor einem Tag, an dem weder der Vater etwas f&uuml;r sein Kind begleichen kann, noch das Kind f&uuml;r seinen Vater etwas begleichen kann. Das Versprechen Gottes ist wahr. So soll euch das diesseitige Leben nicht bet&ouml;ren. Und nicht bet&ouml;ren soll euch in bezug auf Gott der Bet&ouml;rer.';
+$t[34] = 'Gott (allein) wei&szlig; &uuml;ber die Stunde Bescheid. Er l&auml;&szlig;t den Regen herabkommen. Und Er wei&szlig;, was im Mutterscho&szlig; ist. Niemand wei&szlig;, was er morgen erwerben wird, und niemand wei&szlig;, in welchem Land er sterben wird. Gott wei&szlig; Bescheid und hat Kenntnis von allem.';
+?>

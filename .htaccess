@@ -1,0 +1,79 @@
+RewriteEngine on
+
+# Private application artefacts. Each of these also carries an application-level
+# guard, so protection does not depend on this file alone.
+<FilesMatch "^(\.qfa-installed|\.qfa-install\.lock|admin_auth_store\.php|contact_messages\.php|contact_messages-archive\.php|contact_messages\.jsonl)$">
+Require all denied
+</FilesMatch>
+
+## RewriteCond %{SERVER_PORT} 80
+## RewriteRule ^(.*)$ https://www.quran-for-all.com/$1 [R,L]
+
+RewriteRule index\.html$ index.php
+RewriteRule surah-(.*)\.html$ index.php?surah=$1&l=ar
+RewriteRule view-(.*),from-(.*),to-(.*)\.html$ index.php?surah=$1&f=$2&t=$3 [QSA,L]
+RewriteRule reader-(.*)-(.*)\.html$ index.php?surah=$1&reader_id=$2
+
+RewriteRule quran\.html$ index.php?action=quran
+RewriteRule language-(.*)\.html$ index.php?action=translate&l=$1
+RewriteRule translate-(.*)-(.*)\.html$ index.php?action=translate&l=$1&surah=$2
+RewriteRule s-(.*)-(.*)-(.*)\.html$ index.php?action=translate&l=$1&surah=$2&reader_id=$3
+
+RewriteRule tafseer-(.*)-(.*)\.html$ index.php?action=tafseer&type=$1&surah=$2
+RewriteRule tafseer-(.*)\.html$ index.php?action=tafseer&type=$1
+RewriteRule t-(.*)-(.*)-(.*)\.html$ index.php?action=tafseer&surah=$1&type=$2&ayah=$3
+
+RewriteRule languages\.html$ index.php?action=languages
+RewriteRule books\.html$ index.php?action=books
+RewriteRule languages\.html$ index.php?action=languages
+RewriteRule books\.html$ index.php?action=books
+
+RewriteRule ^date-converter\.html$ index.php?action=date_converter [L,QSA]
+RewriteRule ^contact\.html$ index.php?action=contact [L,QSA]
+RewriteRule ^morning-adhkar\.html$ index.php?action=morning_adhkar [L,QSA]
+RewriteRule ^evening-adhkar\.html$ index.php?action=evening_adhkar [L,QSA]
+RewriteRule ^qibla\.html$ index.php?action=qibla [L,QSA]
+
+RewriteRule books-in-(.*)\.html$ index.php?action=books_language&name=$1
+RewriteRule books-in-(.*)\.html$ index.php?action=books_language&name=$1
+RewriteRule (.*)-page-(.*)\.html$ index.php?action=books_language&name=$1&page=$2
+RewriteRule books-category-(.*)\.html$ index.php?action=books_category&category_id=$1
+RewriteRule category-(.*)-page(.*)\.html$ index.php?action=books_category&category_id=$1&page=$2
+RewriteRule book-(.*)\.html$ index.php?action=book&book_id=$1
+
+# ErrorDocument 400 /index.php
+# ErrorDocument 401 /index.php
+# ErrorDocument 403 /index.php
+# ErrorDocument 404 /index.php
+# ErrorDocument 500 /index.php
+
+## EXPIRES CACHING ##
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/jpg "access 1 year"
+ExpiresByType image/jpeg "access 1 year"
+ExpiresByType image/gif "access 1 year"
+ExpiresByType image/png "access 1 year"
+ExpiresByType text/css "access 1 month"
+ExpiresByType text/html "access plus 0 seconds"
+ExpiresByType application/pdf "access 1 month"
+ExpiresByType text/x-javascript "access 1 month"
+ExpiresByType application/x-shockwave-flash "access 1 month"
+ExpiresByType image/x-icon "access 1 year"
+ExpiresDefault "access 1 month"
+</IfModule>
+## EXPIRES CACHING
+
+# BEGIN cPanel-generated php ini directives, do not edit
+# Manual editing of this file may result in unexpected behavior.
+# To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
+# For more information, read our documentation (https://go.cpanel.net/EA4ModifyINI)
+<IfModule php8_module>
+   php_flag display_errors Off
+   php_flag display_startup_errors Off
+</IfModule>
+<IfModule lsapi_module>
+   php_flag display_errors Off
+   php_flag display_startup_errors Off
+</IfModule>
+# END cPanel-generated php ini directives, do not edit

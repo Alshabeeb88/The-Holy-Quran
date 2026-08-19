@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Kada sunce sjaj izgubi,';
+$t[2] = 'i kada zvijezde popadaju,';
+$t[3] = 'i kada se planine pokrenu,';
+$t[4] = 'i kada steone kamile bez pastira ostanu,';
+$t[5] = 'i kada se divlje životinje saberu,';
+$t[6] = 'i kada se mora vatrom napune,';
+$t[7] = 'i kada se du&scaron;e sa tijelima spare,';
+$t[8] = 'i kada živa sahranjenā djevojčica bude upitana';
+$t[9] = 'zbog kakve krivice je umorena,';
+$t[10] = 'i kada se listovi razdijele,';
+$t[11] = 'i kada se nebo ukloni,';
+$t[12] = 'i kada se Džehennem raspali,';
+$t[13] = 'i kada se Džennet približi &ndash;';
+$t[14] = 'svako će saznati ono &scaron;to je pripremio.';
+$t[15] = 'I kunem se zvijezdama &ndash; koje se skrivaju,';
+$t[16] = 'koje se kreću i iz vida gube,';
+$t[17] = 'i noći kad ona veo diže,';
+$t[18] = 'i zorom kada di&scaron;e &ndash;';
+$t[19] = 'Kur\'an je, zaista, kazivanje Izaslanika plemenitog,';
+$t[20] = 'moćnog, od Gospodara svemira cijenjenog,';
+$t[21] = 'kome se drugi potčinjavaju, tamo pouzdanog!';
+$t[22] = 'A drug va&scaron; nije lud:';
+$t[23] = 'on ga je na obzorju jasnom vidio';
+$t[24] = 'i, kada je u pitanju Objava, on nije &scaron;krt';
+$t[25] = 'i Kur\'an nije prokletog &scaron;ejtana govor,';
+$t[26] = 'pa kuda onda idete?!';
+$t[27] = 'Kur\'an je samo pouka svjetovima,';
+$t[28] = 'onome od vas koji hoće da je na Pravome putu,';
+$t[29] = 'a vi ne možete ni&scaron;ta htjeti ako to Allah, Gospodar svjetova, neće!';
+?>

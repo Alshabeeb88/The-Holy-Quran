@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Dhab ahaan waxaa dadka soo maray waqti wax la sheego uusan ahayn (uusan jirin).';
+$t[2] = 'Annagaa ka abuuray dadka dhibic isku Dheehan, Imtixaan Dartiis, waxaana ka yeellay wax maqle wax arka ah.';
+$t[3] = 'Annagaa Dadka tusinnay Jidka, waxayna Noqdeen mid Shukriya (mahadiya) iyo mid Gaalnimo Badan.';
+$t[4] = 'Annagaa u darabnay Gaalada silsilado iyo katinado iyo naarta Saciira.';
+$t[5] = 'kuwa Baarriyiinta ah waxay ka cabbi weel Buuxa oo lagu Dheehay kaafuur.';
+$t[6] = 'Waa il ay ka Cabbaan Addoomada Eebe, ayna ujiidaan say Doonaan,';
+$t[7] = 'Wayna oofiyaan Nadarka, waxayna ka yaabi maalin sharkeedu fidi (qiyaamada).';
+$t[8] = 'Waxayna Quudiyaan iyagoo jecel miskiinka Agoonka iyo kan xabbisan (Dhibban).';
+$t[9] = 'Iyagoo Dhihi waxaan idiin quudinnay dar Eebe, mana idinka doonaynno Ahaalmarin iyo Mahadnaq Midna.';
+$t[10] = 'Waxaan ka Yabaynaa Eebahanno Maalin (wajigu) doorsoomi oo Daran.';
+$t[11] = 'Eebana waa ka Dhawray sharka Maalintaas, wuxuuna siiyay nuur iyo Farax.';
+$t[12] = 'Wuxuuna ku abaal Mariyay Samirkooda Dartiis jano iyo Xariir.';
+$t[13] = 'Waxayna ku Dangiigsan Sariiro Sare, iyagoon ku arkayn qorrax iyo Dhaxan midna.';
+$t[14] = 'Waxaana u dhaw hooska jannada, waxaana loo soo Raariciyay Midheheeda.';
+$t[15] = 'Waxaa lala kor socon weelal Fidla ah iyo Koobab Quruurado ah.';
+$t[16] = 'Quruuradahaas oo fidla ah si fiicanna u Qiyaasan.';
+$t[17] = 'Waxaana laga Waraabiyaa Ehlu jannaha Sharaab macaan oo lugu Dheehay sinjibiil.';
+$t[18] = 'Waana il lugu Magacaabo Salsabiil (ay ka cabbi).';
+$t[19] = 'Waxaana u ageegi wiilal waari, Haddaad Aragtana aad u malayn Jawhar la saydhay.';
+$t[20] = 'Haddaad Aragto halkaas waxaad arki nicmo iyo sharaf wayn.';
+$t[21] = 'Dharkooduna (Ehlu Jannaha) waa xariir Jilicsan oo cagaaran iyo Xariir adagba, waxaana loo xidhi fidlo Gacmaha la Gashado, Eebana wuxuu ka waraabiyaa sharaab nadiifah.';
+$t[22] = 'Kaasi waa Abaalmarintiinii Falkiiniina wuxuu Noqday mid la Mahadiyay.';
+$t[23] = 'Annagaa Quraanka Nabiyow kugu soo Dajinnay.';
+$t[24] = 'Ee ku Samir Xukunka Eebe, hana Maqlin Dambiile iyo Gaalnima Badane (warkiis).';
+$t[25] = 'Xus magaca Eebe subax iyo Galabba.';
+$t[26] = 'Habeenkana Eebe u sujuud, una tasbiixso Habeenkii (u tuko) waqti Dheer.';
+$t[27] = 'Kuwaasi waxay Jecelyihiin tan soo Dagdagaysa (Adduunyada) waxay kaga Tagayaan Gadaashoodana Maalin Culus (Qiaamada).';
+$t[28] = 'Annagaa Abuurray Dadka, Adkaynayna xubnohooda, Haddaan Doonnana waxaan ku Baddalaynaa kuwa la mid ah.';
+$t[29] = 'Suuraddani waa waano, Ee Ruuxii Doona ha ka yeesho Eebe Xaggiisa waddo.';
+$t[30] = 'Waxna ma dooni kartaan in Eebe doona mooyee, Eebana waa wax walba oge falsan.';
+$t[31] = 'Wuxuu galiyaa naxariistiisa ruuxuu doono, daalimiintana wuxuu u darbay cadaab daran.';
+?>

@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Eebe wuxuu ku dhaartay Waabariga.';
+$t[2] = 'Iyo Habenanada Tobanka ah (Arrafo).';
+$t[3] = 'Iyo Tirada siman iyo tan is dheer.';
+$t[4] = 'Iyo Habeenku markuu tagayu.';
+$t[5] = 'Miyayna arrintaasu ahayn wax loogu dhaarto Qof caqli leh.';
+$t[6] = 'Ma ku soo Gaadhay sida Eebahaa ku falay Caad.';
+$t[7] = 'Ee ahaa Irama xooggana lahaa.';
+$t[8] = 'Wax la mid ahna aan iugu abuurin dhulka.';
+$t[9] = 'Iyo Thamuud-kii ahaa dhagaxa kuwa ku jarjara Waadiga.';
+$t[10] = 'lyo Fircoonkii dhakawyada lahaa.';
+$t[11] = 'kuwiina ahaa ku xadgudbay dhulka.';
+$t[12] = '12 Kuna badiyay dhexdiisa fassaadka.';
+$t[13] = 'Markaasaana Eeba ku shubay Caddibaad daran.';
+$t[14] = 'Maxaayeelay Eebe waa u darbanyahay (abaalmarinta).';
+$t[15] = 'Marks Eebe Dadka imtixaano xoolana ugu nicmeeyo wuxuu dhihi (kan xun) waa lai sharrifay (isagoo faani).';
+$t[16] = 'Haddiise Eebe imtixaano oo Xoolaha ku yareeyo wuxuu dhihi Eebaa i dulleeyay.';
+$t[17] = 'Saas ma aha ee waxaydaan dhaqaalaynayn Agoonka.';
+$t[18] = 'Mana fartaan in masaakiinta wax la siiyo.';
+$t[19] = 'Waxaadna aad u cuntaan dhaxal xaq darro.';
+$t[20] = 'Xoolahana waxaad u jeceshihiin si daran.';
+$t[21] = 'Saas ma aha ee marka dhulka la burburiyo.';
+$t[22] = 'Eebe iyo Malaguna la yimaaddo amarkiisa Malaa\'igtoo safan.';
+$t[23] = 'Naarta Jahannamana Maalintaas la keeno, Dadku waxay xusuusan waxay faleen, Maxayse xusuusi tari.';
+$t[24] = 'Waxay dhihi shallaytee maan wanaag hormarsado.';
+$t[25] = 'Malintaas sida Eebe wax ruux u Cadaabi ma jiro.';
+$t[26] = 'Wax sida Eebe wax u xidhina ma jiro.';
+$t[27] = 'Naftase xaqa rumaysay ee Xasillooneey.';
+$t[28] = 'U noqo Eebaha adoo raalli ah lagana raalli noqday.';
+$t[29] = 'dhexgalna Addoomadayda (wanaagsan).';
+$t[30] = 'Galna Jannadayda.';
+?>

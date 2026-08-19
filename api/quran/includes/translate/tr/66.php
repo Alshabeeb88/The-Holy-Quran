@@ -1,0 +1,15 @@
+<?php
+$t = array();
+$t[1] = 'Ey Peygamber! Eslerinin rizasini arayarak Allah\'in sana hel&acirc;l kildigi seyi ni&ccedil;in sen kendine haram ediyorsun? Allah &ccedil;ok bagislayan &ccedil;ok esirgeyendir.';
+$t[2] = 'Allah size yeminlerinizi &ccedil;&ouml;zmeyi mesr&ucirc; kilmistir. Allah sizin sahibinizdir. O bilendir, hikmetle y&ouml;netendir.';
+$t[3] = 'Peygamber, eslerinden birine gizlice bir s&ouml;z s&ouml;ylemisti. Fakat esi, o s&ouml;z&uuml; baskalarina haber verip Allah da bunu Peygamber\'e a&ccedil;iklayinca, Peygamber (esine) bir kismini bildirmis bir kismindan da vazge&ccedil;misti. Peygamber bunu ona haber verince esi: &quot;Bunu sana kim s&ouml;yledi?&quot; dedi. Peygamber &quot;Bilen, her seyden haberi olan Allah bana s&ouml;yledi.&quot; dedi.';
+$t[4] = 'Eger ikiniz de Allah\'a tevbe ederseniz ne iyi, &ccedil;&uuml;nk&uuml; kalpleriniz egildi. Ve eger Peygamber\'e karsi birbirinize arka olursaniz (bilin ki) onun dostu ve yardimcisi Allah, Cibr&icirc;l ve m&uuml;minlerin iyileridir. Bunun ardindan melekler de ona arkadir.';
+$t[5] = 'Eger o sizi bosarsa belki de Rabbi ona, sizden daha hayirli, kendisini Allah\'a teslim eden, inanan, g&ouml;n&uuml;lden itaat eden, tevbe eden, oru&ccedil; tutan dul ve bakire esler verir.';
+$t[6] = 'Ey inananlar! Kendinizi ve ailenizi bir atesten koruyun ki onun yakiti insanlar ve taslardir. Onun basinda gayet kati, siddetli, Allah\'in kendilerine buyurduguna karsi gelmeyen ve emredildikleri seyi yapan melekler vardir.';
+$t[7] = '(Ink&acirc;r edenlere): &quot;Ey k&acirc;firler! Bug&uuml;n &ouml;z&uuml;r dilemeyin. Siz ancak islediklerinizin cezasini &ccedil;ekeceksiniz.&quot; (denilir.)';
+$t[8] = 'Ey iman edenler! Samimi bir tevbe ile Allah\'a d&ouml;n&uuml;n. Umulur ki Rabbiniz sizin k&ouml;t&uuml;l&uuml;klerinizi &ouml;rter, Peygamber\'i ve onunla birlikte iman edenleri utandirmayacagi g&uuml;nde Allah sizi, i&ccedil;lerinden irmaklar akan cennetlere sokar. &Ccedil;&uuml;nk&uuml; onlarin nurlari, &ouml;nlerinde ve yanlarinda kosar da, &quot;Ey Rabbimiz! Nurumuzu tamamla, bizi bagisla, &ccedil;&uuml;nk&uuml; sen her seye k&acirc;dirsin.&quot; derler.';
+$t[9] = 'Ey Peygamber! K&acirc;firler ve m&uuml;nafiklarla savas, onlara karsi sert davran. Onlarin varacagi yer cehennemdir. O gidilecek yer, ne de k&ouml;t&uuml;d&uuml;r!';
+$t[10] = 'Allah, ink&acirc;r edenlere, Nuh\'un karisi ile Lut\'un karisini misal verdi. Bu ikisi, kullarimizdan iki salih kulun (nikahi) altinda idiler, onlara hiyanet ettiler. (Kocalari,) Allah\'tan hi&ccedil;bir seyi onlardan savamadi. (Onlara): &quot;Haydi girenlerle birlikte siz de atese girin!&quot; denildi.';
+$t[11] = 'Allah, inananlara da Firavun\'un karisini &ouml;rnek g&ouml;sterdi. O s&ouml;yle demisti: &quot;Rabbim! Bana yaninda cennetin i&ccedil;inde bir ev yap, beni Firavun\'dan ve onun (k&ouml;t&uuml;) isinden kurtar. Ve beni su zalim toplumdan kurtar!&quot;';
+$t[12] = 'Irzini korumus olan, Imr&acirc;n kizi Meryem\'i de Allah &ouml;rnek g&ouml;sterdi. Biz, ona ruhumuzdan &uuml;fledik ve Rabbinin s&ouml;zlerini ve kitaplarini tasdik etti. O, g&ouml;n&uuml;lden itaat edenlerdendi.';
+?>

@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alif, Lam, Mim .';
+$t[2] = 'La R&eacute;v&eacute;lation du Livres, nul doute l&agrave;-dessus, &eacute;mane du Seigneur de l\'univers.';
+$t[3] = 'Diront-ils qu\'il (Muhammad) l\'a invent&eacute; ? Ceci est, au contraire, la v&eacute;rit&eacute; venant de ton Seigneur pour que tu avertisses un peuple &agrave; qui nul avertisseur avant toi n\'est venu, afin qu\'ils se guident.';
+$t[4] = 'Allah qui a cr&eacute;&eacute; en six jours les cieux et la terre, et ce qui est entre eux. Ensuite Il S\'est &eacute;tabli &quot;Istawa&quot; sur le Tr&ocirc;ne. Vous n\'avez, en dehors de Lui, ni alli&eacute; ni intercesseur. Ne vous rappelez-vous donc pas ?';
+$t[5] = 'Du ciel &agrave; la terre, Il administre l\'affaire, laquelle ensuite monte vers Lui en un jour &eacute;quivalant &agrave; mille ans de votre calcul.';
+$t[6] = 'C\'est Lui le Connaisseur [des mondes] inconnus et visibles, le Puissant, le Mis&eacute;ricordieux,';
+$t[7] = 'qui a bien fait tout ce qu\'Il a cr&eacute;&eacute;. Et Il a commenc&eacute; la cr&eacute;ation de l\'homme &agrave; partir de l\'argile,';
+$t[8] = 'puis Il tira sa descendance d\'une goutte d\'eau vile [le sperme];';
+$t[9] = 'puis Il lui donna sa forme parfaite et lui insuffla de Son Esprit . Et Il vous a assign&eacute; l\'ou&iuml;e, les yeux et le c&oelig;ur. Que vous &ecirc;tes peu reconnaissants !';
+$t[10] = 'Et ils disent : &quot;Quand nous serons perdus dans la terre [sous forme de poussi&egrave;re], redeviendrons-nous une cr&eacute;ation nouvelle ? &quot; En outre, ils ne croient pas en la rencontre avec leur Seigneur.';
+$t[11] = 'Dis : &quot;L\'Ange de la mort qui est charg&eacute; de vous, vous fera mourir. Ensuite, vous serez ramen&eacute;s vers Votre Seigneur&quot;.';
+$t[12] = 'Si tu voyais alors les criminels [compara&icirc;tre], t&ecirc;tes basses devant leur Seigneur ! &quot;Notre Seigneur, Nous avons vu et entendu, renvoie-nous donc afin que nous puissions faire du bien; nous croyons (maintenant) avec certitude&quot;.';
+$t[13] = '&quot;Si Nous voulions, Nous apporterions &agrave; chaque &acirc;me sa guid&eacute;e. Mais la parole venant de Moi doit &ecirc;tre r&eacute;alis&eacute;e : &quot;J\'emplirai l\'Enfer de djinns et d\'hommes r&eacute;unis&quot;.';
+$t[14] = '&quot;Go&ucirc;tez donc ! Pour avoir oubli&eacute; la rencontre de votre jour que voici. Nous aussi Nous vous avons oubli&eacute;s. Go&ucirc;tez au ch&acirc;timent &eacute;ternel pour ce que vous faisiez&quot;.';
+$t[15] = 'Seuls croient en Nos versets ceux qui, lorsqu\'on les leur rappelle, tombent prostern&eacute;s et, par des louanges &agrave; leur Seigneur, c&eacute;l&egrave;brent Sa gloire et ne s\'enflent pas d\'orgueil .';
+$t[16] = 'Ils s\'arrachent de leurs lits pour invoquer leur Seigneur, par crainte et espoir; et ils font largesse de ce que Nous Leur attribuons.';
+$t[17] = 'Aucun &ecirc;tre ne sait ce qu\'on a r&eacute;serv&eacute; pour eux comme r&eacute;jouissance pour les yeux, en r&eacute;compense de ce qu\'ils oeuvraient !';
+$t[18] = 'Celui qui est croyant est-il comparable au pervers ? (Non), ils ne sont point &eacute;gaux.';
+$t[19] = 'Ceux qui croient et accomplissent les bonnes oeuvres, auront leur r&eacute;sidence dans les Jardins du Refuge, en r&eacute;compense de ce qu\'ils oeuvraient .';
+$t[20] = 'Et quant &agrave; ceux qui auront &eacute;t&eacute; pervers, leur refuge sera le Feu : toutes les fois qu\'ils voudront en sortir, ils y seront ramen&eacute;s, et on leur dira : &quot;Go&ucirc;tez au ch&acirc;timent du Feu auquel vous refusiez de croire&quot;.';
+$t[21] = 'Nous leur ferons certainement go&ucirc;ter au ch&acirc;timent ici-bas, avant le grand ch&acirc;timent afin qu\'ils retournent (vers le chemin droit) !';
+$t[22] = 'Qui est plus injuste que celui &agrave; qui les versets d\'Allah sont rappel&eacute;s et qui ensuite s\'en d&eacute;tourne ? Nous nous vengerons certes des criminels.';
+$t[23] = 'Nous avons effectivement donn&eacute; &agrave; Mo&iuml;se le Livre - ne sois donc pas en doute sur ta rencontre avec lui -, et l\'avons assign&eacute; comme guide aux Enfants d\'Isra&euml;l.';
+$t[24] = 'Et Nous avons d&eacute;sign&eacute; parmi eux des dirigeants qui guidaient (les gens) par Notre ordre aussi longtemps qu\'ils enduraient et croyaient fermement en Nos versets.';
+$t[25] = 'Ton Seigneur, c\'est Lui qui d&eacute;cidera entre eux, au Jour de la R&eacute;surrection, de ce sur quoi ils divergeaient.';
+$t[26] = 'N\'est-ce pas pour eux une indication le fait qu\'avant eux, Nous ayons fait p&eacute;rir tant de g&eacute;n&eacute;rations dans les maisons desquelles ils marchent ? Il y a en cela des preuves ! N\'&eacute;couteront-ils donc pas ?';
+$t[27] = 'N\'ont-ils pas vu que Nous poussons l\'eau vers un sol aride, qu\'ensuite Nous en faisons sortir une culture que consomment leurs bestiaux et eux-m&ecirc;mes ? Ne voient-ils donc pas ?';
+$t[28] = 'Et ils disent : &quot;A quand cette victoire, si vous &ecirc;tes v&eacute;ridiques&quot; ?';
+$t[29] = 'Dis : &quot;Le jour de la Victoire, , il sera inutile aux infid&egrave;les de croire ! Et aucun d&eacute;lai ne leur sera donn&eacute;&quot;.';
+$t[30] = '&eacute;loigne-toi d\'eux et attends. Eux aussi demeurent dans l\'attente.';
+?>

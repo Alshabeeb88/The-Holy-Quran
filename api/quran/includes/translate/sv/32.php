@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alif lam meem.';
+$t[2] = 'DENNA Skrift har uppenbarats av v&auml;rldarnas Herre - det st&aring;r utom allt tvivel -';
+$t[3] = 'och &auml;nd&aring; s&auml;ger de: &quot;Han har [sj&auml;lv] f&ouml;rfattat den.&quot; Nej, den &auml;r sanningen fr&aring;n din Herre, [och med den] skall du varna ett folk som ingen varnare har kommit till f&ouml;re dig - kanske skall de l&aring;ta sig ledas p&aring; r&auml;tt v&auml;g.';
+$t[4] = 'DET &Auml;R Gud som har skapat himlarna och jorden och allt d&auml;remellan under sex dagar och som tronar [&ouml;ver skapelsen] i Sin allmakts h&auml;rlighet. Ni har ingen beskyddare utom Honom och ingen som kan tala till er f&ouml;rm&aring;n - vill ni inte t&auml;nka &ouml;ver detta';
+$t[5] = 'Han styr skapelsens ordning, fr&aring;n det h&ouml;gsta till det l&auml;gsta, och till sist stiger allt upp till Honom under en Dag vars l&auml;ngd, s&aring; som ni r&auml;knar, &auml;r tusen &aring;r.';
+$t[6] = 'Det &auml;r Han som k&auml;nner allt det som &auml;r dolt f&ouml;r m&auml;nniskor och det som de kan bevittna, den Allsm&auml;ktige, den Barmh&auml;rtige,';
+$t[7] = 'som &aring;t allt vad Han skapar ger en full&auml;ndad [form]. F&ouml;rst skapar Han m&auml;nniskan av lera;';
+$t[8] = 'd&auml;refter l&aring;ter Han hennes avkomma avlas av en droppe av en oansenlig v&auml;tska;';
+$t[9] = 'd&auml;refter formar Han henne och andas in i henne n&aring;got av Sin ande och sk&auml;nker henne h&ouml;rsel och syn samt f&ouml;rm&aring;gan att k&auml;nna och f&ouml;rst&aring;. Men ni visar s&auml;llan tacksamhet!';
+$t[10] = 'Och de s&auml;ger: &quot;Skall vi, sedan v&aring;ra [rester] uppl&ouml;sts i jorden, skapas p&aring; nytt?&quot; Ja, de f&ouml;rnekar till och med m&ouml;tet med sin Herre!';
+$t[11] = 'S&auml;g: &quot;D&ouml;dens &auml;ngel, som har satts att vaka &ouml;ver er, skall [en dag] samla in era sj&auml;lar och d&auml;refter f&ouml;rs ni &aring;ter till er Herre.&quot;';
+$t[12] = 'Om du s&aring;g de obotf&auml;rdiga syndarna n&auml;r de st&aring;r med s&auml;nkta huvuden inf&ouml;r sin Herre [och s&auml;ger:] &quot;Herre! Vi har sett och vi har h&ouml;rt; l&aring;t oss f&aring; &aring;terv&auml;nda [till jorden]! D&aring; skall vi leva ett r&auml;ttskaffens liv - [nu] har vi visshet.&quot;';
+$t[13] = 'Om Vi hade velat, kunde Vi ha v&auml;glett varje m&auml;nniska, men [detta var inte V&aring;r vilja och] s&aring; bekr&auml;ftas Mitt ord: &quot;Jag skall sannerligen fylla helvetet med osynliga v&auml;sen och m&auml;nniskor, alla tillsammantagna!&quot;';
+$t[14] = '[Och Han skall s&auml;ga till syndarna:] &quot;Pr&ouml;va nu f&ouml;ljden av att ni gl&ouml;mde [V&aring;rt] m&ouml;te denna Dag; Vi har [&auml;ven] gl&ouml;mt er. Smaka straffet f&ouml;r era handlingar, [ett straff] som skall vara i evighet!&quot;';
+$t[15] = 'BARA DE tror p&aring; V&aring;ra budskap som, n&auml;r de l&auml;ses h&ouml;gt f&ouml;r dem, faller ned i tillbedjan och lovprisar sin Herre, utan en skymt av h&ouml;gmod;';
+$t[16] = 'de som avst&aring;r fr&aring;n s&ouml;mn f&ouml;r att med fruktan och hopp &aring;kalla sin Herre och som ger &aring;t andra av det som Vi har sk&auml;nkt dem f&ouml;r deras f&ouml;rs&ouml;rjning.';
+$t[17] = 'Ingen m&auml;nniska vet vilka dolda [skatter av] djup gl&auml;dje som v&auml;ntar de [troende] som bel&ouml;ning f&ouml;r deras handlingar.';
+$t[18] = 'Kan en troende j&auml;mf&ouml;ras med syndaren som trotsar [Gud]? De &auml;r inte lika [och kommer inte att behandlas lika].';
+$t[19] = 'De som tror och lever r&auml;ttskaffens skall som bel&ouml;ning f&ouml;r sina handlingar f&aring; en fristad i lustg&aring;rdar, d&auml;r de h&auml;lsas v&auml;lkomna.';
+$t[20] = 'Men syndarna som trotsar [Gud] skall f&aring; Elden till boning - var g&aring;ng de vill komma ut ur den skall de drivas tillbaka in med ropet: &quot;Smaka Eldens straff, som ni p&aring;stod vara en l&ouml;gn!&quot;';
+$t[21] = 'Innan de f&aring;r smaka det eviga straffet skall Vi helt visst straffa dem i denna v&auml;rld - kanske [grips de d&aring; av &aring;nger och] v&auml;nder tillbaka [till Gud].';
+$t[22] = 'Och vem &auml;r mer or&auml;ttf&auml;rdig &auml;n den som, n&auml;r han blir p&aring;mind om sin Herres budskap, v&auml;nder dem ryggen? [S&aring;dana] syndare skall Vi sannerligen l&aring;ta k&auml;nna p&aring; V&aring;rt straff!';
+$t[23] = 'OCH VI sk&auml;nkte Moses [V&aring;r] uppenbarelse; tvivla d&aring; inte p&aring; att du [i Koranen] har f&aring;tt m&ouml;ta [samma sanning]. Den [tidigare uppenbarelsen] gav Vi till v&auml;gledning f&ouml;r Israels barn,';
+$t[24] = 'och n&auml;r de bar sina motg&aring;ngar med t&aring;lamod och bevarade sin &ouml;vertygelse att V&aring;ra budskap [utg&ouml;r sanningen], l&auml;t Vi ledare uppst&aring; bland dem som ledde dem i enlighet med V&aring;ra bud.';
+$t[25] = 'P&Aring; Uppst&aring;ndelsens dag skall din Herre f&auml;lla avg&ouml;randet mellan [m&auml;nniskorna] i de fr&aring;gor d&auml;r de var oense.';
+$t[26] = 'Skall inte [vetskapen om] alla de sl&auml;kten som Vi l&auml;t g&aring; under f&ouml;re dem - [m&auml;nniskor] vars boplatser de trampar - f&ouml;rm&aring; dem att t&auml;nka sig f&ouml;r? I allt detta ligger sannerligen budskap; skall de inte lyssna';
+$t[27] = 'Inser de inte att det &auml;r Vi som leder regnet till d&ouml;tt land s&aring; att det kan ge sk&ouml;rdar som tj&auml;nar till f&ouml;da f&ouml;r deras boskap och f&ouml;r dem sj&auml;lva? Skall de inte &ouml;ppna sina &ouml;gon';
+$t[28] = 'Men de s&auml;ger: &quot;N&auml;r skall det avg&ouml;rande [ni talar om] falla, om det som ni s&auml;ger &auml;r sant?&quot;';
+$t[29] = 'S&auml;g [Muhammad]: &quot;Den Dag d&aring; avg&ouml;randet faller skall de som f&ouml;rnekade sanningen inte ha n&aring;gon gl&auml;dje av den tro [som de f&ouml;r sent kommer att bek&auml;nna] och de skall inte f&aring; n&aring;got uppskov.&quot;';
+$t[30] = 'L&auml;mna dem nu &aring;t sig sj&auml;lva och v&auml;nta [p&aring; det som skall komma]; &auml;ven de skall v&auml;nta.';
+?>

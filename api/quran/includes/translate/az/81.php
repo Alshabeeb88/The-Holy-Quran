@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'G&uuml;nəş (əmmamə kimi) sarınıb b&uuml;k&uuml;ləcəyi (s&ouml;nəcəyi) zaman;';
+$t[2] = 'Ulduzlar (g&ouml;ydən qopub yağış dənələri kimi yerə) səpələnəcəyi zaman;';
+$t[3] = 'Dağlar yerindən qopardılacağı (toz kimi havada u&ccedil;acağı) zaman;';
+$t[4] = '(Bədəvi ərəblərin &ccedil;ox əziz tutduğu) boğaz dəvələr başlı-başına buraxılacağı zaman;';
+$t[5] = 'Vəhşi heyvanlar (bir-birindən qisas almaq &uuml;&ccedil;&uuml;n) bir yerə toplanacağı zaman;';
+$t[6] = 'Dənizlər od tutub yanacağı (və ya dolub daşacağı) zaman;';
+$t[7] = 'Ruhlar (bədənlərə) qovuşacağı zaman;';
+$t[8] = 'Diri-diri torpağa g&ouml;m&uuml;lən k&ouml;rpə qızdan:';
+$t[9] = '&ldquo;Axı o hansı g&uuml;naha g&ouml;rə &ouml;ld&uuml;r&uuml;ld&uuml;?&rdquo;; soruşulacağı zaman;';
+$t[10] = 'Əməl dəftərləri a&ccedil;ılacağı zaman;';
+$t[11] = 'G&ouml;y (yerindən) qopardılacağı (və ya b&uuml;k&uuml;ləcəyi) zaman;';
+$t[12] = 'Cəhənnəm alovlandırılacağı zaman;';
+$t[13] = 'Və Cənnət (m&ouml;&rsquo;minlərə) yaxınlaşdırılacağı zaman;';
+$t[14] = 'Hər kəs (d&uuml;nyada bug&uuml;nk&uuml; g&uuml;nə &ouml;z&uuml; &uuml;&ccedil;&uuml;n yaxşı, pis) nə hazır etdiyini biləcəkdir!';
+$t[15] = 'And i&ccedil;irəm (gecə) yanıb (g&uuml;nd&uuml;z) s&ouml;nən ulduzlara;';
+$t[16] = '(G&uuml;nəşlə, ayla) seyr edib (onlar batdığı zaman) gizlənən səyyarələrə (Z&uuml;hələ, M&uuml;ştəriyə, Mərrixə, Z&ouml;hrəyə və &Uuml;taridə);';
+$t[17] = 'Qaralmaqda olan gecəyə (yaxud: qaralmaqda və &ccedil;əkilməkdə olan gecəyə)';
+$t[18] = 'Və s&ouml;k&uuml;lməkdə olan dan yerinə ki,';
+$t[19] = 'Bu (Qur&rsquo;an Allah dərgahında) &ccedil;ox m&ouml;htərəm olan bir el&ccedil;inin (Cəbrailin) gətirdiyi kəlamdır.';
+$t[20] = '(Elə bir el&ccedil;i ki) &ccedil;ox q&uuml;vvətlidir; ərşin sahibi (Allah) yanında &ccedil;ox h&ouml;rmətlidir (izzətlidir).';
+$t[21] = '(Elə bir el&ccedil;i ki, mələklər arasında) itaət ediləndir, həm də (Allah yanında vəhyə) e&rsquo;tibarlı m&uuml;vəkkildir.';
+$t[22] = '(Ey Məkkə əhli!) Həqiqətən, sizin dostunuz (m&uuml;şriklərin dediyi kimi) divanə deyildir!';
+$t[23] = 'And olsun ki, (Peyğəmbər!) onu (Cəbraili) a&ccedil;ıq (ən uca) &uuml;f&uuml;qdə g&ouml;rd&uuml;.';
+$t[24] = 'O, qeyb (vəhyi olduğu kimi təbliğ etmək və sizə &ouml;yrətmək) barəsində xəsis deyildir.';
+$t[25] = 'O (Qur&rsquo;an) da məl&rsquo;un (Allahın rəhmətindən qovulmuş) Şeytanın s&ouml;z&uuml; deyildir.';
+$t[26] = 'Elə isə (siz ondan &uuml;z d&ouml;ndərib) hara gedirsiniz?';
+$t[27] = 'O, aləmlər (b&uuml;t&uuml;n insanlar və cinlər) &uuml;&ccedil;&uuml;n ancaq bir &ouml;y&uuml;d-nəsihətdir.';
+$t[28] = 'Eləcə də sizdən doğru-d&uuml;z (yolda) olmaq istəyənlər &uuml;&ccedil;&uuml;n.';
+$t[29] = '(Onu da bilin ki) aləmlərin Rəbbi olan Allah istəməsə, siz (bunu) istəyə bilməzsiniz! (Yalnız Allah istəsə, istəyə bilərsiniz. Siz insanlar həmişə Allahın q&uuml;drəti, h&ouml;km&uuml; və iradəsi altındasınız. O sizi bir şeyi istəməyincə siz onu &ouml;z&uuml;n&uuml;zə istəyə bilməzsiniz. Ona g&ouml;rə də hər işdə Allaha təvəkk&uuml;l edin!)';
+?>

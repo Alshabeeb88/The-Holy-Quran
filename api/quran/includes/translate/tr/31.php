@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'Elif, L&acirc;m, M&icirc;m.';
+$t[2] = 'Bunlar, o hikmetli kitabin &acirc;yetleridir.';
+$t[3] = 'O, g&uuml;zellik ve iyilik yapanlar i&ccedil;in bir hidayet ve rahmettir.';
+$t[4] = 'Onlar, namazi kilarlar, zekati verirler, &acirc;hirete de kesin olarak inanirlar.';
+$t[5] = 'Iste bunlar, Rableri tarafindan bir hidayet &uuml;zeredirler. Kurtulusa erecek olanlar da iste onlardir.';
+$t[6] = 'Bayagi insanlardan kimi de vardir ki, bilgisizce Allah yolundan saptirmak ve onu eglence yerine tutmak i&ccedil;in laf eglencesi (veya bos s&ouml;z) satin alirlar. Iste onlar i&ccedil;in asagilayici bir azab vardir.';
+$t[7] = 'Onun karsisinda &acirc;yetlerimiz okundugu zaman da sanki onlari isitmemis, sanki kulaklarinda bir agirlik varmis gibi b&uuml;y&uuml;kl&uuml;k taslayarak y&uuml;z &ccedil;evirir. Iste onu, aci verecek bir azab ile m&uuml;jdele.';
+$t[8] = 'Fakat iman edip de salih amel isleyenlere gelince, onlar i&ccedil;in nimet cennetleri vardir.';
+$t[9] = 'Onlar orada ebed&icirc; olarak kalacaklardir. Bu, Allah\'in ger&ccedil;ek bir vaadidir. O, &ccedil;ok g&uuml;&ccedil;l&uuml;d&uuml;r, h&uuml;k&uuml;m ve hikmet sahibidir.';
+$t[10] = 'O, g&ouml;kleri direksiz yaratti, onlari g&ouml;r&uuml;yorsunuz. Yery&uuml;z&uuml;ne de sizi &ccedil;alkalar diye agir baskilar (sabit ve b&uuml;y&uuml;k daglar) birakti ve orada herbir hayvandan &uuml;retti. Hem biz g&ouml;kten bir su indirdik de orada her g&uuml;zel &ccedil;iftten (veya her hos &ccedil;esitten) bitkiler yetistirdik.';
+$t[11] = 'Iste bu, Allah\'in yarattigidir. Haydi g&ouml;sterin bana O\'ndan baskalari ne yaratmistir? Fakat o zalimler, apa&ccedil;ik bir sapiklik i&ccedil;indedirler.';
+$t[12] = 'Andolsun ki biz, Lokman\'a &quot;Allah\'a s&uuml;kret!&quot; diye hikmet verdik. Kim s&uuml;krederse kendi iyiligine eder. Kim de nank&ouml;rl&uuml;k ederse, s&uuml;phesiz ki Allah, hi&ccedil;bir seye muhta&ccedil; degildir, daima &ouml;v&uuml;lmeye layiktir.';
+$t[13] = 'Hani bir zaman Lokman, ogluna &ouml;g&uuml;t vererek demisti ki: &quot;Yavrucugum! Allah\'a ortak kosma, &ccedil;&uuml;nk&uuml; Allah\'a ortak kosmak (sirk), elbette b&uuml;y&uuml;k bir zul&uuml;md&uuml;r.&quot;';
+$t[14] = 'Ger&ccedil;i biz insana, anasina ve babasina itaati de tavsiye ettik. Anasi onu zayiflik &uuml;st&uuml;ne zayiflikla tasidi. Onun s&uuml;tten ayrilmasi da iki yil i&ccedil;indedir. (Biz insana): &quot;Bana, anana ve babana s&uuml;kret&quot; diye de tavsiye ettik. D&ouml;n&uuml;s, ancak banadir.';
+$t[15] = 'Bununla beraber eger her ikisi de bilmedigin bir seyi, bana ortak kosman hususunda seni zorlarsa, onlara itaat etme. Fakat d&uuml;nyada onlarla iyi ge&ccedil;in ve bana y&ouml;nelenlerin yolunu tut. Sonra d&ouml;n&uuml;s&uuml;n&uuml;z ancak banadir. O zaman ben de size yaptiklarinizi haber verecegim.';
+$t[16] = '&quot;Yavrucugum! Haberin olsun ki, yaptigin bir hardal tanesi agirliginca olsa da, bir kaya i&ccedil;inde veya g&ouml;klerde, yahut yerin dibinde gizlense, Allah onu getirir, mizanina kor. &Ccedil;&uuml;nk&uuml; Allah en ince seyleri bilir, her seyden haberdardir.&quot;';
+$t[17] = '&quot;Yavrucugum! Namazi kil, iyiligi emret, k&ouml;t&uuml;l&uuml;kten sakindir. Basina gelenlere sabret, &ccedil;&uuml;nk&uuml; bunlar, azmi gerektiren islerdendir.&quot;';
+$t[18] = '&quot;Hem insanlara karsi avurdunu sisirme (kibirlenme) ve yery&uuml;z&uuml;nde &ccedil;alimla y&uuml;r&uuml;me. &Ccedil;&uuml;nk&uuml; Allah &ouml;v&uuml;nen ve kuruntu edenlerin hi&ccedil;birini sevmez.';
+$t[19] = 'Y&uuml;r&uuml;y&uuml;s&uuml;nde tabii ol, sesini al&ccedil;alt, &ccedil;&uuml;nk&uuml; seslerin en &ccedil;irkini elbette eseklerin sesidir.';
+$t[20] = 'G&ouml;rmediniz mi ki, Allah g&ouml;klerde ve yerde ne varsa hepsini sizin hizmetinize vermis, gizli ve a&ccedil;ik olarak nimetlerini &uuml;zerinize yaymistir. Bununla beraber insanlar i&ccedil;inde kimi de var ki, ne bir ilme, ne bir m&uuml;rside ve ne aydinlatici bir kitaba dayanmaksizin Allah hakkinda m&uuml;cadele ediyor.';
+$t[21] = 'Onlara: &quot;Allah\'in indirdigine tabi olun!&quot;dendigi zaman: &quot;Hayir, biz atalarimizi neyin &uuml;zerinde bulduksa, onun ardinca gideriz.&quot; diyorlar. Ya seytan onlari cehennnem azabina &ccedil;agiriyor idiyse de mi onlara uyacaklar?';
+$t[22] = 'Oysa her kim iyilik yaparak y&uuml;z&uuml;n&uuml; tertemiz Allah\'a tutarsa, o ger&ccedil;ekten en saglam kulpa yapismistir. &Ouml;yle ya b&uuml;t&uuml;n islerin sonu Allah\'a dayanir.';
+$t[23] = 'Kim de ink&acirc;r ederse, artik onun ink&acirc;ri seni &uuml;zmesin. Onlar d&ouml;n&uuml;p bize gelecekler. O zaman biz onlara b&uuml;t&uuml;n yaptiklarini haber verecegiz. Ger&ccedil;ekten Allah, b&uuml;t&uuml;n kalblerin &ouml;z&uuml;n&uuml; bilir.';
+$t[24] = 'Biz onlara biraz zevk ettiririz de sonra kendilerini agir bir azaba zorlariz.';
+$t[25] = 'Andolsun ki onlara: &quot;G&ouml;kleri ve yeri kim yaratti?&quot; diye sorsan, elbette &quot;Allah&quot; diyecekler. &quot;Allah\'a hamd olsun.&quot; de. Fakat onlarin &ccedil;ogu bilmezler.';
+$t[26] = 'G&ouml;klerde ve yerde ne varsa hepsi Allah\'indir. Ger&ccedil;ekten Allah, hi&ccedil;bir seye muhta&ccedil; degildir, daima &ouml;v&uuml;lmeye l&acirc;yiktir.';
+$t[27] = 'Eger yery&uuml;z&uuml;ndeki aga&ccedil;lar hep kalem olsa, deniz de arkasindan yedi deniz daha kendisine destek oldugu halde m&uuml;rekkep olsa, yine de Allah\'in kelimeleri yazmakla t&uuml;kenmez. S&uuml;phesiz ki Allah &ccedil;ok g&uuml;&ccedil;l&uuml;d&uuml;r, h&uuml;k&uuml;m ve hikmet sahibidir.';
+$t[28] = 'Sizin yaratilmaniz da tekrar diriltilmeniz de ancak bir tek nefsin yaratilmasi ve tekrar diriltilmesi gibidir. Ger&ccedil;ekten Allah her seyi isitir ve g&ouml;r&uuml;r.';
+$t[29] = 'G&ouml;rmedin mi ki, Allah geceyi g&uuml;nd&uuml;ze sokuyor, g&uuml;nd&uuml;z&uuml; geceye sokuyor. G&uuml;nes ile ayi da emrine boyun egdirmistir. Her biri belirli bir s&uuml;reye kadar akip gidiyor. S&uuml;phesiz ki Allah, yaptiklarinizdan haberdardir.';
+$t[30] = 'Bu da sundandir ki, Allah hakkin ta kendisidir. (Insanlarin) O\'ndan baska taptiklari ise mutlaka batildir. S&uuml;phesiz ki Allah, &ccedil;ok y&uuml;cedir, &ccedil;ok b&uuml;y&uuml;kt&uuml;r.';
+$t[31] = 'G&ouml;rmedin mi ki Allah, &acirc;yetlerinden bir kismini size g&ouml;stersin diye gemiler, Allah\'in nimetiyle denizde akip gidiyor. S&uuml;phesiz bunda &ccedil;ok sabredenler ve &ccedil;ok s&uuml;kredenler i&ccedil;in nice ibretler vardir.';
+$t[32] = 'Onlari kara bulutlar gibi bir dalga sardigi zaman, dini yalniz kendisine has kilarak Allah\'a yalvarirlar. Onlari kurtarip karaya &ccedil;ikardigi zaman ise i&ccedil;lerinden dogru giden de bulunur. Bizim &acirc;yetlerimizi &ouml;yle nank&ouml;r gaddarlardan baskasi ink&acirc;r etmez.';
+$t[33] = 'Ey insanlar! Rabbinizden sakinin ve bir g&uuml;nden korkun ki, baba &ccedil;ocuguna hi&ccedil;bir fayda veremez. &Ccedil;ocuk da babasina hi&ccedil;bir seyle fayda saglayacak degildir. S&uuml;phesiz Allah\'in vaadi ger&ccedil;ektir. O halde d&uuml;nya hayati sizi aldatmasin, sakin o &ccedil;ok aldatici seytan sizi Allah\'in affina g&uuml;vendirerek aldatmasin.';
+$t[34] = 'S&uuml;phesiz ki, kiyamet saatinin bilgisi Allah yanindadir. Yagmuru O yagdirir, rahimlerde ne varsa (erkek veya disi olusunu, renk ve &ouml;zelliklerini) O bilir. Hi&ccedil;bir kimse yarin ne kazanacagini bilmez. Hi&ccedil;bir kimse hangi yerde &ouml;lecegini de bilemez. S&uuml;phesiz ki Allah her seyi hakkiyla bilir, her seyden haberdardir.';
+?>

@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Deki: Hakikat bir takim cinnin Kur\'&acirc;n dinleyip de s&ouml;yle dedikleri bana vahyedildi. S&uuml;phesiz biz, hayret verici bir Kur\'&acirc;n dinledik.';
+$t[2] = 'O Kur\'&acirc;n hidayete erdiriyor, biz de ona iman ettik. Rabbimize hi&ccedil;bir seyi ortak kosmayacagiz.';
+$t[3] = 'Dogrusu, Rabbimizin sani &ccedil;ok y&uuml;ksektir. Ne bir arkadas edinmistir, ne de bir &ccedil;ocuk.';
+$t[4] = 'Meger bizim beyinsiz (Iblis), Allah hakkinda sa&ccedil;ma seyler s&ouml;yl&uuml;yormus.';
+$t[5] = 'Dogrusu biz insanlari ve cinleri Allah\'a karsi asla yalan s&ouml;ylemez sanmisiz.';
+$t[6] = 'Dogrusu insanlardan bazi erkekler, cinlerden bazi erkeklere siginirlardi da onlarin simarikliklarini artirirlardi.';
+$t[7] = 'Dogrusu onlar sizin zannettiginiz gibi, zannetmislerdi ki, Allah asla kimseyi Peygamber g&ouml;ndermeyecek.';
+$t[8] = '(Cinler, dediler ki): &quot;Biz g&ouml;ge dokunduk, onu kuvvetli bek&ccedil;iler ve alevlerle dolu bulduk.&quot;';
+$t[9] = '&quot;Dogrusu biz g&ouml;g&uuml;n bazi mevkilerinde dinlemek i&ccedil;in otururduk. Fakat simdi her kim dinleyecek olursa kendini g&ouml;zetleyen parlak bir alev buluyor.&quot;';
+$t[10] = '&quot;Dogrusu biz bilmiyoruz, yery&uuml;z&uuml;ndekilere k&ouml;t&uuml;l&uuml;k m&uuml; murat edildi, yoksa Rableri onlara bir hayir mi diledi?&quot;';
+$t[11] = 'Dogrusu bizler; bizden iyi olanlar da var, olmayanlar da var. Biz &ccedil;esitli yollara ayrilmisiz.';
+$t[12] = '&quot;Dogrusu biz anladik ki, Allah\'i yerde acze d&uuml;s&uuml;rmemize imk&acirc;n yok. Ka&ccedil;makla da O\'nu asla &acirc;ciz birakamayacagiz.&quot;';
+$t[13] = '&quot;Dogrusu biz o hidayet rehberini dinledigimizde ona iman ettik. Kim Rabbine inanirsa, ne hakkinin eksik verilmesinden korkar, ne de kendisine k&ouml;t&uuml;l&uuml;k edilmesinden.&quot;';
+$t[14] = '&quot;Ve biz, bizlerden m&uuml;sl&uuml;manlar da var, hak yoldan sapanlar da var. M&uuml;sl&uuml;man olanlar, iste onlar dogru yolu arayanlardir.&quot;';
+$t[15] = 'Ama yoldan &ccedil;ikanlar, iste onlar cehenneme odun olmuslardir.';
+$t[16] = 'Onlar ger&ccedil;ekten o yol &uuml;zere dosdogru gitselerdi, elbette kendilerine bol bir su verirdik.';
+$t[17] = 'Ki onlari onunla sinayalim. Kim Rabbini anmaktan y&uuml;z &ccedil;evirirse, Rabbi onu gittik&ccedil;e y&uuml;kselen bir azaba sokar.';
+$t[18] = 'Mescitler kuskusuz Allah\'indir. O halde Allah ile birlikte kimseye yalvarmayin.';
+$t[19] = 'Allah\'in kulu (Hz. Peygamber) kalkmis O\'na dua ederken, neredeyse (cinler) onun etrafinda ke&ccedil;e gibi birbirlerine ge&ccedil;eceklerdi.';
+$t[20] = 'De ki: &quot;Ben ancak Rabbime dua eder ve O\'na hi&ccedil;bir seyi ortak kosmam&quot;';
+$t[21] = 'De ki, &quot;Haberiniz olsun, ben size kendiligimden ne bir zarar verebilirim, ne de bir yol g&ouml;sterebilirim.&quot;';
+$t[22] = 'De ki, &quot;Allah\'tan beni kimse kurtaramaz ve ben O\'ndan baska bir siginacak bulamam.&quot;';
+$t[23] = '&quot;Benim yapabilecegim, sadece Allah\'tan size duyuru yapmak ve O\'nun el&ccedil;ilik g&ouml;revlerini yerine getirmektir.&quot; Artik kim Allah\'a ve onun el&ccedil;isine bas kaldirirsa, ona i&ccedil;inde ebedi kalacaklari cehennem atesi vardir.';
+$t[24] = 'Kendilerine vaad edilen seyi g&ouml;rd&uuml;kleri zaman, kimin yardimcisinin en zayif ve en az oldugunu bileceklerdir.';
+$t[25] = 'De ki: &quot;Ben bilmem, o size vaad edilen sey yakin mi, yoksa Rabbim onun i&ccedil;in uzun bir s&uuml;re mi koyar..&quot;';
+$t[26] = 'O b&uuml;t&uuml;n gaybi bilir. Fakat gaybini hi&ccedil; kimseye a&ccedil;maz.';
+$t[27] = 'Ancak se&ccedil;tigi el&ccedil;iye a&ccedil;ar. &Ccedil;&uuml;nk&uuml; onun &ouml;n&uuml;nden ve ardindan g&ouml;zetleyiciler salar.';
+$t[28] = 'Bilsin diye ki, onlar Rablerinin el&ccedil;iliklerini yerine getirmislerdir. Allah onlarda bulunan her seyi kusatmis ve her seyi bir bir saymistir';
+?>

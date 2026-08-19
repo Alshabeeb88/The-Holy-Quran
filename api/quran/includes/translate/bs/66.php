@@ -1,0 +1,15 @@
+<?php
+$t = array();
+$t[1] = 'O Vjerovjesniče, za&scaron;to sebi uskraćuje&scaron; ono &scaron;to ti je Allah dozvolio &ndash; u nastojanju da žene svoje zadovolji&scaron;? A Allah pra&scaron;ta i samilostan je.';
+$t[2] = 'Allah vam je propisao kako da svoje zakletve iskupite; Allah je va&scaron; Gospodar; On sve zna i mudar je.';
+$t[3] = 'Kada je Vjerovjesnik jednoj od svojih žena jednu tajnu povjerio pa je ona odala &ndash; a Allah je to njemu otkrio &ndash; on joj je bio jedan dio kazao, a ostalo pre&scaron;utio. I kad je on s tim nju upoznao, ona je upitala: &quot;A ko ti je to kazao?&quot; &ndash; on je rekao: &quot;Kazao mi je Onaj koji sve zna i kome ni&scaron;ta nije skriveno.&quot;';
+$t[4] = 'Ako vas dvije učinite pokajanje Allahu, pa &ndash; vi ste bile učinile ono zbog čega ste se trebale pokajati. A ako se protiv njega udružite, pa &ndash; Allah je za&scaron;titnik njegov, i Džibril, i čestiti vjernici; najposlije, i svi meleki će mu na pomoći biti.';
+$t[5] = 'Ako vas on pusti, Gospodar njegov će mu dati umjesto vas boljih žena od vas; odanih Allahu, vjernica, poslu&scaron;nih Allahu, pokajnica, koje se Allaha boje, koje poste, udovica i djevojaka.';
+$t[6] = 'O vi koji vjerujete, sebe i porodice svoje čuvajte od vatre čije će gorivo ljudi i kamenje biti, i o kojoj će se meleki strogi i snažni brinuti, koji se onome &scaron;to im Allah zapovjedi neće opirati, i koji će ono &scaron;to im se naredi izvr&scaron;iti.';
+$t[7] = 'O vi koji niste vjerovali, danas se ne pravdajte, kažnjavate se samo za ono &scaron;to ste zaslužili.';
+$t[8] = 'O vi koji vjerujete, učinite pokajanje Allahu iskreno, da bi Gospodar va&scaron; preko ružnih postupaka va&scaron;ih pre&scaron;ao i da bi vas u džennetske ba&scaron;če, kroz koje će rijeke teći, uveo, na Dan u kojem Allah neće osramotiti Vjerovjesnika i one koji su zajedno sa njim vjerovali; svjetlo njihovo će ići ispred njih i s njihove desne strane. &quot;Gospodaru na&scaron;&quot; &ndash; govoriće oni &ndash; &quot;učini potpunim svjetlo na&scaron;e i oprosti nam jer Ti, doista, sve može&scaron;.&quot;';
+$t[9] = 'O Vjerovjesniče, bori se protiv nevjernika i licemjera i budi strog prema njima! Njihovo prebivali&scaron;te biće Džehennem, a užasno je to boravi&scaron;te!';
+$t[10] = 'Allah navodi kao pouku onima koji ne vjeruju ženu Nuhovu i ženu Lutovu: bile su udate za dva čestita roba Na&scaron;a, ali su prema njima licemjerne bile &ndash; i njih dvojica im neće ni&scaron;ta moći kod Allaha pomoći, i reći će se: &quot;Ulazite vas dvije u vatru, sa onima koji ulaze!&quot;';
+$t[11] = 'A onima koji vjeruju &ndash; Allah kao pouku navodi ženu faraonovu, kad je rekla: &quot;Gospodaru moj, sagradi mi kod Sebe kuću u Džennetu i spasi me od faraona i mučenja njegova, i izbavi me od naroda nepravednog!&quot;';
+$t[12] = 'i Merjemu, kćer Imranovu, koja je nevinost svoju sačuvala, a Mi smo udahnuli u nju život i ona je u riječi Gospodara svoga i knjige Njegove vjerovala i od onih koji provode vrijeme u molitvi bila.';
+?>

@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Apabila matahari dilingkari cahayanya (dan hilang lenyap);';
+$t[2] = 'Dan apabila bintang-bintang gugur berselerak;';
+$t[3] = 'Dan apabila gunung-ganang di terbangkan ke angkasa (setelah dihancurkan menjadi debu);';
+$t[4] = 'Dan apabila unta-unta yang bunting terbiar;';
+$t[5] = 'Dan apabila binatang-binatang liar dihimpunkan;';
+$t[6] = 'Dan apabila lautan meluap-luap bercampur-baur;';
+$t[7] = 'Dan apabila tiap-tiap diri disatukan dengan pasangannya;';
+$t[8] = 'Dan apabila anak perempuan yang ditanam hidup-hidup: ditanya, -';
+$t[9] = 'Dengan dosa apakah ia dibunuh?';
+$t[10] = 'Dan apabila surat-surat amal dibentangkan;';
+$t[11] = 'Dan apabila langit ditanggalkan dari tempatnya;';
+$t[12] = 'Dan apabila neraka dinyalakan menjulang;';
+$t[13] = 'Dan apabila Syurga didekatkan;';
+$t[14] = '(Setelah semuanya itu berlaku), tiap-tiap orang akan mengetahui tentang amal yang telah dibawanya.';
+$t[15] = 'Oleh itu, Aku bersumpah dengan bintang-bintang yang tenggelam timbul;';
+$t[16] = 'Yang beredar, juga yang tetap pada tempatnya;';
+$t[17] = 'Dan malam, apabila ia hampir habis,';
+$t[18] = 'Dan siang, apabila ia mulai terang;';
+$t[19] = 'Sebenarnya Al-Quran itu, sungguh-sungguh Kalamullah (yang disampaikan oleh Jibril) Utusan yang mulia,';
+$t[20] = 'Yang kuat gagah, lagi berkedudukan tinggi di sisi Allah yang mempunyai Arasy,';
+$t[21] = 'Yang ditaati di sana (dalam kalangan malaikat), lagi dipercayai.';
+$t[22] = 'Dan sebenarnya sahabat kamu (Nabi Muhammad) itu (wahai golongan yang menentang Islam), bukanlah ia seorang gila (seperti yang kamu tuduh);';
+$t[23] = 'Dan (Nabi Muhammad yakin bahawa yang disampaikan kepadanya ialah wahyu dari Tuhan, kerana) demi sesungguhnya! Nabi Muhammad telah mengenal dan melihat Jibril di kaki langit yang nyata.';
+$t[24] = 'Dan bukanlah Nabi Muhammad seorang yang boleh dituduh dan disangka buruk, terhadap penyampaiannya mengenai perkara-perkara yang ghaib.';
+$t[25] = 'Dan sebenarnya Al-Quran itu bukanlah perkataan Syaitan yang kena rejam.';
+$t[26] = '(Dengan yang demikian) maka ke manakah kamu hendak pergi (kiranya kamu masih menyeleweng dari jalan Al-Quran)?';
+$t[27] = 'Al-Quran itu tidak lain hanyalah peringatan bagi seluruh penduduk alam:';
+$t[28] = 'Iaitu bagi sesiapa dari kamu yang mahu tetap teguh di atas jalan (Islam) yang betul.';
+$t[29] = 'Dan kamu tidak dapat menentukan kemahuan kamu (mengenai sesuatupun), kecuali dengan cara yang diatur oleh Allah, Tuhan yang memelihara dan mentadbirkan seluruh alam.';
+?>

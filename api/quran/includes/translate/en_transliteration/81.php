@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Itha ashshamsu kuwwirat';
+$t[2] = 'Wa-itha annujoomu inkadarat';
+$t[3] = 'Wa-itha aljibalu suyyirat';
+$t[4] = 'Wa-itha alAAisharu AAuttilat';
+$t[5] = 'Wa-itha alwuhooshu hushirat';
+$t[6] = 'Wa-itha albiharu sujjirat';
+$t[7] = 'Wa-itha annufoosu zuwwijat';
+$t[8] = 'Wa-itha almawoodatu su-ilat';
+$t[9] = 'Bi-ayyi thanbin qutilat';
+$t[10] = 'Wa-itha assuhufunushirat';
+$t[11] = 'Wa-itha assamao kushitat';
+$t[12] = 'Wa-itha aljaheemu suAAAAirat';
+$t[13] = 'Wa-itha aljannatu ozlifat';
+$t[14] = 'AAalimat nafsun ma ahdarat';
+$t[15] = 'Fala oqsimu bilkhunnas';
+$t[16] = 'Aljawari alkunnas';
+$t[17] = 'Wallayli itha AAasAAas';
+$t[18] = 'Wassubhi ithatanaffas';
+$t[19] = 'Innahu laqawlu rasoolin kareem';
+$t[20] = 'Thee quwwatin AAinda theealAAarshi makeen';
+$t[21] = 'MutaAAin thamma ameen';
+$t[22] = 'Wama sahibukum bimajnoon';
+$t[23] = 'Walaqad raahu bilofuqialmubeen';
+$t[24] = 'Wama huwa AAala alghaybi bidaneen';
+$t[25] = 'Wama huwa biqawli shaytaninrajeem';
+$t[26] = 'Faayna tathhaboon';
+$t[27] = 'In huwa illa thikrun lilAAalameen';
+$t[28] = 'Liman shaa minkum an yastaqeem';
+$t[29] = 'Wama tashaoona illa anyashaa Allahu rabbu alAAalameen';
+?>

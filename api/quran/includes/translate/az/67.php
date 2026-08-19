@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'H&ouml;km (hər şeyin ixtiyarı) əlində olan Allah nə qədər ucadır (nə qədər uludur). O, hər şeyə qadirdir!';
+$t[2] = 'Hansınızın əməlcə daha g&ouml;zəl olduğunu sınamaq (bəlli etmək) &uuml;&ccedil;&uuml;n &ouml;l&uuml;m&uuml; və həyatı yaradan Odur. O, yenilməz q&uuml;vvət sahibidir, (&ccedil;ox) bağışlayandır.';
+$t[3] = 'Yeddi g&ouml;y&uuml; (bir-birinin &uuml;st&uuml;ndə) qat-qat yaradan da Odur. (Ey insan!) Sən Rəhmanın yaratdığında he&ccedil; bir uyğunsuzluq g&ouml;rməzsən. Bir g&ouml;z&uuml;n&uuml; qaldırıb (səmaya) bax, he&ccedil; orada bir yarıq (&ccedil;atdaq, n&ouml;qsan) g&ouml;rə bilərsənmi?!';
+$t[4] = 'Sonra g&ouml;z&uuml;n&uuml; qaldırıb iki dəfə bax. G&ouml;z orada (axtardığını tapmayıb) zəif, yorğun d&uuml;şərək yenə də sənə tərəf qayıdacaqdır!';
+$t[5] = 'And olsun ki, Biz d&uuml;nya səmasını (yerə ən yaxın olan g&ouml;y&uuml;) qəndillərlə (ulduzlarla) bəzədik, onları şeytanlara atılan mərmilər etdik və onlar (şeytanlar) &uuml;&ccedil;&uuml;n yandırıb-yaxan alovlu atəş əzabı hazırladıq.';
+$t[6] = 'Rəbbini inkar edənləri cəhənnəm əzabı g&ouml;zləyir. Ora necə də pis məskəndir!';
+$t[7] = 'Onlar (&ouml;zləri kimi kafirlərlə) qaynayan Cəhənnəmə atıldıqları zaman onun dəhşətli uğultusunu eşidəcəklər!';
+$t[8] = 'O, (kafirlərə olan) qeyzindən az qala par&ccedil;a-par&ccedil;a olsun. Hər hansı bir tayfa ora (Cəhənnəmə) atıldıqca onun g&ouml;zət&ccedil;iləri onlardan (məzəmmətlə): &ldquo;Məgər sizə (Allahın əzabı ilə) qorxudan bir peyğəmbər gəlməmişdimi?&rdquo; &ndash; deyə soruşacaqlar.';
+$t[9] = 'Onlar deyəcəklər: &ldquo;Bəli, bizə (Allahın əzabı ilə) qorxudan peyğəmbər gəlmişdi. Amma biz (onu) yalan&ccedil;ı sayıb demişdik: &ldquo;Allah he&ccedil; bir şey (vəhy) nazil etməmişdir. Siz sadəcə olaraq (haqdan) &ccedil;ox azmısınız!&rdquo;';
+$t[10] = 'Onlar: &ldquo;Əgər biz (peyğəmbərlərin &ouml;y&uuml;d-nəsihətinə) qulaq asıb ağlımızı başımıza yığsaydıq, cəhənnəm əhli i&ccedil;ində olmazdıq!&rdquo; &ndash; deyəcək,';
+$t[11] = 'Və beləcə &ouml;z g&uuml;nahlarını e&rsquo;tiraf edəcəklər. Məhv olsun cəhənnəm əhli!';
+$t[12] = 'Rəbbindən (Onu) g&ouml;rmədən qorxanları isə (g&uuml;nahlardan) bağışlanma və b&ouml;y&uuml;k bir m&uuml;kafat g&ouml;zləyir!';
+$t[13] = '(Ey insanlar!) İstər s&ouml;z&uuml;n&uuml;z&uuml; gizli saxlayın, istər a&ccedil;ıq deyin (he&ccedil; bir fərqi yoxdur). (Allah) &uuml;rəklərdə olanları biləndir!';
+$t[14] = 'Məgər yaradan (sizin gizli saxladığınız hər şeyi) bilməzmi?! O, (hər şeyi) incəliyinə qədər biləndir, (hər şeydən) xəbərdardır!';
+$t[15] = 'Yeri (Yer k&uuml;rəsini) sizə ram edən Odur. Onun qoynunda gəzin, (Allahın) ruzisindən yeyin. Axır d&ouml;n&uuml;ş də Onadır!';
+$t[16] = '(Ey insanlar!) G&ouml;ydə olanın (Allahın) yer hərəkətə gəlib &ccedil;alxalandığı zaman sizi onun dibinə batırmayacağına əminsinizmi?!';
+$t[17] = 'Yaxud g&ouml;ydə olanın sizin &uuml;st&uuml;n&uuml;zə daş yağdıran bir yel g&ouml;ndərməyəcəyinə arxayınsınızmı?! Onda Mənim (sizi əzabla) qorxutmağımın necə olduğunu m&uuml;tləq biləcəksiniz.';
+$t[18] = 'Onlardan (Məkkə m&uuml;rşiklərindən) əvvəlkilər də (&ouml;z peyğəmbərlərini) təkzib etmişdilər. (Ya Peyğəmbər! Bir g&ouml;rəydin) Mənim onları cəzalandırmağım (inkar etməyim) necə oldu.';
+$t[19] = 'Məgər onlar başları &uuml;st&uuml;ndə (səf &ccedil;əkib) qanad &ccedil;alaraq (qanadlarını a&ccedil;ıb-yumaraq) u&ccedil;an quşları g&ouml;rm&uuml;rlərmi? Onları (g&ouml;ydə) ancaq Rəhman (olan Allah) saxlayır. Həqiqətən, O, hər şeyi g&ouml;rəndir!';
+$t[20] = 'Yaxud bu əsgərləriniz (k&ouml;mək&ccedil;iləriniz) kimdir ki, onlar sizi Rəhmanın əzabından qurtara bilsinlər?! (Bəndələri Allahın əzabından Onun &Ouml;z&uuml;ndən başqa he&ccedil; kəs xilas edə bilməz!) Kafirlər, sadəcə olaraq, aldanmaqdadırlar!';
+$t[21] = 'Əgər (Allah) &Ouml;z ruzisini kəssə, sizə kim ruzi verə bilər?! Xeyr onlar (cahillikləri &uuml;z&uuml;ndən) dikbaşlıqdan və (haqqa) nifrət etməkdən (boyun qoymamaqdan) əl &ccedil;əkmirlər.';
+$t[22] = 'Elə isə (k&uuml;fr&uuml; ucbatından) &uuml;z&uuml;stə s&uuml;r&uuml;nən daha haqq yoldadır, yoxsa d&uuml;z yolda d&uuml;z gedən?!';
+$t[23] = '(Ya Peyğəmbər!) De: &ldquo;Sizi yoxdan yaradan, sizə qulaq, g&ouml;z və qəlb verən Odur. (Allahın ne&rsquo;mətlərinə) nə az ş&uuml;k&uuml;r edirsiniz!&rdquo;';
+$t[24] = 'De: &ldquo;Sizi yer &uuml;z&uuml;nə yayıb səpələyən Odur. (Qiyamət g&uuml;n&uuml;) Onun h&uuml;zuruna toplanacaqsınız!&rdquo;';
+$t[25] = 'Onlar (m&uuml;şriklər) deyirlər: &ldquo;Əgər doğru danışanlardansınızsa, (bir xəbər verin g&ouml;rək) bu və&rsquo;d (haqq-hesab, cəza) nə vaxt yerinə yetəcəkdir?&rdquo;';
+$t[26] = 'De: &ldquo;Onu bilmək yalnız Allaha məxsusdur. Mən isə ancaq (sizi Allahın əzabı ilə) a&ccedil;ıq-aşkar qorxudan bir peyğəmbərəm!&rdquo;';
+$t[27] = 'Kafirlər əzabın yaxınlaşdığını g&ouml;rd&uuml;kləri zaman &uuml;zləri eybəcər k&ouml;kə d&uuml;şəcək (qaralacaq) və onlara: &ldquo;Sizin (d&uuml;nyada) istədiyiniz (və həmişə istehza edib inanmadığınız) əzab budur!&rdquo; &ndash; deyiləcəkdir.';
+$t[28] = '(Ya Peyğəmbər! Bu m&uuml;şriklərə) de: &ldquo;Bir deyin g&ouml;rək, istər Allah məni və mənimlə birlikdə olanları məhv etsin, istərsə də bizə bir mərhəmət əta etsin; siz kafirləri şiddətli əzabdan (Allahın əzabından) kim qurtara bilər?! (Biz &ouml;lsək də, qalsaq da, bu sizə he&ccedil; bir fayda verməz. Allahın əzabından nicat tapmaq &uuml;&ccedil;&uuml;n ancaq Onun haqq dininə iman gətirmək lazımdır!)';
+$t[29] = 'De: &ldquo;O bizim iman gətirdiyimiz və təvəkk&uuml;l etdiyimiz Rəhmandır. Kimin (haqq yoldan) a&ccedil;ıq-aydın azmış olduğunu (tezliklə) biləcəksiniz!&rdquo;';
+$t[30] = 'De: &ldquo;Bir s&ouml;yləyin g&ouml;rək, əgər suyunuz &ccedil;əkilib (yerin dibinə) getsə, (Allahdan başqa) kim sizə axar su gətirə bilər?!';
+?>

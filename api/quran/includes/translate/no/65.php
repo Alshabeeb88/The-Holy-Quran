@@ -1,0 +1,15 @@
+<?php
+$t = array();
+$t[1] = 'Du profet, n&aring;r dere skiller dere fra hustruer, s&aring; gj&oslash;r dette under hensyntagen til deres ventetid. Beregn ventetiden, og frykt Gud, deres Herre. Send dem ikke bort fra sine hjem, de skal ikke dra med mindre de er skyldig i klar umoral! Dette er grenser som Gud har satt! Den som overskrider Guds grenser, gj&oslash;r en urett som rammer ham selv. Du vet ikke, kanskje Gud etter dette vil bringe noe nytt.';
+$t[2] = 'N&aring;r de s&aring; har n&aring;dd sin termin, s&aring; behold dem p&aring; skikkelig vis, eller skill dere fra dem p&aring; skikkelig vis. To redelige menn blant dere skal v&aelig;re vitner, og b&aelig;re vitnem&aring;let overfor Gud. Ved dette formanes den som tror p&aring; Gud og dommens dag. Den som frykter Gud, vil Han finne en utvei for, og Han vil gi ham Sine gaver fra et hold han ikke regner med.';
+$t[3] = 'Om noen forlater seg p&aring; Gud, er Han nok for ham. Gud oppn&aring;r det Han vil. Gud har gitt alle ting sitt m&aring;l.';
+$t[4] = 'For dem av deres hustruer som har avskrevet menstruasjonen, om dere er i tvil, s&aring; er ventetiden tre m&aring;neder, og ogs&aring; for dem som enn&aring; ikke har menstruert. For dem som er svangre, er deres frist f&oslash;dselen. Den som frykter Gud, vil Han gj&oslash;re det lett for etter sin ordning.';
+$t[5] = 'Dette er Guds bud, som Han har &aring;penbart for dere. For den som frykter Gud, vil Han utslette hans misgjerninger og gj&oslash;re hans l&oslash;nn stor.';
+$t[6] = 'La dem bo i ventetiden som dere bor, etter deres utkomme, og plag dem ikke for &aring; gj&oslash;re det vanskelig for dem. Hvis de er svangre, s&aring; gi dem bidrag til f&oslash;dselen. Hvis de ammer deres barn, s&aring; gi dem deres l&oslash;nn og snakk sammen p&aring; skikkelig vis. Hvis dere har vanskeligheter, s&aring; skal en annen amme for ham.';
+$t[7] = 'Den velst&aring;ende skal betale av sin velstand. Den som har begrensede k&aring;r, skal betale av det Gud har gitt ham. Gud forlanger ikke mer av noen enn Han har gitt ham. Gud lar vanskeligheter f&oslash;lges av lettelser.';
+$t[8] = 'Hvor mang en by som satte seg ut over Guds og Hans sendebuds bud, har Vi gitt en hard avregning og straffet med en fryktelig straff!';
+$t[9] = 'S&aring; de fikk smake sin onde adferds f&oslash;lger, og slutten p&aring; det hele ble undergang.';
+$t[10] = 'Gud har gjort klar for dem en hard straff. S&aring; frykt Gud, dere som har forstand!';
+$t[11] = 'Dere som tror, Gud har sendt ned til dere en p&aring;minnelse, et sendebud, som fremleser for dere Guds ord, de klargj&oslash;rende, for &aring; f&oslash;re dem som tror og lever rettskaffent, fra m&oslash;rke til lys. Den som tror og lever rettskaffent, vil Han f&oslash;re inn i paradisets haver, hvor bekker sildrer, og hvor de skal v&aelig;re og bli for alltid. Gud gir ham en prektig omsorg.';
+$t[12] = 'Gud er det som skapte syv himler, og jorden likeledes! Ordet stiger ned mellom dem, s&aring; dere m&aring; vite at Gud evner alt, og at Gud omfatter alle ting i visdom!';
+?>

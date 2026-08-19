@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Enviamos a No&eacute; a su pueblo: &laquo;&iexcl;Advierte a tu pueblo antes de que le alcance un castigo doloroso!&raquo;';
+$t[2] = 'Dijo: &laquo;&iexcl;Pueblo! Soy para vosotros un monitor que habla claro.';
+$t[3] = '&iexcl;Servid a Al&aacute; y temedle! &iexcl;Y obedecedme!';
+$t[4] = 'As&iacute;, os perdonar&aacute; vuestros pecados y os remitir&aacute; a un plazo fijo. Pero, cuando venza el plazo fijado por Al&aacute;, no podr&aacute; ya ser retardado. Si supierais...&raquo;';
+$t[5] = 'Dijo: &laquo;&iexcl;Se&ntilde;or! He llamado a mi pueblo noche y d&iacute;a.';
+$t[6] = 'Mi llamamiento s&oacute;lo ha servido para que huyan m&aacute;s.';
+$t[7] = 'Siempre que les llamo para que T&uacute; les perdones, se ponen los dedos en los o&iacute;dos, se cubren con la ropa, se obstinan y se muestran en extremo altivos.';
+$t[8] = 'Adem&aacute;s, les he llamado abiertamente';
+$t[9] = 'y les he hablado en p&uacute;blico y en secreto.';
+$t[10] = 'Y he dicho: \'&iexcl;Pedid perd&oacute;n a vuestro Se&ntilde;or -Que es indulgente-';
+$t[11] = 'y enviar&aacute; sobre vosotros del cielo una lluvia abundante!';
+$t[12] = 'Os dar&aacute; mucha hacienda e hijos varones. Pondr&aacute; a vuestra disposici&oacute;n jardines, pondr&aacute; a vuestra disposici&oacute;n arroyos.';
+$t[13] = '&iquest;Qu&eacute; os pasa, que no esper&aacute;is de Al&aacute; magnanimidad,';
+$t[14] = 'habi&eacute;ndoos creado en fases?';
+$t[15] = '&iquest;No hab&eacute;is visto c&oacute;mo ha creado Al&aacute; siete cielos superpuestos';
+$t[16] = 'y puesto en ellos la luna como luz y el sol como l&aacute;mpara?';
+$t[17] = 'Al&aacute; os ha hecho crecer de la tierra como plantas.';
+$t[18] = 'Despu&eacute;s, os har&aacute; volver a ella, y os sacar&aacute;.';
+$t[19] = 'Al&aacute; os ha puesto la tierra como alfombra';
+$t[20] = 'para que recorr&aacute;is en ella caminos, anchos pasos\'&raquo;.';
+$t[21] = 'No&eacute; dijo: &laquo;&iexcl;Se&ntilde;or! Me han desobedecido y han seguido a aqu&eacute;llos cuya hacienda e hijos no hacen sino perderles m&aacute;s.';
+$t[22] = 'Han perpetrado una enorme intriga.';
+$t[23] = 'Y dicen: \'&iexcl;No abandon&eacute;is a vuestros dioses! &iexcl;No abandon&eacute;is a Wadd, ni a Suwaa, ni a Yagut, a Yauq y a Nasr!\'';
+$t[24] = 'Han extraviado a muchos. A los imp&iacute;os &iexcl;no hagas sino extraviarles m&aacute;s!&raquo;';
+$t[25] = 'Por sus pecados, fueron anegados e introducidos en un Fuego. No encontraron quien, fuera de Al&aacute;, les auxiliara.';
+$t[26] = 'No&eacute; dijo: &laquo;&iexcl;Se&ntilde;or! &iexcl;No dejes en la tierra a ning&uacute;n infiel con vida!';
+$t[27] = 'Si les dejas, extraviar&aacute;n a Tus siervos y no engendrar&aacute;n sino a pecadores, infieles pertinaces.';
+$t[28] = '&iexcl;Se&ntilde;or! &iexcl;Perd&oacute;nanos, a mi y a mis padres, a quien entre en mi casa como creyente, a los creyentes y a las creyentes! Y a los imp&iacute;os &iexcl;no hagas sino perderles m&aacute;s!&raquo;';
+?>

@@ -1,0 +1,21 @@
+<?php
+$t = array();
+$t[1] = 'O Ye who believe! Put not yourselves forward before Allah and His Messenger; but fear Allah: for Allah is He Who hears and knows all things.';
+$t[2] = 'O ye who believe! Raise not your voices above the voice of the Prophet, nor speak aloud to him in talk, as ye may speak aloud to one another, lest your deeds become vain and ye perceive not.';
+$t[3] = 'Those that lower their voices in the presence of Allah\'s Messenger,- their hearts has Allah tested for piety: for them is Forgiveness and a great Reward.';
+$t[4] = 'Those who shout out to thee from without the inner apartments - most of them lack understanding.';
+$t[5] = 'If only they had patience until thou couldst come out to them, it would be best for them: but Allah is Oft-Forgiving, Most Merciful.';
+$t[6] = 'O ye who believe! If a wicked person comes to you with any news, ascertain the truth, lest ye harm people unwittingly, and afterwards become full of repentance for what ye have done.';
+$t[7] = 'And know that among you is Allah\'s Messenger: were he, in many matters, to follow your (wishes), ye would certainly fall into misfortune: But Allah has endeared the Faith to you, and has made it beautiful in your hearts, and He has made hateful to you Unbelief, wickedness, and rebellion: such indeed are those who walk in righteousness;-';
+$t[8] = 'A Grace and Favour from Allah; and Allah is full of Knowledge and Wisdom.';
+$t[9] = 'If two parties among the Believers fall into a quarrel, make ye peace between them: but if one of them transgresses beyond bounds against the other, then fight ye (all) against the one that transgresses until it complies with the command of Allah; but if it complies, then make peace between them with justice, and be fair: for Allah loves those who are fair (and just).';
+$t[10] = 'The Believers are but a single Brotherhood: So make peace and reconciliation between your two (contending) brothers; and fear Allah, that ye may receive Mercy.';
+$t[11] = 'O ye who believe! Let not some men among you laugh at others: It may be that the (latter) are better than the (former): Nor let some women laugh at others: It may be that the (latter are better than the (former): Nor defame nor be sarcastic to each other, nor call each other by (offensive) nicknames: Ill-seeming is a name connoting wickedness, (to be used of one) after he has believed: And those who do not desist are (indeed) doing wrong.';
+$t[12] = 'O ye who believe! Avoid suspicion as much (as possible): for suspicion in some cases is a sin: And spy not on each other behind their backs. Would any of you like to eat the flesh of his dead brother? Nay, ye would abhor it...But fear Allah: For Allah is Oft-Returning, Most Merciful.';
+$t[13] = 'O mankind! We created you from a single (pair) of a male and a female, and made you into nations and tribes, that ye may know each other (not that ye may despise (each other). Verily the most honoured of you in the sight of Allah is (he who is) the most righteous of you. And Allah has full knowledge and is well acquainted (with all things).';
+$t[14] = 'The desert Arabs say, &quot;We believe.&quot; Say, &quot;Ye have no faith; but ye (only)say, \'We have submitted our wills to Allah,\' For not yet has Faith entered your hearts. But if ye obey Allah and His Messenger, He will not belittle aught of your deeds: for Allah is Oft-Forgiving, Most Merciful.&quot;';
+$t[15] = 'Only those are Believers who have believed in Allah and His Messenger, and have never since doubted, but have striven with their belongings and their persons in the Cause of Allah: Such are the sincere ones.';
+$t[16] = 'Say: &quot;What! Will ye instruct Allah about your religion? But Allah knows all that is in the heavens and on earth: He has full knowledge of all things.';
+$t[17] = 'They impress on thee as a favour that they have embraced Islam. Say, &quot;Count not your Islam as a favour upon me: Nay, Allah has conferred a favour upon you that He has guided you to the faith, if ye be true and sincere.';
+$t[18] = '&quot;Verily Allah knows the secrets of the heavens and the earth: and Allah Sees well all that ye do.&quot;';
+?>

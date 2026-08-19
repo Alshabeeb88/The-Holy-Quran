@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Wir haben Noach zu seinem Volk gesandt: &laquo;Warne dein Volk, bevor eine schmerzhafte Pein &uuml;ber sie kommt.&raquo;';
+$t[2] = 'Er sagte: &laquo;O mein Volk, ich bin euch ein deutlicher Warner:';
+$t[3] = 'Dienet Gott und f&uuml;rchtet Ihn, und gehorchet mir,';
+$t[4] = 'Dann vergibt Er euch etwas von euren S&uuml;nden und stellt euch zu einer bestimmten Frist zur&uuml;ck. Die Frist Gottes, wenn sie eintrifft, kann nicht aufgeschoben werden, wenn ihr es nur w&uuml;&szlig;tet!&raquo;';
+$t[5] = 'Er sagte: &laquo;Mein Herr, ich habe mein Volk bei Nacht und bei Tag gerufen.';
+$t[6] = 'Mein Rufen hat sie aber nur in ihrer Flucht best&auml;rkt.';
+$t[7] = 'Sooft ich sie rief, damit Du ihnen vergibst, steckten sie ihre Finger in die Ohren, h&uuml;llten sich in Gew&auml;nder, blieben verstockt und verhielten sich sehr hochm&uuml;tig.';
+$t[8] = 'Dann richtete ich an sie den Ruf &ouml;ffentlich.';
+$t[9] = 'Dann sprach ich zu ihnen offen und im geheimen.';
+$t[10] = 'Ich sagte: Bittet euren Herrn um Vergebung - Er vergibt ja viel -,';
+$t[11] = 'Dann wird Er den Himmel &uuml;ber euch ergiebig regnen lassen';
+$t[12] = 'Und euch mit Verm&ouml;gen und S&ouml;hnen beistehen, f&uuml;r euch G&auml;rten machen und f&uuml;r euch B&auml;che machen.';
+$t[13] = 'Was ist mit euch, da&szlig; ihr nicht von Gott erwartet, da&szlig; Er w&uuml;rdevoll handelt,';
+$t[14] = 'Wo Er euch doch in Phasen erschaffen hat?';
+$t[15] = 'Habt ihr nicht gesehen, wie Gott sieben Himmel in Schichten erschaffen hat,';
+$t[16] = 'Den Mond darin zu einem Licht gemacht und die Sonne zu einer Leuchte gemacht hat?';
+$t[17] = 'Gott hat euch aus der Erde wie Pflanzen wachsen lassen.';
+$t[18] = 'Dann wird Er euch zu ihr zur&uuml;ckkehren lassen und (wieder aus ihr) hervorbringen.';
+$t[19] = 'Und Gott hat euch die Erde zu einer ausgebreiteten Unterlage gemacht,';
+$t[20] = 'Damit ihr auf ihr Wege als breite Durchg&auml;nge begehen k&ouml;nnt.&raquo;';
+$t[21] = 'Noach sagte: &laquo;Mein Herr, sie sind gegen mich ungehorsam geworden und sind einem gefolgt, der durch sein Verm&ouml;gen und seine Kinder nur noch gr&ouml;&szlig;eren Verlust hat.';
+$t[22] = 'Und sie haben ungeheure R&auml;nke geschmiedet.';
+$t[23] = 'Und sie sagen: &gt;Verla&szlig;t doch nicht eure G&ouml;tter. Verla&szlig;t doch nicht Wadd, noch Suwaa, noch Yaghuth, und auch nicht Ya uq und Nasr.';
+$t[24] = 'Sie haben viele irregef&uuml;hrt. So la&szlig; die, die Unrecht tun, noch tiefer in die Irre gehen.&raquo;';
+$t[25] = 'Wegen ihrer S&uuml;nden wurden sie ertr&auml;nkt und in ein Feuer gef&uuml;hrt. Da fanden sie f&uuml;r sich au&szlig;er Gott keine Helfer.';
+$t[26] = 'Und Noach sagte: &laquo;Mein Herr, la&szlig; keinen von den Ungl&auml;ubigen weiter auf der Erde wohnen.';
+$t[27] = 'Wenn Du sie (leben) l&auml;&szlig;t, f&uuml;hren sie deine Diener irre und bringen zur Welt nur solche, die voller Laster und sehr ungl&auml;ubig sind.';
+$t[28] = 'Mein Herr, vergib mir und meinen Eltern und dem, der als Gl&auml;ubiger mein Haus betritt, und den gl&auml;ubigen M&auml;nnern und den gl&auml;ubigen Frauen. Und st&uuml;rze die, die Unrecht tun, noch tiefer ins Verderben.&raquo;';
+?>

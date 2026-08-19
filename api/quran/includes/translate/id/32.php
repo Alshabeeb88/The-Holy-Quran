@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alif Laam Miim';
+$t[2] = 'Turunnya Al-Quran yang tidak ada keraguan di dalamnya, (adalah) dari Tuhan semesta alam.';
+$t[3] = 'Tetapi mengapa mereka (orang kafir) mengatakan: &quot;Dia Muhammad mengada-adakannya&quot;. Sebenarnya Al-Quran itu adalah kebenaran dari Rabbmu, agar kamu memberi peringatan kepada kaum yang belum datang kepada mereka orang yang memberi peringatan sebelum kamu; mudah-mudahan mereka mendapat petunjuk.';
+$t[4] = 'Allah lah yang menciptakan langit dan bumi dan apa yang ada di antara keduanya dalam enam masa, kemudian Dia bersemayam di atas \'Arsy. Tidak ada bagi kamu selain dari pada-Nya seorang penolongpun dan tidak (pula) seorang pemberi syafa\'at. Maka apakah kamu tidak memperhatikan?';
+$t[5] = 'Dia mengatur urusan dari langit ke bumi, kemudian (urusan) itu naik kepada-Nya dalam satu hari yang kadarnya adalah seribu tahun menurut perhitunganmu';
+$t[6] = 'Yang demikian itu ialah Tuhan Yang mengetahui yang ghaib dan yang nyata, Yang Maha Perkasa lagi Maha Penyayang.';
+$t[7] = 'Yang membuat segala sesuatu yang Dia ciptakan sebaik-baiknya dan Yang memulai penciptaan manusia dari tanah.';
+$t[8] = 'Kemudian Dia menjadikan keturunannya dari saripati air yang hina.';
+$t[9] = 'Kemudian Dia menyempurnakan dan meniupkan ke dalamnya roh (ciptaan)-Nya dan Dia menjadikan bagi kamu pendengaran, penglihatan dan hati; (tetapi) kamu sedikit sekali bersyukur.';
+$t[10] = 'Dan mereka berkata: &quot;Apakah bila kami telah lenyap (hancur) dalam tanah, kami benar-benar akan berada dalam ciptaan yang baru?&quot; Bahkan mereka ingkar akan menemui Tuhannya.';
+$t[11] = 'Katakanlah: &quot;Malaikat maut yang diserahi untuk (mencabut nyawa)mu akan mematikanmu, kemudian hanya kepada Tuhanmulah kamu akan dikembalikan&quot;.';
+$t[12] = 'Dan, jika sekiranya kamu melihat mereka ketika orang-orang yang berdosa itu menundukkan kepalanya di hadapan Tuhannya, (mereka berkata): &quot;Ya Tuhan kami, kami telah melihat dan mendengar, maka kembalikanlah kami (ke dunia), kami akan mengerjakan amal saleh, sesungguhnya kami adalah orang-orang yang yakin&quot;.';
+$t[13] = 'Dan kalau Kami menghendaki niscaya Kami akan berikan kepada tiap-tiap jiwa petunjuk, akan tetapi telah tetaplah perkataan dari pada-Ku: &quot;Sesungguhnya akan Aku penuhi neraka jahannam itu dengan jin dan manusia bersama-sama&quot;.';
+$t[14] = 'Maka rasailah olehmu (siksa ini) disebabkan kamu melupakan akan pertemuan dengan harimu ini. Sesungguhnya Kami telah melupakan kamu (pula) dan rasakanlah siksa yang kekal, disebabkan apa yang selalu kamu kerjakan.';
+$t[15] = 'Sesungguhnya orang yang benar-benar percaya kepada ayat-ayat Kami adalah mereka yang apabila diperingatkan dengan ayat-ayat itu mereka segera bersujud seraya bertasbih dan memuji Rabbnya, dan lagi pula mereka tidaklah sombong.';
+$t[16] = 'Lambung mereka jauh dari tempat tidurnya dan mereka selalu berdoa kepada Rabbnya dengan penuh rasa takut dan harap, serta mereka menafkahkan apa apa rezeki yang Kami berikan.';
+$t[17] = 'Tak seorangpun mengetahui berbagai nikmat yang menanti, yang indah dipandang sebagai balasan bagi mereka, atas apa yang mereka kerjakan.';
+$t[18] = 'Apakah orang-orang beriman itu sama dengan orang-orang yang fasik? Mereka tidak sama.';
+$t[19] = 'Adapun orang-orang yang beriman dan mengerjakan amal saleh, maka bagi mereka jannah tempat kediaman, sebagai pahala terhadap apa yang mereka kerjakan.';
+$t[20] = 'Dan adapun orang-orang yang fasik (kafir) maka tempat mereka adalah jahannam. Setiap kali mereka hendak keluar daripadanya, mereka dikembalikan ke dalamnya dan dikatakan kepada mereka: &quot;Rasakanlah siksa neraka yang dahulu kamu mendustakannya&quot;.';
+$t[21] = 'Dan Sesungguhnya Kami merasakan kepada mereka sebahagian azab yang dekat (di dunia) sebelum azab yang lebih besar (di akhirat), mudah-mudahan mereka kembali (ke jalan yang benar).';
+$t[22] = 'Dan siapakah yang lebih zalim daripada orang yang telah diperingatkan dengan ayat-ayat Tuhannya, kemudian ia berpaling daripadanya? Sesungguhnya Kami akan memberikan pembalasan kepada orang-orang yang berdosa.';
+$t[23] = 'Dan Sesungguhnya Kami telah berikan kepada Musa Al-Kitab (Taurat), maka janganlah kamu (Muhammad) ragu menerima (Al-Quran itu) dan Kami jadikan Al-Kitab (Taurat) itu petunjuk bagi Bani Israil.';
+$t[24] = 'Dan Kami jadikan di antara mereka itu pemimpin-pemimpin yang memberi petunjuk dengan perintah Kami ketika mereka sabar. Dan adalah mereka meyakini ayat-ayat Kami.';
+$t[25] = 'Sesungguhnya Tuhanmu Dialah yang memberikan keputusan di antara mereka pada hari kiamat tentang apa yang selalu mereka perselisihkan padanya.';
+$t[26] = 'Dan apakah tidak menjadi petunjuk bagi mereka, berapa banyak umat sebelum mereka yang telah Kami binasakan sedangkan mereka sendiri berjalan di tempat-tempat kediaman mereka itu. Sesungguhnya pada yang demikian itu terdapat tanda-tanda (kekuasaan Allah). Maka apakah mereka tidak mendengarkan?';
+$t[27] = 'Dan apakah mereka tidak memperhatikan, bahwasanya Kami menghalau (awan yang mengandung) air ke bumi yang tandus, lalu Kami tumbuhkan dengan air hujan itu tanaman yang daripadanya makan hewan ternak mereka dan mereka sendiri. Maka apakah mereka tidak memperhatikan?';
+$t[28] = 'Dan mereka bertanya: &quot;Bilakah kemenangan itu (datang) jika kamu memang orang-orang yang benar?&quot;';
+$t[29] = 'Katakanlah: &quot;Pada hari kemenangan itu tidak berguna bagi orang-orang kafir, iman mereka dan tidak pula mereka diberi tangguh&quot;.';
+$t[30] = 'Maka berpalinglah kamu dari mereka dan tunggulah, sesungguhnya mereka (juga) menunggu.';
+?>

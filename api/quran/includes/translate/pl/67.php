@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Błogosławiony niech będzie Ten, w kt&oacute;rego ręku jest kr&oacute;lestwo - On jest nad każdą rzeczą wszechwładny! -';
+$t[2] = 'Kt&oacute;ry stworzył śmierć i życie, aby was doświadczyć, aby wiedzieć, kt&oacute;ry z was jest lepszy w działaniu; - On jest Potężny, Przebaczający! -';
+$t[3] = 'Stworzył siedem niebios, ułożonych warstwami. Nie widzisz w stworzeniu Miłosiernego żadnej dysproporcji. Zwr&oacute;ć więc swoje spojrzenie: czy zobaczysz jakąś skazę?';
+$t[4] = 'Następnie zwr&oacute;ć swoje spojrzenie jeszcze dwa razy: powr&oacute;ci ono do ciebie upokorzone i utrudzone.';
+$t[5] = 'My ozdobiliśmy niebo najbliższe lampami i uczyniliśmy je pociskami do rażenia szatan&oacute;w; i przygotowaliśmy dla nich cierpienie płomienia palącego.';
+$t[6] = 'A dla tych, kt&oacute;rzy nie uwierzyli w swojego Pana - cierpienie Gehenny. Jakże to nieszczęsne miejsce przybycia!';
+$t[7] = 'Kiedy oni zostaną tam wrzuceni, posłyszą jej ryk, ona się bowiem gotuje';
+$t[8] = 'I omal nie wybuchnie ze wściekłości. Za każdym razem, gdy wrzucają do niej czeredę, zapytują ich strażnicy Gehenny: &quot;Czyż nie przychodził do was ostrzegający?&quot;';
+$t[9] = 'Oni m&oacute;wią: &quot;Tak! Przychodził do nas ostrzegający, lecz my uznaliśmy go za kłamcę i powiedzieliśmy: B&oacute;g nie zesłał niczego; jesteście jedynie w wielkim błędzie&quot;';
+$t[10] = 'I jeszcze powiedzieli: &quot;Gdybyśmy posłuchali albo zrozumieli, to nie bylibyśmy wśr&oacute;d towarzyszy płomienia palącego.&quot;';
+$t[11] = 'I oni przyznali się do swojego grzechu. Precz więc, towarzysze płomienia palącego!';
+$t[12] = 'Zaprawdę, ci, kt&oacute;rzy się obawiają swego Pana w tym, co niepoznawalne - będą mieli przebaczenie i wielką nagrodę.';
+$t[13] = 'Trzymajcie w tajemnicy wasze słowa albo głoście je jawnie; zaprawdę, On wie dobrze, co się kryje w waszych sercach!';
+$t[14] = 'Czyż nie będzie wiedział Ten, kt&oacute;ry stworzył? On jest Przenikliwy, Świadomy!';
+$t[15] = 'On, kt&oacute;ry uczynił dla was ziemię całkowicie poddaną. Przechadzajcie się więc po jej szlakach i jedzcie z tego, czego wam B&oacute;g udziela; ku Niemu będzie zmartwychwstanie!';
+$t[16] = 'Czy, jesteście pewni, że Ten, kt&oacute;ry jest w niebie, nie sprawi, żeby ziemia was pochłonęła, bo przecież ona drży?';
+$t[17] = 'Czy jesteście pewni, że Ten, kt&oacute;ry jest w niebie, nie pośle przeciwko wam huraganu kamieni? Wtedy poznacie, jakie jest Moje ostrzeżenie.';
+$t[18] = 'Zadawali kłam już ci, kt&oacute;rzy byli przed nimi. I jakież było Moje oburzenie!';
+$t[19] = 'Czy oni nie widzieli ponad sobą ptak&oacute;w, jak składają i rozkładają skrzydła? Nikt ich nie podtrzymuje, tylko Miłosierny. On widzi dobrze każdą rzecz!';
+$t[20] = 'Gdzie jest taki, kt&oacute;ry niczym wojsko wesprze was, opr&oacute;cz Miłosiernego? Niewierni są jedynie w zaślepieniu.';
+$t[21] = 'Albo gdzie jest ten, kto was zaopatrzy, jeśli On powstrzyma Swoje zaopatrzenie? Tak! Oni uporczywie trwają w dumie i krnąbrności.';
+$t[22] = 'Czy ten, kto chodzi z twarzą opuszczoną ku ziemi, jest na lepszej drodze, czy ten, kt&oacute;ry chodzi r&oacute;wno po drodze prostej?';
+$t[23] = 'Powiedz: &quot;To On spowodował, że powstaliście, dał wam słuch, wzrok i serca. Jak mało jesteście wdzięczni!&quot;';
+$t[24] = 'Powiedz: &quot;To On rozproszył was po ziemi i do Niego będziecie sprowadzeni.&quot;';
+$t[25] = 'Oni powiedzą: &quot;Kiedy spełni się ta obietnica, jeśli jesteście prawdom&oacute;wni?&quot;';
+$t[26] = 'Powiedz: &quot;Wiedza jest tylko u Boga! Ja jestem tylko jawnie ostrzegającym.&quot;';
+$t[27] = 'Ale kiedy ją zobaczą z bliska, zasępią się twarze tych, kt&oacute;rzy nie uwierzyli. Powiedzą im: &quot;Oto czegoście się domagali!&quot;';
+$t[28] = 'Powiedz: &quot;Jak wam się wydaje? Jeśli zniszczy mnie B&oacute;g, i tych, kt&oacute;rzy są ze mną, lub też zmiłuje się nad nami, to kto obroni niewiernych od kary bolesnej?&quot;';
+$t[29] = 'Powiedz: &quot;On jest Miłosierny! Uwierzyliśmy w Niego i zaufaliśmy Mu! Wy zaś niebawem się dowiecie, kto jest w błędzie jawnym.&quot;';
+$t[30] = 'Powiedz: &quot;Jak wam się wydaje? Jeśli rankiem zniknie wam woda w głębi ziemi, to kto wam dostarczy wtedy wody źr&oacute;dlanej?&quot;';
+?>

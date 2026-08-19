@@ -1,0 +1,14 @@
+<?php
+$t = array();
+$t[1] = 'Když k tobě přich&aacute;zej&iacute; pokrytci, ř&iacute;kaj&iacute;: &quot;Dosvědčujeme, že jsi vskutku posel Bož&iacute;!&quot; A Bůh dobře v&iacute;, žes vskutku Jeho posel, a Bůh dosvědčuje, že pokrytci jsou vskutku lh&aacute;ři.';
+$t[2] = 'A za&scaron;t&iacute;ťuj&iacute; se př&iacute;sahami sv&yacute;mi a přitom sv&aacute;děj&iacute; jin&eacute; od cesty Bož&iacute;. Jak hnusn&eacute; je to, co dělaj&iacute;!';
+$t[3] = 'A to je proto, že zprvu uvěřili a potom se stali nevěř&iacute;c&iacute;mi a srdce jejich byla zapečetěna, takže nic nech&aacute;pou.';
+$t[4] = 'A když je vid&iacute;&scaron;, l&iacute;b&iacute; se ti osoby jej&iacute;ch, a když hovoř&iacute;, naslouch&aacute;&scaron; řeči jejich, jako by to byly tr&aacute;my podepřen&eacute;. A domn&iacute;vaj&iacute; se, že křik každ&yacute; je proti nim. Oni jsou nepř&aacute;teli, střež se jich! Nechť Bůh proti nim bojuje! Do čeho se to jen dostali?';
+$t[5] = 'A když se jim řekne: &quot;Pojďte, posel Bož&iacute; popros&iacute; za v&aacute;s o slitov&aacute;n&iacute;,&quot; odvracej&iacute; hlavy sv&eacute; a vid&iacute;&scaron; je, jak odm&iacute;taj&iacute;, jsouce py&scaron;n&iacute;.';
+$t[6] = 'Je pro ně zcela jedno, zda za ně pros&iacute;&scaron; o odpu&scaron;těn&iacute;, či nikoliv, Bůh jim beztak neodpust&iacute;. Bůh přece nepovede cestou spr&aacute;vnou lid hanebn&iacute;ků.';
+$t[7] = 'To jsou ti, kdož ř&iacute;kaj&iacute;: &quot;Nepřisp&iacute;vejte nic na ty, kdož jsou s poslem Bož&iacute;m, ale ať utečou!&quot; A Bohu patř&iacute; pokladnice nebes i země, ale pokrytci to nech&aacute;pou.';
+$t[8] = 'A ř&iacute;kaj&iacute; d&aacute;le: &quot;Věru, kdybychom se vr&aacute;tili do Med&iacute;ny, vskutku by z n&iacute; nejmocněj&scaron;&iacute; vyhnal nejubožej&scaron;&iacute;ho.&quot; Av&scaron;ak moc n&aacute;lež&iacute; Bohu a poslu Jeho a věř&iacute;c&iacute;m, leč pokrytci to nevěd&iacute;.';
+$t[9] = 'Vy, kteř&iacute; věř&iacute;te! Nechť v&aacute;s majetky va&scaron;e a děti va&scaron;e neodl&aacute;kaj&iacute; od vzpom&iacute;n&aacute;n&iacute; Boha. A ti, kdož tak učin&iacute;, ti věru ztr&aacute;tu utrp&iacute;.';
+$t[10] = 'Rozd&aacute;vejte z toho, co jsme v&aacute;m u&scaron;tědřili, dř&iacute;ve než každ&eacute;ho z v&aacute;s zastihne smrt a než vykřikne: &quot;Pane můj, kdybys mi mohl d&aacute;t odklad do lhůty bl&iacute;zk&eacute;, abych mohl d&aacute;vat almužny a st&aacute;t se jedn&iacute;m z bez&uacute;honn&yacute;ch!&quot;';
+$t[11] = 'Ale Bůh ned&aacute; odklad du&scaron;i ž&aacute;dn&eacute;, když dostav&iacute; se lhůta jej&iacute;, a Bůh dobře je zpraven o v&scaron;em, co děl&aacute;te.';
+?>

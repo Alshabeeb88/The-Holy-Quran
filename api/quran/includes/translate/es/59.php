@@ -1,0 +1,27 @@
+<?php
+$t = array();
+$t[1] = 'Lo que est&aacute; en los cielos y en la tierra glorifica a Al&aacute;. &Eacute;l es el Poderoso, el Sabio.';
+$t[2] = '&Eacute;l es Quien expuls&oacute; de sus viviendas a los de la gente de la Escritura que no cre&iacute;an, cuando la primera reuni&oacute;n. No cre&iacute;ais que iban a salir y ellos cre&iacute;an que sus fortalezas iban a protegerles contra Al&aacute;. Pero Al&aacute; les sorprendi&oacute; por donde menos lo esperaban. Sembr&oacute; el terror en sus corazones y demolieron sus casas con sus propias manos y con la ayuda de los creyentes. Los que teng&aacute;is ojos &iexcl;escarmentad!';
+$t[3] = 'Si Al&aacute; no hubiera decretado su destierro, les habr&iacute;a castigado en la vida de ac&aacute;. En la otra vida, no obstante, sufrir&aacute;n el castigo del Fuego,';
+$t[4] = 'por haberse separado de Al&aacute; y de Su Enviado. Quien se separa de Al&aacute;... Al&aacute; castiga severamente.';
+$t[5] = 'Cuando talabais una palmera o la dejabais en pie, lo hac&iacute;ais con permiso de Al&aacute; y para confundir a los perversos.';
+$t[6] = 'No hab&eacute;is contribuido ni con caballos ni con camellos a lo que, de ellos, ha concedido Al&aacute; a Su Enviado. Al&aacute;, empero, permite a Sus enviados que dominen a quien &Eacute;l quiere. Al&aacute; es omnipotente.';
+$t[7] = 'Lo que Al&aacute; ha concedido a Su Enviado, de la poblaci&oacute;n de las ciudades, pertenece a Al&aacute;, al Enviado. a sus parientes, a los hu&eacute;rfanos, a los pobres y al viajero. Para que no vaya de nuevo a parar a los que de vosotros ya son ricos. Pero, si el Enviado os da algo, aceptadlo. Y, si os proh&iacute;be algo, absteneos. Y &iexcl;temed a Al&aacute;! Al&aacute; castiga severamente.';
+$t[8] = 'A los emigrados necesitados, que fueron expulsados de sus hogares y despojados de sus bienes cuando buscaban favor de Al&aacute; y satisfacerle, auxiliar a Al&aacute; y a Su Enviado. &Eacute;sos son los veraces.';
+$t[9] = 'Los ya establecidos en la Casa y en la fe desde antes de su llegada, aman a los que han emigrado a ellos, no codician lo que se les ha dado y les prefieren a s&iacute; mismos, aun si est&aacute;n en la penuria. Los que se guarden de su propia codicia, &eacute;sos son quienes prosperar&aacute;n.';
+$t[10] = 'Quienes vinieron despu&eacute;s de ellos, dicen: &laquo;&iexcl;Se&ntilde;or! &iexcl;Perd&oacute;nanos, a nosotros y a nuestros hermanos que nos han precedido en la fe! &iexcl;Haz que no abriguen nuestros corazones rencor a los que creen! &iexcl;Se&ntilde;or! T&uacute; eres manso, misericordioso&raquo;.';
+$t[11] = '&iquest;No has visto a los hip&oacute;critas, que dicen a sus hermanos infieles de los de la gente de la Escritura: &laquo;Si os expulsan, nos iremos, ciertamente, con vosotros, y nunca obedeceremos a nadie que nos mande algo contra vosotros. Y si os atacan, ciertamente, os auxiliaremos&raquo;? Al&aacute; es testigo de que mienten.';
+$t[12] = 'Si son expulsados, no se ir&aacute;n con ellos. Si son atacados, no les auxiliar&aacute;n. Y aun suponiendo que les auxiliaran, seguro que volv&iacute;an la espalda. Luego, no ser&aacute;n auxiliados.';
+$t[13] = 'Infund&iacute;s en sus pechos m&aacute;s terror que Al&aacute;. Es que son gente que no comprende.';
+$t[14] = 'No combatir&aacute;n unidos contra vosotros, sino en poblados fortificados o protegidos por murallas. Sus disensiones internas son profundas. Les cre&eacute;is unidos, pero sus corazones est&aacute;n desunidos. Es que son gente que no razona.';
+$t[15] = 'Como los que fueron poco antes que ellos. Gustaron la gravedad de su conducta y tendr&aacute;n un castigo doloroso.';
+$t[16] = 'Como el Demonio cuando dice al hombre: &laquo;&iexcl;No creas!&raquo;. Y, cuando ya no cree, dice: &laquo;Yo no soy responsable de ti. Yo temo a Al&aacute;, Se&ntilde;or del universo&raquo;.';
+$t[17] = 'Su fin ser&aacute; el Fuego, eternamente. &Eacute;sa es la retribuci&oacute;n de los imp&iacute;os.';
+$t[18] = '&iexcl;Creyentes! &iexcl;Temed a Al&aacute;! &iexcl;Que cada uno considere lo que prepara para Ma&ntilde;ana! &iexcl;Temed a Al&aacute;! Al&aacute; est&aacute; bien informado de lo que hac&eacute;is.';
+$t[19] = 'No se&aacute;is como quienes, habiendo olvidado a Al&aacute;, hace &Eacute;l que se olviden de s&iacute; mismos. Esos tales son los perversos.';
+$t[20] = 'No son iguales los moradores del Fuego y los moradores del Jard&iacute;n. Los moradores del Jard&iacute;n son los que triunfan.';
+$t[21] = 'Si hubi&eacute;ramos hecho descender este Cor&aacute;n en una monta&ntilde;a, habr&iacute;as visto a &eacute;sta humillarse y henderse por miedo a Al&aacute;. Proponemos a los hombres estos s&iacute;miles. Quiz&aacute;s, as&iacute;, reflexionen.';
+$t[22] = 'Es Al&aacute; -no hay m&aacute;s dios que &Eacute;l-, el Conocedor de lo oculto y de lo patente. Es el Compasivo, el Misericordioso.';
+$t[23] = 'Es Al&aacute; -no hay m&aacute;s dios que &Eacute;l-, el Rey, el Sant&iacute;simo, la Paz, Quien da Seguridad, el Custodio, el Poderoso, el Fuerte, el Sumo. &iexcl;Gloria a Al&aacute;! &iexcl;Est&aacute; por encima de lo que Le asocian!';
+$t[24] = 'Es Al&aacute;, el Creador, el Hacedor, el Formador. Posee los nombres m&aacute;s bellos. Lo que est&aacute; en los cielos y en la tierra Le glorifica. Es el Poderoso, el Sabio.';
+?>

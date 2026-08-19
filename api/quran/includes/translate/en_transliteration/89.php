@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Walfajr';
+$t[2] = 'Walayalin AAashr';
+$t[3] = 'WashshafAAi walwatr';
+$t[4] = 'Wallayli itha yasr';
+$t[5] = 'Hal fee thalika qasamun lithee hijr';
+$t[6] = 'Alam tara kayfa faAAala rabbuka biAAad';
+$t[7] = 'Irama thati alAAimad';
+$t[8] = 'Allatee lam yukhlaq mithluha fee albilad';
+$t[9] = 'Wathamooda allatheena jaboo assakhrabilwad';
+$t[10] = 'WafirAAawna thee al-awtad';
+$t[11] = 'Allatheena taghaw fee albilad';
+$t[12] = 'Faaktharoo feeha alfasad';
+$t[13] = 'Fasabba AAalayhim rabbuka sawtaAAathab';
+$t[14] = 'Inna rabbaka labilmirsad';
+$t[15] = 'Faamma al-insanu itha maibtalahu rabbuhu faakramahu wanaAAAAamahu fayaqoolu rabbeeakraman';
+$t[16] = 'Waamma itha ma ibtalahufaqadara AAalayhi rizqahu fayaqoolu rabbee ahanan';
+$t[17] = 'Kalla bal la tukrimoonaalyateem';
+$t[18] = 'Wala tahaddoona AAala taAAamialmiskeen';
+$t[19] = 'Wata/kuloona atturatha aklanlamma';
+$t[20] = 'Watuhibboona almala hubbanjamma';
+$t[21] = 'Kalla itha dukkati al-ardudakkan dakka';
+$t[22] = 'Wajaa rabbuka walmalaku saffansaffa';
+$t[23] = 'Wajee-a yawma-ithin bijahannamayawma-ithin yatathakkaru al-insanu waannalahu aththikra';
+$t[24] = 'Yaqoolu ya laytanee qaddamtu lihayatee';
+$t[25] = 'Fayawma-ithin la yuAAaththibuAAathabahu ahad';
+$t[26] = 'Wala yoothiqu wathaqahu ahad';
+$t[27] = 'Ya ayyatuha annafsualmutma-inna';
+$t[28] = 'IrjiAAee ila rabbiki radiyatanmardiyya';
+$t[29] = 'Fadkhulee fee AAibadee';
+$t[30] = 'Wadkhulee jannatee';
+?>

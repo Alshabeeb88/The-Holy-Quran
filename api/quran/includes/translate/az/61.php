@@ -1,0 +1,17 @@
+<?php
+$t = array();
+$t[1] = 'G&ouml;ylərdə və yerdə nə varsa, (hamısı, b&uuml;t&uuml;n məxluqat) Allahı təqdis edib şə&rsquo;ninə tə&rsquo;riflər deyər. O, yenilməz q&uuml;vvət sahibi, hikmət sahibidir!';
+$t[2] = 'Ey iman gətirənlər! Etməyəcəyiniz bir şeyi niyə deyirsiniz? (Bə&rsquo;zi m&uuml;səlmanlar: &ldquo;Hansı əməllərin Allaha daha xoş getdiyini bilsəydik, onları edər, malımızı və canımızı onların yolunda qoyardıq!&rdquo; &ndash; deyirdilər. Lakin cihad əmri nazil olduqda bu, bir &ccedil;&ouml;x m&ouml;&rsquo;minlərin xoşuna gəlmədi).';
+$t[3] = 'Etməyəcəyiniz bir şeyi demək Allah yanında b&ouml;y&uuml;k qəzəbə səbəb olar.';
+$t[4] = 'Ş&uuml;bhəsiz ki, Allah &Ouml;z yolunda m&ouml;hkəm divar kimi səf &ccedil;əkib d&ouml;y&uuml;şənləri sevər!';
+$t[5] = '(Ya Rəsulum!) Xatırla ki, bir zaman Musa &ouml;z q&ouml;vm&uuml;nə demişdi: &ldquo;Ey q&ouml;vm&uuml;m! Mənim Allahın sizə g&ouml;ndərilmiş peyğəmbəri olduğumu bildiyiniz halda, niyə məni incidirsiniz?&rdquo; Onlar (haqdan) &uuml;z d&ouml;ndərdi. Allah (&Ouml;z&uuml;nə asi olan) fasiqləri doğru yola y&ouml;nəltməz!';
+$t[6] = 'Onu da xatırla ki, bir vaxt Məryəm oğlu İsa belə demişdi: &ldquo;Ey İsrail oğulları! Həqiqətən, mən &ouml;z&uuml;mdən əvvəl nazil olmuş T&ouml;vratı təsdiq edən və məndən sonra gələcək Əhməd adlı bir peyğəmbərlə (sizə) m&uuml;jdə verən Allahın el&ccedil;isiyəm!&rdquo; Sonra (İsa, yaxud Muhəmməd əleyhissəlam) onlara a&ccedil;ıq-aşkar m&ouml;&rsquo;c&uuml;zələr gətirdikdə onlar: &ldquo;Bu, a&ccedil;ıq-aydın sehrdir!&rdquo; &ndash; dedilər.';
+$t[7] = 'İslama də&rsquo;vət olunduğu halda, Allaha qarşı yalan uydurandan (Onun peyğəmbərinə sehrbaz deyəndən) daha zalım kim ola bilər?! Allah zalım q&ouml;vm&uuml; doğru yola y&ouml;nəltməz!';
+$t[8] = 'Onlar Allahın nurunu (islam dinini) &ouml;z ağızları (&ouml;z iftiraları və şər s&ouml;zləri) ilə s&ouml;nd&uuml;rmək istəyirlər. Allah isə - kafirlərin xoşuna gəlməsə də, &ouml;z nurunu (dinini) tamamlayacaqdır.';
+$t[9] = 'M&uuml;şriklərin xoşuna gəlməsə də, onu (islamı) b&uuml;t&uuml;n dinlərdən &uuml;st&uuml;n etmək &uuml;&ccedil;&uuml;n &Ouml;z Peyğəmbərini hidayət (Qur&rsquo;an) və haqq dinlə g&ouml;ndərən Odur!';
+$t[10] = 'Ey iman gətirənlər! Sizə elə bir ticarət (qazanc yolu) g&ouml;stərimmi ki, o sizi şiddətli əzabdan xilas etsin?';
+$t[11] = '(O qazanc yolu budur:) Allaha və Onun Peyğəmbərinə iman gətirəsiniz. Allah yolunda malınız və canınızla vuruşasınız (cihad edəsiniz). Bilsəniz, bu sizin &uuml;&ccedil;&uuml;n nə qədər xeyirlidir!';
+$t[12] = '(Əgər belə etsəniz) O sizin g&uuml;nahlarınızı bağışlayar və sizi (ağacları) altından &ccedil;aylar axan cənnətlərə və Ədn cənnətlərindəki g&ouml;zəl saraylara daxil edər. Bu, b&ouml;y&uuml;k qurtuluşdur (uğurdur)!';
+$t[13] = '(Sizi hələ) sevdiyiniz başqa bir şey (bir ne&rsquo;mət) də - Allah dərgahından k&ouml;mək və yaxın qələbə (Məkkənin fəthi) g&ouml;zləyir. (Ya Peyğəmbər!) M&ouml;&rsquo;minlərə (d&uuml;nyada zəfərlə, axirətdə Cənnətlə) m&uuml;jdə ver!';
+$t[14] = 'Ey iman gətirənlər! Allahın (dininin və peyğəmbərinin) k&ouml;mək&ccedil;iləri olun! Necə ki, Məryəm oğlu İsa həvarilərə: &ldquo;Allah yolunda mənim k&ouml;mək&ccedil;ilərim kimdir?&rdquo; &ndash; demiş, həvarilər də: &ldquo;Allahın k&ouml;mək&ccedil;iləri bizik!&rdquo; &ndash; deyə cavab vermişdilər. Nəhayət, İsrail oğullarından bir tayfa iman gətirdi, bir tayfa isə kafir oldu. Biz də iman gətirənləri d&uuml;şmənlərinə qarşı q&uuml;vvətləndirdik və onlar qələbə &ccedil;aldılar.';
+?>

@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'C&acirc;nd soarele se va chirci,';
+$t[2] = 'c&acirc;nd stelele vor cădea,';
+$t[3] = 'c&acirc;nd munţii vor fi puşi &icirc;n mişcare,';
+$t[4] = 'c&acirc;nd cămilele &icirc;n zece luni lăsate &icirc;n uitare,';
+$t[5] = 'c&acirc;nd fiarele vor fi adunate,';
+$t[6] = 'c&acirc;nd mările se vor revărsa,';
+$t[7] = 'c&acirc;nd sufletele vor fi &icirc;mperecheate,';
+$t[8] = 'c&acirc;nd copila de vie &icirc;ngropată va fi &icirc;ntrebată';
+$t[9] = 'pentru care păcat a fost omor&acirc;tă,';
+$t[10] = 'c&acirc;nd sulurile vor fi &icirc;mprăştiate,';
+$t[11] = 'c&acirc;nd cerul va fi dat la o parte,';
+$t[12] = 'c&acirc;nd Iadul va fi &icirc;ncins,';
+$t[13] = 'c&acirc;nd Raiul va fi aproape:';
+$t[14] = 'atunci fiece suflet va şti ceea ce a adus.';
+$t[15] = 'Ba nu! Jur pe planetele';
+$t[16] = 'ce alunecă şi trec!';
+$t[17] = 'Pe noapte c&acirc;nd se &icirc;ntunecă!';
+$t[18] = 'Pe zori c&acirc;nd lin adie!';
+$t[19] = 'Acesta este cuv&acirc;ntul unui prea-cinstit trimis,';
+$t[20] = 'cu putere de la Stăp&acirc;nul Tronului Nezdruncinat,';
+$t[21] = 'supus şi credincios!';
+$t[22] = 'Prietenul vostru nu este &icirc;ndrăcit!';
+$t[23] = 'El l-a văzut &icirc;n zare desluşit;';
+$t[24] = 'şi El cu Taina nu este zg&acirc;rcit.';
+$t[25] = 'Acesta nu este cuv&acirc;ntul unui diavol la pietre luat!';
+$t[26] = 'Unde plecaţi?';
+$t[27] = 'Aceasta este doar o amintire pentru lumi,';
+$t[28] = 'pentru aceia dintre voi care vor să calce drept.';
+$t[29] = 'Voi nu voiţi &icirc;nsă dec&acirc;t ceea ce Dumnezeu, Stăp&acirc;nul lumilor, voieşte!';
+?>

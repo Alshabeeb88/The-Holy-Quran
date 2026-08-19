@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Quando sar&agrave; oscurato il sole,';
+$t[2] = 'e spente le stelle,';
+$t[3] = 'e messe in marcia le montagne,';
+$t[4] = 'e neglette le cammelle gravide di dieci mesi,';
+$t[5] = 'e radunate le belve,';
+$t[6] = 'e ribollenti i mari,';
+$t[7] = 'e divise in gruppi le anime,';
+$t[8] = 'e quando verr&agrave; chiesto alla [neonata] sepolta viva';
+$t[9] = 'per quale colpa sia stata uccisa,';
+$t[10] = 'e quando saranno dispiegati i fogli,';
+$t[11] = 'e scorticato il cielo,';
+$t[12] = 'e attizzata la Fornace,';
+$t[13] = 'e avvicinato il Paradiso,';
+$t[14] = 'ogni anima conoscer&agrave; quel che avr&agrave; prodotto.';
+$t[15] = 'Giuro per i pianeti';
+$t[16] = 'che passano e che si occultano,';
+$t[17] = 'per la notte che si estende,';
+$t[18] = 'per l\'aurora che esala il suo alito,';
+$t[19] = 'questa &egrave; la parola di un Messaggero nobilissimo,';
+$t[20] = 'potente ed eccellente presso il Signore del Trono,';
+$t[21] = 'col&agrave; obbedito e fedele.';
+$t[22] = 'Il vostro compagno non &egrave; un folle:';
+$t[23] = 'in verit&agrave; l\'ha visto sull\'orizzonte luminoso,';
+$t[24] = 'non &egrave; avaro dell\'Invisibile.';
+$t[25] = 'Questa non &egrave; parola di d&egrave;mone lapidato.';
+$t[26] = 'Dove andate dunque?';
+$t[27] = 'Questo non &egrave; che un Monito rivolto al creato';
+$t[28] = 'per chi di voi voglia seguire la Retta Via.';
+$t[29] = 'Ma voi lo vorrete solo se lo vorr&agrave; Allah, il Signore dei mondi.';
+?>

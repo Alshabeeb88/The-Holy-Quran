@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Pasha agimin!';
+$t[2] = 'Pasha dhjet&euml; net&euml;t!';
+$t[3] = 'Pasha &ccedil;iftin dhe pasha tekun!';
+$t[4] = 'Pasha nat&euml;n q&euml; shkon!';
+$t[5] = 'A jan&euml; k&euml;to betime p&euml;r t&euml; men&ccedil;urin?';
+$t[6] = 'A nuk e i ti se &ccedil;&rsquo;b&euml;ri Zoti yt me Ad-in?';
+$t[7] = 'Me banor&euml;t e Iremit me nd&euml;rtesa t&euml; larta?';
+$t[8] = 'Q&euml; si ata (populli Ad) nuk &euml;sht&euml; krijuar askush n&euml; tok&euml;!';
+$t[9] = 'Dhe me Themudin, t&euml; cil&euml;t shpuan shk&euml;mbinj n&euml; lugin&euml;n (kura),';
+$t[10] = 'Dhe me faraonin i fortifikuar me tenda (ushtarake)!';
+$t[11] = 'T&euml; cil&euml;t e tepruan me krime n&euml; tok&euml;.';
+$t[12] = 'Dhe n&euml; t&euml; shtuan shkat&euml;rrimin.';
+$t[13] = 'E All-llahu kund&euml;r tyre l&euml;shoi lloj-lloj d&euml;nimesh.';
+$t[14] = 'Pse Zoti yt &euml;sht&euml; q&euml; p&euml;rcjell (u rri n&euml; prit&euml;).';
+$t[15] = 'E njeriu, kur e sprovon Zoti i tij, e nderon dhe e begaton, ai thot&euml;: &ldquo;Zoti im m&euml; ka nderuar!&rdquo;';
+$t[16] = 'Por, kur p&euml;r ta sprovuar ia pak&euml;son furnizimin (e varf&euml;ron), ai thot&euml;: &ldquo;Zoti im m&euml; ka n&euml;n&ccedil;muar!&rdquo;';
+$t[17] = 'Jo, nuk &euml;sht&euml; ashtu! Por (punoni edhe m&euml; zi) ju nuk p&euml;rfillnit bonjakun,';
+$t[18] = 'Nuk cytni nj&euml;ri-tjetrin p&euml;r ta ushqyer t&euml; varf&euml;rin,';
+$t[19] = 'Dhe ju e hani me t&euml; madhe trash&euml;gimin (padrejt&euml;).';
+$t[20] = 'Dhe pasurin&euml; e doni s&euml; tep&euml;rmi.';
+$t[21] = 'Jo, mosni ashtu! Kur t&euml; dridhet toka nj&euml;pasnj&euml;sh&euml;m!';
+$t[22] = 'Dhe kur t&euml; vij&euml; Zoti yt dhe engj&euml;jt q&euml;ndrojn&euml; rradh&euml;-rradh&euml;!';
+$t[23] = 'Dhe at&euml; dit&euml; sillet Xhehennemi, dit&euml;n kur p&euml;rkujtohet njeriu, e &ccedil;&rsquo;dobi i b&euml;n atij p&euml;rkujtimi?';
+$t[24] = 'Thot&euml;: &ldquo;O, i gjori un&euml;, sikur t&euml; isha i parap&euml;rgatitur p&euml;r jet&euml;n time!&rdquo;';
+$t[25] = 'Pra, dit&euml;n kur nuk d&euml;non si Ai askush.';
+$t[26] = 'Dhe nuk do t&euml; farkoj&euml; pranga si Ai askush.';
+$t[27] = 'O shpirt i qet&euml;suar!';
+$t[28] = 'Kthehu te Zoti yt i k&euml;naqur (p&euml;r vehte) e k&euml;naq&euml;s (p&euml;r Zotin)!';
+$t[29] = 'Hyr mes rob&euml;rve t&euml; Mi!';
+$t[30] = 'Dhe hyr n&euml; Xhennetin Tim!';
+?>

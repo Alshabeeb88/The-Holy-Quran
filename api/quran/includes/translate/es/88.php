@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = '&iquest;Te has enterado de la historia de la que cubre?';
+$t[2] = 'Ese d&iacute;a, unos rostros, humillados,';
+$t[3] = 'preocupados, cansados,';
+$t[4] = 'arder&aacute;n en un fuego abrasador.';
+$t[5] = 'Se les dar&aacute; de beber de una fuente hirviente.';
+$t[6] = 'No tendr&aacute;n m&aacute;s alimento que de dari,';
+$t[7] = 'que no engorda, ni sacia.';
+$t[8] = 'Otros rostros, ese d&iacute;a, estar&aacute;n alegres,';
+$t[9] = 'satisfechos de su esfuerzo,';
+$t[10] = 'en un Jard&iacute;n elevado,';
+$t[11] = 'en el que no se oir&aacute; vaniloquio.';
+$t[12] = 'Habr&aacute; all&iacute; una fuente caudalosa,';
+$t[13] = 'lechos elevados,';
+$t[14] = 'copas preparadas,';
+$t[15] = 'cojines alineados';
+$t[16] = 'y alfombras extendidas.';
+$t[17] = '&iquest;Es que no consideran c&oacute;mo han sido creados los cam&eacute;lidos,';
+$t[18] = 'c&oacute;mo alzado el cielo.';
+$t[19] = 'c&oacute;mo erigidas las monta&ntilde;as,';
+$t[20] = 'c&oacute;mo extendida la tierra?';
+$t[21] = '&iexcl;Amonesta, pues! T&uacute; eres s&oacute;lo un monitor,';
+$t[22] = 'no tienes autoridad sobre ellos.';
+$t[23] = 'Sin embargo, a quien se desv&iacute;e y no crea,';
+$t[24] = 'Al&aacute; le infligir&aacute; el castigo mayor.';
+$t[25] = 'Volver&aacute;n todos a Nosotros.';
+$t[26] = 'Luego, nos tocar&aacute; a Nosotros pedirles cuentas.';
+?>

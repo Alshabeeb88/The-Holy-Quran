@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Uzvi&scaron;en je Onaj u čijoj je ruci vlast &ndash; On sve može! &ndash;';
+$t[2] = 'Onaj koji je dao smrt i život da bi isku&scaron;ao koji od vas će bolje postupati; &ndash; On je Silni, Onaj koji pra&scaron;ta,';
+$t[3] = 'Onaj koji je sedam nebesa jedna iznad drugih stvorio &ndash; ti u onome &scaron;to Milostivi stvara ne vidi&scaron; nikakva nesklada, pa ponovo pogledaj vidi&scaron; li ikakav nedostatak,';
+$t[4] = 'zatim ponovo vi&scaron;e puta pogledaj, pogled će ti se vratiti klonuo i umoran.';
+$t[5] = 'Mi smo vama najbliže nebo sjajnim zvijezdama ukrasili i učinili da vatra iz njih pogađa &scaron;ejtane, za koje smo patnju u ognju pripremili.';
+$t[6] = 'A za one koji ne vjeruju u Gospodara svoga kazna je Džehennem, užasno je on boravi&scaron;te!';
+$t[7] = 'Kad budu u nj bačeni, pucketanje njegovo će čuti, i on će ključati,';
+$t[8] = 'skoro da se od bijesa raspadne. Kad god se koja gomila u nj baci, stražari u njemu će je upitati: &quot;Zar nije niko dolazio da vas opominje?&quot;';
+$t[9] = '&quot;Jest, dolazio nam je onaj koji nas je opominjao&quot; &ndash; odgovoriće &ndash; &quot;a mi smo poricali i govorili: \'Allah nije objavio ni&scaron;ta, vi ste u velikoj zabludi!\'&quot;';
+$t[10] = 'I reći će: &quot;Da smo slu&scaron;ali ili razmi&scaron;ljali, ne bismo među stanovnicima Džehennema bili!&quot;';
+$t[11] = 'I oni će priznati da su bili nevjernici &ndash; pa, stanovnici Džehennema ognjenog daleko bili!';
+$t[12] = 'Onima koji se Gospodara svoga boje i kad ih niko ne vidi &ndash; oprost i nagrada velika!';
+$t[13] = 'Govorili vi tiho ili glasno &ndash; pa, On, sigurno, zna svačije misli!';
+$t[14] = 'A kako i ne bi znao Onaj koji stvara, Onaj koji sve potanko zna, koji je o svemu obavije&scaron;ten.';
+$t[15] = 'On vam je Zemlju pogodnom učinio, pa hodajte predjelima njezinim i hranite se onim &scaron;to On daje, Njemu ćete poslije oživljenja odgovarati.';
+$t[16] = 'Jeste li sigurni da vas Onaj koji nebesima vlada neće u zemlju utjerati, kad se ona počne iznenada tresti?';
+$t[17] = 'Ili, jeste li sigurni da Onaj koji nebesima vlada na vas neće vjetar s kamenjem poslati? Tada biste saznali kakva je prijetnja Moja!';
+$t[18] = 'A poricali su i oni prije njih, pa kakva je samo bila kazna Moja!';
+$t[19] = 'Zar oni ne vide ptice iznad sebe kako ra&scaron;irenih krila lete, a i skupljaju ih? Samo ih Milostivi drži; On, zaista, sve dobro vidi.';
+$t[20] = 'Ili, ko je taj koji će biti vojska va&scaron;a i vama pomoći, osim Milostivog? &ndash; Nevjernici su samo obmanuti.';
+$t[21] = 'Ili, ko je taj koji će vas nahraniti, ako On hranu Svoju uskrati? &ndash; Ali, oni su uporni u bahatosti i u bježanju od istine.';
+$t[22] = 'Da li je na ispravnijem putu onaj koji se idući spotiče ili onaj koji Pravim putem uspravno ide?';
+$t[23] = 'Reci: &quot;On sve stvara i daje vam sluh i vid i pameti, a vi se malo zahvaljujete!&quot;';
+$t[24] = 'Reci: &quot;On vas je po Zemlji razasuo i pred Njim ćete se sakupiti.&quot;';
+$t[25] = 'A oni govore: &quot;Kad će već jednom ta prijetnja, ako istinu govorite?!&quot;';
+$t[26] = 'Reci: &quot;Sam Allah zna! A ja sam dužan samo da javno opominjem.&quot;';
+$t[27] = 'Kad je izbliza ugledaju, jad će prekriti lica onih koji nisu vjerovali i biće rečeno: &quot;Evo, ovo je ono &scaron;to ste požurivali!&quot;';
+$t[28] = 'Reci: &quot;Kažite vi meni: ako Allah po&scaron;alje smrt meni i onima koji su sa mnom, ili ako nam se smiluje, ko će nevjernike od neizdržljive patnje za&scaron;tititi?&quot;';
+$t[29] = 'Reci: &quot;On je Milostivi, u Njega vjerujemo i na Njega se oslanjamo, a vi ćete, sigurno, saznati ko je u očitoj zabludi.&quot;';
+$t[30] = 'Reci: &quot;&Scaron;ta mislite, ako vam vode presu&scaron;e &ndash; ko će vam tekuću vodu dati?&quot;';
+?>

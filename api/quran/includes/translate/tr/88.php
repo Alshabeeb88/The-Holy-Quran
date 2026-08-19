@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'O her seyi kusatacak olan Kiyamet\'in haberi sana geldi mi?';
+$t[2] = 'Y&uuml;zler var ki, o g&uuml;n egilmis, zillete d&uuml;sm&uuml;st&uuml;r.';
+$t[3] = '&Ccedil;alismis, yorulmustur.';
+$t[4] = 'Kizismis bir atese girer.';
+$t[5] = 'Onlara kizgin bir kaynaktan su verilir.';
+$t[6] = 'Onlar i&ccedil;in kuru bir dikenden baska yiyecek de yoktur.';
+$t[7] = 'O da ne besler, ne de a&ccedil;ligi giderir.';
+$t[8] = 'Y&uuml;zler de var ki, o g&uuml;n nimetle mutludur.';
+$t[9] = 'Yaptigindan hosnuttur.';
+$t[10] = 'Y&uuml;ksek bir cennettedir.';
+$t[11] = 'Orada bos bir s&ouml;z isitmez.';
+$t[12] = 'Orada akan bir kaynak,';
+$t[13] = 'Y&uuml;kseltilmis divanlar,';
+$t[14] = 'Konulmus kadehler,';
+$t[15] = 'Dizilmis koltuklar, yastiklar,';
+$t[16] = 'Serilmis halilar vardir.';
+$t[17] = 'Bakmiyorlar mi o develere, nasil yaratilmis?';
+$t[18] = 'G&ouml;ge bakmiyorlar mi, nasil y&uuml;kseltilmis?';
+$t[19] = 'Bakmiyorlar mi daglara, nasil dikilmis?';
+$t[20] = 'Yere bakmiyorlar mi, nasil yayilmis?';
+$t[21] = 'Haydi &ouml;g&uuml;t ver; sen simdi sirf bir &ouml;g&uuml;t&ccedil;&uuml;s&uuml;n.';
+$t[22] = 'Onlarin &uuml;zerinde bir zorba degilsin.';
+$t[23] = 'Ancak kim y&uuml;z &ccedil;evirir ve k&acirc;fir olursa,';
+$t[24] = 'Allah ona en b&uuml;y&uuml;k azap ile azap edecek.';
+$t[25] = 'Kuskusuz onlar d&ouml;ne dolasa bize gelecekler.';
+$t[26] = 'Sonra da bize hesap verecekler.';
+?>

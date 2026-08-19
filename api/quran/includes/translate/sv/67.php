@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'V&Auml;LSIGNAD Han som har allt herrav&auml;lde i Sin hand och vars makt &ouml;vervinner allt!';
+$t[2] = 'Han som har skapat d&ouml;den och livet f&ouml;r att s&auml;tta er p&aring; prov [och l&aring;ta er visa] vem av er som i sitt handlande &auml;r den b&auml;ste. Han &auml;r den M&auml;ktige, Den som st&auml;ndigt f&ouml;rl&aring;ter.';
+$t[3] = '[Det &auml;r] Han som har skapat sju himlar som v&auml;lver sig &ouml;ver varandra. Du kan inte uppt&auml;cka n&aring;gon brist eller ofullkomlighet i den N&aring;derikes skapelse; men lyft p&aring; nytt din blick mot [himlen] - ser du n&aring;gon spricka';
+$t[4] = 'Lyft blicken &auml;nnu en g&aring;ng och &auml;nnu en g&aring;ng och den skall v&auml;nda tillbaka till dig med of&ouml;rr&auml;ttat &auml;rende, utmattad [av att spana efter fel].';
+$t[5] = 'Vi har l&aring;tit den nedre himlen lysas upp av stj&auml;rnskott [som] prydnad och f&ouml;r att h&aring;lla de dj&auml;vulska krafterna i schack; och f&ouml;r dem har Vi i beredskap en h&ouml;gt flammande Eld.';
+$t[6] = 'P&aring; alla som h&auml;dar sin Herre, v&auml;ntar helvetets lidande - ett el&auml;ndigt m&aring;l!';
+$t[7] = 'Och n&auml;r de kastas i detta [helvete] h&ouml;r de det rossla och ryta, kokande av vrede,';
+$t[8] = 'ja, n&auml;ra att spr&auml;ngas i stycken av ursinne; och varje g&aring;ng en hop [syndare] st&ouml;rtas ned i det skall vakterna fr&aring;ga dem: &quot;Kom ingen till er f&ouml;r att varna er?&quot;';
+$t[9] = '&rdquo;Jo, det kom en varnare till oss, men vi beskyllde honom f&ouml;r l&ouml;gn och sade: \'Gud har aldrig uppenbarat n&aring;got [budskap]. Ni tar miste, [du och de som f&ouml;ljer dig].\'&rdquo;';
+$t[10] = 'Och de skall till&auml;gga: &quot;Om vi bara hade lyssnat [till honom] eller anv&auml;nt v&aring;rt f&ouml;rst&aring;nd skulle vi inte h&ouml;ra till dem vars m&aring;l &auml;r den h&ouml;gt flammande Elden!&quot;';
+$t[11] = 'De kommer allts&aring; [till sist] att erk&auml;nna sin synd, men de vars m&aring;l &auml;r den h&ouml;gt flammande Elden &auml;r d&aring; l&aring;ngt bortom all n&aring;d och f&ouml;rl&aring;telse.';
+$t[12] = 'Men f&ouml;rl&aring;telse och en riklig bel&ouml;ning [v&auml;ntar] dem som st&aring;r i b&auml;van inf&ouml;r sin Herre, fast&auml;n de inte kan se eller f&ouml;rnimma Honom.';
+$t[13] = 'VARE SIG ni h&aring;ller era &aring;sikter hemliga eller &ouml;ppet tillk&auml;nnager dem, vet Han vad som r&ouml;r sig i ert innersta.';
+$t[14] = 'Skulle inte Han, Skaparen, k&auml;nna det som Han har skapat, Han, den Outgrundlige som genomsk&aring;dar allt, som &auml;r underr&auml;ttad om allt?';
+$t[15] = 'Det &auml;r Han som har skapat jorden f&ouml;r att tj&auml;na er; f&auml;rdas d&aring; &ouml;ver dess vidder och livn&auml;r er av det som Han sk&auml;nker er f&ouml;r er f&ouml;rs&ouml;rjning och [t&auml;nk p&aring; att] ni skall &aring;teruppst&aring; f&ouml;r att m&ouml;ta Honom.';
+$t[16] = 'Kan ni vara s&auml;kra p&aring; att Han, som &auml;r i himlen, inte l&aring;ter jorden [r&auml;mna under er och] uppsluka er? Se hur den [redan] sk&auml;lver och skakar!';
+$t[17] = 'Eller kan ni vara s&auml;kra p&aring; att Han, som &auml;r i himlen, inte sl&auml;pper l&ouml;s en storm &ouml;ver er, s&aring; v&aring;ldsam att ni f&ouml;rst&aring;r [allvaret i] Min varning';
+$t[18] = 'F&ouml;re dem levde helt visst andra som f&ouml;rnekade sanningen - och hur [h&aring;rd] var inte Min dom &ouml;ver dem!';
+$t[19] = 'Har de aldrig sett p&aring; f&aring;glarna &ouml;ver deras [huvuden], hur de under flykten str&auml;cker vingarna och sedan f&auml;ller in dem [mot sidorna]? Ingen utom den N&aring;derike h&aring;ller dem uppe; Han ser allt.';
+$t[20] = 'Vem, utom den N&aring;derike, kan bist&aring; er [med styrkan hos] en arm&eacute;? De som f&ouml;rnekar sanningen &auml;r [offer] f&ouml;r sj&auml;lvbedr&auml;geri!';
+$t[21] = 'Vem kan dra f&ouml;rsorg om er om Han skulle h&aring;lla tillbaka Sina g&aring;vor? - Men, nej, de framh&auml;rdar i sitt h&ouml;gmod och sitt trots!';
+$t[22] = 'N&aring;r den l&auml;ttare fram som g&aring;r b&ouml;jd med s&auml;nkt huvud &auml;n den som g&aring;r uppr&auml;tt p&aring; en rak v&auml;g';
+$t[23] = 'S&Auml;G [Muhammad]: &quot;Det &auml;r Han som har skapat er och beg&aring;vat er med h&ouml;rsel, syn och f&ouml;rst&aring;nd - men var &auml;r er tacksamhet?&quot;';
+$t[24] = 'S&auml;g: &quot;Det &auml;r Han som har l&aring;tit er uppfylla jorden och till Honom skall ni samlas &aring;ter.&quot;';
+$t[25] = 'Men de fr&aring;gar: &quot;N&auml;r skall detta l&ouml;fte infrias, om det ni s&auml;ger &auml;r sanning?&quot;';
+$t[26] = 'S&auml;g: &quot;Gud ensam har kunskap om detta; jag &auml;r bara en varnare, [som varnar] klart och entydigt.&quot;';
+$t[27] = 'N&auml;r de som f&ouml;rnekar sanningen [till sist] ser den [yttersta verkligheten] komma dem helt n&auml;ra, skall fasa och f&ouml;rtvivlan st&aring; m&aring;lade i deras ansikten, men [&auml;nglarna] kommer att s&auml;ga: &quot;Detta &auml;r vad ni alltid beg&auml;rde [att f&aring; se]!&quot;';
+$t[28] = 'S&Auml;G [Profet]: &quot;Vad tror ni? Vare sig Gud l&aring;ter mig och mina anh&auml;ngare g&aring; under eller Han f&ouml;rbarmar Sig &ouml;ver oss, var finns den som kan skydda f&ouml;rnekarna av sanningen mot ett sv&aring;rt straff [i n&auml;sta liv]?&quot;';
+$t[29] = 'S&auml;g: &quot;Han &auml;r den N&aring;derike - vi tror p&aring; Honom och till Honom litar vi. Ni kommer [snart] att f&aring; veta vem [av oss] som uppenbart har g&aring;tt vilse.&quot;';
+$t[30] = 'S&auml;g: &quot;Vad tror ni? Om allt ert vatten skulle f&ouml;rsvinna i jordens djup, vem skulle d&aring; kunna ge er vatten ur rena och klara k&auml;llor?&quot;';
+?>

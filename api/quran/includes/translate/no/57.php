@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Alt i himlene og p&aring; jord priser Gud! Han er den Mektige, den Vise.';
+$t[2] = 'Ham tilh&oslash;rer herred&oslash;mmet over himlene og jorden! Han gir liv og d&oslash;d, Han evner alle ting.';
+$t[3] = 'Han er den F&oslash;rste og den Siste, den &Aring;penbare og den Skjulte, Han kjenner til alle ting.';
+$t[4] = 'Han er det, som skapte himlene og jorden p&aring; seks dager. S&aring; tok Han plass p&aring; tronen. Han vet hva som g&aring;r ned i jorden, og hva som kommer ut av den, hva som kommer ned fra himmelen, og hva som g&aring;r opp dit. Han er med dere hvor dere enn er. Gud ser hva dere gj&oslash;r.';
+$t[5] = 'Ham tilh&oslash;rer herred&oslash;mmet over himlene og jorden! Fremfor Gud bringes alle ting.';
+$t[6] = 'Han lar natten bli til dag, og lar dagen bli til natt. Han kjenner vel til det som bor i hjertene.';
+$t[7] = 'Tro p&aring; Gud og Hans sendebud, og gi gode gaver av det Han har latt dere overta! Dem av dere som tror og gir gode gaver, venter stor l&oslash;nn.';
+$t[8] = 'Hva er i veien med dere, at dere ikke tror p&aring; Gud, n&aring;r Sendebudet kaller dere til &aring; tro p&aring; deres Herre, og Han har gjort avtale med dere, s&aring; fremt dere tror?';
+$t[9] = 'Han er det, som &aring;penbarer Sin tjener skriftens klare ord for &aring; f&oslash;re dere ut fra m&oslash;rket, til lys. Sannelig, Gud er mild og n&aring;derik mot dere.';
+$t[10] = 'Hva er i veien med dere, at dere ikke vil gi for Guds sak, n&aring;r himlene og jorden s&aring; allikevel til slutt er Guds arv? De av dere som gir f&oslash;r seieren er vunnet, og som kjemper, er ikke like, men har en h&oslash;yere rang enn dem som gir og kjemper etterp&aring;. Men Gud har lovet alle det beste. Gud er vel underrettet om hva dere gj&oslash;r.';
+$t[11] = 'S&aring; hvem gir Gud et godt l&aring;n, s&aring; Han kan fordoble det for ham? Og han har en herlig l&oslash;nn i vente!';
+$t[12] = 'Den dag n&aring;r du ser de troende menn og kvinner, og deres lys skinner foran dem og p&aring; deres h&oslash;yre side: &laquo;Et godt budskap for dere p&aring; denne dag, paradisets haver, hvor bekker sildrer, og der skal dere v&aelig;re og bli! Dette er den store seier!&raquo;';
+$t[13] = 'P&aring; denne dag sier hyklerne, menn og kvinner, til dem som tror: &laquo;Vent p&aring; oss, s&aring; vi kan l&aring;ne fra deres lys!&raquo; Det lyder: &laquo;G&aring; tilbake, og s&oslash;k lys!&raquo; Og det settes en mur mellom dem med en port. Innenfor den er n&aring;den, og utenfor p&aring; den andre siden er straffen.';
+$t[14] = 'De roper inn til dem: &laquo;Vi var da sammen med dere?&raquo; Og de svarer: &laquo;Ja, men dere gav dere hen i fristelser, stilte dere avventende, tvilte, og deres egne &oslash;nsker forf&oslash;rte dere, til Guds bestemmelse inntraff. Forf&oslash;reren forf&oslash;rte dere vedr&oslash;rende Gud!';
+$t[15] = 'S&aring; denne dag mottar ingen l&oslash;sepenger fra dere, eller fra de vantro. Deres herberge er Ilden! Den tar vare p&aring; dere. En s&oslash;rgelig skjebne!&raquo;';
+$t[16] = 'Er ikke tiden inne for dem som tror, at deres hjerter viser ydmykhet for Guds p&aring;minnelse og den sannhet Han har &aring;penbart, s&aring; de ikke blir som dem som tidligere ble gitt skriften, hvem tiden falt lang og deres hjerter forherdet seg, s&aring; mange av dem ble syndefulle.';
+$t[17] = 'Vit at Gud gir jorden liv etter dens dvale. Vi har forklart for dere j&aelig;rtegnene, slik at dere m&aring; forst&aring;.';
+$t[18] = 'Kvinner og menn som gir gode gaver, og gir Gud et godt l&aring;n, det fordobles for dem og de har en herlig l&oslash;nn i vente.';
+$t[19] = 'De som tror p&aring; Gud og alle Hans sendebud, disse er de rettferdige og de som gir vitnem&aring;l i Herrens &oslash;yne. De har sin l&oslash;nn i vente, og sitt lys. Men de vantro, som fornektet V&aring;rt ord, de er helvetes beboere.';
+$t[20] = 'Vit at jordelivet kun er lek og tidsfordriv, og pryd og skryt dere imellom, og kappestrid etter mer eiendom og barn, som en regnskur, med vegetasjon som fryder de vantro. Men s&aring; visner den, og du ser den gulne, og s&aring; blir den t&oslash;rre str&aring;. I det hinsidige finnes hard straff, &ndash; og Guds tilgivelse og velbehag. Jordelivet er bare en bedragersk nytelse.';
+$t[21] = 'Kappes om Herrens tilgivelse, og et paradis, like vidt som himmel og jord, som er gjort klar for dem som tror p&aring; Gud og alle Hans sendebud! Dette er Guds godhet, Han gir den til dem Han vil. Gud er full av godhet!';
+$t[22] = 'Ingen hjems&oslash;kelse inntreffer p&aring; jorden eller overfor dere selv, uten at det finnes i en Bok, f&oslash;r Vi skaper den. Dette er lett for Gud.';
+$t[23] = 'Dette for at dere ikke skal v&aelig;re bedr&oslash;vet over det som g&aring;r dere forbi, og ikke fryde dere for meget over det dere f&aring;r. Gud liker ikke den innbilske skrythals,';
+$t[24] = 'dem som er gjerrige og oppfordrer folk til gjerrighet. Om noen vender seg bort, s&aring; er Gud den Selvtilstrekkelige, den Lovpriste.';
+$t[25] = 'Vi har sendt V&aring;re sendebud med klar beskjed, og sendte med dem skriften og Vekten (likevekten) for folk &aring; ut&oslash;ve rettferd. Og Vi har sendt jernet, hvori stor makt ligger, og nytte for menneskene, og for at Gud i det skjulte kan f&aring; vite hvem som hjelper Ham og Hans sendebud. Gud er sterk, mektig.';
+$t[26] = 'Og Vi sendte Noa og Abraham, og la profetkallet blant deres etterkommere, og skriften. Noen av dem har funnet rett vei, men mange er syndefulle.';
+$t[27] = 'Og Vi lot f&oslash;lge i deres fotspor V&aring;re sendebud. S&aring;ledes sendte Vi Jesus, Marias s&oslash;nn, og gav ham evangeliet, og la i deres hjerter som f&oslash;lger ham, mildhet og medf&oslash;lelse. Munkevesenet fant de p&aring;, Vi foreskrev dem det ikke, kun for &aring; s&oslash;ke Guds velbehag. Men de overholdt det ikke p&aring; rette m&aring;te. Vi gav de troende blant dem deres l&oslash;nn, men mange av dem er syndefulle.';
+$t[28] = 'Dere som tror, frykt Gud og tro Hans sendebud, og Han vil gi dere dobbelt m&aring;l av Sin n&aring;de og gi dere lys &aring; vandre i, og tilgivelse, Gud er tilgivende, n&aring;derik,';
+$t[29] = 's&aring; skriftfolket kan vite at de ikke bestemmer over noe av Guds godhet, at godheten er i Guds h&aring;nd. Han gir dem til den Han vil. Gud har godhets fylde!';
+?>

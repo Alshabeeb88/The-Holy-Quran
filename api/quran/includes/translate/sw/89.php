@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Naapa kwa alfajiri,';
+$t[2] = 'Na kwa masiku kumi,';
+$t[3] = 'Na kwa viwili viwili na kimoja kimoja,';
+$t[4] = 'Na kwa usiku unapo pita,';
+$t[5] = 'Je! Hapana katika haya kiapo kwa mwenye akili?';
+$t[6] = 'Kwani hukuona jinsi Mola wako Mlezi alivyo wafanya kina A\'di?';
+$t[7] = 'Wa Iram, wenye majumba marefu?';
+$t[8] = 'Ambao haukuumbwa mfano wake katika nchi?';
+$t[9] = 'Na Thamudi walio chonga majabali huko bondeni?';
+$t[10] = 'Na Firauni mwenye vigingi?';
+$t[11] = 'Ambao walifanya jeuri katika nchi?';
+$t[12] = 'Wakakithirisha humo ufisadi?';
+$t[13] = 'Basi Mola wako Mlezi aliwapiga mjeledi wa adhabu.';
+$t[14] = 'Hakika Mola wako Mlezi yupo kwenye mavizio anawavizia.';
+$t[15] = 'Ama mtu anapo jaribiwa na Mola wake Mlezi, akamkirimu na akamneemesha, husema: Mola wangu Mlezi amenikirimu!';
+$t[16] = 'Na ama anapo mjaribu akampunguzia riziki yake, husema: Mola wangu Mlezi amenitia unyonge!';
+$t[17] = 'Sivyo hivyo! Bali nyinyi hamuwakirimu mayatima,';
+$t[18] = 'Wala hamhimizani kulisha masikini;';
+$t[19] = 'Na mnakula urithi kwa ulaji wa pupa,';
+$t[20] = 'Na mnapenda mali pendo la kupita kiasi.';
+$t[21] = 'Sivyo hivyo! Itakapo vunjwa ardhi vipande vipande,';
+$t[22] = 'Na akaja Mola wako Mlezi na Malaika safu safu,';
+$t[23] = 'Na ikaletwa Jahannamu siku hiyo, siku hiyo mtu atakumbuka! Lakini kukumbuka huko kutamfaa nini?';
+$t[24] = 'Atasema: Laiti ningeli jitangulizia kwa uhai wangu!';
+$t[25] = 'Basi siku hiyo hataadhibu yeyote namna ya kuadhibu kwake.';
+$t[26] = 'Wala hatafunga yeyote kama kufunga kwake.';
+$t[27] = 'Ewe nafsi iliyo tua!';
+$t[28] = 'Rejea kwa Mola wako Mlezi umeridhika, na umemridhisha.';
+$t[29] = 'Basi ingia miongoni mwa waja wangu,';
+$t[30] = 'Na ingia katika Pepo yangu.';
+?>

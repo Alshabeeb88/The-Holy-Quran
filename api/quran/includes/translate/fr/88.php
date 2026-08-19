@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'T\'est-il parvenu le r&eacute;cit de l\'enveloppante ?';
+$t[2] = 'Ce jour-l&agrave;, il y aura des visages humili&eacute;s,';
+$t[3] = 'pr&eacute;occup&eacute;s, harass&eacute;s.';
+$t[4] = 'Ils br&ucirc;leront dans un Feu ardent,';
+$t[5] = 'et seront abreuv&eacute;s d\'une source bouillante.';
+$t[6] = 'Il n\'y aura pour eux d\'autre nourriture que des plantes &eacute;pineuses [darii],';
+$t[7] = 'qui n\'engraisse, ni n\'apaise la faim.';
+$t[8] = 'Ce jour-l&agrave;, il y aura des visages &eacute;panouis,';
+$t[9] = 'contents de leurs efforts,';
+$t[10] = 'dans un haut Jardin,';
+$t[11] = 'o&ugrave; ils n\'entendent aucune futilit&eacute;.';
+$t[12] = 'L&agrave;, il y aura une source coulante.';
+$t[13] = 'L&agrave;, des divans &eacute;lev&eacute;s';
+$t[14] = 'et des coupes pos&eacute;es';
+$t[15] = 'et des coussins rang&eacute;s';
+$t[16] = 'et des tapis &eacute;tal&eacute;s.';
+$t[17] = 'Ne consid&egrave;rent-ils donc pas les chameaux, comment ils ont &eacute;t&eacute; cr&eacute;&eacute;s,';
+$t[18] = 'et le ciel comment il est &eacute;lev&eacute;,';
+$t[19] = 'et les montagnes comment elles sont dress&eacute;es';
+$t[20] = 'et la terre comment elle est nivel&eacute;e ?';
+$t[21] = 'Eh bien, rappelle ! Tu n\'es qu\'un rappeleur,';
+$t[22] = 'et tu n\'es pas un dominateur sur eux.';
+$t[23] = 'Sauf celui qui tourne le dos et ne croit pas,';
+$t[24] = 'alors Allah le ch&acirc;tiera du plus grand ch&acirc;timent.';
+$t[25] = 'Vers Nous est leur retour.';
+$t[26] = 'Ensuite, c\'est &agrave; Nous de leur demander compte.';
+?>

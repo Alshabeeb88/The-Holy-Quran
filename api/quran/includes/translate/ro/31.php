@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'Alif. Lam. Mim.';
+$t[2] = 'Acestea sunt versetele Cărţii &icirc;nţelepte,';
+$t[3] = 'călăuzire şi milostivenie făptuitorilor de bine';
+$t[4] = 'care &icirc;şi săv&acirc;rşesc rugăciunea, care dau milostenie şi care cred cu tărie &icirc;n Viaţa de Apoi.';
+$t[5] = 'Aceştia sunt călăuziţi de Domnul lor. Aceştia vor fi cei fericiţi!';
+$t[6] = 'Dintre oameni, cineva cumpără poveşti vesele cu care rătăceşte de la Calea Domnului cu neştiinţă şi spre a-şi bate joc. Aceştia vor avea o os&acirc;ndă umilitoare.';
+$t[7] = 'C&acirc;nd i se recită versetele Noastre, se &icirc;ntoarce cu trufie, ca şi cum nici nu le-ar auzi, ca şi cum urechile lui ar fi lovite de surzenie. Vesteşte-i o dureroasă os&acirc;ndă.';
+$t[8] = 'Grădinile plăcerii sunt ale celor care cred şi săv&acirc;rşesc fapte bune,';
+$t[9] = 'şi &icirc;n ele vor veşnici. Făgăduiala lui Dumnezeu este Adevăr. El este Puternicul, &Icirc;nţeleptul.';
+$t[10] = 'El a creat cerurile fără st&acirc;lpi pe care să-i vedeţi, a &icirc;nfipt munţii pe păm&acirc;nt ca să nu se clatine cu voi şi a &icirc;mprăştiat pe el vietăţi de tot soiul. Noi am trimis din cer apă şi am făcut să răsară pe el perechi din toate soiurile folositoare.';
+$t[11] = 'Aceasta este creaţia lui Dumnezeu! &ldquo;Arătaţi-mi ceea ce alţii, &icirc;n afară de El, au creat!&rdquo; Cei nedrepţi &icirc;nsă sunt &icirc;ntr-o vădită rătăcire!';
+$t[12] = 'Noi i-am dăruit lui Luqman &icirc;nţelepciunea: &ldquo;Mulţumeşte-i lui Dumnezeu. Cel care mulţumeşte, mulţumeşte pentru sufletul lui, iar cel care este nemulţumitor, să ştie că Dumnezeu este Bogat, Lăudat.&rdquo;';
+$t[13] = 'Luqman &icirc;i spuse fiului său pe c&acirc;nd &icirc;l dăscălea: &ldquo;O, fiul meu! Nu alătura pe nimeni lui Dumnezeu. &Icirc;nchinăciunea la idoli este o nelegiuire grozavă.&rdquo;';
+$t[14] = 'Noi l-am sfătuit pe om cu privire la părinţii lui. Mama sa l-a purtat pe c&acirc;nd el era &icirc;n neputinţă şi l-a &icirc;nţărcat după doi ani. Mulţumeşte-mi Mie şi părinţilor tăi. &Icirc;ntru Mine este devenirea.';
+$t[15] = 'Dacă am&acirc;ndoi te silesc să-Mi alături ceva de care tu nu ai ştiinţă, nu le da ascultare. Fii alături de ei pe lumea aceasta după cuviinţă, &icirc;nsă urmează calea celui ce către Mine se căieşte. &Icirc;ntoarcerea voastră va fi către Mine, iar Eu vă voi da de ştire de ceea ce aţi făptuit.';
+$t[16] = '&ldquo;O, fiul meu! Chiar dacă este ceva greu c&acirc;t o boabă de muştar, ascuns &icirc;ntr-o st&acirc;ncă, fie &icirc;n ceruri, fie pe păm&acirc;nt, Dumnezeu &icirc;l va scoate la lumină. Dumnezeu este Bl&acirc;nd, Cunoscător.';
+$t[17] = 'O, fiul meu! Săv&acirc;rşeşte-ţi rugăciunea, porunceşte ceea ce este cuviincios, opreşte ceea ce este ur&acirc;cios, rabdă ceea ce a căzut asupra ta. &Icirc;ntru aceasta este tăria firii.';
+$t[18] = 'Nu-ţi &icirc;ntoarce obrazul de la oameni, nu umbla semeţ pe păm&acirc;nt, căci Dumnezeu nu-l iubeşte pe lăudărosul fudul.';
+$t[19] = 'Fii simplu &icirc;n umbletul tău. Domoleşte-ţi glasul, căci cel mai ur&acirc;t glas este glasul măgarului.&rdquo;';
+$t[20] = 'Nu vedeţi că Dumnezeu v-a supus vouă cele din ceruri, precum şi cele de pe păm&acirc;nt? El a răsp&acirc;ndit asupra voastră harurile Sale văzute şi nevăzute. Şi printre oameni unii se ceartă asupra lui Dumnezeu fără ştiinţă, fără călăuzire, fără Carte luminoasă!';
+$t[21] = 'Dacă li se spune: &ldquo;Urmaţi ceea ce Dumnezeu a pogor&acirc;t&rdquo;, ei răspund: &ldquo;Ba nu! Noi urmăm ceea ce am aflat de la taţii noştri...&rdquo; Dacă Diavolul &icirc;i cheamă &icirc;nsă la os&acirc;nda Iadului...?';
+$t[22] = 'Cel care &icirc;şi supune faţa lui Dumnezeu şi săv&acirc;rşeşte fapte bune, apucă toarta cea mai trainică, căci la Dumnezeu este urmarea lucrurilor!';
+$t[23] = 'Tăgada necredinciosului să nu te m&acirc;hnească, căci &icirc;ntoarcerea tăgăduitorilor va fi către Noi şi atunci le vom da de ştire ceea ce au făptuit. Dumnezeu este Cunoscător al lăuntrului inimilor.';
+$t[24] = '&Icirc;i vom lăsa să se bucure o vreme de Viaţa de Acum, apoi &icirc;i vom sili la o grea os&acirc;ndă.';
+$t[25] = 'Dacă &icirc;i &icirc;ntrebi: &ldquo;Cine a creat cerurile şi păm&acirc;ntul?&rdquo;, vor spune: &ldquo;Dumnezeu!&rdquo; Spune: &ldquo;Laudă lui Dumnezeu!&rdquo; Cei mai mulţi dintre ei nu ştiu &icirc;nsă!';
+$t[26] = 'Ale Lui sunt cele din ceruri şi de pe păm&acirc;nt. Dumnezeu este Bogatul, Lăudatul.';
+$t[27] = 'Dacă toţi copacii de pe păm&acirc;nt ar fi condeie şi dacă marea, şi &icirc;ncă şapte mări asemenea ei, ar da cerneală, Cuvintele lui Dumnezeu tot nu s-ar sf&acirc;rşi. Dumnezeu este Puternic, &Icirc;nţelept.';
+$t[28] = 'Crearea voastră şi &icirc;nvierea voastră nu sunt dec&acirc;t ca ale unui singur suflet. Dumnezeu este Auzitor, Văzător,';
+$t[29] = 'Nu vezi oare că Dumnezeu face noaptea să străpungă ziua şi ziua să străpungă noaptea! El a silit soarele şi luna să alerge fiecare către un anumit soroc. Dumnezeu a ceea ce făptuiţi este Cunoscător.';
+$t[30] = 'Aceasta pentru că Dumnezeu este Adevărul, iar ceea ce voi chemaţi, &icirc;n afară de El, este deşărtăciune. Dumnezeu este &Icirc;naltul, Marele!';
+$t[31] = 'Nu vedeţi cum corabia pluteşte pe mare prin harul lui Dumnezeu ca să vă arate din semnele Sale. &Icirc;ntru acestea sunt semne pentru orice răbdător, mulţumitor.';
+$t[32] = 'C&acirc;nd un val asemenea &icirc;ntunecimilor &icirc;i acoperă, oamenii &icirc;l cheamă pe Dumnezeu curaţi Lui &icirc;n credinţă După ce &icirc;i m&acirc;ntuie Dumnezeu duc&acirc;ndu-i pe uscat, unii vor fi chibzuiţi, &icirc;nsă numai schimbătorul nemulţumitor se va lepăda de semnele Noastre.';
+$t[33] = 'O, voi oameni! Temeţi-vă de Domnul vostru! Să vă fie frică de Ziua c&acirc;nd un tată nu va putea face nimic pentru fiul său, şi nici fiul pentru tatăl său. Făgăduiala lui Dumnezeu este Adevăr! Viaţa de Acum să nu vă amăgească şi nici amăgitorul să nu vă amăgească asupra lui Dumnezeu.';
+$t[34] = 'Numai Dumnezeu are ştiinţa Ceasului. El trimite ploaia. El ştie ceea ce este &icirc;n p&acirc;ntecele mamelor. Nimeni nu ştie ce va agonisi m&acirc;ine, nimeni nu ştie pe ce păm&acirc;nt va muri. Dumnezeu este Ştiutor, Cunoscător!';
+?>

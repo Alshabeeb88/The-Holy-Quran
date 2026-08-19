@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Waxaa barako badnaaday (oo weynaaday) Eebaha Xukunku awooddiisa ku jiro ee wax walbana kara.';
+$t[2] = 'Eebaha abuuray geeri iyo nololba, si uu dadow idiin imtixaamo kiinna Camal fiican, Eebana waa adkaade dambidhaafe ah.';
+$t[3] = 'Eebe waa midka abuuray Toddobo Samo oo isdul saaran kuna arki maysid abuurka Eebaha Raxmaanka ah kala tagsani, bal daymada celi inaad aragto wax dillaac ah.';
+$t[4] = 'Haddana celi daymada waxaa kugu soo noqon aragga oo dhiban daallanna.';
+$t[5] = 'Eebe wuxuu ku quxiyey Samada dhow Nalal (Xiddigaha) wuxuuna ka dhigay Xiddigahaas kuwo lagu gano Shayaadiinta, Wuxuuna Eebe u diyaariyay kuwaas Naarta Saciiro.';
+$t[6] = 'Kuwa ka gaaloobay Eebahood waxaa u sugnaaday Caddibaadda Jhannamo, meel loo ahaadana iyadaa u xun.';
+$t[7] = 'Marka Gaalada lagu tuuro Naarta waxay ka maqli Cod xun oo daran iyadoo karaysa.';
+$t[8] = 'waxay u dhawdahay inay Cadha daraadeed la kala dillaacdo, marka Koox (Gaala ah) lagu ridaba waxaa warsada Malaa\'igta Naarta ka shaqeysa iyagoo ku dhihi miyuusan idiin imaanin wax idiin diga.';
+$t[9] = 'Waxayna ugu jawaabi waa noo yimid wax noo diga waanse beeninay, annagoo leh ma soo dejinin Eebe waxba, idinkuna waxaad ku sugan tihiin baadi weyn.';
+$t[10] = 'Gaaladii waxay dhaheen haddaan wax maqlaynno ama aan wax kasayno Naarta Saciiro ehelkeeda ma aanaan noqoneen.';
+$t[11] = 'Waxay kirteen (Gaaladu) dambigoodii waxaana u sugnaatay fogaansho Naarta Saciiro ehelkeeda.';
+$t[12] = 'Kuwa Eebe ka yaaba iyagoon la arkaynin (Eebe mooyee) waxaa u sugnaaday dambi dhaaf iyo ajri weyn.';
+$t[13] = 'Ama hadalka hoos dhiga dadow ama kor u qaada Eebe waa ogyahay waxa laabta ku jira.';
+$t[14] = 'Ma waxaan wax ogeyn Eebaha wax walba abuuray ee wax walba daalacan.';
+$t[15] = 'Eebe waa kan Dhulka ka dhigay mid laylan ee ku socda Waddooyinkiisa kana Cuna Quudkiisa Eebaana Dadku loo soo kulmin (Qiyaamada).';
+$t[16] = 'Miyaad ka aamin noqoteen Eebaha Sare inuu Dhulka idin la gooyo, ayna idinla dhaqdhaqaaqdo.';
+$t[17] = 'Miyaadse ka aamin noqoteen Eebaha Sare inuu Dhagaxyo Naar ah idinku soo daadiyo, waad ogaan doontaan digiinta Eebe Cidhibteeda.';
+$t[18] = 'Waxaa Eebe beeniyey Gaaladii (reer Makaad) ka horreeyey, sidayse ahayd Ciqaabti Eebe.';
+$t[19] = 'Miyeyna dadku arkaynin Shimbirka korkooda ah marna baalka fidin marna laabi wax haya oon Eebaha Raxmaan ahayna uusan jirin, Eebana wax walba wuu arkaa.';
+$t[20] = 'Waa kuma Gargaaraha Eebaha Raxmaan ah ka soo hadhay ee u gaargaari Gaalada, Gaaladu waxay ku sugan yihiin kadsoomid.';
+$t[21] = 'Waa kuma kan wax quudiya haddii Eebe haysto Risqigiisa, Gaaladu waxay ku Madax adaygeen isla weyni iyo Xaq diidnimo.';
+$t[22] = 'Midkee wanaagsan Ruux Wajiga k socda iyo mid si toosan oo siman Wadda Toosan ugu socda.';
+$t[23] = 'Dheh Nabiyow Eebe waa midka Dadkow idin ahaysiiyey, Maqal iyo Arag iyo Caqlina idiin yeelay, wax yar baadse Eebe ku shukridaan.';
+$t[24] = 'Dheh Eebe waa midka dadkow Dhulka idinku beeray isagaana (Qiyaamada) loo soo kulmin doona Dadka.';
+$t[25] = 'Waxay dhihi Gaaladu waa goorma Waqtiguu dhici waxa naloogu gooddin haddaad run sheegaysaan.';
+$t[26] = 'Dheh Eebaa og goortaas, waxaanse ahay Anigu u dige Cad (muuqda).';
+$t[27] = 'Markaysa Gaaladu Naarta oo u dhow arkaan waxaa xumaan oo doorsoomi Wajiga Gaalada, waxaana lagu dhihi waaka Cadibaaddii aad ddonayseen (dedejisanayseen).';
+$t[28] = 'Dheh balse ka warrama haddii Eebe aniga (Nabiga) iyo inta ila jirta uu halligo ama u naxariisto yaa Gaalo ka korin Caddibaad daran.';
+$t[29] = 'Dheh Eebe waa Raxmaan waana rumaynay, waana Tala saaranay, waadse ogaan doontaan (Gaalooy) Cidda Baadi Cad ku sugan.';
+$t[30] = 'Dheh balse Warrama hadday Biyuhu Dhulka ku gudhaan yaa idin siin Biya durduri (ma jiro Eebe waxaan ahayn).';
+?>

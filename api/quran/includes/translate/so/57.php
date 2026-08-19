@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Waxaa Eebe sharrifa (oo wayneeya) waxa ku sugan Samawaadka iyo Dhulka, Eebana waa adkaade falsan.';
+$t[2] = 'Waxaa Eebe u sugnaaday xukunka samaawaadka iyo Dhulka, isagaa waxa nooleeya waxna dila, waxwalbana wuu karaa.';
+$t[3] = 'Eebe waa kan horreeyay, waana kan dambayn, waana kan muuqda (khalqigiisa) awgiis waana kan (Indhaha) ka qarsoon waxwalbana og.';
+$t[4] = 'Eebe waa kan ku abuuray Samaawaadka iyo Dhulka Lix Maalmood qaddarkood, markaasna Carshiga ku ekaaday (si u cunnanta) wuxuuna ogyahay waxa Dhulka gali iyo waxa ka soo bixi, waxa Samada ka soo dagi iyo waxa u kori, Eebana waa idinla joogaa meelkastood ku sugantihiinba, waxaad camal falaysaanna Eebe waa arkaa.';
+$t[5] = 'Eebaa iska leh xukunka Samada iyo dhulka, xaggiisaana loo celin ummuuraha.';
+$t[6] = 'Eebe waa kan habeenka iyo dhaarta is dhex galiya (kala badiya) waxa laabta ku jirana waa ogyahay.';
+$t[7] = 'Rumeeya Eebe iyo Rasuulkiisa, bixiyana waxa ka mid ah wuxuu idiinka dhigay wakiillo (maamulkiisa) kuwa rumeeyay Eebe oo idinka mid ah waxna bixiyay waxay Mudan ajir wayn.';
+$t[8] = 'Maxaad leedihiin ood la rumayn waydeen Eebe, isagoo Rasuulkuna idiinku yeedhi inaad rumaysaan Eebihiin, isagoo Eeba ballan idinka qaaday haddaad mu\'miniin tihiin.';
+$t[9] = 'Eebe waa ka soo dajiyay Aayaad cadcad si uu idiinka bixiyo mugdiga, Nuurna idiinku bixiyo, Eebana waa idiin naxariis badanyahay.';
+$t[10] = 'Maxaad leedihiin ood wax ugu bixinwaydeen Jidka Eebe isagoo Samaawaadka iyo Dhulka dhaxalkooda iska leeyahay, masinna Ruux wax bixiyay Maka furashadeedii ka hor oo Jahaaday, kuwaasaa ka Ajri wayn kuwii bixiyay oo dagaalamay ka dib, dhammaantoodna Eebe wuxuu u yaboohay wanaag, Eebana waa ogyahay waxaad camal falaysaan.';
+$t[11] = 'Waa kuma kan Eebe amaah wanaagsan amaahin (wax bixin) oo markaas uu u laablaabo, Ajri wanaagsanna hela.';
+$t[12] = '(Xusuusta) Maalinta aad arki Mu\'miniinta Rag iyo Haweenba iyagoo nuurkoodu socda hortooda iyo Midigtooda, waxaana lagu dhihi bishaaraysta Maanta, waa Jannooyin Ay dureeri dhexdooda Wabiyaal iyagoo ku waari dhexdeeda, taasina waa liibaan wayn.';
+$t[13] = 'waa Maalinta Munaafiqiintu Rag iyo Haweenba ay ku dhihi kuwa xaqa rumeeyay na suga aan ka Dhuxul qaadanno Nuurkiinnee, waxaana lagu dhihi ku noqda gadaashiinna, waydiistana Nuur, markaasaa layeelaa dhexdooda Darbi xaggiisa gudahana Naxariis tahay, xaggiisa dibaddana Caddibaad tahay.';
+$t[14] = 'Way u dhawaaqi Mu\'miiniinta iyagoo leh miyannaan idinla jirin, Mu\'miniintuna waxa ku dhihi haa (waad nala jirteen) laakiin waxaad balayseen Naftiinna, xumaanna waad la sugteen (Nabiga Iyo Mu\'miniinta), waadna shakideen waxaana idinku kadisay yididiilo (been ah) Inta amarka Eebe ka yimaaddo (Geerida) waxaana Eebe idinku kadsiiyay Kadiye (Shaydaan).';
+$t[15] = 'Maanta (Qiyaamada) laydin kama aqbalo is furasho idinka iyo kuwa Gaaloobay midna, Hoygiinnuna waa Nar waadna mudataan, meel loo hoydana iyadaa u xun.';
+$t[16] = 'Miyayan u dhawaanin kuwa xaqa rumeeyay inay u khushuucdo quluubtoodu xusidda Eebe (Quraanka) iyo waxa xaqa ah ee dagi, oyna la mid noqonin kuwii Kitaabka la siiyay horay (Yahuud iyo Nasaaro) oo muddadu ku dheeraatay, markaas ay ingagtay Quluubtoodu, wax badan oo ka mid ahna waa Faasiqiin (ka baxay Xerada).';
+$t[17] = 'Ogaada in Eebe nooleeyo Dhulka dhimasho ka dib, wuuna idiin caddeeyay Aayaadka si aad wax u kastaan.';
+$t[18] = 'Ragga wax Sadaqaysta iyo Haweenka wax Sadaqaysta oo Eebana Amaah wanaagsan Amaaahiya (waa Sadaqada) waa loo laablaabi, waxayna leeyihiin Ajri sharaf leh.';
+$t[19] = 'Kuwa rumeeyay Eebe iyo Rasuulkiisa kuwaasu waa Runbadanayaal, Shuhadaduna Eebe agtiisa ajri iyo Nuur bay ku mudan kuwase Gaaloobay beeniyayna Aayaadkanaga kuwaasi waa ehelka Naarta Jaxiimo.';
+$t[20] = 'Ogaada in nolosha Adduunyadu yahay ciyaar iyo dheeldheel iyo isqurxin iyo isufaan dhexdiinna ah iyo badsi Xoolo iyo Carruur, sida Roobi isjeclayssiyey beertah, wuxuu soo bixiyo, markaasna ingaga ood arki isaga oo doorsoomay noqonna burbur, Aakhirana waxaa jira caddibaad daran iyo dambidhaaf xagga Eebe ka iman iyo raalli ahaansho, nolosha Adduunyana waa raaxo lugu kadsoomi.';
+$t[21] = 'U orotama Dambidhaafka Eebe iyo Janno balladhkeedu yahay balladhka Samada iyo dhulka oo kale, loona darbay kuwa rumeeyay Eebe iyo Rasuulkiisa, Arrintaasuna waa samafal Eebana wuxuu siin Ruuxuu doono, Eebana Fadligiisu waa wayn yahay.';
+$t[22] = 'Wixii dhib ah oo Dhulka ka dhaca ama naftiinna ku dhaca wuxuu ku sugnaaday Kitaab Abuuriddiisa ka hor, arrintaasuna waa u fududdahay Eebe.';
+$t[23] = 'Si aydaan ugu murugoonin wixii idinka taga aydaan uguna farxin wuxuu idin siiyo, Eebe ma jecla Ruux kasta oo isla wayn oo faanbadan.';
+$t[24] = 'Oo ah kuwa bakhayli dadkana fari bakhaylnimo, Ruuxii jeedsadana Eebe waa ka hodon mahadsan.';
+$t[25] = 'Dhab ahaan baan ula dirray Rasuulladannadii xujooyin, waxaana u soo dajinnay Kutub iyo Caddaalad, si dadku ugu tooso Caddaalad, waxaana soo dajinnay birta iyadoo Shiddo ku dheehantahay iyo nacfi dadka iyo in Eebe muujiyo Cidda u gargaari isaga (Diinta) iyo Rasuulladiisa iyagoon arkaynin, Eebana waa Xoog badane Adkaade ah.';
+$t[26] = 'Dhab ahaan baan u dirray (nabi) Nuux iyo (nabi) Ibraahim, waxaana yeellay faracooda Nabinnimo iyo Kitaabbo loo soo dajiyay, waxaana ka mid ah kuwa hanuunay, waxbadan oo ka mid ahna waa Faasiqiin.';
+$t[27] = 'Markaasaan raacinnay Raadkoodii Rasuulladanadii, waxaana raacinnay Ciise Binu maryama, waxaana siinay Injiil, waxaana yeellay Quluubta kuwii raacay isudanqasho iyo naxariis iyo Ruhbaaniyad (Adduun ka jeedsi) ay iyagu billawdeen oonaan ku faral yeelin, doonidda raalli ahaanshaha Eebe dartiis yayna u faleen, mase ayna ilaalinin ilaalin xaq ah, waxaana siinnay kuwii rumeeyay oo ka mid ah ajrigoodii, wax badan oo ka mid ahna waa faasiqiin.';
+$t[28] = 'Kuwa xaqa rumeeyow Eebaa ka dhawrsada, rumeeyana Rasuulkiisa haydin siiyo laab laab naxariiseede, hana idiin yeelo Nuur aad ku socotaane, hana idiin dambidhaafee, Eebana waa dambidhaafe naxariista ah.';
+$t[29] = 'Inay ogaadan ehlukitaabku inayan karin inay hantaan Fadliga Eebe, fadliga Eebana awooddiisu uu ku jiraa, wuxuuna siin Ruuxuu doono, Eebana waa kan Fadliga wayn leh.';
+?>

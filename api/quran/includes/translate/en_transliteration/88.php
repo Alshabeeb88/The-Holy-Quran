@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Hal ataka hadeethu alghashiyat';
+$t[2] = 'Wujoohun yawma-ithin khashiAAa';
+$t[3] = 'AAamilatun nasiba';
+$t[4] = 'Tasla naran hamiya';
+$t[5] = 'Tusqa min AAaynin aniya';
+$t[6] = 'Laysa lahum taAAamun illamin dareeAA';
+$t[7] = 'La yusminu wala yughnee minjooAA';
+$t[8] = 'Wujoohun yawma-ithin naAAima';
+$t[9] = 'LisaAAyiha radiya';
+$t[10] = 'Fee jannatin AAaliya';
+$t[11] = 'La tasmaAAu feeha laghiya';
+$t[12] = 'Feeha AAaynun jariya';
+$t[13] = 'Feeha sururun marfooAAa';
+$t[14] = 'Waakwabun mawdooAAa';
+$t[15] = 'Wanamariqu masfoofa';
+$t[16] = 'Wazarabiyyu mabthootha';
+$t[17] = 'Afala yanthuroona ilaal-ibili kayfa khuliqat';
+$t[18] = 'Wa-ila assama-i kayfarufiAAat';
+$t[19] = 'Wa-ila aljibali kayfa nusibat';
+$t[20] = 'Wa-ila al-ardi kayfa sutihat';
+$t[21] = 'Fathakkir innama anta muthakkir';
+$t[22] = 'Lasta AAalayhim bimusaytir';
+$t[23] = 'Illa man tawalla wakafar';
+$t[24] = 'FayuAAaththibuhu Allahu alAAathabaal-akbar';
+$t[25] = 'Inna ilayna iyabahum';
+$t[26] = 'Thumma inna AAalayna hisabahum';
+?>

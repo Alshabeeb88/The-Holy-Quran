@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alif, L&acirc;m, M&icirc;m.';
+$t[2] = 'La rivelazione del Libro [proviene] senza alcun dubbio dal Signore dei mondi.';
+$t[3] = 'Diranno: &ldquo;L\'ha inventato?&rdquo;. &Egrave; invece una verit&agrave; che [proviene] dal tuo Signore, affinch&eacute; tu ammonisca un popolo a cui non giunse, prima di te, alcun ammonitore, affinch&eacute; si lascino guidare.';
+$t[4] = 'Allah &egrave; Colui Che ha creato in sei giorni i cieli e la terra e tutto ci&ograve; che vi &egrave; frammezzo, quindi Si &egrave; innalzato sul Trono. Al di fuori di Lui non avete alcun patrono o intercessore. Non ve ne ricorderete?';
+$t[5] = 'Dal cielo dirige le cose della terra e poi tutto risalir&agrave; a Lui, in un Giorno che sar&agrave; come mille anni del vostro contare.';
+$t[6] = 'Egli &egrave; Colui Che conosce il palese e l\'invisibile; &egrave; l\'Eccelso, il Misericordioso;';
+$t[7] = '&egrave; Colui Che ha perfezionato ogni cosa creata e dall\'argilla ha dato inizio alla creazione dell\'uomo,';
+$t[8] = 'quindi ha tratto la sua discendenza da una goccia d\'acqua insignificante;';
+$t[9] = 'quindi gli ha dato forma e ha insufflato in lui del Suo Spirito. Vi ha dato l\'udito, gli occhi e i cuori. Quanto poco siete riconoscenti!';
+$t[10] = 'E dicono: &ldquo;Quando saremo dispersi nella terra godremo di una nuova creazione?&rdquo;. &Egrave; che non credono all\'incontro con il loro Signore!';
+$t[11] = 'Di\': &ldquo;L\'angelo della morte che si occuper&agrave; di voi, vi far&agrave; morire e poi sarete ricondotti al vostro Signore&rdquo;.';
+$t[12] = 'Se allora potessi vedere i malvagi, [dire col] capo chino davanti al loro Signore: &ldquo;Nostro Signore, abbiamo visto e sentito, lasciaci tornare, s&igrave; che possiamo fare il bene; [ora] crediamo con certezza&rdquo;.';
+$t[13] = '&ldquo;Se avessimo voluto, avremmo dato ad ogni anima la sua direzione; si &egrave; invece compiuta la mia sentenza: riempir&ograve; l\'Inferno di uomini e di d&egrave;moni insieme&quot;.';
+$t[14] = 'Gustate allora [il castigo] per aver dimenticato l\'incontro di questo Giorno. In verit&agrave; [anche] Noi vi dimentichiamo. Gustate il castigo perpetuo per quello che avete fatto!&rdquo;';
+$t[15] = 'In verit&agrave; credono nei Nostri segni solo coloro che, quando vengono loro rammentati, si gettano in prosternazione, lodano il loro Signore rendendoGli gloria e non sono tronfi di orgoglio.';
+$t[16] = 'Strappano i loro corpi dai letti per invocare il loro Signore, per timore e speranza, e sono generosi di quello che abbiamo loro concesso.';
+$t[17] = 'Nessuno conosce la gioia immensa che li attende, ricompensa per quello che avranno fatto.';
+$t[18] = 'Forse il credente &egrave; come l\'empio? Non sono affatto uguali.';
+$t[19] = 'Coloro che credono e compiono il bene saranno ospitati nei giardini del Rifugio, premio per quello che avranno fatto,';
+$t[20] = 'mentre coloro che saranno stati empi avranno per rifugio il fuoco. Ogni volta che vorranno uscirne vi saranno ricondotti e sar&agrave; detto loro: &ldquo;Provate il castigo del fuoco che tacciavate di menzogna!&rdquo;.';
+$t[21] = 'Daremo loro un castigo immediato prima del castigo pi&ugrave; grande, affinch&eacute; ritornino [sulla retta via].';
+$t[22] = 'Chi &egrave; peggior ingiusto di colui che si distoglie dai segni di Allah dopo che gli sono stati ricordati? In verit&agrave; ci vendicheremo dei trasgressori.';
+$t[23] = 'Gi&agrave; demmo il Libro a Mos&egrave; [dicendogli]: &ldquo;Non dubitare circa il Suo incontro&rdquo;. Ne facemmo una guida per i Figli di Israele.';
+$t[24] = 'E [finch&eacute;] furono perseveranti e credettero con fermezza nei Nostri segni, scegliemmo tra loro dei capi che li dirigessero secondo il Nostro comando.';
+$t[25] = 'In verit&agrave; il tuo Signore nel Giorno della Resurrezione giudicher&agrave; tra loro, a proposito delle loro divergenze.';
+$t[26] = 'Non &egrave; servito loro da lezione che prima di loro abbiamo fatto perire tante generazioni, nelle cui case [in rovina] si aggirano? In verit&agrave; in ci&ograve; vi sono segni. Non ascolteranno dunque?';
+$t[27] = 'Non hanno visto come spingiamo l\'acqua verso una terra arida, suscitando poi una vegetazione che nutre il loro bestiame e loro stessi? Non vedranno dunque?';
+$t[28] = 'E dicono: &ldquo;Quando verr&agrave; questa vittoria, se siete veridici?&rdquo;.';
+$t[29] = 'Di\': &ldquo;Nel Giorno della Vittoria sar&agrave; vano il credere dei miscredenti! Non avranno alcun rinvio&rdquo;.';
+$t[30] = 'Allontanati dunque da loro, e aspetta. Anche loro aspetteranno!';
+?>

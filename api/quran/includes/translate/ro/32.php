@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alif. Lam. Mim.';
+$t[2] = 'Pogor&acirc;rea Cărţii, fără nici o &icirc;ndoială, este de la Domnul lumilor.';
+$t[3] = 'Vor spune, oare: &ldquo;El a născocit-o!&rdquo; Ba nu! Această Carte este Adevărul de la Domnul tău ca tu să previi un popor la care nici un prevenitor nu a mai venit &icirc;naintea ta. Poate se vor lăsa călăuziţi!';
+$t[4] = 'Dumnezeu este Cel ce a creat &icirc;n şase zile cerurile, păm&acirc;ntul şi ceea ce se află &icirc;ntre ele, apoi s-a aşezat pe Tron. Nu aveţi afară de El oblăduitor şi nici mijlocitor. Nu chibzuiţi, oare?';
+$t[5] = 'El c&acirc;rmuieşte totul de la cer la păm&acirc;nt, şi apoi totul se va ridica la El &icirc;ntr-o Zi mare c&acirc;t o mie de ani, după cum număraţi voi.';
+$t[6] = 'El cunoaşte tăinuitul şi mărturisitul. El este Puternicul, Milostivul';
+$t[7] = 'care a făcut frumos ceea ce a creat şi care a &icirc;nceput crearea omului din lut,';
+$t[8] = 'apoi i-a făcut pe urmaşii lui să iasă dintr-o apă lepădată.';
+$t[9] = 'El l-a desăv&acirc;rşit şi a suflat &icirc;n el din duhul Său. El v-a creat vouă auzul, văzul şi inimile. Voi, puţin, &icirc;i sunteţi &icirc;nsă mulţumitori!';
+$t[10] = 'Ei spun: &ldquo;După ce ne vom făr&acirc;miţa &icirc;n ţăr&acirc;nă, vom avea iarăşi o nouă făptură?&rdquo;, căci ei nu cred &icirc;n &Icirc;nt&acirc;lnirea cu Domnul lor.';
+$t[11] = 'Spune: &ldquo;&Icirc;ngerul morţii căruia i-aţi fost &icirc;ncredinţaţi vă va culege, apoi la Domnul vostru veţi fi &icirc;ntorşi.&rdquo;';
+$t[12] = 'O, dacă i-ai vedea atunci pe cei nelegiuiţi cu capetele plecate &icirc;naintea Domnului lor! &ldquo;Domnul nostru! Am văzut şi am auzit. &Icirc;ntoarce-ne pe păm&acirc;nt, căci vom face numai bine şi vom crede cu tărie.&rdquo;';
+$t[13] = 'Dacă am fi vrut, am fi dăruit fiecărui suflet călăuzirea. Spusa de la Mine se &icirc;mplineşte: &ldquo;Voi umple Gheena cu ginni şi cu oameni laolaltă.&rdquo;';
+$t[14] = 'Gustaţi că aţi uitat &icirc;nt&acirc;lnirea cu această zi a voastră. Şi Noi v-am uitat! Gustaţi os&acirc;nda veşniciei pentru ceea ce aţi făptuit.';
+$t[15] = 'Numai aceia cred &icirc;n semnele Noastre, care se prosternează c&acirc;nd le sunt amintite şi care-L preamăresc &icirc;n laude pe Domnul lor şi nu se arată &icirc;ng&acirc;mfaţi.';
+$t[16] = 'Ei se smulg din aşternuturile lor ca să-L cheme pe Domnul lor cu teamă şi r&acirc;vnă şi dau milostenie din ceea ce i-am &icirc;nzestrat.';
+$t[17] = 'Nici un suflet nu ştie ce bucurii &icirc;i sunt sortite ca răsplată a faptelor sale!';
+$t[18] = 'Credinciosul este deopotrivă cu cel stricat?! Nu, ei nu sunt deopotrivă!';
+$t[19] = 'Cei care cred şi săv&acirc;rşesc fapte bune vor avea Grădinile Limanului ca loc de şedere pentru faptele lor,';
+$t[20] = 'iar cei stricaţi vor avea Focul ca liman. De fiece dată c&acirc;nd vor &icirc;ncerca să iasă, vor fi daţi &icirc;napoi spun&acirc;ndu-li-se: &ldquo;Gustaţi os&acirc;nda Focului pe care &icirc;l socoteaţi minciună.&rdquo;';
+$t[21] = 'Noi &icirc;i vom face să guste os&acirc;nda cea bl&acirc;ndă &icirc;nainte de os&acirc;nda cea mare. Poate se vor &icirc;ntoarce!';
+$t[22] = 'Cine este mai nedrept dec&acirc;t cel care se &icirc;ntoarce de la semnele Domnului său după ce i-au fost amintite? Noi ne răzbunăm pe nelegiuiţi.';
+$t[23] = 'Noi am dăruit Cartea lui Moise &mdash; nu te &icirc;ndoi că n-a primit-o &mdash; şi am r&acirc;nduit-o călăuzire fiilor lui Israel.';
+$t[24] = 'Noi am făcut căpetenii dintre ei care să-i călăuzească din porunca Noastră, c&acirc;nd erau răbdători şi credeau cu tărie &icirc;n semnele Noastre.';
+$t[25] = 'Domnul tău va judeca &icirc;ntre ei &icirc;n Ziua &Icirc;nvierii şi le va desluşi de ce se &icirc;nvrăjbeau.';
+$t[26] = 'Oare nu le este &icirc;nvăţătură văz&acirc;nd c&acirc;te leaturi am nimicit &icirc;naintea lor şi prin ale căror aşezăminte ei merg acum? &Icirc;ntru aceasta sunt semne! Ei nu aud, oare?!';
+$t[27] = 'Ei nu au văzut cum m&acirc;năm apa către ţinutul sterp şi facem să crească din el gr&acirc;ne din care măn&acirc;ncă ei şi dobitoacele lor? Ei văd, oare?';
+$t[28] = 'Ei spun: &ldquo;C&acirc;nd va veni biruinţa aceasta, dacă spuneţi adevărul?&rdquo;';
+$t[29] = 'Spune: &ldquo;Ziua cuceririi nu slujeşte la nimic celor care nu au crezut, căci ei nu au nimic de aşteptat!&rdquo;';
+$t[30] = '&Icirc;ndepărtează-te de ei şi aşteaptă! Căci şi ei aşteaptă...';
+?>

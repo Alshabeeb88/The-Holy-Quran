@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Thuaj: &ldquo;Mua m&euml; shpalllet se nj&euml; grup i vog&euml;l nga xhin&euml;t i vuri veshin dhe d&euml;gjoi (Kur&rsquo;anin) dhe (kur u kthyen te t&euml; vet&euml;t) than&euml;: &ldquo;Ne kemi d&euml;gjuar nj&euml; Kur&rsquo;an q&euml; mahnit,';
+$t[2] = 'q&euml; udh&euml;zon n&euml; t&euml; v&euml;rtet&euml;n, andaj ne i besuam atij dhe Zotit ton&euml;, kurrsesi nuk do t&rsquo;ia shoq&euml;rojm&euml; m&euml; ak&euml;&rdquo;';
+$t[3] = 'Dhe se lat&euml;sua e madh&euml;ruar e Zotit ton&euml;, nuk &euml;sht&euml; q&euml; ka as grua, as f&euml;mij&euml;.';
+$t[4] = 'S&rsquo;ka dshim se ai mendjelehti jon&euml; fliste t&euml; pav&euml;rteta ndaj All-llahut.';
+$t[5] = 'Nd&euml;rsa, ne kemi pas menduar se as njer&euml;zit, as xhin&euml;t nuk flasin g&euml;njeshtra p&euml;rkitazi me All-llahun,';
+$t[6] = 'Dhe se ka pasur burra prej njer&euml;zve, q&euml; k&euml;rkonin ndihm&euml; prej disa xhin&euml;ve dhe ashtu ua shtonin atyre edhe m&euml; shum&euml; arroganc&euml;n.';
+$t[7] = 'Dhe se ata (njer&euml;zit) kan&euml; menduar, si&ccedil; keni menduar edhe ju, se All-llahu nuk ka p&euml;r t&euml; ringjallur ask&euml;.';
+$t[8] = 'Dhe v&euml;rtet, ne kemi hulumtuar ta arrijn&euml; qiellin, po at&euml; e gjet&euml;m p&euml;rplot roje t&euml; forta dhe me shk&euml;ndija (zjarri q&euml; djeg),';
+$t[9] = 'Dhe ne m&euml; par&euml; hulumtonim n&euml; vend&euml;v&euml;shtrim p&euml;r t&euml; d&euml;gjuar, e kush p&euml;rpiqet t&euml; d&euml;gjoj&euml; tash, ai has n&euml; pusin&euml; e shk&euml;ndij&euml;s s&euml; zjarrt&euml;.';
+$t[10] = 'Ne nuk e dim&euml; se me k&euml;t&euml; (p&euml;rgaditje t&euml; qiellit) &euml;sht&euml; p&euml;r q&euml;llim ndonj&euml; e keqe p&euml;r ata q&euml; jan&euml; n&euml; tok&euml;, apo Zoti i tyre d&euml;shiron q&euml; ata t&rsquo;i udh&euml;zoj&euml;.';
+$t[11] = '&Euml;sht&euml; e v&euml;rtet&euml; se prej nesh ka t&euml; mir&euml;, por ka edhe q&euml; nuk jan&euml; aq t&euml; mir&euml;, sepse ne kemi qen&euml; n&euml; drejtime t&euml; ndryshme.';
+$t[12] = 'Dhe ne kemi qen&euml; t&euml; bindur se All-llahut nuk mund t&rsquo;i shmangeni n&euml; tok&euml; e as nuk mund t&rsquo;i shp&euml;tojm&euml; Atij duke ikur.';
+$t[13] = 'Dhe ne, sapo e d&euml;gjuam udh&euml;zimin (Kur&rsquo;anin), i besuam atij, e kush e beson Zotit t&euml; vet, ai nuk i frik&euml;sohet ndonj&euml; d&euml;nimi e as ndonj&euml; padrejt&euml;sie.';
+$t[14] = '&Euml;sht&euml; e v&euml;rtet&euml; se prej nesh ka besimtar&euml; (mysliman&euml;) dhe prej nesh ka q&euml; jan&euml; jasht&euml; rrug&euml;s (jobesimtar&euml;), e kush e pranoi islamin, t&euml; till&euml;t m&euml;syn&euml; rrug&euml;n e shp&euml;timit.';
+$t[15] = 'Nd&euml;rsa, ata q&euml; l&euml;shuan rrug&euml;n, ata u b&euml;n&euml; l&euml;nd&euml; e Xhehennemit!';
+$t[16] = 'sikur ata (idhujtar&euml;t) t&rsquo;i p&euml;rmbaheshin rrug&euml;s s&euml; drejt&euml;, Ne do t&rsquo;iu l&euml;shonim atyre uj&euml; me boll&euml;k,';
+$t[17] = 'P&euml;r t&euml; sprovuar me t&euml;. E kush ia kthen shpin&euml;n adhurimit ndaj Zotit t&euml; vet, Ai e shpie at&euml; n&euml; vuajtje t&euml; padurueshme.';
+$t[18] = 'Dhe (mua m&euml; shpallet) e v&euml;rtet&euml; xhamit&euml; jan&euml; ve&ccedil;ant p&euml;r t&euml; adhuruar All-llahun, e mos adhuroni n&euml; to ask&euml; tjet&euml;r me All-llahun!';
+$t[19] = 'Dhe se kur u ngrit robi i All-llahut ta adhuroj&euml; At&euml;, ata (xhin&euml;t ose idhujtar&euml;t) gati hipnin nj&euml;ri mbi tjet&euml;rin p&euml;r t&euml; dagjuar.';
+$t[20] = 'Thuaj: &ldquo;Un&euml; d&euml;shiroj vet&euml;m Zotin tim dhe Atij nuk i b&euml;j asnj&euml; shok!&rdquo;';
+$t[21] = 'Thuaj: &ldquo;Un&euml; nuk kam n&euml; dor&euml; q&euml; t&rsquo;ju largoj&euml; d&euml;min, as t&rsquo;ju sjell dobi!&rdquo;';
+$t[22] = 'Thuaj: &ldquo;&Euml;sht&euml; e v&euml;rtet&euml; se mua nuk m&euml; mbron askush prej (d&euml;nimit) t&euml; All-llahut dhe p&euml;rve&ccedil; Tij, un&euml; nuk gjej mb&euml;shtetje&rdquo;.';
+$t[23] = '(Nuk kam n&euml; dor&euml; tjet&euml;r), p&euml;rve&ccedil; kumtimin prej All-llahut dhe p&euml;rve&ccedil; shpalljeve t&euml; Tij. Kush e kund&euml;rshton All-llahun dhe t&euml; d&euml;rguarin e tij, i tij &euml;sht&euml; zjarri i Xhehennemit, aty do t&euml; jen&euml; p&euml;rgjithmon&euml;, pambarim.';
+$t[24] = 'Derisa kur ta shohin at&euml; q&euml; u premtohet, at&euml;her&euml; do t&euml; kuptojn&euml; se kush &euml;sht&euml; m&euml; i dob&euml;t n&euml; ndihm&euml; dhe m&euml; i vog&euml;l n&euml; num&euml;r.';
+$t[25] = 'Thuaj: &ldquo;Un&euml; nuk e di a do t&euml; jet&euml; af&euml;r ajo q&euml; u premtohet, apo Zoti im do ta vonoj&euml; at&euml; shum&euml;?&rdquo;';
+$t[26] = 'Ai &euml;sht&euml; q&euml; e di t&euml; fsheht&euml;n, por fsheht&euml;sin&euml; e vet nuk ia zbulon askujt.';
+$t[27] = 'Me p&euml;rjashtim t&euml; ndonj&euml; t&euml; d&euml;rguari q&euml; Ai do. At&euml;bot&euml; Ai v&euml; roje para edhe prapa tij (kur i shpall fsheht&euml;sin&euml;),';
+$t[28] = 'P&euml;r ta ditur (p&euml;r t&rsquo;u dukur) se ata kan&euml; kumtuar shpalljet e Zotit t&euml; tyre, dhe se Ai ka p&euml;rfshi at&euml; te ata, dhe Ai e di sasin&euml; e &ccedil;do gj&euml;je q&euml; ekziston.';
+?>

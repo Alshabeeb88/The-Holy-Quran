@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alif, Lam, Meem.';
+$t[2] = '[This is] the revelation of the Book about which there is no doubt from the Lord of the worlds.';
+$t[3] = 'Or do they say, &quot;He invented it&quot;? Rather, it is the truth from your Lord, [O Muhammad], that you may warn a people to whom no warner has come before you [so] perhaps they will be guided.';
+$t[4] = 'It is Allah who created the heavens and the earth and whatever is between them in six days; then He established Himself above the Throne. You have not besides Him any protector or any intercessor; so will you not be reminded?';
+$t[5] = 'He arranges [each] matter from the heaven to the earth; then it will ascend to Him in a Day, the extent of which is a thousand years of those which you count.';
+$t[6] = 'That is the Knower of the unseen and the witnessed, the Exalted in Might, the Merciful,';
+$t[7] = 'Who perfected everything which He created and began the creation of man from clay.';
+$t[8] = 'Then He made his posterity out of the extract of a liquid disdained.';
+$t[9] = 'Then He proportioned him and breathed into him from His [created] soul and made for you hearing and vision and hearts; little are you grateful.';
+$t[10] = 'And they say, &quot;When we are lost within the earth, will we indeed be [recreated] in a new creation?&quot; Rather, they are, in [the matter of] the meeting with their Lord, disbelievers.';
+$t[11] = 'Say, &quot;The angel of death will take you who has been entrusted with you. Then to your Lord you will be returned.&quot;';
+$t[12] = 'If you could but see when the criminals are hanging their heads before their Lord, [saying], &quot;Our Lord, we have seen and heard, so return us [to the world]; we will work righteousness. Indeed, we are [now] certain.&quot;';
+$t[13] = 'And if we had willed, We could have given every soul its guidance, but the word from Me will come into effect [that] &quot;I will surely fill Hell with jinn and people all together.';
+$t[14] = 'So taste [punishment] because you forgot the meeting of this, your Day; indeed, We have [accordingly] forgotten you. And taste the punishment of eternity for what you used to do.&quot;';
+$t[15] = 'Only those believe in Our verses who, when they are reminded by them, fall down in prostration and exalt [Allah] with praise of their Lord, and they are not arrogant.';
+$t[16] = 'They arise from [their] beds; they supplicate their Lord in fear and aspiration, and from what We have provided them, they spend.';
+$t[17] = 'And no soul knows what has been hidden for them of comfort for eyes as reward for what they used to do.';
+$t[18] = 'Then is one who was a believer like one who was defiantly disobedient? They are not equal.';
+$t[19] = 'As for those who believed and did righteous deeds, for them will be the Gardens of Refuge as accommodation for what they used to do.';
+$t[20] = 'But as for those who defiantly disobeyed, their refuge is the Fire. Every time they wish to emerge from it, they will be returned to it while it is said to them, &quot;Taste the punishment of the Fire which you used to deny.&quot;';
+$t[21] = 'And we will surely let them taste the nearer punishment short of the greater punishment that perhaps they will repent.';
+$t[22] = 'And who is more unjust than one who is reminded of the verses of his Lord; then he turns away from them? Indeed We, from the criminals, will take retribution.';
+$t[23] = 'And We certainly gave Moses the Scripture, so do not be in doubt over his meeting. And we made the Torah guidance for the Children of Israel.';
+$t[24] = 'And We made from among them leaders guiding by Our command when they were patient and [when] they were certain of Our signs.';
+$t[25] = 'Indeed, your Lord will judge between them on the Day of Resurrection concerning that over which they used to differ.';
+$t[26] = 'Has it not become clear to them how many generations We destroyed before them, [as] they walk among their dwellings? Indeed in that are signs; then do they not hear?';
+$t[27] = 'Have they not seen that We drive the water [in clouds] to barren land and bring forth thereby crops from which their livestock eat and [they] themselves? Then do they not see?';
+$t[28] = 'And they say, &quot;When will be this conquest, if you should be truthful?&quot;';
+$t[29] = 'Say, [O Muhammad], &quot;On the Day of Conquest the belief of those who had disbelieved will not benefit them, nor will they be reprieved.&quot;';
+$t[30] = 'So turn away from them and wait. Indeed, they are waiting.';
+?>

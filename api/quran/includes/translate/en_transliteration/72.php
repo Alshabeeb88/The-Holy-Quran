@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Qul oohiya ilayya annahu istamaAAanafarun mina aljinni faqaloo inna samiAAnaqur-anan AAajaba';
+$t[2] = 'Yahdee ila arrushdi faamannabihi walan nushrika birabbina ahada';
+$t[3] = 'Waannahu taAAala jaddu rabbinama ittakhatha sahibatan wala walada';
+$t[4] = 'Waannahu kana yaqoolu safeehunaAAala Allahi shatata';
+$t[5] = 'Waanna thanannaan lan taqoola al-insu waljinnu AAala Allahikathiba';
+$t[6] = 'Waannahu kana rijalun minaal-insi yaAAoothoona birijalin mina aljinni fazadoohumrahaqa';
+$t[7] = 'Waannahum thannoo kama thanantuman lan yabAAatha Allahu ahada';
+$t[8] = 'Waanna lamasna assamaafawajadnaha muli-at harasan shadeedanwashuhuba';
+$t[9] = 'Waanna kunna naqAAudu minhamaqaAAida lissamAAi faman yastamiAAi al-anayajid lahu shihaban rasada';
+$t[10] = 'Waanna la nadree asharrunoreeda biman fee al-ardi am arada bihim rabbuhumrashada';
+$t[11] = 'Waanna minna assalihoonawaminna doona thalika kunna tara-iqaqidada';
+$t[12] = 'Wanna thanannaan lan nuAAjiza Allaha fee al-ardi walan nuAAjizahuharaba';
+$t[13] = 'Waanna lamma samiAAnaalhuda amanna bihi faman yu/min birabbihifala yakhafu bakhsan wala rahaqa';
+$t[14] = 'Waanna minna almuslimoonawaminna alqasitoona faman aslama faola-ikataharraw rashada';
+$t[15] = 'Waama alqasitoona fakanoolijahannama hataba';
+$t[16] = 'Waallawi istaqamoo AAala attareeqatilaasqaynahum maan ghadaqa';
+$t[17] = 'Linaftinahum feehi waman yuAArid AAanthikri rabbihi yasluk-hu AAathaban saAAada';
+$t[18] = 'Waanna almasajida lillahi falatadAAoo maAAa Allahi ahada';
+$t[19] = 'Waannahu lamma qama AAabdu AllahiyadAAoohu kadoo yakoonoona AAalayhi libada';
+$t[20] = 'Qul innama adAAoo rabbee walaoshriku bihi ahada';
+$t[21] = 'Qul innee la amliku lakum darranwala rashada';
+$t[22] = 'Qul innee lan yujeeranee mina Allahiahadun walan ajida min doonihi multahada';
+$t[23] = 'Illa balaghan mina Allahiwarisalatihi waman yaAAsi Allahawarasoolahu fa-inna lahu nara jahannama khalideenafeeha abada';
+$t[24] = 'Hatta itha raaw mayooAAadoona fasayaAAlamoona man adAAafu nasiranwaaqallu AAadada';
+$t[25] = 'Qul in adree aqareebun ma tooAAadoonaam yajAAalu lahu rabbee amada';
+$t[26] = 'AAalimu alghaybi fala yuthhiruAAala ghaybihi ahada';
+$t[27] = 'Illa mani irtada min rasoolinfa-innahu yasluku min bayni yadayhi wamin khalfihi rasada';
+$t[28] = 'LiyaAAlama an qad ablaghoo risalatirabbihim waahata bima ladayhim waahsa kullashay-in AAadada';
+?>

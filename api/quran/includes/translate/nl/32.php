@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'A. L. M.';
+$t[2] = 'De openbaring van dit boek, dit lijdt geen twijfel, is van den Heer van alle schepselen.';
+$t[3] = 'Zullen zij zeggen: Mahomet heeft het uitgedacht? Neen, Mahomet! het is de waarheid van uwen Heer, opdat gij zoudt prediken voor een volk, tot hetwelk v&oacute;&oacute;r u geen prediker werd gezonden; opdat zij ten goede geleid mochten worden.';
+$t[4] = 'God is het, die de hemelen en de aarde heeft geschapen en alles wat daartusschen is, in zes dagen, en toen zijn troon beklom; gij hebt geen schuts of tusschenpersoon buiten hem. Wilt gij dit niet bedenken?';
+$t[5] = 'Hij regeert alle dingen, van den hemel tot de aarde: hierna zal alles tot hem terugkeeren, op den dag, welks lengte duizend jaren zal wezen, van diegene volgens welke gij rekent.';
+$t[6] = 'Hij is het, die de toekomst en het tegenwoordige kent; de Machtige de genadige.';
+$t[7] = 'Hij is het, die ieder ding dat hij schiep, buitengewoon goed gemaakt en den mensch het eerst van klei gevormd heeft.';
+$t[8] = 'En daarna zijne nakomelingschap uit een uittreksel van een verachtelijken droppel water maakte.';
+$t[9] = 'Hem daarna in een geschikten vorm bracht, hem van zijn geest inblies, en u de zintuigen van het gehoor en gezicht heeft geschonken, en harten om te verstaan. Hoe weinig dankbaar zijt gij daarvoor!';
+$t[10] = 'En zij zeggen: Als wij in de aarde bedolven zullen liggen, zullen wij dan als nieuwe schepsels worden opgewekt? Ja, zij loochenen de ontmoeting van hunnen Heer bij de opstanding.';
+$t[11] = 'Zeg: De engel des doods, die boven u is gesteld, zal u doen sterven: dan zult gij tot uwen Heer worden teruggebracht.';
+$t[12] = 'Indien gij het zoudt kunnen aanschouwen, als de zondaren hunne hoofden voor hunnen Heer zullen nederbuigen, zeggende: O Heer! wij hebben gezien en wij hebben gehoord; sta ons dus toe in de wereld terug te keeren en wij zullen doen wat recht is, nu wij zeker zijn van de waarheid van hetgeen ons werd gepredikt, dan zoudt gij een verbazend gezicht zien.';
+$t[13] = 'Indien het ons zou hebben behaagd, hadden wij zekerlijk iedere ziel hare leiding gegeven; maar het woord dat van mij is uitgegaan, moest noodzakelijk worden vervuld, toen ik namelijk zeide: Waarlijk ik zal de hel met geniussen en menschen te zamen vullen.';
+$t[14] = 'Proef dus de marteling welke voor u is gereed gemaakt, dewijl gij het komen van dezen uwen dag hebt vergeten: wij hebben ook u vergeten. Proef dus de eeuwig durende straf voor hetgeen gij hebt verricht.';
+$t[15] = 'Waarlijk, zij alleen gelooven in onze teekenen, die, wanneer zij daardoor gewaarschuwd worden, in aanbidding nederzinken, den lof van hunnen Heer verkondigen en niet van trotschheid zijn vervuld.';
+$t[16] = 'Die hunne lichamen van hunne bedden opheffen, onder het aanroepen van hunnen Heer met vrees en hoop; die aalmoezen uitdeelen van hetgeen wij hun hebben geschonken.';
+$t[17] = 'Geene ziel kent de volkomen voldoening, die heimelijk voor hen (de deugdzamen) is gereed gemaakt als eene belooning voor hetgeen zij hebben verricht.';
+$t[18] = 'Zal dus hij, die een waar geloovige is, als degeen wezen, die een goddelooze zondaar is. Zij zullen niet gelijk staan.';
+$t[19] = 'Wat hen betreft, die gelooven en doen wat rechtvaardig is, zij zullen tuinen van eeuwig verblijf bezitten, als eene ruime belooning, voor hetgeen zij hebben verricht.';
+$t[20] = 'Maar wat hen betreft, die goddeloos zondigen, hun verblijf zal het hellevuur wezen. Zoo dikwijls zij zullen trachten daaruit te gaan, zullen zij daarin teruggesleept worden, en men zal tot hen zeggen: Proeft de marteling van het hellevuur, welke gij als eene logen verwerpt.';
+$t[21] = 'En wij zullen hun de lichtere straf dezer wereld doen lijden, buiten de strengere straf der volgende wereld; misschien zullen zij berouw gevoelen.';
+$t[22] = 'Wie is onrechtvaardiger dan hij, die door de teekens van zijnen Heer is gewaarschuwd en zich daarna er van afwendt? Wij zullen zekerlijk wraak nemen op de zondaren?';
+$t[23] = 'Wij gaven vroeger het boek der wet aan Mozes; verkeer dus niet in twijfel omtrent de openbaring daarvan, en wij gelastten, dat het eene leiding voor de kinderen Isra&euml;ls zou zijn.';
+$t[24] = 'En wij wezen leeraren onder hen aan, die het volk op ons bevel zouden leiden, indien zij met geduld volhard en standvastig in onze teekenen geloofd zouden hebben.';
+$t[25] = 'Waarlijk, uw Heer zal tusschen hen richten op den dag der opstanding, nopens datgene, waaromtrent zij hebben verschild.';
+$t[26] = 'Is het hun niet bekend, hoe vele geslachten wij voor hen hebben verdelgd, door welker woningen zij wandelen? Waarlijk, hierin zijn teekenen: zullen zij dus niet luisteren?';
+$t[27] = 'Zien zij niet dat wij den regen over een land voeren, dat van gras ontbloot en uitgedroogd is, en daaruit graan voortbrengen, waarvan hun vee en ook zij eten? Zullen zij dit niet overwegen?';
+$t[28] = 'De ongeloovigen zeggen tot de ware geloovigen: wanneer zal deze beslissing tusschen ons plaats hebben, indien gij de waarheid spreekt?';
+$t[29] = 'Antwoord: Op den dag dier beslissing zal het geloof van hen, die niet geloofd zullen hebben, hun niet baten: ook zullen zij geen langer uitstel ontvangen.';
+$t[30] = 'Vermijdt hen dus, en verwacht den uitslag. Waarlijk, zij verwachten eenig voordeel op u te behalen.';
+?>

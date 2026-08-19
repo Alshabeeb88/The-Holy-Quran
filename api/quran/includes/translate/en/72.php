@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Say, [O Muhammad], &quot;It has been revealed to me that a group of the jinn listened and said, \'Indeed, we have heard an amazing Qur\'an.';
+$t[2] = 'It guides to the right course, and we have believed in it. And we will never associate with our Lord anyone.';
+$t[3] = 'And [it teaches] that exalted is the nobleness of our Lord; He has not taken a wife or a son';
+$t[4] = 'And that our foolish one has been saying about Allah an excessive transgression.';
+$t[5] = 'And we had thought that mankind and the jinn would never speak about Allah a lie.';
+$t[6] = 'And there were men from mankind who sought refuge in men from the jinn, so they [only] increased them in burden.';
+$t[7] = 'And they had thought, as you thought, that Allah would never send anyone [as a messenger].';
+$t[8] = 'And we have sought [to reach] the heaven but found it filled with powerful guards and burning flames.';
+$t[9] = 'And we used to sit therein in positions for hearing, but whoever listens now will find a burning flame lying in wait for him.';
+$t[10] = 'And we do not know [therefore] whether evil is intended for those on earth or whether their Lord intends for them a right course.';
+$t[11] = 'And among us are the righteous, and among us are [others] not so; we were [of] divided ways.';
+$t[12] = 'And we have become certain that we will never cause failure to Allah upon earth, nor can we escape Him by flight.';
+$t[13] = 'And when we heard the guidance, we believed in it. And whoever believes in his Lord will not fear deprivation or burden.';
+$t[14] = 'And among us are Muslims [in submission to Allah], and among us are the unjust. And whoever has become Muslim - those have sought out the right course.';
+$t[15] = 'But as for the unjust, they will be, for Hell, firewood.\'';
+$t[16] = 'And [Allah revealed] that if they had remained straight on the way, We would have given them abundant provision';
+$t[17] = 'So We might test them therein. And whoever turns away from the remembrance of his Lord He will put into arduous punishment.';
+$t[18] = 'And [He revealed] that the masjids are for Allah, so do not invoke with Allah anyone.';
+$t[19] = 'And that when the Servant of Allah stood up supplicating Him, they almost became about him a compacted mass.&quot;';
+$t[20] = 'Say, [O Muhammad], &quot;I only invoke my Lord and do not associate with Him anyone.&quot;';
+$t[21] = 'Say, &quot;Indeed, I do not possess for you [the power of] harm or right direction.&quot;';
+$t[22] = 'Say, &quot;Indeed, there will never protect me from Allah anyone [if I should disobey], nor will I find in other than Him a refuge.';
+$t[23] = 'But [I have for you] only notification from Allah, and His messages.&quot; And whoever disobeys Allah and His Messenger - then indeed, for him is the fire of Hell; they will abide therein forever.';
+$t[24] = '[The disbelievers continue] until, when they see that which they are promised, then they will know who is weaker in helpers and less in number.';
+$t[25] = 'Say, &quot;I do not know if what you are promised is near or if my Lord will grant for it a [long] period.&quot;';
+$t[26] = '[He is] Knower of the unseen, and He does not disclose His [knowledge of the] unseen to anyone';
+$t[27] = 'Except whom He has approved of messengers, and indeed, He sends before each messenger and behind him observers';
+$t[28] = 'That he may know that they have conveyed the messages of their Lord; and He has encompassed whatever is with them and has enumerated all things in number.';
+?>

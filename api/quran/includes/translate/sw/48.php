@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Hakika tumekufungulia Ushindi wa dhaahiri';
+$t[2] = 'Ili Mwenyezi Mungu akusamehe makosa yako yaliyo tangulia na yajayo, na akutimizie neema zake, na akuongoe katika Njia Iliyo Nyooka,';
+$t[3] = 'Na Mwenyezi Mungu akunusuru nusura yenye nguvu -';
+$t[4] = 'Yeye ndiye aliye teremsha utulivu katika nyoyo za Waumini ili wazidi Imani juu ya Imani yao. Na Mwenyezi Mungu ndiye mwenye majeshi ya mbingu na ardhi. Na Mwenyezi Mungu ni Mwenye ujuzi, Mwenye hikima -';
+$t[5] = 'Ili awaingize Waumini wanaume na Waumini wanawake katika Bustani zipitazo mito kati yake, wadumu humo, na awafutie makosa yao. Na huko ndiko kufuzu kukubwa mbele ya Mwenyezi Mungu.';
+$t[6] = 'Na awape adhabu wanaafiki wanaume na wanaafiki wanawake, na washirikina wanaume na washirikina wanawake, wanao mdhania Mwenyezi Mungu dhana mbaya. Utawafikia mgeuko mbaya, na Mwenyezi Mungu awakasirikie, na awalaani, na awaandalie Jahannamu. Na hayo ni marudio maovu kabisa.';
+$t[7] = 'Na Mwenyezi Mungu ana majeshi ya mbingu na ardhi. Na Mwenyezi Mungu ni Mwenye nguvu, Mwenye hikima.';
+$t[8] = 'Hakika tumekutuma wewe uwe Shahidi, na Mbashiri, na Mwonyaji,';
+$t[9] = 'Ili mumuamini Mwenyezi Mungu na Mtume wake, na mumsaidie, na mumhishimu, na mumtakase asubuhi na jioni.';
+$t[10] = 'Bila ya shaka wanao fungamana nawe, kwa hakika wanafungamana na Mwenyezi Mungu. Mkono wa Mwenyezi Mungu uko juu ya mikono yao. Basi avunjaye ahadi hizi anavunja kwa kuidhuru nafsi yake; na anaye tekeleza aliyo muahadi Mwenyezi Mungu, Mwenyezi Mungu atamlipa ujira mkubwa.';
+$t[11] = 'Watakuambia mabedui walio baki nyuma: Yametushughulisha mali yetu na ahali zetu, basi tuombee msamaha. Wanasema kwa ndimi zao yasiyo kuwamo katika nyoyo zao. Sema: Ni nani awezaye kukusaidieni chochote kwa Mwenyezi Mungu akitaka Yeye kukudhuruni au akitaka kukunufaisheni? Bali Mwenyezi Mungu anazo khabari za mnayo yatenda.';
+$t[12] = 'Lakini mlidhani kwamba Mtume na Waumini hawatarudi kabisa kwa ahali zao, na mkapambiwa hayo katika nyoyo zenu, na mkadhania dhana mbaya, na mkawa watu wanao angamia.';
+$t[13] = 'Na asiye muamini Mwenyezi Mungu na Mtume wake, basi kwa hakika Sisi tumewaandalia makafiri Moto mkali.';
+$t[14] = 'Na Mwenyezi Mungu ndiye mwenye ufalme wa mbingu na ardhi. Humsamehe amtakaye, na humuadhibu amtakaye. Na Mwenyezi Mungu ni Mwenye kusamehe, Mwenye kurehemu.';
+$t[15] = 'Walio baki nyuma watasema: Mtapo kwenda kuchukua ngawira, tuacheni tukufuateni! Wanataka kuyabadili maneno ya Mwenyezi Mungu. Sema: Hamtatufuata kabisa. Mwenyezi Mungu alikwisha sema kama hivi zamani. Hapo watasema: Bali nyinyi mnatuhusudu. Siyo, bali walikuwa hawafahamu ila kidogo.';
+$t[16] = 'Waambie walio achwa nyuma katika mabedui: Mtakuja itwa kwenda pigana na watu wakali kwa vita, mpigane nao au wasalimu amri. Basi mkimt\'ii, Mwenyezi Mungu atakupeni ujira mzuri. Na mkigeuka kama mlivyo geuka kwanza, atakuadhibuni kwa adhabu iliyo chungu.';
+$t[17] = 'Kipofu hana lawama, wala kiguru hana lawama, wala mgonjwa hana lawama. Na mwenye kumt\'ii Mwenyezi Mungu na Mtume wake, atamuingiza katika Mabustani yapitayo mito kati yake. Na atakaye geuka upande atamuadhibu kwa adhabu chungu.';
+$t[18] = 'Kwa hakika Mwenyezi Mungu amewapa radhi Waumini walipo fungamana nawe chini ya mti, na alijua yaliyomo nyoyoni mwao. Basi akateremsha utulivu juu yao, na akawalipa kwa Ushindi wa karibu.';
+$t[19] = 'Na ngawira nyingi watakazo zichukua. Na Mwenyezi Mungu ni Mwenye nguvu, Mwenye hikima.';
+$t[20] = 'Mwenyezi Mungu anakuahidini ngawira nyingi mtakazo zichukua, basi amekutangulizieni hizi kwanza, na akaizuia mikono ya watu isikufikieni, na ili hayo yawe ni Ishara kwa Waumini, na akakuongozeni Njia Iliyo Nyooka.';
+$t[21] = 'Na mengine hamwezi kuyapata bado, Mwenyezi Mungu amekwisha yazingia. Na Mwenyezi Mungu ni Muweza wa kila kitu.';
+$t[22] = 'Na lau makafiri wangeli pigana nanyi basi bila ya shaka wangeli geuza migongo, kisha wasingeli pata mlinzi wala msaidizi.';
+$t[23] = 'Huo ndio mwendo wa Mwenyezi Mungu ulio kwisha pita zamani, wala hutapata mabadiliko katika mwendo wa Mwenyezi Mungu.';
+$t[24] = 'Na Yeye ndiye aliyeizuia mikono yao kwenu, na mikono yenu kwao, katika bonde la Makka baada ya kukupeni Ushindi juu yao. Na Mwenyezi Mungu ni Mwenye kuyaona myatendayo.';
+$t[25] = 'Hao ndio walio kufuru na wakakuzuieni msiingie Msikiti Mtakatifu, na wakawazuilia dhabihu kufika mahala pao. Na lau si wanaume Waumini na wanawake Waumini msio wajua mkawasaga na mkaingia makosani kutokana nao bila ya kujua... Mwenyezi Mungu (amefanya haya) ili amuingize amtakaye katika rehema yake. Lau wangeli tengana bila ya shaka tungeli waadhibu walio kufuru kwa adhabu chungu.';
+$t[26] = 'Pale walio kufuru walipo tia katika nyoyo zao hasira, hasira za kijinga, Mwenyezi Mungu aliteremsha utulivu juu ya Mtume wake na juu ya Waumini, na akawalazimisha neno la kuchamngu. Na wao walikuwa ndio wenye haki nalo na wenye kustahili. Na Mwenyezi Mungu ni Mjuzi wa kila kitu.';
+$t[27] = 'Hakika Mwenyezi Mungu amemtimizia Mtume wake ndoto ya haki. Bila ya shaka nyinyi mtauingia Msikiti Mtakatifu, Inshallah, kwa amani, na hali mmenyoa vichwa vyenu na mmepunguza nywele. Hamtakuwa na khofu. Yeye anajua msiyo yajua. Basi atakupeni kabla ya haya Ushindi karibuni.';
+$t[28] = 'Yeye ndiye aliye mtuma Mtume wake kwa uwongofu na Dini ya Haki, ili aitukuze juu ya dini zote. Na Mwenyezi Mungu anatosha kuwa Shahidi.';
+$t[29] = 'Muhammad ni Mtume wa Mwenyezi Mungu. Na walio pamoja naye wana nguvu mbele ya makafiri, na wanahurumiana wao kwa wao. Utawaona wakiinama na kusujudu wakitafuta fadhila na radhi za Mwenyezi Mungu. Alama zao zi katika nyuso zao, kwa athari ya kusujudu. Huu ndio mfano wao katika Taurati. Na mfano wao katika Injili ni kama mmea ulio toa chipukizi lake, kisha ukalitia nguvu, ukawa mnene, ukasimama sawa juu ya ubuwa wake, ukawafurahisha wakulima, ili kuwakasirisha kwa ajili yao makafiri. Mwenyezi Mungu amewaahidi walio amini na wakatenda mema katika wao msamaha na ujira mkubwa.';
+?>

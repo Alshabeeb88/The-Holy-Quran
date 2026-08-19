@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Has the story reached thee of the overwhelming (Event)?';
+$t[2] = 'Some faces, that Day, will be humiliated,';
+$t[3] = 'Labouring (hard), weary,-';
+$t[4] = 'The while they enter the Blazing Fire,-';
+$t[5] = 'The while they are given, to drink, of a boiling hot spring,';
+$t[6] = 'No food will there be for them but a bitter Dhari\'';
+$t[7] = 'Which will neither nourish nor satisfy hunger.';
+$t[8] = '(Other) faces that Day will be joyful,';
+$t[9] = 'Pleased with their striving,-';
+$t[10] = 'In a Garden on high,';
+$t[11] = 'Where they shall hear no (word) of vanity:';
+$t[12] = 'Therein will be a bubbling spring:';
+$t[13] = 'Therein will be Thrones (of dignity), raised on high,';
+$t[14] = 'Goblets placed (ready),';
+$t[15] = 'And cushions set in rows,';
+$t[16] = 'And rich carpets (all) spread out.';
+$t[17] = 'Do they not look at the Camels, how they are made?-';
+$t[18] = 'And at the Sky, how it is raised high?-';
+$t[19] = 'And at the Mountains, how they are fixed firm?-';
+$t[20] = 'And at the Earth, how it is spread out?';
+$t[21] = 'Therefore do thou give admonition, for thou art one to admonish.';
+$t[22] = 'Thou art not one to manage (men\'s) affairs.';
+$t[23] = 'But if any turn away and reject Allah,-';
+$t[24] = 'Allah will punish him with a mighty Punishment,';
+$t[25] = 'For to Us will be their return;';
+$t[26] = 'Then it will be for Us to call them to account.';
+?>

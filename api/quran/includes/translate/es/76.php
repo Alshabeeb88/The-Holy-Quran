@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = '&iquest;Ha pasado el hombre por un per&iacute;odo de tiempo en que no era nada digno de menci&oacute;n?';
+$t[2] = 'Hemos creado al hombre de una gota, de ingredientes, para ponerle a prueba. Le hemos dado el o&iacute;do, la vista.';
+$t[3] = 'Agradecido o desagradecido, le hemos dirigido por el Camino.';
+$t[4] = 'Para los infieles hemos preparado cadenas, argollas y fuego de gehena.';
+$t[5] = 'Los justos beber&aacute;n de copas de una mezcla alcanforada.';
+$t[6] = 'de una fuente de la que beber&aacute;n los siervos de Al&aacute; y que har&aacute;n manar en abundancia.';
+$t[7] = 'Fueron fieles a sus promesas y temieron un d&iacute;a cuyo mal ser&aacute; de alcance universal.';
+$t[8] = 'Por mucho amor que tuvieran al alimento, se lo daban al pobre, al hu&eacute;rfano y al cautivo:';
+$t[9] = '&laquo;Os damos de comer s&oacute;lo por agradar a Al&aacute;. No queremos de vosotros retribuci&oacute;n ni gratitud.';
+$t[10] = 'Tememos, de nuestro Se&ntilde;or, un d&iacute;a terrible, calamitoso&raquo;.';
+$t[11] = 'Al&aacute; les preservar&aacute; del mal de ese d&iacute;a y les llenar&aacute; de esplendor y alegr&iacute;a.';
+$t[12] = 'Les retribuira, por haber tenido paciencia, con un Jard&iacute;n y con vestiduras de seda.';
+$t[13] = 'Reclinados all&iacute; en sof&aacute;s, estar&aacute;n resguardados all&iacute; del calor y del fr&iacute;o excesivo.';
+$t[14] = 'Cerca de ellos, les cubrir&aacute;n sus sombras; sus frutos podr&aacute;n ser cogidos muy f&aacute;cilmente.';
+$t[15] = 'Se har&aacute;n circular entre ellos vasijasa de plata y copas de cristal,';
+$t[16] = 'de un cristal de plata, de medidas determinadas.';
+$t[17] = 'All&iacute; se les servir&aacute; una copa que contendr&aacute; una mezcla de jengibre,';
+$t[18] = 'tomada de una fuente de all&iacute;, que se llama Salsabil.';
+$t[19] = 'Y circular&aacute;n entre ellos criados j&oacute;venes de eterna juventud. Vi&eacute;ndoles, se les creer&iacute;a perlas desparramadas.';
+$t[20] = 'Cuando se mira all&aacute;, no se ve sino delicia y suntuosidad.';
+$t[21] = 'Vestir&aacute;n de verde sat&eacute;n y de brocado y llevar&aacute;n brazaletes de plata. Su Se&ntilde;or les servir&aacute; una bebida pura.';
+$t[22] = '&laquo;Esto se os ha dado como retribuci&oacute;n. Vuestro esfuerzo ha sido agradecido&raquo;.';
+$t[23] = 'Somos Nosotros Quienes te llemos revelado el Cor&aacute;n de hecho.';
+$t[24] = 'Espera, pues, paciente, la decisi&oacute;n f de tu Se&ntilde;or y no obedezcas a quien de ellos sea pecador o desagradecido.';
+$t[25] = '&iexcl;Y menciona el nombre de tu Se&ntilde;or ma&ntilde;ana y tarde!';
+$t[26] = '&iexcl;Por la noche, prost&eacute;rnate ante &Eacute;l! &iexcl;Glorif&iacute;cale largamente por la noche!';
+$t[27] = '&Eacute;stos aman la vida fugaz y descuidan un d&iacute;a grave.';
+$t[28] = 'Nosotros los hemos creado y hemos fortalecido su constituci&oacute;n. Si quisi&eacute;ramos, podr&iacute;amos sustituirlos por otros semejantes.';
+$t[29] = 'Esto es un Recuerdo. El que quiera &iexcl;que emprenda camino hacia su Se&ntilde;or!';
+$t[30] = 'Pero vosotros no lo querr&eacute;is, a menos que Al&aacute; quiera. Al&aacute; es omnisciente, sabio.';
+$t[31] = 'lntroduce en Su misericordia a quien &Eacute;l quiere. Pero a los imp&iacute;os les ha preparado un castigo doloroso.';
+?>

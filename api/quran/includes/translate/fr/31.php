@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'Alif, Lam, Mim .';
+$t[2] = 'Voici les versets du Livre plein de sagesse,';
+$t[3] = 'c\'est un guide et une mis&eacute;ricorde aux bienfaisants,';
+$t[4] = 'qui accomplissent la Salat, acquittent le Zakat et qui croient avec certitude en l\'au-del&agrave;.';
+$t[5] = 'Ceux-l&agrave; sont sur le chemin droit de leur Seigneur et ce sont eux les bienheureux.';
+$t[6] = 'Et, parmi les hommes, il est [quelqu\'un] qui, d&eacute;nu&eacute; de science, ach&egrave;te de plaisants discours pour &eacute;garer hors du chemin d\'Allah et pour le prendre en raillerie. Ceux-l&agrave; subiront un ch&acirc;timent avilissant.';
+$t[7] = 'Et quand on lui r&eacute;cite Nos versets, il tourne le dos avec orgueil, comme s\'il ne les avait point entendus, comme s\'il y avait un poids dans ses oreilles. Fais-lui donc l\'annonce d\'un ch&acirc;timent douloureux.';
+$t[8] = 'Ceux qui croient et accomplissent les bonnes oeuvres auront les Jardins des d&eacute;lices,';
+$t[9] = 'pour y demeurer &eacute;ternellement, - c\'est en v&eacute;rit&eacute; une promesse d\'Allah. - C\'est Lui le Puissant, le Sage.';
+$t[10] = 'Il a cr&eacute;&eacute; les cieux sans piliers que vous puissiez voir; et Il a enfonc&eacute; des montagnes fermes dans la terre pour l\'emp&ecirc;cher de basculer avec vous; et Il y a propag&eacute; des animaux de toute esp&egrave;ce. Et du ciel, Nous avons fait descendre une eau, avec laquelle Nous avons fait pousser des plantes productives par couples de toute esp&egrave;ce.';
+$t[11] = '&quot;Voil&agrave; la cr&eacute;ation d\'Allah. Montrez-Moi donc ce qu\'ont cr&eacute;&eacute;, ceux qui sont en dehors de Lui ? &quot; Mais les injustes sont dans un &eacute;garement &eacute;vident.';
+$t[12] = 'Nous avons effectivement donn&eacute; &agrave; Luqman la sagesse : &quot;Sois reconnaissant &agrave; Allah, car quiconque est reconnaissant, n\'est reconnaissant que pour soi-m&ecirc;me; quant &agrave; celui qui est ingrat..., En v&eacute;rit&eacute;, Allah se dispense de tout, et Il est digne de louange&quot;.';
+$t[13] = 'Et lorsque Luqman dit &agrave; son fils tout en l\'exhortant : &quot;&ocirc; mon fils, ne donne pas d\'associ&eacute; &agrave; Allah, car l\'association &agrave; [Allah] est vraiment une injustice &eacute;norme&quot;.';
+$t[14] = 'Nous avons command&eacute; &agrave; l\'homme [la bienfaisance envers] ses p&egrave;re et m&egrave;re; sa m&egrave;re l\'a port&eacute; [subissant pour lui] peine sur peine : son sevrage a lieu &agrave; deux ans.&quot; Sois reconnaissant envers Moi ainsi qu\'envers tes parents. Vers Moi est la destination.';
+$t[15] = 'Et si tous deux te forcent a M\'associer ce dont tu n\'as aucune connaissance, alors ne leur ob&eacute;is pas; mais reste avec eux ici-bas de fa&ccedil;on convenable. Et suis le sentier de celui qui se tourne vers Moi. Vers Moi, ensuite, est votre retour, et alors Je vous informerai de ce que vous faisiez&quot;.';
+$t[16] = '&quot;&ocirc; mon enfant, f&ucirc;t-ce le poids d\'un grain de moutarde, au fond d\'un rocher, ou dans les cieux ou dans la terre, Allah le fera venir . Allah est infiniment Doux et Parfaitement Connaisseur.';
+$t[17] = '&ocirc; mon enfant, accomplis la Salat, commande le convenable, interdis le bl&acirc;mable et endure ce qui t\'arrive avec patience. Telle est la r&eacute;solution &agrave; prendre dans toute entreprise !';
+$t[18] = 'Et ne d&eacute;tourne pas ton visage des hommes, et ne foule pas la terre avec arrogance : car Allah n\'aime pas le pr&eacute;somptueux plein de gloriole.';
+$t[19] = 'Sois modeste dans ta d&eacute;marche, et baisse ta voix, car la plus d&eacute;test&eacute;e des voix, c\'est bien la voix des &acirc;nes&quot;.';
+$t[20] = 'Ne voyez-vous pas qu\'Allah vous a assujetti ce qui est dans les cieux et sur la terre ? Et Il vous a combl&eacute;s de Ses bienfaits apparents et cach&eacute;s. Et parmi les gens, il y en a qui disputent &agrave; propos d\'Allah, sans science, ni guid&eacute;e, ni Livre &eacute;clairant.';
+$t[21] = 'Et quand on leur dit : &quot;Suivez ce qu\'Allah a fait descendre&quot;, ils disent : &quot;Nous suivons plut&ocirc;t ce sur quoi nous avons trouv&eacute; nos anc&ecirc;tres&quot;. Est-ce donc m&ecirc;me si le Diable les appelait au ch&acirc;timent de la fournaise !';
+$t[22] = 'Et quiconque soumet son &ecirc;tre &agrave; Allah, tout en &eacute;tant bienfaisant, s\'accroche r&eacute;ellement &agrave; l\'anse la plus ferme . La fin de toute chose appartient &agrave; Allah.';
+$t[23] = 'Celui qui a m&eacute;cru, que sa m&eacute;cr&eacute;ance ne t\'afflige pas : vers Nous sera leur retour et Nous les informerons de ce qu\'ils faisaient. Allah conna&icirc;t bien le contenu des poitrines.';
+$t[24] = 'Nous leur donnons de la jouissance pour peu de temps; ensuite Nous les forcerons vers un dur ch&acirc;timent.';
+$t[25] = 'Si tu leur demandes : &quot;Qui a cr&eacute;&eacute; les cieux et la terre ? &quot;, ils diront, certes : &quot;Allah ! &quot; Dis : &quot;Louange &agrave; Allah ! &quot;. Mais la plupart d\'entre eux ne savent pas.';
+$t[26] = 'A Allah appartient tout ce qui est dans les cieux et en terre. Allah est Celui qui se suffit &agrave; Lui-m&ecirc;me, Il est Le Digne de louange !';
+$t[27] = 'Quand bien m&ecirc;me tous les arbres de la terre se changeraient en calames [plumes pour &eacute;crire], quand bien m&ecirc;me l\'oc&eacute;an serait un oc&eacute;an d\'encre o&ugrave; conflueraient sept autres oc&eacute;ans, les paroles d\'Allah ne s\'&eacute;puiseraient pas. Car Allah est Puissant et Sage.';
+$t[28] = 'Votre cr&eacute;ation et votre r&eacute;surrection [&agrave; tous] sont [aussi faciles &agrave; Allah] que s\'il s\'agissait d\'une seule &acirc;me. Certes Allah est Audient et Clairvoyant.';
+$t[29] = 'N\'as-tu pas vu qu\'Allah fait p&eacute;n&eacute;trer la nuit dans le jour, et qu\'il fait p&eacute;n&eacute;trer le jour dans la nuit, et qu\'Il a assujetti le soleil et la lune chacun poursuivant sa course jusqu\'&agrave; un terme fix&eacute; ? Et Allah est Parfaitement Connaisseur de ce que vous faites.';
+$t[30] = 'Il en est ainsi parce qu\'Allah est la V&eacute;rit&eacute;, et que tout ce qu\'ils invoquent en dehors de Lui est le Faux, et qu\'Allah, c\'est Lui le Haut, le Grand.';
+$t[31] = 'N\'as-tu pas vu que c\'est par la gr&acirc;ce d\'Allah que le vaisseau vogue dans la mer, afin qu\'Il vous fasse voir de Ses merveilles ? Il y a en cela des preuves pour tout homme patient et reconnaissant.';
+$t[32] = 'Quand une vague les recouvre comme des ombres, ils invoquent Allah, vouant leur Culte exclusivement &agrave; Lui; et lorsqu\'Il les sauve, en les ramenant vers la terre ferme, certains d\'entre eux deviennent r&eacute;ticents; mais, seul le grand tra&icirc;tre et le grand ingrat renient Nos signes.';
+$t[33] = '&ocirc; hommes ! Craignez votre Seigneur et redoutez un jour o&ugrave; le p&egrave;re ne r&eacute;pondra en quoi que ce soit pour son enfant, ni l\'enfant pour son p&egrave;re. La promesse d\'Allah est v&eacute;rit&eacute;. Que la vie pr&eacute;sente ne vous trompe donc pas, et que le Trompeur (Satan) ne vous induise pas en erreur sur Allah !';
+$t[34] = 'La connaissance de l\'Heure est aupr&egrave;s d\'Allah; et c\'est Lui qui fait tomber la pluie salvatrice; et Il sait ce qu\'il y a dans les matrices. Et personne ne sait ce qu\'il acquerra demain, et personne ne sait dans quelle terre il mourra. Certes Allah est Omniscient et Parfaitement Connaisseur.';
+?>

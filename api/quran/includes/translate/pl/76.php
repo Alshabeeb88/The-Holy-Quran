@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Czy nie przeszedł nad człowiekiem pełen czas, kiedy on nie był rzeczą wspomnianą?';
+$t[2] = 'Zaprawdę, stworzyliśmy człowieka z kropli spermy, mieszaniny, aby go doświadczyć. I uczyniliśmy go słyszącym, widzącym.';
+$t[3] = 'Zaprawdę, poprowadziliśmy go prostą drogą - czy był on wdzięcznym czy niewdzięcznym.';
+$t[4] = 'Zaprawdę, przygotowaliśmy dla niewiernych łańcuchy, kajdany i ogień płonący.';
+$t[5] = 'Zaprawdę, ludzie sprawiedliwi będą pili z pucharu, pełnego mieszaniny z kamforą';
+$t[6] = '- źr&oacute;dła, u kt&oacute;rego pić będą sługi Boga, powodującego, iż będzie ono tryskało obficie.';
+$t[7] = 'Oni wypełniali ślubowanie i obawiali się Dnia, kt&oacute;rego zło rozprzestrzeni się szeroko.';
+$t[8] = 'Oni dawali pożywienie - z miłości do Niego - biednemu, sierocie i niewolnikowi.';
+$t[9] = '&quot;Karmimy was tylko dla oblicza Boga i nie chcemy od was ani nagrody, ani wdzięczności.';
+$t[10] = 'Zaprawdę, obawiamy się ze strony naszego Pana Dnia mrocznego, nieszczęsnego.&quot;';
+$t[11] = 'I B&oacute;g ustrzegł ich od zła tego Dnia, i dał im spotkać jasność i radość.';
+$t[12] = 'I wynagrodził ich za to, że byli cierpliwi - Ogrodem i jedwabiem.';
+$t[13] = 'Będą oni tam przebywać wyciągnięci wygodnie na sofach; nie będą tam widzieć słońca ani zimna.';
+$t[14] = 'Blisko nad nimi będą ich cienie i pochylą się do nich nisko grona owoc&oacute;w.';
+$t[15] = 'I będą krążyć pośr&oacute;d nich naczynia ze srebra i puchary z kryształu;';
+$t[16] = '- Z kryształu i srebra dokładnie wymierzonego.';
+$t[17] = 'Napoją ich tam z pucharu napojem z domieszką imbiru;';
+$t[18] = 'Ze źr&oacute;dła zwanego Salsabil, kt&oacute;re się tam znajduje.';
+$t[19] = 'I będą krążyć pośr&oacute;d nich młodzieńcy nieśmiertelni; kiedy ich zobaczysz, uznasz ich za rozsypane perły.';
+$t[20] = 'A kiedy popatrzysz, zobaczysz tam szczęśliwość i wielkie kr&oacute;lestwo.';
+$t[21] = 'Będą odziani w szaty zielone z atłasu i brokatu; będą strojni w bransolety ze srebra. Napoi ich Pan napojem czystym.';
+$t[22] = '&quot;Zaprawdę, to jest dla was zapłata, wasz wysiłek otrzymał podziękę!&quot;';
+$t[23] = 'Zaprawdę, My zesłaliśmy tobie Koran zesłaniem rzeczywistym!';
+$t[24] = 'Bądź więc cierpliwy do rozstrzygnięcia twego Pana! Nie słuchaj ni grzesznika, ni niewdzięcznego spośr&oacute;d nich!';
+$t[25] = 'Wspominaj imię twego Pana rankiem i wieczorem!';
+$t[26] = 'I nocą wybijaj Mu pokłony! I długo nocą Go wysławiaj!';
+$t[27] = 'Zaprawdę, oni kochają to, co przemijające, nie zwracają uwagi na ciężki Dzień.';
+$t[28] = 'My stworzyliśmy ich i związaliśmy mocno ich członki. Ale jeśli zechcemy, zamienimy ich na im podobnych zamianą całkowitą.';
+$t[29] = 'Zaprawdę, to jest napomnienie! Przeto kto chce, niech podejmie drogę do swojego Pana.';
+$t[30] = 'Lecz wy nie zechcecie, jeśli nie zechce B&oacute;g. Zaprawdę, B&oacute;g jest wszechwiedzący, mądry!';
+$t[31] = 'On wprowadza, kogo chce, do Swego miłosierdzia. A dla niesprawiedliwych przygotował karę bolesną.';
+?>

@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Mi ćemo ti dati sigurnu pobjedu';
+$t[2] = 'da bi ti Allah ranije i kasnije krivice oprostio, da bi blagodat Svoju tebi potpunom učinio, da bi te na Pravi put uputio';
+$t[3] = 'i da bi te Allah pobjedonosnom pomoći pomogao.';
+$t[4] = 'On uliva smirenost u srca vjernika da bi jo&scaron; vi&scaron;e učvrstili vjerovanje koje imaju &ndash; a vojske nebesa i Zemlje su Allahove; Allah sve zna i mudar je &ndash;';
+$t[5] = 'da bi vjernike i vjernice uveo u džennetske ba&scaron;če kroz koje će rijeke teći, u kojima će vječno boraviti, i da bi pre&scaron;ao preko hrđavih postupaka njihovih &ndash; a to je u Allaha veliki uspjeh &ndash;';
+$t[6] = 'i da bi kaznio licemjere i licemjerke i mnogobo&scaron;ce i mnogobo&scaron;kinje, koji o Allahu zlo misle &ndash; neka zlo njih snađe! Allah se na njih rasrdio i prokleo ih i pripremio im Džehennem, a grozno je on boravi&scaron;te!';
+$t[7] = 'Allahove su vojske nebesa i Zemlje; Allah je silan i mudar!';
+$t[8] = 'Mi &scaron;aljemo tebe kao svjedoka i kao donosioca radosnih vijesti i kao onoga koji treba opominjati';
+$t[9] = 'da u Allaha i Poslanika Njegova vjerujete, i da vjeru Njegovu pomognete, i da Ga veličate i da Ga ujutro i navečer hvalite.';
+$t[10] = 'Oni koji su ti se zakleli na vjernost &ndash; zakleli su se, doista, na vjernost samome Allahu &ndash; Allahova Ruka je iznad ruku njihovih! Onaj ko prekr&scaron;i zakletvu kr&scaron;i je na svoju &scaron;tetu, a ko ispuni ono na &scaron;to se obavezao Allahu, On će mu dati veliku nagradu.';
+$t[11] = 'Govoriće ti beduini koji su izostali: &quot;Zadržala su nas stada na&scaron;a i porodice na&scaron;e, pa zamoli za nas oprost!&quot; Oni govore jezicima svojim ono &scaron;to nije u srcima njihovim. Reci: &quot;Pa ko može promijeniti Allahovu odluku, ako vam On hoće nauditi, ili ako vam hoće kakvo dobro učiniti?&quot; Allah zna ono &scaron;to radite.';
+$t[12] = 'Vi ste mislili da se Poslanik i vjernici nikada neće vratiti porodicama svojim; va&scaron;a srca su bila zadovoljna zbog toga i vi ste na najgore pomi&scaron;ljali, vi ste narod u du&scaron;i pokvaren.';
+$t[13] = 'Onaj ko ne vjeruje u Allaha i Poslanika Njegova &ndash; pa, Mi smo za nevjernike razbuktali oganj pripremili!';
+$t[14] = 'Allahova je vlast na nebesima i na Zemlji, On pra&scaron;ta kome On hoće, a kažnjava koga hoće &ndash; Allah mnogo pra&scaron;ta i samilostan je.';
+$t[15] = 'Oni koji su izostali sigurno će reći kada pođete da plijen uzmete: &quot;Pustite i nas da vas pratimo!&quot; &ndash; da bi izmijenili Allahove riječi. Reci: &quot;Vi nas nećete pratiti, to je jo&scaron; prije Allah rekao!&quot;, a oni će reći: &quot;Nije tako, nego, vi nama zavidite.&quot; A nije ni to, već oni malo &scaron;ta razumiju.';
+$t[16] = 'Reci beduinima koji su izostali: &quot;Bićete pozvani da se borite protiv naroda veoma hrabrog i moćnog, sve dok se ne pokori. Pa ako poslu&scaron;ate, Allah će vam lijepu nagradu dati, a ako izbjegnete, kao &scaron;to ste i do sada izbjegavali, na muke nesnosne će vas staviti.&quot;';
+$t[17] = 'Nije grijeh slijepom, ni hromom, ni bolesnom! Onoga koji se pokorava Allahu i Poslaniku Njegovu On će u džennetske ba&scaron;če, kroz koje teku rijeke, uvesti, a onoga ko leđa okrene, patnjom nesnosnom će kazniti.';
+$t[18] = 'Allah je zadovoljan onim vjernicima koji su ti se pod drvetom na vjernost zakleli. On je znao &scaron;ta je u srcima njihovim, pa je spustio smirenost na njih, i nagradiće ih skorom pobjedom';
+$t[19] = 'i bogatim plijenom koji će uzeti, jer Allah je silan i mudar.';
+$t[20] = 'Allah vam obećava bogat plijen koji ćete uzeti, a s ovim je požurio i ruke ljudi je od vas zadržao &ndash; da bi to bio poučan primjer za vjernike i da bi vam na Pravi put ukazao &ndash;';
+$t[21] = 'i drugi, koji niste bili u stanju uzeti &ndash; Allah vam ga je dao, jer Allah sve može.';
+$t[22] = 'A da su nevjernici s vama borbu zametnuli, sigurno bi se u bijeg dali i poslije ne bi za&scaron;titnika ni pomagača na&scaron;li &ndash;';
+$t[23] = 'prema Allahovu zakonu koji odvazda važi, a ti neće&scaron; vidjeti da se Allahov zakon promijeni.';
+$t[24] = 'On je zadržao ruke njihove od vas i va&scaron;e od njih usred Mekke, i to nakon &scaron;to vam je pružio mogućnost da ih pobijedite &ndash; a Allah dobro vidi ono &scaron;to vi radite.';
+$t[25] = 'Oni ne vjeruju i brane vam da pristupite Časnom hramu, i da kurbani koje vodite sa sobom do mjesta svojih stignu. I da nije bilo bojazni da ćete pobiti vjernike, mu&scaron;karce i žene, koje ne poznajete, pa tako, i ne znajući, zbog njih sramotu doživjeti &ndash; Mi bismo vam ih prepustili. A nismo ih prepustili ni zato da bi Allah u milost Svoju uveo onoga koga hoće. A da su oni bili odvojeni, doista bismo bolnom kaznom kaznili one među njima koji nisu vjerovali.';
+$t[26] = 'Kad su nevjernici punili svoja srca žarom, žarom paganskim, Allah je spustio smirenost Svoju na Poslanika Svoga i na vjernike i obavezao ih da ispunjavaju ono zbog čega će postati pravi vjernici &ndash; a oni i jesu najpreči i najdostojniji za to &ndash; a Allah sve zna.';
+$t[27] = 'Allah će obistiniti san Poslanika Svoga da ćete, sigurno, u Časni hram ući sigurni &ndash; ako Allah bude htio &ndash; neki obrijanih glava, a neki podrezanih kosa, bez straha. On je ono &scaron;to vi niste znali znao i zato vam je, prije toga, nedavnu pobjedu dao.';
+$t[28] = 'On je poslao Poslanika Svoga s Uputom i vjerom istinitom da bi je uzdigao iznad svih vjera. A Allah je dovoljan Svjedok!';
+$t[29] = 'Muhammed je Allahov poslanik, a njegovi sljedbenici su strogi prema nevjernicima, a samilosni među sobom; vidi&scaron; ih kako se klanjaju i licem na tle padaju želeći Allahovu nagradu i zadovoljstvo &ndash; na licima su im znaci, tragovi od padanja licem na tle. Tako su opisani u Tevratu. A u Indžilu: oni su kao biljka kad izdanak svoj izbaci pa ga onda učvrsti, i on ojača, i ispravi se na svojoj stabljici izazivajući divljenje sijačā &ndash; da bi On s vjernicima najedio nevjernike. A onima koji vjeruju i dobra djela čine Allah obećava oprost i nagradu veliku.';
+?>

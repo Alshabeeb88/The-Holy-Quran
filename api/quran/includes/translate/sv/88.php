@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'HAR DU h&ouml;rt talas om Det som skall &ouml;verskugga allt?';
+$t[2] = 'Den Dagen skall [n&aring;gras] ansikten vara m&auml;rkta av f&ouml;r&ouml;dmjukelse:';
+$t[3] = 'de sl&auml;par p&aring; [b&ouml;rdan av sin synd]';
+$t[4] = '[p&aring; v&auml;g mot] den heta eld d&auml;r de skall brinna.';
+$t[5] = 'Vid en kokande k&auml;lla f&aring;r de sl&auml;cka sin t&ouml;rst';
+$t[6] = 'och deras enda f&ouml;da skall vara en torr, t&ouml;rnig buske,';
+$t[7] = 'som varken ger n&auml;ring eller stillar hungern.';
+$t[8] = '[Andras] ansikten skall den Dagen visa gl&auml;djen och';
+$t[9] = 'tillfredsst&auml;llelsen &ouml;ver [att ha n&aring;tt det m&aring;l] de str&auml;vade mot,';
+$t[10] = '[vilande] i en h&ouml;gt bel&auml;gen lustg&aring;rd,';
+$t[11] = 'd&auml;r de inte tvingas h&ouml;ra tomt och meningsl&ouml;st tal;';
+$t[12] = '[en lustg&aring;rd] med fl&ouml;dande k&auml;llor';
+$t[13] = 'och rikt utsirade troner,';
+$t[14] = 'd&auml;r dryckesb&auml;gare har burits fram';
+$t[15] = 'och kuddar ordnats i rader';
+$t[16] = 'och [mjuka] mattor lagts ut.';
+$t[17] = 'HAR DE [som f&ouml;rnekar uppst&aring;ndelsen] aldrig &auml;gnat en tanke &aring;t kamelens skapnad?';
+$t[18] = 'Och &aring;t himlens valv, hur det har rests';
+$t[19] = 'Och &aring;t bergen, hur fast de har f&ouml;rankrats';
+$t[20] = 'Och &aring;t jordens [yta], hur den har bretts ut';
+$t[21] = 'P&aring;minn dem [Muhammad]! Din uppgift &auml;r att p&aring;minna -';
+$t[22] = 'men &ouml;ver deras [sinnen] har du ingen makt.';
+$t[23] = 'Men den som v&auml;nder ryggen till och envist framh&auml;rdar i att f&ouml;rneka sanningen';
+$t[24] = 'skall Gud straffa med det str&auml;ngaste av alla straff.';
+$t[25] = 'Det &auml;r till Oss de skall &aring;terv&auml;nda,';
+$t[26] = 'och d&auml;refter tillkommer det Oss att st&auml;lla dem till svars.';
+?>

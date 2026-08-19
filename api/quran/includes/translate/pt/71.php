@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Em verdade, enviamos No&eacute; ao seu povo, (dizendo-lhe): Admoesta o teu povo, antes que o a&ccedil;oite um castigo doloroso!';
+$t[2] = 'Disse: &Oacute; povo meu, em verdade, sou um elucidativo admoestador para v&oacute;s';
+$t[3] = 'Adorai a Deus, temei-O e obedecei-me.';
+$t[4] = 'Ele vos absolver&aacute; os pecados e vos conceder&aacute; um prazo, at&eacute; um t&eacute;rmino prefixado, porque quando chegar a hora do t&eacute;rmino prescrito por Deus, este n&atilde;o ser&aacute; prorrogado. Se o soub&eacute;sseis!';
+$t[5] = '(No&eacute;) disse: &Oacute; Senhor meu, tenho predicado ao meu povo noite e dia;';
+$t[6] = 'Por&eacute;m, a minha predica&ccedil;&atilde;o n&atilde;o fez outro, coisa sen&atilde;o aumentar o afastamento deles (da verdade).';
+$t[7] = 'E cada vez que os convocava ao arrependimento, para que Tu os perdoasses, tapavam os ouvidos com os dedos e se envolviam com as suas vestimentas, obstinando-se no erro e ensoberbecendo-se grotescamente.';
+$t[8] = 'Ent&atilde;o, convoquei-os altissonantemente;';
+$t[9] = 'Depois os exortei palatina e privativamente,';
+$t[10] = 'Dizendo-lhes: Implorai o perd&atilde;o do vosso Senhor, porque &eacute; Indulgent&iacute;ssimo;';
+$t[11] = 'Enviar-vos-&aacute; do c&eacute;u copiosas chuvas,';
+$t[12] = 'Aumentar-vos-&aacute; os vossos bens e filhos, e vos conceder&aacute; jardins e rios.';
+$t[13] = 'Que vos sucede, que n&atilde;o depositais as vossas esperan&ccedil;as em Deus,';
+$t[14] = 'Sendo que Ele vos criou gradativamente?';
+$t[15] = 'N&atilde;o reparastes em como Deus criou sete c&eacute;us sobrepostos,';
+$t[16] = 'E colocou neles a lua reluzente e o sol, como uma l&acirc;mpada?';
+$t[17] = 'E Deus vos produziu da terra, paulatinamente.';
+$t[18] = 'Ent&atilde;o, vos far&aacute; retornar a ela, e vos far&aacute; surgir novamente.';
+$t[19] = 'Deus vos fez a terra como um tapete,';
+$t[20] = 'Para que a percorr&ecirc;sseis por amplos caminhos.';
+$t[21] = 'No&eacute; disse: &Oacute; Senhor meu, eles me desobedeceram e seguiram aqueles para os quais os bens o filhos n&atilde;o fizeram mais do que lhes agravar a desventura!';
+$t[22] = 'E conspiraram enormemente (contra No&eacute;).';
+$t[23] = 'E disseram (uns com os outros): N&atilde;o abandoneis os vossos deuses, nem tampouco abandoneis Wadda, nem Sua\'a, nem Yagu&ccedil;a, nem Ya\'uca, nem Nassara,';
+$t[24] = 'Apesar de estes haverem extraviado muitos, se bem que Tu, &oacute; Senhor meu, n&atilde;o aumentar&aacute;s em nada os in&iacute;quos, sen&atilde;o em extravio.';
+$t[25] = 'Foram afogados pelos seus pecados, ser&atilde;o introduzidos no fogo infernal e n&atilde;o encontrar&atilde;o, para si, socorredores, al&eacute;m de Deus.';
+$t[26] = 'E No&eacute; disse: &Oacute; Senhor meu, n&atilde;o deixeis sobre a terra nenhum dos incr&eacute;dulos.';
+$t[27] = 'Porque, se deixares, eles extraviar&atilde;o os Teus servos, e n&atilde;o gerar&atilde;o sen&atilde;o os libertinos, ingratos.';
+$t[28] = '&Oacute; Senhos meu, perdoa-me a mim, aos meus pais e a todo fiel que entrar em minha casa, assim como tamb&eacute;m aos fi&eacute;is e &agrave;s fi&eacute;is, e n&atilde;o aumentes em nada os in&iacute;quos, sen&atilde;o em perdi&ccedil;&atilde;o.';
+?>

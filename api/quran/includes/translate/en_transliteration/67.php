@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Tabaraka allathee biyadihialmulku wahuwa AAala kulli shay-in qadeer';
+$t[2] = 'Allathee khalaqa almawta walhayataliyabluwakum ayyukum ahsanu AAamalan wahuwa alAAazeezualghafoor';
+$t[3] = 'Allathee khalaqa sabAAa samawatintibaqan ma tara fee khalqi arrahmanimin tafawutin farjiAAi albasara hal taramin futoor';
+$t[4] = 'Thumma irjiAAi albasara karratayniyanqalib ilayka albasaru khasi-an wahuwa haseer';
+$t[5] = 'Walaqad zayyanna assamaaaddunya bimasabeeha wajaAAalnaharujooman lishshayateeni waaAAtadna lahumAAathaba assaAAeer';
+$t[6] = 'Walillatheena kafaroo birabbihim AAathabujahannama wabi/sa almaseer';
+$t[7] = 'Itha olqoo feeha samiAAoo lahashaheeqan wahiya tafoor';
+$t[8] = 'Takadu tamayyazu mina alghaythikullama olqiya feeha fawjun saalahum khazanatuhaalam ya/tikum natheer';
+$t[9] = 'Qaloo bala qad jaananatheerun fakaththabna waqulna manazzala Allahu min shay-in in antum illa fee dalalinkabeer';
+$t[10] = 'Waqaloo law kunna nasmaAAu awnaAAqilu ma kunna fee as-habi assaAAeer';
+$t[11] = 'FaAAtarafoo bithanbihim fasuhqanli-as-habi assaAAeer';
+$t[12] = 'Inna allatheena yakhshawna rabbahumbilghaybi lahum maghfiratun waajrun kabeer';
+$t[13] = 'Waasirroo qawlakum awi ijharoo bihi innahuAAaleemun bithati assudoor';
+$t[14] = 'Ala yaAAlamu man khalaqa wahuwa allateefualkhabeer';
+$t[15] = 'Huwa allathee jaAAala lakumu al-ardathaloolan famshoo fee manakibihawakuloo min rizqihi wa-ilayhi annushoor';
+$t[16] = 'Aamintum man fee assama-i anyakhsifa bikumu al-arda fa-itha hiya tamoor';
+$t[17] = 'Am amintum man fee assama-ian yursila AAalaykum hasiban fasataAAlamoona kayfa natheer';
+$t[18] = 'Walaqad kaththaba allatheenamin qablihim fakayfa kana nakeer';
+$t[19] = 'Awa lam yaraw ila attayrifawqahum saffatin wayaqbidna mayumsikuhunna illa arrahmanu innahubikulli shay-in baseer';
+$t[20] = 'Amman hatha allathee huwajundun lakum yansurukum min dooni arrahmaniini alkafiroona illa fee ghuroor';
+$t[21] = 'Amman hatha allatheeyarzuqukum in amsaka rizqahu bal lajjoo fee AAutuwwin wanufoor';
+$t[22] = 'Afaman yamshee mukibban AAala wajhihiahda amman yamshee sawiyyan AAala siratinmustaqeem';
+$t[23] = 'Qul huwa allathee anshaakum wajaAAalalakumu assamAAa wal-absara wal-af-idataqaleelan ma tashkuroon';
+$t[24] = 'Qul huwa allathee tharaakumfee al-ardi wa-ilayhi tuhsharoon';
+$t[25] = 'Wayaqooloona mata hathaalwaAAdu in kuntum sadiqeen';
+$t[26] = 'Qul innama alAAilmu AAinda Allahiwa-innama ana natheerun mubeen';
+$t[27] = 'Falamma raawhu zulfatan see-atwujoohu allatheena kafaroo waqeela hatha allatheekuntum bihi taddaAAoon';
+$t[28] = 'Qul araaytum in ahlakaniya Allahuwaman maAAiya aw rahimana faman yujeeru alkafireenamin AAathabin aleem';
+$t[29] = 'Qul huwa arrahmanu amannabihi waAAalayhi tawakkalna fasataAAlamoona man huwa fee dalalinmubeen';
+$t[30] = 'Qul araaytum in asbaha maokumghawran faman ya/teekum bima-in maAAeen';
+?>

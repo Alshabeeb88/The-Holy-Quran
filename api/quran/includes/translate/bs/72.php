@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Reci: &quot;Meni je objavljeno da je nekoliko džina prislu&scaron;kivalo i reklo: \'Mi smo, doista, Kur\'an, koji izaziva divljenje, slu&scaron;ali,';
+$t[2] = 'koji na Pravi put upućuje &ndash; i mi smo u nj povjerovali i vi&scaron;e nikoga nećemo Gospodaru na&scaron;em ravnim smatrati,';
+$t[3] = 'a On nije &ndash; neka uzvi&scaron;eno bude dostojanstvo Gospodara na&scaron;eg! &ndash; uzeo Sebi ni dr&uacute;ge ni djeteta;';
+$t[4] = 'jedan na&scaron; bezumnik je o Allahu laži govorio,';
+$t[5] = 'a mi smo mislili da ni ljudi ni džini o Allahu laži ne govore;';
+$t[6] = 'i bilo je ljudi koji su pomoć od džina tražili, pa su im tako obijest povećali;';
+$t[7] = 'i oni misle, kao &scaron;to i vi mislite, da Allah nikoga neće oživiti;';
+$t[8] = 'i mi smo nastojali da nebo dotaknemo i utvrdili smo da je moćnih čuvara i zvijezda padalica puno;';
+$t[9] = 'i sjedili smo okolo njega po busijama da bismo &scaron;to čuli, ali će onaj, ko sada prislu&scaron;kuje, na zvijezdu padalicu koja vreba naići;';
+$t[10] = 'i mi ne znamo da li se onima na Zemlji želi zlo ili im Gospodar njihov želi dobro;';
+$t[11] = 'a među nama ima i dobrih i onih koji to nisu, ima nas vrsta različitih;';
+$t[12] = 'i mi znamo da ne možemo Allahu na Zemlji umaći i da od Njega ne možemo pobjeći;';
+$t[13] = 'i mi smo, čim smo Kur\'an čuli, u nj povjerovali; a ko u Gospodara svoga vjeruje, ni &scaron;tete ni nepravde ne treba se bojati;';
+$t[14] = 'i ima nas muslimana, a ima nas zalutalih; oni koji islam prihvate Pravi put su izabrali,';
+$t[15] = 'a nevjernici će u Džehennemu gorivo biti.\'&quot;';
+$t[16] = 'A da se Pravog puta drže, Mi bismo ih vodom obilnom pojili,';
+$t[17] = 'da bismo ih time na ku&scaron;nju stavili; a onoga ko neće da se Gospodaru svome klanja On će patnju te&scaron;ku uvesti.';
+$t[18] = 'Džamije su Allaha radi, i ne molite se, pored Allaha, nikome!';
+$t[19] = 'A kad je Allahov rob ustao da Mu se pomoli, oni su se u gomilama oko njega tiskati stali.';
+$t[20] = 'Reci: &quot;Ja se samo Gospodaru svome klanjam, i nikoga Njemu ravnim ne smatram.&quot;';
+$t[21] = 'Reci: &quot;Ja nisam u stanju da od vas kakvu &scaron;tetu otklonim niti da nekom od vas kakvu korist pribavim.&quot;';
+$t[22] = 'Reci: &quot;Mene niko od Allahove kazne ne može u za&scaron;titu uzeti; samo u Njega ja mogu utoči&scaron;te naći &ndash;';
+$t[23] = 'samo mogu oglasiti ono &scaron;to je od Allaha i poslanice Njegove.&quot; A onoga koji Allahu i Poslaniku Njegovu ne bude poslu&scaron;an sigurno čeka vatra džehennemska; u njoj će vječno i zauvijek ostati.';
+$t[24] = 'I kada oni dožive ono čime im se prijeti, saznaće ko je slabiji i brojem manji.';
+$t[25] = 'Reci: &quot;Ja ne znam da li će uskoro biti ono čime vam se prijeti ili je Gospodar moj odredio da će to poslije dugo vremena biti,';
+$t[26] = 'On tajne zna i On tajne Svoje ne otkriva nikome,';
+$t[27] = 'osim onome koga On za poslanika odabere; zato On i ispred njega i iza njega postavlja one koji će ga čuvati';
+$t[28] = 'da bi pokazao da su poslanice Gospodara svoga dostavili, On u tančine zna ono &scaron;to je u njih, On zna broj svega &scaron;to postoji.';
+?>

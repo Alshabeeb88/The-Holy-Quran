@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'I madh&euml;ruar &euml;sht&euml; Ai, q&euml; n&euml; dor&euml;n e fuqis&euml; s&euml; Tij &euml;sht&euml; i t&euml;r&euml; sundimi dhe Ai ka fuqi mbi &ccedil;do send.';
+$t[2] = 'Ai &euml;sht&euml; q&euml; krijoi vdekjen dhe jet&euml;n, p&euml;r t&rsquo;ju sprovuar se cili prej jush &euml;sht&euml; m&euml; vep&euml;rmir&euml;. Ai &euml;sht&euml; ngadhnjyesi, m&euml;kat&euml;fal&euml;si.';
+$t[3] = 'Ai &euml;sht&euml; q&euml; krijoi shtat&euml; qiej pal&euml; mbi pal&euml;. N&euml; krijimin e M&euml;shiruesit nuk mund t&euml; shoh&euml;sh ndonj&euml; kontrast, andaj, drejto shikimin se a sheh ndonj&euml; &ccedil;arje?';
+$t[4] = 'Mandej, her&euml; pas here drejto shikimin, e shikimi do t&euml; kthehet t&euml; ti i p&euml;rulur dhe i molisur.';
+$t[5] = 'Ne, qiellin m&euml; t&euml; af&euml;rt e kemi zbukuruar me kandila (yje ndriquese) dhe ata ikemi b&euml;r&euml; gjuajt&euml;s kund&euml;r djajve, t&euml; cil&euml;ve u kemi p&euml;rgatitur d&euml;nim me zjarr shum&euml; t&euml; madh.';
+$t[6] = 'D&euml;nimi n&euml; Xhehennem &euml;sht&euml; edhe p&euml;r ata q&euml; nuk besuan Zotit t&euml; tyre; sa vend i keq &euml;sht&euml; ai!';
+$t[7] = 'Kur t&euml; hidhen n&euml; t&euml;, ata do t&rsquo;ia d&euml;gjojn&euml; atij ushtim&euml;n e ai vlon.';
+$t[8] = 'Nga zem&euml;rimi, ai gati cop&euml;tohet. Sa her&euml; q&euml; hidhet n&euml; t&euml; ndonj&euml; turm&euml;, roja i pyet: &ldquo;A nuk ju pat ardhur juve ndonj&euml; pejgamber (qortues)?&rdquo;';
+$t[9] = 'Ata thon&euml;: &ldquo;Po, na erdhi pejgamberi, por ne e p&euml;rg&euml;njeshtruam dhe ne u tham&euml;: &ldquo;All-llahu nuk shpalli asgj&euml;, e ju nukjeni tjet&euml;r vet&euml;m se n&euml; nj&euml; humbje t&euml; nadhe!&rdquo;';
+$t[10] = 'Dhe thon&euml;: &ldquo;Sikur t&euml; kishim d&euml;gjuar dhe pasur mend, ne nuk do t&euml; ishim nd&euml;r banuesit e zjarrit&rdquo;.';
+$t[11] = 'Pra, i pranojm&euml; m&euml;katet e veta; banuesit e zjarrit qofshin larg m&euml;shir&euml;s.';
+$t[12] = 'Ata, q&euml; pa par&euml; i frik&euml;soheshin Zotit t&euml; vet, p&euml;r ta ka falje dhe shp&euml;rblim t&euml; madh.';
+$t[13] = 'E, ju fshihnie ose thhonie fjal&euml;n tuaj haptas; Ai s&rsquo;ka dyshim se e di &ccedil;ka fshehni n&euml; zemrat tuaja.';
+$t[14] = 'A nuk e di Ai q&euml; ka krijuar, kur dihet se Ai d&euml;p&euml;rton n&euml; thell&euml;si t&euml; sekreteve, i njh holl&euml;sit&euml;.';
+$t[15] = 'Ai &euml;sht&euml; q&euml; juve tok&euml;n ua b&euml;ri t&euml; p&euml;rshtatshme, andaj, ecni n&euml;p&euml;r pjes&euml; t&euml; saj dhe shfryt&euml;zoni begatit&euml; e Tij, meq&euml; vet&euml;m te Ai &euml;sht&euml; e ardhmja.';
+$t[16] = 'A u garantuat j prej Atij q&euml; &euml;sht&euml; n&euml; qiell, q&euml; t&euml; mos ju shafit (t&euml; mos u l&euml;shoj) toka kur t&euml; dridhet.';
+$t[17] = 'A u garantuat ju prej Atij q&euml; &euml;sht&euml; n&euml; qiell, q&euml; t&euml; mos l&euml;shoj&euml; kund&euml;r jush ndonj&euml; stuhi me rrebesh gur&euml;sh. E pra, do ta kuptoni se si &euml;sht&euml; nd&euml;shkimi Im!';
+$t[18] = 'Edhe ata q&euml; ishin para tyre p&euml;rg&euml;njeshtruan, por &ccedil;far&euml; ishte d&euml;nimi Im?';
+$t[19] = 'A nuk i shikuan ata shpez&euml;t p&euml;rmbi ta krah&euml;hapur dhe kur krah&euml;t i palojn&euml;, ato nuk i mban n&euml; aj&euml;r pos Fuqiplotit. Ai &euml;sht&euml; q&euml; &ccedil;do send e sheh dhe e di.';
+$t[20] = 'Kush &euml;sht&euml; ajo usht&euml;ri juaja q&euml; do t&rsquo;ju ndihmoj&euml;, pos M&euml;shiruesit? &Euml;sht&euml; e v&euml;rtet&euml; se jobesimtar&euml;t gjenden n&euml; nj&euml; mashtrim t&euml; madh.';
+$t[21] = 'Kush &euml;sht&euml; ai q&euml; ju ushqen, po q&euml; se Ai ua nd&euml;rpret furnizi, im e vet? Jo, askush, por ata vazhdojn&euml; me arroganc&euml; e kund&euml;rv&euml;nie.';
+$t[22] = 'A &euml;sht&euml; m&euml; i udh&euml;zyar ai q&euml; ec&euml;n i p&euml;rmbysur me fytyr&euml; n&euml; tok&euml;, apo ai q&euml; ec&euml;n n&euml; pozicion q&euml;ndrues rrug&euml;s s&euml; drejt&euml;?';
+$t[23] = 'Thuaj: &ldquo;Ai &euml;sht&euml; q ju krijoi, ju dhuroi t&euml; d&euml;gjuarit, t&euml; parit dhe mendjen, kurse pak po fal&euml;nderoni&rdquo;';
+$t[24] = 'Thuaj: &ldquo;Ai &euml;sht&euml; q&euml; ju krijoi e ju shumoi n&euml; tok&euml; dhe vet&euml;m te Ai do t&euml; tuboheni!&rdquo;';
+$t[25] = 'E, ata po thon&euml;: &ldquo;Kur do t&euml; s&euml;ndertohet ky premtim, po qe se jeni t&euml; v&euml;rtet&euml;?&rdquo;';
+$t[26] = '. Thuaj: &ldquo;At&euml; e di vet&euml;m All-llahu, e un&euml; jam nj&euml; qortues q&euml; ju b&euml;n me dije!&rdquo;';
+$t[27] = 'Kur ta shohin at&euml; (Xhehennemin) se po u afrohet, fytyrat e atyre q&euml; nuk besuan u sh&euml;mtohendhe u thuhet: &ldquo;Ky &euml;sht&euml; ai q&euml; ju e k&euml;rkonit sa m&euml; shpejt!&rdquo;';
+$t[28] = 'Thuaj: &ldquo;M&euml; tregoni pra, n&euml;se All-llahu m&euml; merr shpirtin mua dhe atyre q&euml; jan&euml; me mua, ose na m&euml;shiron, kush do t&rsquo;i mbroj&euml; jobesimtar&euml;t prej nj&euml; d&euml;nimi t&euml; mundimsh&euml;m?&rdquo;';
+$t[29] = 'Thuaj: &ldquo;Ai &euml;sht&euml; M&euml;shiruesi, Atij i kemi besuar dhe vet&euml; te Ai jemi mb&euml;shtetur, kurse ju do takuptoni se kush nj&euml;mend &euml;sht&euml; ai i humburi!&rdquo;';
+$t[30] = 'Thuaj: &ldquo;M&euml; tregoni, n&euml;se uji juaj humbet n&euml; thell&euml;si, kush do t&rsquo;ju sjell uj&euml; mbitok&euml;sor (burimor)?&rdquo;';
+?>

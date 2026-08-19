@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = '\'lm.';
+$t[2] = 'La revelaci&oacute;n de la Escritura, exenta de dudas, procede del Se&ntilde;or del universo.';
+$t[3] = 'O dicen: &laquo;&Eacute;l la ha inventado&raquo;. &iexcl;No! es la Verdad venida de tu Se&ntilde;or, para que adviertas a un pueblo al que no ha venido monitor alguno antes de ti. Quiz&aacute;s, as&iacute;, sean bien dirigidos.';
+$t[4] = 'Al&aacute; es Quien ha creado los cielos, la tierra y lo que entre ellos est&aacute; en seis d&iacute;as. Luego, se ha instalado en el Trono. Fuera de &Eacute;, no ten&eacute;is amigo ni intercesor. &iquest;Es que no os dejar&eacute;is amonestar?';
+$t[5] = '&Eacute;l dispone en el cielo todo lo de la tierra. Luego, todo ascender&aacute; a &Eacute;l en un d&iacute;a equivalente en duraci&oacute;n a mil a&ntilde;os de los vuestros.';
+$t[6] = 'Tal es el Conocedor de lo oculto y de lo patente, el Poderoso, el Misericordioso,';
+$t[7] = 'Que ha hecho bien todo cuanto ha creado y ha comenzado la creaci&oacute;n del hombre de arcilla';
+$t[8] = '-luego, ha establecido su descendencia de una gota de l&iacute;quido vil-;';
+$t[9] = 'luego, le ha dado forma armoniosa e infundido en &eacute;l de Su Esp&iacute;ritu. Os ha dado el o&iacute;do, la vista y el intelecto. &iexcl;Qu&eacute; poco agradecidos sois!';
+$t[10] = 'Dicen: &laquo;Cuando nos hayamos perdido en la tierra, &iquest;es verdad que se nos crear&aacute; de nuevo?&raquo; No, no creen en el encuentro de su Se&ntilde;or.';
+$t[11] = 'Di: &laquo;El &aacute;ngel de la muerte, encargado de vosotros, os llamara y, luego, ser&eacute;is devueltos a vuestro Se&ntilde;or&raquo;.';
+$t[12] = 'Si pudieras ver a los pecadores, cabizbajos ante su Se&ntilde;or: &laquo;&iexcl;Se&ntilde;or! &iexcl;Hemos visto y o&iacute;do! &iexcl;Haznos volver para que hagamos obras buenas! &iexcl;Estamos convencidos!&raquo;';
+$t[13] = 'Si hubi&eacute;ramos querido, habr&iacute;amos dirigido a cada uno. Pero se ha realizado Mi sentencia: &laquo;&iexcl;He de llenar la gehena de genios y de hombres, de todos ellos!&raquo;';
+$t[14] = '&iexcl;Gustad, pues, por haber olvidado que os llegar&iacute;a este d&iacute;a! Nosotros tambi&eacute;n os hemos olvidado. &iexcl;Gustad el castigo eterno por lo que hab&eacute;is hecho!';
+$t[15] = 'S&oacute;lo creen en Nuestras aleyas quienes, al ser amonestados con ellas, caen al suelo en adoraci&oacute;n y glorifican a su Se&ntilde;or, sin mostrarse altivos.';
+$t[16] = 'Se alzan del lecho para invocar a su Se&ntilde;or con temor y anhelo y dan limosna de lo que les hemos prove&iacute;do.';
+$t[17] = 'Nadie sabe la alegr&iacute;a reservada a ellos en retribuci&oacute;n a sus obras.';
+$t[18] = '&iquest;Es que el creyente es como el perverso? No son iguales.';
+$t[19] = 'Quienes crean y obren bien tendr&aacute;n los jardines de la Morada como alojamiento en premio a sus obras.';
+$t[20] = 'Pero los que obren con perversidad tendr&aacute;n el Fuego como morada. Siempre que quieran salir de &eacute;l, ser&aacute;n devueltos a &eacute;l y se les dir&aacute;:&laquo;&iexcl;Gustad el castigo del Fuego que desment&iacute;ais!&raquo;';
+$t[21] = 'Hemos de darles a gustar del castigo de aqu&iacute; abajo antes del castigo mayor. Quiz&aacute;s, as&iacute;, se conviertan.';
+$t[22] = '&iquest;Hay alguien que sea m&aacute;s imp&iacute;o que quien, habi&eacute;ndosele recordado los signos de su Se&ntilde;or, se desv&iacute;a luego de ellos? Nos vengaremos de los pecadores.';
+$t[23] = 'Hemos dado a Mois&eacute;s la Escritura -no dudes, pues, en encontrarle- e hicimos de ella direcci&oacute;n para los Hijos de Israel.';
+$t[24] = 'Elegimos de entre ellos a jefes que les dirigieran siguiendo Nuestra orden como premio por haber perseverado y por haber estado convencidos de Nuestros signos.';
+$t[25] = 'Tu Se&ntilde;or fallar&aacute; entre ellos el d&iacute;a de la Resurrecci&oacute;n sobre aquello en que discrepaban.';
+$t[26] = '&iquest;Es que no les dice nada que hayamos hecho perecer a tantas generaciones precedentes, cuyas viviendas huellan ellos ahora? Ciertamente, hay en ello signos. &iquest;No oir&aacute;n, pues?';
+$t[27] = '&iquest;Es que no ven c&oacute;mo conducimos el agua a la tierra pelada y, gracias a ella, sacamos los cereales de que se alimentan sus reba&ntilde;os y ellos mismos? &iquest;No ver&aacute;n, pues?';
+$t[28] = 'Y dicen: &laquo;&iquest;Para cu&aacute;ndo ese fallo, si es verdad lo que dec&iacute;s?&raquo;';
+$t[29] = 'Di: &laquo;El d&iacute;a del fallo, la fe ya no aprovechar&aacute; a los infieles y no les ser&aacute; dado esperar&raquo;.';
+$t[30] = '&iexcl;Ap&aacute;rtate, pues, de ellos y espera! &iexcl;Ellos esperan!';
+?>

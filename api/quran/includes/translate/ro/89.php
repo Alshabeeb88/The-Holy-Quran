@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Pe zori!';
+$t[2] = 'Pe cele zece nopţi!';
+$t[3] = 'Pe cel pereche şi pe cel nepereche!';
+$t[4] = 'Pe noapte c&acirc;nd se &icirc;mpuţinează!';
+$t[5] = 'Este oare acesta un jurăm&acirc;nt pentru cel cu cuget dăruit?';
+$t[6] = 'Nu ai văzut ce a făcut Domnul tău din adiţi';
+$t[7] = 'şi din Imran, cetatea cu coloane,';
+$t[8] = 'ce &icirc;n alt ţinut n-a fost ca ea alta creată?';
+$t[9] = 'Şi din tamudiţi care au scobit st&acirc;nca &icirc;n vale?';
+$t[10] = 'Şi din Faraon cu ţepuşele sale?';
+$t[11] = 'Din toţi cei care se ticăloşesc pe lumea aceasta';
+$t[12] = 'şi o umplu de stricăciune?';
+$t[13] = 'Domnul tău i-a plesnit cu biciul os&acirc;ndei,';
+$t[14] = 'căci Domnul tău este asupra tuturor Veghetor.';
+$t[15] = 'C&acirc;nd omul este pus la &icirc;ncercare de Domnul său, cinstindu-l şi copleşindu-l cu daruri, atunci spune: &ldquo;Domnul meu mă cinsteşte!&rdquo;';
+$t[16] = 'C&acirc;nd &icirc;nsă &icirc;l pune la &icirc;ncercare, drămuindu-i traiul, atunci spune: &ldquo;Domnul meu mă &icirc;njoseşte!&rdquo;';
+$t[17] = 'Nu, voi sunteţi cei care nu cinstiţi orfanul!';
+$t[18] = 'Voi sunteţi cei care nu lăsaţi să fie ospătat sărmanul!';
+$t[19] = 'Voi m&acirc;ncaţi cu lăcomie moştenirea!';
+$t[20] = 'Voi iubiţi &icirc;n neştire bogăţia!';
+$t[21] = 'Nu, c&acirc;nd păm&acirc;ntul va fi făcut făr&acirc;me,';
+$t[22] = 'iar Domnul tău va veni cu &icirc;ngerii, r&acirc;nd după r&acirc;nd:';
+$t[23] = '&icirc;n Ziua aceea, va veni Gheena şi &icirc;n Ziua aceea, omul &icirc;şi va aminti... La ce-i mai foloseşte &icirc;nsă să-şi amintească atunci?';
+$t[24] = 'El va spune: &ldquo;Ce bine ar fi fost de aş fi făcut ceva pentru Viaţa mea de Apoi!&rdquo;';
+$t[25] = '&Icirc;n Ziua aceea va fi chinuit cum chinuit nu a mai fost nimeni,';
+$t[26] = 'şi va fi &icirc;ncătuşat cum &icirc;ncătuşat nu a mai fost nimeni.';
+$t[27] = 'Suflete ostoit!';
+$t[28] = '&Icirc;ntoarce-te la Domnul tău, mulţumit şi d&acirc;nd mulţumire!';
+$t[29] = 'Intră dimpreună cu robii Mei!';
+$t[30] = 'Intră &icirc;n Raiul Meu!';
+?>

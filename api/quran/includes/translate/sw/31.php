@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'Alif Lam Mim (A. L. M.)';
+$t[2] = 'Hizi ni Aya za Kitabu chenye hikima.';
+$t[3] = 'Kuwa ni Uwongofu na Rehema kwa wafanyao wema,';
+$t[4] = 'Wanao shika Sala, na wanatoa Zaka, nao wana yakini na Akhera.';
+$t[5] = 'Hao ndio walio na uwongofu utokao kwa Mola wao Mlezi, na hao ndio wenye kufanikiwa.';
+$t[6] = 'Na miongoni mwa watu wapo wanao nunua maneno ya upuuzi, ili wawapoteze watu na njia ya Mwenyezi Mungu pasipo kujua, na wanaichukulia ni maskhara. Hao watapata adhabu ya kuwafedhehesha.';
+$t[7] = 'Na (mtu kama huyo) anapo somewa Aya zetu huzipa mgongo kwa kujivuna, kama kwamba hakuzisikia, kama kwamba masikioni mwake mna uziwi. Basi mbashirie kuwa atapata adhabu chungu.';
+$t[8] = 'Hakika walio amini na wakatenda mema watakuwa nazo Bustani za neema.';
+$t[9] = 'Watadumu humo - ni ahadi ya Mwenyezi Mungu ya kweli. Na Yeye ndiye Mwenye nguvu, Mwenye hikima.';
+$t[10] = 'Ameziumba mbingu bila ya nguzo mnazo ziona; na ameweka katika ardhi milima ili ardhi isikuyumbisheni; na ametawanya humo kila namna ya wanyama; na tumeteremsha maji kutoka mbinguni, na tukaotesha katika ardhi mimea mizuri ya kila namna.';
+$t[11] = 'Huu ni uumbaji wa Mwenyezi Mungu. Basi nionyesheni wameumba nini hao wasio kuwa Yeye! Lakini madhaalimu wamo katika upotovu uliyo dhaahiri.';
+$t[12] = 'Na tulimpa Luqman hikima, tukamwambia: Mshukuru Mwenyezi Mungu. Na mwenye kushukuru basi hakika anashukuru kwa manufaa ya nafsi yake. Na aliye kufuru, basi Mwenyezi Mungu ni Mkwasi, Msifiwa.';
+$t[13] = 'Na Luqman alipo mwambia mwanawe kwa kumpa mawaidha: Ewe mwanangu! Usimshirikishe Mwenyezi Mungu. Kwani hakika ushirikina bila ya shaka ni dhulma iliyo kubwa.';
+$t[14] = 'Na tumemuusia mtu kwa wazazi wake wawili. Mama yake ameichukua mimba yake kwa udhaifu juu ya udhaifu, na kumwachisha ziwa baada ya miaka miwili. (Tumemuusia): Nishukuru Mimi na wazazi wako. Ni kwangu Mimi ndiyo marudio.';
+$t[15] = 'Na pindi wakikushikilia kunishirikisha na ambayo huna ilimu nayo, basi usiwat\'ii. Lakini kaa nao kwa wema duniani, nawe ishike njia ya anaye elekea kwangu. Kisha marejeo yenu ni kwangu Mimi, na Mimi nitakuambieni mliyo kuwa mkiyatenda.';
+$t[16] = 'Ewe mwanangu! Kikiwapo kitu cha uzito wa chembe ya khardali kikawa ndani ya jabali au ndani ya mbingu au ndani ya ardhi, basi Mwenyezi Mungu atakileta. Hakika Mwenyezi Mungu ni Mjuzi wa yaliyo fichika, Mwenye khabari za yote.';
+$t[17] = 'Ewe mwanangu! Shika Sala, na amrisha mema, na kataza maovu, na subiri kwa yanayo kupata. Hayo ni katika mambo ya kuazimiwa..';
+$t[18] = 'Wala usiwabeuwe watu, wala usitembee katika nchi kwa maringo. Hakika Mwenyezi Mungu hampendi kila anaye jivuna na kujifakhirisha.';
+$t[19] = 'Na ushike mwendo wa katikati, na teremsha sauti yako. Hakika katika sauti mbaya zote bila ya shaka iliyo zidi ni sauti ya punda.';
+$t[20] = 'Kwani hamwoni ya kwamba Mwenyezi Mungu amevifanya vikutumikieni viliomo mbinguni na kwenye ardhi, na akakujalizieni neema zake, za dhaahiri na za siri? Na miongoni mwa watu wapo wanao bishana juu ya Mwenyezi Mungu pasipo ilimu, wala uwongofu, wala Kitabu chenye nuru.';
+$t[21] = 'Na wanapo ambiwa: Fuateni aliyo yateremsha Mwenyezi Mungu, husema: Bali tunafuata tuliyo wakuta nayo baba zetu. Je! Ijapo kuwa Shet\'ani anawaita kwenye adhabu ya Moto uwakao?';
+$t[22] = 'Na mwenye kuuelekeza uso wake kwa Mwenyezi Mungu, naye akawa anafanya wema, basi huyo hakika amekwisha kamata fundo lilio madhubuti. Na mwisho wa mambo yote ni kwa Mwenyezi Mungu.';
+$t[23] = 'Na anaye kufuru, isikuhuzunishe kufuru yake. Kwetu ndio marudio yao, na hapo tutawaambia waliyo yatenda. Hakika Mwenyezi Mungu ni Mjuzi wa yaliyomo vifuani.';
+$t[24] = 'Tunawastarehesha kwa uchache, kisha tutawasukuma kwenye adhabu ngumu.';
+$t[25] = 'Na ukiwauliza: Nani aliye ziumba mbingu na ardhi? Bila ya shaka watasema: Mwenyezi Mungu. Wewe sema: Alhamdulillahi! Sifa njema zote ni za Mwenyezi Mungu. Lakini wengi wao hawajui.';
+$t[26] = 'Ni vya Mwenyezi Mungu vyote viliomo mbinguni na katika ardhi. Hakika Mwenyezi Mungu ndiye Mkwasi, Mwenye kusifiwa.';
+$t[27] = 'Na lau kuwa miti yote iliyomo duniani ikawa ni kalamu, na bahari (ikawa wino), na ikaongezewa juu yake bahari nyengine saba, maneno ya Mwenyezi Mungu yasingeli kwisha. Hakika Mwenyezi Mungu ni Mwenye nguvu, Mwenye hikima.';
+$t[28] = 'Hakukuwa kuumbwa kwenu, wala kufufuliwa kwenu ila ni kama nafsi moja tu. Hakika Mwenyezi Mungu ni Mwenye kusikia Mwenye kuona.';
+$t[29] = 'Kwani huoni kwamba Mwenyezi Mungu huuingiza usiku katika mchana, na huuingiza mchana katika usiku, na amedhalilisha jua na mwezi? Vyote hivyo vinakwenda mpaka wakati ulio wekwa. Na Mwenyezi Mungu anazo khabari za mnayo yatenda.';
+$t[30] = 'Hivi ni kwa sababu hakika Mwenyezi Mungu ndiye wa kweli, na hakika wanacho kiomba ni cha uwongo. Na kwamba hakika Mwenyezi Mungu ndiye Mtukufu na ndiye Mkubwa.';
+$t[31] = 'Kwani huoni kwamba marikebu hupita baharini zikichukua neema za Mwenyezi Mungu, ili kukuonyesheni baadhi ya Ishara zake? Hakika katika haya zipo Ishara kwa kila mwenye kusubiri, mwenye kushukuru.';
+$t[32] = 'Na wimbi linapo wafunika kama wingu, wao humwomba Mwenyezi Mungu kwa kumsafia dini. Lakini anapo waokoa wakafika nchi kavu, wapo baadhi yao huenda mwendo wa sawa. Wala hazikanushi Ishara zetu ila aliye khaini kafiri mkubwa.';
+$t[33] = 'Enyi watu! Mcheni Mola wenu Mlezi, na iogopeni siku ambayo mzazi hatamfaa mwana, wala mwana hatamfaa mzazi kwa lolote. Hakika ahadi ya Mwenyezi Mungu ni ya kweli. Basi yasikudanganyeni maisha ya dunia, wala asikudanganyeni na Mwenyezi Mungu mdanganyifu.';
+$t[34] = 'Hakika kuijua Saa (ya Kiyama) kuko kwa Mwenyezi Mungu. Na Yeye ndiye anaye iteremsha mvua. Na anavijua viliomo ndani ya matumbo ya uzazi. Na haijui nafsi yoyote itachuma nini kesho. Wala nafsi yoyote haijui itafia nchi gani. Hakika Mwenyezi Mungu ndiye Mwenye kujua, Mwenye khabari.';
+?>

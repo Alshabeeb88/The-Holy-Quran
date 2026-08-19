@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alef, Lam, Mim.';
+$t[2] = 'Esta &eacute; a revela&ccedil;&atilde;o do Livro indubit&aacute;vel, que emana do Senhor do Universo.';
+$t[3] = 'Ou dizem: ele o (Alcor&atilde;o) tem forjado! Qual! &Eacute; a verdade do teu Senhor, para que admoestes (com ele) um povo, ao qualantes de ti n&atilde;o chegou admoestador algum, para que se encaminhe.';
+$t[4] = 'Foi Deus Quem criou, em seis dias, os c&eacute;us e a terra, e tudo quanto h&aacute; entre ambos; logo assumiu o Trono. N&atilde;o tendes, al&eacute;m d\'Ele, protetor, nem intercessor algum. N&atilde;o meditais?';
+$t[5] = 'Ele rege todos os assuntos, desde o c&eacute;u at&eacute; &agrave; terra; logo (tudo) ascender&aacute; a Ele, em um dia cuja dura&ccedil;&atilde;o ser&aacute; de mil anos, de vosso c&ocirc;mputo.';
+$t[6] = 'Tal &eacute; (Deus), Conhecer do cognosc&iacute;vel e do incognosc&iacute;vel, o Poderoso, o Misericordios&iacute;ssimo,';
+$t[7] = 'Que aperfei&ccedil;oou tudo o que criou e iniciou a cria&ccedil;&atilde;o do primeiro homem, de barro.';
+$t[8] = 'Ent&atilde;o, formou-lhe uma prole da ess&ecirc;ncia de s&ecirc;men sutil.';
+$t[9] = 'Depois o modelou; ent&atilde;o, alentou-o com Seu Esp&iacute;rito. Dotou a todos v&oacute;s da audi&ccedil;&atilde;o, da vis&atilde;o e das v&iacute;sceras. Qu&atilde;o poucoLhe agradeceis!';
+$t[10] = 'Dizem (os incr&eacute;dulos): Quando formos consumidos pela terra, seremos, acaso, renovados em uma nova criatura? Qual? Eles negam o comparecimento ante o seu Senhor!';
+$t[11] = 'Dize-lhes: O anjo da morte, que foi designado para vos guardar, recolher-vos-&aacute;, e logo retornareis ao vosso Senhor.';
+$t[12] = 'Ah, se pudesses ver os pecadores, cabisbaixos, ante o seu Senhor! (Exclamar&atilde;o): &Oacute; Senhor nosso, agora temos olhospara ver e ouvidos para ouvir! Faze-nos retornar ao mundo, que praticaremos o bem, porque agora estamos persuadidos!';
+$t[13] = 'E se quis&eacute;ssemos, ter&iacute;amos iluminado todo o ser, por&eacute;m, a Minha senten&ccedil;a foi pronunciada; sabei que encherei o infernocom g&ecirc;nios e humanos, todos juntos.';
+$t[14] = '(Ser-lhes-&aacute; dito): Sofrei, pois, por terdes esquecido o comparecimento neste vosso dia! Em verdade, vos esqueceremos. E sofrei o castigo, por toda a eternidade, pelo que cometestes!';
+$t[15] = 'Somente cr&ecirc;em nos Nossos vers&iacute;culos aqueles que, quando eles lhos s&atilde;o recitados, se prostram em adora&ccedil;&atilde;o e celebramos louvores de seu Senhor, sem, contudo, se ensoberbecerem.';
+$t[16] = 'S&atilde;o aqueles, cujo corpos n&atilde;o relutam em se afastar dos leitos para invocarem seu Senhor com temor e esperan&ccedil;a, e quefazem caridade daquilo com que os agraciamos.';
+$t[17] = 'Nenhuma alma caridosa sabe que deleite para os olhos lhe est&aacute; reservado, em recompensa pelo que fez.';
+$t[18] = 'Poder&aacute;, acaso, aquiparar-se ao fiel o &iacute;mpio? Jamais se equiparar&atilde;o!';
+$t[19] = 'Quanto aos fi&eacute;is, que tiverem praticado o bem, ter&atilde;o por abrigo jardins de aconchego, por tudo quanto fizeram.';
+$t[20] = 'Por outra, os depravados ter&atilde;o por morada o fogo infernal. Cada vez que desejarem sair dali, ser&atilde;o ainda maisarraigados nele, e lhes ser&aacute; dito: Provai o tormento do fogo que desmentistes!';
+$t[21] = 'Em verdade, infligir-lhes-emos o castigo terreno, antes do castigo supremo, para que se arrependam.';
+$t[22] = 'E haver&aacute; algu&eacute;m mais in&iacute;quo do que quem, ao ser exortado com os vers&iacute;culos do seu Senhor, logo os desdenha? Sabeique N&oacute;s puniremos os pecadores.';
+$t[23] = 'J&aacute; hav&iacute;amos concedido o Livro a Mois&eacute;s. N&atilde;o vaciles, pois, quando ele chegar a ti. E destinamo-lo como orienta&ccedil;&atilde;opara os israelitas.';
+$t[24] = 'E designamos l&iacute;deres dentre eles, os quais encaminham os demais segundo a Nossa ordem, porque perseveraram e sepersuadiram dos Nossos vers&iacute;culos.';
+$t[25] = 'Certamente teu Senhor julgar&aacute; entre eles, no Dia da Ressurrei&ccedil;&atilde;o, quanto &agrave;quilo a respeito do qu&ecirc; divergiam';
+$t[26] = 'Acaso, Ele n&atilde;o lhes evidenciou quantas gera&ccedil;&otilde;es anteriores &agrave; deles temos exterminado, apesar de caminharem sobre assuas (antigas) moradas? Certamente, nisto h&aacute; sinais. N&atilde;o ouvem, ent&atilde;o?';
+$t[27] = 'N&atilde;o reparam em que conduzimos a &aacute;gua &agrave; terra erma, fazendo com isso, brotar as semeaduras de que se nutrem eles e oseu gado? N&atilde;o v&ecirc;em, acaso?';
+$t[28] = 'E perguntam: Quando chegar&aacute; essa vit&oacute;ria, se estiverdes certos?';
+$t[29] = 'Responde-lhes: No dia da vit&oacute;ria de nada valer&aacute; a f&eacute; tardia dos incr&eacute;dulos, nem ser&atilde;o tolerados.';
+$t[30] = 'Afasta-te, pois deles, e espera, porque eles tamb&eacute;m n&atilde;o perdem por esperar.';
+?>

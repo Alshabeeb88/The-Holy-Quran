@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Mutlak h&uuml;k&uuml;mranlik elinde bulunan Allah, y&uuml;celer y&uuml;cesidir ve O\'nun her seye g&uuml;c&uuml; yeter.';
+$t[2] = 'O, hanginizin daha g&uuml;zel is yapacaginizi denemek i&ccedil;in &ouml;l&uuml;m&uuml; ve hayati yaratti. O, &uuml;st&uuml;nd&uuml;r, bagislayandir.';
+$t[3] = 'O, yedi g&ouml;g&uuml;, birbiri &uuml;zerine yaratti. Rahm&acirc;n\'in yaratmasinda bir aykirilik, uygunsuzluk g&ouml;rmezsin. G&ouml;z&uuml;n&uuml; d&ouml;nd&uuml;r de bak, bir bozukluk g&ouml;r&uuml;yor musun?';
+$t[4] = 'Sonra g&ouml;z&uuml;n&uuml; tekrar tekrar d&ouml;nd&uuml;r (bak). G&ouml;z (aradigi bozuklugu bulmaktan) &acirc;ciz ve bitkin halde sana d&ouml;necektir.';
+$t[5] = 'Andolsun biz, en yakin g&ouml;g&uuml; kandillerle donattik ve onlari, seytanlar i&ccedil;in taslamalar yaptik. Ve onlar i&ccedil;in alevli ates azabini hazirladik.';
+$t[6] = 'Rablerini ink&acirc;r edenler i&ccedil;in cehennem azabi vardir. Ne k&ouml;t&uuml; gidilecek yerdir o!';
+$t[7] = 'Oraya atildiklarinda, onun kaynarken &ccedil;ikardigi ugultuyu isitirler.';
+$t[8] = 'Az daha &ouml;fkeden &ccedil;atlayacak. Her ne zaman oraya bir topluluk atilsa, onun bek&ccedil;ileri onlara: &quot;Size korkutucu bir peygamber gelmemis miydi?&quot; diye sorarlar.';
+$t[9] = 'Derler: &quot;Evet, bize uyarici geldi ama biz yalanladik ve Allah hi&ccedil;bir sey indirmedi, siz ancak b&uuml;y&uuml;k bir sapiklik i&ccedil;indesiniz.&quot; dedik.';
+$t[10] = 'Ve derler ki: &quot;Eger biz dinleseydik, yahut d&uuml;s&uuml;n&uuml;p anlasaydik su &ccedil;ilgin atesin halki arasinda bulunmazdik!&quot;';
+$t[11] = 'B&ouml;ylece g&uuml;nahlarini itiraf ederler. (Artik) o &ccedil;ilgin ates halki (Allah\'in rahmetinden) uzak olsunlar!';
+$t[12] = 'Fakat daha g&ouml;rmeden Rablerinden korkanlar var ya, iste onlar i&ccedil;in bagislanma ve b&uuml;y&uuml;k bir m&uuml;k&acirc;fat vardir.';
+$t[13] = 'S&ouml;z&uuml;n&uuml;z&uuml; ister gizleyin, ister a&ccedil;iga vurun; bilin ki, O, g&ouml;g&uuml;slerin &ouml;z&uuml;n&uuml; bilir.';
+$t[14] = 'Hi&ccedil; yaratan bilmez mi? O, en ince isleri g&ouml;r&uuml;p bilmektedir ve her seyden haberdardir.';
+$t[15] = 'O size yeri boyun eger kildi. Haydi onun omuzlarinda (daglarinda, tepelerinde) y&uuml;r&uuml;y&uuml;n ve Allah\'in rizkindan yeyin. D&ouml;n&uuml;s ancak O\'nadir.';
+$t[16] = 'Her şeyi kuşatmış olan Allah ın yeri sizinle birlikte g&ouml;&ccedil;&uuml;r&uuml;vermesinden emin misiniz? O zaman yer &ccedil;alkalanıyordur.';
+$t[17] = 'Yoksa siz, g&ouml;kte olanin &uuml;zerinize tas yagdiran bir kasirga g&ouml;ndermeyeceginden emin misiniz? Tehdidim nasilmis bileceksiniz.';
+$t[18] = 'Andolsun, onlardan &ouml;ncekiler de yalanladilar. Ama beni ink&acirc;r nasil oldu?';
+$t[19] = '&Uuml;stlerinde kanatlarini a&ccedil;ip yumarak u&ccedil;an kuslari g&ouml;rm&uuml;yorlar mi? Onlari Rahm&acirc;n\'dan baskasi tutmuyor. Dogrusu O, her seyi g&ouml;rmektedir.';
+$t[20] = 'Rahm&acirc;n olan Allah\'a karsi su size yardim edecek askerleriniz hani kimlerdir? Ink&acirc;rcilar, ancak derin bir gaflet i&ccedil;inde bulunmaktadirlar.';
+$t[21] = 'Allah size verdigi rizki kesiverse, size rizik verecek olabilen kimdir? Hayir, onlar azginlik ve nefrette direnip durmaktadirlar.';
+$t[22] = 'Simdi y&uuml;z &uuml;st&uuml; kapanarak y&uuml;r&uuml;yen mi dogru gider, yoksa dosdogru yolda y&uuml;r&uuml;yen mi?';
+$t[23] = 'De ki: &quot;Sizi yaratan, size kulaklar g&ouml;zler ve g&ouml;n&uuml;ller veren O\'dur. Ne kadar az s&uuml;krediyorsunuz!&quot;';
+$t[24] = 'De ki: &quot;Sizi yerden &uuml;reten O\'dur ve O\'na toplanip g&ouml;t&uuml;r&uuml;leceksiniz.&quot;';
+$t[25] = '(Onlar): &quot;Dogru iseniz bu tehdit ne zaman olacak?&quot; diyorlar';
+$t[26] = 'De ki: &quot;(O\'na ait) bilgi, Allah\'in yanindadir. Ben ancak apa&ccedil;ik bir uyariciyim.&quot;';
+$t[27] = 'Onu yakin g&ouml;r&uuml;nce ink&acirc;r edenlerin y&uuml;zleri k&ouml;t&uuml;lesti. Ve: &quot;Iste &ccedil;agirip durdugunuz sey budur!&quot; dendi.';
+$t[28] = 'De ki: &quot;Baksaniza, eger Allah beni ve benimle beraber olanlari &ouml;ld&uuml;rse, yahut bize merhamet etse, k&acirc;firleri aci bir azabdan kim kurtarabilir?';
+$t[29] = 'De ki: &quot;O &ccedil;ok merhametlidir. O\'na inanmis, O\'na dayanmisizdir. Yakinda kimin apa&ccedil;ik bir sapiklik i&ccedil;inde oldugunu bileceksiniz.&quot;';
+$t[30] = 'De ki: &quot;Baksaniza, eger suyunuz &ccedil;ekilse, size kim bir akarsu getirebilir?&quot;';
+?>

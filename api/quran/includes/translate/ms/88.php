@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Sudahkah sampai kepadamu (wahai Muhammad) perihal hari kiamat yang huru-haranya meliputi?';
+$t[2] = 'Muka (orang-orang yang kafir) pada hari itu tunduk kerana merasa hina,';
+$t[3] = 'Mereka menjalankan kerja yang berat lagi berpenat lelah,';
+$t[4] = 'Mereka tetap menderita bakaran neraka yang amat panas (membakar), -';
+$t[5] = 'Mereka diberi minum dari matair yang menggelegak panasnya.';
+$t[6] = 'Tiada makanan bagi mereka (di situ) selain dari pokok-pokok yang berduri,';
+$t[7] = 'Yang tidak menggemokkan, dan tidak pula dapat menghilangkan sedikit kelaparan pun.';
+$t[8] = '(Sebaliknya) muka (orang-orang yang beriman) pada hari itu berseri-seri,';
+$t[9] = 'Berpuas hati dengan balasan amal usahanya (yang baik yang telah dikerjakannya di dunia), -';
+$t[10] = '(Mereka tinggal menetap) di dalam Syurga tinggi (tempat kedudukannya darjatnya),';
+$t[11] = 'Mereka tidak mendengar di situ sebarang perkataan yang sia-sia,';
+$t[12] = 'Di dalam Syurga itu ada matair yang mengalir,';
+$t[13] = 'Di situ juga ada pelamin-pelamin (berhias) yang tinggi (tempatnya),';
+$t[14] = 'Dan piala-piala minuman yang disediakan (untuk mereka),';
+$t[15] = 'Dan bantal-bantal yang teratur (untuk mereka berbaring atau bersandar),';
+$t[16] = 'Serta hamparan-hamparan yang terbentang.';
+$t[17] = '(Mengapa mereka yang kafir masih mengingkari akhirat) tidakkah mereka memperhatikan keadaan unta bagaimana ia diciptakan?';
+$t[18] = 'Dan keadaan langit bagaimana ia ditinggikan binaannya.?';
+$t[19] = 'Dan keadaan gunung-ganang bagaimana ia ditegakkan?';
+$t[20] = 'Dan keadaan bumi bagaimana ia dihamparkan?';
+$t[21] = 'Oleh itu berikanlah sahaja peringatan (wahai Muhammad, kepada manusia, dan janganlah berdukacita kiranya ada yang menolaknya), kerana sesungguhnya engkau hanyalah seorang Rasul pemberi ingatan;';
+$t[22] = 'Bukanlah engkau seorang yang berkuasa memaksa mereka (menerima ajaran Islam yang engkau sampaikan itu).';
+$t[23] = 'Akan tetapi sesiapa yang berpaling (dari kebenaran) serta ia kufur ingkar, -';
+$t[24] = 'Maka Allah akan menyeksanya dengan azab seksa yang sebesar-besarnya.';
+$t[25] = 'Sesungguhnya kepada Kamilah kembalinya mereka,';
+$t[26] = 'Selain dari itu, sesungguhnya tanggungan Kamilah soal menghitung amal mereka.';
+?>

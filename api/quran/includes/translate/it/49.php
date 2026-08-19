@@ -1,0 +1,21 @@
+<?php
+$t = array();
+$t[1] = 'O credenti, non anticipate Allah e il Suo Messaggero e temete Allah! Allah &egrave; audiente, sapiente.';
+$t[2] = 'O credenti, non alzate la vostra voce al di sopra di quella del Profeta, e non alzate con lui la voce come l\'alzate quando parlate tra voi, ch&eacute; rischiereste di rendere vane le opere vostre a vostra insaputa.';
+$t[3] = 'Coloro che abbassano la voce davanti all\'Inviato di Allah, sono quelli cui Allah ha disposto il cuore al timore [di Lui]. Avranno il perdono e ricompensa immensa.';
+$t[4] = 'Quanto a coloro che ti chiamano dall\'esterno delle tue stanze intime... la maggior parte di loro non comprendono nulla.';
+$t[5] = 'Se avessero atteso con pazienza finch&eacute; tu non esca loro incontro, sarebbe stato meglio per loro.';
+$t[6] = 'O credenti, se un malvagio vi reca una notizia, verificatela, affinch&eacute; non portiate, per disinformazione, pregiudizio a qualcuno e abbiate poi a pentirvi di quel che avrete fatto.';
+$t[7] = 'E sappiate che il Messaggero di Allah &egrave; tra voi. Se in molte questioni accondiscendesse ai vostri [desideri], voi sareste in gravi difficolt&agrave;; ma Allah vi ha fatto amare la fede e l\'ha resa bella ai vostri cuori, cos&igrave; come vi ha fatto detestare la miscredenza, la malvagit&agrave; e la disobbedienza. Essi sono i ben diretti;';
+$t[8] = '[questa] &egrave; la grazia di Allah e il Suo favore. Allah &egrave; sapiente, saggio.';
+$t[9] = 'Se due gruppi di credenti combattono tra loro, riconciliateli. Se poi [ancora] uno di loro commettesse degli eccessi, combattete quello che eccede, finch&eacute; non si pieghi all\'Ordine di Allah. Quando si sar&agrave; piegato, ristabilite, con giustizia, la concordia tra di loro e siate equi, poich&eacute; Allah ama coloro che giudicano con equit&agrave;.';
+$t[10] = 'In verit&agrave; i credenti sono fratelli: ristabilite la concordia tra i vostri fratelli e temete Allah. Forse vi sar&agrave; usata misericordia.';
+$t[11] = 'O credenti, non scherniscano alcuni di voi gli altri, ch&eacute; forse questi sono migliori di loro. E le donne non scherniscano altre donne, ch&eacute; forse queste sono migliori di loro. Non diffamatevi a vicenda e non datevi nomignoli. Com\'&egrave; infame l\'accusa di iniquit&agrave; rivolta a chi &egrave; credente ! Coloro che non si pentono sono gli iniqui.';
+$t[12] = 'O credenti, evitate di far troppe illazioni, ch&eacute; una parte dell\'illazione &egrave; peccato. Non vi spiate e non sparlate gli uni degli altri. Qualcuno di voi mangerebbe la carne del suo fratello morto? Ne avreste anzi orrore! Temete Allah! Allah sempre accetta il pentimento, &egrave; misericordioso.';
+$t[13] = 'O uomini, vi abbiamo creato da un maschio e una femmina e abbiamo fatto di voi popoli e trib&ugrave;, affinch&eacute; vi conosceste a vicenda. Presso Allah, il pi&ugrave; nobile di voi &egrave; colui che pi&ugrave; Lo teme. In verit&agrave; Allah &egrave; sapiente, ben informato.';
+$t[14] = 'I Beduini hanno detto: &ldquo;Crediamo&rdquo;. Di\': &ldquo;Voi non credete. Dite piuttosto ci sottomettiamo&quot;, poich&eacute; la fede non &egrave; ancora penetrata nei vostri cuori. Se obbedirete ad Allah e al Suo Inviato, Egli non trascurer&agrave; nessuna delle vostre [buone] azioni. In verit&agrave; Allah &egrave; perdonatore, misericordioso&rdquo;.';
+$t[15] = 'I veri credenti sono coloro che credono in Allah e nel Suo Inviato senza mai dubitarne e che lottano con i loro beni e le loro persone per la causa di Allah: essi sono i sinceri.';
+$t[16] = 'Di\': &ldquo;Sareste forse voi ad istruire Allah sulla vostra religione, mentre Allah conosce ci&ograve; che &egrave; nei cieli e sulla terra?&rdquo;. Allah conosce tutte le cose.';
+$t[17] = 'Vantano questa sottomissione, come fosse un favore da parte loro. Di\': &ldquo;Non rinfacciatemi il vostro Isl&agrave;m come se fosse un favore. &Egrave; piuttosto Allah Che vi ricorda il Suo favore di avervi guidati verso la fede, [che otterrete] se siete sinceri.';
+$t[18] = 'Allah conosce l\'invisibile dei cieli e della terra e Allah ben osserva quel che fate&rdquo;.';
+?>

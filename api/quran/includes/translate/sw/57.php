@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Kinamsabihi kumtakasa Mwenyezi Mungu kila kiliomo ndani ya mbingu na ardhi. Na Yeye ndiye Mwenye nguvu, Mwenye hikima.';
+$t[2] = 'Yeye ndiye Mwenye ufalme wa mbingu na ardhi. Anahuisha na anafisha. Na Yeye ni Mwenye uweza wa kila kitu.';
+$t[3] = 'Yeye ndiye wa Mwanzo na ndiye wa Mwisho, naye ndiye wa Dhaahiri na wa Siri, naye ndiye Mjuzi wa kila kitu.';
+$t[4] = 'Yeye ndiye aliye ziumba mbingu na ardhi katika siku sita; kisha akakaa vyema juu ya enzi. Anayajua yanayo ingia katika ardhi na yanayo toka humo, na yanayo teremka kutoka mbinguni, na yanayo panda humo. Naye yu pamoja nanyi popote mlipo. Na Mwenyezi Mungu ni Mwenye kuyaona mnayo yatenda.';
+$t[5] = 'Ufalme wa mbingu na ardhi ni wake. Na mambo yote yanarejeshwa kwa Mwenyezi Mungu.';
+$t[6] = 'Anaingiza usiku katika mchana, na anaingiza mchana katika usiku. Na Yeye ni Mwenye kuyajua yaliomo vifuani.';
+$t[7] = 'Muaminini Mwenyezi Mungu na Mtume wake; na toeni katika alivyo kufanyeni nyinyi kuwa ni waangalizi wake. Basi walio amini miongoni mwenu, na wakatoa, wana malipo makubwa.';
+$t[8] = 'Na mna nini hata hamumuamini Mwenyezi Mungu na hali Mtume anakuiteni mumuamini Mola wenu Mlezi? Naye amekwisha chukua ahadi yenu, ikiwa nyinyi ni Waumini.';
+$t[9] = 'Yeye ndiye anaye mteremshia mja wake Aya zinazo bainisha wazi ili akutoeni gizani muingie kwenye nuru. Na hakika Mwenyezi Mungu kwenu ni Mpole, Mwenye kurehemu.';
+$t[10] = 'Na mna nini hata hamtoi katika Njia ya Mwenyezi Mungu, na hali urithi wa mbingu na ardhi ni wa Mwenyezi Mungu? Hawawi sawa miongoni mwenu wenye kutoa kabla ya Ushindi na wakapigana vita. Hao wana daraja kubwa zaidi kuliko wale ambao walio toa baadae na wakapigana. Na wote hao Mwenyezi Mungu amewaahidia wema. Na Mwenyezi Mungu anazo khabari za mnayo yatenda.';
+$t[11] = 'Ni nani atakaye mkopesha Mwenyezi Mungu mkopo mwema, ili amrudishie mardufu, na apate malipo ya ukarimu.';
+$t[12] = 'Siku utakapo waona Waumini wanaume na Waumini wanawake, nuru yao iko mbele yao, na kuliani kwao: Furaha yenu leo - Bustani zipitazo mito kati yake mtakaa humo milele. Huko ndiko kufuzu kukubwa.';
+$t[13] = 'Siku wanaafiki wanaume na wanaafiki wanawake watapo waambia walio amini: Tungojeni ili tupate mwangaza katika nuru yenu. Waambiwe: Rejeeni nyuma yenu mkaitafute nuru! Utiwe baina yao ukuta wenye mlango - ndani yake mna rehema, na nje upande wake wa mbele kuna adhabu.';
+$t[14] = 'Watawaita wawaambie: Kwani vile hatukuwa pamoja nanyi? Watawaambia: Ndiyo, lakini mlijifitini wenyewe, na mkasitasita, na mkatia shaka, na matamanio ya nafsi zenu yakakudanganyeni. mpaka ilipo kuja amri ya Mwenyezi Mungu, na mdanganyifu akakudanganyeni msimfuate Mwenyezi Mungu.';
+$t[15] = 'Basi leo haitapokelewa kwenu fidia, wala kwa wale walio kufuru. Makaazi yenu ni Motoni, ndio bora kwenu; na ni marejeo maovu yalioje!';
+$t[16] = 'Je! Wakati haujafika bado kwa walio amini zikanyenyekea nyoyo zao kwa kumkumbuka Mwenyezi Mungu na haki iliyo teremka? Wala wasiwe kama walio pewa Kitabu kabla yao, muda wao ukawa mrefu, kwa hivyo nyoyo zao zikawa ngumu, na wengi wao wakawa wapotovu.';
+$t[17] = 'Jueni kwamba Mwenyezi Mungu huifufua ardhi baada ya kufa kwake. Tumekubainishieni Ishara ili mpate kuzingatia.';
+$t[18] = 'Kwa hakika wanaume wanao toa sadaka, na wanawake wanao toa sadaka, na wakamkopesha Mwenyezi Mungu mkopo mwema, watazidishiwa mardufu na watapata malipo ya ukarimu.';
+$t[19] = 'Na walio muamini Mwenyezi Mungu na Mitume wake, hao ndio Masidiqi na Mashahidi mbele ya Mola wao Mlezi. Wao watapata malipo yao na nuru yao. Na walio kufuru na wakakadhibisha Ishara zetu, hao ndio watu wa Motoni.';
+$t[20] = 'Jueni ya kwamba maisha ya dunia ni mchezo, na pumbao, na pambo, na kujifakhirisha baina yenu na kushindana kwa wingi wa mali na watoto. Mfano wake ni kama mvua ambayo huwafurahisha wakulima mimea yake, kisha hunyauka ukayaona yamepiga manjano kisha yakawa mabua. Na akhera kuna adhabu kali na maghfira kutoka kwa Mwenyezi Mungu na radhi. Na maisha ya dunia si chochote ila ni starehe ya udanganyifu.';
+$t[21] = 'Kimbilieni msamaha wa Mola wenu Mlezi, na Pepo ambayo upana wake ni kama upana wa mbingu na ardhi, iliyo wekewa walio muamini Mwenyezi Mungu na Mitume wake. Hiyo ndiyo fadhila ya Mwenyezi Mungu, humpa amtakaye. Na Mwenyezi Mungu ni Mwenye fadhila kuu.';
+$t[22] = 'Hautokei msiba katika ardhi wala katika nafsi zenu ila umekwisha andikwa katika Kitabu kabla hatujauumba. Hakika hayo kwa Mwenyezi Mungu ni mepesi.';
+$t[23] = 'Ili msihuzunike kwa kilicho kupoteeni, wala msijitape kwa alicho kupeni. Na Mwenyezi Mungu hampendi kila anaye jivuna akajifakhirisha.';
+$t[24] = 'Ambao wanafanya ubakhili, na wanaamrisha watu wafanye ubakhili. Na anaye geuka, basi Mwenyezi Mungu ni Mwenye kujitosha, Msifiwa.';
+$t[25] = 'Kwa hakika tuliwatuma Mitume wetu kwa dalili waziwazi, na tukateremsha Kitabu pamoja nao na Mizani, ili watu wasimamie uadilifu, na tumeteremsha chuma chenye nguvu nyingi na manufaa kwa watu, na ili Mwenyezi Mungu amjue anaye mnusuru Yeye na Mitume wake kwa ghaibu. Hakika Mwenyezi Mungu ni Mwenye nguvu Mwenye kushinda.';
+$t[26] = 'Na bila ya shaka tulimtuma Nuhu na Ibrahim, na tukaweka katika dhuriya zao Unabii na Kitabu. Basi wapo miongoni mwao walio ongoka, na wengi katika wao ni wapotovu.';
+$t[27] = 'Tena tukafuatisha nyuma yao Mitume wengine, na tukamfuatisha Isa bin Mariamu, na tukampa Injili. Na tukajaalia katika nyoyo za walio mfuata upole na rehema. Na umonaki (utawa wa mapadri) wameuzua wao. Sisi hatukuwaandikia hayo, ila kutafuta radhi za Mwenyezi Mungu. Lakini hawakuufuata inavyo takiwa kuufuata. Basi wale walio amini katika wao tuliwapa ujira wao. Na wengi wao ni wapotovu.';
+$t[28] = 'Enyi mlio amini! Mcheni Mwenyezi Mungu, na muaminini Mtume wake, atakupeni sehemu mbili katika rehema yake, na atakujaalieni muwe na nuru ya kwenda nayo. Na atakusameheni. Na Mwenyezi Mungu ni Mwenye kusamehe, Mwenye kurehemu.';
+$t[29] = 'Ili watu wa Kitabu wajue kwamba wao hawana uweza wowote juu ya fadhila za Mwenyezi Mungu. Na fadhila zote zimo mikononi mwa Mwenyezi Mungu. Humpa amtakaye. Na Mwenyezi Mungu ndiye Mwenye fadhila kuu.';
+?>

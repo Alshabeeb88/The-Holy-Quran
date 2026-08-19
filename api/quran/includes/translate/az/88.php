@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = '(Ya Peyğəmbər! Dəhşəti aləmi) b&uuml;r&uuml;yəcək qiyamətin xəbəri sənə gəlib &ccedil;atdımı?';
+$t[2] = '(O g&uuml;n) bir &ccedil;ox &uuml;zlər zəlil g&ouml;rkəm alacaq;';
+$t[3] = '(Onlar Cəhənnəmin pillələrinə &ccedil;ıxıb-d&uuml;şməklə boş yerə) zəhmət &ccedil;əkib yorulacaq;';
+$t[4] = 'Yanar oda girəcəkdir;';
+$t[5] = 'Və onlara qaynar bulaqdan (su) i&ccedil;irdiləcəkdir.';
+$t[6] = 'Onların yeməyi (zəhərdən və acı) zəri&rsquo;dən başqa bir şey olmayacaqdır.';
+$t[7] = '(O yemək onlara) nə q&uuml;vvət verər, nə də aclıqdan qurtarar.';
+$t[8] = '(O g&uuml;n) bir &ccedil;ox &uuml;zlər sevinəcək;';
+$t[9] = '(D&uuml;nyadakı) zəhmətindən razı qalacaq;';
+$t[10] = '(Dərəcəsi, qədir-qiyməti) y&uuml;ksək Cənətdə olacaq,';
+$t[11] = 'Və orada he&ccedil; bir boş s&ouml;z (lağlağı) eşitməyəcəkdir.';
+$t[12] = 'Orada axar bulaq;';
+$t[13] = 'Orada uca taxtlar;';
+$t[14] = '(&Ccedil;eşmələr kənarında) piyalələr;';
+$t[15] = 'Bir-birinin yanına d&uuml;z&uuml;lm&uuml;ş (yumşaq) balışlar';
+$t[16] = 'Və d&ouml;şənmiş (nəfis) xalılar vardır!';
+$t[17] = 'Məgər dəvəyə baxmırlar ki, necə yaradılmışdır?';
+$t[18] = 'G&ouml;yə (baxmırlar ki) necə ucaldılmışdır?';
+$t[19] = 'Dağlara (baxmırlar ki) necə dikəldilmişdir?';
+$t[20] = 'Və yerə (baxmırlar ki) necə d&ouml;şədilmişdir?';
+$t[21] = '(Ya Peyğəmbər! Mənim bəndələrimə) &ouml;y&uuml;d-nəsihət ver. Sən ancaq &ouml;y&uuml;d-nəsihət verənsən!';
+$t[22] = 'Sən onların &uuml;zərində hakim deyilsən!';
+$t[23] = 'Lakin kim (imandan) &uuml;z d&ouml;ndərib (Qur&rsquo;anı) inkar etsə';
+$t[24] = 'Allah onu ən b&ouml;y&uuml;k əzaba (axirət əzabına) d&uuml;&ccedil;ar edər!';
+$t[25] = 'Ş&uuml;bhəsiz ki, onların axır d&ouml;n&uuml;ş&uuml; Bizədir!';
+$t[26] = 'Onlarla haqq-hesab &ccedil;əkmək də Bizə aiddir!';
+?>

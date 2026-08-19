@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Ging er niet eene groote tijdruimte over den mensch, gedurende welke hij eene nietswaardige zaak was?';
+$t[2] = 'Waarlijk, wij hebben den mensch geschapen uit het gemengde zaad van beide seksen, opdat wij hem zouden beproeven, en wij hebben hem doen hooren en zien.';
+$t[3] = 'Wij hebben hem zeker op den weg geleid, of hij dankbaar, dan wel ondankbaar zou zijn.';
+$t[4] = 'Waarlijk, wij hebben voor de ongeloovigen ketenen en halskragen en brandend vuur gereed gemaakt.';
+$t[5] = 'Maar de rechtvaardigen zullen uit een beker wijn drinken, gemengd met het water van Ca oer.';
+$t[6] = 'Eene fontein waarvan Gods dienaren zullen drinken: zij zullen die door kanalen leiden (werwaarts het hun behaagt).';
+$t[7] = 'Deze vervullen hunne gelofte en vreezen den dag, waarvan rampen zich zeer ver uitstrekken.';
+$t[8] = 'Zij, schoon zelven nooddruftig, geven voedsel aan de armen, aan den wees en aan den balling voor zijne zaak.';
+$t[9] = 'Zeggende: Wij voeden u alleen voor Gods zaak; wij begeeren belooning noch dankzegging van u.';
+$t[10] = 'Waarlijk, wij vreezen van onzen Heer een schrikbarenden en rampvollen dag.';
+$t[11] = 'Daarom zal God hen van de ramp van dien dag bevrijden, en hij zal hunne voorhoofden doen schitteren, en hun vreugde geven.';
+$t[12] = 'En hij zal hun voor hunne geduldige volharding beloonen, met een tuin en zijden kleederen.';
+$t[13] = 'Daarin zullen zij op zetels rusten; zij zullen daar zon noch maan zien.';
+$t[14] = 'De schaduwen der boomen zullen zich over hen uitspreiden, en de vruchten daarvan zullen laag nederkomen, zoodat die gemakkelijk zullen kunnen worden ingezameld.';
+$t[15] = 'Hunne dienaren zullen bij hen rondgaan met zilveren vaatwerk en bekers.';
+$t[16] = 'De flesschen zullen flesschen van zilver zijn (blinkend als glas); zij zullen de maat daarvan bepalen.';
+$t[17] = 'Daar zal hun te drinken worden gegeven, uit bekers (wijn), gemengd met het water van Zedjebil';
+$t[18] = 'Uit eene fontein in het paradijs, Selsebil genaamd.';
+$t[19] = 'En kinderen die eeuwig jong zullen blijven zullen rondgaan om hen te bedienen; als gij hen ziet, zult gij denken dat zij verspreide paarlen zijn.';
+$t[20] = 'En als gij dit ziet, zult gij geneugten aanschouwen en een groot koninkrijk.';
+$t[21] = 'Zij zullen bedekt zijn met kleederen van fijne, groene zijde en van gouden weefsels, en zij zullen versierd zijn met zilveren armbanden, en hun Heer zal hun van het zuiverste vocht te drinken geven.';
+$t[22] = '(Hij zal tot hen zeggen:) Waarlijk, dit is uwe belooning, en uwe pogingen zijn dankbaar aangenomen.';
+$t[23] = 'Waarlijk, wij hebben u den Koran door eene (trapsgewijze) openbaring nedergezonden.';
+$t[24] = 'Wacht dus geduldig het oordeel van uwen Heer af, en geloof geen zondaar of ongeloovige onder hen.';
+$t[25] = 'Gedenk den naam van uwen Heer, des ochtends en des avonds.';
+$t[26] = 'En aanbid hem gedurende (een deel van den nacht); en prijs hem gedurende een groot deel des nachts.';
+$t[27] = 'Waarlijk, deze menschen beminnen het voorbijgaande leven, en veronachtzamen den zwaren dag des oordeels.';
+$t[28] = 'Wij hebben hen geschapen en hunne ledematen gesterkt, en als het ons behaagt, stellen wij anderen aan hen gelijk, in hunne plaats.';
+$t[29] = 'Waarlijk, dit is eene waarschuwing; en hij die wil, kieze den weg tot zijn Heer.';
+$t[30] = 'Maar gij zult niet willen tenzij God wil; want God is alwetend en wijs';
+$t[31] = 'Hij leidt in zijne genade die hem behagen; maar voor den onrechtvaardige heeft hij eene gestrenge straf gereed gemaakt.';
+?>

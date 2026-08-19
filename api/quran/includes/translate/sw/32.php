@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'Alif Lam Mim (A. L. M.)';
+$t[2] = 'Huu ni mteremsho wa Kitabu kisicho kuwa na shaka yoyote kinacho toka kwa Mola Mlezi wa walimwengu wote.';
+$t[3] = 'Au wanasema: Amekizua? Bali hichi ni Kweli iliyo toka kwa Mola wako Mlezi ili uwaonye watu wasio fikiwa na mwonyaji kabla yako; huenda wakaongoka.';
+$t[4] = 'Mwenyezi Mungu ndiye aliye umba mbingu na ardhi na viliomo baina yao kwa siku sita, na akatawala kwenye Kiti cha Enzi. Nyinyi hamna mlinzi wala mwombezi isipo kuwa Yeye tu. Basi, je, hamkumbuki?';
+$t[5] = 'Anapitisha mambo yote yalio baina mbingu na ardhi, kisha yanapanda kwake kwa siku ambayo kipimo chake ni miaka elfu kwa mnavyo hisabu nyinyi.';
+$t[6] = 'Huyu ndiye Mwenye kuyajua yasiyo onekana na yanayo onekana. Mwenye nguvu, Mwenye kurehemu.';
+$t[7] = 'Ambaye ametengeneza vizuri umbo la kila kitu; na akaanzisha kumuumba mtu kwa udongo.';
+$t[8] = 'Na kisha akajaalia uzao wake utokane na kizazi cha maji madhaifu.';
+$t[9] = 'Kisha akamtengeneza, na akampulizia roho yake, na akakujaalieni kusikia na kuona, na nyoyo za kufahamu. Ni uchache mnavyo shukuru.';
+$t[10] = 'Nao husema: Tutapo kwisha potea chini ya ardhi, ni kweli tutarudishwa katika umbo jipya? Bali wao wanakanusha kwamba watakutana na Mola wao Mlezi.';
+$t[11] = 'Sema: Atakufisheni Malaika wa mauti aliye wakilishwa juu yenu; kisha mtarejeshwa kwa Mola wenu Mlezi.';
+$t[12] = 'Na ungeli waona wakosefu wanvyo inamisha vichwa vyao mbele ya Mola wao Mlezi, (wakisema): Mola wetu Mlezi! Tumesha ona, na tumesha sikia. Turejeshe tukatende mema, kwani hakika sisi tumekwisha kuwa na yakini sasa.';
+$t[13] = 'Na lau tungeli taka tunge mpa kila mtu uwongofu wake. Lakini imekwisha kuwa kauli iliyo toka kwangu: Kwa yakini nitaijaza Jahannamu kwa wote hawa, majini na watu.';
+$t[14] = 'Basi onjeni kwa vile mlivyo usahau mkutano wa Siku yenu hii. Na Sisi hakika tunakusahauni. Basi onjeni adhabu ya milele kwa yale mliyo kuwa mkiyatenda.';
+$t[15] = 'Hakika wanao ziamini Aya zetu ni hao tu ambao wakikumbushwa hizo, basi wao huanguka kusujudu, na humsabihi Mola wao Mlezi kwa kumhimidi, nao hawajivuni.';
+$t[16] = 'Mbavu zao zinaachana na vitanda kwa kumwomba Mola wao Mlezi kwa khofu na kutumaini, na hutoa kutokana na tulivyo waruzuku.';
+$t[17] = 'Nafsi yoyote haijui waliyo fichiwa katika hayo yanayo furahisha macho - ni malipo ya yale waliyo kuwa wakiyatenda.';
+$t[18] = 'Ati aliye Muumini atakuwa sawa na aliye mpotovu? Hawawi sawa.';
+$t[19] = 'Ama walio amini na wakatenda mema, watakuwa nazo Bustani za makaazi mazuri. Ndio pa kufikia kwa waliyo kuwa wakiyatenda.';
+$t[20] = 'Na ama wale walio tenda uovu, basi makaazi yao ni Motoni. Kila wakitaka kutoka humo watarudishwa humo humo. Na wataambiwa: Onjeni adhabu ya Moto ambayo mliyo kuwa mkiikanusha.';
+$t[21] = 'Na tutawaonjesha adhabu khafifu kabla ya adhabu kubwa, huenda labda watarejea.';
+$t[22] = 'Na ni nani dhaalimu mkubwa kuliko yule anaye kumbushwa kwa Ishara za Mola wake Mlezi, kisha akazikataa? Hakika Sisi tutajilipiza kwa wakosefu.';
+$t[23] = 'Hakika Sisi tulikwisha mpa Musa Kitabu. Basi usiwe na shaka kuwa kakipokea. Na tukakifanya kuwa ni uwongofu kwa Wana wa Israili.';
+$t[24] = 'Na tukawafanya miongoni mwao waongozi wanao ongoa watu kwa amri yetu, walipo subiri na wakawa na yakini na Ishara zetu.';
+$t[25] = 'Hakika Mola wako Mlezi ndiye atakaye fafanua baina yao Siku ya Kiyama katika waliyo kuwa wakikhitalifiana.';
+$t[26] = 'Je! Haijawabainikia kwamba kaumu ngapi tuliziangamiza kabla yao, nao wanapita katika maskani zao hizo? Hakika katika hayo zipo Ishara. Basi, je, hawasikii?';
+$t[27] = 'Je! Hawaoni ya kwamba tunayapeleka maji kwenye ardhi kavu, kisha kwayo tunaitoa mimea wanayo kula wanyama wao na wao wenyewe? Je! Hawaoni?';
+$t[28] = 'Wanasema: Ushindi huu ni lini, kama mnasema kweli?';
+$t[29] = 'Sema: Siku ya Ushindi, wale walio kufuru imani yao haitawafaa kitu, wala wao hawatapewa muhula.';
+$t[30] = 'Basi wapuuze, nawe ngonja; hakika wao wanangoja.';
+?>

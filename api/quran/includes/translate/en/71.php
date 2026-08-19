@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Indeed, We sent Noah to his people, [saying], &quot;Warn your people before there comes to them a painful punishment.&quot;';
+$t[2] = 'He said, &quot;O my people, indeed I am to you a clear warner,';
+$t[3] = '[Saying], \'Worship Allah, fear Him and obey me.';
+$t[4] = 'Allah will forgive you of your sins and delay you for a specified term. Indeed, the time [set by] Allah, when it comes, will not be delayed, if you only knew.\' &quot;';
+$t[5] = 'He said, &quot;My Lord, indeed I invited my people [to truth] night and day.';
+$t[6] = 'But my invitation increased them not except in flight.';
+$t[7] = 'And indeed, every time I invited them that You may forgive them, they put their fingers in their ears, covered themselves with their garments, persisted, and were arrogant with [great] arrogance.';
+$t[8] = 'Then I invited them publicly.';
+$t[9] = 'Then I announced to them and [also] confided to them secretly';
+$t[10] = 'And said, \'Ask forgiveness of your Lord. Indeed, He is ever a Perpetual Forgiver.';
+$t[11] = 'He will send [rain from] the sky upon you in [continuing] showers';
+$t[12] = 'And give you increase in wealth and children and provide for you gardens and provide for you rivers.';
+$t[13] = 'What is [the matter] with you that you do not attribute to Allah [due] grandeur';
+$t[14] = 'While He has created you in stages?';
+$t[15] = 'Do you not consider how Allah has created seven heavens in layers';
+$t[16] = 'And made the moon therein a [reflected] light and made the sun a burning lamp?';
+$t[17] = 'And Allah has caused you to grow from the earth a [progressive] growth.';
+$t[18] = 'Then He will return you into it and extract you [another] extraction.';
+$t[19] = 'And Allah has made for you the earth an expanse';
+$t[20] = 'That you may follow therein roads of passage.\' &quot;';
+$t[21] = 'Noah said, &quot;My Lord, indeed they have disobeyed me and followed him whose wealth and children will not increase him except in loss.';
+$t[22] = 'And they conspired an immense conspiracy.';
+$t[23] = 'And said, \'Never leave your gods and never leave Wadd or Suwa\' or Yaghuth and Ya\'uq and Nasr.';
+$t[24] = 'And already they have misled many. And, [my Lord], do not increase the wrongdoers except in error.&quot;';
+$t[25] = 'Because of their sins they were drowned and put into the Fire, and they found not for themselves besides Allah [any] helpers.';
+$t[26] = 'And Noah said, &quot;My Lord, do not leave upon the earth from among the disbelievers an inhabitant.';
+$t[27] = 'Indeed, if You leave them, they will mislead Your servants and not beget except [every] wicked one and [confirmed] disbeliever.';
+$t[28] = 'My Lord, forgive me and my parents and whoever enters my house a believer and the believing men and believing women. And do not increase the wrongdoers except in destruction.&quot;';
+?>

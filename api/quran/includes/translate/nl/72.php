@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Zeg: Het is mij geopenbaard, dat een aantal geniussen mijne lezing van den Koran aandachtig hebben aangehoord, en zeiden: Waarlijk, wij hebben een bewonderenswaardig gesprek gehoord.';
+$t[2] = 'Dat op den rechten weg leidt; daarom gelooven wij er in, en wij willen volstrekt geen ander met onzen Heer vereenigen.';
+$t[3] = 'Hij (dat zijne majesteit verheven zij!) heeft geene vrouw genomen, en heeft evenmin kinderen gebaard';
+$t[4] = 'Een dwaze van ons heeft iets van God gezegd, wat geheel valsch is.';
+$t[5] = 'Maar wij dachten waarlijk, dat noch mensch, noch genius op eenigerlei wijze eene leugen tegen God zou hebben uitgedacht.';
+$t[6] = 'En er zijn zekere menschen, die, als toevlucht, tot sommigen der geniussen vloden.';
+$t[7] = 'Maar zij vermeerderden hunne dwaasheid en hunne zonden. Zij dachten, zooals gij denkt, dat God niemand tot het leven zal doen verrijzen.';
+$t[8] = 'En wij trachtten vroeger te bespieden, wat er in den hemel voortging; maar wij bevonden, dat die met eene sterke wacht van engelen en vlammende flitsen opgevuld was.';
+$t[9] = 'En wij plaatsten ons op sommige der zetels om de gesprekken zijner bewoners te hooren; maar wie thans zou luisteren, zou den vlammenden schicht vinden, die in hinderlaag gelegd is, om de grenzen van den hemel te beschermen (hem te treffen).';
+$t[10] = 'Wij weten niet, of daardoor eene ramp voor hen wordt bedoeld, die op de aarde wonen, dan wel of hun Heer voornemens is, hen op den rechten weg te leiden.';
+$t[11] = 'Er zijn sommigen onder ons, die rechtschapen zijn, en er zijn sommigen onder ons, die anders zijn; wij zijn in verschillende soorten verdeeld.';
+$t[12] = 'En wij erkennen waarlijk, dat wij Gods macht op aarde geenszins zouden kunnen verzwakken, noch dat wij hem door de vlucht zouden kunnen ontsnappen.';
+$t[13] = 'Daarom geloofden wij in den Koran, toen wij de leiding hadden gehoord, die daarin is vervat. En wie in zijn Heer gelooft, behoeft geene vermindering van zijne belooning, noch eenige onrechtvaardigheid te vreezen.';
+$t[14] = 'Er zijn sommige Moslems onder ons, en er zijn anderen onder ons, die van de rechtvaardigheid afdwalen. En zij die den Islam omhelzen, zoeken de ware leiding op ernstige wijze.';
+$t[15] = 'Maar zij die van de rechtvaardigheid afwijken, zullen tot voedsel der hel verstrekken.';
+$t[16] = 'Indien zij den weg der waarheid betreden, zullen wij hen zekerlijk met een overvloedigen regen bevochtigen.';
+$t[17] = 'Ten einde hun daardoor te bewijzen, dat degeen die zich van de vermaning van zijn Heer afwendt, eene strenge marteling zal ondergaan.';
+$t[18] = 'Waarlijk de plaatsen der vereering zijn aan God toegewijd; roept dus geen ander tegelijk met God aan.';
+$t[19] = 'Toen Gods dienaar opstond om hem aan te roepen, had het weinig gescheeld, of de geniussen hadden hem doodgedrongen, om hem den Koran te hooren opzeggen.';
+$t[20] = 'Zeg: Waarlijk, ik roep slechts mijn Heer aan, en ik vereenig geen anderen God met hem.';
+$t[21] = 'Zeg: Waarlijk, ik ben uit mij zelven niet in staat, u leed of goed te doen.';
+$t[22] = 'Zeg: Waarlijk, niemand kan mij tegen God bijstaan. Nimmer zal ik eene toevlucht buiten hem vinden.';
+$t[23] = 'Ik kan niets meer doen, dan wat mij van God werd geopenbaard, en zijne zendingen openbaar maken. En hij, die God en zijn gezant ongehoorzaam zal zijn, voor dien is het hellevuur gereed gemaakt; eeuwig zal hij daarin verblijven.';
+$t[24] = 'Zij zullen hunnen wederstand niet staken, dan nadat zij de wraak gezien zullen hebben, waarmede zij zijn bedreigd; maar dan zullen zij weten, wie onzer zwakker in zijne ondersteuning, en wie kleiner in getal is.';
+$t[25] = 'Zeg hun: Ik weet niet of de straf waarmede gij bedreigd zijt, nabij is, dan wel, of mijn heer die voor een verwijderd tijdstip heeft bepaald.';
+$t[26] = 'Hij kent de geheimen der toekomst, en hij deelt zijne geheimen aan niemand mede.';
+$t[27] = 'Behalve aan den gezant in wien hij behagen schept, en hij doet eene wacht van engelen voor hem en achter hem gaan.';
+$t[28] = 'Opdat hij zou weten, dat de gezanten de zending van hunnen Heer hebben volbracht. Hij weet alles, wat met hen is, en telt alle dingen bij het getal.';
+?>

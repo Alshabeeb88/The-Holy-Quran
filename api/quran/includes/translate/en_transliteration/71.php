@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Inna arsalna noohan ilaqawmihi an anthir qawmaka min qabli an ya/tiyahum AAathabunaleem';
+$t[2] = 'Qala ya qawmi innee lakum natheerunmubeen';
+$t[3] = 'Ani oAAbudoo Allaha wattaqoohuwaateeAAoon';
+$t[4] = 'Yaghfir lakum min thunoobikumwayu-akhkhirkum ila ajalin musamman inna ajala Allahiitha jaa la yu-akhkharu law kuntumtaAAlamoon';
+$t[5] = 'Qala rabbi innee daAAawtu qawmeelaylan wanahara';
+$t[6] = 'Falam yazidhum duAAa-ee illafirara';
+$t[7] = 'Wa-innee kullama daAAawtuhumlitaghfira lahum jaAAaloo asabiAAahum fee athanihimwastaghshaw thiyabahum waasarroo wastakbarooistikbara';
+$t[8] = 'Thumma innee daAAawtuhum jihara';
+$t[9] = 'Thumma innee aAAlantu lahum waasrartu lahumisrara';
+$t[10] = 'Faqultu istaghfiroo rabbakum innahu kanaghaffara';
+$t[11] = 'Yursili assamaa AAalaykummidrara';
+$t[12] = 'Wayumdidkum bi-amwalin wabaneenawayajAAal lakum jannatin wayajAAal lakum anhara';
+$t[13] = 'Ma lakum la tarjoona lillahiwaqara';
+$t[14] = 'Waqad khalaqakum atwara';
+$t[15] = 'Alam taraw kayfa khalaqa AllahusabAAa samawatin tibaqa';
+$t[16] = 'WajaAAala alqamara feehinna nooran wajaAAalaashshamsa siraja';
+$t[17] = 'Wallahu anbatakum mina al-ardinabata';
+$t[18] = 'Thumma yuAAeedukum feehawayukhrijukum ikhraja';
+$t[19] = 'Wallahu jaAAala lakumu al-ardabisata';
+$t[20] = 'Litaslukoo minha subulan fijaja';
+$t[21] = 'Qala noohun rabbi innahum AAasawneewattabaAAoo man lam yazidhu maluhu wawaladuhu illakhasara';
+$t[22] = 'Wamakaroo makran kubbara';
+$t[23] = 'Waqaloo la tatharunna alihatakumwala tatharunna waddan wala suwaAAanwala yaghootha wayaAAooqa wanasra';
+$t[24] = 'Waqad adalloo katheeran walatazidi aththalimeena illa dalala';
+$t[25] = 'Mimma khatee-atihimoghriqoo faodkhiloo naran falam yajidoo lahum min dooniAllahi ansara';
+$t[26] = 'Waqala noohun rabbi latathar AAala al-ardi mina alkafireenadayyara';
+$t[27] = 'Innaka in tatharhum yudillooAAibadaka wala yalidoo illa fajirankaffara';
+$t[28] = 'Rabbi ighfir lee waliwalidayyawaliman dakhala baytiya mu/minan walilmu/mineena walmu/minatiwala tazidi aththalimeena illatabaran';
+?>

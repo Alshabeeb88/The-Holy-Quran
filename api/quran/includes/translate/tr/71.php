@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Ger&ccedil;ekten biz N&ucirc;h\'u kavmine g&ouml;nderdik, &quot;kavmine aci bir azap gelmezden &ouml;nce onlari uyar&quot; diye.';
+$t[2] = 'Dedi ki, &quot;ey kavmim! Ger&ccedil;ekten ben size a&ccedil;ik bir uyariciyim&quot;.';
+$t[3] = 'S&ouml;yle ki, &quot;Allah\'a kulluk edin, ondan korkun ve bana itaat edin.&quot;';
+$t[4] = '&quot;G&uuml;nahlarinizi bagislasin ve sizi belli bir s&uuml;reye kadar ertelesin. Kuskusuz Allah\'in takdir ettigi s&uuml;re gelince ertelenmez. Eger bilseydiniz..&quot; (inanirdiniz).';
+$t[5] = 'N&ucirc;h dedi ki: &quot;Ey Rabbim! Ben kavmimi gece g&uuml;nd&uuml;z davet ettim.&quot;';
+$t[6] = '&quot;Fakat benim &ccedil;agirmam, onlarin sadece ka&ccedil;malarini artirdi.&quot;';
+$t[7] = '&quot;Ben onlari senin bagislaman i&ccedil;in her davet ettigimde, onlar parmaklarini kulaklarina tikadilar, elbiselerine b&uuml;r&uuml;nd&uuml;ler, israr ettiler, kibirlendik&ccedil;e kibirlendiler.&quot;';
+$t[8] = '&quot;Sonra ben onlari a&ccedil;ik a&ccedil;ik &ccedil;agirdim.&quot;';
+$t[9] = '&quot;Sonra hem ilan ederek s&ouml;yledim onlara, hem gizli gizli. &quot;';
+$t[10] = '&quot;Gelin, dedim, Rabbinizin sizi bagislamasini isteyin. &Ccedil;&uuml;nk&uuml; o &ccedil;ok bagislayicidir.&quot;';
+$t[11] = '&quot;&Uuml;zerinize g&ouml;kten bol yagmur yagdirsin.&quot;';
+$t[12] = '&quot;Mallar ve ogullar vererek sizin imdadiniza kossun. Sizin i&ccedil;in bah&ccedil;eler yapsin, irmaklar yapsin.&quot;';
+$t[13] = '&quot;Ni&ccedil;in siz Allah\'a bir vakar yakistiramiyorsunuz?&quot;';
+$t[14] = '&quot;Oysa o sizi asama asama yaratmistir.&quot;';
+$t[15] = '&quot;G&ouml;rmediniz mi Allah yedi g&ouml;g&uuml; uygun tabakalar halinde nasil yaratmis?&quot;';
+$t[16] = 'Ve Ay\'i bunlarin i&ccedil;inde bir nur yapmis, g&uuml;nesi de bir lamba kilmis.';
+$t[17] = 'Allah sizi yerden bir bitki bitirir gibi bitirdi.';
+$t[18] = 'Sonra sizi tekrar oraya geri &ccedil;evirecek ve tekrar &ccedil;ikaracaktir.';
+$t[19] = 'Allah sizin i&ccedil;in yeri bir yaygi yapmistir.';
+$t[20] = 'Ki, ondan a&ccedil;ilan genis genis yollarda gidesiniz.';
+$t[21] = 'N&ucirc;h dedi ki: &quot;Ey Rabbim! Onlar bana isyan ettiler; mali ve &ccedil;ocugu h&uuml;srandan baska bir seyini artirmayan kimsenin ardina d&uuml;st&uuml;ler.&quot;';
+$t[22] = '&quot;B&uuml;y&uuml;k b&uuml;y&uuml;k tuzaklar kurdular.&quot;';
+$t[23] = 'Dediler ki: &quot;Sakin tanrilarinizi birakmayin, ne Vedd\'i, ne Suva\'i ve ne de Yegus\'u, Ye&ucirc;k\'u ve Nesr\'i.&quot;';
+$t[24] = '&Ccedil;ok kisiyi yoldan saptirdilar. Sen de o zalimlerin sadece saskinliklarini artir.';
+$t[25] = 'Hatalarindan dolayi boguldular, atese sokuldular, kendilerine Allah\'a karsi yardimcilar da bulamadilar.';
+$t[26] = 'N&ucirc;h dedi ki: &quot;Yery&uuml;z&uuml;nde kafirlerden bir tek kisi birakma.&quot;';
+$t[27] = '&quot;Zira sen onlari birakirsan kullarini yoldan &ccedil;ikarirlar ve sadece ahl&acirc;ksiz ve k&acirc;fir &ccedil;ocuklar dogururlar.&quot;';
+$t[28] = '&quot;Ey Rabbim! Bana, babama, anama, m&uuml;min olarak evime girene ve b&uuml;t&uuml;n inanmis erkek ve kadinlara magfiret buyur. Zalimlerin de sadece helakini artir.&quot;';
+?>

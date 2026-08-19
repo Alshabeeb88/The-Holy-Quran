@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Apabila matahari digulung,';
+$t[2] = 'dan apabila bintang-bintang berjatuhan,';
+$t[3] = 'dan apabila gunung-gunung dihancurkan,';
+$t[4] = 'dan apabila unta-unta yang bunting ditinggalkan (tidak diperdulikan)';
+$t[5] = 'dan apabila binatang-binatang liar dikumpulkan,';
+$t[6] = 'dan apabila lautan dijadikan meluap';
+$t[7] = 'dan apabila ruh-ruh dipertemukan (dengan tubuh)';
+$t[8] = 'dan apabila bayi-bayi perempuan yang dikubur hidup-hidup ditanya,';
+$t[9] = 'karena dosa apakah dia dibunuh,';
+$t[10] = 'dan apabila catatan-catatan (amal perbuatan manusia) dibuka,';
+$t[11] = 'dan apabila langit dilenyapkan,';
+$t[12] = 'dan apabila neraka Jahim dinyalakan,';
+$t[13] = 'dan apabila surga didekatkan,';
+$t[14] = 'maka tiap-tiap jiwa akan mengetahui apa yang telah dikerjakannya.';
+$t[15] = 'Sungguh, Aku bersumpah dengan bintang-bintang,';
+$t[16] = 'yang beredar dan terbenam,';
+$t[17] = 'demi malam apabila telah hampir meninggalkan gelapnya,';
+$t[18] = 'dan demi subuh apabila fajarnya mulai menyingsing,';
+$t[19] = 'sesungguhnya Al Quran itu benar-benar firman (Allah yang dibawa oleh) utusan yang mulia (Jibril),';
+$t[20] = 'yang mempunyai kekuatan, yang mempunyai kedudukan tinggi di sisi Allah yang mempunyai \'Arsy,';
+$t[21] = 'yang ditaati di sana (di alam malaikat) lagi dipercaya.';
+$t[22] = 'Dan temanmu (Muhammad) itu bukanlah sekali-kali orang yang gila.';
+$t[23] = 'Dan sesungguhnya Muhammad itu melihat Jibril di ufuk yang terang.';
+$t[24] = 'Dan dia (Muhammad) bukanlah orang yang bakhil untuk menerangkan yang ghaib.';
+$t[25] = 'Dan Al Quran itu bukanlah perkataan syaitan yang terkutuk,';
+$t[26] = 'maka ke manakah kamu akan pergi?';
+$t[27] = 'Al Quran itu tiada lain hanyalah peringatan bagi semesta alam,';
+$t[28] = '(yaitu) bagi siapa di antara kamu yang mau menempuh jalan yang lurus.';
+$t[29] = 'Dan kamu tidak dapat menghendaki (menempuh jalan itu) kecuali apabila dikehendaki Allah, Tuhan semesta alam.';
+?>

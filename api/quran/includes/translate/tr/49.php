@@ -1,0 +1,21 @@
+<?php
+$t = array();
+$t[1] = 'Ey iman edenler! Allah\'in ve Resul&uuml;n&uuml;n huzurunda &ouml;ne ge&ccedil;meyin. Allah\'tan korkun. S&uuml;phesiz Allah isitendir, bilendir.';
+$t[2] = 'Ey iman edenler!Seslerinizi Peygamber\'in sesinden fazla y&uuml;kseltmeyin. Birbirinize bagirdiginiz gibi, Peygamber\'e y&uuml;ksek sesle bagirmayin. &Ouml;yle yaparsaniz, siz farkina varmadan amelleriniz bosa gider.';
+$t[3] = 'Allah\'in el&ccedil;isinin huzurunda seslerini kisanlar, s&uuml;phesiz Allah\'in kalplerini takva ile imtihan ettigi kimselerdir. Onlara magfiret ve b&uuml;y&uuml;k bir m&uuml;k&acirc;fat vardir.';
+$t[4] = '(Res&uuml;l&uuml;m!) Sana odalarin arkasindan bagiranlarin &ccedil;oklari, akli ermez kimselerdir.';
+$t[5] = 'Eger onlar, sen yanlarina &ccedil;ikincaya kadar sabretselerdi, elbette kendileri i&ccedil;in daha iyi olurdu. Bununla beraber Allah &ccedil;ok bagislayan, &ccedil;ok merhamet edendir.';
+$t[6] = 'Ey iman edenler! Eger fasikin biri size bir haber getirirsen onun dogrulugunu arastirin. Yoksa bilmeden bir topluluga satasirsiniz da sonra yaptiginizdan pisman olursunuz.';
+$t[7] = 'Hem bilin ki, i&ccedil;inizde Allah\'in el&ccedil;isi vardir. Sayet o, bir&ccedil;ok islerde size uysaydi, sikintiya d&uuml;serdiniz. Fakat Allah size imani sevdirmis ve onu kalplerinize zinet yapmistir. K&uuml;fr&uuml;, fasikligi ve isyani da size &ccedil;irkin g&ouml;stermistir. Iste dogru yolda olanlar bunlardir.';
+$t[8] = 'Bu, Allah\'tan bir l&uuml;tuf ve nimettir. Allah herseyi bilir, h&uuml;k&uuml;m ve hikmet sahibidir.';
+$t[9] = 'Eger m&uuml;minlerden iki grup birbirleriyle vurusurlarsa aralarini d&uuml;zeltin. Sayet biri &ouml;tekine saldirirsa, Allah\'in buyruguna d&ouml;n&uuml;nceye kadar saldiran tarafla savasin. Eger d&ouml;nerse aralarini adaletle d&uuml;zeltin ve (her iste) adaletli davranin. S&uuml;phesiz ki Allah, adil davrananlari sever.';
+$t[10] = 'M&uuml;minler ancak kardestirler. &Ouml;yleyse kardeslerinizin arasini d&uuml;zeltin ve Allah\'tan korkun ki rahmete eresiniz.';
+$t[11] = 'Ey iman edenler! Bir topluluk diger bir toplulukla alay etmesin. Belki de onlar, kendilerinden daha iyidirler. Kadinlar da kadinlari alaya almasinlar. Belki onlar kendilerinden daha iyidirler. Kendi kendinizi ayiplamayin, birbirinizi k&ouml;t&uuml; lakaplarla &ccedil;agirmayin. Imandan sora f&acirc;siklik ne k&ouml;t&uuml; bir isimdir! Kim de tevbe etmezse iste bu kimseler zalimlerdir.';
+$t[12] = 'Ey iman edenler! Zannin bir &ccedil;ogundan ka&ccedil;inin. &Ccedil;&uuml;nk&uuml; zannin bir kismi g&uuml;nahtir. Birbirinizin kusurunu arastirmayin. Biriniz digerini arkasindan &ccedil;ekistirmesin. Biriniz, &ouml;lm&uuml;s kardesinin etini yemekten hoslanir mi? Iste bundan tiksindiniz. O halde Allah\'tan korkun. S&uuml;phesiz Allah, tevbeyi &ccedil;ok kabul edendir, &ccedil;ok merhamet edendir.';
+$t[13] = 'Ey insanlar! Dogrusu biz sizi bir erkekle bir disiden yarattik. Ve birbirinizle tanismaniz i&ccedil;in sizi milletlere ve kabilelere ayirdik. Muhakkak ki Allah yaninda en degerli ve en &uuml;st&uuml;n&uuml;n&uuml;z O\'ndan en &ccedil;ok korkaninizdir. S&uuml;phesiz Allah bilendir, herseyden haberdar olandir.';
+$t[14] = 'Bedev&icirc;ler &quot;inandik&quot; dediler. De ki: Siz iman etmediniz ama &quot;Isl&acirc;m olduk.&quot; deyin. Hen&uuml;z iman kalplerinize yerlesmedi. Eger Allah\'a ve Resul&uuml;ne itaat ederseniz, Allah islerinizden hi&ccedil;bir seyi eksiltmez. &Ccedil;&uuml;nk&uuml; Allah &ccedil;ok bagislayan, &ccedil;ok merhamet edendir.';
+$t[15] = 'Ger&ccedil;ek m&uuml;minler ancak Allah\'a ve Resul&uuml;ne iman eden, ondan sonra asla s&uuml;pheye d&uuml;smeyen, Allah yolunda mallariyla ve canlariyla savasanlardir. Iste dogrular ancak onlardir.';
+$t[16] = 'De ki: Siz dininizi Allah\'a mi &ouml;gretiyorsunuz? Oysa Allah g&ouml;klerde olanlari da bilir, yerde olanlari da. Allah herseyi hakkiyla bilendir.';
+$t[17] = 'Onlar Isl&acirc;m\'a girdikleri i&ccedil;in sana minnet ediyorlar. De ki: M&uuml;sl&uuml;manliginizi benim basima kakmayin. Bilakis sizi imana erdirdigi i&ccedil;in Allah sizin basiniza kakar. Eger dogrulardan iseniz (Allah\'a minnettar olmaniz gerekir.)';
+$t[18] = 'S&uuml;phesiz Allah, g&ouml;klerin ve yerin g&ouml;r&uuml;lmeyen esrarini bilir. Allah yaptiklarinizi g&ouml;r&uuml;r.';
+?>

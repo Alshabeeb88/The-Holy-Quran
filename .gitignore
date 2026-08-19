@@ -1,0 +1,34 @@
+# Quran for All - runtime / installation files
+.qfa-installed
+.qfa-install.lock
+includes/config.php
+includes/admin_auth_store.php
+includes/contact_messages.php
+includes/contact_messages-archive.php
+cache/
+
+# Sessions / temporary files
+sess_*
+*.tmp
+*.tmp-*
+*.bak
+*.orig
+*.swp
+*~
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+._*
+__MACOSX/
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Logs
+*.log

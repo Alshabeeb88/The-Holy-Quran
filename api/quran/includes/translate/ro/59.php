@@ -1,0 +1,27 @@
+<?php
+$t = array();
+$t[1] = 'Cele din ceruri şi de pe păm&acirc;nt &icirc;l preamăresc pe Dumnezeu. El este Puternicul, &Icirc;nţeleptul.';
+$t[2] = 'El este Cel ce i-a prigonit din casele lor &icirc;n cel dint&acirc;i surghiun pe oamenii Cărţii care tăgăduiau. Voi nu v-aţi &icirc;nchipuit că vor pleca, iar ei &icirc;şi &icirc;nchipuiau că fortăreţele &icirc;i vor apăra de Dumnezeu. Dumnezeu a venit &icirc;nsă la ei de unde nici nu se aşteptau arunc&acirc;ndu-le groaza &icirc;n inimi. Ei şi-au dăr&acirc;mat casele cu m&acirc;inile lor şi cu m&acirc;inile credincioşilor. Trageţi o &icirc;nvăţătură de aici, o, voi cei dăruiţi cu vedere!';
+$t[3] = 'Dacă Dumnezeu nu le-ar fi sortit surghiunul, i-ar fi os&acirc;ndit &icirc;n Viaţa de Acum. &Icirc;n Viaţa de Apoi vor avea parte de os&acirc;nda Focului.';
+$t[4] = 'Aceasta, căci s-au rupt de Dumnezeu şi de trimisul Său. Dumnezeu este Aprig &icirc;n os&acirc;nda ce o dă celui ce se rupe de Dumnezeu';
+$t[5] = 'C&acirc;ţi curmali aţi tăiat şi c&acirc;ţi aţi lăsat &icirc;n picioare, a fost cu &icirc;ngăduinţa lui Dumnezeu, iar El &icirc;i va face de ruşine pe cei desfr&acirc;naţi.';
+$t[6] = 'Dumnezeu &icirc;i dă toată prada trimisului Său, căci voi nu i-aţi sărit &icirc;n ajutor pe cai şi pe cămile. Dumnezeu dă putere profeţilor Săi asupra cui voieşte. Dumnezeu asupra tuturor are putere!';
+$t[7] = 'Ceea ce Dumnezeu a dăruit trimisului Său ca pradă de la locuitorii cetăţilor, este a lui Dumnezeu şi a trimisului Său, a rudelor sale, a orfanilor, a sărmanilor şi a drumeţului, &icirc;nsă nu şi celor dintre voi ce sunt bogaţi. Ceea ce vă dă trimisul, luaţi! Ceea ce vă opreşte, lăsaţi! Temeţi-vă de Dumnezeu! Dumnezeu este Aprig la pedeapsă!';
+$t[8] = 'Prada este pentru sărmanii pribegiţi care din casele lor au fost prigoniţi şi de averile lor lipsiţi &icirc;n vreme ce căutau harul şi mulţumirea lui Dumnezeu şi erau de ajutor lui Dumnezeu şi trimisului Său. Aceştia spun adevărul!';
+$t[9] = 'Cei care au venit, &icirc;naintea lor, &icirc;n această casă şi credinţă, &icirc;l iubesc pe cel care vine &icirc;n pribegie la ei. Ei nu vor avea &icirc;n suflet nici o pizmă pentru ceea ce li s-a dat pribegilor, căci ei &icirc;i aşează &icirc;naintea lor &icirc;nşişi, chiar dacă şi ei sunt &icirc;n sărăcie. Cei care se păzesc de zg&acirc;rcenia sufletelor lor sunt fericiţi.';
+$t[10] = 'Prada este a celor care au venit după ei spun&acirc;nd: &ldquo;Domnul nostru! Iartă-ne nouă şi fraţilor noştri care au intrat &icirc;naintea noastră &icirc;n credinţă. Nu ne pune &icirc;n inimi pizmă faţă de cei care cred! Domnul nostru! Tu eşti Bl&acirc;nd, Milostiv!&rdquo;';
+$t[11] = '&Icirc;i vezi pe cei care umblă cu făţărnicii? Ei spun fraţilor lor dintre oamenii Cărţii care tăgăduiesc: &ldquo;Dacă veţi fi prigoniţi, vom pleca cu voi. Nu vom da ascultare nimănui cu privire la voi! Dacă sunteţi atacaţi, vă vom veni &icirc;n ajutor.&rdquo; Dumnezeu este Martor că ei mint.';
+$t[12] = 'Dacă Oamenii Cărţii sunt prigoniţi, făţarnicii nu vor pleca cu ei. Dacă sunt atacaţi, ei nu le vor veni &icirc;n ajutor şi chiar dacă le-ar veni &icirc;n ajutor, vor &icirc;ntoarce spatele at&acirc;t de repede &icirc;nc&acirc;t nu vor mai putea fi nici ei ajutaţi.';
+$t[13] = 'Voi semănaţi &icirc;n inimile lor mai multă groază dec&acirc;t Dumnezeu &icirc;nsuşi, fiindcă sunt oameni care nu pricep.';
+$t[14] = 'Toţi se războiesc cu voi numai din cetăţi fortificate ori din spatele zidurilor. Vitejia lor este mare c&acirc;nd sunt &icirc;ntre ei! Voi socotiţi că sunt uniţi, &icirc;nsă inimile lor sunt dezbinate, fiindcă sunt oameni fără minte.';
+$t[15] = 'Ei sunt asemenea celor care cu puţin &icirc;naintea lor au gustat urmările faptelor lor. Ei vor avea o dureroasă os&acirc;ndă.';
+$t[16] = 'Ei sunt asemenea Satanei c&acirc;nd i-a spus omului: &ldquo;Fii tăgăduitor!&rdquo; C&acirc;nd acesta este &icirc;nsă tăgăduitor, &icirc;i spune: &ldquo;Mă lepăd de tine! Da, eu mă tem de Domnul lumilor.&rdquo;';
+$t[17] = 'Sf&acirc;rşitul am&acirc;ndurora va fi Focul, unde vor veşnici. Aceasta este răsplata celor nedrepţi!';
+$t[18] = 'O, voi cei ce credeţi! Temeţi-vă de Dumnezeu! Fiecare să cumpănească ceea ce şi-a pregătit pentru ziua de m&acirc;ine.';
+$t[19] = 'Nu fiţi ca cei care &Icirc;l uită pe Dumnezeu, căci Dumnezeu &icirc;i face să uite de ei &icirc;nşişi. Aceştia sunt cei desfr&acirc;naţi.';
+$t[20] = 'Soţii Focului şi soţii Raiului nu sunt deopotrivă, căci soţii Raiului sunt cei fericiţi!';
+$t[21] = 'Dacă am fi pogor&acirc;t acest Coran asupra unui munte, l-ai fi văzut smerindu-se şi despic&acirc;ndu-se de frica lui Dumnezeu. Acestea sunt pildele pe care le arătăm oamenilor. Poate vor chibzui!';
+$t[22] = 'El este Dumnezeu! Nu este dumnezeu afară de El. El este Cel ce cunoaşte tăinuitul şi mărturisitul. El este Milosul, Milostivul!';
+$t[23] = 'El este Dumnezeu! Nu este dumnezeu afară de El! El este Regele, Sf&acirc;ntul, Pacea, Credinciosul, Oblăduitorul, Puternicul, Tarele, Preamăritul. Mărire lui Dumnezeu asupra celor pe care ei I-i alătură!';
+$t[24] = 'El este Dumnezeu, Creatorul, Alcătuitorul, Plăsmuitorul. Ale Lui sunt cele mai frumoase nume. Cele din ceruri şi de pe păm&acirc;nt &Icirc;l preamăresc pe El. El este Puternicul, &Icirc;nţeleptul.';
+?>

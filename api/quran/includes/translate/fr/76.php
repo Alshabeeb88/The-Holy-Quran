@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'S\'est-il &eacute;coul&eacute; pour l\'homme un laps de temps durant lequel il n\'&eacute;tait m&ecirc;me pas une chose mentionnable ?';
+$t[2] = 'En effet, Nous avons cr&eacute;&eacute; l\'homme d\'une goutte de sperme m&eacute;lang&eacute; [aux composantes diverses] pour le mettre &agrave; l\'&eacute;preuve. [C\'est pourquoi] Nous l\'avons fait entendant et voyant.';
+$t[3] = 'Nous l\'avons guid&eacute; dans le chemin, - qu\'il soit reconnaissant ou ingrat -';
+$t[4] = 'Nous avons pr&eacute;par&eacute; pour les infid&egrave;les des cha&icirc;nes, des carcans et une fournaise ardente.';
+$t[5] = 'Les vertueux boiront d\'une coupe dont le m&eacute;lange sera de camphre,';
+$t[6] = 'd\'une source de laquelle boiront les serviteurs d\'Allah et ils la feront jaillir en abondance. .';
+$t[7] = 'Ils accomplissent leurs voeux et ils redoutent un jour dont le mal s\'&eacute;tendra partout.';
+$t[8] = 'et offrent la nourriture, malgr&eacute; son amour , au pauvre, &agrave; l\'orphelin et au prisonnier,';
+$t[9] = '(disant) : &quot;C\'est pour le visage d\'Allah que nous vous nourrissons : nous ne voulons de vous ni r&eacute;compense ni gratitude.';
+$t[10] = 'Nous redoutons, de notre Seigneur, un jour terrible et catastrophique&quot;.';
+$t[11] = 'Allah les prot&eacute;gera donc du mal de ce jour-l&agrave;, et leur fera rencontrer la splendeur et la joie,';
+$t[12] = 'et les r&eacute;tribuera pour ce qu\'ils auront endur&eacute;, en leur donnant le Paradis et des [v&ecirc;tements] de soie,';
+$t[13] = 'ils y seront accoud&eacute;s sur des divans, n\'y voyant ni soleil ni froid glacial .';
+$t[14] = 'Ses ombrages les couvriront de pr&egrave;s, et ses fruits inclin&eacute;s bien bas [&agrave; port&eacute;e de leurs mains].';
+$t[15] = 'Et l\'on fera circuler parmi eux des r&eacute;cipients d\'argent et des coupes cristallines,';
+$t[16] = 'en cristal d\'argent, dont le contenu a &eacute;t&eacute; savamment dos&eacute;.';
+$t[17] = 'Et l&agrave;, ils seront abreuv&eacute;s d\'une coupe dont le m&eacute;lange sera de gingembre,';
+$t[18] = 'puis&eacute; l&agrave;-dedans &agrave; une source qui s\'appelle Salsabil.';
+$t[19] = 'Et parmi eux, circuleront des gar&ccedil;ons &eacute;ternellement jeunes. Quand tu les verras, tu les prendras pour des perles &eacute;parpill&eacute;es.';
+$t[20] = 'Et quand tu regarderas l&agrave;-bas, tu verras un d&eacute;lice et un vaste royaume.';
+$t[21] = 'Ils porteront des v&ecirc;tements verts de satin et de brocart. Et ils seront par&eacute;s de bracelets d\'argent. Et leur Seigneur les abreuvera d\'une boisson tr&egrave;s pure.';
+$t[22] = 'Cela sera pour vous une r&eacute;compense, et votre effort sera reconnu.';
+$t[23] = 'En v&eacute;rit&eacute; c\'est Nous qui avons fait descendre sur toi le Coran graduellement.';
+$t[24] = 'Endure donc ce que ton Seigneur a d&eacute;cr&eacute;t&eacute;, et n\'ob&eacute;is ni au p&eacute;cheur, parmi eux, ni au grand m&eacute;cr&eacute;ant.';
+$t[25] = 'Et invoque le nom de ton Seigneur, matin et apr&egrave;s-midi;';
+$t[26] = 'et prosterne-toi devant Lui une partie de la nuit; et glorifie Le de longues [heures] pendant la nuit.';
+$t[27] = 'Ces gens-l&agrave; aiment [la vie] &eacute;ph&eacute;m&egrave;re (la vie sur terre) et laissent derri&egrave;re eux un jour bien lourd [le jour du Jugement].';
+$t[28] = 'C\'est Nous qui les avons cr&eacute;&eacute;s et avons fortifi&eacute; leur constitution. Quand Nous voulons, cependant, Nous les rempla&ccedil;ons [facilement] par leurs semblables.';
+$t[29] = 'Ceci est un rappel. Que celui qui veut prenne donc le chemin vers son Seigneur !';
+$t[30] = 'Cependant, vous ne saurez vouloir, &agrave; moins qu\'Allah veuille. Et Allah est Omniscient et Sage.';
+$t[31] = 'Il fait entrer qui Il veut dans Sa mis&eacute;ricorde. Et quant aux injustes, Il leur a pr&eacute;par&eacute; un ch&acirc;timent douloureux.';
+?>

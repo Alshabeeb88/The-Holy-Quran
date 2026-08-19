@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Hakika kilimpitia binaadamu kipindi katika zama ambacho kwamba hakuwa kitu kinacho tajwa.';
+$t[2] = 'Hakika Sisi tumemuumba mtu kutokana na mbegu ya uhai iliyo changanyika, tumfanyie mtihani. Kwa hivyo tukamfanya mwenye kusikia, mwenye kuona.';
+$t[3] = 'Hakika Sisi tumembainishia Njia. Ama ni mwenye kushukuru, au mwenye kukufuru.';
+$t[4] = 'Hakika Sisi tumewaandalia makafiri minyororo na pingu na Moto mkali.';
+$t[5] = 'Hakika watu wema watakunywa katika vinywaji vilivyo changanyika na kafuri,';
+$t[6] = 'Ni chemchem watakao inywa waja wa Mwenyezi Mungu, wakiifanya imiminike kwa wingi.';
+$t[7] = 'Wanatimiza ahadi, na wanaiogopa siku ambayo shari yake inaenea sana,';
+$t[8] = 'Na huwalisha chakula, juu ya kukipenda kwake, masikini, na yatima, na wafungwa.';
+$t[9] = 'Hakika sisi tunakulisheni kwa wajihi wa Mwenyezi Mungu. Hatutaki kwenu malipo wala shukrani.';
+$t[10] = 'Hakika sisi tunaiogopa kwa Mola wetu Mlezi hiyo siku yenye shida na taabu.';
+$t[11] = 'Basi Mwenyezi Mungu atawalinda na shari ya siku hiyo, na atawakutanisha na raha na furaha.';
+$t[12] = 'Na atawajazi Bustani za Peponi na maguo ya hariri kwa vile walivyo subiri.';
+$t[13] = 'Humo wataegemea juu ya viti vya enzi, hawataona humo jua kali wala baridi kali.';
+$t[14] = 'Na vivuli vyake vitakuwa karibu yao, na mashada ya matunda yataning\'inia mpaka chini.';
+$t[15] = 'Na watapitishiwa vyombo vya fedha na vikombe vya vigae,';
+$t[16] = 'Vya fedha safi kama kiyoo, wamevipima kwa vipimo.';
+$t[17] = 'Na humo watanyweshwa kinywaji kilicho changanyika na tangawizi.';
+$t[18] = 'Hiyo ni chemchem iliyo humo inaitwa Salsabil.';
+$t[19] = 'Na watawazungukia kuwatumikia wavulana wasio pevuka, ukiwaona utawafikiri ni lulu zilizo tawanywa.';
+$t[20] = 'Na utakapo yaona, utakuwa umeona neema na ufalme mkubwa.';
+$t[21] = 'Juu yao zipo nguo za hariri laini za kijani kibichi, na hariri nzito ya at\'ilasi. Na watavikwa vikuku vya fedha, na Mola wao Mlezi atawanywesha kinywaji safi kabisa.';
+$t[22] = 'Hakika haya ni malipo yenu; na juhudi zenu zimekubaliwa.';
+$t[23] = 'Hakika Sisi tumekuteremshia Qur\'ani kidogo kidogo.';
+$t[24] = 'Basi ngojea hukumu ya Mola wako Mlezi wala usimt\'ii miongoni mwao mwenye dhambi au mwenye kufuru.';
+$t[25] = 'Na likumbuke jina la Mola wako Mlezi asubuhi na jioni;';
+$t[26] = 'Na usiku msujudie Yeye, na umtakase usiku, wakati mrefu.';
+$t[27] = 'Kwa hakika watu hawa wanapenda maisha ya kidunia, na wanaiacha nyuma yao siku nzito.';
+$t[28] = 'Sisi tumewaumba, na tukavitia nguvu viungo vyao. Na tukitaka tutawabadilisha mfano wao wawe badala yao.';
+$t[29] = 'Hakika haya ni mawaidha; basi anaye taka atashika Njia ya kwenda kwa Mola wake Mlezi.';
+$t[30] = 'Wala hamwezi kutaka ila atakapo Mwenyezi Mungu. Hakika Mwenyezi Mungu ni Mwenye ilimu, Mwenye hikima.';
+$t[31] = 'Humuingiza amtakaye katika rehema yake. Na wenye kudhulumu amewawekea adhabu iliyo chungu.';
+?>

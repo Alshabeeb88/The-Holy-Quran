@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Allaha hvali sve &scaron;to je na nebesima i na Zemlji, i On je Silni i Mudri.';
+$t[2] = 'Njegova je vlast na nebesima i na Zemlji; On život i smrt daje, i On sve može.';
+$t[3] = 'On je Prvi i Posljednji, i Vidljivi i Nevidljivi; i On zna sve!';
+$t[4] = 'U &scaron;est vremenskih razdoblja On je nebesa i Zemlju stvorio, i onda svemirom zavladao; On zna &scaron;ta u zemlju ulazi i &scaron;ta iz nje izlazi i &scaron;ta s neba silazi i &scaron;ta se prema njemu diže, On je s vama gdje god bili, i sve &scaron;to radite Allah vidi.';
+$t[5] = 'Njegova je vlast na nebesima i na Zemlji, i Allahu će se sve vratiti!';
+$t[6] = 'On uvodi noć u dan i dan u noć, i On zna svačije misli.';
+$t[7] = 'Vjerujte u Allaha i Poslanika Njegova i udjeljujte iz onoga &scaron;to vam On stavlja na raspolaganje, jer one od vas koji budu vjerovali i udjeljivali čeka nagrada velika.';
+$t[8] = '&Scaron;ta vam je pa ne vjerujete u Allaha? Poslanik vas zove da vjerujete u Gospodara svoga &ndash; a On je od vas već zavjet uzeo &ndash; ako želite biti vjernici.';
+$t[9] = 'On robu Svome objavljuje jasne ajete da bi vas iz tmina na svjetlo izveo &ndash; a Allah je, uistinu, prema vama dobar i milostiv.';
+$t[10] = 'I &scaron;ta vam je pa odbijate da tro&scaron;ite na Allahovu putu kada će Allah nebesa i Zemlju naslijediti? Nisu jednaki među vama oni koji su davali priloge prije pobjede i lično se borili &ndash; oni su na vi&scaron;em stupnju od onih koji su poslije davali priloge i lično se borili, a Allah svima obećava nagradu najljep&scaron;u; &ndash; Allah dobro zna ono &scaron;to radite.';
+$t[11] = 'Ko će Allahu drage volje zajam dati da bi mu ga On mnogostruko vratio, a uz to i nagradu plemenitu dobio';
+$t[12] = 'na Dan kada bude&scaron; vidio kako se pred vjernicima i vjernicama, i s desne strane njihove, svjetlo njihovo bude kretalo: &quot;Blago vama danas: džennetske ba&scaron;če kroz koje teku rijeke u kojima ćete vječno boraviti &ndash; to je veliki uspjeh!&quot;';
+$t[13] = 'na Dan kada će licemjeri i licemjerke vjernicima govoriti: &quot;Pričekajte nas da se svjetlom va&scaron;im poslužimo!&quot; &quot;Vratite se natrag, pa drugo svjetlo potražite!&quot; &ndash; reći će se. I između njih će se pregrada postaviti koja će vrata imati; unutar nje biće milost, a izvan nje patnja.';
+$t[14] = '&quot;Zar nismo s vama bili?&quot; &ndash; dozivaće ih. &quot;Jeste&quot; &ndash; odgovaraće &ndash; &quot;ali ste se pritvorno&scaron;ću upropastili, i i&scaron;čekivali ste, i sumnjali ste, i puste želje su vas zavaravale, dok nije do&scaron;la Allahova odredba, a &scaron;ejtan vas je o Allahu obmanuo.';
+$t[15] = 'Nikakva otkupnina se danas od vas neće primiti, a ni od onih koji nisu vjerovali; vatra će biti prebivali&scaron;te va&scaron;e, ona ba&scaron; vama odgovara, a užasno je ona boravi&scaron;te!&quot;';
+$t[16] = 'Zar nije vrijeme da se vjernicima srca smek&scaron;aju kad se Allah i Istina koja se objavljuje spomene, i da oni ne budu kao onī kojima je jo&scaron; davno data Knjiga, pa su srca njihova, zato &scaron;to je proteklo mnogo vremena, postala nemilosrdna, i mnogi od njih su nevjernici.';
+$t[17] = 'Znajte da Allah daje život već mrtvoj zemlji! Mi vam obja&scaron;njavamo dokaze da biste razumjeli.';
+$t[18] = 'Onima koji milostinju budu udjeljivali i onima koje je budu udjeljivale, i koji drage volje Allahu budu zajam davali &ndash; mnogostruko će se vratiti i njih čeka nagrada plemenita.';
+$t[19] = 'Oni koji u Allaha i poslanike Njegove budu vjerovali imaće u Gospodara svoga stepen pravednika i mučenika i dobiće nagradu kao i oni i svjetlo kao i oni; a oni koji ne budu vjerovali i dokaze Na&scaron;e budu poricali biće stanovnici u vatri.';
+$t[20] = 'Znajte da život na ovome svijetu nije ni&scaron;ta drugo do igra, i razonoda, i uljep&scaron;avanje, i međusobno hvalisanje i nadmetanje imecima i brojem djece! Primjer za to je bilje čiji rast poslije ki&scaron;e odu&scaron;evljava nevjernike, ono zatim buja, ali ga poslije vidi&scaron; požutjela, da bi se na kraju skr&scaron;ilo. A na onome svijetu je te&scaron;ka patnja i Allahov oprost i zadovoljstvo; život na ovome svijetu je samo varljivo naslađivanje.';
+$t[21] = 'Nadmećite se da u Gospodara svoga zaslužite oprost i Džennet, prostran koliko su nebo i Zemlja prostrani, i pripremljen za one koji u Allaha i poslanike Njegove vjeruju. To je Allahova blagodat koju će dati onome kome On hoće; a u Allaha je blagodat velika.';
+$t[22] = 'Nema nevolje koja zadesi Zemlju i vas, a koja nije, prije nego &scaron;to je damo, zapisana u Knjizi &ndash; to je Allahu, uistinu, lahko &ndash;';
+$t[23] = 'da ne biste tugovali za onim &scaron;to vam je promaklo, a i da se ne biste previ&scaron;e radovali onome &scaron;to vam On dade. Allah ne voli nikakve razmetljivce, hvalisavce,';
+$t[24] = 'koji &scaron;krtare i od ljudi &scaron;krtost traže. A onaj ko neće da udjeljuje &ndash; pa, Allah je, uistinu, nezavisan i dostojan hvale.';
+$t[25] = 'Mi smo izaslanike Na&scaron;e s jasnim dokazima slali i po njima knjige i terazije objavljivali, da bi ljudi pravedno postupali &ndash; a gvožđe smo stvorili, u kome je velika snaga i koje ljudima koristi &ndash; i da bi Allah ukazao na one koji pomažu vjeru Njegovu i poslanike Njegove kad Ga ne vide. Allah je, uistinu, moćan i silan.';
+$t[26] = 'Mi smo Nuha i Ibrahima poslali i nekima od potomaka njihovih vjerovjesni&scaron;tvo i objavu dali; neki od potomaka njihovih su na Pravome putu, a mnogi od njih su nevjernici.';
+$t[27] = 'Zatim smo, poslije njih, jednog za drugim Na&scaron;e poslanike slali, dok nismo Isaa, sina Merjemina, poslali, kojem smo Indžil dali, a u srca sljedbenika njegovih smo blagost i samilost ulili, dok su mona&scaron;tvo oni sami, kao novotariju, uveli &ndash; Mi im ga nismo propisali &ndash; u želji da steknu Allahovo zadovoljstvo; ali, oni o njemu ne vode brigu onako kako bi trebalo, pa ćemo one među njima koji budu ispravno vjerovali nagraditi, a mnogi od njih su nevjernici.';
+$t[28] = 'O vi koji vjerujete, Allaha se bojte i u Poslanika Njegova vjerujte, On će vam dvostruku milost Svoju darovati, i daće vam svjetlo pomoću kog ćete ići, i oprostiće vam &ndash; jer Allah pra&scaron;ta, i samilostan je &ndash;';
+$t[29] = 'i neka sljedbenici Knjige znaju da oni nikakvu Allahovu blagodat neće dobiti, jer je blagodat samo u Allahovoj Ruci &ndash; daje je onome kome On hoće; a u Allaha je blagodat najveća.';
+?>

@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Say: It has been revealed to me that a company of Jinns listened (to the Qur\'an). They said, \'We have really heard a wonderful Recital!';
+$t[2] = '\'It gives guidance to the Right, and we have believed therein: we shall not join (in worship) any (gods) with our Lord.';
+$t[3] = '\'And Exalted is the Majesty of our Lord: He has taken neither a wife nor a son.';
+$t[4] = '\'There were some foolish ones among us, who used to utter extravagant lies against Allah;';
+$t[5] = '\'But we do think that no man or spirit should say aught that untrue against Allah.';
+$t[6] = '\'True, there were persons among mankind who took shelter with persons among the Jinns, but they increased them in folly.';
+$t[7] = '\'And they (came to) think as ye thought, that Allah would not raise up any one (to Judgment).';
+$t[8] = '\'And we pried into the secrets of heaven; but we found it filled with stern guards and flaming fires.';
+$t[9] = '\'We used, indeed, to sit there in (hidden) stations, to (steal) a hearing; but any who listen now will find a flaming fire watching him in ambush.';
+$t[10] = '\'And we understand not whether ill is intended to those on earth, or whether their Lord (really) intends to guide them to right conduct.';
+$t[11] = '\'There are among us some that are righteous, and some the contrary: we follow divergent paths.';
+$t[12] = '\'But we think that we can by no means frustrate Allah throughout the earth, nor can we frustrate Him by flight.';
+$t[13] = '\'And as for us, since we have listened to the Guidance, we have accepted it: and any who believes in his Lord has no fear, either of a short (account) or of any injustice.';
+$t[14] = '\'Amongst us are some that submit their wills (to Allah), and some that swerve from justice. Now those who submit their wills - they have sought out (the path) of right conduct:';
+$t[15] = '\'But those who swerve,- they are (but) fuel for Hell-fire\'-';
+$t[16] = '(And Allah\'s Message is): &quot;If they (the Pagans) had (only) remained on the (right) Way, We should certainly have bestowed on them Rain in abundance.';
+$t[17] = '&quot;That We might try them by that (means). But if any turns away from the remembrance of his Lord, He will cause him to undergo a severe Penalty.';
+$t[18] = '&quot;And the places of worship are for Allah (alone): So invoke not any one along with Allah;';
+$t[19] = '&quot;Yet when the Devotee of Allah stands forth to invoke Him, they just make round him a dense crowd.&quot;';
+$t[20] = 'Say: &quot;I do no more than invoke my Lord, and I join not with Him any (false god).&quot;';
+$t[21] = 'Say: &quot;It is not in my power to cause you harm, or to bring you to right conduct.&quot;';
+$t[22] = 'Say: &quot;No one can deliver me from Allah (If I were to disobey Him), nor should I find refuge except in Him,';
+$t[23] = '&quot;Unless I proclaim what I receive from Allah and His Messages: for any that disobey Allah and His Messenger,- for them is Hell: they shall dwell therein for ever.&quot;';
+$t[24] = 'At length, when they see (with their own eyes) that which they are promised,- then will they know who it is that is weakest in (his) helper and least important in point of numbers.';
+$t[25] = 'Say: &quot;I know not whether the (Punishment) which ye are promised is near, or whether my Lord will appoint for it a distant term.';
+$t[26] = '&quot;He (alone) knows the Unseen, nor does He make any one acquainted with His Mysteries,-';
+$t[27] = '&quot;Except a messenger whom He has chosen: and then He makes a band of watchers march before him and behind him,';
+$t[28] = '&quot;That He may know that they have (truly) brought and delivered the Messages of their Lord: and He surrounds (all the mysteries) that are with them, and takes account of every single thing.&quot;';
+?>

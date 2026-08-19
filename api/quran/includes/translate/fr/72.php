@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Dis : &quot;Il m\'a &eacute;t&eacute; r&eacute;v&eacute;l&eacute; qu\'un groupe de djinns pr&ecirc;t&egrave;rent l\'oreille, puis dirent : &quot;Nous avons certes entendu une Lecture [le Coran] merveilleuse,';
+$t[2] = 'qui guide vers la droiture. Nous y avons cru, et nous n\'associerons jamais personne &agrave; notre Seigneur.';
+$t[3] = 'En v&eacute;rit&eacute; notre Seigneur - que Sa grandeur soit exalt&eacute;e - ne S\'est donn&eacute; ni compagne, ni enfant !';
+$t[4] = 'Notre insens&eacute; [Iblis] disait des extravagances contre Allah.';
+$t[5] = 'Et nous pensions que ni les humains ni les djinns ne sauraient jamais prof&eacute;rer de mensonge contre Allah.';
+$t[6] = 'Or, il y avait parmi les humains, des m&acirc;les qui cherchaient protection aupr&egrave;s des m&acirc;les paris les djinns mais cela ne f&icirc;t qu\'accro&icirc;tre leur d&eacute;tresse.';
+$t[7] = 'Et ils avaient pens&eacute; comme vous avez pens&eacute; qu\'Allah ne ressusciterait jamais personne.';
+$t[8] = 'Nous avions fr&ocirc;l&eacute; le ciel et Nous l\'avions trouv&eacute; plein d\'une forte garde et de bolides.';
+$t[9] = 'Nous y prenions place pour &eacute;couter. Mais quiconque pr&ecirc;te l\'oreille maintenant, trouve contre lui un bolide aux aguets.';
+$t[10] = 'Nous ne savons pas si on veut du mal aux habitants de la terre ou si leur Seigneur veut les mettre sur le droit chemin.';
+$t[11] = 'Il y a parmi nous des vertueux et [d\'autre] qui le sont moins : nous &eacute;tions divis&eacute;s en diff&eacute;rentes sectes.';
+$t[12] = 'Nous pensions bien que nous ne saurions jamais r&eacute;duire Allah &agrave; l\'impuissance sur la terre et que nous ne saurions jamais le r&eacute;duire &agrave; l\'impuissance en nous enfuyant.';
+$t[13] = 'Et lorsque nous avons entendu le guide [le Coran], nous y avons cru, et quiconque croit en son Seigneur ne craint alors ni diminution de r&eacute;compense ni oppression.';
+$t[14] = 'Il y a parmi nous les Musulmans, et il y en a les injustes [qui ont d&eacute;vi&eacute;]. Et ceux qui se sont convertis &agrave; l\'Islam sont ceux qui ont cherch&eacute; la droiture.';
+$t[15] = 'Et quant aux injustes, ils formeront le combustible de l\'Enfer.';
+$t[16] = 'Et s\'ils se maintenaient dans la bonne direction, Nous les aurions abreuv&eacute;s, certes d\'une eau abondante,';
+$t[17] = 'afin de les y &eacute;prouver. Et quiconque se d&eacute;tourne du rappel de son Seigneur, Il l\'achemine vers un ch&acirc;timent sans cesse croissant.';
+$t[18] = 'Les mosqu&eacute;es sont consacr&eacute;es &agrave; Allah : n\'invoquez donc personne avec Allah.';
+$t[19] = 'Et quand le serviteur d\'Allah s\'est mis debout pour L\'invoquer, ils faillirent se ruer en masse sur lui. .';
+$t[20] = 'Dis : &quot;Je n\'invoque que mon Seigneur et ne Lui associe personne&quot;.';
+$t[21] = 'Dis : &quot;Je ne poss&egrave;de aucun moyen pour vous faire du mal, ni pour vous mettre sur le chemin droit&quot;.';
+$t[22] = 'Dis : &quot;Vraiment, personne ne saura me prot&eacute;ger contre Allah; et jamais je ne trouverai de refuge en dehors de Lui.';
+$t[23] = '[Je ne puis que transmettre] une communication et des messages [&eacute;manant] d\'Allah. Et quiconque d&eacute;sob&eacute;it &agrave; Allah et &agrave; son Messager aura le feu de l\'Enfer pour y demeurer &eacute;ternellement.';
+$t[24] = 'Puis, quand ils verront ce dont on les mena&ccedil;ait, ils sauront lesquels ont les secours les plus faibles et [lesquels] sont les moins nombreux.';
+$t[25] = 'Dis : &quot;Je ne sais pas si ce dont vous &ecirc;tes menac&eacute;s est proche, ou bien, si mon Seigneur va lui assigner un d&eacute;lai.';
+$t[26] = '[C\'est Lui] qui conna&icirc;t le myst&egrave;re. Il ne d&eacute;voile Son myst&egrave;re &agrave; personne,';
+$t[27] = 'sauf &agrave; celui qu\'Il agr&eacute;e comme Messager et qu\'Il fait pr&eacute;c&eacute;der et suivre de gardiens vigilants,';
+$t[28] = 'afin qu\'Il sache s\'ils ont bien transmis les messages de leur Seigneur. Il cerne (de Son savoir) ce qui est avec eux, et d&eacute;nombre exactement toute chose&quot;.';
+?>

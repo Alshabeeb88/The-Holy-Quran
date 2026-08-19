@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Rci: &quot;Bylo mi vnuknuto, že skupina džinů naslouchala a řekla:, Naslouchali jsme Kor&aacute;nu podivuhodn&eacute;mu,';
+$t[2] = 'k př&iacute;m&eacute; cestě vedouc&iacute;mu, takže jsme v něj uvěřili a již nikoho nebudeme přidružovat k P&aacute;nu, sv&eacute;mu.';
+$t[3] = 'A věru On - povznesena nechť je důstojnost P&aacute;na na&scaron;eho - si nevzal družku ani syna ž&aacute;dn&eacute;ho.';
+$t[4] = 'Av&scaron;ak hlup&aacute;k jeden z n&aacute;s o Bohu vedl řeči m&iacute;ru přesahuj&iacute;c&iacute;,';
+$t[5] = 'ačkoliv jsme se dosud domn&iacute;vali, že ani lid&eacute;, ani džinov&eacute; o Bohu nebudou v&eacute;st řeči lživ&eacute;!';
+$t[6] = 'Mužov&eacute; někteř&iacute; pak z lid&iacute; u mužů z džinů &uacute;toči&scaron;tě vyhledali, ti v&scaron;ak jen po&scaron;etilost jejich rozmnožili';
+$t[7] = 'a lid&eacute; se - podobně jako vy - že Bůh nikoho nevzkř&iacute;s&iacute;, domn&iacute;vali.';
+$t[8] = 'A prohledali jsme nebe, av&scaron;ak nalezli jsme je pln&eacute; str&aacute;ž&iacute; siln&yacute;ch a plamenů &scaron;lehaj&iacute;c&iacute;ch.';
+$t[9] = 'A sed&aacute;vali jsme dř&iacute;ve u něho na m&iacute;stech vhodn&yacute;ch k naslouch&aacute;n&iacute;, v&scaron;ak kdokoliv z n&aacute;s chce naslouchat nyn&iacute;, ten shled&aacute;, že naň č&iacute;h&aacute; plamen &scaron;lehaj&iacute;c&iacute;.';
+$t[10] = 'A my věru nev&iacute;me, zda zlo je zam&yacute;&scaron;leno pro ty, kdož na zemi dl&iacute;, či zda P&aacute;n jejich si pro ně přeje spr&aacute;vn&eacute;ho veden&iacute;.';
+$t[11] = 'Mezi n&aacute;mi jsou věru bez&uacute;honn&iacute; a jsou mezi n&aacute;mi zajist&eacute; i jin&iacute; než takov&iacute;, my na sekty jsme rozděleni.';
+$t[12] = 'Domn&iacute;v&aacute;me se, že nikdy se n&aacute;m nepodař&iacute; uniknout z&aacute;sahu Bož&iacute;mu na zemi, ba ani pomoc&iacute; &uacute;těku.';
+$t[13] = 'A když sly&scaron;eli jsme o spr&aacute;vn&eacute;m veden&iacute;, uvěřili jsme v ně; a ten, kdo v P&aacute;na sv&eacute;ho věř&iacute;, ať neboj&iacute; se ani po&scaron;kozen&iacute;, ani &uacute;tlaku.';
+$t[14] = 'A jsou mezi n&aacute;mi ti, kdož do vůle Bož&iacute; se odevzdali, a jin&iacute;, kteř&iacute; nespravedliv&iacute; jsou. A ten, kdo do vůle Bož&iacute; se odevzdal, ten ub&iacute;r&aacute; se cestou spr&aacute;vnou.';
+$t[15] = 'Co nespravedliv&yacute;ch se t&yacute;k&aacute;, ti peklu palivem budou.? &quot;';
+$t[16] = 'A půjdou-li touto cestou, My věru je napoj&iacute;me vodou hojnou,';
+$t[17] = 'abychom je zkou&scaron;eli. Kdokoliv v&scaron;ak se odvr&aacute;t&iacute; od připomenut&iacute; P&aacute;na sv&eacute;ho, toho On uvede do trestu těžk&eacute;ho.';
+$t[18] = 'A modlitebny patř&iacute; Bohu; nevz&yacute;vejte v nich tedy spolu s Bohem nikoho!';
+$t[19] = 'A když povstal služebn&iacute;k Bož&iacute;, vz&yacute;vaje Jej, tu div se proti němu nezvedli v hust&eacute;m z&aacute;stupu.';
+$t[20] = 'Rci: &quot;J&aacute; modl&iacute;m se pouze k P&aacute;nu sv&eacute;mu a nikoho nepřidružuji k Němu.&quot;';
+$t[21] = 'Rci: &quot;Nevl&aacute;dnu moc&iacute; způsobit v&aacute;m &scaron;kodu, či abyste spr&aacute;vně byli vedeni.';
+$t[22] = 'Rci: &quot;Neochr&aacute;n&iacute; mě před Bohem nikdo a nenaleznu &uacute;toči&scaron;tě ž&aacute;dn&eacute; kromě Něho,';
+$t[23] = 'kromě sdělen&iacute; od Boha a Jeho poselstv&iacute;. Těm, kdo neposlouchaj&iacute; Boha a Jeho posla, těm určen je oheň pekeln&yacute; a budou v něm navěky nesmrteln&iacute;.';
+$t[24] = 'A až spatř&iacute; to, co jim bylo sl&iacute;beno, poznaj&iacute;, kdo pomocn&iacute;ky m&aacute; nejslab&scaron;&iacute; a kdo počtem je nejmen&scaron;&iacute;.&quot;';
+$t[25] = 'Rci: &quot;Nev&iacute;m, zda je bl&iacute;zko to, co v&aacute;m bylo sl&iacute;beno, či zda P&aacute;n můj d&aacute; odklad tomu dal&scaron;&iacute;;';
+$t[26] = 'On jedin&yacute; zn&aacute; nepoznateln&eacute; a nikoho do sv&yacute;ch tajemstv&iacute; nezasvěcuje';
+$t[27] = 'kromě těch, jež obl&iacute;bil si ze Sv&yacute;ch poslů; a před n&iacute;m i za n&iacute;m dozorce kr&aacute;č&iacute;,';
+$t[28] = 'aby zjistil, zda poselstv&iacute; P&aacute;na sv&eacute;ho hl&aacute;s&aacute;. A On Sv&yacute;m věděn&iacute;m v&scaron;e, co konaj&iacute;, obj&iacute;m&aacute; a On každou věc přesn&yacute;m počtem poč&iacute;t&aacute;.';
+?>

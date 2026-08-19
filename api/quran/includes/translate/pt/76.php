@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Acaso, n&atilde;o transcorreu um longo per&iacute;odo, desde que o homem nada era?';
+$t[2] = 'Em verdade, criamos o homem, de esperma misturado, para prov&aacute;-lo, e o dotamos de ouvidos e vistas.';
+$t[3] = 'Em verdade, assinalamos-lhe uma senda, quer fosse agradecido, quer fosse ingrato.';
+$t[4] = 'Em verdade, aos incr&eacute;dulos, destinamos correntes, grilh&otilde;es e o t&aacute;rtaro.';
+$t[5] = 'Em verdade, os justos beber&atilde;o, em uma ta&ccedil;a, um n&eacute;ctar, mesclado com c&acirc;nfora.';
+$t[6] = 'De uma fonte, da qual beber&atilde;o todos os servos de Deus. Eles a fazem fluir abundantemente,';
+$t[7] = 'Porque cumprem os seus votos e temem o dia em que o mal estar&aacute; espalhado,';
+$t[8] = 'E porque, por amor a Ele, alimentam o necessitado, o &oacute;rf&atilde;o e o cativo.';
+$t[9] = '(Dizendo): Certamente vos alimentamos por amor a Deus; n&atilde;o vos exigimos recompensa, nem gratid&atilde;o.';
+$t[10] = 'Em verdade, tememos, da parte do nosso Senhor, o dia da afli&ccedil;&atilde;o calamitosa.';
+$t[11] = 'Mas Deus os preservar&aacute; do mal daquele dia, e os receber&aacute; com esplendor e j&uacute;bilo;';
+$t[12] = 'E os recompensar&aacute;, por sua perseveran&ccedil;a, com um vergel e (vestimentas de) seda,';
+$t[13] = 'Onde, reclinados sobre almofadas, n&atilde;o sentir&atilde;o calor nem frio excessivos,';
+$t[14] = 'E as sombras (do vergel) os cobrir&atilde;o, e os cachos (de frutos) estar&atilde;o pendurados, em humildade.';
+$t[15] = 'E ser&atilde;o servidos em ta&ccedil;as de prata e em copos di&aacute;fanos,';
+$t[16] = 'Feitos de prata, semelhantes a cristal, que lhe ser&atilde;o fornecidos em abund&acirc;ncia.';
+$t[17] = 'E ali ser-lhes-&aacute; servido um copo de n&eacute;ctar, cuja mescla ser&aacute; de gengibre,';
+$t[18] = 'De uma fonte (no Para&iacute;so), chamada Salsabil.';
+$t[19] = 'E os servir&atilde;o mancebos imortais; quando os vires, parecer-te-&atilde;o p&eacute;rolas dispersas.';
+$t[20] = 'E quando olhares al&eacute;m, ver&aacute;s gl&oacute;rias e um magn&iacute;fico reino.';
+$t[21] = 'Sobre eles haver&aacute; vestimentas verdes, de tafet&aacute; e de brocado, estar&atilde;o enfeitados com braceletes de prata e o seu Senhor lhes saciar&aacute; a sede com uma bebida pura!';
+$t[22] = 'Sabei que esta ser&aacute; a vossa recompensa, e os vossos esfor&ccedil;os ser&atilde;o reconhecidos.';
+$t[23] = 'Em verdade, temos-te revelado (&oacute; Mensageiro), o Alcor&atilde;o, por etapas,';
+$t[24] = 'Persevera, pois, at&eacute; o Ju&iacute;zo do teu Senhor, e n&atilde;o obede&ccedil;as a nenhum dos pecadores ou incr&eacute;dulos,';
+$t[25] = 'E celebra o nome do teu Senhor, de manh&atilde; e &agrave; tarde.';
+$t[26] = 'E adora-O, e glorifica-O durante grande parte da noite.';
+$t[27] = 'Em verdade, (quanto aos outros) preferem a ef&ecirc;mera vida terrena e tentam afastar a lembran&ccedil;a de um dia (que ser&aacute;) pesado.';
+$t[28] = 'N&oacute;s os criamos e fortalecemos as suas estruturas; por&eacute;m se quis&eacute;ssemos, suplant&aacute;-los-&iacute;amos inteiramente por outros, semelhantes a eles.';
+$t[29] = 'Em verdade, esta &eacute; uma admoesta&ccedil;&atilde;o: e, quem quiser, poder&aacute; encaminhar-se at&eacute; &agrave; senda do seu Senhor.';
+$t[30] = 'Por&eacute;m, s&oacute; o conseguireis se Deus o permitir, porque &eacute; Prudente, Sapient&iacute;ssimo.';
+$t[31] = 'Ele admite em Sua miseric&oacute;rdia quem Lhe apraz; por&eacute;m, destinou aos in&iacute;quos, um doloroso castigo.';
+?>

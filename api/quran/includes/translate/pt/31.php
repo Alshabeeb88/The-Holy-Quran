@@ -1,0 +1,37 @@
+<?php
+$t = array();
+$t[1] = 'Alef, Lam, Mim.';
+$t[2] = 'Estes s&atilde;o os vers&iacute;culos do Livro da Sabedoria.';
+$t[3] = 'Orienta&ccedil;&atilde;o e miseric&oacute;rdia para os benfeitores.';
+$t[4] = 'Que observam a ora&ccedil;&atilde;o, pagam o zakat e est&atilde;o persuadidos da outra vida.';
+$t[5] = 'Estes s&atilde;o orientados por seu Senhor, e ser&atilde;o os bem-aventurados.';
+$t[6] = 'Entre os humanos, h&aacute; aqueles que entabula v&atilde;s conversas, para com isso desviar nesciamente (os seus semelhantes) dasenda de Deus, escarnecendo-a. Este sofrer&aacute; um castigo ignominioso!';
+$t[7] = 'E quando lhe s&atilde;o recitados os Nossos vers&iacute;culos, volta-se, ensoberbecido, como se n&atilde;o os tivesse ouvido, como sesofresse de surdez; anuncia-lhe, pois, um doloroso castigo.';
+$t[8] = 'Em verdade, os fi&eacute;is, que praticam o bem, abrigar-se-&atilde;o nos jardins do prazer.';
+$t[9] = 'Onde morar&atilde;o eternamente. A promessa de Deus &eacute; inexor&aacute;vel, e Ele &eacute; o Poderoso, o Prudent&iacute;ssimo.';
+$t[10] = 'Criou os c&eacute;us, sem colunas aparentes; fixou na terra firmes montanhas, para que n&atilde;o oscile convosco, e disseminou nelaanimais de toda a esp&eacute;cie. E enviamos a &aacute;gua do c&eacute;u, com que fazemos brotar toda a nobre esp&eacute;cie de casais.';
+$t[11] = 'A&iacute; est&aacute; a cria&ccedil;&atilde;o de Deus! Mostra-me, ent&atilde;o, o que criaram outros, em lugar d\'Ele. Por&eacute;m, os in&iacute;quos est&atilde;o em evidenteerro.';
+$t[12] = 'Agraciamos Lucman com a sabedoria, (dizendo-lhe): Agradece a Deus, porque quem agradece, o faz em benef&iacute;ciopr&oacute;prio; por outro lado, quem desagradece, (saiba) que certamente Deus &eacute;, por Si, Opulento, Laudabil&iacute;ssimo.';
+$t[13] = 'Recorda-te de quando Lucman disse ao seu filho, exortando-o: &Oacute; filho meu, n&atilde;o atribuas parceiros a Deus, porque aidolatria &eacute; grave iniq&uuml;idade.';
+$t[14] = 'E recomendamos ao homem benevol&ecirc;ncia para com os seus pais. Sua m&atilde;e o suporta, entre dores e dores, e sua desmama&eacute; aos dois anos. (E lhe dizemos): Agradece a Mim e aos teus pais, porque retorno ser&aacute; a Mim.';
+$t[15] = 'Por&eacute;m, se te constrangerem a associar-Me o que tu ignoras, n&atilde;o lhes obede&ccedil;as; comporta-te com eles com benevol&ecirc;ncianeste mundo, e segue a senda de quem se voltou contrito a Mim. Logo o retorno de todos v&oacute;s ser&aacute; a Mim, e ent&atilde;ointeirar-vos-ei de tudo quanto tiverdes feito.';
+$t[16] = '&Oacute; filho meu (disse) Lucman, em verdade, ainda que algo como o peso de um gr&atilde;o de mostarda estivesse (oculto) em umarocha, fosse nos c&eacute;us, fosse na terra, Deus o descobriria, porque &eacute; Onisciente, Sutil&iacute;ssimo.';
+$t[17] = '&Oacute; filho meu, observa a ora&ccedil;&atilde;o, recomenda o bem, pro&iacute;be o il&iacute;cito e sofre pacientemente tudo quanto te suceda, porqueisto &eacute; firmeza (de propr&oacute;sito na condu&ccedil;&atilde;o) dos assuntos.';
+$t[18] = 'E n&atilde;o vires o rosto &agrave;s gentes, nem andes insolentemente pala terra, porque Deus n&atilde;o estima arrogante e jactanciosoalgum.';
+$t[19] = 'E modera o teu andar e baixa a tua voz, porque o mais desagrad&aacute;vel dos sons &eacute; o zurro dos asnos.';
+$t[20] = 'Porventura, n&atilde;o reparais em que Deus vos submeteu tudo quanto h&aacute; nos c&eacute;us e na terra, e vos cumulou com as Suasmerc&ecirc;s, cognosc&iacute;veis e incognosc&iacute;veis? Sem d&uacute;vida, entre os humanos, h&aacute; os que disputam nesciamente acerca de Deus, semorienta&ccedil;&atilde;o ou Livro l&uacute;cido algum.';
+$t[21] = 'E quanto lhes &eacute; dito: Segui o que Deus tem revelado, retrucam: Seguiremos o que vimos praticar os nossos pais! Segu&iacute;-los-iam eles, mesmo que (com isso) Satan&aacute;s os convidasse ao castigo do t&aacute;rtaro?';
+$t[22] = 'Mas quem se submeter a Deus e for caritativo ver-se-&aacute; apegado &agrave; verdade inquebrant&aacute;vel. E em Deus e for caritativover-se-&aacute; apegado &agrave; verdade inquebrant&aacute;vel. E em Deus reside o destino de todos os assuntos.';
+$t[23] = 'Quando ao incr&eacute;dulo, que a sua incredulidade n&atilde;o te atribule, porque o seu retorno ser&aacute; a N&oacute;s, e ent&atilde;o o inteiraremos detudo quanto tiver feito; Deus &eacute; Conhecedor das intimidades dos cora&ccedil;&otilde;es.';
+$t[24] = 'Agraci&aacute;-los-emos um pouco; ent&atilde;o, lhes infligiremos um severo castigo.';
+$t[25] = 'E se lhes perguntares quem criou os c&eacute;us e a terra, dir&atilde;o: Deus! Dize: Louvado seja Deus! Por&eacute;m, a maioria dos homenso ignora.';
+$t[26] = 'A Deus pertence tudo quanto h&aacute; nos c&eacute;us e na terra, porque Deus &eacute; o Opulento, o Laudabil&iacute;ssimo.';
+$t[27] = 'Ainda que todas as &aacute;rvores da terra se convertessem em c&aacute;lamos e o oceano (em tinta), e lhes fossem somados mais seteoceanos, isso n&atilde;o exauriria as palavras de Deus, porque Deus &eacute; Poderoso, Prudent&iacute;ssimo.';
+$t[28] = 'Vossa cria&ccedil;&atilde;o e ressurrei&ccedil;&atilde;o n&atilde;o s&atilde;o mais do que (o s&atilde;o) a de um s&oacute; ser; sabei que Deus &eacute; Oniouvinte, Onividente.';
+$t[29] = 'N&atilde;o tens reparado, acaso, em que Deus insere a noite no dia e o dia na noite, e que submeteu o sol e a lua, e que cada um (destes) gira em sua &oacute;rbita at&eacute; um t&eacute;rmino prefixado, e que Deus est&aacute; inteirado de tudo quanto fazeis?';
+$t[30] = 'Isso ocorre porque Deus &eacute; a Verdade, e porque tudo quanto invocam, em lugar d\'Ele, &eacute; a falsidade, e porque Deus &eacute; oGrandioso, o Alt&iacute;ssimo.';
+$t[31] = 'N&atilde;o reparas, acaso, nos navios, que singram os mares pela gra&ccedil;a de Deus, para mostrar-vos algo dos Seus sinais? Sabeique nisto h&aacute; sinais para o perseverante, agradecido.';
+$t[32] = 'E quando as ondas montanhas tenebrosas, os envolvem, invocam sinceramente Deus e, t&atilde;o logo Ele os p&otilde;e a salvo, emterra, eis que alguns deles vacilam; entretanto, ningu&eacute;m nega os Nossos vers&iacute;culos, al&eacute;m do p&eacute;rfido, ingrato.';
+$t[33] = '&Oacute; humanos, temei vosso Senhor e temei o dia em que um pai em nada poder&aacute; redimir o filho, nem o filho ao pai. Certamente, a promessa de Deus &eacute; verdadeira! Que n&atilde;o vos iluda a vida terrena, nem vos iluda a sedutor, com respeito aDeus!';
+$t[34] = 'Em verdade, Deus possui o conhecimento da Hora, faz descer a chuva e conhece o que encerram os ventres maternos. Nenhum ser saber o que ganhar&aacute; amanh&atilde;, tampouco nenhum ser saber&aacute; em que terra morrer&aacute;, porque (s&oacute;) Deus &eacute; Sapiente, Inteirad&iacute;ssimo!';
+?>

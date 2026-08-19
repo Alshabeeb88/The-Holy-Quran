@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Ger&ccedil;ekten insan &uuml;zerine dehirden (zamandan) &ouml;yle bir m&uuml;ddet geldi ki o zaman o, anilmaya deger bir sey degildi.';
+$t[2] = 'Dogrusu biz insani, imtihan etmek i&ccedil;in karisik bir nutfeden (erkek ve kadin sularindan) yarattik da onu isitici, g&ouml;r&uuml;c&uuml; yaptik.';
+$t[3] = 'Kuskusuz biz ona yolu g&ouml;sterdik; ister s&uuml;kredici olsun, ister nank&ouml;r.';
+$t[4] = '&Ccedil;&uuml;nk&uuml; biz, k&acirc;firler i&ccedil;in zincirler, demir halkalar ve alevli bir ates hazirlamisizdir.';
+$t[5] = 'Kuskusuz iyiler de karisimi k&acirc;f&ucirc;r olan dolgun bir kadehten i&ccedil;erler.';
+$t[6] = 'Bir kaynak ki ondan Allah\'in kullari i&ccedil;erler, g&uuml;zel yollar a&ccedil;arak akitirlar onu.';
+$t[7] = 'O kullar adaklarini yerine getirirler ve fenaligi salgin (olan) bir g&uuml;nden korkarlar.';
+$t[8] = 'D&uuml;sk&uuml;ne, yetime ve esire seve seve yemek yedirirler.';
+$t[9] = '&quot;Size sirf Allah rizasi i&ccedil;in yemek yediriyoruz. Sizden ne bir karsilik, ne de bir tesekk&uuml;r bekliyoruz.&quot;';
+$t[10] = '&quot;Biz sert ve belali bir g&uuml;nde Rabbimizden korkariz.&quot; derler.';
+$t[11] = 'Allah da onlari o g&uuml;n&uuml;n fenaligindan korur, y&uuml;zlerine parlaklik, g&ouml;n&uuml;llerine sevin&ccedil; verir.';
+$t[12] = 'Sabirlarina karsilik onlara bir cennet ve ipekten elbiseler verir.';
+$t[13] = 'Orada donatilmis koltuklar &uuml;zerine dayanmislardir: Orada ne yakici g&uuml;nes g&ouml;r&uuml;rler, ne de siddetli soguk.';
+$t[14] = '&Uuml;zerlerine cennet g&ouml;lgeleri sarkmis, meyveleri bol bol &ouml;nlerine konmustur.';
+$t[15] = 'Yanlarinda g&uuml;m&uuml;sten kaplar, billur kupalar dolastirilir.';
+$t[16] = 'G&uuml;m&uuml;sten &ouml;yle kadehler ki onlari t&uuml;rl&uuml; t&uuml;rl&uuml; bi&ccedil;imlere koymuslardir.';
+$t[17] = 'Onlara orada bir dolu kadeh sunulur ki, karisimi zencefildir.';
+$t[18] = 'Bu orada bir pinardir ki, adina &quot;selsebil&quot; derler.';
+$t[19] = 'Etraflarinda &ouml;l&uuml;ms&uuml;z hizmet&ccedil;iler dolasir, onlari g&ouml;r&uuml;nce sa&ccedil;ilmis inciler sanirsin.';
+$t[20] = 'Orada nereye baksan bir nimet ve pek b&uuml;y&uuml;k bir m&uuml;lk g&ouml;r&uuml;rs&uuml;n.';
+$t[21] = '&Uuml;stlerinde zarif ve yesil, kalin ipekten bir elbise vardir. G&uuml;m&uuml;s bileziklerle s&uuml;slenmislerdir. Rableri onlara temiz bir i&ccedil;ecek i&ccedil;irmistir.';
+$t[22] = '(Onlara s&ouml;yle denir): &quot;Iste bu sizin bir m&uuml;k&acirc;fatinizdi. Gayretiniz karsiligini bulmustur.&quot;';
+$t[23] = 'Kur\'&acirc;n\'i sana kisim kisim biz indirdik biz.';
+$t[24] = 'O halde Rabbinin h&uuml;k&uuml;m vermesi i&ccedil;in sabret. Onlardan hi&ccedil;bir g&uuml;nahk&acirc;ra yahut nank&ouml;re itaat etme.';
+$t[25] = 'Sabahaksam Rabbinin ismini an.';
+$t[26] = 'Gecenin bir b&ouml;l&uuml;m&uuml;nde de O\'na secde et (aksam ve yatsi namazlarini kil). Hem de O\'nu uzun bir gece tesbih et (tehecc&uuml;d namazi kil).';
+$t[27] = '&Ccedil;&uuml;nk&uuml; onlar bu d&uuml;nyayi seviyorlar ve &ouml;nlerindeki agir bir g&uuml;n&uuml; arkaya atiyorlar.';
+$t[28] = 'Onlari biz yarattik ve mafsallarini simsiki bagladik. Diledigimiz vakit de kiliklarini degistiririz.';
+$t[29] = 'Iste bu bir &ouml;g&uuml;tt&uuml;r. Dileyen Rabbine giden yolu tutar.';
+$t[30] = 'Allah dilemedik&ccedil;e siz dileyemezsiniz. Kuskusuz Allah, bilendir, h&uuml;k&uuml;m ve hikmet sahibidir.';
+$t[31] = 'Allah diledigini rahmetine sokar. Zalimlere ise, acikli bir azap hazirlamistir.';
+?>

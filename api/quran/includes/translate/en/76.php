@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Has there [not] come upon man a period of time when he was not a thing [even] mentioned?';
+$t[2] = 'Indeed, We created man from a sperm-drop mixture that We may try him; and We made him hearing and seeing.';
+$t[3] = 'Indeed, We guided him to the way, be he grateful or be he ungrateful.';
+$t[4] = 'Indeed, We have prepared for the disbelievers chains and shackles and a blaze.';
+$t[5] = 'Indeed, the righteous will drink from a cup [of wine] whose mixture is of Kafur,';
+$t[6] = 'A spring of which the [righteous] servants of Allah will drink; they will make it gush forth in force [and abundance].';
+$t[7] = 'They [are those who] fulfill [their] vows and fear a Day whose evil will be widespread.';
+$t[8] = 'And they give food in spite of love for it to the needy, the orphan, and the captive,';
+$t[9] = '[Saying], &quot;We feed you only for the countenance of Allah. We wish not from you reward or gratitude.';
+$t[10] = 'Indeed, We fear from our Lord a Day austere and distressful.&quot;';
+$t[11] = 'So Allah will protect them from the evil of that Day and give them radiance and happiness';
+$t[12] = 'And will reward them for what they patiently endured [with] a garden [in Paradise] and silk [garments].';
+$t[13] = '[They will be] reclining therein on adorned couches. They will not see therein any [burning] sun or [freezing] cold.';
+$t[14] = 'And near above them are its shades, and its [fruit] to be picked will be lowered in compliance.';
+$t[15] = 'And there will be circulated among them vessels of silver and cups having been [created] clear [as glass],';
+$t[16] = 'Clear glasses [made] from silver of which they have determined the measure.';
+$t[17] = 'And they will be given to drink a cup [of wine] whose mixture is of ginger';
+$t[18] = '[From] a fountain within Paradise named Salsabeel.';
+$t[19] = 'There will circulate among them young boys made eternal. When you see them, you would think them [as beautiful as] scattered pearls.';
+$t[20] = 'And when you look there [in Paradise], you will see pleasure and great dominion.';
+$t[21] = 'Upon the inhabitants will be green garments of fine silk and brocade. And they will be adorned with bracelets of silver, and their Lord will give them a purifying drink.';
+$t[22] = '[And it will be said], &quot;Indeed, this is for you a reward, and your effort has been appreciated.&quot;';
+$t[23] = 'Indeed, it is We who have sent down to you, [O Muhammad], the Qur\'an progressively.';
+$t[24] = 'So be patient for the decision of your Lord and do not obey from among them a sinner or ungrateful [disbeliever].';
+$t[25] = 'And mention the name of your Lord [in prayer] morning and evening';
+$t[26] = 'And during the night prostrate to Him and exalt Him a long [part of the] night.';
+$t[27] = 'Indeed, these [disbelievers] love the immediate and leave behind them a grave Day.';
+$t[28] = 'We have created them and strengthened their forms, and when We will, We can change their likenesses with [complete] alteration.';
+$t[29] = 'Indeed, this is a reminder, so he who wills may take to his Lord a way.';
+$t[30] = 'And you do not will except that Allah wills. Indeed, Allah is ever Knowing and Wise.';
+$t[31] = 'He admits whom He wills into His mercy; but the wrongdoers - He has prepared for them a painful punishment.';
+?>

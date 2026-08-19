@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Spune: &ldquo;Mi s-a dezvăluit că un p&acirc;lc de ginni stătea şi asculta; apoi au spus: &lsquo;Da, am auzit un Coran minunat';
+$t[2] = 'care călăuzeşte pe calea cea bună. Noi credem &icirc;n el şi pe nimeni nu vom alătura Domnului nostru,';
+$t[3] = 'căci El &mdash; &icirc;nalţă-se a Domnului nostru măreţie &mdash; nu şi-a luat nici soţie şi nici fiu,';
+$t[4] = 'chiar dacă un smintit dintre noi a spus nesăbuinţe despre Dumnezeu!';
+$t[5] = 'Noi ne &icirc;nchipuiam că nici oamenii şi nici ginnii nu vor spune minciuni despre Dumnezeu,';
+$t[6] = '&icirc;nsă sunt unii bărbaţi dintre oameni care cer izbăvire unor bărbaţi dintre ginni, &icirc;nsă aceştia le sporeşte doar prigonirea.';
+$t[7] = 'Ei &icirc;şi &icirc;nchipuie, aşa cum vă &icirc;nchipuiţi şi voi, că Dumnezeu nu va &icirc;nvia pe nimeni.';
+$t[8] = 'Noi am atins cerul şi l-am aflat plin de aprigi păzitori şi limbi de foc.';
+$t[9] = 'Ne-am aşezat &icirc;n jilţuri ca să ascultăm, &icirc;nsă cine ascultă află o limbă de foc p&acirc;ndindu-l.';
+$t[10] = 'Nu ştim dacă se vrea vreun rău celor de pe păm&acirc;nt, ori dacă Domnul lor &icirc;i vrea pe Calea cea bună';
+$t[11] = 'Unii dintre noi sunt drepţi, alţii nu sunt şi căi felurite urmăm.';
+$t[12] = 'Noi ştim că n-am putea slăbi puterea lui Dumnezeu pe păm&acirc;nt şi nici nu i-am putea scăpa Lui fugind.';
+$t[13] = 'Noi am crezut &icirc;n Calea cea Dreaptă &icirc;ndată ce am auzit de ea. Cel care crede &icirc;n Domnul său nu se teme nici de neajunsuri şi nici de prigonire.';
+$t[14] = 'Şi printre noi sunt supuşi, şi printre noi sunt răzvrătiţi. Cei care s-au supus au ales Calea cea bună,';
+$t[15] = 'iar cei răzvrătiţi vor fi Gheenei vreascuri.';
+$t[16] = 'Dacă merg drept, le vom da să bea apă din belşug';
+$t[17] = 'pentru a-i pune la &icirc;ncercare. Dumnezeu va m&acirc;na la o os&acirc;ndă din ce &icirc;n ce mai mare pe cei care se &icirc;mpotrivesc amintirii Domnului lor.';
+$t[18] = 'Locurile de &icirc;nchinăciune sunt ale lui Dumnezeu! Nu chema dimpreună cu Dumnezeu pe nimeni!';
+$t[19] = 'C&acirc;nd robul lui Dumnezeu s-a ridicat pentru a-i chema, era c&acirc;t pe-aici să se &icirc;ngrămădească pe el.&rsquo;&rdquo;';
+$t[20] = 'Spune: &ldquo;Eu &icirc;l chem pe Domnul meu şi nu &Icirc;i alătur Lui pe nimeni.&rdquo;';
+$t[21] = 'Spune: &ldquo;Eu nu vă pot nici păgubi şi nici călăuzi.&rdquo;';
+$t[22] = 'Spune: &ldquo;Nimeni nu mă apără de Dumnezeu, iar eu nu aflu adăpost dec&acirc;t la El,';
+$t[23] = 'propovăduind din dezvăluirile lui Dumnezeu şi din soliile Sale.&rdquo; Cei care nu dau ascultare lui Dumnezeu şi trimisului Său, &icirc;n focul Gheenei vor veşnici.';
+$t[24] = 'C&acirc;nd vor vedea &icirc;mplinirea a ceea ce li s-a făgăduit &icirc;şi vor da seama cine este cel mai slab &icirc;ntru ajutor şi cel mai mic &icirc;ntru număr.';
+$t[25] = 'Spune: &ldquo;Nu ştiu dacă ceea ce vi s-a făgăduit este aproape ori Domnul meu vă va mai da un răgaz.&rdquo;';
+$t[26] = 'El cunoaşte Taina &icirc;ntru totul, &icirc;nsă nu descoperă nimănui Taina Sa,';
+$t[27] = 'numai celui de care-i mulţumit ca trimis. El va m&acirc;na &icirc;n faţa lor şi &icirc;n spatele lor o p&acirc;ndă';
+$t[28] = 'ca să afle dacă ei propovăduiesc soliile Domnului lor. El cuprinde ceea ce ei au şi ţine socoteala fiecărui lucru.';
+?>

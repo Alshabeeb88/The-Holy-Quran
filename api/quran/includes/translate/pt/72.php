@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Dize: Foi-me revelado que um grupo de g&ecirc;nios escutou (a recita&ccedil;&atilde;o do Alcor&atilde;o). Disseram: Em verdade, ouvimos um Alcor&atilde;o admir&aacute;vel,';
+$t[2] = 'Que guia &agrave; verdade, pelo que nele cremos, e jamais atribuiremos parceiro algu&eacute;m ao nosso Senhor;';
+$t[3] = 'Cremos em que - exaltada seja a Majestade do nosso Senhor - Ele jamais teve c&ocirc;njuge ou prole,';
+$t[4] = 'E o insensato, entre n&oacute;s, proferiu extravag&acirc;ncias a respeito de Deus.';
+$t[5] = 'E jamais imaginamos que os humanos e ao g&ecirc;nios iriam urdir mentiras a respeito de Deus.';
+$t[6] = 'E, em verdade, algumas pessoas, dentre os humanos, invocaram a prote&ccedil;&atilde;o de pessoas, dentre os g&ecirc;nios. Por&eacute;m, estes s&oacute; lhes aumentaram os desatinos.';
+$t[7] = 'E eles pensaram como pensastes: que Deus jamais ressuscitar&aacute; algu&eacute;m.';
+$t[8] = '(Disseram os g&ecirc;nios): Quisemos inteirar-nos acerca do c&eacute;u e o achamos pleno de severos guardi&atilde;es e flam&iacute;geros meteoros.';
+$t[9] = 'E us&aacute;vamos nos sentar l&aacute;, em locais (ocultos), para ouvir; e quem se dispusesse a ouvir agora, defrontar-se- ia com um flam&iacute;gero meteoro, de guarda.';
+$t[10] = 'E n&oacute;s n&atilde;o compreendemos se o mal era destinado &agrave;queles que est&atilde;o na terra ou se o Senhor tencionava encaminh&aacute;-los para a boa conduta.';
+$t[11] = 'E, entre n&oacute;s (os g&ecirc;nios), h&aacute; virtuosos e h&aacute; tamb&eacute;m os que n&atilde;o o s&atilde;o, porque seguimos diferentes caminhos.';
+$t[12] = 'E achamos que jamais poderemos safar-nos de Deus na terra, nem tampouco iludi-Lo, fugindo (para outras paragens).';
+$t[13] = 'E quando escutamos a orienta&ccedil;&atilde;o, cremos nela; e quem quer que creia em seu Senhor, n&atilde;o h&aacute; de temer fraude, nem desatino.';
+$t[14] = 'E, entre n&oacute;s, h&aacute; submissos, como os tamb&eacute;m h&aacute; desencaminhados. Quanto &agrave;queles que se submetem (&agrave; vontade de Deus), buscam a verdadeira conduta.';
+$t[15] = 'Quanto aos desencaminhados, esses ser&atilde;o combust&iacute;veis do inferno.';
+$t[16] = 'Mas, se tivessem sido firmes no (verdadeiro) caminho, t&ecirc;-los-&iacute;amos agraciado com &aacute;gua abundante,';
+$t[17] = 'Para prov&aacute;-los, com ela. Em verdade, a quem se afastar da Mensagem do seu Senhor, Ele lhe infligir&aacute; um severo castigo.';
+$t[18] = 'Sabei que as mesquitas s&atilde;o (casas) de Deus; n&atilde;o invoqueis, pois, ningu&eacute;m, juntamente com Deus.';
+$t[19] = 'E quando o servo de Deus se levantou para invoc&aacute;-Lo (em ora&ccedil;&atilde;o), aglomeraram-se em tomo dele.';
+$t[20] = 'Dize-lhes: Invoco t&atilde;o somente o meu Senhor, a Quem n&atilde;o atribuo parceiro algum.';
+$t[21] = 'Dize-lhes (mais): Em verdade, n&atilde;o posso livrar-vos do mal, nem trazer-vos para a conduta verdadeira.';
+$t[22] = 'Dize-lhes (ainda): Em verdade, ningu&eacute;m poder&aacute; livrar-me de Deus, nem tampouco acharei amparo algum fora d\'Ele;';
+$t[23] = 'Somente proclamo o que de Deus recebi, bem como a Sua mensagem. E aqueles que desobedecem a Deus e ao Seu Mensageiro, certamente ter&atilde;o o fogo infernal, onde morar&atilde;o eternamente.';
+$t[24] = '(Eles duvidar&atilde;o) at&eacute; que, quando se depararem com o que lhes foi prometido, saber&atilde;o quem tem menos socorredores e quem tem menor n&uacute;mero (de aliados).';
+$t[25] = 'Dize-lhes: Ignoro se o que vos tem sido prometido &eacute; iminente, ou se o meu Senhor fixou-lhe um t&eacute;rmino remoto.';
+$t[26] = 'Ele &eacute; Conhecedor do incognosc&iacute;vel e n&atilde;o revela os Seus mist&eacute;rios a quem quer que seja,';
+$t[27] = 'Salvo a um mensageiro que tenta escolhido, e faz um grupo de guardas marcharem, na frente e por tr&aacute;s dele,';
+$t[28] = 'Para certificar-se de que transmitiu as mensagens do seu Senhor, o Qual abrange tudo quanto os humanos possuem, e que toma conta de tudo.';
+?>

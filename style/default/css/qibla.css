@@ -1,0 +1,53 @@
+.qibla-page-body .internal-page-head,.qibla-page-body .custom-breadcrumb{display:none!important}
+.qibla-page-body.internal-page .site-main{padding:0!important}
+.qibla-page{min-height:72vh;padding:34px 0 66px;background:radial-gradient(circle at 15% 12%,rgba(202,166,88,.12),transparent 26%),linear-gradient(180deg,#f3f8f6,#fbfcfb);color:var(--q-text)}
+.qibla-container{max-width:940px}
+.qibla-heading{display:flex;align-items:center;gap:18px;margin-bottom:22px}
+.qibla-heading-icon{display:grid;place-items:center;flex:0 0 68px;width:68px;height:68px;border-radius:20px;background:linear-gradient(135deg,#0b6555,#0d8069);color:#efd083;font-size:27px;box-shadow:0 13px 30px rgba(11,101,85,.2)}
+.qibla-heading h1{margin:3px 0 5px;color:#143e34;font-size:32px;font-weight:800}
+.qibla-heading p{margin:0;color:#6b7d77;font-size:14px}
+.qibla-card{display:grid;grid-template-columns:minmax(320px,.9fr) minmax(340px,1.1fr);align-items:center;gap:42px;padding:38px;border:1px solid #d8e6e1;border-radius:28px;background:#fff;box-shadow:0 22px 60px rgba(15,67,56,.1)}
+.qibla-compass-wrap{display:grid;place-items:center;padding:8px}
+.qibla-compass{position:relative;width:min(100%,350px);aspect-ratio:1;border:12px solid #f7faf8;border-radius:50%;background:radial-gradient(circle,#fdfefe 0 6%,transparent 6.5%),repeating-conic-gradient(from -1deg,rgba(12,115,95,.35) 0 2deg,transparent 2deg 15deg),radial-gradient(circle,#f8fbfa 0 57%,#e4efeb 57.5% 59%,#fbfcfb 59.5% 72%,#0c735f 72.5% 73.5%,#f5f9f7 74%);box-shadow:0 18px 46px rgba(15,67,56,.16),inset 0 0 35px rgba(12,115,95,.08)}
+.qibla-mark{position:absolute;z-index:2;color:#48625a;font-size:13px;font-weight:800}.qibla-north{top:7%;left:50%;transform:translateX(-50%);color:#b08c43}.qibla-south{bottom:7%;left:50%;transform:translateX(-50%)}.qibla-east{top:50%;right:7%;transform:translateY(-50%)}.qibla-west{top:50%;left:7%;transform:translateY(-50%)}
+.qibla-ring{position:absolute;border:1px solid rgba(12,115,95,.13);border-radius:50%;inset:23%}.qibla-ring-two{inset:35%;border-style:dashed}
+.qibla-needle{position:absolute;z-index:3;inset:8%;transform:rotate(0deg);transition:transform .45s cubic-bezier(.2,.8,.2,1)}
+.qibla-arrow{position:absolute;top:12%;left:50%;width:0;height:0;transform:translateX(-50%);border-right:12px solid transparent;border-left:12px solid transparent;border-bottom:35px solid #c9a458;filter:drop-shadow(0 4px 4px rgba(82,63,26,.2))}
+.qibla-kaaba{position:absolute;top:2%;left:50%;display:grid;place-items:center;width:46px;height:46px;transform:translate(-50%,-40%);border:2px solid #e2c878;border-radius:14px;background:#14261f;color:#e8cc78;font-size:21px;box-shadow:0 8px 18px rgba(0,0,0,.24)}
+.qibla-center{position:absolute;z-index:5;inset:44%;border:6px solid #fff;border-radius:50%;background:#0c735f;box-shadow:0 4px 14px rgba(10,77,64,.3)}
+.qibla-info{padding-inline-end:5px}.qibla-status-label{color:#b08c43;font-size:11px;font-weight:800}.qibla-info h2{margin:7px 0 8px;color:#173f35;font-size:24px;font-weight:800;line-height:1.6}.qibla-info>p{margin:0 0 22px;color:#71817c;font-size:13px;line-height:1.9}
+.qibla-result{display:grid;grid-template-columns:repeat(3,1fr);overflow:hidden;margin-bottom:22px;border:1px solid #dce8e4;border-radius:17px;background:#f7faf9}.qibla-result>div{padding:15px 10px;text-align:center}.qibla-result>div+div{border-right:1px solid #dce8e4}.qibla-result span,.qibla-result strong{display:block}.qibla-result span{margin-bottom:5px;color:#7a8984;font-size:10px}.qibla-result strong{color:#0b6555;font-size:15px;font-weight:800}.qibla-result b{font-size:22px}
+.qibla-buttons{display:grid;gap:10px}.qibla-buttons button{display:flex;align-items:center;justify-content:center;gap:9px;min-height:50px;border-radius:14px;font:800 13px 'Cairo',Tahoma,sans-serif;cursor:pointer;touch-action:manipulation}.qibla-primary{border:1px solid #0c735f;background:#0c735f;color:#fff;box-shadow:0 10px 22px rgba(12,115,95,.18)}.qibla-primary:hover{background:#095e4e}.qibla-secondary{border:1px solid #c8a458;background:#fff9eb;color:#705a29}.qibla-buttons button:focus-visible{outline:3px solid rgba(201,164,88,.35);outline-offset:3px}.qibla-buttons button:disabled{cursor:wait;opacity:.7}
+.qibla-tip{display:flex;align-items:flex-start;gap:8px;margin-top:16px;color:#7a8984;font-size:10px;line-height:1.8}.qibla-tip i{margin-top:4px;color:#b08c43}
+.qibla-note{display:flex;align-items:center;gap:14px;margin-top:18px;padding:16px 20px;border:1px solid #d9e7e2;border-radius:17px;background:rgba(255,255,255,.75);color:#61736d}.qibla-note>i{color:#0c735f}.qibla-note p{margin:0;font-size:11px;line-height:1.75}.qibla-note strong,.qibla-note span{display:block}
+html[data-theme="dark"] .qibla-page{background:radial-gradient(circle at 15% 12%,rgba(216,180,91,.08),transparent 26%),linear-gradient(180deg,#071a15,#091e19);color:#f1f5f3}html[data-theme="dark"] .qibla-heading h1,html[data-theme="dark"] .qibla-info h2{color:#f1f5f3}html[data-theme="dark"] .qibla-heading p,html[data-theme="dark"] .qibla-info>p{color:#b7c7c1}html[data-theme="dark"] .qibla-card{border-color:#285247;background:#0d2a22;box-shadow:0 22px 60px rgba(0,0,0,.28)}html[data-theme="dark"] .qibla-compass{border-color:#12382e;background:radial-gradient(circle,#12382e 0 6%,transparent 6.5%),repeating-conic-gradient(from -1deg,rgba(216,180,91,.33) 0 2deg,transparent 2deg 15deg),radial-gradient(circle,#0d2a22 0 57%,#285247 57.5% 59%,#102f27 59.5% 72%,#d8b45b 72.5% 73.5%,#12382e 74%);box-shadow:0 18px 46px rgba(0,0,0,.3)}html[data-theme="dark"] .qibla-mark{color:#b7c7c1}html[data-theme="dark"] .qibla-north{color:#e3c775}html[data-theme="dark"] .qibla-ring{border-color:rgba(216,180,91,.18)}html[data-theme="dark"] .qibla-center{border-color:#12382e;background:#d8b45b}html[data-theme="dark"] .qibla-result{border-color:#285247;background:#091e19}html[data-theme="dark"] .qibla-result>div+div{border-color:#285247}html[data-theme="dark"] .qibla-result span{color:#9fb1ab}html[data-theme="dark"] .qibla-result strong{color:#e4c977}html[data-theme="dark"] .qibla-secondary{border-color:#5c5635;background:#17271e;color:#e2ca81}html[data-theme="dark"] .qibla-tip{color:#9fb1ab}html[data-theme="dark"] .qibla-note{border-color:#285247;background:#0d2a22;color:#b7c7c1}html[data-theme="dark"] .qibla-note>i{color:#e4c977}
+@media(max-width:800px){.qibla-page{padding:25px 0 50px}.qibla-card{grid-template-columns:1fr;gap:27px;padding:25px}.qibla-compass{max-width:330px}.qibla-info{text-align:center}.qibla-tip{text-align:right}.qibla-note{text-align:right}}
+@media(max-width:480px){.qibla-heading{gap:13px}.qibla-heading-icon{flex-basis:54px;width:54px;height:54px;border-radius:16px;font-size:22px}.qibla-heading h1{font-size:25px}.qibla-heading p{font-size:12px}.qibla-card{padding:19px 15px;border-radius:22px}.qibla-compass-wrap{padding:2px 11px}.qibla-info h2{font-size:20px}.qibla-result>div{padding:13px 5px}.qibla-result strong{font-size:12px}.qibla-result b{font-size:18px}}
+@media(prefers-reduced-motion:reduce){.qibla-needle{transition:none}}
+
+/* Palette integration */
+body[class*="color-"] .qibla-page{background:radial-gradient(circle at 15% 12%,color-mix(in srgb,var(--q-gold) 13%,transparent),transparent 26%),linear-gradient(180deg,var(--q-soft),#fff)}
+body[class*="color-"] .qibla-heading-icon{background:linear-gradient(135deg,var(--q-primary),var(--q-primary-2));box-shadow:0 13px 30px color-mix(in srgb,var(--q-primary) 22%,transparent)}
+body[class*="color-"] .qibla-heading h1,body[class*="color-"] .qibla-info h2{color:var(--q-deep)}
+body[class*="color-"] .qibla-card{border-color:color-mix(in srgb,var(--q-primary) 18%,#fff);box-shadow:0 22px 60px color-mix(in srgb,var(--q-primary) 11%,transparent)}
+body[class*="color-"] .qibla-compass{background:radial-gradient(circle,#fdfefe 0 6%,transparent 6.5%),repeating-conic-gradient(from -1deg,color-mix(in srgb,var(--q-primary) 36%,transparent) 0 2deg,transparent 2deg 15deg),radial-gradient(circle,#f8fbfa 0 57%,color-mix(in srgb,var(--q-primary) 15%,#fff) 57.5% 59%,#fbfcfb 59.5% 72%,var(--q-primary) 72.5% 73.5%,#f5f9f7 74%)}
+body[class*="color-"] .qibla-ring{border-color:color-mix(in srgb,var(--q-primary) 20%,transparent)}
+body[class*="color-"] .qibla-center{background:var(--q-primary)}
+body[class*="color-"] .qibla-result strong,body[class*="color-"] .qibla-note>i{color:var(--q-primary)}
+body[class*="color-"] .qibla-primary{border-color:var(--q-primary);background:var(--q-primary);box-shadow:0 10px 22px color-mix(in srgb,var(--q-primary) 22%,transparent)}
+body[class*="color-"] .qibla-primary:hover{background:var(--q-primary-2)}
+
+html[data-theme="dark"] body[class*="color-"] .qibla-page{background:radial-gradient(circle at 15% 12%,color-mix(in srgb,var(--q-gold) 8%,transparent),transparent 26%),linear-gradient(180deg,var(--q-dark-bg),var(--q-dark-header))}
+html[data-theme="dark"] body[class*="color-"] .qibla-card{border-color:var(--q-dark-border);background:var(--q-dark-surface)}
+html[data-theme="dark"] body[class*="color-"] .qibla-compass{border-color:var(--q-dark-card);background:radial-gradient(circle,var(--q-dark-card) 0 6%,transparent 6.5%),repeating-conic-gradient(from -1deg,color-mix(in srgb,var(--q-gold) 35%,transparent) 0 2deg,transparent 2deg 15deg),radial-gradient(circle,var(--q-dark-surface) 0 57%,var(--q-dark-border) 57.5% 59%,var(--q-dark-header) 59.5% 72%,var(--q-gold) 72.5% 73.5%,var(--q-dark-card) 74%)}
+html[data-theme="dark"] body[class*="color-"] .qibla-center{border-color:var(--q-dark-card);background:var(--q-gold)}
+html[data-theme="dark"] body[class*="color-"] .qibla-result{border-color:var(--q-dark-border);background:var(--q-dark-header)}
+html[data-theme="dark"] body[class*="color-"] .qibla-result>div+div{border-color:var(--q-dark-border)}
+html[data-theme="dark"] body[class*="color-"] .qibla-note{border-color:var(--q-dark-border);background:var(--q-dark-surface)}
+html[data-theme="dark"] body[class*="color-"] .qibla-heading h1,
+html[data-theme="dark"] body[class*="color-"] .qibla-info h2{color:var(--q-dark-text)!important}
+html[data-theme="dark"] body[class*="color-"] .qibla-heading p,
+html[data-theme="dark"] body[class*="color-"] .qibla-info>p,
+html[data-theme="dark"] body[class*="color-"] .qibla-tip{color:var(--q-dark-muted)!important}
+html[data-theme="dark"] body[class*="color-"] .qibla-result strong,
+html[data-theme="dark"] body[class*="color-"] .qibla-note>i{color:var(--q-dark-accent)!important}

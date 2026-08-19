@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Kiedy słońce będzie spowite ciemnością';
+$t[2] = 'I kiedy gwiazdy będą zamglone;';
+$t[3] = 'Kiedy g&oacute;ry będą z miejsca poruszone;';
+$t[4] = 'Kiedy wielbłądzice w dziesiątym miesiącu będą całkowicie opuszczone;';
+$t[5] = 'Kiedy dzikie zwierzęta będą zebrane;';
+$t[6] = 'Kiedy morza będą wzburzone;';
+$t[7] = 'Kiedy dusze zostaną w pary złączone;';
+$t[8] = 'Kiedy żywcem pogrzebana będzie zapytana,';
+$t[9] = 'Za jaki grzech została zamordowana;';
+$t[10] = 'Kiedy karty księgi zostaną rozpostarte;';
+$t[11] = 'Kiedy niebo zostanie rozsunięte;';
+$t[12] = 'Kiedy ogień piekielny będzie rozpalony;';
+$t[13] = 'Kiedy Ogr&oacute;d będzie przybliżony -';
+$t[14] = 'Wtedy dowie się dusza, co sobie przygotowała.';
+$t[15] = 'Lecz nie! Przysięgam na planety,';
+$t[16] = 'Wędrujące i znikające;';
+$t[17] = 'Na noc, kiedy ciemność zapada;';
+$t[18] = 'Na poranek, kiedy zaczyna oddychać!';
+$t[19] = 'To, zaprawdę, słowo Posłańca szlachetnego,';
+$t[20] = 'Posiadającego moc u Władcy Tronu, zdecydowanego';
+$t[21] = 'Słuchanego, ponadto godnego zaufania!';
+$t[22] = 'Wasz towarzysz nie jest opętany!';
+$t[23] = 'Z pewnością on zobaczył go na jasnym horyzoncie!';
+$t[24] = 'On nie skąpi tego, co skryte.';
+$t[25] = 'Nie jest to słowo szatana przeklętego.';
+$t[26] = 'Dokąd więc idziecie?';
+$t[27] = 'To jest tylko napomnienie dla świat&oacute;w,';
+$t[28] = 'Dla tych spośr&oacute;d was, kt&oacute;rzy chcą iść prosto.';
+$t[29] = 'Lecz wy nie będziecie chcieli, jeśli nie zechce B&oacute;g, Pan świat&oacute;w!';
+?>

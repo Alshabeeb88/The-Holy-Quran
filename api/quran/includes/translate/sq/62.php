@@ -1,0 +1,14 @@
+<?php
+$t = array();
+$t[1] = '&Ccedil;\'far&euml; ka n&euml; qiej dhe &ccedil;\'ka n&euml; tok&euml; b&euml;n tesbih All-llahun, Sunduesin, t&euml; Past&euml;rin nga &ccedil;do e met&euml;, t&euml; Fuqishmin e t&euml; Urtin.';
+$t[2] = 'Ai &euml;sht&euml; q&euml; arabve t&euml; pashkolluar u d&euml;rgoi Pejgamberin nga mesi tityre q&euml; t&rsquo;ju lexoj&euml; ajetet e Tij, t&rsquo;i pastroj&euml; ata, t&rsquo;ua m&euml;soj&euml; librin dhe sheriatin, edhe pse m&euml; par&euml; ata ishin n&euml; nj&euml; humbje t&euml; dukshme.';
+$t[3] = '(U d&euml;rgoi) edhe t&euml; tjer&euml;ve q&euml; nuk i arrit&euml;n ata, Ai &euml;sht&euml; ngadhnjyesi';
+$t[4] = 'Kjo &euml;sht&euml; mir&euml;si e All-llahut, q&euml; ia jep atij q&euml; do, e All-llahu &euml;sht&euml; Zoti i dhuntis&euml; s&euml; p&euml;rsosur.';
+$t[5] = 'Shembulli i atyre, q&euml; jan&euml; obliguar me Tevrat, dhe nuk e zbatojn&euml; at&euml;, &euml;sht&euml; shembulli indonj&euml; gomari q&euml; bart libra. Shembulli i keq, &euml;sht&euml; shembull i popullit q&euml; p&euml;rg&euml;njeshtroi ajetet e All-llahut, e All-llahu nuk udh&euml;zon n&euml; rrug&euml; t&euml; drejt&euml; popullin jobesimtar&euml;.';
+$t[6] = 'Thuaj: &ldquo;O ju q&euml; i p&euml;rmbaheni jehudizmit, n&euml;se e pretendoni se jeni m&euml; t&euml; af&euml;rmit e All-llahut e jo njer&euml;zit e tjer&euml;, at&euml;her&euml; k&euml;rkonie vdekjen, po qe se jeni t&euml; sinqert&euml; (n&euml; at&euml; q&euml; thoni)&rdquo;.';
+$t[7] = 'Po, ata nuk d&euml;shirojn&euml; kurr&euml; at&euml;, p&euml;r shkak t&euml; asaj q&euml; e punuan me duart e veta, e All-llahu e di m&euml; s&euml; miri se kush jan&euml; mizor&euml;t.';
+$t[8] = 'Thuaj: &ldquo;s&rsquo;ka dyshim se vdekja prejs&euml; cil&euml;s po ikni, ka p&euml;r t&rsquo;ju z&euml;n, e mande do t&euml; silleni te Ai q&euml; e di t&euml; padukshm&euml;n dhe t&euml; duksh&euml;m, dhe at&euml;her&euml; Ai do t&rsquo;ju njoftoj&euml; me at&euml; q&euml; keni punuar&rdquo;.';
+$t[9] = 'O ju q&euml; besuat, kur b&euml;het thirrja p&euml;r namaz, dit&euml;n e zhumas&euml;, ecni shpejt p&euml;r aty ku p&euml;rmendet All-llahu (d&euml;gjojeni hutben, falnie namazin), e lini shitblerjen, kjo &euml;sht&euml; m&euml; e dobishme p&euml;r ju n&euml;se jeni q&euml; e dini.';
+$t[10] = 'E, kur t&euml; kryhet namazi, at&euml;her&euml; sh&euml;rndanu n&euml; tok&euml; dhe k&euml;rkoni begatit&euml; e All-llahut, por edhe p&euml;rmendni shpeshher&euml; All-llahun, ashtu q&euml; t&euml; gjeni shp&euml;tim.';
+$t[11] = 'Po, kur ata shohin ndonj&euml; tregti, ose ndonj&euml; aheng m&euml;syhen atje, kurse ty t&euml; l&euml;n&euml; n&euml; k&euml;mb&euml;. Thuaju: &ldquo;Ajo q&euml; &euml;sht&euml; te All-llahu &euml;sht&euml; shum&euml; m&euml; e mira se d&euml;frimi dhe treg&euml;tia, e All-llahu &euml;sht&euml; furnizuesi m&euml; i mir&euml;!&rdquo;';
+?>

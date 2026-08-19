@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'In&atilde; rantsuwa da alfijiri.';
+$t[2] = 'Da darũruwa g&otilde;ma.';
+$t[3] = 'Da (adadi na) cik&atilde; da (na) m&atilde;r&atilde;.';
+$t[4] = 'Da dare idan yana shũɗewa.';
+$t[5] = 'Ko a cikin waɗannan akwai abin rantsuwa ga mai hankali (da yake kange shi daga zunubi)?';
+$t[6] = 'Ba ka ga yadda Ubangijinka Ya aikata da &Atilde;d&atilde;wa ba?';
+$t[7] = 'Iramawa m&atilde;su sakon ƙĩrar jiki.';
+$t[8] = 'Waɗanda ba a halitta kwatankwacinsu ba a cikin garũruwa (na dũniya).';
+$t[9] = 'Da samũd&atilde;wa waɗanda suka fasa duw&atilde;tsu a cikin Wadi suka yi gid&atilde;je)?';
+$t[10] = 'Da Fir\'auna mai tur&atilde;ku.';
+$t[11] = 'Waɗanda suka ƙẽtare iy&atilde;karsu, a cikin garũruwa?';
+$t[12] = 'Sab&otilde;da haka, suka yawaita yin ɓarna a cikinsu.';
+$t[13] = 'Sab&otilde;da haka Ubangijinka Ya zuba musu bũl&atilde;lar az&atilde;ba.';
+$t[14] = 'Lalle ne, Ubangijinka Yana nan a mafaka.';
+$t[15] = 'To, amma fa mutum idan Ubangijibsa Ya jarraba shi, w&atilde;to Y&atilde; girmama shi kuma Ya yi masa ni\'ima, sai ya ce: &quot;Ubangijina Ya girmama ni.&quot;';
+$t[16] = 'Kuma idan Ya jarraba shi, w&atilde;to Ya ƙuntata masa abincinsa, sai ya ce: &quot;Ubangijina Ya wal&atilde;kanta ni.&quot;';
+$t[17] = 'A\'aha! Bari wannan, ai b&atilde; ku girmama mar&atilde;ya!';
+$t[18] = 'B&atilde; ku kwaɗait&atilde; wa jũnanku ga (tattalin) abincin matalauci!';
+$t[19] = 'Kuma kuna cin dũkiyar g&atilde;do, ci na t&atilde;r&atilde;wa.';
+$t[20] = 'Kuma kuna son dũkiya, so mai yawa.';
+$t[21] = 'A\'aha! Idan aka niƙa ƙasa niƙewa sosai.';
+$t[22] = 'Kuma Ubangijinka Ya zo, alh&atilde;li mal&atilde;\'iku na jẽre, safũ- safu.';
+$t[23] = 'Kuma a ranar nan aka zo da Jahannama. A ranar nan mutum zai yi tun&atilde;ni. To, in&atilde; fa tun&atilde;ni yake a gare shi!';
+$t[24] = 'Yana dinga cẽwa, &quot;Kaitona, d&atilde; na gabatar (da aikin ƙwarai) domin r&atilde;yuwata!&quot;';
+$t[25] = 'To, a r&atilde;nar nan b&atilde;bu wani mai yin az&atilde;ba irin az&atilde;bar Allah.';
+$t[26] = 'Kuma b&atilde;bu wani mai ɗauri irin ɗaurinSa.';
+$t[27] = 'Y&atilde; kai rai mai natsuwa!';
+$t[28] = 'Ka koma zuwa ga Ubangijinka, alh&atilde;li kana mai yarda (da abin da Ya ƙaddara maka a dũniya) abar yardarwa (da sakamakon da z&atilde; a ba ka a L&atilde;hira).';
+$t[29] = 'Sab&otilde;bda haka, ka shiga cikin b&atilde;yiNa (m&atilde;su bin umurui a dũniya).';
+$t[30] = 'Kuma ka shiga AljannaTa (a L&atilde;hira).';
+?>

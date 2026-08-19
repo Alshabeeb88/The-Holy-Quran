@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Sema: Imefunuliwa kwangu ya kuwa kundi moja la majini lilisikiliza, na likasema: Hakika sisi tumeisikia Qur\'ani ya ajabu!';
+$t[2] = 'Inaongoza kwenye uwongofu, kwa hivyo tumeiamini, wala hatutamshirikisha yeyote na Mola wetu Mlezi.';
+$t[3] = 'Na kwa hakika utukufu wa Mola wetu Mlezi umetukuka kabisa; hana mke wala mwana.';
+$t[4] = 'Na kwa hakika wapumbavu miongoni mwetu walikuwa wakisema uwongo ulio pindukia mipaka juu ya Mwenyezi Mungu.';
+$t[5] = 'Nasi tulidhani kuwa watu na majini hawamzulii uwongo Mwenyezi Mungu.';
+$t[6] = 'Na hakika walikuwako wanaume katika watu walio kuwa wakitafuta kujikinga kwa wanaume wa kijini; kwa hivyo wakawazidisha madhambi.';
+$t[7] = 'Na kwa hakika wao walidhani, kama mlivyo dhani nyinyi, ya kuwa Mwenyezi Mungu hatamleta Mtume.';
+$t[8] = 'Nasi tulizigusa mbingu, na tukaziona zimejaa walinzi wenye nguvu na vimondo.';
+$t[9] = 'Na hakika tulikuwa tukikaa humo katika baadhi ya makao ili kusikiliza; lakini sasa anaye taka kusikiliza atakuta kimondo kinamvizia!';
+$t[10] = 'Nasi hatujui kama wanatakiwa shari wale wanao kaa kwenye ardhi au Mola wao Mlezi anawatakia uwongofu.';
+$t[11] = 'Na hakika katika sisi wamo walio wema, na wengine wetu ni kinyume na hivyo. Tumekuwa njia mbali mbali.';
+$t[12] = 'Nasi tulijua kuwa hatutomshinda Mwenyezi Mungu duniani, wala hatuwezi kumponyoka kwa kukimbia.';
+$t[13] = 'Nasi tulipo usikia uwongofu tuliuamini. Basi mwenye kumuamini Mola wake Mlezi basi haogopi kupunjwa wala kudhulumiwa.';
+$t[14] = 'Na hakika wamo katika sisi Waislamu, na wamo kati yetu wanao acha haki. Basi walio silimu, hao ndio walio tafuta uwongofu.';
+$t[15] = 'Na ama wanao acha haki, hao watakuwa kuni za Jahannamu.';
+$t[16] = 'Na lau kama wangeli simama sawasawa juu ya njia tungeli wanywesha maji kwa wingi,';
+$t[17] = 'Ili tuwajaribu kwa hayo. Na anaye puuza kumkumbuka Mola wake Mlezi atamsukuma kwenye adhabu ngumu.';
+$t[18] = 'Na hakika misikiti ni ya Mwenyezi Mungu, basi msimuabudu yeyote pamoja na Mwenyezi Mungu.';
+$t[19] = 'Na hakika Mja wa Mwenyezi Mungu alipo simama kumwomba, wao walikuwa karibu kumzonga!';
+$t[20] = 'Sema: Hakika mimi namwomba Mola wangu Mlezi, wala simshirikishi Yeye na yeyote.';
+$t[21] = 'Sema: Mimi sina mamlaka ya kukudhuruni wala kukuongozeni.';
+$t[22] = 'Sema: Hakika hapana yeyote awezae kunilinda na Mwenyezi Mungu, wala sitapata pa kukimbilia isipo kuwa kwake Yeye tu.';
+$t[23] = 'Ila nifikishe Ujumbe utokao kwa Mwenyezi Mungu na risala zake. Na wenye kumuasi Mwenyezi Mungu na Mtume wake, basi hakika hao watapata Moto wa Jahannamu wadumu humo milele.';
+$t[24] = 'Hata watakapo yaona wanayo ahidiwa, ndipo watakapo jua ni nani mwenye msaidizi dhaifu, na mchache wa idadi.';
+$t[25] = 'Sema: Sijui kama yapo karibu hayo mnayo ahidiwa, au Mola wangu Mlezi atayawekea muda mrefu.';
+$t[26] = 'Yeye ndiye Mwenye kujua ya siri, wala hamdhihirishii yeyote siri yake,';
+$t[27] = 'Isipo kuwa Mtume wake aliye mridhia. Naye huyo humwekea walinzi mbele yake na nyuma yake.';
+$t[28] = 'Ili Yeye ajue kwamba wao wamefikisha ujumbe wa Mola wao Mlezi, na Yeye anayajua vyema yote walio nayo, na amedhibiti idadi ya kila kitu.';
+?>

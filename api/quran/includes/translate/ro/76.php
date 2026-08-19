@@ -1,0 +1,34 @@
+<?php
+$t = array();
+$t[1] = 'Nu a trecut oare peste om o vreme c&acirc;nd nu este nimic amintit?';
+$t[2] = 'Noi am creat omul, pentru a-l pune la &icirc;ncercare, dintr-o picătură de săm&acirc;nţă şi amestecuri. Noi i-am dat auzul şi văzul.';
+$t[3] = 'L-am călăuzit pe Calea cea Dreaptă, fie că va fi mulţumitor, fie că va fi tăgăduitor.';
+$t[4] = 'Tăgăduitorilor le-am pregătit lanţuri, juguri şi Jăratec.';
+$t[5] = 'Neprihăniţii vor bea dintr-un pocal o licoare cu camfor.';
+$t[6] = 'Robii lui Dumnezeu vor bea din izvoare pe care le vom face să ţ&acirc;şnească din belşug,';
+$t[7] = 'căci ei &icirc;şi &icirc;mplinesc făgăduinţele, se tem de o zi al cărui rău se va răsp&acirc;ndi &icirc;n tot locul.';
+$t[8] = 'Ei dau de m&acirc;ncare din dragoste pentru El, sărmanului, orfanului şi prinsului:';
+$t[9] = '&ldquo;Noi vă dăm de m&acirc;ncare de dragul lui Dumnezeu şi nu vrem de la voi nici răsplată, nici mulţumire.';
+$t[10] = 'Nouă ne este frică de Domnul nostru &icirc;n ziua cea cruntă şi nimicitoare.&rdquo;';
+$t[11] = 'Dumnezeu i-a ferit &icirc;nsă de răul acelei Zile şi le va da să &icirc;nt&acirc;lnească numai voioşie şi bucurie.';
+$t[12] = 'El &icirc;i va răsplăti pentru răbdarea lor cu o grădină şi cu mătase.';
+$t[13] = 'Culcaţi pe paturi de nuntă nu vor suferi nici de soarele arzător şi nici de gerul pişcător.';
+$t[14] = 'Umbra se va lăsa peste ei, iar fructele se vor apleca să fie culese.';
+$t[15] = 'Printre ei vor umbla vase de argint şi pocaluri de cleştar,';
+$t[16] = 'de cleştar şi de argint, umplute cu măsură.';
+$t[17] = 'Vor bea dintr-un pocal un amestec de ghimbir,';
+$t[18] = 'şi dintr-un izvor numit acolo Salsabil.';
+$t[19] = 'Flăcăiandrii nemuritori se vor &icirc;nv&acirc;rti &icirc;n jurul lor &mdash; văz&acirc;ndu-i vei crede că sunt mărgăritare ne&icirc;nşirate!';
+$t[20] = 'C&acirc;nd vei privi &icirc;n jur, vei vedea desfătare şi o mare &icirc;mpărăţie.';
+$t[21] = 'Ei vor purta veşminte verzi, de satin şi de brocart şi vor fi &icirc;mpodobiţi cu brăţări de argint. Domnul lor le va da să bea o băutură prea-curată.';
+$t[22] = '&ldquo;Toate acestea vă vor fi vouă răsplată a trudei voastre drept mulţumire!&rdquo;';
+$t[23] = 'Noi am pogor&acirc;t asupra ta Coranul.';
+$t[24] = 'Rabdă pentru Domnul tău! Nu da ascultare nici păcătosului şi nici tăgăduitorului dintre ei!';
+$t[25] = 'Aminteşte Numele Domnului tău &icirc;n zori şi &icirc;n amurg!';
+$t[26] = 'Noaptea, prosternează-te &icirc;naintea Lui şi preamăreşte-L noapte lungă.';
+$t[27] = 'Ei iubesc degrabă-trecătoarea şi dau la spate o Zi grea.';
+$t[28] = 'Noi i-am creat şi le-am &icirc;ntărit &icirc;ncheieturile, &icirc;nsă dacă vrem, &icirc;i putem &icirc;nlocui cu alţii asemenea lor.';
+$t[29] = 'Aceasta este o amintire! Cel care vrea, apucă spre Domnul său pe o cale,';
+$t[30] = '&icirc;nsă voi nu voiţi dec&acirc;t ceea ce Dumnezeu voieşte. Dumnezeu este Cunoscător, &Icirc;nţelept.';
+$t[31] = 'El lasă să intre pe cine voieşte &icirc;n milostivenia Sa, iar celor nedrepţi le-a pregătit o dureroasă os&acirc;ndă.';
+?>

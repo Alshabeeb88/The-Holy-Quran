@@ -1,0 +1,21 @@
+<?php
+$t = array();
+$t[1] = 'ALLT det som himlarna rymmer och det som jorden b&auml;r prisar Gud; herrav&auml;ldet &auml;r Hans och allt lov och pris tillkommer Honom och Han har makt &ouml;ver allt.';
+$t[2] = 'Det &auml;r Han som har skapat er; bland er finns den som [tvivlar och] f&ouml;rnekar sanningen och den som tror. Och Gud ser vad ni g&ouml;r.';
+$t[3] = 'Han har skapat himlarna och jorden i enlighet med en plan och ett syfte; Han har format er [och gett er] den b&auml;sta skapnad och Han &auml;r m&aring;let f&ouml;r er f&auml;rd.';
+$t[4] = 'Han k&auml;nner allt som finns i himlarna och p&aring; jorden och Han vet vad ni h&aring;ller hemligt och vad ni &ouml;ppet visar; ja, Gud &auml;r Den som vet vad som r&ouml;r sig i m&auml;nniskans innersta.';
+$t[5] = 'HAR NI inte h&ouml;rt ber&auml;ttas om dem som i g&aring;ngna tider f&ouml;rnekade sanningen? De fick smaka de bittra frukterna av sina handlingar och [i n&auml;sta liv v&auml;ntar dem] ett sv&aring;rt lidande;';
+$t[6] = 's&aring; &auml;r det d&auml;rf&ouml;r att de, n&auml;r s&auml;ndebuden kom till dem med klara bevis, svarade: &quot;&Auml;r det d&aring; m&auml;nniskor som skall v&auml;gleda oss?&quot; - och s&aring; f&ouml;rnekade de sanningen och v&auml;nde ryggen till. Men Gud beh&ouml;ver dem inte - Gud &auml;r Sig sj&auml;lv nog; allt lov och pris tillkommer Honom.';
+$t[7] = 'De som f&ouml;rnekar sanningen p&aring;st&aring;r att de inte skall uppv&auml;ckas fr&aring;n de d&ouml;da. S&auml;g: &quot;Vid min Herre och Gud! Helt visst skall ni &aring;teruppv&auml;ckas och d&aring; skall ni f&aring; veta vad era handlingar [var v&auml;rda]. Detta &auml;r l&auml;tt f&ouml;r Gud.&quot;';
+$t[8] = 'Tro d&auml;rf&ouml;r p&aring; Gud och Hans S&auml;ndebud och p&aring; det ljus som Vi har uppenbarat [f&ouml;r er]; Gud &auml;r v&auml;l underr&auml;ttad om vad ni g&ouml;r.';
+$t[9] = 'Den Dag d&aring; Han kallar er till den stora Samlingen, kommer de f&ouml;rmodade vinnarna och f&ouml;rlorarna att byta plats. F&ouml;r dem som trodde p&aring; Honom och levde ett r&auml;ttskaffens liv skall Gud utpl&aring;na deras d&aring;liga handlingar och l&aring;ta dem stiga in i lustg&aring;rdar, vattnade av b&auml;ckar, d&auml;r de skall f&ouml;rbli till evig tid - detta &auml;r den stora, den lysande segern.';
+$t[10] = 'Men de som framh&auml;rdade i att f&ouml;rneka sanningen och p&aring;stod att V&aring;ra budskap &auml;r l&ouml;gn har Elden till arvedel och d&auml;r skall de f&ouml;rbli till evig tid - i sanning ett el&auml;ndigt slut!';
+$t[11] = 'INGEN olycka drabbar [er] utan Guds till&aring;telse. Gud ger hj&auml;rtat hos den som tror p&aring; Honom dess v&auml;gledning. - Gud har kunskap om allt.';
+$t[12] = 'Lyd Gud och lyd S&auml;ndebudet! Om ni v&auml;nder honom ryggen [skall ni veta att] det bara &aring;ligger V&aring;rt S&auml;ndebud att klart framf&ouml;ra det budskap [som anf&ouml;rtrotts &aring;t honom].';
+$t[13] = 'Gud - det finns ingen annan gud &auml;n Han; l&aring;t d&auml;rf&ouml;r de troende s&auml;tta all sin lit till Gud!';
+$t[14] = 'TROENDE! Bland era hustrur och era barn kan finnas [de som &auml;r] era fiender; var d&auml;rf&ouml;r p&aring; er vakt mot dem! Men om ni har &ouml;verseende, f&ouml;rl&aring;ter och gl&ouml;mmer [de felsteg som de beg&aring;r, skall Gud visa att] Han &auml;r st&auml;ndigt f&ouml;rl&aring;tande, barmh&auml;rtig.';
+$t[15] = 'Era &auml;godelar och era barn &auml;r inte annat &auml;n [medel med vilka] Han pr&ouml;var er; hos Gud v&auml;ntar en rik bel&ouml;ning.';
+$t[16] = 'Frukta d&auml;rf&ouml;r Gud efter m&aring;ttet av er f&ouml;rm&aring;ga; lyssna till och lyd [Hans ord]. Och ge &aring;t andra f&ouml;r er sj&auml;ls b&auml;sta; det skall g&aring; dem v&auml;l i h&auml;nder som v&auml;rjer sig f&ouml;r girighetens [frestelser].';
+$t[17] = 'Om ni ger Gud ett l&aring;n av goda g&auml;rningar, skall Han betala tillbaka det med m&aring;ngdubbla v&auml;rdet och f&ouml;rl&aring;ta era synder; Gud erk&auml;nner [Sina tj&auml;nares] f&ouml;rtj&auml;nster och Han har &ouml;verseende [med deras brister].';
+$t[18] = 'Han k&auml;nner allt det som &auml;r dolt f&ouml;r m&auml;nniskor och det som de bevittnar - Han, den Allsm&auml;ktige, den Vise.';
+?>

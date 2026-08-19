@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Sprich: Mir ist offenbart worden, da&szlig; eine Schar Djinn zuh&ouml;rte. Sie sagten: &laquo;Wir haben einen erstaunlichen Koran geh&ouml;rt,';
+$t[2] = 'Der zum rechten Wandel leitet. So haben wir an ihn geglaubt. Und wir werden unserem Herrn niemanden beigesellen.';
+$t[3] = 'Und erhaben ist die Majest&auml;t unseres Herrn. Er hat sich weder eine Gef&auml;hrtin noch ein Kind genommen.';
+$t[4] = 'Und der Tor unter uns pflegte gegen Gott etwas Abwegiges zu sagen.';
+$t[5] = 'Und wir meinten, da&szlig; weder die Menschen noch die Djinn gegen Gott eine L&uuml;ge sagen w&uuml;rden.';
+$t[6] = 'Und einige M&auml;nner unter den Menschen suchten Zuflucht bei einigen M&auml;nnern unter den Djinn und mehrten somit bei ihnen ihre Gewaltt&auml;tigkeit.';
+$t[7] = 'Und sie meinten, wie ihr ja meint, da&szlig; Gott niemanden auferwecken w&uuml;rde.';
+$t[8] = 'Und wir haben den Himmel abgesucht und festgestellt, da&szlig; er mit starken W&auml;chtern und Sternschnuppen voll ist.';
+$t[9] = 'Und wir pflegten uns an verschiedenen Stellen von ihm zu setzen, um zu lauschen. Wer aber jetzt horcht, der findet, da&szlig; eine Sternschnuppe auf ihn lauert.';
+$t[10] = 'Und wir wissen nicht, ob f&uuml;r die Bewohner der Erde B&ouml;ses vorgesehen ist, oder ob ihr Herr vorhat, sie zum rechten Wandel zu f&uuml;hren.';
+$t[11] = 'Und unter uns gibt es Rechtschaffene; und unter uns gibt es solche, die es nicht sind. Wir folgten getrennten Wegen.';
+$t[12] = 'Und wir meinen, da&szlig; wir auf der Erde Gottes Willen nicht vereiteln k&ouml;nnen, und da&szlig; wir ihn nicht durch Flucht vereiteln k&ouml;nnen.';
+$t[13] = 'Und als wir die Rechtleitung h&ouml;rten, glaubten wir an sie. Wer an seinen Herrn glaubt, der bef&uuml;rchtet keinen Lohnabzug und keine Gewaltanwendung.';
+$t[14] = 'Und unter uns gibt es solche, die gottergeben sind; und unter uns gibt es solche, die dem Falschen zuneigen. Diejenigen nun, die gottergeben sind, bem&uuml;hen sich um den rechten Wandel.';
+$t[15] = 'Diejenigen aber, die dem Falschen zuneigen, werden Brennholz f&uuml;r die H&ouml;lle sein.';
+$t[16] = 'Und w&uuml;rden sie den rechten Weg einschlagen, w&uuml;rden Wir ihnen reichlich Wasser zu trinken geben,';
+$t[17] = 'Um sie dadurch der Versuchung auszusetzen. Und wer sich von der Ermahnung seines Herrn abwendet, den wird Er in eine &uuml;berw&auml;ltigende Pein eingehen lassen.';
+$t[18] = 'Und die Anbetungsst&auml;tten geh&ouml;ren Gott; so ruft neben Gott niemanden an.';
+$t[19] = 'Und als der Diener Gottes aufstand, um Ihn anzurufen, h&auml;tten sie ihn im Gedr&auml;nge fast erdr&uuml;ckt.&raquo;';
+$t[20] = 'Sprich: Ich rufe meinen Herrn an, und ich geselle Ihm niemanden bei.';
+$t[21] = 'Sprich: Ich verf&uuml;ge f&uuml;r euch weder &uuml;ber Schaden noch &uuml;ber die rechte Unterweisung.';
+$t[22] = 'Sprich: Niemand kann mich gegen Gott sch&uuml;tzen, und ich kann au&szlig;er bei Ihm keinen Ort finden, wohin ich mich begeben k&ouml;nnte.';
+$t[23] = 'Ich habe nur etwas auszurichten von Gott und seinen Botschaften. Und f&uuml;r diejenigen, die gegen Gott und seinen Gesandten ungehorsam sind, ist das Feuer der H&ouml;lle bestimmt; darin werden sie auf immer ewig weilen.';
+$t[24] = 'Wenn sie dann sehen, was ihnen angedroht ist, werden sie wissen, wer die schw&auml;cheren Helfer und die geringere Zahl hat.';
+$t[25] = 'Sprich: Ich wei&szlig; nicht, ob das, was euch angedroht ist, nahe ist, oder ob mein Herr ihm noch eine Frist setzt,';
+$t[26] = '(Er), der &uuml;ber das Unsichtbare Bescheid wei&szlig; und niemandem &uuml;ber das, was bei Ihm verborgen ist, Auskunft gibt,';
+$t[27] = 'Au&szlig;er dem Gesandten, der Ihm genehm ist; dann l&auml;&szlig;t Er vor ihm und hinter ihm W&auml;chter gehen, die ihn belauern,';
+$t[28] = 'Um festzustellen, ob sie die Botschaften ihres Herrn ausgerichtet haben. Er umfa&szlig;t, was bei ihnen ist, und Er erfa&szlig;t die Zahl aller Dinge.';
+?>

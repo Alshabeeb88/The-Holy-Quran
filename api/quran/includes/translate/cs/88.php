@@ -1,0 +1,29 @@
+<?php
+$t = array();
+$t[1] = 'Dostalo se ti zvěsti o hodině zahaluj&iacute;c&iacute;?';
+$t[2] = 'V ten den budou tv&aacute;ře jedněch zahanben&eacute;,';
+$t[3] = 'ustaran&eacute; a ztrhan&eacute;,';
+$t[4] = 'a hořet budou v ohni planouc&iacute;m';
+$t[5] = 'nap&aacute;jeny pramenem vrouc&iacute;m;';
+$t[6] = 'jen bodl&aacute;č&iacute; trnit&eacute; tam za stravu budou m&iacute;t,';
+$t[7] = 'z něhož se netloustne a j&iacute;mž hlad nelze uti&scaron;it.';
+$t[8] = 'A v ten den budou tv&aacute;ře jin&yacute;ch blažen&eacute;,';
+$t[9] = '&uacute;sil&iacute;m sv&yacute;m potě&scaron;en&eacute;,';
+$t[10] = 'v zahradě vyv&yacute;&scaron;en&eacute;,';
+$t[11] = 'kde neusly&scaron;&iacute; tlach&aacute;n&iacute; plan&eacute;;';
+$t[12] = 'v n&iacute; prameny jsou proud&iacute;c&iacute;';
+$t[13] = 'a pohovky zv&yacute;&scaron;en&eacute;';
+$t[14] = 'a poh&aacute;ry rozestaven&eacute;';
+$t[15] = 'a podu&scaron;ky v řad&aacute;ch vyrovnan&eacute;';
+$t[16] = 'a drah&eacute; koberce rozprostřen&eacute;.';
+$t[17] = 'Což neuvažuj&iacute; o tom, jak stvořeni byli velbloudi,';
+$t[18] = 'jak nebesa byla zdvižena,';
+$t[19] = 'jak pohoř&iacute; byla vztyčena,';
+$t[20] = 'jak země byla rozprostřena?';
+$t[21] = 'Připom&iacute;nej, vždyť tys pouze ten, jenž připom&iacute;n&aacute;,';
+$t[22] = 'a nejsi nad nimi ten, jenž zaznamen&aacute;v&aacute;,';
+$t[23] = 'leda toho, kdo odvrac&iacute; se a nevěř&iacute;,';
+$t[24] = 'a toho Bůh trestem nejtěž&scaron;&iacute;m udeř&iacute;!';
+$t[25] = 'K N&aacute;m věru m&iacute;ř&iacute; jejich n&aacute;vrat';
+$t[26] = 'a N&aacute;m pak budou &uacute;čty sv&eacute; skl&aacute;dat!';
+?>

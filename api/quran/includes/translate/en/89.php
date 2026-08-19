@@ -1,0 +1,33 @@
+<?php
+$t = array();
+$t[1] = 'By the dawn';
+$t[2] = 'And [by] ten nights';
+$t[3] = 'And [by] the even [number] and the odd';
+$t[4] = 'And [by] the night when it passes,';
+$t[5] = 'Is there [not] in [all] that an oath [sufficient] for one of perception?';
+$t[6] = 'Have you not considered how your Lord dealt with \'Aad -';
+$t[7] = '[With] Iram - who had lofty pillars,';
+$t[8] = 'The likes of whom had never been created in the land?';
+$t[9] = 'And [with] Thamud, who carved out the rocks in the valley?';
+$t[10] = 'And [with] Pharaoh, owner of the stakes? -';
+$t[11] = '[All of] whom oppressed within the lands';
+$t[12] = 'And increased therein the corruption.';
+$t[13] = 'So your Lord poured upon them a scourge of punishment.';
+$t[14] = 'Indeed, your Lord is in observation.';
+$t[15] = 'And as for man, when his Lord tries him and [thus] is generous to him and favors him, he says, &quot;My Lord has honored me.&quot;';
+$t[16] = 'But when He tries him and restricts his provision, he says, &quot;My Lord has humiliated me.&quot;';
+$t[17] = 'No! But you do not honor the orphan';
+$t[18] = 'And you do not encourage one another to feed the poor.';
+$t[19] = 'And you consume inheritance, devouring [it] altogether,';
+$t[20] = 'And you love wealth with immense love.';
+$t[21] = 'No! When the earth has been leveled - pounded and crushed -';
+$t[22] = 'And your Lord has come and the angels, rank upon rank,';
+$t[23] = 'And brought [within view], that Day, is Hell - that Day, man will remember, but what good to him will be the remembrance?';
+$t[24] = 'He will say, &quot;Oh, I wish I had sent ahead [some good] for my life.&quot;';
+$t[25] = 'So on that Day, none will punish [as severely] as His punishment,';
+$t[26] = 'And none will bind [as severely] as His binding [of the evildoers].';
+$t[27] = '[To the righteous it will be said], &quot;O reassured soul,';
+$t[28] = 'Return to your Lord, well-pleased and pleasing [to Him],';
+$t[29] = 'And enter among My [righteous] servants';
+$t[30] = 'And enter My Paradise.&quot;';
+?>

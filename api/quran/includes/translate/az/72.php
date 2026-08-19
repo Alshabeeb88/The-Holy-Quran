@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = '(Ya Peyğəmbər!) De: &ldquo;Mənə vəhy olundu ki, bir dəstə cin (Məkkə və Taif arasında s&uuml;bh namazı vaxtı Qur&rsquo;anı dinləyib &ouml;z həmcinslərinin yanına qayıtdıqları zaman) dedilər: &ldquo;Biz &ccedil;ox qəribə (təsəvv&uuml;r edilməz dərəcədə g&ouml;zəl olan) bir Qur&rsquo;an eşitdik.';
+$t[2] = 'O, (xalqa) haqq yolu g&ouml;stərir. Biz ona iman gətirdik və biz bir daha he&ccedil; kəsi Rəbbimizə şərik qoşmayacağıq.';
+$t[3] = 'Həqiqətən, Rəbbimizin calalı &ccedil;ox ucadır. O &Ouml;z&uuml;nə nə bir z&ouml;vcə g&ouml;t&uuml;rm&uuml;şd&uuml;r, nə də bir uşaq!';
+$t[4] = 'Doğrusu, bizim səfehimiz (İblis) Allah barəsində tamamilə yalan (haqdan uzaq s&ouml;zlər) s&ouml;yləyirmiş.';
+$t[5] = 'Biz elə g&uuml;man edirdik ki, nə insan, nə də cin tayfası Allah barəsində yalan danışmaz.';
+$t[6] = 'Həqiqətən, (Cahiliyyət d&ouml;vr&uuml;ndə) bə&rsquo;zi insanlar bir para cinlərə pənah aparır, bununla da onların təkəbb&uuml;r&uuml;n&uuml; (azğınlığını) artırırdılar (cinlər &ouml;zləri haqqında &ccedil;ox b&ouml;y&uuml;k fikirlərə d&uuml;ş&uuml;rd&uuml;lər).';
+$t[7] = 'Onlar (o insanlar) da siz (cinlər, yaxud o cinlər də siz insanlar) təkin elə g&uuml;man edirdilər ki, Allah he&ccedil; kəsi (&ouml;ləndən sonra) diriltməyəcəkdir.';
+$t[8] = 'Biz (cinlər yuxarı aləm əhlinin s&ouml;hbətinə oğrun-oğrun qulaq asmaq &uuml;&ccedil;&uuml;n) g&ouml;yə qalxmaq istədik (səmanı yoxladıq), amma onun (mələklərdən ibarət) g&uuml;cl&uuml; g&ouml;zət&ccedil;ilər və yandırıb-yaxan (axan) ulduzlarla dolu olduğunu g&ouml;rd&uuml;k.';
+$t[9] = 'Biz (Muhəmməd əleyhissəlamın peyğəmbər g&ouml;ndərilməsindən əvvəl mələklərin s&ouml;hbətinə) qulaq asmaq &uuml;&ccedil;&uuml;n (g&ouml;y&uuml;n) bə&rsquo;zi yerlərində otururduq. Lakin indi kim (onların s&ouml;hbətinə) qulaq asmış olsa, yandırıb-yaxan bir ulduzun onu g&ouml;zlədiyini g&ouml;rər.';
+$t[10] = 'Biz bilmirik ki, (g&ouml;y&uuml;n g&ouml;zət&ccedil;i mələklərlə, axan ulduzlarla doldurulması və mələklərin s&ouml;hbətinə qulaq asmağın bizə qadağan edilməsi ilə) yerdə olanlara bir pislik etmək istənilmişdir, yoxsa Rəbbi onlara bir xeyir diləmişdir.';
+$t[11] = 'Ş&uuml;bhəsiz ki, aramızda əməlisaleh olanlar da var, olmayanlar da. Biz m&uuml;xtəlif firqələrə (məzhəblərə) ayrılmışıq.';
+$t[12] = 'Biz anladıq ki, yerdə də olsaq, (g&ouml;yə də) qa&ccedil;saq, Allahdan (Allahın əzabından) canımızı qurtara bilmərik (he&ccedil; yerdə, he&ccedil; zaman Allahı aciz edə bilmərik).';
+$t[13] = 'Doğrusu, biz hidayət yolunu g&ouml;stərəni (Qur&rsquo;anı) dinlədiyimiz zaman ona iman gətirdik. Kim Rəbbinə iman gətirsə, nə (yaxşı əməllərinin m&uuml;kafatını) əskilməsindən, nə də haqsızlığa mə&rsquo;ruz qalmaqdan (başqasının g&uuml;nahlarının ona y&uuml;klənməsindən) qorxar.';
+$t[14] = 'Ş&uuml;bhəsiz ki, aramızda (Allaha və Onun Peyğəmbəri Muhəmməd əleyhissəlama iman gətirən) m&uuml;səlmanlar da var, (haqq yoldan) &ccedil;ıxanlar da. M&uuml;səlman olanlar haqq yolu axtarıb tapanlardır.';
+$t[15] = '(Haqq yoldan) &ccedil;ıxanlar isə Cəhənnəm &uuml;&ccedil;&uuml;n odun olacaqlar (orada yandırılacaqlar)&rdquo;';
+$t[16] = '(Sonra mənə belə vəhy olundu:) Əgər onlar (Məkkə m&uuml;şrikləri) o yolda (islam dinində) doğru olsaydılar, Biz onlara (yeddi il davam edən quraqlıq və qıtlıq əsnasında) bol yağış verərdik ki,';
+$t[17] = 'Onları bununla (bu ne&rsquo;mətlə) imtahana &ccedil;əkək. Kim &ouml;z Rəbbini yad etməkdən &uuml;z &ccedil;evirsə, (Allah) onu məşəqqətli bir əzaba d&uuml;&ccedil;ar edər.';
+$t[18] = 'Ş&uuml;bhəsiz ki, (b&uuml;t&uuml;n) məscidlər Allaha məxsusdur. Allahdan başqa he&ccedil; kəsə ibadət etməyin!';
+$t[19] = 'Allahın bəndəsi (Muhəmməd əleyhissəlam) Ona ibadət etmək (namaz qılmaq) &uuml;&ccedil;&uuml;n qalxdıqda (cinlər) az qalmışdı ki, onun ətrafında ke&ccedil;ə kimi bir-birinə ke&ccedil;sinlər (izdihamın &ccedil;oxluğundan bir-birinin &uuml;st&uuml;nə minsinlər).';
+$t[20] = '(Ya Peyğəmbər!) De: &ldquo;Mən ancaq &ouml;z Rəbbimə ibadət edirəm və he&ccedil; kəsi Ona şərik qoşmuram!&rdquo;';
+$t[21] = 'De: &ldquo;Mən sizə nə bir zərər, nə də bir xeyir vermək q&uuml;drətinə malik deyiləm! (Bunu ancaq aləmlərin Rəbbi olan Allah edə bilər!)&rdquo;';
+$t[22] = 'De: &ldquo;Məni Allahdan (Allahın əzabından) he&ccedil; kəs qurtara bilməz və mən də Ondan başqa he&ccedil; bir sığınacaq tapa bilmərəm!';
+$t[23] = '(Mənim əlimdən) Allah dərgahından olanı və Onun g&ouml;ndərdiklərini (Qur&rsquo;anı və dini h&ouml;kmləri) təbliğ etməkdən başqa (he&ccedil; bir şey gəlməz). Allah və Onun Peyğəmbərinə asi olanları cəhənnəm odu g&ouml;zləyir. Onlar orada həmişəlik qalacaqlar!&rdquo;';
+$t[24] = 'Onlar təhdid olunduqlarını (qiyamətdəki, və ya Bədr vuruşundakı əzabı) g&ouml;rd&uuml;kləri zaman kimin k&ouml;mək&ccedil;isinin daha zəif və sayca daha az olduğunu biləcəklər.';
+$t[25] = 'De: &ldquo;Mən sizin qorxudulduğunuz əzabın yaxın olduğunu, yaxud Rəbbimin onun &uuml;&ccedil;&uuml;n uzun bir m&uuml;ddət tə&rsquo;yin edəcəyini bilmirəm!';
+$t[26] = 'Qeybi bilən ancaq Odur və &Ouml;z qeybini he&ccedil; kəsə əyan etməz;';
+$t[27] = 'Bəyənib se&ccedil;diyi peyğəmbərdən başqa! (Qeybi nə bir mələk, nə də bir peyğəmbər bilər. Onun a&ccedil;arları ancaq Allahın əlindədir. Lakin Allah istədiyi peyğəmbərə bir m&ouml;&rsquo;c&uuml;zə olaraq vəhy yolu ilə qeybdən bə&rsquo;zi xəbərlər bildirər). Allah onların &ouml;n&uuml;ndə və arxasında (mələklərdən ibarət) g&ouml;zət&ccedil;ilər qoyar ki,';
+$t[28] = '(Peyğəmbərlərinin) &ouml;z Rəbbinin g&ouml;ndərdiklərini (nə c&uuml;r) təbliğ etdiyini bilsin (bəlli etsin). (Allah) onlarda olanların hamısını (peyğəmbərlərin əhvalatını və b&uuml;t&uuml;n əməllərini &Ouml;z elmi ilə) ehtiva etmişdir. O, hər şeyi bir-bir sayıb yazmışdır (təsbit etmişdir)!&rdquo;';
+?>

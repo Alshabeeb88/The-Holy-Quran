@@ -1,0 +1,31 @@
+<?php
+$t = array();
+$t[1] = 'Sesungguhnya Kami telah mengutus Nabi Nuh kepada kaumnya, (dengan berfirman kepadanya): &quot;Berikanlah peringatan dan amaran kepada kaummu sebelum mereka didatangi azab yang tidak terperi sakitnya&quot;.';
+$t[2] = 'dia pun (menyeru mereka dengan) berkata: &quot;Wahai kaumku! Sesungguhnya aku ini diutus kepada kamu, sebagai pemberi ingatan dan amaran yang nyata;';
+$t[3] = '&quot;Iaitu sembahlah kamu akan Allah dan bertaqwalah kepadaNya, serta taatlah kamu kepadaku;';
+$t[4] = '&quot;Supaya Allah mengampunkan bagi kamu sebahagian dari dosa-dosa kamu, dan memberi kamu hidup (dengan tidak terkena azab) hingga ke suatu masa yang tertentu; (maka segeralah beribadat dan bertaqwa) kerana sesungguhnya ajal (yang telah ditetapkan) Allah, apabila sampai masanya, tidak dapat ditangguhkan; kalaulah kamu mengetahui (hakikat ini tentulah kamu segera beriman)&quot;.';
+$t[5] = '(Setelah puas menyeru mereka), Nabi Nuh berdoa dengan berkata: &quot;Wahai Tuhanku, sesungguhnya aku telah menyeru kaumku siang dan malam (supaya mereka beriman);';
+$t[6] = '&quot;Maka seruanku itu tidak memberikan mereka (sesuatu faedah pun) selain daripada menambahi mereka melarikan diri (dari kebenaran).';
+$t[7] = '&quot;Dan sesungguhnya aku, tiap-tiap kali menyeru mereka (beriman) supaya Engkau mengampunkan dosa-dosa mereka, - mereka menyumbatkan telinganya dengan jari masing-masing, dan berselubung dengan pakaiannya, serta berdegil dengan keingkarannya, dan berlaku sombong takbur dengan melampau.';
+$t[8] = '&quot;Kemudian aku telah menyeru mereka dengan terang-terang;';
+$t[9] = '&quot;Selain dari itu, aku (berulang-ulang) menyeru mereka secara beramai-ramai dengan berterus-terang, dan menyeru mereka lagi secara berseorangan dengan perlahan-lahan.';
+$t[10] = '&quot;Sehingga aku berkata (kepada mereka): `Pohonkanlah ampun kepada Tuhan kamu, sesungguhnya adalah Ia Maha Pengampun.';
+$t[11] = '&quot;(Sekiranya kamu berbuat demikian), Ia akan menghantarkan hujan lebat mencurah-curah, kepada kamu;';
+$t[12] = '&quot;Dan Ia akan memberi kepada kamu dengan banyaknya harta kekayaan serta anak-pinak; dan Ia akan mengadakan bagi kamu kebun-kebun tanaman, serta mengadakan bagi kamu sungai-sungai (yang mengalir di dalamnya).';
+$t[13] = '&quot;Mengapa kamu berkeadaan tidak menghargai kebesaran Allah (dan kekuasaanNya), -';
+$t[14] = '&quot;Padahal sesungguhnya Ia telah menciptakan kamu dengan kejadian yang berperingkat-peringkat?';
+$t[15] = '&quot;Tidakkah kamu mengetahui dan memikirkan bagaimana Allah telah menciptakan tujuh petala langit bertingkat-tingkat,';
+$t[16] = '&quot;Dan Ia menjadikan padanya bulan sebagai cahaya serta menjadikan matahari sebagai lampu (yang terang-benderang),';
+$t[17] = '&quot;Dan Allah telah menumbuhkan kamu (hidup dari benda-benda yang berasal) dari bumi, dengan pertumbuhan yang sungguh-sungguh sempurna,';
+$t[18] = '&quot;Kemudian Ia mengembalikan kamu ke dalam bumi (sesudah mati), dan mengeluarkan kamu daripadanya (sesudah dihidupkan semula untuk dihitung amal kamu dan diberi balasan), dengan pengeluaran yang sesungguh-sungguhnya?';
+$t[19] = '&quot;Dan Allah telah menjadikan bumi bagi kamu sebagai hamparan,';
+$t[20] = '&quot;Supaya kamu melalui jalan-jalan yang luas padanya&quot;.';
+$t[21] = 'Nabi Nuh (merayu lagi dengan) berkata: &quot;Wahai Tuhanku! Sesungguhnya, mereka telah menderhaka kepadaku, dan mereka telah menurut orang yang harta bendanya dan anak-pinaknya tidak menambahinya melainkan kerugian (di akhirat kelak).';
+$t[22] = '&quot;Dan mereka telah menjalankan tipu daya dengan merancangkan rancangan yang amat besar jahatnya (untuk menentang seruanku).';
+$t[23] = '&quot;Dan (ketua-ketua) mereka (menghasut dengan) berkata: `Jangan kamu meninggalkan (penyembahan) tuhan-tuhan kamu, terutama (penyembahan) Wadd, dan Suwaa\', dan Yaghuth, dan Ya\'uuq, serta Nasr.';
+$t[24] = '&quot;Dan sesungguhnya ketua-ketua itu telah menyesatkan kebanyakan (dari umat manusia); dan (dengan yang demikian) janganlah Engkau (wahai Tuhanku) menambahi orang-orang yang zalim itu melainkan kesesatan jua&quot;.';
+$t[25] = 'Disebabkan dosa-dosa dan kesalahan mereka, mereka ditenggelamkan (dengan banjir dan taufan), kemudian (pada hari akhirat) dimasukkan ke dalam neraka; maka mereka tidak akan beroleh sebarang penolong yang lain dari Allah (yang dapat memberikan pertolongan).';
+$t[26] = 'Dan Nabi Nuh (merayu lagi dengan) berkata: &quot;Wahai Tuhanku! Janganlah Engkau biarkan seorangpun dari orang-orang kafir itu hidup di atas muka bumi!';
+$t[27] = '&quot;Kerana sesungguhnya jika Engkau biarkan mereka (hidup), nescaya mereka akan menyesatkan hamba-hambaMu, dan mereka tidak akan melahirkan anak melainkan yang berbuat dosa lagi kufur ingkar.';
+$t[28] = '&quot;Wahai Tuhanku! Ampunkanlah bagiku, dan bagi kedua ibu bapaku, serta bagi sesiapa yang masuk ke rumahku dengan keadaan beriman; dan (ampunkanlah) bagi sekalian orang-orang yang beriman, lelaki dan perempuan (dalam segala zaman); dan janganlah Engkau tambahi orang-orang yang zalim melainkan kebinasaan!&quot;';
+?>

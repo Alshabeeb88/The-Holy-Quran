@@ -1,0 +1,32 @@
+<?php
+$t = array();
+$t[1] = 'Až slunce bude svinuto,';
+$t[2] = 'až hvězdy pohasnou,';
+$t[3] = 'až hory se z m&iacute;sta pohnou,';
+$t[4] = 'až břez&iacute; velbloudice bude zanedb&aacute;na';
+$t[5] = 'a divok&aacute; zv&iacute;řata shrom&aacute;žděna,';
+$t[6] = 'až moře se povař&iacute;';
+$t[7] = 'a du&scaron;e až se sp&aacute;ř&iacute;,';
+$t[8] = 'až zaživa pohřben&aacute; bude t&aacute;z&aacute;na,';
+$t[9] = 'pro jakou vinu byla utracena,';
+$t[10] = 'až svitky budou rozvinuty';
+$t[11] = 'a nebe bude staženo';
+$t[12] = 'a peklo rozp&aacute;leno';
+$t[13] = 'a zahrada rajsk&aacute; přibl&iacute;žena,';
+$t[14] = 'tehdy du&scaron;e každ&aacute;, co vykonala, pozn&aacute;!';
+$t[15] = 'Hle, př&iacute;sah&aacute;m při planet&aacute;ch zpět se vracej&iacute;c&iacute;ch,';
+$t[16] = 'spěchaj&iacute;c&iacute;ch a mizej&iacute;c&iacute;ch,';
+$t[17] = 'při noci, když v temno se hal&iacute;,';
+$t[18] = 'při jitru, když dechu nab&iacute;r&aacute;,';
+$t[19] = 'že toto věru slova jsou posla vzne&scaron;en&eacute;ho,';
+$t[20] = 'silou vl&aacute;dnouc&iacute;ho u P&aacute;na trůnu mohutn&eacute;ho,';
+$t[21] = 'poslu&scaron;nost nal&eacute;zaj&iacute;c&iacute;ho a spolehliv&eacute;ho!';
+$t[22] = 'V&aacute;&scaron; druh nen&iacute; džiny posedl&yacute; bl&aacute;zen';
+$t[23] = 'a vskutku jej viděl na obzoru jasn&eacute;m -';
+$t[24] = 'a nen&iacute; skoup&yacute; o nepoznateln&eacute;m!';
+$t[25] = 'A nejsou to slova satana proklet&eacute;ho!';
+$t[26] = 'Kam tedy odch&aacute;z&iacute;te?';
+$t[27] = 'Vždyť toto slouž&iacute; jen lidstvu k připomenut&iacute;,';
+$t[28] = 'těm z v&aacute;s, kdo přej&iacute; si po stezce př&iacute;m&eacute; j&iacute;ti.';
+$t[29] = 'V&scaron;ak př&aacute;t si toho nebudete, pokud Bůh, P&aacute;n lidstva ve&scaron;ker&eacute;ho, nebude cht&iacute;ti!';
+?>
