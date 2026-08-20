@@ -27,8 +27,8 @@ $content = '
     <a class="admin-dashboard-card" href="sadaqah-agent.php">
       <span class="admin-dashboard-icon"><i class="fas fa-feather-alt"></i></span>
       <div>
-        <strong>وكيل الصدقة الجارية</strong>
-        <small>إدارة ومراجعة محتوى وكيل الصدقة الجارية.</small>
+        <strong>استوديو النشر على X</strong>
+        <small>إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X.</small>
       </div>
     </a>
 

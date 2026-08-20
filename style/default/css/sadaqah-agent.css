@@ -2,3 +2,19 @@
 /* Private admin session */
 .agent-private-bar{display:flex;align-items:center;justify-content:space-between;gap:15px;margin-top:13px;padding:10px 14px;border:1px solid #dce8e4;border-radius:13px;background:#fff;color:#60736c;font-size:10px}.agent-private-bar a{color:#0b6555;font-weight:800;text-decoration:none}html[data-theme="dark"] .agent-private-bar{border-color:#285247;background:#0d2a22;color:#b7c7c1}html[data-theme="dark"] .agent-private-bar a{color:#e4c977}
 .agent-private-bar>div{display:flex;align-items:center;gap:14px}
+
+/* Over the 280-character limit */
+.agent-post.is-over-limit{border-color:#d0a49a;background:linear-gradient(135deg,#fff,#fdf6f4)}
+.agent-post.is-over-limit textarea{border-color:#d9b0a6;background:#fdf8f7}
+.agent-post.is-over-limit .agent-post-foot>span{color:#a4503f;font-weight:800}
+.agent-post.is-over-limit .agent-post-foot>span::after{content:" — تجاوز الحد المسموح"}
+html[data-theme="dark"] .agent-post.is-over-limit{border-color:#6f4239;background:#2a1a16}
+html[data-theme="dark"] .agent-post.is-over-limit textarea{border-color:#6f4239;background:#22120f}
+html[data-theme="dark"] .agent-post.is-over-limit .agent-post-foot>span{color:#e0a496}
+
+/* Manual share on X */
+.agent-share-x{display:inline-flex;align-items:center;gap:5px;border:1px solid #0f1419;background:#0f1419;color:#fff}
+.agent-share-x svg{width:10px;height:10px;fill:currentColor}
+.agent-share-x:hover{background:#26303a;border-color:#26303a}
+html[data-theme="dark"] .agent-share-x{border-color:#46555f;background:#0f1419;color:#f1f5f3}
+html[data-theme="dark"] .agent-share-x:hover{background:#1c262f}
