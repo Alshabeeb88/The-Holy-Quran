@@ -1773,50 +1773,87 @@ class QuranForAll extends QuranForAll_API {
 	}
 
 	public function sadaqah_agent_page(){
-		$this->title = 'وكيل الصدقة الجارية';
-		$this->description = 'معاينة وجدولة محتوى حساب الصدقة الجارية قبل ربطه بمنصة X.';
+		$this->title = 'استوديو النشر على X';
+		$this->description = 'إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X';
 		$this->url = $this->url(array('action' => 'sadaqah_agent'));
-		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.0">';
-		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.0" defer></script>';
+		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.2">';
+		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.3" defer></script>';
 
 		$days = array(
 			array('الأحد','3 تغريدات',array(
-				array('08:00 ص','آية','﴿وَقُل رَّبِّ زِدْنِي عِلْمًا﴾\n\nدعاء قرآني جامع لطلب العلم النافع والزيادة من فضله سبحانه.\n\n📖 سورة طه: [رابط السورة]'),
-				array('01:00 م','ذكر','سبحان الله وبحمده، سبحان الله العظيم 🌿\n\nذكرٌ يسير على اللسان، عظيم في الميزان.'),
+				array('08:00 ص','آية',"﴿وَقُل رَّبِّ زِدْنِي عِلْمًا﴾\n\nدعاء قرآني جامع لطلب العلم النافع والزيادة من فضله سبحانه.\n\n📖 سورة طه: [رابط السورة]"),
+				array('01:00 م','ذكر',"سبحان الله وبحمده، سبحان الله العظيم 🌿\n\nذكرٌ يسير على اللسان، عظيم في الميزان."),
 				array('08:30 م','دعاء','اللهم اغفر لصاحب هذه الصدقة الجارية وارحمه، واجعل القرآن نورًا له ورفعةً في درجاته.')
 			)),
 			array('الاثنين','3 تغريدات',array(
-				array('08:00 ص','آية','﴿إِنَّ مَعَ الْعُسْرِ يُسْرًا﴾\n\nمهما اشتد الأمر، فرحمة الله أقرب وأوسع.\n\n📖 سورة الشرح: [رابط السورة]'),
-				array('05:00 م','من الموقع','حصّن مساءك بذكر الله 🌙\n\nأذكار المساء الصحيحة مع عداد يساعدك على إتمام وردك:\n[رابط أذكار المساء]'),
+				array('08:00 ص','آية',"﴿إِنَّ مَعَ الْعُسْرِ يُسْرًا﴾\n\nمهما اشتد الأمر، فرحمة الله أقرب وأوسع.\n\n📖 سورة الشرح: [رابط السورة]"),
+				array('05:00 م','من الموقع',"حصّن مساءك بذكر الله 🌙\n\nأذكار المساء الصحيحة مع عداد يساعدك على إتمام وردك:\n[رابط أذكار المساء]"),
 				array('09:00 م','دعاء','اللهم اجعل هذا الحساب بابًا للأجر الذي لا ينقطع، وارحم صاحبه رحمةً واسعة.')
 			)),
 			array('الثلاثاء','3 تغريدات',array(
-				array('08:00 ص','آية','﴿فَاذْكُرُونِي أَذْكُرْكُمْ﴾\n\nابدأ يومك بذكر الله؛ ففي الذكر طمأنينة القلوب.\n\n📖 سورة البقرة: [رابط السورة]'),
-				array('01:00 م','ذكر','لا حول ولا قوة إلا بالله.\n\nكلمة استعانة وتفويض، يطمئن بها القلب ويقوى بها العبد.'),
+				array('08:00 ص','آية',"﴿فَاذْكُرُونِي أَذْكُرْكُمْ﴾\n\nابدأ يومك بذكر الله؛ ففي الذكر طمأنينة القلوب.\n\n📖 سورة البقرة: [رابط السورة]"),
+				array('01:00 م','ذكر',"لا حول ولا قوة إلا بالله.\n\nكلمة استعانة وتفويض، يطمئن بها القلب ويقوى بها العبد."),
 				array('08:30 م','دعاء','اللهم آنس وحشة صاحب هذه الصدقة الجارية، ونوّر قبره، واجمعه بمن يحب في جنات النعيم.')
 			)),
 			array('الأربعاء','3 تغريدات',array(
-				array('08:00 ص','آية','﴿أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾\n\n📖 سورة الرعد: [رابط السورة]'),
-				array('05:00 م','من الموقع','اقرأ ما تيسر من كتاب الله، واستمع لتلاوة خاشعة من قارئك المفضل.\n\n📖 القرآن الكريم: [رابط الموقع]'),
+				array('08:00 ص','آية',"﴿أَلَا بِذِكْرِ اللَّهِ تَطْمَئِنُّ الْقُلُوبُ﴾\n\n📖 سورة الرعد: [رابط السورة]"),
+				array('05:00 م','من الموقع',"اقرأ ما تيسر من كتاب الله، واستمع لتلاوة خاشعة من قارئك المفضل.\n\n📖 القرآن الكريم: [رابط الموقع]"),
 				array('09:00 م','دعاء','ربنا آتنا في الدنيا حسنة، وفي الآخرة حسنة، وقنا عذاب النار.')
 			)),
 			array('الخميس','3 تغريدات',array(
-				array('08:00 ص','آية','﴿وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ﴾\n\nكل توفيق من الله، فاستعن به وتوكل عليه.\n\n📖 سورة هود: [رابط السورة]'),
+				array('08:00 ص','آية',"﴿وَمَا تَوْفِيقِي إِلَّا بِاللَّهِ﴾\n\nكل توفيق من الله، فاستعن به وتوكل عليه.\n\n📖 سورة هود: [رابط السورة]"),
 				array('05:00 م','ذكر','أستغفر الله العظيم وأتوب إليه 🌿'),
 				array('09:00 م','دعاء','اللهم بلّغنا الجمعة بقلوب مطمئنة، وأعمال مقبولة، وذنوب مغفورة.')
 			)),
 			array('الجمعة','4 تغريدات',array(
-				array('08:00 ص','الجمعة','جمعة مباركة 🤍\n\nأكثروا من الصلاة والسلام على رسول الله ﷺ.'),
-				array('10:00 ص','سورة الكهف','نورٌ ما بين الجمعتين 🌿\n\nلا تنسَ قراءة سورة الكهف وتدبر آياتها.\n\n📖 سورة الكهف: [رابط السورة]'),
+				array('08:00 ص','الجمعة',"جمعة مباركة 🤍\n\nأكثروا من الصلاة والسلام على رسول الله ﷺ."),
+				array('10:00 ص','سورة الكهف',"نورٌ ما بين الجمعتين 🌿\n\nلا تنسَ قراءة سورة الكهف وتدبر آياتها.\n\n📖 سورة الكهف: [رابط السورة]"),
 				array('04:30 م','الجمعة','في يوم الجمعة ساعة لا يوافقها عبد مسلم يسأل الله خيرًا إلا أعطاه؛ فالتمسها وأكثر من الدعاء.'),
 				array('08:30 م','دعاء','اللهم في يوم الجمعة اغفر لصاحب هذه الصدقة الجارية وارحمه، واجعل منزلته في الفردوس الأعلى.')
 			)),
 			array('السبت','3 تغريدات',array(
-				array('08:30 ص','آية','﴿وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ﴾\n\nمعية الله سكينةٌ للقلب وأمان.\n\n📖 سورة الحديد: [رابط السورة]'),
-				array('01:00 م','من الموقع','تعرّف على معاني الآيات من التفاسير الميسرة والموثوقة.\n\n📚 التفاسير: [رابط التفاسير]'),
+				array('08:30 ص','آية',"﴿وَهُوَ مَعَكُمْ أَيْنَ مَا كُنتُمْ﴾\n\nمعية الله سكينةٌ للقلب وأمان.\n\n📖 سورة الحديد: [رابط السورة]"),
+				array('01:00 م','من الموقع',"تعرّف على معاني الآيات من التفاسير الميسرة والموثوقة.\n\n📚 التفاسير: [رابط التفاسير]"),
 				array('08:30 م','دعاء','اللهم اختم لنا أسبوعنا بعفوك ورضاك، وافتح لنا القادم بالخير والبركة.')
 			))
 		);
+
+		/*
+		 * Placeholder resolution for the "share on X" button.
+		 *
+		 * The links that end up inside a published post are built only from the
+		 * configured SITE_URL. The site URL that the rest of the request uses can
+		 * fall back to HTTP_HOST when SITE_URL is not configured, and a forged Host
+		 * header must never be able to place a link to an attacker's domain into a
+		 * post. So when SITE_URL is absent the placeholders are simply left alone
+		 * rather than resolved against a guessed origin.
+		 */
+		$share_base = ( defined('SITE_URL') ? rtrim(trim((string)SITE_URL), '/') : '' );
+
+		// Accept a generated link only if it really sits under the configured site.
+		$share_link = function( $url ) use ( $share_base ){
+			$url = (string)$url;
+			return ( $share_base !== '' && strpos($url, $share_base.'/') === 0 ) ? $url : '';
+		};
+
+		$share_common = array();
+		$surah_by_name = array();
+		if( $share_base !== '' ){
+			$evening_url = $share_link($this->url(array('action' => 'evening_adhkar')));
+			$tafseer_url = $share_link($this->url(array('action' => 'tafseer')));
+			$quran_url   = $share_link($this->url(array('action' => 'quran')));
+			if( $evening_url !== '' ) $share_common['[رابط أذكار المساء]'] = $evening_url;
+			if( $tafseer_url !== '' ) $share_common['[رابط التفاسير]'] = $tafseer_url;
+			if( $quran_url !== '' )   $share_common['[رابط الموقع]'] = $quran_url;
+
+			// Surah ids come from the project's own Arabic surah table, so the mapping
+			// is data-driven rather than a hand-written guess.
+			foreach( $this->api_surah_name('ar') as $surah_id => $surah_row ){
+				if( isset($surah_row['name']) ) $surah_by_name[$surah_row['name']] = (int)$surah_id;
+			}
+		}
+
+		$x_icon = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
 
 		$dayTabs = '';
 		$dayPanels = '';
@@ -1826,17 +1863,55 @@ class QuranForAll extends QuranForAll_API {
 			$posts = '';
 			foreach($day[2] as $post){
 				$postId++;
-				$posts .= '<article class="agent-post" data-post="'.$postId.'"><div class="agent-post-meta"><time>'.$post[0].'</time><span>'.$post[1].'</span><b data-post-status>بانتظار المراجعة</b></div><textarea aria-label="نص تغريدة '.$postId.'">'.$post[2].'</textarea><div class="agent-post-foot"><span><b data-char-count>0</b> / 280 حرفًا</span><div><button type="button" class="agent-edit" data-edit><i class="fas fa-pen"></i> تعديل</button><button type="button" class="agent-approve" data-approve><i class="fas fa-check"></i> اعتماد</button></div></div></article>';
+				$post_text = (string)$post[2];
+
+				/*
+				 * The character counter is rendered server-side so it already shows the
+				 * real value on first paint, instead of a placeholder 0 that the deferred
+				 * script corrects a moment later.
+				 *
+				 * The unit is UTF-16 code units, which is what JavaScript's String.length
+				 * reports; counting code points instead would disagree with the live
+				 * counter on every text containing an emoji. Counted from the UTF-8 bytes
+				 * rather than through mbstring, which this project treats as optional:
+				 * every byte that is not a continuation byte starts one code point, and
+				 * a four-byte sequence needs a second UTF-16 unit.
+				 */
+				$post_length = preg_match_all('~[^\x80-\xBF]~', $post_text)
+					+ preg_match_all('~[\xF0-\xF4]~', $post_text);
+				$post_over = ( $post_length > 280 ? ' is-over-limit' : '' );
+
+				/*
+				 * Only the placeholders this post actually uses are published to the
+				 * markup. The substitution happens at share time in the browser, so the
+				 * administrator keeps reading the readable placeholder in the textarea
+				 * while X receives the real link.
+				 */
+				$post_links = $share_common;
+				if( $share_base !== '' && strpos($post_text, '[رابط السورة]') !== false
+					&& preg_match('~سورة\s+([^:\n]+):\s*\[رابط السورة\]~u', $post_text, $surah_match) ){
+					$surah_name = trim($surah_match[1]);
+					if( isset($surah_by_name[$surah_name]) ){
+						$surah_url = $share_link($this->url(array('surah' => $surah_by_name[$surah_name])));
+						if( $surah_url !== '' ) $post_links['[رابط السورة]'] = $surah_url;
+					}
+				}
+				foreach( $post_links as $placeholder => $link ){
+					if( strpos($post_text, $placeholder) === false ) unset($post_links[$placeholder]);
+				}
+				$post_links_attr = ( empty($post_links ) ? '' : ' data-share-links="'.htmlspecialchars((string)json_encode($post_links, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES), ENT_QUOTES, 'UTF-8').'"' );
+
+				$posts .= '<article class="agent-post'.$post_over.'" data-post="'.$postId.'"'.$post_links_attr.'><div class="agent-post-meta"><time>'.$post[0].'</time><span>'.$post[1].'</span><b data-post-status>بانتظار المراجعة</b></div><textarea aria-label="نص تغريدة '.$postId.'">'.htmlspecialchars($post_text, ENT_QUOTES, 'UTF-8').'</textarea><div class="agent-post-foot"><span><b data-char-count>'.$post_length.'</b> / 280 حرفًا</span><div><button type="button" class="agent-edit" data-edit><i class="fas fa-pen"></i> تعديل</button><button type="button" class="agent-approve" data-approve><i class="fas fa-check"></i> اعتماد</button><button type="button" class="agent-share-x" data-share-x aria-label="فتح منشور جديد على X بنص هذه التغريدة، دون نشر تلقائي" title="يفتح X والنص جاهز — النشر لا يتم إلا بضغطك داخل X">'.$x_icon.' شارك على X</button></div></div></article>';
 			}
 			$dayPanels .= '<section class="agent-day-panel'.($dayIndex === 0 ? ' is-active' : '').'" data-day-panel="'.$dayIndex.'"><div class="agent-day-head"><div><span>خطة يوم '.$day[0].'</span><h2>'.$day[1].' مجدولة</h2></div><button type="button" data-approve-day><i class="fas fa-check-double"></i> اعتماد اليوم</button></div><div class="agent-posts">'.$posts.'</div></section>';
 		}
 
 		return '<section class="sadaqah-agent-page" aria-labelledby="agent-title"><div class="container agent-container">'
-		.'<header class="agent-hero"><div><span class="agent-eyebrow">نسخة تجريبية — لا يوجد نشر فعلي</span><h1 id="agent-title">وكيل الصدقة الجارية</h1><p>خطة محتوى أسبوعية لحساب الصدقة الجارية، تراجعها وتعتمدها قبل ربط الحساب بمنصة X.</p></div><span class="agent-hero-icon"><i class="fas fa-feather-alt"></i></span></header>'
+		.'<header class="agent-hero"><div><span class="agent-eyebrow">النشر يدوي — لا يوجد نشر تلقائي</span><h1 id="agent-title">استوديو النشر على X</h1><p>إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X</p></div><span class="agent-hero-icon"><i class="fas fa-feather-alt"></i></span></header>'
 		.'<div class="agent-private-bar"><span><i class="fas fa-user-shield"></i> دخول خاص: '.htmlspecialchars(defined('ADMIN_EMAIL') ? (string)ADMIN_EMAIL : '', ENT_QUOTES, 'UTF-8').'</span><div><a href="index.php"><i class="fas fa-external-link-alt"></i> عرض الموقع</a><a href="admin-logout.php"><i class="fas fa-sign-out-alt"></i> تسجيل الخروج</a></div></div>'
 		.'<div class="agent-summary"><div><i class="fas fa-calendar-week"></i><span>هذا الأسبوع<strong>22 تغريدة</strong></span></div><div><i class="fas fa-clock"></i><span>المعدل اليومي<strong>3–4 تغريدات</strong></span></div><div><i class="fas fa-shield-alt"></i><span>حالة النشر<strong>معاينة فقط</strong></span></div><button type="button" data-reset-plan><i class="fas fa-redo-alt"></i> إعادة التجربة</button></div>'
 		.'<nav class="agent-day-tabs" aria-label="أيام الأسبوع">'.$dayTabs.'</nav>'.$dayPanels
-		.'<footer class="agent-safety"><i class="fas fa-lock"></i><p><strong>لن يُنشر أي شيء الآن</strong><span>الاعتماد في هذه اللوحة تجريبي ومحفوظ على جهازك فقط. ربط X والنشر التلقائي مرحلة مستقلة لاحقًا.</span></p></footer>'
+		.'<footer class="agent-safety"><i class="fas fa-lock"></i><p><strong>لا نشر تلقائي</strong><span>زر «شارك على X» يفتح نافذة X والنص جاهز فيها، ولا يُنشر شيء إلا بضغطك على زر النشر داخل X. الاعتماد في هذه اللوحة محفوظ على جهازك فقط، والربط التلقائي مرحلة مستقلة لاحقًا.</span></p></footer>'
 		.'</div></section>';
 	}
 
