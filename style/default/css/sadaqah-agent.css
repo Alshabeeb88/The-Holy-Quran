@@ -333,3 +333,82 @@ html[data-theme="dark"] .sadaqah-agent-page .agent-archive-icon,
 html[data-theme="dark"] .sadaqah-agent-page .agent-archive-open {
   color: var(--q-dark-accent, #79bba7);
 }
+
+/* =========================================================
+   X Studio v1.14 - Dark mode residuals
+   These declarations predate the palette work and were never
+   reached by the v1.13 rules, so they kept emerald values in
+   every palette. Only decorative surfaces move to the palette
+   variables. Semantic colours are handled two ways: the amber
+   advisory family keeps its amber identity but loses the green
+   tint that was baked into its dark background, and the status
+   colours (approved / published / over-limit / unpublish /
+   damaged / X brand) are excluded by :not() so they keep the
+   rules they already have.
+   ========================================================= */
+
+/* Neutral actions. Edit, cancel and the archive toggle are
+   navigation, not status, so they follow the palette. */
+html[data-theme="dark"] .sadaqah-agent-page .agent-edit,
+html[data-theme="dark"] .sadaqah-agent-page .agent-cancel,
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-open {
+  border-color: var(--q-dark-border, #38584e);
+  background: var(--q-dark-card, #12382e);
+  color: var(--q-dark-text, #dce8e4);
+}
+
+/* Round section icons: background was the only emerald left,
+   the colour already followed the palette from v1.13. */
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-icon,
+html[data-theme="dark"] .sadaqah-agent-page .agent-empty-icon {
+  background: var(--q-dark-card, #12382e);
+}
+
+/* Archive list surfaces. Damaged rows are excluded: that red is
+   an error state, and it gets its own dark rule below. */
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-row:not(.is-open):not(.is-damaged),
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-post:not(.is-published):not(.is-approved) {
+  border-color: var(--q-dark-border, #285247);
+  background: var(--q-dark-bg, #091e19);
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-row.is-open {
+  border-color: var(--q-dark-accent, #4c8b78);
+  background: var(--q-dark-card, #12382e);
+}
+
+/* The damaged-archive red had no dark rule at all, so the old
+   emerald surface rule was covering it. Restored as a red. */
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-row.is-damaged {
+  border-color: #6f4239;
+  background: #2a1a16;
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-counts span,
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-readonly {
+  background: var(--q-dark-card, #12382e);
+}
+
+/* Amber advisory family. The border and the text were already
+   amber; only the surface was a dark green. It becomes a dark
+   amber rather than a palette colour, because turning a warning
+   burgundy or navy would destroy what the colour means. */
+html[data-theme="dark"] .sadaqah-agent-page .agent-safety,
+html[data-theme="dark"] .sadaqah-agent-page .agent-stale,
+html[data-theme="dark"] .sadaqah-agent-page .agent-duplicate {
+  background: #241f14;
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-published,
+html[data-theme="dark"] .sadaqah-agent-page .agent-unapprove {
+  background: #241f14;
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-published:hover:not(:disabled),
+html[data-theme="dark"] .sadaqah-agent-page .agent-unapprove:hover:not(:disabled) {
+  background: #2f2819;
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-duplicate-link {
+  background: #2f2819;
+}
