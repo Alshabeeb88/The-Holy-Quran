@@ -1776,8 +1776,8 @@ class QuranForAll extends QuranForAll_API {
 		$this->title = 'استوديو النشر على X';
 		$this->description = 'إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X';
 		$this->url = $this->url(array('action' => 'sadaqah_agent'));
-		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.3">';
-		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.4" defer></script>';
+		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.4">';
+		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.5" defer></script>';
 
 		require_once __DIR__ . '/x-studio-store.php';
 		require_once __DIR__ . '/x-studio-plan.php';
@@ -1937,8 +1937,16 @@ class QuranForAll extends QuranForAll_API {
 					.'<div class="agent-post-meta"><time>'.htmlspecialchars($timeLabel, ENT_QUOTES, 'UTF-8').'</time><span>'.htmlspecialchars($typeLabel, ENT_QUOTES, 'UTF-8').'</span><b data-post-status>'.$statusLabel.'</b></div>'
 					.'<textarea aria-label="نص تغريدة '.$postId.'" readonly>'.htmlspecialchars($post_text, ENT_QUOTES, 'UTF-8').'</textarea>'
 					.'<div class="agent-post-foot"><span><b data-char-count>'.$post_length.'</b> / 280 حرفًا</span>'
-					.'<div><button type="button" class="agent-share-x" data-share-x aria-label="فتح منشور جديد على X بنص هذه التغريدة، دون نشر تلقائي" title="يفتح X والنص جاهز — النشر لا يتم إلا بضغطك داخل X">'.$x_icon.' شارك على X</button></div>'
-					.'</div></article>';
+					.'<div>'
+					.'<button type="button" class="agent-edit" data-edit><i class="fas fa-pen"></i> تعديل</button>'
+					.'<button type="button" class="agent-save" data-save hidden><i class="fas fa-floppy-disk"></i> حفظ</button>'
+					.'<button type="button" class="agent-cancel" data-cancel hidden>إلغاء</button>'
+					.'<button type="button" class="agent-approve" data-approve'.($approved ? ' disabled' : '').'><i class="fas fa-check"></i> اعتماد</button>'
+					.'<button type="button" class="agent-share-x" data-share-x aria-label="فتح منشور جديد على X بنص هذه التغريدة، دون نشر تلقائي" title="يفتح X والنص جاهز — النشر لا يتم إلا بضغطك داخل X">'.$x_icon.' شارك على X</button>'
+					.'</div>'
+					.'</div>'
+					.'<p class="agent-post-message" data-post-message role="status" aria-live="polite"></p>'
+					.'</article>';
 			}
 
 			$dayPanels .= '<section class="agent-day-panel'.($dayIndex === 0 ? ' is-active' : '').'" data-day-panel="'.$dayIndex.'"><div class="agent-day-head"><div><span>خطة يوم '.htmlspecialchars($dayName, ENT_QUOTES, 'UTF-8').'</span><h2>'.$countLabel.' مجدولة</h2></div></div><div class="agent-posts">'.$posts.'</div></section>';

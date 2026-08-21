@@ -177,6 +177,203 @@
     });
   });
 
+  // ---------------------------------------------------------------------
+  // Talking to the server about one post
+  // ---------------------------------------------------------------------
+
+  var SAVE_URL = 'x-studio-save.php';
+
+  /*
+   * Set once a conflict is reported. The plan on screen is then known to be out
+   * of date, so every further write is refused locally until the page is
+   * reloaded: retrying with a fresh revision would silently overwrite whatever
+   * the other tab just did.
+   */
+  var writesBlocked = false;
+
+  /** The revision the server last confirmed. Read at send time, never cached. */
+  function currentRevision() {
+    return root.getAttribute('data-plan-revision') || '';
+  }
+
+  /** Messages are shown as text. A server string must never become markup. */
+  function tell(post, text) {
+    var box = post.querySelector('[data-post-message]');
+    if (box) box.textContent = text || '';
+  }
+
+  /** Offer a reload after a conflict, without ever building HTML from a string. */
+  function offerReload(post) {
+    var box = post.querySelector('[data-post-message]');
+    if (!box || box.querySelector('[data-reload]')) return;
+
+    var button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'agent-reload';
+    button.setAttribute('data-reload', '');
+    button.textContent = 'إعادة تحميل الصفحة';
+    button.addEventListener('click', function () {
+      window.location.reload();
+    });
+
+    box.appendChild(document.createTextNode(' '));
+    box.appendChild(button);
+  }
+
+  /** Paint one post from what the server says it now holds. */
+  function applyServerPost(post, serverPost) {
+    if (!serverPost || typeof serverPost !== 'object') return;
+
+    var area = post.querySelector('textarea');
+    var badge = post.querySelector('[data-post-status]');
+    var approveButton = post.querySelector('[data-approve]');
+
+    // .value, never innerHTML: the text is content, not markup.
+    if (area && typeof serverPost.text === 'string') area.value = serverPost.text;
+
+    var approved = serverPost.approved === true;
+    var published = serverPost.published === true;
+
+    post.classList.toggle('is-approved', approved && !published);
+    post.classList.toggle('is-published', published);
+    if (badge) badge.textContent = published ? 'منشورة' : (approved ? 'معتمدة' : 'بانتظار المراجعة');
+    if (approveButton) approveButton.disabled = approved || published;
+
+    count(post);
+  }
+
+  /** Turn one post's controls on or off while a request is in flight. */
+  function busy(post, isBusy) {
+    ['[data-edit]', '[data-save]', '[data-cancel]', '[data-approve]'].forEach(function (selector) {
+      var button = post.querySelector(selector);
+      if (button) button.disabled = isBusy;
+    });
+  }
+
+  function editing(post, on) {
+    var area = post.querySelector('textarea');
+    var editButton = post.querySelector('[data-edit]');
+    var saveButton = post.querySelector('[data-save]');
+    var cancelButton = post.querySelector('[data-cancel]');
+    var approveButton = post.querySelector('[data-approve]');
+
+    if (area) area.readOnly = !on;
+    if (editButton) editButton.hidden = on;
+    if (saveButton) saveButton.hidden = !on;
+    if (cancelButton) cancelButton.hidden = !on;
+    if (approveButton) approveButton.hidden = on;
+
+    post.classList.toggle('is-editing', on);
+  }
+
+  /**
+   * One request about one post. Only the named fields are ever sent, and the
+   * page state is changed only from what comes back.
+   */
+  function sendPostAction(post, fields, onSuccess) {
+    var token = root.getAttribute('data-csrf') || '';
+    if (!token) {
+      tell(post, 'تعذر التحقق من الصفحة. أعد تحميلها ثم حاول مرة أخرى.');
+      return;
+    }
+    if (writesBlocked) {
+      tell(post, 'تم تعديل الخطة من مكان آخر. أعد تحميل الصفحة.');
+      offerReload(post);
+      return;
+    }
+
+    var body = new URLSearchParams();
+    body.append('action', fields.action);
+    body.append('csrf', token);
+    body.append('post_id', post.getAttribute('data-post') || '');
+    body.append('expected_revision', currentRevision());
+    if (typeof fields.text === 'string') body.append('text', fields.text);
+
+    busy(post, true);
+    tell(post, 'جارٍ الحفظ…');
+
+    fetch(SAVE_URL, {
+      method: 'POST',
+      credentials: 'same-origin',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+      body: body.toString()
+    }).then(function (response) {
+      return response.json().then(function (data) {
+        return { ok: response.ok, data: data };
+      }).catch(function () {
+        return { ok: false, data: {} };
+      });
+    }).then(function (result) {
+      var data = result.data || {};
+      var code = data.code || '';
+
+      if (code === 'POST_UPDATED' || code === 'OK') {
+        if (typeof data.revision === 'number') {
+          root.setAttribute('data-plan-revision', String(data.revision));
+        }
+        applyServerPost(post, data.post);
+        tell(post, '');
+        busy(post, false);
+        if (onSuccess) onSuccess();
+        return;
+      }
+
+      if (code === 'REVISION_CONFLICT') {
+        /*
+         * No retry, no merge, and nothing on screen is changed from the request
+         * that failed: the local copy is stale, and only a reload can settle it.
+         */
+        writesBlocked = true;
+        tell(post, 'تم تعديل الخطة من مكان آخر. أعد تحميل الصفحة.');
+        offerReload(post);
+        return;   // controls stay disabled
+      }
+
+      if (code === 'AUTH_REQUIRED') {
+        tell(post, 'انتهت جلسة الإدارة. سجّل الدخول من جديد.');
+        return;
+      }
+      if (code === 'CSRF_FAILED' || code === 'ORIGIN_REJECTED') {
+        tell(post, 'رُفض الطلب لأسباب أمنية. أعد تحميل الصفحة ثم حاول مرة أخرى.');
+        return;
+      }
+      if (code === 'RULE_VIOLATION') {
+        // Shown as plain text, straight from the server's own wording.
+        tell(post, typeof data.message === 'string' ? data.message : 'لا يمكن تنفيذ هذه العملية.');
+        busy(post, false);
+        return;
+      }
+      if (code === 'PLAN_NOT_FOUND') {
+        writesBlocked = true;
+        tell(post, 'لم تعد الخطة موجودة على الخادم. أعد تحميل الصفحة.');
+        offerReload(post);
+        return;
+      }
+      if (code === 'STORE_CORRUPT') {
+        tell(post, 'ملف الخطة تالف. راجعه على الخادم قبل المحاولة.');
+        return;   // no retry: this needs a human
+      }
+      if (code === 'STORE_UNREADABLE') {
+        tell(post, 'تعذر قراءة ملف الخطة. راجع صلاحيات الملف على الخادم.');
+        return;
+      }
+      if (code === 'WRITE_FAILED') {
+        // Nothing was written, so trying again is safe.
+        tell(post, 'تعذر حفظ التغيير على الخادم. حاول مرة أخرى.');
+        busy(post, false);
+        return;
+      }
+
+      tell(post, typeof data.message === 'string' ? data.message : 'تعذر تنفيذ العملية.');
+      busy(post, false);
+    }).catch(function () {
+      // A network failure changed nothing on the server, so nothing changes here
+      // either; the controls simply come back.
+      tell(post, 'تعذر الاتصال بالخادم. تحقق من الاتصال ثم حاول مرة أخرى.');
+      busy(post, false);
+    });
+  }
+
   posts.forEach(function (post) {
     var id = post.getAttribute('data-post');
     var area = post.querySelector('textarea');
@@ -194,6 +391,8 @@
 
     if (area) {
       area.addEventListener('input', function () {
+        // Counting is safe either way; only the local draft store is gated.
+        count(post);
         if (serverBacked) return;
 
         var entry = state[id] || (state[id] = {});
@@ -204,22 +403,62 @@
 
         // Neither call touches the value, so the caret stays where it is.
         status(post);
-        count(post);
       });
     }
 
     var editButton = post.querySelector('[data-edit]');
+    var saveButton = post.querySelector('[data-save]');
+    var cancelButton = post.querySelector('[data-cancel]');
+    var approveButton = post.querySelector('[data-approve]');
+
+    // The text as the server last confirmed it, so cancelling can restore it
+    // without asking again.
+    var confirmedText = area ? area.value : '';
+
     if (editButton) {
       editButton.addEventListener('click', function () {
-        unlock(post);
+        if (!serverBacked) { unlock(post); return; }
+
+        confirmedText = area ? area.value : '';
+        editing(post, true);
+        tell(post, '');
+        if (area) {
+          area.focus();
+          area.setSelectionRange(area.value.length, area.value.length);
+        }
       });
     }
 
-    var approveButton = post.querySelector('[data-approve]');
+    if (cancelButton) {
+      cancelButton.addEventListener('click', function () {
+        if (area) area.value = confirmedText;
+        count(post);
+        editing(post, false);
+        tell(post, '');
+      });
+    }
+
+    if (saveButton) {
+      saveButton.addEventListener('click', function () {
+        if (!area || saveButton.disabled) return;   // guards the double click
+
+        sendPostAction(post, { action: 'save_post', text: area.value }, function () {
+          confirmedText = area.value;
+          editing(post, false);
+        });
+      });
+    }
+
     if (approveButton) {
       approveButton.addEventListener('click', function () {
-        approve(post);
-        save();
+        if (approveButton.disabled) return;         // guards the double click
+
+        if (!serverBacked) { approve(post); save(); return; }
+
+        // No text is sent: approval is about the stored wording, not this page's.
+        sendPostAction(post, { action: 'approve_post' }, function () {
+          confirmedText = area ? area.value : confirmedText;
+        });
       });
     }
 
