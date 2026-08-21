@@ -5,6 +5,7 @@ includes/config.php
 includes/admin_auth_store.php
 includes/contact_messages.php
 includes/contact_messages-archive.php
+/includes/x_studio_current.php
 cache/
 
 # Sessions / temporary files

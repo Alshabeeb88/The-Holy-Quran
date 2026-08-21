@@ -2,7 +2,7 @@ RewriteEngine on
 
 # Private application artefacts. Each of these also carries an application-level
 # guard, so protection does not depend on this file alone.
-<FilesMatch "^(\.qfa-installed|\.qfa-install\.lock|admin_auth_store\.php|contact_messages\.php|contact_messages-archive\.php|contact_messages\.jsonl)$">
+<FilesMatch "^(\.qfa-installed|\.qfa-install\.lock|admin_auth_store\.php|contact_messages\.php|contact_messages-archive\.php|contact_messages\.jsonl|x_studio_current\.php(\.bak|\.tmp-[0-9a-f]+)?)$">
 Require all denied
 </FilesMatch>
 
