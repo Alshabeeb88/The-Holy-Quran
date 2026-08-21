@@ -1274,3 +1274,133 @@ function qfa_x_archive_week(string $weekId, ?string $file = null): array {
         'posts' => $read['data']['posts'],
     ];
 }
+
+// ---------------------------------------------------------------------------
+// Advisory duplicate detection
+// ---------------------------------------------------------------------------
+
+/** At most this many earlier uses are reported for one text. */
+const QFA_X_DUPLICATE_MAX_MATCHES = 3;
+
+/**
+ * Fold away differences that are only formatting, and nothing else.
+ *
+ * The comparison this feeds is exact, so the normalisation has to be timid: it
+ * touches whitespace and line endings only. Diacritics, punctuation, brackets
+ * around Qur'anic text, emoji, link placeholders and every Arabic letter are
+ * left exactly as written, because two texts that differ in any of those are
+ * genuinely different texts and warning about them would train the
+ * administrator to ignore the warning.
+ *
+ * Deliberately absent: stemming, letter folding, case folding and any removal
+ * of marks. A false positive here costs more than a missed duplicate, since
+ * this is advice, not a gate.
+ */
+function qfa_x_duplicate_normalize(string $text): string {
+    // One line ending, whatever the text arrived with.
+    $text = str_replace(["\r\n", "\r"], "\n", $text);
+
+    /*
+     * A non-breaking space is whitespace that happens to be invisible, so it is
+     * treated as one. Zero-width joiners are left alone: in Arabic they can
+     * change how a word is shaped, which makes them content rather than spacing.
+     */
+    $text = str_replace("\xC2\xA0", ' ', $text);
+
+    // Runs of spaces and tabs become one space; blank lines collapse to one break.
+    $text = preg_replace('~[ \t]+~u', ' ', $text);
+    $text = preg_replace('~[ \t]*\n[ \t]*~u', "\n", $text);
+    $text = preg_replace('~\n{2,}~u', "\n", $text);
+
+    return trim($text);
+}
+
+/**
+ * Build a lookup of every text the archive already holds.
+ *
+ * Each archived week is opened once and only once, which keeps the work linear
+ * in the number of archived posts rather than multiplying by the size of the
+ * current plan. Weeks that cannot be read are skipped entirely: a damaged file
+ * is never compared against, so it can neither raise a warning nor hide one.
+ *
+ * @return array<string, array<int, array>> normalised text => earlier uses,
+ *         newest first, capped per text.
+ */
+function qfa_x_duplicate_index(?string $file = null): array {
+    $index = [];
+
+    // qfa_x_archive_list() already returns weeks newest first.
+    foreach (qfa_x_archive_list($file) as $entry) {
+        if ($entry['status'] !== QFA_X_OK) {
+            continue;
+        }
+
+        $week = qfa_x_archive_week((string)$entry['week_id'], $file);
+        if ($week['status'] !== QFA_X_OK) {
+            continue;
+        }
+
+        foreach ($week['posts'] as $post) {
+            $key = qfa_x_duplicate_normalize((string)$post['text']);
+            if ($key === '') {
+                continue;
+            }
+            if (isset($index[$key]) && count($index[$key]) >= QFA_X_DUPLICATE_MAX_MATCHES) {
+                continue;
+            }
+
+            /*
+             * Only what the notice needs to explain itself. No path, no file
+             * name, nothing internal.
+             */
+            $index[$key][] = [
+                'archived_week_id' => (string)$entry['week_id'],
+                'archived_start_date' => (string)$entry['start_date'],
+                'archived_end_date' => (string)$entry['end_date'],
+                'archived_post_id' => (string)$post['post_id'],
+                'day' => (int)$post['day'],
+                'time' => (string)$post['time'],
+                'type' => (string)$post['type'],
+                'published' => ($post['published'] ?? false) === true,
+                'approved' => ($post['approved'] ?? false) === true,
+            ];
+        }
+    }
+
+    return $index;
+}
+
+/**
+ * Which posts of a plan repeat something already in the archive.
+ *
+ * Exact match after the formatting-only normalisation above, so a warning means
+ * the whole text was used before, not that part of it looks familiar. Nothing
+ * is written, nothing is blocked, and a plan is never compared against itself:
+ * the only source is the archive.
+ *
+ * @return array<string, array<int, array>> post_id => earlier uses, newest first
+ */
+function qfa_x_duplicate_matches_for_plan(array $plan, ?string $file = null): array {
+    if (!isset($plan['posts']) || !is_array($plan['posts'])) {
+        return [];
+    }
+
+    $index = qfa_x_duplicate_index($file);
+    if ($index === []) {
+        return [];
+    }
+
+    $matches = [];
+    foreach ($plan['posts'] as $post) {
+        if (!isset($post['post_id'], $post['text'])) {
+            continue;
+        }
+
+        $key = qfa_x_duplicate_normalize((string)$post['text']);
+        if ($key !== '' && isset($index[$key])) {
+            $matches[(string)$post['post_id']] = $index[$key];
+        }
+    }
+
+    return $matches;
+}
