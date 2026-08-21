@@ -56,3 +56,10 @@ html[data-theme="dark"] .sadaqah-agent-page .agent-cancel{border-color:#38584e;b
 html[data-theme="dark"] .sadaqah-agent-page .agent-post.is-editing textarea{background:#091e19}
 html[data-theme="dark"] .sadaqah-agent-page .agent-post-message{color:#e0a496}
 html[data-theme="dark"] .sadaqah-agent-page .agent-reload{border-color:#6f4239;background:#2a1a16;color:#e0a496}
+
+/* Recording that a post went out on X */
+.sadaqah-agent-page .agent-published{display:inline-flex;align-items:center;gap:5px;border:1px solid #b18e44;background:#fff;color:#8a6c2f}
+.sadaqah-agent-page .agent-published:hover:not(:disabled){background:#fffaf0}
+.sadaqah-agent-page .agent-post.is-published .agent-post-meta b{background:#dff1ea;color:#08705a}
+html[data-theme="dark"] .sadaqah-agent-page .agent-published{border-color:#6b5a2e;background:#17271e;color:#e4c977}
+html[data-theme="dark"] .sadaqah-agent-page .agent-published:hover:not(:disabled){background:#1e2f24}
