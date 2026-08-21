@@ -596,6 +596,99 @@
   // Creating the week's plan
   // ---------------------------------------------------------------------
 
+  // ---------------------------------------------------------------------
+  // Moving on to the current week
+  // ---------------------------------------------------------------------
+
+  var ROLLOVER_URL = 'x-studio-rollover.php';
+
+  var rolloverButton = root.querySelector('[data-rollover]');
+  if (rolloverButton) {
+    var rolloverMessage = root.querySelector('[data-rollover-message]');
+
+    // textContent, never innerHTML: these are shown as text and must never
+    // become markup.
+    function rolloverSay(text) {
+      if (rolloverMessage) rolloverMessage.textContent = text;
+    }
+
+    rolloverButton.addEventListener('click', function () {
+      if (rolloverButton.disabled) return;          // guards the double click
+
+      var token = root.getAttribute('data-csrf') || '';
+      if (!token) {
+        rolloverSay('تعذر التحقق من الصفحة. أعد تحميلها ثم حاول مرة أخرى.');
+        return;
+      }
+
+      /*
+       * Asked first, and worded so the order is plain: the week on screen is
+       * filed away, then a new one is created. Nothing is deleted.
+       */
+      if (!window.confirm('سيتم حفظ خطة الأسبوع الحالية في الأرشيف، ثم إنشاء خطة الأسبوع الجديد.\n\nلن تُحذف أي خطة سابقة. هل تريد المتابعة؟')) return;
+
+      rolloverButton.disabled = true;
+      rolloverSay('جارٍ أرشفة الخطة وإنشاء الأسبوع الجديد…');
+
+      var body = new URLSearchParams();
+      body.append('action', 'rollover_week');
+      body.append('csrf', token);
+
+      fetch(ROLLOVER_URL, {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+        body: body.toString()
+      }).then(function (response) {
+        return response.json().then(function (data) {
+          return { ok: response.ok, data: data };
+        }).catch(function () {
+          return { ok: false, data: {} };
+        });
+      }).then(function (result) {
+        var code = (result.data && result.data.code) || '';
+
+        /*
+         * Both mean the studio is now on the current week, so the page is
+         * reloaded to read what the server holds rather than drawing it here.
+         */
+        if (code === 'ROLLOVER_COMPLETE' || code === 'CURRENT_WEEK_ACTIVE') {
+          window.location.reload();
+          return;
+        }
+
+        if (code === 'AUTH_REQUIRED') {
+          rolloverSay('انتهت جلسة الإدارة. سجّل الدخول من جديد.');
+        } else if (code === 'CSRF_FAILED' || code === 'ORIGIN_REJECTED') {
+          rolloverSay('رُفض الطلب لأسباب أمنية. أعد تحميل الصفحة ثم حاول مرة أخرى.');
+        } else if (code === 'ARCHIVE_CONFLICT') {
+          // Deliberately no retry: two different weeks share an id and only a
+          // person can decide which one is right.
+          rolloverSay('يوجد أسبوع مؤرشف بنفس المعرّف ومحتواه مختلف. لم يُحذف أو يُستبدل شيء، وتلزم مراجعته على الخادم.');
+        } else if (code === 'REVISION_CONFLICT') {
+          rolloverSay('تم تعديل الخطة من مكان آخر. أعد تحميل الصفحة.');
+        } else if (code === 'PLAN_NOT_FOUND') {
+          rolloverSay('لم تعد الخطة موجودة على الخادم. أعد تحميل الصفحة.');
+        } else if (code === 'STORE_CORRUPT') {
+          rolloverSay('ملف الخطة تالف. راجعه على الخادم قبل الأرشفة.');
+        } else if (code === 'STORE_UNREADABLE') {
+          rolloverSay('تعذر قراءة ملف الخطة. راجع صلاحيات الملف على الخادم.');
+        } else if (code === 'WRITE_FAILED') {
+          rolloverSay('تعذر إتمام الأرشفة. لم تتغير الخطة الحالية.');
+          rolloverButton.disabled = false;
+        } else {
+          rolloverSay('تعذر إتمام العملية.');
+          rolloverButton.disabled = false;
+        }
+      }).catch(function () {
+        // A network failure changed nothing on the server, so nothing changes
+        // here either and the button comes back.
+        rolloverSay('تعذر الاتصال بالخادم. تحقق من الاتصال ثم حاول مرة أخرى.');
+        rolloverButton.disabled = false;
+      });
+    });
+  }
+
   var seedButton = root.querySelector('[data-seed-week]');
   if (seedButton) {
     var seedMessage = root.querySelector('[data-seed-message]');

@@ -80,3 +80,18 @@ html[data-theme="dark"] .sadaqah-agent-page .agent-unapprove:hover:not(:disabled
 
 /* Controls withdrawn while a post is being edited */
 .sadaqah-agent-page .agent-post-foot button[hidden]{display:none}
+
+/* A plan whose week has already passed */
+.sadaqah-agent-page .agent-stale{display:flex;align-items:center;flex-wrap:wrap;gap:13px;margin:0 0 15px;padding:15px 18px;border:1px solid #e0d6b9;border-radius:16px;background:#fffaf0;color:#665b42}
+.sadaqah-agent-page .agent-stale>i,.sadaqah-agent-page .agent-stale-icon{color:#b18e44;font-size:20px}
+.sadaqah-agent-page .agent-stale strong,.sadaqah-agent-page .agent-stale span{display:block}
+.sadaqah-agent-page .agent-stale strong{color:#7a6a45;font-size:13px;font-weight:800}
+.sadaqah-agent-page .agent-stale span{font-size:10px;line-height:1.8}
+.sadaqah-agent-page .agent-stale>div{flex:1;min-width:220px}
+.sadaqah-agent-page .agent-rollover{padding:10px 16px;border:1px solid #b18e44;border-radius:12px;background:#b18e44;color:#fff;font:700 11px 'Cairo';cursor:pointer}
+.sadaqah-agent-page .agent-rollover:hover:not(:disabled){background:#9a7a37;border-color:#9a7a37}
+.sadaqah-agent-page .agent-rollover:disabled{opacity:.6;cursor:default}
+.sadaqah-agent-page .agent-stale-message{flex:1 0 100%;margin:0;min-height:14px;font-size:10px;line-height:1.7}
+.sadaqah-agent-page .agent-stale-message:empty{min-height:0}
+html[data-theme="dark"] .sadaqah-agent-page .agent-stale{border-color:#4b4930;background:#17271e;color:#d7c890}
+html[data-theme="dark"] .sadaqah-agent-page .agent-stale strong{color:#e4c977}

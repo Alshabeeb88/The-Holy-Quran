@@ -36,6 +36,10 @@ const QFA_X_CONFLICT = 'CONFLICT';
 const QFA_X_WRITE_FAILED = 'WRITE_FAILED';
 /** Seeding found a plan already in place and left it alone. */
 const QFA_X_ALREADY_EXISTS = 'ALREADY_EXISTS';
+/** The live plan already covers the current week, so there is nothing to roll. */
+const QFA_X_CURRENT_WEEK_ACTIVE = 'CURRENT_WEEK_ACTIVE';
+/** A different plan is already archived under this week id; both are kept. */
+const QFA_X_ARCHIVE_CONFLICT = 'ARCHIVE_CONFLICT';
 
 // ---------------------------------------------------------------------------
 // Schema limits
@@ -913,4 +917,245 @@ function qfa_x_store_seed_week(?string $file = null, ?DateTimeImmutable $now = n
     }
 
     return $result;
+}
+
+// ---------------------------------------------------------------------------
+// Archiving a finished week
+// ---------------------------------------------------------------------------
+
+/**
+ * Where finished weeks are kept.
+ *
+ * Derived from the live plan's own directory, so a test working against a
+ * throwaway file archives beside that file and never near the real one. The
+ * directory sits inside includes/, which Apache denies wholesale, and every
+ * file written into it carries the same "<?php exit; ?>" guard as the live plan.
+ */
+function qfa_x_archive_dir(?string $file = null): string {
+    return dirname(qfa_x_store_resolve($file)) . '/x_studio_archive';
+}
+
+/**
+ * The archive file for a week, or null when the week id is not one we produced.
+ *
+ * The name is built from a week id that has already been checked against the
+ * calendar, so it can only ever be four digits, a W and two digits. Nothing a
+ * request could influence reaches this, and there is no separator to escape:
+ * traversal is not filtered here, it is impossible.
+ */
+function qfa_x_archive_path(string $weekId, ?string $file = null): ?string {
+    if (!qfa_x_is_iso_week($weekId)) {
+        return null;
+    }
+    return qfa_x_archive_dir($file) . '/x_studio_' . $weekId . '.php';
+}
+
+/**
+ * Create the archive directory if it is missing, with its own guards.
+ *
+ * The directory is already unreachable through includes/.htaccess; these are the
+ * second and third layers, in the same spirit as the cache directory, so the
+ * protection does not rest on one file.
+ */
+function qfa_x_archive_prepare(?string $file = null): bool {
+    $dir = qfa_x_archive_dir($file);
+
+    if (!is_dir($dir) && !@mkdir($dir, 0750, true) && !is_dir($dir)) {
+        return false;
+    }
+
+    $htaccess = $dir . '/.htaccess';
+    if (!is_file($htaccess)) {
+        @file_put_contents(
+            $htaccess,
+            "# Written automatically. Archived weeks are private data and must never\n"
+            . "# be served. Each file also carries its own PHP exit guard.\n"
+            . "<IfModule mod_authz_core.c>\n  Require all denied\n</IfModule>\n"
+            . "<IfModule !mod_authz_core.c>\n  Order allow,deny\n  Deny from all\n</IfModule>\n"
+            . "Options -Indexes -ExecCGI\n",
+            LOCK_EX
+        );
+        @chmod($htaccess, 0640);
+    }
+
+    $index = $dir . '/index.php';
+    if (!is_file($index)) {
+        @file_put_contents($index, "<?php http_response_code(403); exit;\n", LOCK_EX);
+        @chmod($index, 0640);
+    }
+
+    return is_dir($dir) && is_writable($dir);
+}
+
+/**
+ * Read one archived week. Same statuses as reading the live plan, so a damaged
+ * archive is reported rather than quietly treated as absent.
+ *
+ * @return array{status:string, data:?array, errors:string[]}
+ */
+function qfa_x_archive_read(string $weekId, ?string $file = null): array {
+    $path = qfa_x_archive_path($weekId, $file);
+    if ($path === null) {
+        return ['status' => QFA_X_INVALID, 'data' => null, 'errors' => ['not a valid week id']];
+    }
+
+    clearstatcache(true, $path);
+    if (!is_file($path)) {
+        return ['status' => QFA_X_NOT_FOUND, 'data' => null, 'errors' => []];
+    }
+
+    $raw = @file_get_contents($path);
+    if ($raw === false) {
+        return ['status' => QFA_X_UNREADABLE, 'data' => null, 'errors' => ['cannot read the archived week']];
+    }
+
+    return qfa_x_store_decode((string)$raw);
+}
+
+/**
+ * Write an archive file only if that week has never been archived.
+ *
+ * "x" mode is what makes this safe: the create and the existence check are the
+ * same operation in the kernel, so two callers racing to archive the same week
+ * cannot both believe they created it.
+ */
+function qfa_x_archive_create(string $path, string $payload): bool {
+    $handle = @fopen($path, 'x');
+    if ($handle === false) {
+        return false;   // already there, or unwritable
+    }
+
+    $written = @fwrite($handle, $payload);
+    if ($written === false || $written !== strlen($payload)) {
+        fclose($handle);
+        @unlink($path);
+        return false;
+    }
+
+    @fflush($handle);
+    fclose($handle);
+    @chmod($path, 0640);
+    clearstatcache(true, $path);
+
+    return true;
+}
+
+/**
+ * Move to the current week, keeping the week that is being replaced.
+ *
+ * The order is chosen so that no failure can lose a plan:
+ *
+ *   1. read and validate the live plan; a damaged one is never archived
+ *   2. refuse if it already covers the current week, so nothing is rolled twice
+ *   3. write the archive, creating it only if that week is not archived yet
+ *   4. read the archive back and compare it to what was meant to be stored
+ *   5. only then replace the live plan with a fresh week
+ *
+ * The live plan is replaced, never deleted first, and replacement happens after
+ * the archive is on disk and verified. If step 5 fails the old plan is still
+ * there and the archive already holds an identical copy, so repeating the call
+ * simply takes the same path again.
+ *
+ * @return array{status:string, archived_week_id:?string, week:?array, revision:?int, errors:string[]}
+ */
+function qfa_x_store_rollover_week(?string $file = null, ?DateTimeImmutable $now = null): array {
+    $fail = static function (string $status, array $errors = [], array $extra = []): array {
+        return array_merge(
+            ['status' => $status, 'archived_week_id' => null, 'week' => null, 'revision' => null, 'errors' => $errors],
+            $extra
+        );
+    };
+
+    $read = qfa_x_store_read($file);
+    if ($read['status'] !== QFA_X_OK) {
+        // CORRUPT, INVALID, UNREADABLE, NOT_FOUND: nothing is archived and
+        // nothing is created. A plan we cannot read is not one we may replace.
+        return $fail($read['status'], $read['errors']);
+    }
+
+    $plan = $read['data'];
+    $weekId = (string)$plan['week']['week_id'];
+    $bounds = qfa_x_store_week_bounds($now);
+
+    if ($weekId === $bounds['week_id']) {
+        return $fail(QFA_X_CURRENT_WEEK_ACTIVE, ['the stored plan already covers the current week']);
+    }
+
+    $path = qfa_x_archive_path($weekId, $file);
+    if ($path === null) {
+        return $fail(QFA_X_INVALID, ['the stored plan carries a week id this layer cannot archive']);
+    }
+
+    $payload = qfa_x_store_encode($plan);
+    if ($payload === null) {
+        return $fail(QFA_X_WRITE_FAILED, ['cannot encode the plan for the archive']);
+    }
+
+    if (!qfa_x_archive_prepare($file)) {
+        return $fail(QFA_X_WRITE_FAILED, ['the archive directory is not available']);
+    }
+
+    clearstatcache(true, $path);
+    if (is_file($path)) {
+        /*
+         * Already archived. Repeating a rollover that failed later on must be
+         * safe, so an archive holding exactly this plan is accepted and the run
+         * continues. Anything else is left strictly alone: two different weeks
+         * under one id is a question only a person can answer.
+         */
+        $existing = qfa_x_archive_read($weekId, $file);
+        if ($existing['status'] !== QFA_X_OK) {
+            return $fail(QFA_X_ARCHIVE_CONFLICT, ['an archived week with this id exists but cannot be read']);
+        }
+        if ($existing['data'] !== $plan) {
+            return $fail(QFA_X_ARCHIVE_CONFLICT, ['a different plan is already archived under this week id']);
+        }
+    } elseif (!qfa_x_archive_create($path, $payload)) {
+        /*
+         * Another caller may have created it between the check and here, which
+         * "x" mode turns into a failure rather than an overwrite. Look again
+         * before reporting a problem.
+         */
+        clearstatcache(true, $path);
+        if (!is_file($path)) {
+            return $fail(QFA_X_WRITE_FAILED, ['cannot write the archived week']);
+        }
+        $existing = qfa_x_archive_read($weekId, $file);
+        if ($existing['status'] !== QFA_X_OK || $existing['data'] !== $plan) {
+            return $fail(QFA_X_ARCHIVE_CONFLICT, ['a different plan is already archived under this week id']);
+        }
+    } else {
+        // Read back what was just written rather than trusting the write.
+        $verify = qfa_x_archive_read($weekId, $file);
+        if ($verify['status'] !== QFA_X_OK || $verify['data'] !== $plan) {
+            return $fail(QFA_X_WRITE_FAILED, ['the archived week did not read back as written']);
+        }
+    }
+
+    /*
+     * The old week is safe on disk, so the live plan can now be replaced. The
+     * revision keeps counting rather than restarting: a client holding an older
+     * number must not be able to match the new plan by coincidence.
+     */
+    $fresh = qfa_x_store_build_week($bounds);
+    $write = qfa_x_store_write($fresh, (int)$plan['week']['revision'], $file);
+
+    if ($write['status'] !== QFA_X_OK) {
+        // The old plan is untouched and the archive is in place; calling again
+        // repeats the same steps.
+        return $fail($write['status'], $write['errors'], ['archived_week_id' => $weekId]);
+    }
+
+    return [
+        'status' => QFA_X_OK,
+        'archived_week_id' => $weekId,
+        'week' => [
+            'week_id' => $bounds['week_id'],
+            'start_date' => $bounds['start_date'],
+            'end_date' => $bounds['end_date'],
+            'post_count' => count($fresh['posts']),
+        ],
+        'revision' => $write['revision'],
+        'errors' => [],
+    ];
 }
