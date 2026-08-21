@@ -129,6 +129,9 @@ $allowedFields = [
     // Recording that a post went out carries no data of its own: the moment is
     // taken from the server clock, so there is nothing for the caller to send.
     'mark_published' => ['action', 'csrf', 'post_id', 'expected_revision'],
+    // Undoing that record likewise carries nothing: it only clears what the
+    // server itself wrote.
+    'unmark_published' => ['action', 'csrf', 'post_id', 'expected_revision'],
 ];
 
 if (!isset($allowedFields[$action])) {
@@ -265,7 +268,7 @@ if ($action === 'save_post') {
 
     $plan['posts'][$index]['approved'] = true;
     $plan['posts'][$index]['approved_at'] = qfa_x_now();   // server clock only
-} else {
+} elseif ($action === 'mark_published') {
     /*
      * mark_published records that the administrator published this post by hand
      * on X. It is a statement about something that already happened, which is
@@ -292,6 +295,25 @@ if ($action === 'save_post') {
 
     $plan['posts'][$index]['published'] = true;
     $plan['posts'][$index]['published_at'] = qfa_x_now();   // server clock only
+} else {
+    /*
+     * unmark_published is the way back out of a mistaken click. It corrects this
+     * studio's own record and nothing else: whatever was posted on X stays on X,
+     * because nothing here can reach it.
+     *
+     * Approval is deliberately left alone. The text was reviewed and that review
+     * still stands; only the claim about having published it is withdrawn.
+     */
+    if (($post['published'] ?? false) !== true) {
+        // Nothing recorded, so nothing to undo: reported without a write.
+        qfa_x_reply(200, true, 'OK', '', [
+            'revision' => $currentRevision,
+            'post' => qfa_x_post_payload($post),
+        ]);
+    }
+
+    $plan['posts'][$index]['published'] = false;
+    $plan['posts'][$index]['published_at'] = null;
 }
 
 $write = qfa_x_store_write($plan, $expectedRevision);

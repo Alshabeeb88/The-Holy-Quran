@@ -229,6 +229,7 @@
     var approveButton = post.querySelector('[data-approve]');
     var editButton = post.querySelector('[data-edit]');
     var publishedButton = post.querySelector('[data-mark-published]');
+    var unpublishButton = post.querySelector('[data-unmark-published]');
 
     // .value, never innerHTML: the text is content, not markup.
     if (area && typeof serverPost.text === 'string') area.value = serverPost.text;
@@ -246,17 +247,17 @@
     if (editButton) editButton.disabled = published;
 
     /*
-     * The record control belongs only to an approved post that has not been
-     * recorded yet. Once it has, the button is removed rather than disabled, so
-     * nothing on screen suggests the act needs repeating.
+     * Exactly one of the two record controls belongs on screen at a time, and
+     * either can become the right one after the other is used, so both are kept
+     * in the DOM and shown by state rather than removed.
      */
     if (publishedButton) {
-      if (published) {
-        publishedButton.remove();
-      } else {
-        publishedButton.hidden = !approved;
-        publishedButton.disabled = !approved;
-      }
+      publishedButton.hidden = published || !approved;
+      publishedButton.disabled = published || !approved;
+    }
+    if (unpublishButton) {
+      unpublishButton.hidden = !published;
+      unpublishButton.disabled = !published;
     }
 
     count(post);
@@ -264,7 +265,7 @@
 
   /** Turn one post's controls on or off while a request is in flight. */
   function busy(post, isBusy) {
-    ['[data-edit]', '[data-save]', '[data-cancel]', '[data-approve]', '[data-mark-published]'].forEach(function (selector) {
+    ['[data-edit]', '[data-save]', '[data-cancel]', '[data-approve]', '[data-mark-published]', '[data-unmark-published]'].forEach(function (selector) {
       var button = post.querySelector(selector);
       if (button) button.disabled = isBusy;
     });
@@ -498,6 +499,21 @@
 
         // No text and no timestamp: the moment is the server's to decide.
         sendPostAction(post, { action: 'mark_published' });
+      });
+    }
+
+    var unpublishButton = post.querySelector('[data-unmark-published]');
+    if (unpublishButton) {
+      unpublishButton.addEventListener('click', function () {
+        if (unpublishButton.disabled) return;      // guards the double click
+
+        /*
+         * Asked first, and worded so the limit is unmistakable: this corrects
+         * the studio's record and cannot touch anything already on X.
+         */
+        if (!window.confirm('سيتم إلغاء حالة «تم النشر» لهذا المنشور فقط. لن يتم حذف المنشور من منصة X. هل تريد المتابعة؟')) return;
+
+        sendPostAction(post, { action: 'unmark_published' });
       });
     }
   });
