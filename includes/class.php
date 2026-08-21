@@ -1776,7 +1776,7 @@ class QuranForAll extends QuranForAll_API {
 		$this->title = 'استوديو النشر على X';
 		$this->description = 'إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X';
 		$this->url = $this->url(array('action' => 'sadaqah_agent'));
-		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.9">';
+		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.10">';
 		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.11" defer></script>';
 
 		require_once __DIR__ . '/x-studio-store.php';
@@ -2016,7 +2016,143 @@ class QuranForAll extends QuranForAll_API {
 			.$summary
 			.$rollover
 			.'<nav class="agent-day-tabs" aria-label="أيام الأسبوع">'.$dayTabs.'</nav>'.$dayPanels
+			.$this->x_studio_archive_section()
 			.$safety.$close;
+	}
+
+	/**
+	 * The archive, for reading only.
+	 *
+	 * Everything here comes from the storage layer, which is the only thing that
+	 * touches the archive directory: the page never opens a file itself and never
+	 * learns a path. Opening one week is a plain link carrying its id, so viewing
+	 * stays a GET that changes nothing, and no token or endpoint is needed for
+	 * what is only a read.
+	 */
+	private function x_studio_archive_section(){
+		$weeks = qfa_x_archive_list();
+		$base = $this->url(array('action' => 'sadaqah_agent'));
+
+		// The only thing a request may name. It is checked against the calendar
+		// before anything is built from it, so a filename or a path cannot be
+		// expressed here at all.
+		$requested = ( isset($_GET['archive']) && is_string($_GET['archive']) ? $_GET['archive'] : '' );
+		$open = ( qfa_x_is_iso_week($requested) ? $requested : '' );
+
+		$head = '<header class="agent-archive-head"><span class="agent-archive-icon" aria-hidden="true"><i class="fas fa-box-archive"></i></span>'
+			.'<div><h2>الأسابيع المؤرشفة</h2><span>للاطلاع فقط — لا يمكن تعديل أو اعتماد أو نشر أي منشور مؤرشف.</span></div></header>';
+
+		if( $weeks === array() ){
+			return '<section class="agent-archive" aria-labelledby="agent-archive-title" id="archive">'
+				.$head
+				.'<p class="agent-archive-empty">لا توجد أسابيع مؤرشفة بعد.</p>'
+				.'</section>';
+		}
+
+		$rows = '';
+		foreach( $weeks as $entry ){
+			$weekId = htmlspecialchars((string)$entry['week_id'], ENT_QUOTES, 'UTF-8');
+			$isOpen = ( $open !== '' && $entry['week_id'] === $open );
+
+			if( $entry['status'] !== QFA_X_OK ){
+				/*
+				 * A damaged archive is named but never treated as data: no dates,
+				 * no counts and no way to open it.
+				 */
+				$rows .= '<li class="agent-archive-row is-damaged"><div><strong>'.$weekId.'</strong>'
+					.'<span>تعذر قراءة هذا الأسبوع. الملف موجود ولم يُعدّل، ويحتاج مراجعة على الخادم.</span></div>'
+					.'<span class="agent-archive-flag">تالف</span></li>';
+				continue;
+			}
+
+			$range = htmlspecialchars((string)$entry['start_date'].' — '.(string)$entry['end_date'], ENT_QUOTES, 'UTF-8');
+			$link = htmlspecialchars($base.'?archive='.rawurlencode((string)$entry['week_id']).'#archive', ENT_QUOTES, 'UTF-8');
+
+			$rows .= '<li class="agent-archive-row'.($isOpen ? ' is-open' : '').'"><div><strong>'.$weekId.'</strong><span>'.$range.'</span></div>'
+				.'<div class="agent-archive-counts">'
+				.'<span>'.(int)$entry['post_count'].' منشورًا</span>'
+				.'<span>'.(int)$entry['published'].' منشورة</span>'
+				.'<span>'.(int)$entry['approved'].' معتمدة</span>'
+				.'<span>'.(int)$entry['draft'].' مسودة</span>'
+				.'</div>'
+				.( $isOpen
+					? '<a class="agent-archive-open is-active" href="'.htmlspecialchars($base.'#archive', ENT_QUOTES, 'UTF-8').'">إغلاق</a>'
+					: '<a class="agent-archive-open" href="'.$link.'">عرض</a>' )
+				.'</li>';
+		}
+
+		return '<section class="agent-archive" aria-labelledby="agent-archive-title" id="archive">'
+			.$head
+			.'<ul class="agent-archive-list">'.$rows.'</ul>'
+			.$this->x_studio_archive_week_view($open)
+			.'</section>';
+	}
+
+	/** One archived week, rendered read-only. Empty string when none is open. */
+	private function x_studio_archive_week_view( $weekId ){
+		if( !is_string($weekId) || $weekId === '' ){
+			return '';
+		}
+
+		$archive = qfa_x_archive_week($weekId);
+
+		if( $archive['status'] === QFA_X_NOT_FOUND ){
+			return '<p class="agent-archive-note" role="status">لا يوجد أسبوع مؤرشف بهذا المعرّف.</p>';
+		}
+		if( $archive['status'] !== QFA_X_OK ){
+			// Nothing from a file we could not understand is shown.
+			return '<p class="agent-archive-note is-damaged" role="alert">تعذر قراءة هذا الأسبوع المؤرشف. لم يُعدّل الملف، ويحتاج مراجعة على الخادم.</p>';
+		}
+
+		$week = $archive['week'];
+		$dayNames = qfa_x_studio_plan_day_names();
+
+		$typeLabels = array();
+		foreach( qfa_x_studio_plan_posts() as $templatePost ){
+			$typeLabels[$templatePost['type']] = $templatePost['type_label'];
+		}
+
+		$byDay = array();
+		foreach( $dayNames as $dayIndex => $dayName ){ $byDay[$dayIndex] = array(); }
+		foreach( $archive['posts'] as $post ){
+			$dayIndex = (int)$post['day'];
+			if( isset($byDay[$dayIndex]) ) $byDay[$dayIndex][] = $post;
+		}
+
+		$days = '';
+		foreach( $dayNames as $dayIndex => $dayName ){
+			if( $byDay[$dayIndex] === array() ) continue;
+
+			$items = '';
+			foreach( $byDay[$dayIndex] as $post ){
+				$published = ( ($post['published'] ?? false) === true );
+				$approved = ( ($post['approved'] ?? false) === true );
+				$stateLabel = ( $published ? 'تم النشر' : ( $approved ? 'معتمدة' : 'بانتظار المراجعة' ) );
+				$stateClass = ( $published ? ' is-published' : ( $approved ? ' is-approved' : '' ) );
+				$typeLabel = ( isset($typeLabels[$post['type']]) ? $typeLabels[$post['type']] : (string)$post['type'] );
+
+				/*
+				 * The text is printed as text. There is no editable field and no
+				 * control of any kind here: this view can only be read.
+				 */
+				$items .= '<article class="agent-archive-post'.$stateClass.'">'
+					.'<div class="agent-archive-post-meta">'
+					.'<time>'.htmlspecialchars($this->x_studio_time_label((string)$post['time']), ENT_QUOTES, 'UTF-8').'</time>'
+					.'<span>'.htmlspecialchars($typeLabel, ENT_QUOTES, 'UTF-8').'</span>'
+					.'<b>'.$stateLabel.'</b></div>'
+					.'<p class="agent-archive-text">'.nl2br(htmlspecialchars((string)$post['text'], ENT_QUOTES, 'UTF-8'), false).'</p>'
+					.'</article>';
+			}
+
+			$days .= '<section class="agent-archive-day"><h4>'.htmlspecialchars($dayName, ENT_QUOTES, 'UTF-8').'</h4>'.$items.'</section>';
+		}
+
+		return '<div class="agent-archive-week">'
+			.'<header class="agent-archive-week-head"><div><strong>أسبوع '.htmlspecialchars((string)$week['week_id'], ENT_QUOTES, 'UTF-8').'</strong>'
+			.'<span>'.htmlspecialchars((string)$week['start_date'].' — '.(string)$week['end_date'], ENT_QUOTES, 'UTF-8').'</span></div>'
+			.'<span class="agent-archive-readonly">للقراءة فقط</span></header>'
+			.$days
+			.'</div>';
 	}
 
 	/** Turn a stored 24 hour time into the Arabic 12 hour label the page shows. */

@@ -95,3 +95,49 @@ html[data-theme="dark"] .sadaqah-agent-page .agent-unapprove:hover:not(:disabled
 .sadaqah-agent-page .agent-stale-message:empty{min-height:0}
 html[data-theme="dark"] .sadaqah-agent-page .agent-stale{border-color:#4b4930;background:#17271e;color:#d7c890}
 html[data-theme="dark"] .sadaqah-agent-page .agent-stale strong{color:#e4c977}
+
+/* Archived weeks, read only */
+.sadaqah-agent-page .agent-archive{margin-top:18px;padding:20px 22px;border:1px solid #dce8e4;border-radius:20px;background:#fff}
+.sadaqah-agent-page .agent-archive-head{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.sadaqah-agent-page .agent-archive-icon{display:grid;place-items:center;width:40px;height:40px;border-radius:13px;background:#f2f7f5;color:#0b6555;font-size:16px}
+.sadaqah-agent-page .agent-archive-head h2{margin:0;color:#173f35;font-size:16px;font-weight:800}
+.sadaqah-agent-page .agent-archive-head span{display:block;color:#788781;font-size:10px;line-height:1.7}
+.sadaqah-agent-page .agent-archive-empty{margin:0;padding:18px;border:1px dashed #dce8e4;border-radius:14px;color:#788781;font-size:11px;text-align:center}
+.sadaqah-agent-page .agent-archive-list{margin:0;padding:0;list-style:none;display:grid;gap:8px}
+.sadaqah-agent-page .agent-archive-row{display:flex;align-items:center;flex-wrap:wrap;gap:10px;padding:11px 14px;border:1px solid #e1e9e6;border-radius:13px;background:#fafcfb}
+.sadaqah-agent-page .agent-archive-row.is-open{border-color:#0c735f;background:#f3faf7}
+.sadaqah-agent-page .agent-archive-row.is-damaged{border-color:#d0a49a;background:#fdf6f4}
+.sadaqah-agent-page .agent-archive-row>div:first-child{flex:1;min-width:150px}
+.sadaqah-agent-page .agent-archive-row strong{display:block;color:#173f35;font-size:12px;font-weight:800}
+.sadaqah-agent-page .agent-archive-row span{color:#788781;font-size:10px}
+.sadaqah-agent-page .agent-archive-counts{display:flex;flex-wrap:wrap;gap:6px}
+.sadaqah-agent-page .agent-archive-counts span{padding:3px 8px;border-radius:99px;background:#eef4f2;color:#4b625b;font-size:9px;font-weight:700}
+.sadaqah-agent-page .agent-archive-flag{padding:4px 9px;border-radius:99px;background:#fdece8;color:#a4503f;font-size:9px;font-weight:800}
+.sadaqah-agent-page .agent-archive-open{padding:7px 13px;border:1px solid #c8d9d3;border-radius:10px;background:#fff;color:#0b6555;font-size:10px;font-weight:700;text-decoration:none}
+.sadaqah-agent-page .agent-archive-open.is-active{border-color:#0c735f;background:#0c735f;color:#fff}
+.sadaqah-agent-page .agent-archive-note{margin:12px 0 0;padding:13px;border:1px dashed #dce8e4;border-radius:12px;color:#788781;font-size:11px}
+.sadaqah-agent-page .agent-archive-note.is-damaged{border-color:#d0a49a;border-style:solid;background:#fdf6f4;color:#a4503f}
+.sadaqah-agent-page .agent-archive-week{margin-top:14px;padding-top:14px;border-top:1px solid #e1e9e6}
+.sadaqah-agent-page .agent-archive-week-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+.sadaqah-agent-page .agent-archive-week-head strong{display:block;color:#173f35;font-size:13px;font-weight:800}
+.sadaqah-agent-page .agent-archive-week-head span{color:#788781;font-size:10px}
+.sadaqah-agent-page .agent-archive-readonly{padding:4px 10px;border-radius:99px;background:#eef4f2;color:#4b625b;font-size:9px;font-weight:800}
+.sadaqah-agent-page .agent-archive-day{margin-bottom:12px}
+.sadaqah-agent-page .agent-archive-day h4{margin:0 0 6px;color:#0b6555;font-size:11px;font-weight:800}
+.sadaqah-agent-page .agent-archive-post{padding:11px 13px;margin-bottom:6px;border:1px solid #e1e9e6;border-radius:12px;background:#fff}
+.sadaqah-agent-page .agent-archive-post.is-approved{border-color:#86bdaa}
+.sadaqah-agent-page .agent-archive-post.is-published{border-color:#86bdaa;background:#f3faf7}
+.sadaqah-agent-page .agent-archive-post-meta{display:flex;align-items:center;gap:8px;margin-bottom:7px}
+.sadaqah-agent-page .agent-archive-post-meta time,.sadaqah-agent-page .agent-archive-post-meta span,.sadaqah-agent-page .agent-archive-post-meta b{padding:3px 8px;border-radius:99px;font-size:9px;font-weight:800}
+.sadaqah-agent-page .agent-archive-post-meta time{background:#e8f2ee;color:#0b6555}
+.sadaqah-agent-page .agent-archive-post-meta span{background:#fff7e5;color:#876b2f}
+.sadaqah-agent-page .agent-archive-post-meta b{margin-inline-start:auto;background:#f1f3f2;color:#75837e}
+.sadaqah-agent-page .agent-archive-text{margin:0;color:#213a33;font-size:12px;line-height:2}
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive{border-color:#285247;background:#0d2a22}
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-head h2,html[data-theme="dark"] .sadaqah-agent-page .agent-archive-row strong,html[data-theme="dark"] .sadaqah-agent-page .agent-archive-week-head strong,html[data-theme="dark"] .sadaqah-agent-page .agent-archive-text{color:#f1f5f3}
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-icon{background:#12382e;color:#7fd3bb}
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-row,html[data-theme="dark"] .sadaqah-agent-page .agent-archive-post{border-color:#285247;background:#091e19}
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-row.is-open,html[data-theme="dark"] .sadaqah-agent-page .agent-archive-post.is-published{background:#12382e;border-color:#4c8b78}
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-counts span,html[data-theme="dark"] .sadaqah-agent-page .agent-archive-readonly{background:#12382e;color:#aabbb5}
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-open{border-color:#38584e;background:#12382e;color:#dce8e4}
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-open.is-active{background:#0c735f;border-color:#0c735f;color:#fff}
