@@ -152,3 +152,184 @@ html[data-theme="dark"] .sadaqah-agent-page .agent-archive-open.is-active{backgr
 html[data-theme="dark"] .sadaqah-agent-page .agent-duplicate{border-color:#4b4930;background:#17271e;color:#d7c890}
 html[data-theme="dark"] .sadaqah-agent-page .agent-duplicate-more{color:#bfae7d}
 html[data-theme="dark"] .sadaqah-agent-page .agent-duplicate-link{border-color:#6b5a2e;background:#1e2f24;color:#e4c977}
+
+/* =========================================================
+   X Studio v1.13 - Follow site color theme
+   Every rule below is scoped to .sadaqah-agent-page, and the
+   dark variants to html[data-theme="dark"] .sadaqah-agent-page,
+   so nothing here can reach the rest of the site.
+   Semantic states (over-limit, approved, published, unpublish,
+   stale, duplicate, error) are excluded by :not() rather than
+   outranked, so their own colours keep applying.
+   Fallbacks repeat the pre-theme values, so a page rendered
+   without a body.color-* class still looks exactly as before.
+   ========================================================= */
+
+.sadaqah-agent-page {
+  background: linear-gradient(180deg, var(--q-soft, #f2f7f5), var(--q-paper, #fafcfb));
+}
+
+/* Hero: --q-hero-a/--q-hero-b are dark in every palette and are never
+   redefined in dark mode, unlike --q-deep which becomes a light text tone. */
+.sadaqah-agent-page .agent-hero {
+  background:
+    radial-gradient(circle at 12% 20%, rgba(216,180,91,.20), transparent 28%),
+    linear-gradient(135deg, var(--q-hero-a, #073b32), var(--q-hero-b, #0c6c59));
+  box-shadow: var(--q-shadow, 0 20px 50px rgba(7,59,50,.16));
+}
+
+.sadaqah-agent-page .agent-hero h1 {
+  color: #fff;
+}
+
+.sadaqah-agent-page .agent-hero p {
+  color: rgba(255,255,255,.86);
+}
+
+.sadaqah-agent-page .agent-eyebrow,
+.sadaqah-agent-page .agent-hero-icon,
+.sadaqah-agent-page .agent-summary i,
+.sadaqah-agent-page .agent-day-head span,
+.sadaqah-agent-page .agent-safety > i,
+.sadaqah-agent-page .agent-stale > i,
+.sadaqah-agent-page .agent-stale-icon {
+  color: var(--q-gold, #b18e44);
+}
+
+.sadaqah-agent-page .agent-summary strong,
+.sadaqah-agent-page .agent-day-head h2,
+.sadaqah-agent-page .agent-empty h2,
+.sadaqah-agent-page .agent-archive-head h2,
+.sadaqah-agent-page .agent-archive-row strong {
+  color: var(--q-deep, #173f35);
+}
+
+.sadaqah-agent-page .agent-summary button,
+.sadaqah-agent-page .agent-day-head button,
+.sadaqah-agent-page .agent-private-bar a,
+.sadaqah-agent-page .agent-empty-icon,
+.sadaqah-agent-page .agent-archive-icon,
+.sadaqah-agent-page .agent-archive-open {
+  color: var(--q-primary, #0b6555);
+}
+
+.sadaqah-agent-page .agent-day-tab.is-active,
+.sadaqah-agent-page .agent-approve,
+.sadaqah-agent-page .agent-seed,
+.sadaqah-agent-page .agent-save,
+.sadaqah-agent-page .agent-archive-open.is-active {
+  border-color: var(--q-primary, #0c735f);
+  background: var(--q-primary, #0c735f);
+  color: #fff;
+}
+
+.sadaqah-agent-page .agent-seed:hover:not(:disabled),
+.sadaqah-agent-page .agent-save:hover:not(:disabled) {
+  border-color: var(--q-primary-2, #146b59);
+  background: var(--q-primary-2, #146b59);
+}
+
+.sadaqah-agent-page .agent-post.is-editing,
+.sadaqah-agent-page .agent-post.is-editing textarea,
+.sadaqah-agent-page .agent-archive-row.is-open {
+  border-color: var(--q-primary, #0c735f);
+}
+
+/* Neutral surfaces. The state classes are excluded so the semantic
+   rules earlier in this file still match and still win. */
+.sadaqah-agent-page .agent-summary,
+.sadaqah-agent-page .agent-day-tab,
+.sadaqah-agent-page .agent-day-head,
+.sadaqah-agent-page .agent-private-bar,
+.sadaqah-agent-page .agent-empty,
+.sadaqah-agent-page .agent-archive {
+  border-color: var(--q-border, #dce8e4);
+  background: var(--q-paper, #fff);
+}
+
+.sadaqah-agent-page .agent-post:not(.is-over-limit):not(.is-approved):not(.is-published) {
+  border-color: var(--q-border, #dce8e4);
+  background: var(--q-paper, #fff);
+}
+
+.sadaqah-agent-page .agent-archive-row:not(.is-open) {
+  border-color: var(--q-border, #dce8e4);
+  background: var(--q-paper, #fff);
+  color: var(--q-text, #213a33);
+}
+
+.sadaqah-agent-page .agent-post:not(.is-over-limit):not(.is-editing) textarea:not(:read-only) {
+  border-color: var(--q-border, #e1e9e6);
+  background: var(--q-paper, #fafcfb);
+  color: var(--q-text, #213a33);
+}
+
+/* ---------- dark mode: follows the selected palette ---------- */
+
+html[data-theme="dark"] .sadaqah-agent-page {
+  background: linear-gradient(180deg, var(--q-dark-bg, #071a15), var(--q-dark-header, #091e19));
+}
+
+/* Explicit hero rule: both stops are dark in every palette, so the white
+   heading and the light paragraph stay readable. */
+html[data-theme="dark"] .sadaqah-agent-page .agent-hero {
+  background:
+    radial-gradient(circle at 12% 20%, rgba(216,180,91,.14), transparent 28%),
+    linear-gradient(135deg, var(--q-dark-header, #0b211b), var(--q-dark-card-hover, #18483b));
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-hero h1 {
+  color: #fff;
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-hero p {
+  color: rgba(255,255,255,.82);
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-summary,
+html[data-theme="dark"] .sadaqah-agent-page .agent-day-tab,
+html[data-theme="dark"] .sadaqah-agent-page .agent-day-head,
+html[data-theme="dark"] .sadaqah-agent-page .agent-private-bar,
+html[data-theme="dark"] .sadaqah-agent-page .agent-empty,
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive {
+  border-color: var(--q-dark-border, #285247);
+  background: var(--q-dark-surface, #0d2a22);
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-post:not(.is-over-limit):not(.is-approved):not(.is-published) {
+  border-color: var(--q-dark-border, #285247);
+  background: var(--q-dark-surface, #0d2a22);
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-day-tab.is-active,
+html[data-theme="dark"] .sadaqah-agent-page .agent-approve,
+html[data-theme="dark"] .sadaqah-agent-page .agent-seed,
+html[data-theme="dark"] .sadaqah-agent-page .agent-save,
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-open.is-active {
+  border-color: var(--q-dark-accent, #79bba7);
+  background: var(--q-dark-card-hover, #18483b);
+  color: #fff;
+}
+
+/* These two kept a hardcoded near-white background in dark mode. */
+html[data-theme="dark"] .sadaqah-agent-page .agent-summary button,
+html[data-theme="dark"] .sadaqah-agent-page .agent-day-head button {
+  border-color: var(--q-dark-border, #285247);
+  background: var(--q-dark-card, #12382e);
+  color: var(--q-dark-accent, #79bba7);
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-summary strong,
+html[data-theme="dark"] .sadaqah-agent-page .agent-day-head h2,
+html[data-theme="dark"] .sadaqah-agent-page .agent-empty h2,
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-head h2,
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-row strong {
+  color: var(--q-dark-text, #f1f5f3);
+}
+
+html[data-theme="dark"] .sadaqah-agent-page .agent-private-bar a,
+html[data-theme="dark"] .sadaqah-agent-page .agent-empty-icon,
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-icon,
+html[data-theme="dark"] .sadaqah-agent-page .agent-archive-open {
+  color: var(--q-dark-accent, #79bba7);
+}
