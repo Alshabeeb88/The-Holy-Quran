@@ -1776,7 +1776,7 @@ class QuranForAll extends QuranForAll_API {
 		$this->title = 'استوديو النشر على X';
 		$this->description = 'إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X';
 		$this->url = $this->url(array('action' => 'sadaqah_agent'));
-		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.10">';
+		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.11">';
 		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.11" defer></script>';
 
 		require_once __DIR__ . '/x-studio-store.php';
@@ -1886,6 +1886,13 @@ class QuranForAll extends QuranForAll_API {
 			if( isset($byDay[$dayIndex]) ) $byDay[$dayIndex][] = $post;
 		}
 
+		/*
+		 * Advice, not a gate: which posts repeat a text the archive already holds.
+		 * Worked out once for the whole plan, because the archive is read once to
+		 * build the lookup rather than re-read for every post.
+		 */
+		$duplicates = qfa_x_duplicate_matches_for_plan($plan);
+
 		$dayTabs = '';
 		$dayPanels = '';
 		$approvedCount = 0;
@@ -1973,6 +1980,7 @@ class QuranForAll extends QuranForAll_API {
 					.'<button type="button" class="agent-unapprove" data-unapprove'.($approved && !$published ? '' : ' hidden').' aria-label="سحب اعتماد هذه التغريدة وإعادتها إلى المراجعة" title="يعيد التغريدة إلى «بانتظار المراجعة» دون تغيير نصها"><i class="fas fa-rotate-left"></i> سحب الاعتماد</button>'
 					.'</div>'
 					.'</div>'
+					.$this->x_studio_duplicate_notice($post['post_id'], $duplicates)
 					.'<p class="agent-post-message" data-post-message role="status" aria-live="polite"></p>'
 					.'</article>';
 			}
@@ -2153,6 +2161,49 @@ class QuranForAll extends QuranForAll_API {
 			.'<span class="agent-archive-readonly">للقراءة فقط</span></header>'
 			.$days
 			.'</div>';
+	}
+
+	/**
+	 * Tell the administrator that a text was used before, and nothing more.
+	 *
+	 * Purely informational: it offers no control that could change the post, and
+	 * the link only opens the archived week in the existing read-only viewer, so
+	 * "show me" costs no new endpoint and no script.
+	 */
+	private function x_studio_duplicate_notice( $postId, array $duplicates ){
+		$postId = (string)$postId;
+		if( !isset($duplicates[$postId]) || $duplicates[$postId] === array() ){
+			return '';
+		}
+
+		$matches = $duplicates[$postId];
+		$first = $matches[0];
+		$weekId = htmlspecialchars((string)$first['archived_week_id'], ENT_QUOTES, 'UTF-8');
+		$range = htmlspecialchars((string)$first['archived_start_date'].' — '.(string)$first['archived_end_date'], ENT_QUOTES, 'UTF-8');
+
+		$state = ( $first['published'] ? 'نُشر حينها' : ( $first['approved'] ? 'كان معتمدًا' : 'كان مسودة' ) );
+
+		$more = '';
+		if( count($matches) > 1 ){
+			$others = array();
+			foreach( array_slice($matches, 1) as $match ){
+				$others[] = htmlspecialchars((string)$match['archived_week_id'], ENT_QUOTES, 'UTF-8');
+			}
+			$more = '<span class="agent-duplicate-more">وأيضًا في: '.implode('، ', $others).'</span>';
+		}
+
+		// Opens the week in the read-only archive viewer already on this page.
+		$link = htmlspecialchars(
+			$this->url(array('action' => 'sadaqah_agent')).'?archive='.rawurlencode((string)$first['archived_week_id']).'#archive',
+			ENT_QUOTES,
+			'UTF-8'
+		);
+
+		return '<p class="agent-duplicate" role="status">'
+			.'<i class="fas fa-clock-rotate-left" aria-hidden="true"></i>'
+			.'<span>سبق استخدام نص مطابق في الأسبوع '.$weekId.' ('.$range.') — '.$state.'.'.$more.'</span>'
+			.'<a class="agent-duplicate-link" href="'.$link.'">عرض التفاصيل</a>'
+			.'</p>';
 	}
 
 	/** Turn a stored 24 hour time into the Arabic 12 hour label the page shows. */
