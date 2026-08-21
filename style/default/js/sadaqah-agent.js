@@ -226,23 +226,6 @@
 
     var area = post.querySelector('textarea');
     var badge = post.querySelector('[data-post-status]');
-    var approveButton = post.querySelector('[data-approve]');
-    var editButton = post.querySelector('[data-edit]');
-    var publishedButton = post.querySelector('[data-mark-published]');
-    var unpublishButton = post.querySelector('[data-unmark-published]');
-    var unapproveButton = post.querySelector('[data-unapprove]');
-
-    /*
-     * Leave edit mode first, whatever put the post there. This function is the
-     * one place that paints a post from server state, and edit mode is part of
-     * that picture: without this, a post recorded as published while its text
-     * was open stayed editable, with حفظ and إلغاء still on screen.
-     *
-     * Doing it here also makes the two ways of arriving at a state agree — a
-     * page rendered as published and a post that became published over AJAX end
-     * up with identical controls.
-     */
-    editing(post, false);
 
     // .value, never innerHTML: the text is content, not markup.
     if (area && typeof serverPost.text === 'string') area.value = serverPost.text;
@@ -253,35 +236,17 @@
     post.classList.toggle('is-approved', approved && !published);
     post.classList.toggle('is-published', published);
     if (badge) badge.textContent = published ? 'تم النشر' : (approved ? 'معتمدة' : 'بانتظار المراجعة');
-    if (approveButton) approveButton.disabled = approved || published;
-
-    // Editing a recorded post is refused by the server, so the control is shut
-    // here too rather than left to fail on click.
-    if (editButton) editButton.disabled = published;
 
     /*
-     * Exactly one of the two record controls belongs on screen at a time, and
-     * either can become the right one after the other is used, so both are kept
-     * in the DOM and shown by state rather than removed.
+     * Leaving edit mode is part of painting server state, not something each
+     * caller has to remember: a post recorded as published while its text was
+     * open used to stay editable, with حفظ and إلغاء still on screen.
+     *
+     * The state is passed explicitly rather than read back from the classes just
+     * written, so the reply is what decides, and the two ways of reaching a
+     * state — rendered by the server, or repainted after a reply — agree.
      */
-    if (publishedButton) {
-      publishedButton.hidden = published || !approved;
-      publishedButton.disabled = published || !approved;
-    }
-    if (unpublishButton) {
-      unpublishButton.hidden = !published;
-      unpublishButton.disabled = !published;
-    }
-
-    /*
-     * Withdrawing an approval belongs only to an approved post that has not been
-     * recorded as published: a recorded one must have that record withdrawn
-     * first, matching the order the server enforces.
-     */
-    if (unapproveButton) {
-      unapproveButton.hidden = !approved || published;
-      unapproveButton.disabled = !approved || published;
-    }
+    paintControls(post, { approved: approved, published: published }, false);
 
     count(post);
   }
@@ -294,20 +259,53 @@
     });
   }
 
-  function editing(post, on) {
+  /*
+   * A post's state, read back from the classes the server rendered and that
+   * applyServerPost keeps in step. A published post carries only is-published,
+   * and it can only have got there by being approved, so approval follows.
+   */
+  function postState(post) {
+    var published = post.classList.contains('is-published');
+    return { published: published, approved: published || post.classList.contains('is-approved') };
+  }
+
+  function show(button, visible, enabled) {
+    if (!button) return;
+    button.hidden = !visible;
+    button.disabled = !visible || enabled === false;
+  }
+
+  /*
+   * The single authority over which controls a post offers.
+   *
+   * While the text is open for editing only حفظ and إلغاء remain: an unsaved
+   * edit is not what the server holds, so recording a publish, approving, or
+   * opening X from that moment would act on wording that exists nowhere but the
+   * screen — and the repaint that follows would then discard the typing.
+   *
+   * Outside edit mode, visibility follows the stored state alone, so a post
+   * rendered by the server and one repainted after a reply end up identical.
+   */
+  function paintControls(post, state, isEditing) {
     var area = post.querySelector('textarea');
-    var editButton = post.querySelector('[data-edit]');
-    var saveButton = post.querySelector('[data-save]');
-    var cancelButton = post.querySelector('[data-cancel]');
-    var approveButton = post.querySelector('[data-approve]');
+    if (area) area.readOnly = !isEditing;
 
-    if (area) area.readOnly = !on;
-    if (editButton) editButton.hidden = on;
-    if (saveButton) saveButton.hidden = !on;
-    if (cancelButton) cancelButton.hidden = !on;
-    if (approveButton) approveButton.hidden = on;
+    show(post.querySelector('[data-save]'), isEditing);
+    show(post.querySelector('[data-cancel]'), isEditing);
 
-    post.classList.toggle('is-editing', on);
+    show(post.querySelector('[data-edit]'), !isEditing, !state.published);
+    show(post.querySelector('[data-approve]'), !isEditing, !state.approved && !state.published);
+    show(post.querySelector('[data-share-x]'), !isEditing);
+    show(post.querySelector('[data-mark-published]'), !isEditing && state.approved && !state.published);
+    show(post.querySelector('[data-unmark-published]'), !isEditing && state.published);
+    show(post.querySelector('[data-unapprove]'), !isEditing && state.approved && !state.published);
+
+    post.classList.toggle('is-editing', isEditing);
+  }
+
+  /** Enter or leave edit mode, keeping every other control consistent. */
+  function editing(post, on) {
+    paintControls(post, postState(post), on);
   }
 
   /**
