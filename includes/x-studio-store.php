@@ -34,6 +34,8 @@ const QFA_X_UNSUPPORTED_SCHEMA = 'UNSUPPORTED_SCHEMA';
 const QFA_X_CONFLICT = 'CONFLICT';
 /** The write could not be completed; the live file was left untouched. */
 const QFA_X_WRITE_FAILED = 'WRITE_FAILED';
+/** Seeding found a plan already in place and left it alone. */
+const QFA_X_ALREADY_EXISTS = 'ALREADY_EXISTS';
 
 // ---------------------------------------------------------------------------
 // Schema limits
@@ -101,9 +103,29 @@ function qfa_x_guard(): string {
     return "<?php exit; ?>\n";
 }
 
-/** Server-side timestamp. Client-supplied times are never trusted for this. */
+/**
+ * The studio's own time zone.
+ *
+ * The plan is written and read in Riyadh time because that is what its posting
+ * times mean, and because "which week is it" must not change with the server's
+ * configuration. This is applied per call inside the studio's own functions;
+ * the project's global time zone is deliberately left alone, so nothing else on
+ * the site is affected.
+ */
+const QFA_X_TIMEZONE = 'Asia/Riyadh';
+
+function qfa_x_timezone(): DateTimeZone {
+    return new DateTimeZone(QFA_X_TIMEZONE);
+}
+
+/**
+ * Server-side timestamp. Client-supplied times are never trusted for this.
+ *
+ * The format stays offset-aware ISO-8601 exactly as before; pinning the zone
+ * only fixes which offset is written, so already stored timestamps remain valid.
+ */
 function qfa_x_now(): string {
-    return (new DateTimeImmutable('now'))->format(DATE_ATOM);
+    return (new DateTimeImmutable('now', qfa_x_timezone()))->format(DATE_ATOM);
 }
 
 /**
@@ -614,7 +636,15 @@ function qfa_x_store_write(array $plan, ?int $expected_revision, ?string $file =
      * Hold an exclusive lock across the read-compare-write cycle so two writers
      * cannot both pass the revision check. The lock is taken on the live file
      * itself; "c+" creates it when absent without truncating an existing one.
+     *
+     * Whether the file was already there is noted first, because "c+" is about
+     * to create it either way and an empty file has to mean different things in
+     * the two cases: nothing yet when we just made it, but damage when it was
+     * already on disk.
      */
+    clearstatcache(true, $path);
+    $existed = is_file($path);
+
     $handle = @fopen($path, 'c+');
     if ($handle === false) {
         return $fail(QFA_X_WRITE_FAILED, ['cannot open the plan for writing']);
@@ -655,6 +685,17 @@ function qfa_x_store_write(array $plan, ?int $expected_revision, ?string $file =
 
     $current = null;
     $currentRevision = null;
+
+    /*
+     * An empty file that was already on disk is reported as damage, matching
+     * what a read of it would say. It is never treated as "no plan yet": that
+     * would let a write silently fill in a file whose contents went missing,
+     * which is exactly the case a caller most needs to be told about.
+     */
+    if ($existed && trim($raw) === '') {
+        $release($handle);
+        return $fail(QFA_X_CORRUPT, ['the plan file is empty']);
+    }
 
     if (trim($raw) !== '') {
         $decoded = qfa_x_store_decode($raw);
@@ -751,4 +792,125 @@ function qfa_x_store_read_backup(?string $file = null): array {
     }
 
     return qfa_x_store_decode((string)$raw);
+}
+
+// ---------------------------------------------------------------------------
+// Seeding the first week
+// ---------------------------------------------------------------------------
+
+/**
+ * Build the week metadata for the week that contains a given moment.
+ *
+ * The studio's week runs Sunday to Saturday, which is not the ISO week, so the
+ * two are kept apart deliberately:
+ *
+ *   - start_date is the Sunday of the operating week and end_date is start + 6.
+ *   - week_id is only an identifier. It is taken from the Monday that falls
+ *     inside the operating week, so the label stays a real ISO week and every
+ *     operating week maps to exactly one id, even across a year boundary.
+ *
+ * @return array{week_id:string, start_date:string, end_date:string}
+ */
+function qfa_x_store_week_bounds(?DateTimeImmutable $now = null): array {
+    $now = ($now ?? new DateTimeImmutable('now'))->setTimezone(qfa_x_timezone());
+
+    // 'w' is 0 for Sunday, so this lands on the Sunday that opened this week.
+    $start = $now->setTime(0, 0, 0)->modify('-' . (int)$now->format('w') . ' days');
+    $end = $start->modify('+6 days');
+
+    // The Monday inside the operating week decides the ISO label.
+    $isoReference = $start->modify('+1 day');
+
+    return [
+        'week_id' => $isoReference->format('o-\WW'),
+        'start_date' => $start->format('Y-m-d'),
+        'end_date' => $end->format('Y-m-d'),
+    ];
+}
+
+/**
+ * Turn the shared weekly template into a plan for a specific week.
+ *
+ * Every post starts untouched: nothing approved, nothing published, no intent
+ * recorded and no content hash, because none of those things have happened yet.
+ */
+function qfa_x_store_build_week(array $bounds): array {
+    require_once __DIR__ . '/x-studio-plan.php';
+
+    $now = qfa_x_now();
+    $posts = [];
+    $sequence = 0;
+
+    foreach (qfa_x_studio_plan_posts() as $template) {
+        $sequence++;
+
+        $posts[] = [
+            // Derived from the week and the position in it, so re-seeding the
+            // same week produces the same ids rather than new ones.
+            'post_id' => sprintf('%s-%02d', $bounds['week_id'], $sequence),
+            'day' => (int)$template['day'],
+            'time' => (string)$template['time'],
+            'type' => (string)$template['type'],
+            'text' => (string)$template['text'],
+            'approved' => false,
+            'approved_at' => null,
+            'intent_opened_at' => null,
+            'published' => false,
+            'published_at' => null,
+            'source_type' => (string)$template['source_type'],
+            'source_ref' => $template['source_ref'],
+            'link_placeholders' => array_values($template['link_placeholders']),
+            'content_hash' => null,
+        ];
+    }
+
+    return [
+        'schema' => QFA_X_SCHEMA,
+        'week' => [
+            'week_id' => $bounds['week_id'],
+            'start_date' => $bounds['start_date'],
+            'end_date' => $bounds['end_date'],
+            'status' => 'draft',
+            'created_at' => $now,
+            'updated_at' => $now,
+            'revision' => 0,
+        ],
+        'posts' => $posts,
+    ];
+}
+
+/**
+ * Create the plan for the current week, but only when there is none.
+ *
+ * This is create-if-absent and nothing else. It never repairs, replaces or
+ * falls back: if a plan is already there it reports ALREADY_EXISTS, and if one
+ * is there but cannot be understood it reports that damage unchanged. Writing
+ * over a file this layer could not parse would turn a recoverable problem into
+ * a permanent one.
+ *
+ * The absence check is not a separate look before the write. It is the storage
+ * layer's own compare-and-swap: passing null as the expected revision means
+ * "there must be no plan yet", and that is settled under the exclusive lock,
+ * so two callers racing to seed cannot both succeed.
+ *
+ * @return array{status:string, revision:?int, errors:string[]}
+ */
+function qfa_x_store_seed_week(?string $file = null, ?DateTimeImmutable $now = null): array {
+    $plan = qfa_x_store_build_week(qfa_x_store_week_bounds($now));
+
+    $result = qfa_x_store_write($plan, null, $file);
+
+    /*
+     * A conflict here can only mean one thing: the expected revision was null,
+     * so the plan the write found was one that already existed.
+     */
+    if ($result['status'] === QFA_X_CONFLICT) {
+        return [
+            'status' => QFA_X_ALREADY_EXISTS,
+            'revision' => $result['revision'],
+            'errors' => ['a plan already exists; seeding leaves it untouched'],
+        ];
+    }
+
+    return $result;
 }
