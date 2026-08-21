@@ -1909,3 +1909,12 @@ html[data-theme="dark"] body[class*="color-"].internal-page .listen_aya a.sm2_bu
     height:28px;
 }
 
+
+/* V58.7 - Mobile header typography follows the page typography. */
+@media (max-width:991px){
+  .mobile-safe-brand-text,
+  .mobile-safe-menu a,
+  .mobile-nav-group>summary{
+    font-family:inherit!important;
+  }
+}
