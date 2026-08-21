@@ -77,3 +77,6 @@ html[data-theme="dark"] .sadaqah-agent-page .agent-unpublish:hover:not(:disabled
 .sadaqah-agent-page .agent-unapprove[hidden]{display:none}
 html[data-theme="dark"] .sadaqah-agent-page .agent-unapprove{border-color:#6b5a2e;background:#17271e;color:#e4c977}
 html[data-theme="dark"] .sadaqah-agent-page .agent-unapprove:hover:not(:disabled){background:#1e2f24}
+
+/* Controls withdrawn while a post is being edited */
+.sadaqah-agent-page .agent-post-foot button[hidden]{display:none}
