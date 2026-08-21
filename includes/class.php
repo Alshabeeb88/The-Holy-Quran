@@ -1776,30 +1776,86 @@ class QuranForAll extends QuranForAll_API {
 		$this->title = 'استوديو النشر على X';
 		$this->description = 'إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X';
 		$this->url = $this->url(array('action' => 'sadaqah_agent'));
-		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.2">';
-		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.3" defer></script>';
+		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.3">';
+		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.4" defer></script>';
 
-		/*
-		 * The weekly template lives in one place only, shared with the storage
-		 * layer, so the plan the studio shows and the plan that gets stored can
-		 * never drift apart.
-		 */
+		require_once __DIR__ . '/x-studio-store.php';
 		require_once __DIR__ . '/x-studio-plan.php';
-		$days = qfa_x_studio_plan_view_days();
 
 		/*
-		 * Placeholder resolution for the "share on X" button.
-		 *
-		 * The links that end up inside a published post are built only from the
-		 * configured SITE_URL. The site URL that the rest of the request uses can
-		 * fall back to HTTP_HOST when SITE_URL is not configured, and a forged Host
-		 * header must never be able to place a link to an attacker's domain into a
-		 * post. So when SITE_URL is absent the placeholders are simply left alone
-		 * rather than resolved against a guessed origin.
+		 * The stored plan is the only thing this page shows. The weekly template
+		 * is no longer rendered as if it were a plan: when nothing is stored the
+		 * page says so and offers to create it, rather than displaying a week
+		 * that does not exist anywhere.
+		 */
+		$read = qfa_x_store_read();
+
+		$csrf = htmlspecialchars(qfa_auth_csrf(), ENT_QUOTES, 'UTF-8');
+
+		$hero = '<header class="agent-hero"><div><span class="agent-eyebrow">النشر يدوي — لا يوجد نشر تلقائي</span><h1 id="agent-title">استوديو النشر على X</h1><p>إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X</p></div><span class="agent-hero-icon"><i class="fas fa-feather-alt"></i></span></header>'
+			.'<div class="agent-private-bar"><span><i class="fas fa-user-shield"></i> دخول خاص: '.htmlspecialchars(defined('ADMIN_EMAIL') ? (string)ADMIN_EMAIL : '', ENT_QUOTES, 'UTF-8').'</span><div><a href="index.php"><i class="fas fa-external-link-alt"></i> عرض الموقع</a><a href="admin-logout.php"><i class="fas fa-sign-out-alt"></i> تسجيل الخروج</a></div></div>';
+
+		$safety = '<footer class="agent-safety"><i class="fas fa-lock"></i><p><strong>لا نشر تلقائي</strong><span>زر «شارك على X» يفتح نافذة X والنص جاهز فيها، ولا يُنشر شيء إلا بضغطك على زر النشر داخل X.</span></p></footer>';
+
+		$open = '<section class="sadaqah-agent-page" aria-labelledby="agent-title" data-csrf="'.$csrf.'"';
+		$close = '</div></section>';
+
+		// --- nothing stored yet -------------------------------------------
+		if( $read['status'] === QFA_X_NOT_FOUND ){
+			return $open.' data-plan-state="empty"><div class="container agent-container">'
+				.$hero
+				.'<div class="agent-empty" data-empty-state>'
+				.'<span class="agent-empty-icon" aria-hidden="true"><i class="fas fa-calendar-plus"></i></span>'
+				.'<h2>لا توجد خطة أسبوعية بعد</h2>'
+				.'<p>أنشئ خطة هذا الأسبوع لبدء المراجعة والنشر.</p>'
+				.'<button type="button" class="agent-seed" data-seed-week>إنشاء خطة الأسبوع</button>'
+				.'<p class="agent-empty-note" data-seed-message role="status" aria-live="polite"></p>'
+				.'</div>'
+				.$safety.$close;
+		}
+
+		// --- stored, but not usable ---------------------------------------
+		if( $read['status'] !== QFA_X_OK ){
+			$reason = ( $read['status'] === QFA_X_UNREADABLE
+				? 'تعذر قراءة ملف الخطة. راجع صلاحيات الملف على الخادم.'
+				: 'ملف الخطة تالف أو بصيغة غير مدعومة. لا يمكن عرضه أو تعديله حتى تتم مراجعته يدويًا.' );
+
+			/*
+			 * No template is shown in its place and no button is offered. A
+			 * damaged plan may still be the only copy of real work, so the page
+			 * refuses to act rather than risk replacing it.
+			 */
+			return $open.' data-plan-state="error"><div class="container agent-container">'
+				.$hero
+				.'<div class="agent-error" role="alert">'
+				.'<span class="agent-error-icon" aria-hidden="true"><i class="fas fa-triangle-exclamation"></i></span>'
+				.'<h2>تعذر فتح الخطة</h2>'
+				.'<p>'.htmlspecialchars($reason, ENT_QUOTES, 'UTF-8').'</p>'
+				.'<p class="agent-error-note">لم يُعدّل أي شيء، ولن تُنشأ خطة جديدة فوق الملف الحالي.</p>'
+				.'</div>'
+				.$safety.$close;
+		}
+
+		// --- render the stored plan ---------------------------------------
+		$plan = $read['data'];
+		$week = $plan['week'];
+		$dayNames = qfa_x_studio_plan_day_names();
+
+		// Arabic type labels come from the shared template, so the wording has
+		// one source and cannot drift from what the plan was built with.
+		$typeLabels = array();
+		foreach( qfa_x_studio_plan_posts() as $templatePost ){
+			$typeLabels[$templatePost['type']] = $templatePost['type_label'];
+		}
+
+		/*
+		 * Placeholder resolution for the "share on X" button. The links that end
+		 * up inside a published post are built only from the configured SITE_URL:
+		 * the site URL used elsewhere can fall back to HTTP_HOST, and a forged
+		 * Host header must never place a link to an attacker's domain in a post.
 		 */
 		$share_base = ( defined('SITE_URL') ? rtrim(trim((string)SITE_URL), '/') : '' );
 
-		// Accept a generated link only if it really sits under the configured site.
 		$share_link = function( $url ) use ( $share_base ){
 			$url = (string)$url;
 			return ( $share_base !== '' && strpos($url, $share_base.'/') === 0 ) ? $url : '';
@@ -1815,8 +1871,6 @@ class QuranForAll extends QuranForAll_API {
 			if( $tafseer_url !== '' ) $share_common['[رابط التفاسير]'] = $tafseer_url;
 			if( $quran_url !== '' )   $share_common['[رابط الموقع]'] = $quran_url;
 
-			// Surah ids come from the project's own Arabic surah table, so the mapping
-			// is data-driven rather than a hand-written guess.
 			foreach( $this->api_surah_name('ar') as $surah_id => $surah_row ){
 				if( isset($surah_row['name']) ) $surah_by_name[$surah_row['name']] = (int)$surah_id;
 			}
@@ -1824,38 +1878,41 @@ class QuranForAll extends QuranForAll_API {
 
 		$x_icon = '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.657l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>';
 
+		// Group the stored posts by day, keeping the order they are stored in.
+		$byDay = array();
+		foreach( $dayNames as $dayIndex => $dayName ){ $byDay[$dayIndex] = array(); }
+		foreach( $plan['posts'] as $post ){
+			$dayIndex = (int)$post['day'];
+			if( isset($byDay[$dayIndex]) ) $byDay[$dayIndex][] = $post;
+		}
+
 		$dayTabs = '';
 		$dayPanels = '';
-		$postId = 0;
-		foreach($days as $dayIndex => $day){
-			$dayTabs .= '<button type="button" class="agent-day-tab'.($dayIndex === 0 ? ' is-active' : '').'" data-day-tab="'.$dayIndex.'" aria-selected="'.($dayIndex === 0 ? 'true' : 'false').'"><strong>'.$day[0].'</strong><span>'.$day[1].'</span></button>';
+		$approvedCount = 0;
+
+		foreach( $dayNames as $dayIndex => $dayName ){
+			$dayPosts = $byDay[$dayIndex];
+			$countLabel = count($dayPosts).' تغريدات';
+
+			$dayTabs .= '<button type="button" class="agent-day-tab'.($dayIndex === 0 ? ' is-active' : '').'" data-day-tab="'.$dayIndex.'" aria-selected="'.($dayIndex === 0 ? 'true' : 'false').'"><strong>'.htmlspecialchars($dayName, ENT_QUOTES, 'UTF-8').'</strong><span>'.$countLabel.'</span></button>';
+
 			$posts = '';
-			foreach($day[2] as $post){
-				$postId++;
-				$post_text = (string)$post[2];
+			foreach( $dayPosts as $post ){
+				$post_text = (string)$post['text'];
+				$approved = ( ($post['approved'] ?? false) === true );
+				$published = ( ($post['published'] ?? false) === true );
+				if( $approved ) $approvedCount++;
 
 				/*
-				 * The character counter is rendered server-side so it already shows the
-				 * real value on first paint, instead of a placeholder 0 that the deferred
-				 * script corrects a moment later.
-				 *
-				 * The unit is UTF-16 code units, which is what JavaScript's String.length
-				 * reports; counting code points instead would disagree with the live
-				 * counter on every text containing an emoji. Counted from the UTF-8 bytes
-				 * rather than through mbstring, which this project treats as optional:
-				 * every byte that is not a continuation byte starts one code point, and
-				 * a four-byte sequence needs a second UTF-16 unit.
+				 * Counted in UTF-16 code units, which is what JavaScript's
+				 * String.length reports, so the server-rendered number and the
+				 * live counter always agree. Taken from the UTF-8 bytes rather
+				 * than mbstring, which this project treats as optional.
 				 */
 				$post_length = preg_match_all('~[^\x80-\xBF]~', $post_text)
 					+ preg_match_all('~[\xF0-\xF4]~', $post_text);
 				$post_over = ( $post_length > 280 ? ' is-over-limit' : '' );
 
-				/*
-				 * Only the placeholders this post actually uses are published to the
-				 * markup. The substitution happens at share time in the browser, so the
-				 * administrator keeps reading the readable placeholder in the textarea
-				 * while X receives the real link.
-				 */
 				$post_links = $share_common;
 				if( $share_base !== '' && strpos($post_text, '[رابط السورة]') !== false
 					&& preg_match('~سورة\s+([^:\n]+):\s*\[رابط السورة\]~u', $post_text, $surah_match) ){
@@ -1868,20 +1925,53 @@ class QuranForAll extends QuranForAll_API {
 				foreach( $post_links as $placeholder => $link ){
 					if( strpos($post_text, $placeholder) === false ) unset($post_links[$placeholder]);
 				}
-				$post_links_attr = ( empty($post_links ) ? '' : ' data-share-links="'.htmlspecialchars((string)json_encode($post_links, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES), ENT_QUOTES, 'UTF-8').'"' );
+				$post_links_attr = ( empty($post_links) ? '' : ' data-share-links="'.htmlspecialchars((string)json_encode($post_links, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES), ENT_QUOTES, 'UTF-8').'"' );
 
-				$posts .= '<article class="agent-post'.$post_over.'" data-post="'.$postId.'"'.$post_links_attr.'><div class="agent-post-meta"><time>'.$post[0].'</time><span>'.$post[1].'</span><b data-post-status>بانتظار المراجعة</b></div><textarea aria-label="نص تغريدة '.$postId.'">'.htmlspecialchars($post_text, ENT_QUOTES, 'UTF-8').'</textarea><div class="agent-post-foot"><span><b data-char-count>'.$post_length.'</b> / 280 حرفًا</span><div><button type="button" class="agent-edit" data-edit><i class="fas fa-pen"></i> تعديل</button><button type="button" class="agent-approve" data-approve><i class="fas fa-check"></i> اعتماد</button><button type="button" class="agent-share-x" data-share-x aria-label="فتح منشور جديد على X بنص هذه التغريدة، دون نشر تلقائي" title="يفتح X والنص جاهز — النشر لا يتم إلا بضغطك داخل X">'.$x_icon.' شارك على X</button></div></div></article>';
+				$timeLabel = $this->x_studio_time_label((string)$post['time']);
+				$typeLabel = ( isset($typeLabels[$post['type']]) ? $typeLabels[$post['type']] : (string)$post['type'] );
+				$statusLabel = ( $published ? 'منشورة' : ( $approved ? 'معتمدة' : 'بانتظار المراجعة' ) );
+				$stateClass = ( $published ? ' is-published' : ( $approved ? ' is-approved' : '' ) );
+				$postId = htmlspecialchars((string)$post['post_id'], ENT_QUOTES, 'UTF-8');
+
+				$posts .= '<article class="agent-post'.$stateClass.$post_over.'" data-post="'.$postId.'"'.$post_links_attr.'>'
+					.'<div class="agent-post-meta"><time>'.htmlspecialchars($timeLabel, ENT_QUOTES, 'UTF-8').'</time><span>'.htmlspecialchars($typeLabel, ENT_QUOTES, 'UTF-8').'</span><b data-post-status>'.$statusLabel.'</b></div>'
+					.'<textarea aria-label="نص تغريدة '.$postId.'" readonly>'.htmlspecialchars($post_text, ENT_QUOTES, 'UTF-8').'</textarea>'
+					.'<div class="agent-post-foot"><span><b data-char-count>'.$post_length.'</b> / 280 حرفًا</span>'
+					.'<div><button type="button" class="agent-share-x" data-share-x aria-label="فتح منشور جديد على X بنص هذه التغريدة، دون نشر تلقائي" title="يفتح X والنص جاهز — النشر لا يتم إلا بضغطك داخل X">'.$x_icon.' شارك على X</button></div>'
+					.'</div></article>';
 			}
-			$dayPanels .= '<section class="agent-day-panel'.($dayIndex === 0 ? ' is-active' : '').'" data-day-panel="'.$dayIndex.'"><div class="agent-day-head"><div><span>خطة يوم '.$day[0].'</span><h2>'.$day[1].' مجدولة</h2></div><button type="button" data-approve-day><i class="fas fa-check-double"></i> اعتماد اليوم</button></div><div class="agent-posts">'.$posts.'</div></section>';
+
+			$dayPanels .= '<section class="agent-day-panel'.($dayIndex === 0 ? ' is-active' : '').'" data-day-panel="'.$dayIndex.'"><div class="agent-day-head"><div><span>خطة يوم '.htmlspecialchars($dayName, ENT_QUOTES, 'UTF-8').'</span><h2>'.$countLabel.' مجدولة</h2></div></div><div class="agent-posts">'.$posts.'</div></section>';
 		}
 
-		return '<section class="sadaqah-agent-page" aria-labelledby="agent-title"><div class="container agent-container">'
-		.'<header class="agent-hero"><div><span class="agent-eyebrow">النشر يدوي — لا يوجد نشر تلقائي</span><h1 id="agent-title">استوديو النشر على X</h1><p>إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X</p></div><span class="agent-hero-icon"><i class="fas fa-feather-alt"></i></span></header>'
-		.'<div class="agent-private-bar"><span><i class="fas fa-user-shield"></i> دخول خاص: '.htmlspecialchars(defined('ADMIN_EMAIL') ? (string)ADMIN_EMAIL : '', ENT_QUOTES, 'UTF-8').'</span><div><a href="index.php"><i class="fas fa-external-link-alt"></i> عرض الموقع</a><a href="admin-logout.php"><i class="fas fa-sign-out-alt"></i> تسجيل الخروج</a></div></div>'
-		.'<div class="agent-summary"><div><i class="fas fa-calendar-week"></i><span>هذا الأسبوع<strong>22 تغريدة</strong></span></div><div><i class="fas fa-clock"></i><span>المعدل اليومي<strong>3–4 تغريدات</strong></span></div><div><i class="fas fa-shield-alt"></i><span>حالة النشر<strong>معاينة فقط</strong></span></div><button type="button" data-reset-plan><i class="fas fa-redo-alt"></i> إعادة التجربة</button></div>'
-		.'<nav class="agent-day-tabs" aria-label="أيام الأسبوع">'.$dayTabs.'</nav>'.$dayPanels
-		.'<footer class="agent-safety"><i class="fas fa-lock"></i><p><strong>لا نشر تلقائي</strong><span>زر «شارك على X» يفتح نافذة X والنص جاهز فيها، ولا يُنشر شيء إلا بضغطك على زر النشر داخل X. الاعتماد في هذه اللوحة محفوظ على جهازك فقط، والربط التلقائي مرحلة مستقلة لاحقًا.</span></p></footer>'
-		.'</div></section>';
+		$total = count($plan['posts']);
+		$weekLabel = htmlspecialchars((string)$week['start_date'].' — '.(string)$week['end_date'], ENT_QUOTES, 'UTF-8');
+
+		$summary = '<div class="agent-summary">'
+			.'<div><i class="fas fa-calendar-week"></i><span>أسبوع '.htmlspecialchars((string)$week['week_id'], ENT_QUOTES, 'UTF-8').'<strong>'.$weekLabel.'</strong></span></div>'
+			.'<div><i class="fas fa-list-check"></i><span>إجمالي المنشورات<strong>'.$total.' منشورًا</strong></span></div>'
+			.'<div><i class="fas fa-shield-alt"></i><span>المعتمدة<strong>'.$approvedCount.' من '.$total.'</strong></span></div>'
+			.'</div>';
+
+		return $open.' data-plan-state="ready" data-plan-revision="'.(int)$week['revision'].'"><div class="container agent-container">'
+			.$hero
+			.$summary
+			.'<nav class="agent-day-tabs" aria-label="أيام الأسبوع">'.$dayTabs.'</nav>'.$dayPanels
+			.$safety.$close;
+	}
+
+	/** Turn a stored 24 hour time into the Arabic 12 hour label the page shows. */
+	private function x_studio_time_label( $time ){
+		if( !preg_match('~^(\d{2}):(\d{2})$~', (string)$time, $parts) ){
+			return (string)$time;
+		}
+
+		$hour = (int)$parts[1];
+		$suffix = ( $hour < 12 ? 'ص' : 'م' );
+		$hour12 = $hour % 12;
+		if( $hour12 === 0 ) $hour12 = 12;
+
+		return sprintf('%02d:%s %s', $hour12, $parts[2], $suffix);
 	}
 
 	public function home_page(){
