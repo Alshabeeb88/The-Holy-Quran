@@ -232,6 +232,18 @@
     var unpublishButton = post.querySelector('[data-unmark-published]');
     var unapproveButton = post.querySelector('[data-unapprove]');
 
+    /*
+     * Leave edit mode first, whatever put the post there. This function is the
+     * one place that paints a post from server state, and edit mode is part of
+     * that picture: without this, a post recorded as published while its text
+     * was open stayed editable, with حفظ and إلغاء still on screen.
+     *
+     * Doing it here also makes the two ways of arriving at a state agree — a
+     * page rendered as published and a post that became published over AJAX end
+     * up with identical controls.
+     */
+    editing(post, false);
+
     // .value, never innerHTML: the text is content, not markup.
     if (area && typeof serverPost.text === 'string') area.value = serverPost.text;
 
@@ -343,9 +355,16 @@
         if (typeof data.revision === 'number') {
           root.setAttribute('data-plan-revision', String(data.revision));
         }
+        /*
+         * Release the in-flight lock first, then paint. busy() re-enables every
+         * control indiscriminately, so running it afterwards undid the state it
+         * had just been given: a post recorded as published came back with its
+         * تعديل and اعتماد buttons live again. Painting last leaves the server's
+         * answer as the final word.
+         */
+        busy(post, false);
         applyServerPost(post, data.post);
         tell(post, '');
-        busy(post, false);
         if (onSuccess) onSuccess();
         return;
       }
