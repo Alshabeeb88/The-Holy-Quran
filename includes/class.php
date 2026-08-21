@@ -1776,8 +1776,8 @@ class QuranForAll extends QuranForAll_API {
 		$this->title = 'استوديو النشر على X';
 		$this->description = 'إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X';
 		$this->url = $this->url(array('action' => 'sadaqah_agent'));
-		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.5">';
-		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.6" defer></script>';
+		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.6">';
+		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.7" defer></script>';
 
 		require_once __DIR__ . '/x-studio-store.php';
 		require_once __DIR__ . '/x-studio-plan.php';
@@ -1951,10 +1951,19 @@ class QuranForAll extends QuranForAll_API {
 					 * not a publish button: nothing here can tell whether the composer
 					 * that "شارك على X" opened was ever submitted.
 					 */
-					.( $approved && !$published
-						? '<button type="button" class="agent-published" data-mark-published aria-label="تسجيل أن هذه التغريدة نُشرت على X" title="سجّل أنك نشرت هذه التغريدة داخل X">'
-							.'<i class="fas fa-circle-check"></i> تم النشر</button>'
-						: '' )
+					/*
+					 * Both records controls are always in the markup and shown by state,
+					 * because either one can become the right control after the other is
+					 * used. Hiding beats removing here: a removed button cannot come back
+					 * without building DOM from scratch.
+					 */
+					.'<button type="button" class="agent-published" data-mark-published'.($approved && !$published ? '' : ' hidden').' aria-label="تسجيل أن هذه التغريدة نُشرت على X" title="سجّل أنك نشرت هذه التغريدة داخل X"><i class="fas fa-circle-check"></i> تم النشر</button>'
+					/*
+					 * The way back out of a mistaken click. It corrects this studio's own
+					 * record only: whatever was posted on X stays on X, which the label,
+					 * the tooltip and the confirmation all say plainly.
+					 */
+					.'<button type="button" class="agent-unpublish" data-unmark-published'.($published ? '' : ' hidden').' aria-label="إلغاء تسجيل النشر لهذه التغريدة في سجل الاستوديو" title="يصحّح سجل الاستوديو فقط — لا يحذف التغريدة من X"><i class="fas fa-rotate-left"></i> إلغاء تسجيل النشر</button>'
 					.'</div>'
 					.'</div>'
 					.'<p class="agent-post-message" data-post-message role="status" aria-live="polite"></p>'
