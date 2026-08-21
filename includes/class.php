@@ -1776,8 +1776,8 @@ class QuranForAll extends QuranForAll_API {
 		$this->title = 'استوديو النشر على X';
 		$this->description = 'إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X';
 		$this->url = $this->url(array('action' => 'sadaqah_agent'));
-		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.8">';
-		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.10" defer></script>';
+		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.9">';
+		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.11" defer></script>';
 
 		require_once __DIR__ . '/x-studio-store.php';
 		require_once __DIR__ . '/x-studio-plan.php';
@@ -1989,9 +1989,32 @@ class QuranForAll extends QuranForAll_API {
 			.'<div><i class="fas fa-shield-alt"></i><span>المعتمدة<strong>'.$approvedCount.' من '.$total.'</strong></span></div>'
 			.'</div>';
 
+		/*
+		 * A plan from a week that has already passed is pointed out rather than
+		 * replaced: moving on is the administrator's decision, and nothing here
+		 * or in the script does it on its own. The notice appears only when the
+		 * stored week is genuinely behind the current one.
+		 */
+		$currentWeek = qfa_x_store_week_bounds();
+		$stale = ( (string)$week['week_id'] !== $currentWeek['week_id'] );
+
+		$rollover = '';
+		if( $stale ){
+			$rollover = '<div class="agent-stale" role="status">'
+				.'<span class="agent-stale-icon" aria-hidden="true"><i class="fas fa-clock-rotate-left"></i></span>'
+				.'<div><strong>هذه خطة أسبوع سابق</strong>'
+				.'<span>الأسبوع الجاري هو '.htmlspecialchars($currentWeek['week_id'], ENT_QUOTES, 'UTF-8')
+				.' ('.htmlspecialchars($currentWeek['start_date'].' — '.$currentWeek['end_date'], ENT_QUOTES, 'UTF-8').').'
+				.' ستُحفظ الخطة الحالية في الأرشيف قبل إنشاء خطة الأسبوع الجديد.</span></div>'
+				.'<button type="button" class="agent-rollover" data-rollover>أرشفة الخطة وإنشاء أسبوع جديد</button>'
+				.'<p class="agent-stale-message" data-rollover-message role="status" aria-live="polite"></p>'
+				.'</div>';
+		}
+
 		return $open.' data-plan-state="ready" data-plan-revision="'.(int)$week['revision'].'"><div class="container agent-container">'
 			.$hero
 			.$summary
+			.$rollover
 			.'<nav class="agent-day-tabs" aria-label="أيام الأسبوع">'.$dayTabs.'</nav>'.$dayPanels
 			.$safety.$close;
 	}
