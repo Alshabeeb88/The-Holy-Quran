@@ -39,6 +39,21 @@ function qfa_x_reply(int $status, bool $ok, string $code, string $message = '', 
     exit;
 }
 
+/**
+ * The part of a post the interface is told about: what it shows and what it
+ * needs to decide which controls belong on screen. Never the whole plan.
+ */
+function qfa_x_post_payload(array $post): array {
+    return [
+        'post_id' => $post['post_id'],
+        'text' => $post['text'],
+        'approved' => $post['approved'],
+        'approved_at' => $post['approved_at'],
+        'published' => $post['published'],
+        'published_at' => $post['published_at'],
+    ];
+}
+
 // A wrong method is refused before any file is loaded or any session touched.
 if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
     header('Allow: POST');
@@ -111,6 +126,9 @@ if (strlen($action) > 24 || preg_match('~^[a-z_]+$~', $action) !== 1) {
 $allowedFields = [
     'save_post' => ['action', 'csrf', 'post_id', 'expected_revision', 'text'],
     'approve_post' => ['action', 'csrf', 'post_id', 'expected_revision'],
+    // Recording that a post went out carries no data of its own: the moment is
+    // taken from the server clock, so there is nothing for the caller to send.
+    'mark_published' => ['action', 'csrf', 'post_id', 'expected_revision'],
 ];
 
 if (!isset($allowedFields[$action])) {
@@ -232,7 +250,7 @@ if ($action === 'save_post') {
     $plan['posts'][$index]['text'] = $text;
     $plan['posts'][$index]['approved'] = false;
     $plan['posts'][$index]['approved_at'] = null;
-} else {
+} elseif ($action === 'approve_post') {
     /*
      * Approving something already approved changes nothing, so it is reported
      * as success without a write. That keeps a double click from burning a
@@ -241,36 +259,48 @@ if ($action === 'save_post') {
     if (($post['approved'] ?? false) === true) {
         qfa_x_reply(200, true, 'OK', '', [
             'revision' => $currentRevision,
-            'post' => [
-                'post_id' => $post['post_id'],
-                'text' => $post['text'],
-                'approved' => $post['approved'],
-                'approved_at' => $post['approved_at'],
-                'published' => $post['published'],
-                'published_at' => $post['published_at'],
-            ],
+            'post' => qfa_x_post_payload($post),
         ]);
     }
 
     $plan['posts'][$index]['approved'] = true;
     $plan['posts'][$index]['approved_at'] = qfa_x_now();   // server clock only
+} else {
+    /*
+     * mark_published records that the administrator published this post by hand
+     * on X. It is a statement about something that already happened, which is
+     * why nothing here can infer it: opening the Web Intent composer proves only
+     * that the composer opened, so only an explicit act can set this.
+     */
+    if (($post['approved'] ?? false) !== true) {
+        // Approval is the review gate. Recording a post as published without it
+        // would let unreviewed wording be logged as having gone out.
+        qfa_x_reply(409, false, 'RULE_VIOLATION', 'يجب اعتماد المنشور قبل تسجيله كمنشور.');
+    }
+
+    /*
+     * Already recorded: report success without writing, so a second click
+     * neither burns a revision nor moves the published_at that was recorded the
+     * first time. That timestamp is the historical fact and must not drift.
+     */
+    if (($post['published'] ?? false) === true) {
+        qfa_x_reply(200, true, 'OK', '', [
+            'revision' => $currentRevision,
+            'post' => qfa_x_post_payload($post),
+        ]);
+    }
+
+    $plan['posts'][$index]['published'] = true;
+    $plan['posts'][$index]['published_at'] = qfa_x_now();   // server clock only
 }
 
 $write = qfa_x_store_write($plan, $expectedRevision);
 
 switch ($write['status']) {
     case QFA_X_OK:
-        $saved = $plan['posts'][$index];
         qfa_x_reply(200, true, 'POST_UPDATED', '', [
             'revision' => $write['revision'],
-            'post' => [
-                'post_id' => $saved['post_id'],
-                'text' => $saved['text'],
-                'approved' => $saved['approved'],
-                'approved_at' => $saved['approved_at'],
-                'published' => $saved['published'],
-                'published_at' => $saved['published_at'],
-            ],
+            'post' => qfa_x_post_payload($plan['posts'][$index]),
         ]);
 
     case QFA_X_CONFLICT:
