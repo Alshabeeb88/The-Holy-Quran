@@ -1159,3 +1159,118 @@ function qfa_x_store_rollover_week(?string $file = null, ?DateTimeImmutable $now
         'errors' => [],
     ];
 }
+
+// ---------------------------------------------------------------------------
+// Reading the archive
+// ---------------------------------------------------------------------------
+
+/**
+ * The one pattern an archive file may be named.
+ *
+ * Listing walks the directory rather than trusting a caller, and only names
+ * matching this are ever opened, so the directory's own guards (.htaccess,
+ * index.php) and anything else that finds its way in there are never read as
+ * data, let alone shown.
+ */
+function qfa_x_archive_week_id_from_name(string $basename): ?string {
+    if (!preg_match('~^x_studio_(\d{4}-W\d{2})\.php$~', $basename, $m)) {
+        return null;
+    }
+    return qfa_x_is_iso_week($m[1]) ? $m[1] : null;
+}
+
+/**
+ * Summarise every archived week, newest first.
+ *
+ * Each file is decoded and validated before it contributes anything: a damaged
+ * archive is listed with its status so the page can say so plainly, and its
+ * contents are never treated as usable data.
+ *
+ * Sorting is a plain string comparison, which is correct here because the ids
+ * are zero padded (2026-W09 sorts before 2026-W10).
+ *
+ * @return array<int, array{week_id:string, status:string, start_date:?string,
+ *   end_date:?string, post_count:?int, published:?int, approved:?int, draft:?int}>
+ */
+function qfa_x_archive_list(?string $file = null): array {
+    $dir = qfa_x_archive_dir($file);
+    if (!is_dir($dir)) {
+        return [];
+    }
+
+    $weeks = [];
+    foreach ((glob($dir . '/x_studio_*.php') ?: []) as $path) {
+        $weekId = qfa_x_archive_week_id_from_name(basename($path));
+        if ($weekId === null) {
+            continue;   // not one of ours: never opened
+        }
+
+        $read = qfa_x_archive_read($weekId, $file);
+        if ($read['status'] !== QFA_X_OK) {
+            $weeks[$weekId] = [
+                'week_id' => $weekId,
+                'status' => $read['status'],
+                'start_date' => null,
+                'end_date' => null,
+                'post_count' => null,
+                'published' => null,
+                'approved' => null,
+                'draft' => null,
+            ];
+            continue;
+        }
+
+        $plan = $read['data'];
+        $published = 0;
+        $approved = 0;
+        foreach ($plan['posts'] as $post) {
+            if (($post['published'] ?? false) === true) {
+                $published++;
+            } elseif (($post['approved'] ?? false) === true) {
+                $approved++;
+            }
+        }
+
+        $weeks[$weekId] = [
+            'week_id' => $weekId,
+            'status' => QFA_X_OK,
+            'start_date' => (string)$plan['week']['start_date'],
+            'end_date' => (string)$plan['week']['end_date'],
+            'post_count' => count($plan['posts']),
+            'published' => $published,
+            'approved' => $approved,
+            'draft' => count($plan['posts']) - $published - $approved,
+        ];
+    }
+
+    krsort($weeks, SORT_STRING);
+
+    return array_values($weeks);
+}
+
+/**
+ * One archived week, ready to display.
+ *
+ * The week id is the only thing a caller may name, and it has to survive the
+ * calendar check before any path is built from it, so a filename or a traversal
+ * cannot be expressed here at all. A week that is missing or damaged comes back
+ * as a status, never as partial data.
+ *
+ * @return array{status:string, week:?array, posts:?array}
+ */
+function qfa_x_archive_week(string $weekId, ?string $file = null): array {
+    if (!qfa_x_is_iso_week($weekId)) {
+        return ['status' => QFA_X_INVALID, 'week' => null, 'posts' => null];
+    }
+
+    $read = qfa_x_archive_read($weekId, $file);
+    if ($read['status'] !== QFA_X_OK) {
+        return ['status' => $read['status'], 'week' => null, 'posts' => null];
+    }
+
+    return [
+        'status' => QFA_X_OK,
+        'week' => $read['data']['week'],
+        'posts' => $read['data']['posts'],
+    ];
+}
