@@ -132,6 +132,8 @@ $allowedFields = [
     // Undoing that record likewise carries nothing: it only clears what the
     // server itself wrote.
     'unmark_published' => ['action', 'csrf', 'post_id', 'expected_revision'],
+    // Withdrawing an approval is the same shape: it only clears server-set state.
+    'unapprove_post' => ['action', 'csrf', 'post_id', 'expected_revision'],
 ];
 
 if (!isset($allowedFields[$action])) {
@@ -295,7 +297,7 @@ if ($action === 'save_post') {
 
     $plan['posts'][$index]['published'] = true;
     $plan['posts'][$index]['published_at'] = qfa_x_now();   // server clock only
-} else {
+} elseif ($action === 'unmark_published') {
     /*
      * unmark_published is the way back out of a mistaken click. It corrects this
      * studio's own record and nothing else: whatever was posted on X stays on X,
@@ -314,6 +316,30 @@ if ($action === 'save_post') {
 
     $plan['posts'][$index]['published'] = false;
     $plan['posts'][$index]['published_at'] = null;
+} else {
+    /*
+     * Withdrawing an approval sends a post back for review without touching its
+     * text, which editing would otherwise do as a side effect.
+     */
+    if (($post['published'] ?? false) === true) {
+        /*
+         * A recorded post is claimed to have gone out under a reviewed wording.
+         * Letting the approval be pulled while that claim stands would leave the
+         * record self-contradictory, so the published mark has to come off first.
+         */
+        qfa_x_reply(409, false, 'RULE_VIOLATION', 'لا يمكن سحب اعتماد منشور مسجل على أنه منشور. ألغِ حالة النشر أولًا.');
+    }
+
+    if (($post['approved'] ?? false) !== true) {
+        // Not approved, so nothing to withdraw: reported without a write.
+        qfa_x_reply(200, true, 'OK', '', [
+            'revision' => $currentRevision,
+            'post' => qfa_x_post_payload($post),
+        ]);
+    }
+
+    $plan['posts'][$index]['approved'] = false;
+    $plan['posts'][$index]['approved_at'] = null;
 }
 
 $write = qfa_x_store_write($plan, $expectedRevision);
