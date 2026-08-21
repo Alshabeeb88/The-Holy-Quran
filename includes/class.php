@@ -1777,7 +1777,7 @@ class QuranForAll extends QuranForAll_API {
 		$this->description = 'إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X';
 		$this->url = $this->url(array('action' => 'sadaqah_agent'));
 		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.7">';
-		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.8" defer></script>';
+		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.9" defer></script>';
 
 		require_once __DIR__ . '/x-studio-store.php';
 		require_once __DIR__ . '/x-studio-plan.php';
