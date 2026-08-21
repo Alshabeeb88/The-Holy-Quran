@@ -1,0 +1,754 @@
+<?php
+declare(strict_types=1);
+
+/**
+ * Storage layer for the X publishing studio.
+ *
+ * Holds the live weekly plan in a single protected file next to the other
+ * runtime state of this project, using the same protections those files use:
+ * a "<?php exit; ?>" guard as the first line, mode 0640, a directory that
+ * Apache denies, and an entry in .gitignore.
+ *
+ * This file only reads, validates and writes. It knows nothing about HTTP,
+ * sessions or the page that will eventually use it: no endpoint, no output,
+ * no side effects on include.
+ */
+
+// ---------------------------------------------------------------------------
+// Result statuses
+// ---------------------------------------------------------------------------
+
+/** The call did what was asked. */
+const QFA_X_OK = 'OK';
+/** No plan file exists yet. Distinct from a damaged one on purpose. */
+const QFA_X_NOT_FOUND = 'NOT_FOUND';
+/** The file exists but cannot be parsed: empty, wrong guard, or broken JSON. */
+const QFA_X_CORRUPT = 'CORRUPT';
+/** The file parses but the data breaks the schema or a state invariant. */
+const QFA_X_INVALID = 'INVALID';
+/** The file exists but could not be opened for reading. */
+const QFA_X_UNREADABLE = 'UNREADABLE';
+/** The file was written by a newer version of this layer. */
+const QFA_X_UNSUPPORTED_SCHEMA = 'UNSUPPORTED_SCHEMA';
+/** Someone else changed the plan since the caller last read it. */
+const QFA_X_CONFLICT = 'CONFLICT';
+/** The write could not be completed; the live file was left untouched. */
+const QFA_X_WRITE_FAILED = 'WRITE_FAILED';
+
+// ---------------------------------------------------------------------------
+// Schema limits
+// ---------------------------------------------------------------------------
+
+const QFA_X_SCHEMA = 1;
+const QFA_X_MAX_POSTS = 21;              // 3 posts a day across 7 days
+const QFA_X_MAX_TEXT = 2000;             // characters, not bytes
+const QFA_X_MAX_PLACEHOLDERS = 8;
+const QFA_X_MAX_PLACEHOLDER_LEN = 64;
+const QFA_X_MAX_POST_ID_LEN = 32;
+
+const QFA_X_STATUSES = ['draft', 'active', 'closed'];
+const QFA_X_TYPES = ['ayah', 'dhikr', 'dua', 'tafseer', 'recitation', 'adhkar', 'site', 'friday', 'kahf'];
+const QFA_X_SOURCE_TYPES = ['surah', 'page', 'adhkar', 'none'];
+const QFA_X_ADHKAR_REFS = ['morning', 'evening'];
+
+const QFA_X_SURAH_MIN = 1;
+const QFA_X_SURAH_MAX = 114;
+const QFA_X_PAGE_MIN = 1;
+const QFA_X_PAGE_MAX = 604;
+
+// ---------------------------------------------------------------------------
+// Paths
+// ---------------------------------------------------------------------------
+
+/**
+ * The one canonical location of the live plan. Fixed at include time from
+ * __DIR__, never assembled from anything a request can influence.
+ */
+function qfa_x_store_path(): string {
+    return __DIR__ . '/x_studio_current.php';
+}
+
+/** Single rollback copy of the last known-good plan. */
+function qfa_x_store_backup_path(): string {
+    return qfa_x_store_path() . '.bak';
+}
+
+/**
+ * Resolve the file a call should act on.
+ *
+ * Tests need to work against a throwaway file, but a path argument that an
+ * HTTP request could reach would be a path traversal waiting to happen. So the
+ * override is honoured only under the CLI SAPI: over HTTP this function always
+ * returns the canonical path, whatever it is handed. There is no filtering to
+ * get wrong, because the untrusted transport simply cannot select a path.
+ */
+function qfa_x_store_resolve(?string $file): string {
+    if ($file === null || $file === '' || PHP_SAPI !== 'cli') {
+        return qfa_x_store_path();
+    }
+    if (strpos($file, "\0") !== false) {
+        return qfa_x_store_path();
+    }
+    return $file;
+}
+
+// ---------------------------------------------------------------------------
+// Small helpers
+// ---------------------------------------------------------------------------
+
+/** The guard every runtime data file in this project starts with. */
+function qfa_x_guard(): string {
+    return "<?php exit; ?>\n";
+}
+
+/** Server-side timestamp. Client-supplied times are never trusted for this. */
+function qfa_x_now(): string {
+    return (new DateTimeImmutable('now'))->format(DATE_ATOM);
+}
+
+/**
+ * Character count that does not depend on mbstring, which this project treats
+ * as optional: every byte that is not a UTF-8 continuation byte starts one
+ * character.
+ */
+function qfa_x_text_length(string $text): int {
+    if (function_exists('mb_strlen')) {
+        return (int)mb_strlen($text, 'UTF-8');
+    }
+    return (int)preg_match_all('~[^\x80-\xBF]~', $text);
+}
+
+/** True when the value is a string holding well-formed UTF-8. */
+function qfa_x_is_utf8($value): bool {
+    return is_string($value) && preg_match('//u', $value) === 1;
+}
+
+/** True for a real calendar date written exactly as YYYY-MM-DD. */
+function qfa_x_is_date($value): bool {
+    if (!is_string($value) || !preg_match('~^(\d{4})-(\d{2})-(\d{2})$~', $value, $m)) {
+        return false;
+    }
+    // checkdate rejects 2026-02-30 and friends, which the pattern alone allows.
+    return checkdate((int)$m[2], (int)$m[3], (int)$m[1]);
+}
+
+/** True for an ISO-8601 timestamp that round-trips exactly. */
+function qfa_x_is_timestamp($value): bool {
+    if (!is_string($value) || $value === '') {
+        return false;
+    }
+    $parsed = DateTimeImmutable::createFromFormat(DATE_ATOM, $value);
+    return $parsed !== false && $parsed->format(DATE_ATOM) === $value;
+}
+
+/**
+ * True for an ISO-8601 week that actually exists, written as YYYY-Www.
+ *
+ * The shape alone is not enough: most years have 52 weeks, so a value such as
+ * 2027-W53 is well-formed and still names a week that never happens. Asking the
+ * calendar settles it, because setISODate rolls an out-of-range week into the
+ * following year, which the round-trip then catches.
+ */
+function qfa_x_is_iso_week($value): bool {
+    if (!is_string($value) || !preg_match('~^(\d{4})-W(\d{2})$~', $value, $m)) {
+        return false;
+    }
+
+    $year = (int)$m[1];
+    $week = (int)$m[2];
+    if ($week < 1 || $week > 53) {
+        return false;
+    }
+
+    $date = (new DateTimeImmutable('now', new DateTimeZone('UTC')))->setISODate($year, $week, 1);
+    return $date->format('o') === $m[1] && $date->format('W') === $m[2];
+}
+
+/** Days between two YYYY-MM-DD dates, or null when either is unusable. */
+function qfa_x_day_span(string $from, string $to): ?int {
+    $a = DateTimeImmutable::createFromFormat('!Y-m-d', $from);
+    $b = DateTimeImmutable::createFromFormat('!Y-m-d', $to);
+    if ($a === false || $b === false) {
+        return null;
+    }
+    return (int)$a->diff($b)->format('%r%a');
+}
+
+/** A strict integer: rejects "3", 3.5 and true, which is_numeric would allow. */
+function qfa_x_is_int($value): bool {
+    return is_int($value);
+}
+
+// ---------------------------------------------------------------------------
+// Validation
+// ---------------------------------------------------------------------------
+
+/**
+ * Check a plan against the schema and the state invariants.
+ *
+ * Returns a list of human-readable problems; an empty list means valid. Every
+ * problem is reported rather than only the first, so a caller can show the
+ * whole picture instead of one error at a time.
+ */
+function qfa_x_store_validate($plan): array {
+    $errors = [];
+
+    if (!is_array($plan)) {
+        return ['plan: expected an object'];
+    }
+
+    // --- schema -----------------------------------------------------------
+    if (!array_key_exists('schema', $plan)) {
+        $errors[] = 'schema: missing';
+    } elseif (!qfa_x_is_int($plan['schema'])) {
+        $errors[] = 'schema: must be an integer';
+    } elseif ($plan['schema'] !== QFA_X_SCHEMA) {
+        $errors[] = 'schema: unsupported version ' . $plan['schema'];
+    }
+
+    // --- week -------------------------------------------------------------
+    $week = $plan['week'] ?? null;
+    if (!is_array($week)) {
+        $errors[] = 'week: missing or not an object';
+        $week = [];
+    }
+
+    if (!qfa_x_is_iso_week($week['week_id'] ?? null)) {
+        $errors[] = 'week.week_id: must be a real ISO week written as 2026-W35';
+    }
+
+    $start = $week['start_date'] ?? null;
+    $end = $week['end_date'] ?? null;
+    if (!qfa_x_is_date($start)) {
+        $errors[] = 'week.start_date: must be a real YYYY-MM-DD date';
+    }
+    if (!qfa_x_is_date($end)) {
+        $errors[] = 'week.end_date: must be a real YYYY-MM-DD date';
+    }
+    if (qfa_x_is_date($start) && qfa_x_is_date($end)) {
+        $span = qfa_x_day_span((string)$start, (string)$end);
+        if ($span !== 6) {
+            // A weekly plan that does not span a week is a bug upstream, not a
+            // preference: the seven day tabs would no longer match the dates.
+            $errors[] = 'week: end_date must be exactly 6 days after start_date';
+        }
+    }
+
+    if (!is_string($week['status'] ?? null) || !in_array($week['status'], QFA_X_STATUSES, true)) {
+        $errors[] = 'week.status: must be one of ' . implode(', ', QFA_X_STATUSES);
+    }
+
+    foreach (['created_at', 'updated_at'] as $field) {
+        if (!qfa_x_is_timestamp($week[$field] ?? null)) {
+            $errors[] = 'week.' . $field . ': must be an ISO-8601 timestamp';
+        }
+    }
+    if (qfa_x_is_timestamp($week['created_at'] ?? null) && qfa_x_is_timestamp($week['updated_at'] ?? null)) {
+        if (strtotime((string)$week['updated_at']) < strtotime((string)$week['created_at'])) {
+            $errors[] = 'week: updated_at is before created_at';
+        }
+    }
+
+    if (!qfa_x_is_int($week['revision'] ?? null) || (int)($week['revision'] ?? -1) < 0) {
+        $errors[] = 'week.revision: must be an integer of 0 or more';
+    }
+
+    // --- posts ------------------------------------------------------------
+    $posts = $plan['posts'] ?? null;
+    if (!is_array($posts)) {
+        $errors[] = 'posts: missing or not an array';
+        return $errors;
+    }
+    // A JSON object would arrive as an associative array and quietly break any
+    // caller that assumes a list, so require real sequential keys.
+    if ($posts !== [] && array_keys($posts) !== range(0, count($posts) - 1)) {
+        $errors[] = 'posts: must be a list, not an object';
+        return $errors;
+    }
+    if (count($posts) > QFA_X_MAX_POSTS) {
+        $errors[] = 'posts: at most ' . QFA_X_MAX_POSTS . ' entries, got ' . count($posts);
+    }
+
+    $seenIds = [];
+    $seenSlots = [];
+    foreach ($posts as $index => $post) {
+        $at = 'posts[' . $index . ']';
+
+        if (!is_array($post)) {
+            $errors[] = $at . ': expected an object';
+            continue;
+        }
+
+        // post_id
+        $postId = $post['post_id'] ?? null;
+        if (!is_string($postId)
+            || strlen($postId) > QFA_X_MAX_POST_ID_LEN
+            || !preg_match('~^\d{4}-W\d{2}-\d{2}$~', $postId)) {
+            $errors[] = $at . '.post_id: must look like 2026-W35-01';
+        } else {
+            if (isset($seenIds[$postId])) {
+                $errors[] = $at . '.post_id: duplicate of posts[' . $seenIds[$postId] . ']';
+            }
+            $seenIds[$postId] = $index;
+        }
+
+        // day
+        $day = $post['day'] ?? null;
+        if (!qfa_x_is_int($day) || $day < 0 || $day > 6) {
+            $errors[] = $at . '.day: must be an integer from 0 to 6';
+        }
+
+        // time
+        $time = $post['time'] ?? null;
+        if (!is_string($time) || !preg_match('~^([01]\d|2[0-3]):[0-5]\d$~', $time)) {
+            $errors[] = $at . '.time: must be HH:MM on a 24 hour clock';
+        }
+
+        // Two posts scheduled at the same minute of the same day is a planning
+        // mistake rather than an intention, and it makes the day view ambiguous.
+        if (qfa_x_is_int($day) && is_string($time) && $day >= 0 && $day <= 6) {
+            $slot = $day . ' ' . $time;
+            if (isset($seenSlots[$slot])) {
+                $errors[] = $at . ': same day and time as posts[' . $seenSlots[$slot] . ']';
+            }
+            $seenSlots[$slot] = $index;
+        }
+
+        // type
+        if (!is_string($post['type'] ?? null) || !in_array($post['type'], QFA_X_TYPES, true)) {
+            $errors[] = $at . '.type: must be one of ' . implode(', ', QFA_X_TYPES);
+        }
+
+        // text
+        $text = $post['text'] ?? null;
+        if (!qfa_x_is_utf8($text)) {
+            $errors[] = $at . '.text: must be a valid UTF-8 string';
+        } elseif (trim((string)$text) === '') {
+            $errors[] = $at . '.text: must not be empty';
+        } elseif (qfa_x_text_length((string)$text) > QFA_X_MAX_TEXT) {
+            $errors[] = $at . '.text: longer than ' . QFA_X_MAX_TEXT . ' characters';
+        }
+
+        // approved / published flags and their timestamps
+        foreach (['approved' => 'approved_at', 'published' => 'published_at'] as $flag => $stamp) {
+            $flagValue = $post[$flag] ?? null;
+            if (!is_bool($flagValue)) {
+                $errors[] = $at . '.' . $flag . ': must be true or false';
+                continue;
+            }
+
+            $stampValue = $post[$stamp] ?? null;
+            if ($stampValue !== null && !qfa_x_is_timestamp($stampValue)) {
+                $errors[] = $at . '.' . $stamp . ': must be null or an ISO-8601 timestamp';
+                continue;
+            }
+            // A timestamp without the flag is a contradiction: it claims an
+            // event that the record simultaneously denies happened.
+            if ($flagValue === false && $stampValue !== null) {
+                $errors[] = $at . '.' . $stamp . ': must be null while ' . $flag . ' is false';
+            }
+        }
+
+        /*
+         * intent_opened_at records only that the X composer was opened. It is
+         * deliberately not tied to published in either direction: opening the
+         * composer proves nothing was published, and an administrator may mark
+         * a post published that went out by some other route.
+         */
+        $intent = $post['intent_opened_at'] ?? null;
+        if ($intent !== null && !qfa_x_is_timestamp($intent)) {
+            $errors[] = $at . '.intent_opened_at: must be null or an ISO-8601 timestamp';
+        }
+
+        // source_type / source_ref
+        $sourceType = $post['source_type'] ?? null;
+        $sourceRef = $post['source_ref'] ?? null;
+        if (!is_string($sourceType) || !in_array($sourceType, QFA_X_SOURCE_TYPES, true)) {
+            $errors[] = $at . '.source_type: must be one of ' . implode(', ', QFA_X_SOURCE_TYPES);
+        } else {
+            switch ($sourceType) {
+                case 'surah':
+                    if (!qfa_x_is_int($sourceRef) || $sourceRef < QFA_X_SURAH_MIN || $sourceRef > QFA_X_SURAH_MAX) {
+                        $errors[] = $at . '.source_ref: surah number must be ' . QFA_X_SURAH_MIN . '-' . QFA_X_SURAH_MAX;
+                    }
+                    break;
+                case 'page':
+                    if (!qfa_x_is_int($sourceRef) || $sourceRef < QFA_X_PAGE_MIN || $sourceRef > QFA_X_PAGE_MAX) {
+                        $errors[] = $at . '.source_ref: page number must be ' . QFA_X_PAGE_MIN . '-' . QFA_X_PAGE_MAX;
+                    }
+                    break;
+                case 'adhkar':
+                    if (!is_string($sourceRef) || !in_array($sourceRef, QFA_X_ADHKAR_REFS, true)) {
+                        $errors[] = $at . '.source_ref: must be one of ' . implode(', ', QFA_X_ADHKAR_REFS);
+                    }
+                    break;
+                case 'none':
+                    if ($sourceRef !== null) {
+                        $errors[] = $at . '.source_ref: must be null when source_type is none';
+                    }
+                    break;
+            }
+        }
+
+        // link_placeholders
+        $placeholders = $post['link_placeholders'] ?? null;
+        if (!is_array($placeholders)) {
+            $errors[] = $at . '.link_placeholders: must be an array';
+        } elseif ($placeholders !== [] && array_keys($placeholders) !== range(0, count($placeholders) - 1)) {
+            $errors[] = $at . '.link_placeholders: must be a list, not an object';
+        } elseif (count($placeholders) > QFA_X_MAX_PLACEHOLDERS) {
+            $errors[] = $at . '.link_placeholders: at most ' . QFA_X_MAX_PLACEHOLDERS . ' entries';
+        } else {
+            foreach ($placeholders as $slot => $placeholder) {
+                if (!qfa_x_is_utf8($placeholder) || $placeholder === '') {
+                    $errors[] = $at . '.link_placeholders[' . $slot . ']: must be a non-empty UTF-8 string';
+                } elseif (qfa_x_text_length((string)$placeholder) > QFA_X_MAX_PLACEHOLDER_LEN) {
+                    $errors[] = $at . '.link_placeholders[' . $slot . ']: longer than ' . QFA_X_MAX_PLACEHOLDER_LEN . ' characters';
+                }
+            }
+        }
+
+        // content_hash: absent for now, but validated whenever it is present.
+        $hash = $post['content_hash'] ?? null;
+        if ($hash !== null && (!is_string($hash) || !preg_match('~^sha256:[0-9a-f]{64}$~', $hash))) {
+            $errors[] = $at . '.content_hash: must be null or sha256:<64 hex characters>';
+        }
+    }
+
+    return $errors;
+}
+
+// ---------------------------------------------------------------------------
+// Reading
+// ---------------------------------------------------------------------------
+
+/**
+ * Decode a raw file body into a plan.
+ *
+ * The guard line is required rather than merely stripped: a file that does not
+ * start with it is not one of ours, and treating it as data would be guessing.
+ *
+ * @return array{status:string, data:?array, errors:string[]}
+ */
+function qfa_x_store_decode(string $raw): array {
+    if (trim($raw) === '') {
+        return ['status' => QFA_X_CORRUPT, 'data' => null, 'errors' => ['file is empty']];
+    }
+
+    if (!preg_match('~^<\?php\s+exit;\s*\?>\s*~', $raw, $guard)) {
+        return ['status' => QFA_X_CORRUPT, 'data' => null, 'errors' => ['missing or malformed guard line']];
+    }
+
+    $json = substr($raw, strlen($guard[0]));
+    if (trim($json) === '') {
+        return ['status' => QFA_X_CORRUPT, 'data' => null, 'errors' => ['no JSON after the guard line']];
+    }
+
+    $data = json_decode($json, true);
+    if (!is_array($data)) {
+        return ['status' => QFA_X_CORRUPT, 'data' => null, 'errors' => ['broken JSON: ' . json_last_error_msg()]];
+    }
+
+    /*
+     * A newer schema is reported separately from invalid data. Older code must
+     * refuse to touch a file it does not fully understand rather than rewrite
+     * it and drop whatever fields it did not know about.
+     */
+    if (array_key_exists('schema', $data) && is_int($data['schema']) && $data['schema'] > QFA_X_SCHEMA) {
+        return [
+            'status' => QFA_X_UNSUPPORTED_SCHEMA,
+            'data' => null,
+            'errors' => ['written by schema ' . $data['schema'] . ', this layer understands ' . QFA_X_SCHEMA],
+        ];
+    }
+
+    $errors = qfa_x_store_validate($data);
+    if ($errors !== []) {
+        return ['status' => QFA_X_INVALID, 'data' => null, 'errors' => $errors];
+    }
+
+    return ['status' => QFA_X_OK, 'data' => $data, 'errors' => []];
+}
+
+/**
+ * Read the live plan.
+ *
+ * A missing file and a damaged one are different answers on purpose: only the
+ * first means "no plan yet". Reporting corruption as absence would invite a
+ * later caller to create a fresh week straight over a file that still holds
+ * the real one.
+ *
+ * @return array{status:string, data:?array, errors:string[]}
+ */
+function qfa_x_store_read(?string $file = null): array {
+    $path = qfa_x_store_resolve($file);
+
+    clearstatcache(true, $path);
+    if (!is_file($path)) {
+        return ['status' => QFA_X_NOT_FOUND, 'data' => null, 'errors' => []];
+    }
+
+    $handle = @fopen($path, 'r');
+    if ($handle === false) {
+        return ['status' => QFA_X_UNREADABLE, 'data' => null, 'errors' => ['cannot open the plan for reading']];
+    }
+
+    // A shared lock keeps a concurrent replacement from being read half-written.
+    @flock($handle, LOCK_SH);
+    $raw = stream_get_contents($handle);
+    @flock($handle, LOCK_UN);
+    fclose($handle);
+
+    if ($raw === false) {
+        return ['status' => QFA_X_UNREADABLE, 'data' => null, 'errors' => ['cannot read the plan']];
+    }
+
+    return qfa_x_store_decode((string)$raw);
+}
+
+// ---------------------------------------------------------------------------
+// Writing
+// ---------------------------------------------------------------------------
+
+/**
+ * Put bytes at a path atomically: write a sibling temporary file, then rename
+ * over the target. A reader therefore sees either the whole old file or the
+ * whole new one, never a partial write.
+ *
+ * The temporary file is created in the target's own directory so the rename
+ * stays within one filesystem, where it is atomic. On any failure the
+ * temporary file is removed and the target is left exactly as it was.
+ *
+ * This is the shared primitive the archive will reuse.
+ */
+function qfa_x_store_atomic_put(string $path, string $payload): bool {
+    $directory = dirname($path);
+    if (!is_dir($directory) || !is_writable($directory)) {
+        return false;
+    }
+
+    try {
+        $suffix = bin2hex(random_bytes(5));
+    } catch (Exception $e) {
+        return false;
+    }
+    $tmp = $path . '.tmp-' . $suffix;
+
+    $handle = @fopen($tmp, 'x');   // exclusive create: never reuse a stray file
+    if ($handle === false) {
+        return false;
+    }
+
+    $written = @fwrite($handle, $payload);
+    if ($written === false || $written !== strlen($payload)) {
+        fclose($handle);
+        @unlink($tmp);
+        return false;
+    }
+
+    // Reach the filesystem before the rename, so a crash cannot leave the new
+    // name pointing at an empty file.
+    @fflush($handle);
+    fclose($handle);
+    @chmod($tmp, 0640);
+
+    if (!@rename($tmp, $path)) {
+        @unlink($tmp);
+        return false;
+    }
+
+    clearstatcache(true, $path);
+    return true;
+}
+
+/** Wrap a plan in the guard line and encode it. Returns null if it cannot. */
+function qfa_x_store_encode(array $plan): ?string {
+    $json = json_encode(
+        $plan,
+        JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_PRETTY_PRINT
+    );
+    if (!is_string($json)) {
+        return null;
+    }
+    return qfa_x_guard() . $json . "\n";
+}
+
+/**
+ * Replace the live plan, refusing if it changed since the caller read it.
+ *
+ * $expected_revision is the revision the caller believes is on disk; pass null
+ * to mean "there should be no plan yet". A mismatch returns CONFLICT and the
+ * file is not touched, so a second tab cannot silently overwrite the first.
+ *
+ * The stored revision, created_at and updated_at are always decided here. The
+ * caller's values for them are ignored: a client that could name its own
+ * revision could defeat the conflict check simply by claiming a higher number.
+ *
+ * @return array{status:string, revision:?int, errors:string[]}
+ */
+function qfa_x_store_write(array $plan, ?int $expected_revision, ?string $file = null): array {
+    $path = qfa_x_store_resolve($file);
+
+    $fail = static function (string $status, array $errors = [], ?int $revision = null): array {
+        return ['status' => $status, 'revision' => $revision, 'errors' => $errors];
+    };
+
+    // Validate before touching anything, so a bad plan cannot reach the disk.
+    // revision and the timestamps are filled in below, so seed them for the
+    // check and let the real values replace them afterwards.
+    $candidate = $plan;
+    $candidate['week']['revision'] = 0;
+    $candidate['week']['created_at'] = qfa_x_now();
+    $candidate['week']['updated_at'] = $candidate['week']['created_at'];
+    $errors = qfa_x_store_validate($candidate);
+    if ($errors !== []) {
+        return $fail(QFA_X_INVALID, $errors);
+    }
+
+    $directory = dirname($path);
+    if (!is_dir($directory) || !is_writable($directory)) {
+        return $fail(QFA_X_WRITE_FAILED, ['storage directory is not writable']);
+    }
+
+    /*
+     * Hold an exclusive lock across the read-compare-write cycle so two writers
+     * cannot both pass the revision check. The lock is taken on the live file
+     * itself; "c+" creates it when absent without truncating an existing one.
+     */
+    $handle = @fopen($path, 'c+');
+    if ($handle === false) {
+        return $fail(QFA_X_WRITE_FAILED, ['cannot open the plan for writing']);
+    }
+    if (!flock($handle, LOCK_EX)) {
+        fclose($handle);
+        return $fail(QFA_X_WRITE_FAILED, ['cannot lock the plan']);
+    }
+
+    $release = static function ($handle): void {
+        @flock($handle, LOCK_UN);
+        fclose($handle);
+    };
+
+    /*
+     * Between opening and locking, another writer may already have renamed a
+     * new file into place; the handle would then point at an unlinked inode and
+     * every check below would run against a plan that is no longer live. Detect
+     * that and report a conflict instead of writing from stale state.
+     */
+    $onDisk = @fstat($handle);
+    clearstatcache(true, $path);
+    $atPath = @stat($path);
+    if (is_array($onDisk) && is_array($atPath) && !empty($onDisk['ino']) && !empty($atPath['ino'])) {
+        if ($onDisk['ino'] !== $atPath['ino'] || $onDisk['dev'] !== $atPath['dev']) {
+            $release($handle);
+            return $fail(QFA_X_CONFLICT, ['the plan was replaced while this write was starting']);
+        }
+    }
+
+    rewind($handle);
+    $raw = stream_get_contents($handle);
+    if ($raw === false) {
+        $release($handle);
+        return $fail(QFA_X_WRITE_FAILED, ['cannot read the current plan']);
+    }
+    $raw = (string)$raw;
+
+    $current = null;
+    $currentRevision = null;
+
+    if (trim($raw) !== '') {
+        $decoded = qfa_x_store_decode($raw);
+        if ($decoded['status'] !== QFA_X_OK) {
+            /*
+             * Never write over a file we could not understand. Whatever is in
+             * there may be the only copy of real work, and overwriting it would
+             * turn a recoverable problem into a permanent one.
+             */
+            $release($handle);
+            return $fail($decoded['status'], $decoded['errors']);
+        }
+        $current = $decoded['data'];
+        $currentRevision = (int)$current['week']['revision'];
+    }
+
+    // Compare-and-swap on the revision.
+    if ($currentRevision !== $expected_revision) {
+        $release($handle);
+        return $fail(
+            QFA_X_CONFLICT,
+            [
+                'expected revision ' . var_export($expected_revision, true)
+                . ' but the stored plan is at ' . var_export($currentRevision, true),
+            ],
+            $currentRevision
+        );
+    }
+
+    $now = qfa_x_now();
+    $plan['schema'] = QFA_X_SCHEMA;
+    $plan['week']['revision'] = $currentRevision === null ? 0 : $currentRevision + 1;
+    $plan['week']['updated_at'] = $now;
+    // created_at belongs to the file, not to whoever is writing now.
+    $plan['week']['created_at'] = $current === null ? $now : $current['week']['created_at'];
+
+    // Re-check with the final server-set values in place.
+    $errors = qfa_x_store_validate($plan);
+    if ($errors !== []) {
+        $release($handle);
+        return $fail(QFA_X_INVALID, $errors);
+    }
+
+    $payload = qfa_x_store_encode($plan);
+    if ($payload === null) {
+        $release($handle);
+        return $fail(QFA_X_WRITE_FAILED, ['cannot encode the plan as JSON']);
+    }
+
+    /*
+     * Refresh the rollback copy from the bytes currently on disk, which have
+     * just been parsed successfully, so the backup can only ever hold a plan
+     * that was valid. If it cannot be written, stop: continuing would replace
+     * the live plan while leaving no way back, and the caller can retry safely
+     * because nothing has changed yet.
+     */
+    if ($current !== null) {
+        // Derived from the file actually being written, never from the canonical
+        // path, so a test against a throwaway file cannot drop a .bak beside the
+        // real plan.
+        if (!qfa_x_store_atomic_put($path . '.bak', $raw)) {
+            $release($handle);
+            return $fail(QFA_X_WRITE_FAILED, ['cannot refresh the rollback copy; the plan was left unchanged']);
+        }
+    }
+
+    if (!qfa_x_store_atomic_put($path, $payload)) {
+        $release($handle);
+        return $fail(QFA_X_WRITE_FAILED, ['cannot replace the plan; it was left unchanged']);
+    }
+
+    $release($handle);
+
+    return ['status' => QFA_X_OK, 'revision' => $plan['week']['revision'], 'errors' => []];
+}
+
+/**
+ * Read the rollback copy, if there is one. Same statuses as a normal read, so
+ * a damaged backup is reported rather than silently offered as good data.
+ *
+ * @return array{status:string, data:?array, errors:string[]}
+ */
+function qfa_x_store_read_backup(?string $file = null): array {
+    $backup = qfa_x_store_resolve($file) . '.bak';
+
+    clearstatcache(true, $backup);
+    if (!is_file($backup)) {
+        return ['status' => QFA_X_NOT_FOUND, 'data' => null, 'errors' => []];
+    }
+
+    $raw = @file_get_contents($backup);
+    if ($raw === false) {
+        return ['status' => QFA_X_UNREADABLE, 'data' => null, 'errors' => ['cannot read the rollback copy']];
+    }
+
+    return qfa_x_store_decode((string)$raw);
+}
