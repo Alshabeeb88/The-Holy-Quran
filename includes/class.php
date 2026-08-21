@@ -1776,8 +1776,8 @@ class QuranForAll extends QuranForAll_API {
 		$this->title = 'استوديو النشر على X';
 		$this->description = 'إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X';
 		$this->url = $this->url(array('action' => 'sadaqah_agent'));
-		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.4">';
-		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.5" defer></script>';
+		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.5">';
+		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.6" defer></script>';
 
 		require_once __DIR__ . '/x-studio-store.php';
 		require_once __DIR__ . '/x-studio-plan.php';
@@ -1929,7 +1929,7 @@ class QuranForAll extends QuranForAll_API {
 
 				$timeLabel = $this->x_studio_time_label((string)$post['time']);
 				$typeLabel = ( isset($typeLabels[$post['type']]) ? $typeLabels[$post['type']] : (string)$post['type'] );
-				$statusLabel = ( $published ? 'منشورة' : ( $approved ? 'معتمدة' : 'بانتظار المراجعة' ) );
+				$statusLabel = ( $published ? 'تم النشر' : ( $approved ? 'معتمدة' : 'بانتظار المراجعة' ) );
 				$stateClass = ( $published ? ' is-published' : ( $approved ? ' is-approved' : '' ) );
 				$postId = htmlspecialchars((string)$post['post_id'], ENT_QUOTES, 'UTF-8');
 
@@ -1938,11 +1938,23 @@ class QuranForAll extends QuranForAll_API {
 					.'<textarea aria-label="نص تغريدة '.$postId.'" readonly>'.htmlspecialchars($post_text, ENT_QUOTES, 'UTF-8').'</textarea>'
 					.'<div class="agent-post-foot"><span><b data-char-count>'.$post_length.'</b> / 280 حرفًا</span>'
 					.'<div>'
-					.'<button type="button" class="agent-edit" data-edit><i class="fas fa-pen"></i> تعديل</button>'
+					// Editing is refused server-side once a post is recorded as published,
+					// so the control is disabled rather than left to fail on click.
+					.'<button type="button" class="agent-edit" data-edit'.($published ? ' disabled title="لا يمكن تعديل منشور مسجل على أنه منشور"' : '').'><i class="fas fa-pen"></i> تعديل</button>'
 					.'<button type="button" class="agent-save" data-save hidden><i class="fas fa-floppy-disk"></i> حفظ</button>'
 					.'<button type="button" class="agent-cancel" data-cancel hidden>إلغاء</button>'
 					.'<button type="button" class="agent-approve" data-approve'.($approved ? ' disabled' : '').'><i class="fas fa-check"></i> اعتماد</button>'
 					.'<button type="button" class="agent-share-x" data-share-x aria-label="فتح منشور جديد على X بنص هذه التغريدة، دون نشر تلقائي" title="يفتح X والنص جاهز — النشر لا يتم إلا بضغطك داخل X">'.$x_icon.' شارك على X</button>'
+					/*
+					 * Recording that the post went out is a separate, deliberate act,
+					 * shown only once the post is approved and not yet recorded. It is
+					 * not a publish button: nothing here can tell whether the composer
+					 * that "شارك على X" opened was ever submitted.
+					 */
+					.( $approved && !$published
+						? '<button type="button" class="agent-published" data-mark-published aria-label="تسجيل أن هذه التغريدة نُشرت على X" title="سجّل أنك نشرت هذه التغريدة داخل X">'
+							.'<i class="fas fa-circle-check"></i> تم النشر</button>'
+						: '' )
 					.'</div>'
 					.'</div>'
 					.'<p class="agent-post-message" data-post-message role="status" aria-live="polite"></p>'

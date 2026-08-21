@@ -227,6 +227,8 @@
     var area = post.querySelector('textarea');
     var badge = post.querySelector('[data-post-status]');
     var approveButton = post.querySelector('[data-approve]');
+    var editButton = post.querySelector('[data-edit]');
+    var publishedButton = post.querySelector('[data-mark-published]');
 
     // .value, never innerHTML: the text is content, not markup.
     if (area && typeof serverPost.text === 'string') area.value = serverPost.text;
@@ -236,15 +238,33 @@
 
     post.classList.toggle('is-approved', approved && !published);
     post.classList.toggle('is-published', published);
-    if (badge) badge.textContent = published ? 'منشورة' : (approved ? 'معتمدة' : 'بانتظار المراجعة');
+    if (badge) badge.textContent = published ? 'تم النشر' : (approved ? 'معتمدة' : 'بانتظار المراجعة');
     if (approveButton) approveButton.disabled = approved || published;
+
+    // Editing a recorded post is refused by the server, so the control is shut
+    // here too rather than left to fail on click.
+    if (editButton) editButton.disabled = published;
+
+    /*
+     * The record control belongs only to an approved post that has not been
+     * recorded yet. Once it has, the button is removed rather than disabled, so
+     * nothing on screen suggests the act needs repeating.
+     */
+    if (publishedButton) {
+      if (published) {
+        publishedButton.remove();
+      } else {
+        publishedButton.hidden = !approved;
+        publishedButton.disabled = !approved;
+      }
+    }
 
     count(post);
   }
 
   /** Turn one post's controls on or off while a request is in flight. */
   function busy(post, isBusy) {
-    ['[data-edit]', '[data-save]', '[data-cancel]', '[data-approve]'].forEach(function (selector) {
+    ['[data-edit]', '[data-save]', '[data-cancel]', '[data-approve]', '[data-mark-published]'].forEach(function (selector) {
       var button = post.querySelector(selector);
       if (button) button.disabled = isBusy;
     });
@@ -465,7 +485,19 @@
     var shareButton = post.querySelector('[data-share-x]');
     if (shareButton) {
       shareButton.addEventListener('click', function () {
+        // Sharing only opens the composer. It never records anything: whether
+        // the post was actually sent is something only the administrator knows.
         shareOnX(post);
+      });
+    }
+
+    var publishedButton = post.querySelector('[data-mark-published]');
+    if (publishedButton) {
+      publishedButton.addEventListener('click', function () {
+        if (publishedButton.disabled) return;      // guards the double click
+
+        // No text and no timestamp: the moment is the server's to decide.
+        sendPostAction(post, { action: 'mark_published' });
       });
     }
   });
