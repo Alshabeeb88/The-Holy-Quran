@@ -1776,8 +1776,8 @@ class QuranForAll extends QuranForAll_API {
 		$this->title = 'استوديو النشر على X';
 		$this->description = 'إعداد ومراجعة واعتماد محتوى القرآن الكريم للنشر على منصة X';
 		$this->url = $this->url(array('action' => 'sadaqah_agent'));
-		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.6">';
-		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.7" defer></script>';
+		$this->headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/sadaqah-agent.css?v=1.7">';
+		$this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/sadaqah-agent.js?v=1.8" defer></script>';
 
 		require_once __DIR__ . '/x-studio-store.php';
 		require_once __DIR__ . '/x-studio-plan.php';
@@ -1964,6 +1964,13 @@ class QuranForAll extends QuranForAll_API {
 					 * the tooltip and the confirmation all say plainly.
 					 */
 					.'<button type="button" class="agent-unpublish" data-unmark-published'.($published ? '' : ' hidden').' aria-label="إلغاء تسجيل النشر لهذه التغريدة في سجل الاستوديو" title="يصحّح سجل الاستوديو فقط — لا يحذف التغريدة من X"><i class="fas fa-rotate-left"></i> إلغاء تسجيل النشر</button>'
+					/*
+					 * Sends a post back for review without touching its text. Offered
+					 * only while it is approved and not recorded as published: a recorded
+					 * post has to have that record withdrawn first, which is the same
+					 * order the server enforces.
+					 */
+					.'<button type="button" class="agent-unapprove" data-unapprove'.($approved && !$published ? '' : ' hidden').' aria-label="سحب اعتماد هذه التغريدة وإعادتها إلى المراجعة" title="يعيد التغريدة إلى «بانتظار المراجعة» دون تغيير نصها"><i class="fas fa-rotate-left"></i> سحب الاعتماد</button>'
 					.'</div>'
 					.'</div>'
 					.'<p class="agent-post-message" data-post-message role="status" aria-live="polite"></p>'

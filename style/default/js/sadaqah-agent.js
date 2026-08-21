@@ -230,6 +230,7 @@
     var editButton = post.querySelector('[data-edit]');
     var publishedButton = post.querySelector('[data-mark-published]');
     var unpublishButton = post.querySelector('[data-unmark-published]');
+    var unapproveButton = post.querySelector('[data-unapprove]');
 
     // .value, never innerHTML: the text is content, not markup.
     if (area && typeof serverPost.text === 'string') area.value = serverPost.text;
@@ -260,12 +261,22 @@
       unpublishButton.disabled = !published;
     }
 
+    /*
+     * Withdrawing an approval belongs only to an approved post that has not been
+     * recorded as published: a recorded one must have that record withdrawn
+     * first, matching the order the server enforces.
+     */
+    if (unapproveButton) {
+      unapproveButton.hidden = !approved || published;
+      unapproveButton.disabled = !approved || published;
+    }
+
     count(post);
   }
 
   /** Turn one post's controls on or off while a request is in flight. */
   function busy(post, isBusy) {
-    ['[data-edit]', '[data-save]', '[data-cancel]', '[data-approve]', '[data-mark-published]', '[data-unmark-published]'].forEach(function (selector) {
+    ['[data-edit]', '[data-save]', '[data-cancel]', '[data-approve]', '[data-mark-published]', '[data-unmark-published]', '[data-unapprove]'].forEach(function (selector) {
       var button = post.querySelector(selector);
       if (button) button.disabled = isBusy;
     });
@@ -514,6 +525,18 @@
         if (!window.confirm('سيتم إلغاء حالة «تم النشر» لهذا المنشور فقط. لن يتم حذف المنشور من منصة X. هل تريد المتابعة؟')) return;
 
         sendPostAction(post, { action: 'unmark_published' });
+      });
+    }
+
+    var unapproveButton = post.querySelector('[data-unapprove]');
+    if (unapproveButton) {
+      unapproveButton.addEventListener('click', function () {
+        if (unapproveButton.disabled) return;      // guards the double click
+
+        // Asked first: this undoes a review decision, and the text is untouched.
+        if (!window.confirm('سيتم سحب اعتماد هذا المنشور وإعادته إلى حالة «بانتظار المراجعة». هل تريد المتابعة؟')) return;
+
+        sendPostAction(post, { action: 'unapprove_post' });
       });
     }
   });

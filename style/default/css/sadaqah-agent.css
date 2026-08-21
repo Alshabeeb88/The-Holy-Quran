@@ -70,3 +70,10 @@ html[data-theme="dark"] .sadaqah-agent-page .agent-published:hover:not(:disabled
 .sadaqah-agent-page .agent-unpublish[hidden],.sadaqah-agent-page .agent-published[hidden]{display:none}
 html[data-theme="dark"] .sadaqah-agent-page .agent-unpublish{border-color:#6f4239;background:#2a1a16;color:#e0a496}
 html[data-theme="dark"] .sadaqah-agent-page .agent-unpublish:hover:not(:disabled){background:#35211c}
+
+/* Sending an approved post back for review */
+.sadaqah-agent-page .agent-unapprove{display:inline-flex;align-items:center;gap:5px;border:1px solid #c8b48a;background:#fff;color:#7d6a3c}
+.sadaqah-agent-page .agent-unapprove:hover:not(:disabled){background:#fffaf0}
+.sadaqah-agent-page .agent-unapprove[hidden]{display:none}
+html[data-theme="dark"] .sadaqah-agent-page .agent-unapprove{border-color:#6b5a2e;background:#17271e;color:#e4c977}
+html[data-theme="dark"] .sadaqah-agent-page .agent-unapprove:hover:not(:disabled){background:#1e2f24}
