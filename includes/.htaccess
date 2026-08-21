@@ -5,6 +5,6 @@
   Order allow,deny
   Deny from all
 </IfModule>
-<FilesMatch "^(admin_auth_store\.php|admin-auth\.php|config\.php|contact_messages\.php|contact_messages-archive\.php|contact_messages\.jsonl)$">
+<FilesMatch "^(admin_auth_store\.php|admin-auth\.php|config\.php|contact_messages\.php|contact_messages-archive\.php|contact_messages\.jsonl|x_studio_current\.php(\.bak|\.tmp-[0-9a-f]+)?)$">
   Require all denied
 </FilesMatch>
