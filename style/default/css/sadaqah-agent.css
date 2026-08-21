@@ -18,3 +18,26 @@ html[data-theme="dark"] .agent-post.is-over-limit .agent-post-foot>span{color:#e
 .agent-share-x:hover{background:#26303a;border-color:#26303a}
 html[data-theme="dark"] .agent-share-x{border-color:#46555f;background:#0f1419;color:#f1f5f3}
 html[data-theme="dark"] .agent-share-x:hover{background:#1c262f}
+
+/* No plan yet, and the failure state */
+.sadaqah-agent-page .agent-empty,.sadaqah-agent-page .agent-error{margin:18px 0;padding:38px 26px;border:1px solid #dce8e4;border-radius:20px;background:#fff;text-align:center}
+.sadaqah-agent-page .agent-empty-icon,.sadaqah-agent-page .agent-error-icon{display:grid;place-items:center;width:56px;height:56px;margin:0 auto 14px;border-radius:18px;background:#f2f7f5;color:#0b6555;font-size:22px}
+.sadaqah-agent-page .agent-empty h2,.sadaqah-agent-page .agent-error h2{margin:0 0 6px;color:#173f35;font-size:19px;font-weight:800}
+.sadaqah-agent-page .agent-empty p,.sadaqah-agent-page .agent-error p{margin:0 auto;max-width:420px;color:#687973;font-size:12px;line-height:1.9}
+.sadaqah-agent-page .agent-seed{margin-top:16px;padding:11px 22px;border:1px solid #0c735f;border-radius:12px;background:#0c735f;color:#fff;font:700 12px 'Cairo';cursor:pointer}
+.sadaqah-agent-page .agent-seed:hover:not(:disabled){background:#0a5f4e;border-color:#0a5f4e}
+.sadaqah-agent-page .agent-seed:disabled{opacity:.6;cursor:default}
+.sadaqah-agent-page .agent-empty-note{margin-top:12px;min-height:16px;color:#687973;font-size:11px}
+.sadaqah-agent-page .agent-error{border-color:#d0a49a;background:linear-gradient(135deg,#fff,#fdf6f4)}
+.sadaqah-agent-page .agent-error-icon{background:#fdece8;color:#a4503f}
+.sadaqah-agent-page .agent-error-note{margin-top:10px;color:#a4503f;font-size:11px;font-weight:700}
+.sadaqah-agent-page .agent-post.is-published{border-color:#86bdaa;background:linear-gradient(135deg,#fff,#f3faf7)}
+.sadaqah-agent-page .agent-post.is-published .agent-post-meta b{background:#dff1ea;color:#08705a}
+html[data-theme="dark"] .sadaqah-agent-page .agent-empty,html[data-theme="dark"] .sadaqah-agent-page .agent-error{border-color:#285247;background:#0d2a22}
+html[data-theme="dark"] .sadaqah-agent-page .agent-empty h2,html[data-theme="dark"] .sadaqah-agent-page .agent-error h2{color:#f1f5f3}
+html[data-theme="dark"] .sadaqah-agent-page .agent-empty p,html[data-theme="dark"] .sadaqah-agent-page .agent-error p,html[data-theme="dark"] .sadaqah-agent-page .agent-empty-note{color:#aabbb5}
+html[data-theme="dark"] .sadaqah-agent-page .agent-empty-icon{background:#12382e;color:#7fd3bb}
+html[data-theme="dark"] .sadaqah-agent-page .agent-error{border-color:#6f4239;background:#2a1a16}
+html[data-theme="dark"] .sadaqah-agent-page .agent-error-icon{background:#3a221d;color:#e0a496}
+html[data-theme="dark"] .sadaqah-agent-page .agent-error-note{color:#e0a496}
+html[data-theme="dark"] .sadaqah-agent-page .agent-post.is-published{border-color:#4c8b78;background:#12382e}

@@ -18,18 +18,32 @@
    */
   var X_INTENT = 'https://twitter.com/intent/tweet';
 
+  var SEED_URL = 'x-studio-seed.php';
+
+  /*
+   * Where the plan on screen came from. Once the server holds a plan it is the
+   * only source: the local draft store is neither read nor written, so the two
+   * can never disagree about what the week contains. Older drafts are left on
+   * the device untouched rather than deleted.
+   */
+  var planState = root.getAttribute('data-plan-state') || 'legacy';
+  var serverBacked = planState === 'ready';
+
   var tabs = [].slice.call(root.querySelectorAll('[data-day-tab]'));
   var panels = [].slice.call(root.querySelectorAll('[data-day-panel]'));
   var posts = [].slice.call(root.querySelectorAll('[data-post]'));
 
   var state = {};
-  try {
-    state = JSON.parse(localStorage.getItem(KEY) || '{}') || {};
-  } catch (e) {
-    state = {};
+  if (!serverBacked) {
+    try {
+      state = JSON.parse(localStorage.getItem(KEY) || '{}') || {};
+    } catch (e) {
+      state = {};
+    }
   }
 
   function save() {
+    if (serverBacked) return;
     try {
       localStorage.setItem(KEY, JSON.stringify(state));
     } catch (e) {}
@@ -47,19 +61,25 @@
    */
   function count(post) {
     var area = post.querySelector('textarea');
+    var counter = post.querySelector('[data-char-count]');
+    if (!area || !counter) return;
+
     var length = area.value.length;
 
-    post.querySelector('[data-char-count]').textContent = length;
+    counter.textContent = length;
     post.classList.toggle('is-over-limit', length > LIMIT);
   }
 
   // Approval badge only; likewise never writes to the textarea.
   function status(post) {
+    var badge = post.querySelector('[data-post-status]');
+    if (!badge) return;
+
     var entry = entryFor(post);
     var approved = !!(entry && entry.approved);
 
     post.classList.toggle('is-approved', approved);
-    post.querySelector('[data-post-status]').textContent = approved ? 'معتمدة' : 'بانتظار المراجعة';
+    badge.textContent = approved ? 'معتمدة' : 'بانتظار المراجعة';
   }
 
   /*
@@ -69,17 +89,20 @@
   function restore(post) {
     var entry = entryFor(post);
     var area = post.querySelector('textarea');
+    if (!area) return;
 
     if (entry && typeof entry.text === 'string') area.value = entry.text;
     area.readOnly = true;
   }
 
   function lock(post) {
-    post.querySelector('textarea').readOnly = true;
+    var area = post.querySelector('textarea');
+    if (area) area.readOnly = true;
   }
 
   function unlock(post) {
     var area = post.querySelector('textarea');
+    if (!area) return;
 
     area.readOnly = false;
     area.focus();
@@ -97,7 +120,8 @@
    * interpreted as a pattern.
    */
   function shareText(post) {
-    var text = post.querySelector('textarea').value;
+    var area = post.querySelector('textarea');
+    var text = area ? area.value : '';
     var raw = post.getAttribute('data-share-links');
     var links = null;
 
@@ -129,6 +153,7 @@
 
   function approve(post) {
     var area = post.querySelector('textarea');
+    if (!area) return;
 
     state[post.getAttribute('data-post')] = { text: area.value, approved: true };
     lock(post);
@@ -156,34 +181,54 @@
     var id = post.getAttribute('data-post');
     var area = post.querySelector('textarea');
 
-    restore(post);
-    status(post);
+    /*
+     * A server-backed plan is rendered complete, including its approval badges,
+     * so there is nothing to restore and nothing to recompute: touching it here
+     * would only risk overwriting what the server said with a stale draft.
+     */
+    if (!serverBacked) {
+      restore(post);
+      status(post);
+    }
     count(post);
 
-    area.addEventListener('input', function () {
-      var entry = state[id] || (state[id] = {});
+    if (area) {
+      area.addEventListener('input', function () {
+        if (serverBacked) return;
 
-      entry.text = area.value;
-      entry.approved = false;
-      save();
+        var entry = state[id] || (state[id] = {});
 
-      // Neither call touches the value, so the caret stays where it is.
-      status(post);
-      count(post);
-    });
+        entry.text = area.value;
+        entry.approved = false;
+        save();
 
-    post.querySelector('[data-edit]').addEventListener('click', function () {
-      unlock(post);
-    });
+        // Neither call touches the value, so the caret stays where it is.
+        status(post);
+        count(post);
+      });
+    }
 
-    post.querySelector('[data-approve]').addEventListener('click', function () {
-      approve(post);
-      save();
-    });
+    var editButton = post.querySelector('[data-edit]');
+    if (editButton) {
+      editButton.addEventListener('click', function () {
+        unlock(post);
+      });
+    }
 
-    post.querySelector('[data-share-x]').addEventListener('click', function () {
-      shareOnX(post);
-    });
+    var approveButton = post.querySelector('[data-approve]');
+    if (approveButton) {
+      approveButton.addEventListener('click', function () {
+        approve(post);
+        save();
+      });
+    }
+
+    var shareButton = post.querySelector('[data-share-x]');
+    if (shareButton) {
+      shareButton.addEventListener('click', function () {
+        shareOnX(post);
+      });
+    }
   });
 
   [].slice.call(root.querySelectorAll('[data-approve-day]')).forEach(function (button) {
@@ -210,11 +255,88 @@
 
       posts.forEach(function (post) {
         var area = post.querySelector('textarea');
+        if (!area) return;
 
         area.value = area.defaultValue;
         lock(post);
         status(post);
         count(post);
+      });
+    });
+  }
+
+  // ---------------------------------------------------------------------
+  // Creating the week's plan
+  // ---------------------------------------------------------------------
+
+  var seedButton = root.querySelector('[data-seed-week]');
+  if (seedButton) {
+    var seedMessage = root.querySelector('[data-seed-message]');
+
+    // textContent, never innerHTML: these strings are shown as text, and a
+    // message must never be able to become markup.
+    function say(text) {
+      if (seedMessage) seedMessage.textContent = text;
+    }
+
+    seedButton.addEventListener('click', function () {
+      var token = root.getAttribute('data-csrf') || '';
+      if (!token) {
+        say('تعذر التحقق من الصفحة. أعد تحميلها ثم حاول مرة أخرى.');
+        return;
+      }
+
+      seedButton.disabled = true;
+      say('جارٍ إنشاء الخطة…');
+
+      var body = new URLSearchParams();
+      body.append('action', 'seed_week');
+      body.append('csrf', token);
+
+      fetch(SEED_URL, {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8' },
+        body: body.toString()
+      }).then(function (response) {
+        return response.json().then(function (data) {
+          return { ok: response.ok, data: data };
+        }).catch(function () {
+          return { ok: false, data: {} };
+        });
+      }).then(function (result) {
+        var code = (result.data && result.data.code) || '';
+
+        /*
+         * Both outcomes mean a plan is now there, so the page is reloaded to
+         * show what the server holds rather than drawing it from the reply.
+         */
+        if (code === 'WEEK_CREATED' || code === 'WEEK_ALREADY_EXISTS') {
+          window.location.reload();
+          return;
+        }
+
+        if (code === 'AUTH_REQUIRED') {
+          say('انتهت جلسة الإدارة. سجّل الدخول من جديد.');
+        } else if (code === 'CSRF_FAILED' || code === 'ORIGIN_REJECTED') {
+          say('رُفض الطلب لأسباب أمنية. أعد تحميل الصفحة ثم حاول مرة أخرى.');
+        } else if (code === 'STORE_CORRUPT') {
+          // Deliberately no retry: the file needs a human before anything else.
+          say('ملف الخطة تالف. راجعه على الخادم قبل المحاولة.');
+        } else if (code === 'STORE_UNREADABLE') {
+          say('تعذر قراءة ملف الخطة. راجع صلاحيات الملف على الخادم.');
+        } else if (code === 'WRITE_FAILED') {
+          say('تعذر حفظ الخطة على الخادم. حاول مرة أخرى.');
+          seedButton.disabled = false;
+        } else {
+          say('تعذر إنشاء الخطة.');
+          seedButton.disabled = false;
+        }
+      }).catch(function () {
+        // A network failure changes nothing on the server, so the button comes
+        // back and no local plan is invented in its place.
+        say('تعذر الاتصال بالخادم. تحقق من الاتصال ثم حاول مرة أخرى.');
+        seedButton.disabled = false;
       });
     });
   }
