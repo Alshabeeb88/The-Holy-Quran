@@ -14,7 +14,7 @@ This edition continues the original project's Quran-focused functionality while 
 
 ### Version
 
-Current release: **v1.1.4**
+Current release: **v1.1.5**
 
 ### Highlights of this edition
 
@@ -76,7 +76,7 @@ Public redistribution of this modified edition is permitted with the original de
 
 ### الإصدار
 
-الإصدار الحالي: **v1.1.4**
+الإصدار الحالي: **v1.1.5**
 
 ### أبرز تطويرات وتحسينات هذا الإصدار
 
