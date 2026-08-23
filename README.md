@@ -60,7 +60,17 @@ See [ATTRIBUTION.md](ATTRIBUTION.md) for additional information.
 
 No new license is granted by this repository for the original project's code or for third-party materials.
 
-Public redistribution of this modified edition is permitted with the original developer's approval, while preserving attribution to the original project and its rights holders.
+This enhanced edition is licensed under the **PolyForm Noncommercial License 1.0.0** -- see [LICENSE](LICENSE).
+
+It may be used, run, modified and redistributed free of charge **for noncommercial purposes**, provided that the license notices and the following attribution are preserved:
+
+**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki Bin Obaid**
+
+Anyone redistributing it must pass on the full license text and attribution notices to their recipients. **Commercial use** requires separate written permission from the rights holder.
+
+The original developer, Ahmed Al-Anazi, granted Turki Bin Obaid explicit written permission to develop, publish and dispose of the script. On that authority, Turki Bin Obaid chose to release this edition free of charge for noncommercial use while preserving all rights and attribution. The permission is retained as private evidence; the original developer's email address and the correspondence itself are not published.
+
+Third-party materials distributed with the project are not covered -- see [NOTICE-AR.md](NOTICE-AR.md) and [ATTRIBUTION.md](ATTRIBUTION.md).
 
 ---
 
@@ -120,6 +130,16 @@ Public redistribution of this modified edition is permitted with the original de
 
 ### الترخيص وإعادة النشر
 
-لا يمنح هذا المستودع ترخيصًا جديدًا للكود الأصلي أو لمواد الأطراف الأخرى.
+هذه النسخة المطورة مرخّصة بموجب **PolyForm Noncommercial License 1.0.0** — راجع ملف [LICENSE](LICENSE).
 
-تم الحصول على موافقة المطور الأصلي على إعادة نشر هذه النسخة المطورة للعامة، مع المحافظة على نسبة المشروع الأصلي وحقوق أصحابه.
+يسمح الترخيص مجانًا بالاستخدام والتشغيل والتعديل وإعادة التوزيع **للأغراض غير التجارية**، بشرط المحافظة على إشعارات الحقوق والنسبة التالية:
+
+**المطور الأصلي: أحمد العنزي | تطوير وتحسين النسخة: تركي بن عبيد**
+
+ويجب على كل من يعيد التوزيع أن ينقل نص الترخيص وإشعارات النسبة كاملةً إلى من يوزّع إليه.
+
+**الاستخدام التجاري** — البيع أو التقديم ضمن خدمة أو اشتراك مدفوع — يتطلب إذنًا كتابيًا منفصلًا من صاحب الحقوق.
+
+منح المطور الأصلي **أحمد العنزي** موافقة كتابية صريحة لـ**تركي بن عبيد** على تطوير السكربت ونشره والتصرف به، وبناءً على هذه الصلاحية اختار تركي بن عبيد إتاحة هذه النسخة مجانًا للاستخدام غير التجاري مع حفظ الحقوق والنسبة. الموافقة محفوظة كإثبات خاص، ولا يُنشر بريد المطور الأصلي ولا صورة المراسلة.
+
+ولا يشمل الترخيص مواد الأطراف الثالثة الموزعة مع المشروع — راجع [NOTICE-AR.md](NOTICE-AR.md) و[ATTRIBUTION.md](ATTRIBUTION.md).
