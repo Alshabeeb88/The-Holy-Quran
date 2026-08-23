@@ -95,5 +95,56 @@ check(
     resolve_with('')
 );
 
+/* ---- licensing and rights notices ---- */
+
+$license = ( is_file($root.'/LICENSE') ? file_get_contents($root.'/LICENSE') : '' );
+check('LICENSE exists', $license !== '');
+check(
+    'LICENSE is PolyForm Noncommercial 1.0.0',
+    strpos($license, 'PolyForm Noncommercial License 1.0.0') !== false
+        && strpos($license, 'polyformproject.org/licenses/noncommercial/1.0.0') !== false
+);
+check(
+    'LICENSE carries the required attribution notices',
+    strpos($license, 'Required Notice: Original Developer: Ahmed Al-Anazi') !== false
+        && strpos($license, 'Required Notice: المطور الأصلي: أحمد العنزي') !== false
+);
+
+foreach( array('README.md', 'ATTRIBUTION.md', 'NOTICE-AR.md') as $doc ){
+    $text = file_get_contents($root.'/'.$doc);
+    check(
+        "$doc points at the PolyForm Noncommercial license",
+        strpos($text, 'PolyForm Noncommercial License 1.0.0') !== false
+    );
+}
+
+check(
+    'ATTRIBUTION.md records the original developer\'s written permission',
+    strpos(file_get_contents($root.'/ATTRIBUTION.md'), 'موافقة كتابية صريحة') !== false
+);
+
+/*
+ * The permission is private evidence: the documents may say that it exists,
+ * but must never carry the original developer's address or the correspondence.
+ */
+foreach( array('README.md', 'ATTRIBUTION.md', 'NOTICE-AR.md', 'LICENSE') as $doc ){
+    check(
+        "$doc publishes no email address",
+        preg_match('~[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}~', file_get_contents($root.'/'.$doc)) !== 1
+    );
+}
+
+/* ---- the rights line shown in the footer of every public page ---- */
+
+$class = file_get_contents($root.'/includes/class.php');
+check(
+    'the Arabic footer carries the full rights line',
+    strpos($class, 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: تركي بن عبيد | استخدام مجاني غير تجاري | V') !== false
+);
+check(
+    'the English footer carries the noncommercial notice',
+    strpos($class, 'Enhanced and maintained by: Turki Bin Obaid | Free for noncommercial use | V') !== false
+);
+
 echo "\n$checks checks, $failures failures\n";
 exit($failures === 0 ? 0 : 1);
