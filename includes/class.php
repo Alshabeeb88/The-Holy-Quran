@@ -252,9 +252,11 @@ class QuranForAll extends QuranForAll_API {
 
 	/*
 	 * Resolve the share image once, to the first candidate that exists on disk:
-	 * the configured one, then the image shipped with the theme, then the older
-	 * default. Returning '' means no share image exists, and callers must then
-	 * emit no image rather than a URL that would answer 404.
+	 * the configured one, then the neutral image shipped with the theme.
+	 * Site-specific images are never used as a general fallback, so a missing
+	 * configured file cannot leak another site's branding. Returning '' means
+	 * no share image exists, and callers must then emit no image rather than a
+	 * URL that would answer 404.
 	 */
 	private function resolve_og_logo(){
 		if( $this->og_logo_resolved !== null ){
@@ -268,8 +270,7 @@ class QuranForAll extends QuranForAll_API {
 		if( $this->is_safe_share_image_path($this->og_logo) ){
 			$candidates[] = (string)$this->og_logo;
 		}
-		$candidates[] = 'images/social-share.jpg';
-		$candidates[] = 'images/og.png';
+		$candidates[] = 'images/social-share-default.jpg';
 
 		foreach( $candidates as $candidate ){
 			if( is_file($root.$theme.'/'.$candidate) ){
