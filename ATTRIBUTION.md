@@ -24,11 +24,19 @@ Version **v1.1.5** contains subsequent modifications and enhancements, including
 
 These modifications do not transfer ownership of the underlying original project or third-party materials.
 
-### Public distribution
+### Permission of the original developer
 
-The original developer has granted permission for this modified edition to be developed and publicly redistributed, provided that attribution to the original project and its rights holders is preserved.
+The original developer, **Ahmed Al-Anazi**, granted **Turki Alshabeeb** explicit written permission to develop this script, to publish it, and to dispose of it freely -- including the option of releasing it commercially.
 
-No license contained or implied by this repository overrides the rights of the original project owner or any third-party rights holder.
+The permission is retained as private evidence. Neither the original developer's email address nor any image of the correspondence is published; only the license terms and the attribution notices are made public.
+
+### License of this edition
+
+Acting on that authority, Turki Alshabeeb chose **not** to release this edition commercially, and instead to make it available to the public free of charge for noncommercial use, with rights and attribution preserved.
+
+This edition is licensed under the **PolyForm Noncommercial License 1.0.0** (see `LICENSE`). It permits use, modification and redistribution for noncommercial purposes, requires that the license text and attribution notices be passed on to every recipient, and reserves commercial use to separate written permission from the rights holder.
+
+The license covers the code of this enhanced edition only, to the extent of the rights held by the licensor and the authority granted to him. No license contained or implied by this repository overrides the rights of the original project owner or any third-party rights holder.
 
 ---
 
@@ -56,8 +64,16 @@ https://quran-for-all.com/
 
 ولا تؤدي هذه التعديلات إلى نقل ملكية المشروع الأصلي أو مواد الأطراف الأخرى إلى مطور النسخة المعدلة.
 
-### النشر العام
+### موافقة المطور الأصلي
 
-تم الحصول على موافقة المطور الأصلي على تطوير هذه النسخة وإعادة نشرها للعامة، مع المحافظة على نسبة المشروع الأصلي وحقوق أصحابه.
+منح المطور الأصلي **أحمد العنزي** المطوّر **تركي الشبيب** موافقة كتابية صريحة على تطوير هذا السكربت ونشره وحرية التصرف به، بما في ذلك إمكانية نشره مدفوعًا.
 
-ولا يلغي أو يتجاوز أي نص في هذا المستودع حقوق مالك المشروع الأصلي أو حقوق أي طرف آخر.
+والموافقة محفوظة كإثبات خاص. لا يُنشر بريد المطور الأصلي الإلكتروني ولا صورة المراسلة؛ ويُنشر فقط نص الترخيص وإشعارات النسبة وحفظ الحقوق.
+
+### ترخيص هذه النسخة
+
+وبناءً على هذه الصلاحية اختار تركي الشبيب **ألا** يجعلها مدفوعة، بل أن يتيحها للعموم مجانًا للاستخدام غير التجاري مع حفظ الحقوق والنسبة.
+
+هذه النسخة مرخّصة بموجب **PolyForm Noncommercial License 1.0.0** (راجع ملف `LICENSE`). يسمح الترخيص بالاستخدام والتعديل وإعادة التوزيع للأغراض غير التجارية، ويُلزم كل موزِّع بنقل نص الترخيص وإشعارات النسبة كاملةً إلى من يوزّع إليه، ويحصر الاستخدام التجاري بإذن كتابي منفصل من صاحب الحقوق.
+
+ويغطي الترخيص كود هذه النسخة المطورة فقط، بقدر ما يملكه المرخِّص من حقوق وبقدر الصلاحية الممنوحة له. ولا يلغي أو يتجاوز أي نص في هذا المستودع حقوق مالك المشروع الأصلي أو حقوق أي طرف آخر.
