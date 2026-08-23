@@ -20,7 +20,7 @@ The maintainer of this modified edition does not claim authorship or ownership o
 
 ### Modified edition
 
-Version **v1.1.3** contains subsequent modifications and enhancements, including security hardening, installation safeguards, administrative improvements, runtime-file protections, cache protections, contact-message handling improvements, and other functional and usability enhancements.
+Version **v1.1.4** contains subsequent modifications and enhancements, including security hardening, installation safeguards, administrative improvements, runtime-file protections, cache protections, contact-message handling improvements, and other functional and usability enhancements.
 
 These modifications do not transfer ownership of the underlying original project or third-party materials.
 
@@ -52,7 +52,7 @@ https://quran-for-all.com/
 
 ### النسخة المطورة
 
-يتضمن الإصدار **v1.1.3** تعديلات وتطويرات لاحقة، من بينها التحصينات الأمنية، وحماية عملية التثبيت، والتحسينات الإدارية، وحماية ملفات التشغيل والكاش، وتحسين التعامل مع رسائل التواصل، وغيرها من التحسينات الوظيفية وتحسينات الاستخدام.
+يتضمن الإصدار **v1.1.4** تعديلات وتطويرات لاحقة، من بينها التحصينات الأمنية، وحماية عملية التثبيت، والتحسينات الإدارية، وحماية ملفات التشغيل والكاش، وتحسين التعامل مع رسائل التواصل، وغيرها من التحسينات الوظيفية وتحسينات الاستخدام.
 
 ولا تؤدي هذه التعديلات إلى نقل ملكية المشروع الأصلي أو مواد الأطراف الأخرى إلى مطور النسخة المعدلة.
 
