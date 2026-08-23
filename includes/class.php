@@ -5,6 +5,7 @@ class QuranForAll extends QuranForAll_API {
 	public $siteurl;
 	public $logo;
 	public $og_logo;
+	private $og_logo_resolved = null;
 	public $twitter_username;
 	public $theme_folder;
 	public $default_language;
@@ -78,9 +79,13 @@ class QuranForAll extends QuranForAll_API {
 
 	public function __construct(){
 		$this->logo = 'css/images/og-logo.png';
+		// Only the configured value is recorded here. Which file is actually
+		// used -- and whether one exists at all -- is decided by
+		// resolve_og_logo(), so an unset or stale setting still resolves to a
+		// real image instead of a dead URL.
 		$this->og_logo = defined('SOCIAL_SHARE_IMAGE') && SOCIAL_SHARE_IMAGE !== ''
-			? SOCIAL_SHARE_IMAGE
-			: 'images/og.png';
+			? (string)SOCIAL_SHARE_IMAGE
+			: '';
 		$this->container_class = 'container well';
 		$this->books_action_array = array('books', 'books_language', 'books_category');
 		$this->books_rtl = array('Arabic', 2, 554, 8953, 10698, 10699, 9792, 12779, 12183, 7734, 127, 128, 3536, 11648, 124, 171, 148, 158, 152, 142, 146, 271, 172, 169, 154, 151, 147, 166, 165, 143, 137, 164, 140, 149, 139, 168, 138, 145, 144, 167, 156, 141, 136, 170, 150, 159, 163, 162, 153, 160, 157, 161, 132, 134, 11652, 10225, 125, 179, 176, 178, 175, 173, 177, 180, 174, 126, 181, 182, 185, 184, 183, 130, 129, 473, 133, 131, 10026, 1403, 575, 190, 11691, 195, 187, 428, 193, 9395, 191, 196, 189, 11657, 13345, 192, 188, 14114, 1536, 135, 8988, 13096);
@@ -217,25 +222,94 @@ class QuranForAll extends QuranForAll_API {
 		return $logo;
 	}
 
-	public function get_social_share_version(){
-		$relative = $this->theme_folder.'/'.$this->og_logo;
-		$local = dirname(__DIR__).'/'.$relative;
+	/*
+	 * A configured share image is only trusted when it stays inside the theme
+	 * folder. Anything that could climb out of it -- an absolute path, a parent
+	 * traversal, a Windows separator, a URL scheme or an embedded null byte --
+	 * is refused, and the caller falls back to a shipped image instead.
+	 */
+	private function is_safe_share_image_path( $path ){
+		$path = (string)$path;
 
-		if( is_file($local) ){
-			$mtime = @filemtime($local);
-			if( $mtime !== false ){
-				return (string)$mtime;
+		if( $path === '' || strlen($path) > 255 ){
+			return false;
+		}
+		if( strpos($path, "\0") !== false || strpos($path, '\\') !== false ){
+			return false;
+		}
+		if( $path[0] === '/' || preg_match('~^[A-Za-z]:~', $path) === 1 ){
+			return false;
+		}
+		if( preg_match('~(^|/)\.\.(/|$)~', $path) === 1 ){
+			return false;
+		}
+		if( preg_match('~^[A-Za-z][A-Za-z0-9+.-]*:~', $path) === 1 ){
+			return false;
+		}
+
+		return true;
+	}
+
+	/*
+	 * Resolve the share image once, to the first candidate that exists on disk:
+	 * the configured one, then the image shipped with the theme, then the older
+	 * default. Returning '' means no share image exists, and callers must then
+	 * emit no image rather than a URL that would answer 404.
+	 */
+	private function resolve_og_logo(){
+		if( $this->og_logo_resolved !== null ){
+			return $this->og_logo_resolved;
+		}
+
+		$root = dirname(__DIR__).'/';
+		$theme = trim((string)$this->theme_folder, '/');
+		$candidates = array();
+
+		if( $this->is_safe_share_image_path($this->og_logo) ){
+			$candidates[] = (string)$this->og_logo;
+		}
+		$candidates[] = 'images/social-share.jpg';
+		$candidates[] = 'images/og.png';
+
+		foreach( $candidates as $candidate ){
+			if( is_file($root.$theme.'/'.$candidate) ){
+				$this->og_logo_resolved = $candidate;
+				return $this->og_logo_resolved;
 			}
+		}
+
+		$this->og_logo_resolved = '';
+		return $this->og_logo_resolved;
+	}
+
+	public function get_social_share_version(){
+		$resolved = $this->resolve_og_logo();
+
+		if( $resolved === '' ){
+			return '1';
+		}
+
+		$local = dirname(__DIR__).'/'.trim((string)$this->theme_folder, '/').'/'.$resolved;
+		$mtime = @filemtime($local);
+
+		if( $mtime !== false ){
+			return (string)$mtime;
 		}
 
 		return '1';
 	}
 
 	public function get_og_logo(){
-		$relative = $this->theme_folder.'/'.$this->og_logo;
+		$resolved = $this->resolve_og_logo();
+
+		if( $resolved === '' ){
+			return '';
+		}
+
+		$relative = trim((string)$this->theme_folder, '/').'/'.$resolved;
 		$version = $this->get_social_share_version();
-		$logo = $this->siteurl.'/'.$relative.'?v='.$version;
-		return $logo;
+
+		return $this->siteurl.'/'.$relative.'?v='.$version;
 	}
 
 	public function seo(){
@@ -266,29 +340,35 @@ class QuranForAll extends QuranForAll_API {
 		if( $og_type === 'article' ){
 			$og .= '<meta property="article:publisher" content="'.$this->siteurl.'">'."\n";
 		}
-		$og_width = 1728;
-		$og_height = 910;
+		// No share image resolved: emit no image tag at all, rather than one
+		// pointing at a file the server would answer 404 for.
+		if( $og_image !== '' ){
+			$og_width = 1728;
+			$og_height = 910;
 
-		$og_path = parse_url($og_image, PHP_URL_PATH);
-		if (is_string($og_path) && $og_path !== '') {
-			$local_path = rtrim((string)($_SERVER['DOCUMENT_ROOT'] ?? ''), '/') . $og_path;
-			if (is_file($local_path)) {
-				$og_size = @getimagesize($local_path);
-				if (is_array($og_size) && !empty($og_size[0]) && !empty($og_size[1])) {
-					$og_width = (int)$og_size[0];
-					$og_height = (int)$og_size[1];
+			$og_path = parse_url($og_image, PHP_URL_PATH);
+			if (is_string($og_path) && $og_path !== '') {
+				$local_path = rtrim((string)($_SERVER['DOCUMENT_ROOT'] ?? ''), '/') . $og_path;
+				if (is_file($local_path)) {
+					$og_size = @getimagesize($local_path);
+					if (is_array($og_size) && !empty($og_size[0]) && !empty($og_size[1])) {
+						$og_width = (int)$og_size[0];
+						$og_height = (int)$og_size[1];
+					}
 				}
 			}
-		}
 
-		$og .= '<meta property="og:image" content="'.$og_image.'">'."\n";
-		$og .= '<meta property="og:image:width" content="'.$og_width.'">'."\n";
-		$og .= '<meta property="og:image:height" content="'.$og_height.'">'."\n";
+			$og .= '<meta property="og:image" content="'.$og_image.'">'."\n";
+			$og .= '<meta property="og:image:width" content="'.$og_width.'">'."\n";
+			$og .= '<meta property="og:image:height" content="'.$og_height.'">'."\n";
+		}
 
 		$twitter = '<meta name="twitter:card" content="summary_large_image">'."\n";
 		$twitter .= '<meta name="twitter:description" content="'.$description.'">'."\n";
 		$twitter .= '<meta name="twitter:title" content="'.$title.'">'."\n";
-		$twitter .= '<meta name="twitter:image" content="'.$og_image.'">'."\n";
+		if( $og_image !== '' ){
+			$twitter .= '<meta name="twitter:image" content="'.$og_image.'">'."\n";
+		}
 
 		$output = '';
 		if( !empty($description) ){
