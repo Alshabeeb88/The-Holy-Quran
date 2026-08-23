@@ -135,7 +135,7 @@ if ($alreadyInstalled) {
         $socialImageCheck = inspect_social_image($_FILES['social_share_image'] ?? []);
         $socialImageRelative = $socialImageCheck['uploaded']
             ? 'images/social-share.' . $socialImageCheck['ext']
-            : 'images/social-share.jpg';
+            : 'images/social-share-default.jpg';
         $socialImageTarget = $root . '/style/default/' . $socialImageRelative;
         $password = (string)($_POST['admin_password'] ?? '');
         $passwordAgain = (string)($_POST['admin_password_again'] ?? '');
