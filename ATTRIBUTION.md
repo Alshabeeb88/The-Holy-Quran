@@ -12,7 +12,7 @@ https://quran-for-all.com/
 
 The original project's website identifies **Ahmed Al-Anazi** as the owner/developer and credits development/supervision to **Nawahi Software and Ahmed Al-Anazi**.
 
-**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki Bin Obaid**
+**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki bin Obaid**
 
 All rights in the original source code, original design, concept, architecture, and other original materials remain with their respective rights holders.
 
@@ -26,13 +26,13 @@ These modifications do not transfer ownership of the underlying original project
 
 ### Permission of the original developer
 
-The original developer, **Ahmed Al-Anazi**, granted **Turki Bin Obaid** explicit written permission to develop this script, to publish it, and to dispose of it freely -- including the option of releasing it commercially.
+The original developer, **Ahmed Al-Anazi**, granted **Turki bin Obaid** explicit written permission to develop this script, to publish it, and to dispose of it freely -- including the option of releasing it commercially.
 
 The permission is retained as private evidence. Neither the original developer's email address nor any image of the correspondence is published; only the license terms and the attribution notices are made public.
 
 ### License of this edition
 
-Acting on that authority, Turki Bin Obaid chose **not** to release this edition commercially, and instead to make it available to the public free of charge for noncommercial use, with rights and attribution preserved.
+Acting on that authority, Turki bin Obaid chose **not** to release this edition commercially, and instead to make it available to the public free of charge for noncommercial use, with rights and attribution preserved.
 
 This edition is licensed under the **PolyForm Noncommercial License 1.0.0** (see `LICENSE`). It permits use, modification and redistribution for noncommercial purposes, requires that the license text and attribution notices be passed on to every recipient, and reserves commercial use to separate written permission from the rights holder.
 

@@ -680,7 +680,7 @@ class QuranForAll extends QuranForAll_API {
 		        $copyright = 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: تركي بن عبيد | '.$toa_credit.' | استخدام مجاني غير تجاري | V'.$release_version;
 		}else{
 		        $release_version = is_file(dirname(__DIR__).'/VERSION') ? trim((string)file_get_contents(dirname(__DIR__).'/VERSION')) : $this->get_version();
-		        $copyright = 'Original Developer: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">Ahmed Al-Anazi</a> | Enhanced and maintained by: Turki Bin Obaid | '.$toa_credit.' | Free for noncommercial use | V'.$release_version;
+		        $copyright = 'Original Developer: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">Ahmed Al-Anazi</a> | Enhanced and maintained by: Turki bin Obaid | '.$toa_credit.' | Free for noncommercial use | V'.$release_version;
 		}
 
 		//$clean = str_replace(array('"', "'", "-", "_", ".", "]", "[", "(", ")", "{", "}", "`", "!", ",", "|", "  ", ";"), array('', "", "", "", "", "", "", "", "", "", "", "", "", "", "", " ", ""), $this->title);

@@ -48,7 +48,7 @@ This project is based on the original **Quran for All** platform:
 
 The original project's website identifies **Ahmed Al-Anazi** as the owner/developer and credits development/supervision to **Nawahi Software and Ahmed Al-Anazi**.
 
-**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki Bin Obaid**
+**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki bin Obaid**
 
 Full credit for the original project, original source code, concept, and original architecture belongs to their respective original rights holders.
 
@@ -64,11 +64,11 @@ This enhanced edition is licensed under the **PolyForm Noncommercial License 1.0
 
 It may be used, run, modified and redistributed free of charge **for noncommercial purposes**, provided that the license notices and the following attribution are preserved:
 
-**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki Bin Obaid**
+**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki bin Obaid**
 
 Anyone redistributing it must pass on the full license text and attribution notices to their recipients. **Commercial use** requires separate written permission from the rights holder.
 
-The original developer, Ahmed Al-Anazi, granted Turki Bin Obaid explicit written permission to develop, publish and dispose of the script. On that authority, Turki Bin Obaid chose to release this edition free of charge for noncommercial use while preserving all rights and attribution. The permission is retained as private evidence; the original developer's email address and the correspondence itself are not published.
+The original developer, Ahmed Al-Anazi, granted Turki bin Obaid explicit written permission to develop, publish and dispose of the script. On that authority, Turki bin Obaid chose to release this edition free of charge for noncommercial use while preserving all rights and attribution. The permission is retained as private evidence; the original developer's email address and the correspondence itself are not published.
 
 Third-party materials distributed with the project are not covered -- see [NOTICE-AR.md](NOTICE-AR.md) and [ATTRIBUTION.md](ATTRIBUTION.md).
 
