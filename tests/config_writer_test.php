@@ -4,6 +4,11 @@
  * Run: php tests/config_writer_test.php
  */
 
+if (PHP_SAPI !== 'cli') {
+    http_response_code(404);
+    exit;
+}
+
 $root = dirname(__DIR__);
 require $root.'/includes/config-writer.php';
 
