@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/includes/admin-auth.php';
+require_once __DIR__ . '/includes/totp.php';
 qfa_auth_start();
 if (qfa_auth_logged_in()) { header('Location: admin.php'); exit; }
 $error = '';
@@ -24,6 +25,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $passwordOk = password_verify($password, $hash);
         if ($email === strtolower(QFA_ADMIN_EMAIL) && !empty($data['password_hash']) && $passwordOk) {
             session_regenerate_id(true);
+            if (qfa_totp_enabled($data)) {
+                // The password is right; the code from the authenticator app
+                // is still needed before this session becomes an admin one.
+                $_SESSION['qfa_2fa_pending'] = ['epoch' => qfa_auth_epoch($data), 'at' => time(), 'next' => $next];
+                header('Location: admin-2fa.php'); exit;
+            }
             qfa_auth_mark_signed_in($data);
             header('Location: ' . $next); exit;
         }
