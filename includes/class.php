@@ -674,13 +674,14 @@ class QuranForAll extends QuranForAll_API {
                 $this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/qfa-navigation.js?v=1.0" defer></script>';
 
 		// Maintainer credit: the TOA Digital symbol (white + gold, for the dark footer) at text size.
-		$toa_credit = '<span class="toa-credit"><img class="toa-mark" src="'.$this->get_theme_folder_url().'/images/toa-symbol.svg" alt="TOA Digital" width="31" height="16">© TOA Digital</span>';
+		$toa_link = '<a target="_blank" rel="noopener" href="https://toa.sa/">';
+		$toa_credit = $toa_link.'<span class="toa-credit"><img class="toa-mark" src="'.$this->get_theme_folder_url().'/images/toa-symbol.svg" alt="TOA Digital" width="31" height="16">© TOA Digital</span></a>';
 		if( $this->get_language() === 'ar' ){
 		        $release_version = is_file(dirname(__DIR__).'/VERSION') ? trim((string)file_get_contents(dirname(__DIR__).'/VERSION')) : $this->get_version();
-		        $copyright = 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: تركي بن عبيد | '.$toa_credit.' | استخدام مجاني غير تجاري | V'.$release_version;
+		        $copyright = 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: '.$toa_link.'تركي بن عبيد</a> | '.$toa_credit.' | استخدام مجاني غير تجاري | V'.$release_version;
 		}else{
 		        $release_version = is_file(dirname(__DIR__).'/VERSION') ? trim((string)file_get_contents(dirname(__DIR__).'/VERSION')) : $this->get_version();
-		        $copyright = 'Original Developer: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">Ahmed Al-Anazi</a> | Enhanced and maintained by: Turki Bin Obaid | '.$toa_credit.' | Free for noncommercial use | V'.$release_version;
+		        $copyright = 'Original Developer: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">Ahmed Al-Anazi</a> | Enhanced and maintained by: '.$toa_link.'Turki Bin Obaid</a> | '.$toa_credit.' | Free for noncommercial use | V'.$release_version;
 		}
 
 		//$clean = str_replace(array('"', "'", "-", "_", ".", "]", "[", "(", ")", "{", "}", "`", "!", ",", "|", "  ", ";"), array('', "", "", "", "", "", "", "", "", "", "", "", "", "", "", " ", ""), $this->title);
