@@ -629,7 +629,7 @@ class QuranForAll extends QuranForAll_API {
 		$is_home = ($action === 'home' && !isset($_GET['surah']) && !isset($_GET['reader_id']) && !isset($_GET['f']) && !isset($_GET['t']));
 		$page_class = $is_home ? 'home-page' : 'internal-page';
 		$allowed_appearance_styles = array('modern');
-		$allowed_color_schemes = array('emerald', 'navy', 'burgundy', 'toa');
+		$allowed_color_schemes = array('emerald', 'navy', 'burgundy', 'toa', 'mushaf');
 		$appearance_style = defined('APPEARANCE_STYLE') ? (string) APPEARANCE_STYLE : 'modern';
 		$color_scheme = defined('COLOR_SCHEME') ? (string) COLOR_SCHEME : 'emerald';
 		if( !in_array($appearance_style, $allowed_appearance_styles, true) ) $appearance_style = 'modern';
@@ -659,11 +659,11 @@ class QuranForAll extends QuranForAll_API {
 		$headercode = '';
 		if( $this->is_rtl() == true || $this->is_rtl == true ){
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/bootstrap.rtl.min.css?v=5.1">'."\n";
-			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=59.0">'."\n";
+			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=59.1">'."\n";
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/rtl.css?v=5.2">'."\n";
 		}else{
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/bootstrap.min.css?v=5.1">'."\n";
-			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=59.0">'."\n";
+			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=59.1">'."\n";
 		}
 		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/all.min.css?v=5.15.4">'."\n";
 		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/hover-min.css?v=2.3.2">'."\n";
@@ -731,7 +731,7 @@ class QuranForAll extends QuranForAll_API {
 
 	public function tafseer_surah_loop() {
 		$l = 'ar';
-		$type = ( isset($_REQUEST['type']) && intval($_REQUEST['type']) != 0 ? intval($_REQUEST['type']) : 1 );
+		$type = ( isset($_REQUEST['type']) && intval($_REQUEST['type']) != 0 ? intval($_REQUEST['type']) : $this->default_tafseer );
 		$json_tafseer = $this->api_tafseer();
 
 		if( is_array($json_tafseer['data']) && array_key_exists($type, $json_tafseer['data']) ){
@@ -1004,7 +1004,7 @@ class QuranForAll extends QuranForAll_API {
 		$surah_id = ( isset($_REQUEST['surah']) && intval($_REQUEST['surah']) < 115 ? intval($_REQUEST['surah']) : 1 );
 		$x = ( isset($_REQUEST['reader_id']) ? intval($_REQUEST['reader_id']) : $this->default_reader );
 		$aya = ( isset($_REQUEST['ayah']) && intval($_REQUEST['ayah']) != 0 ? intval($_REQUEST['ayah']) : 1 );
-		$type = ( isset($_REQUEST['type']) && intval($_REQUEST['type']) != 0 ? intval($_REQUEST['type']) : 1 );
+		$type = ( isset($_REQUEST['type']) && intval($_REQUEST['type']) != 0 ? intval($_REQUEST['type']) : $this->default_tafseer );
 
 		if( isset($_GET['surah']) && $_GET['surah'] != 0 && $_GET['surah'] < 115 ){
 			$code = $this->tafseer_view($surah_id, $aya, $type);
@@ -2566,7 +2566,7 @@ class QuranForAll extends QuranForAll_API {
 			foreach( $json['data'] as $key => $value ){
 				$ayah_number = ( isset($value['ayah_number']) ? $value['ayah_number'] : 0 );
 				$ayah_text = ( isset($value['ayah_text']) ? $value['ayah_text'] : '' );
-				$ayah_url = $this->url( array( 'action' => 'tafseer', 'type' => 5, 'surah' => $surah_id, 'ayah' => $key ) );
+				$ayah_url = $this->url( array( 'action' => 'tafseer', 'type' => $this->default_tafseer, 'surah' => $surah_id, 'ayah' => $key ) );
 
 				if( $this->surah_one_line ){
 					$text .= '<div class="mt-3"><a href="'.$ayah_url.'"><span class="ayat">'.$this->fix_char($ayah_text).'</span> '.$this->ayah_number( $key ).'</a></div>';
@@ -3907,7 +3907,7 @@ class QuranForAll extends QuranForAll_API {
 		$surah_id = ( isset($_GET['surah']) && intval($_GET['surah']) != 0 && intval($_GET['surah']) < 115 ? intval($_GET['surah']) : 1 );
 		$reader_id = ( isset($_GET['reader_id']) ? intval($_GET['reader_id']) : $this->default_reader );
 		$aya = ( isset($_REQUEST['ayah']) && intval($_REQUEST['ayah']) != 0 ? intval($_REQUEST['ayah']) : 1 );
-		$type = ( isset($_REQUEST['type']) && intval($_REQUEST['type']) != 0 ? intval($_REQUEST['type']) : 1 );
+		$type = ( isset($_REQUEST['type']) && intval($_REQUEST['type']) != 0 ? intval($_REQUEST['type']) : $this->default_tafseer );
 		$lang = $this->get_language();
 		$language_name = ( isset($_GET['name']) ? strip_tags($_GET['name']) : '' );
 		$category_id = ( isset($_GET['category_id']) ? intval($_GET['category_id']) : 0 );

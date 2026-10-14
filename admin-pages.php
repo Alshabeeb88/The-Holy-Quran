@@ -110,7 +110,7 @@ $content = '
   </form>
 </section>
 
-<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.0">
+<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.1">
 <style>
 .page-toggle{display:flex;align-items:center;gap:12px;padding:12px 0;border-bottom:1px solid #e6efec}
 .page-toggle:last-of-type{border-bottom:0}
