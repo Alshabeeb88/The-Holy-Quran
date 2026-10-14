@@ -113,6 +113,15 @@ foreach (array_merge(glob($root . '/*', GLOB_ONLYDIR) ?: [], glob($root . '/*/*'
         $nested[] = substr($dir, strlen($root) + 1);
     }
 }
+// A top-level folder named like a domain (example.com, sub.example.com) is the
+// document root of another domain on the same account, whatever it runs.
+foreach (glob($root . '/*', GLOB_ONLYDIR) ?: [] as $dir) {
+    $name = basename($dir);
+    if (preg_match('~^[a-z0-9-]+(\.[a-z0-9-]+)+$~i', $name) && !in_array($name, $nested, true)) {
+        $nested[] = $name;
+    }
+}
+sort($nested);
 
 echo "Quran site audit (read-only)\n";
 echo "Folder: $root\n";
@@ -172,7 +181,7 @@ if (!$known) {
     line('WARN', 'Could not download the repository file list (HTTP ' . $tree['status'] . '); file comparison skipped');
 } else {
     // Files the site creates while running; they are expected to differ or be extra.
-    $runtime = '~^(cache/|includes/config\.php|includes/admin_auth_store\.php|includes/contact_messages|includes/x_studio_current|includes/\.admin_auth\.lock|includes/\.?[a-z_]*rate|\.qfa-installed|\.qfa-install\.lock|sitemaps?/|sitemap[^/]*\.xml|.*error_log$|\.well-known/|cgi-bin/|images/(upload|uploads|custom)/|style/default/images/(og|social|logo|share)[^/]*$|\.htaccess$|\.user\.ini$|php\.ini$|robots\.txt$)~i';
+    $runtime = '~^(cache/|includes/config\.php|includes/admin_auth_store\.php|includes/contact_messages|includes/x_studio_current|includes/x_studio_archive/|includes/\.admin_auth\.lock|includes/\.?[a-z_]*rate|\.qfa-installed|\.qfa-install\.lock|sitemaps?/|sitemap[^/]*\.xml|.*error_log$|\.well-known/|cgi-bin/|images/(upload|uploads|custom)/|style/default/images/(og|social|logo|share)[^/]*$|\.htaccess$|\.user\.ini$|php\.ini$|robots\.txt$)~i';
     $data = '~^api/(quran|books)/includes/~';
     $dataTotal = $dataBad = 0;
     $modified = $missing = $extra = [];
