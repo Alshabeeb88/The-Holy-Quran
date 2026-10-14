@@ -25,6 +25,7 @@ function qfa_theme_label(string $value): string {
         'navy' => 'الأزرق الكحلي',
         'burgundy' => 'العنابي الملكي',
         'toa' => 'هوية TOA Digital',
+        'mushaf' => 'مصحف',
     ];
     return $labels[$value] ?? $value;
 }
@@ -62,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $haramVideoInput = trim((string)($_POST['haram_live_video'] ?? ''));
         $newHaramVideo = qfa_youtube_id($haramVideoInput);
 
-        $allowedColorSchemes = ['emerald', 'navy', 'burgundy', 'toa'];
+        $allowedColorSchemes = ['emerald', 'navy', 'burgundy', 'toa', 'mushaf'];
         $newColorScheme = (string)($_POST['color_scheme'] ?? 'emerald');
 
         $newAdminEmail = strtolower(trim((string)($_POST['admin_email'] ?? '')));
@@ -364,7 +365,7 @@ if (preg_match("~define\\('SITE_DESCRIPTION',\\s*'([^']*)'\\);~u", $currentConfi
 }
 
 if (preg_match("~define\\('COLOR_SCHEME',\\s*'([^']*)'\\);~u", $currentConfig, $m)) {
-    if (in_array($m[1], ['emerald', 'navy', 'burgundy', 'toa'], true)) {
+    if (in_array($m[1], ['emerald', 'navy', 'burgundy', 'toa', 'mushaf'], true)) {
         $colorScheme = $m[1];
     }
 }
@@ -616,6 +617,18 @@ $content = '
             </span>
           </label>
 
+          <label class="theme-choice">
+            <input type="radio" name="color_scheme" value="mushaf" '.($colorScheme === 'mushaf' ? 'checked' : '').'>
+            <span class="theme-card">
+              <i class="theme-preview mushaf-preview"></i>
+              <span class="theme-text">
+                <b>مصحف</b>
+                <small>ورق دافئ للقراءة نهارًا، وفحمي هادئ ليلًا</small>
+              </span>
+              <i class="theme-check">✓</i>
+            </span>
+          </label>
+
         </div>
       </section>
 
@@ -631,7 +644,7 @@ $content = '
 
 <script src="style/default/js/admin-settings.js?v=1.0"></script>
 
-<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.0">
+<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.1">
 ';
 
 qfa_auth_page('إعدادات الموقع', $content);
