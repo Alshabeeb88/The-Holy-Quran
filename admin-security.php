@@ -179,7 +179,7 @@ $content = '
   </div>
 </section>
 
-<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.3">
+<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.3.1">
 <style>
 .setup-steps{margin:0 0 14px;padding-inline-start:20px;line-height:2}
 .qr-wrap{display:flex;flex-direction:column;align-items:center;gap:10px;margin:10px 0 18px}

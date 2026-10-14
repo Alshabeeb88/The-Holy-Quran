@@ -75,7 +75,7 @@ $content = '
   </div>
 </section>
 
-<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.3">
+<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.3.1">
 <style>
 .integrity-list{list-style:none;margin:12px 0 0;padding:0;max-height:320px;overflow:auto}
 .integrity-list li{padding:6px 0;border-bottom:1px solid #e6efec;overflow-wrap:anywhere}

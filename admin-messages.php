@@ -167,7 +167,7 @@ $content = '
   </div>
 </section>
 
-<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.3">
+<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.3.1">
 <script src="style/default/js/admin-messages.js?v=1.0" defer></script>
 <style>
 .message-item{padding:14px 0;border-bottom:1px solid #e6efec}
