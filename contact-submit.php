@@ -78,6 +78,9 @@ const QFA_CONTACT_RETENTION_DAYS = 90;
 const QFA_CONTACT_MAX_ENTRIES = 2000;
 const QFA_CONTACT_SOFT_BYTES = 131072;   // 128 KB: above this, prune on write.
 const QFA_CONTACT_ARCHIVE_BYTES = 2097152; // 2 MB ceiling for the archive itself.
+// Archived records are deleted for good after a year: personal data is not
+// kept longer than it can be useful (data-minimisation, as in the Saudi PDPL).
+const QFA_CONTACT_ARCHIVE_DAYS = 365;
 
 function qfa_contact_guard(): string {
     return "<?php exit; ?>\n";
@@ -116,6 +119,14 @@ function qfa_contact_archive(string $archiveFile, array $lines): bool {
     foreach ($lines as $line) {
         $kept[] = $line;
     }
+
+    // Drop records past the archive age. Undated records stay, as in pruning.
+    $archiveCutoff = time() - (QFA_CONTACT_ARCHIVE_DAYS * 86400);
+    $kept = array_values(array_filter($kept, static function (string $line) use ($archiveCutoff): bool {
+        $record = json_decode($line, true);
+        $stamp = is_array($record) && isset($record['time']) && is_string($record['time']) ? strtotime($record['time']) : false;
+        return $stamp === false || $stamp >= $archiveCutoff;
+    }));
 
     // Drop from the oldest end until back under the ceiling. The running total
     // avoids re-joining the whole archive on every iteration.

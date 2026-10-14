@@ -21,7 +21,7 @@ const QFA_SESSION_MAX = 43200;
 
 function qfa_auth_start(): void {
     $script = basename((string)($_SERVER['SCRIPT_NAME'] ?? ''));
-    if (in_array($script, ['admin.php','admin-login.php','forgot-password.php','reset-password.php','admin-logout.php','sadaqah-agent.php','admin-settings.php','admin-pages.php','admin-messages.php'], true)) {
+    if (in_array($script, ['admin.php','admin-login.php','forgot-password.php','reset-password.php','admin-logout.php','sadaqah-agent.php','admin-settings.php','admin-pages.php','admin-messages.php','admin-integrity.php','admin-security.php','admin-2fa.php'], true)) {
         header('X-Robots-Tag: noindex, nofollow, noarchive', true);
         header('Cache-Control: no-store, private', true);
         header('X-Frame-Options: DENY', true);
