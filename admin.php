@@ -40,6 +40,22 @@ $content = '
       </div>
     </a>
 
+    <a class="admin-dashboard-card" href="admin-security.php">
+      <span class="admin-dashboard-icon"><i class="fas fa-user-shield"></i></span>
+      <div>
+        <strong>التحقق بخطوتين</strong>
+        <small>حماية الدخول برمز من تطبيق على الجوال.</small>
+      </div>
+    </a>
+
+    <a class="admin-dashboard-card" href="admin-integrity.php">
+      <span class="admin-dashboard-icon"><i class="fas fa-shield-alt"></i></span>
+      <div>
+        <strong>سلامة المصادر</strong>
+        <small>التحقق من أن نص القرآن والتفاسير والكتب لم يتغير.</small>
+      </div>
+    </a>
+
     <a class="admin-dashboard-card" href="sadaqah-agent.php">
       <span class="admin-dashboard-icon"><i class="fas fa-feather-alt"></i></span>
       <div>
