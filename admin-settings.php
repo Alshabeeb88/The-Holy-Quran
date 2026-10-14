@@ -74,10 +74,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $newPasswordAgain = (string)($_POST['new_password_again'] ?? '');
 
         $passwordChangeRequested = (
-            $currentPassword !== '' ||
             $newPassword !== '' ||
             $newPasswordAgain !== ''
         );
+
+        // The admin email receives password reset links, so changing it is as
+        // sensitive as changing the password: a borrowed or stolen session must
+        // not be able to redirect resets to another inbox.
+        $emailChangeRequested = strtolower($oldAdminEmail) !== $newAdminEmail;
 
         $socialImageCheck = inspect_social_image($_FILES['social_share_image'] ?? []);
 
@@ -157,7 +161,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $error = 'كلمة المرور الجديدة يجب ألا تقل عن 12 رمزًا.';
         } elseif ($passwordChangeRequested && $newPassword !== $newPasswordAgain) {
             $error = 'كلمتا المرور الجديدة غير متطابقتين.';
-        } elseif ($passwordChangeRequested) {
+        } elseif (($passwordChangeRequested || $emailChangeRequested) && $currentPassword === '') {
+            $error = 'اكتب كلمة المرور الحالية لتأكيد تغيير بريد المدير أو كلمة المرور.';
+        } elseif ($passwordChangeRequested || $emailChangeRequested) {
             $authData = qfa_auth_read();
 
             if (
@@ -276,15 +282,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     $authNeedsUpdate =
                         $oldAdminEmail !== $newAdminEmail ||
                         $passwordChangeRequested;
+                    $credentialsChanged = $emailChangeRequested || $passwordChangeRequested;
 
                     if ($authNeedsUpdate) {
                         $newAuthData = null;
-                        $authSaved = qfa_auth_update(static function (array $authData) use ($newAdminEmail, $passwordChangeRequested, $newPassword, &$newAuthData) {
+                        $authSaved = qfa_auth_update(static function (array $authData) use ($newAdminEmail, $passwordChangeRequested, $credentialsChanged, $newPassword, &$newAuthData) {
                             $authData['email'] = $newAdminEmail;
 
                             if ($passwordChangeRequested) {
                                 $authData['password_hash'] = password_hash($newPassword, PASSWORD_DEFAULT);
-                                // Sign out every other session that used the old password.
+                            }
+
+                            if ($credentialsChanged) {
+                                // Sign out every other session once the login details change.
                                 $authData['session_epoch'] = qfa_auth_epoch($authData) + 1;
                             }
 
@@ -301,7 +311,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                 }
                             }
                             $error = 'تعذر مزامنة بيانات المدير، وتمت استعادة الإعدادات السابقة.';
-                        } elseif ($passwordChangeRequested && is_array($newAuthData)) {
+                        } elseif ($credentialsChanged && is_array($newAuthData)) {
                             // This session made the change, so it stays signed in.
                             session_regenerate_id(true);
                             $_SESSION['qfa_epoch'] = qfa_auth_epoch($newAuthData);
@@ -490,7 +500,7 @@ $content = '
         <label>
           بريد المدير
           <input type="email" dir="ltr" name="admin_email" required value="'.e($adminEmail).'">
-          <small>يستخدم لتسجيل الإدارة واستعادة كلمة المرور.</small>
+          <small>يستخدم لتسجيل الإدارة واستعادة كلمة المرور. تغييره يحتاج كلمة المرور الحالية من قسم الأمان.</small>
         </label>
 
         <label>
@@ -522,7 +532,7 @@ $content = '
         <label>
           كلمة المرور الجديدة
           <input type="password" name="new_password" minlength="12" autocomplete="new-password">
-          <small>اترك الحقول الثلاثة فارغة إذا لم ترغب بتغيير كلمة المرور.</small>
+          <small>اترك الحقول الثلاثة فارغة إذا لم ترغب بتغيير كلمة المرور. كلمة المرور الحالية مطلوبة أيضًا عند تغيير بريد المدير.</small>
         </label>
 
         <label>

@@ -22,7 +22,7 @@ if (!is_array($pending)
 $error = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!qfa_auth_check_csrf((string)($_POST['csrf'] ?? ''))) $error = 'انتهت صلاحية النموذج. أعد المحاولة.';
-    elseif (qfa_auth_rate_limited('totp', 6, 900)) {
+    elseif (qfa_auth_rate_limited('totp', 6, 900) || qfa_auth_rate_limited('totp_all', 20, 900)) {
         $error = qfa_auth_rate_reason() === 'storage'
             ? 'تعذر التحقق من المحاولات حاليًا لأسباب فنية. حاول مرة أخرى بعد قليل.'
             : 'محاولات كثيرة. انتظر 15 دقيقة ثم حاول مجددًا.';
