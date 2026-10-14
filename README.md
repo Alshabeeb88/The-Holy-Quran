@@ -14,7 +14,7 @@ This edition continues the original project's Quran-focused functionality while 
 
 ### Version
 
-Current release: **v1.1.5**
+Current release: **v1.2.0** — see [CHANGELOG.md](CHANGELOG.md)
 
 ### Highlights of this edition
 
@@ -86,7 +86,7 @@ Third-party materials distributed with the project are not covered -- see [NOTIC
 
 ### الإصدار
 
-الإصدار الحالي: **v1.1.5**
+الإصدار الحالي: **v1.2.0** — راجع [CHANGELOG.md](CHANGELOG.md)
 
 ### أبرز تطويرات وتحسينات هذا الإصدار
 

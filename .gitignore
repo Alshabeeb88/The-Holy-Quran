@@ -3,6 +3,7 @@
 .qfa-install.lock
 includes/config.php
 includes/admin_auth_store.php
+includes/.admin_auth.lock
 includes/contact_messages.php
 includes/contact_messages-archive.php
 /includes/x_studio_current.php

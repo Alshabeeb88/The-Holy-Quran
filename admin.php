@@ -24,6 +24,38 @@ $content = '
       </div>
     </a>
 
+    <a class="admin-dashboard-card" href="admin-pages.php">
+      <span class="admin-dashboard-icon"><i class="fas fa-th-list"></i></span>
+      <div>
+        <strong>إدارة الصفحات</strong>
+        <small>تفعيل أو تعطيل صفحات الموقع الرئيسية.</small>
+      </div>
+    </a>
+
+    <a class="admin-dashboard-card" href="admin-messages.php">
+      <span class="admin-dashboard-icon"><i class="fas fa-envelope-open-text"></i></span>
+      <div>
+        <strong>رسائل التواصل</strong>
+        <small>قراءة وحذف الرسائل المرسلة من نموذج التواصل.</small>
+      </div>
+    </a>
+
+    <a class="admin-dashboard-card" href="admin-security.php">
+      <span class="admin-dashboard-icon"><i class="fas fa-user-shield"></i></span>
+      <div>
+        <strong>التحقق بخطوتين</strong>
+        <small>حماية الدخول برمز من تطبيق على الجوال.</small>
+      </div>
+    </a>
+
+    <a class="admin-dashboard-card" href="admin-integrity.php">
+      <span class="admin-dashboard-icon"><i class="fas fa-shield-alt"></i></span>
+      <div>
+        <strong>سلامة المصادر</strong>
+        <small>التحقق من أن نص القرآن والتفاسير والكتب لم يتغير.</small>
+      </div>
+    </a>
+
     <a class="admin-dashboard-card" href="sadaqah-agent.php">
       <span class="admin-dashboard-icon"><i class="fas fa-feather-alt"></i></span>
       <div>

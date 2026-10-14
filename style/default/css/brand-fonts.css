@@ -1,0 +1,33 @@
+/*
+ * TOA Digital brand typography (v1.2.0).
+ * Cairo for Arabic, Montserrat for English, self-hosted from the approved
+ * brand package (SIL OFL 1.1, licences in ../fonts/brand/). Loaded after every
+ * other stylesheet so it only swaps the typeface; sizes, weights and layout
+ * stay exactly as they were. The Quran text fonts (KFGQPC Uthmanic Hafs,
+ * me_quran, Kitab) are deliberately left untouched.
+ */
+@font-face{font-family:"Cairo";src:url("../fonts/brand/Cairo-Variable.woff2") format("woff2-variations"),url("../fonts/brand/Cairo-Variable.woff2") format("woff2");font-weight:200 1000;font-style:normal;font-display:swap}
+@font-face{font-family:"Montserrat";src:url("../fonts/brand/Montserrat-Variable.woff2") format("woff2-variations"),url("../fonts/brand/Montserrat-Variable.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap}
+
+:root{
+  --qfa-font-ar:"Cairo","Geeza Pro","Segoe UI",Tahoma,sans-serif;
+  --qfa-font-en:"Montserrat","Cairo","Helvetica Neue",Arial,sans-serif;
+}
+
+/* Public site: rtl.css used to set Tajawal (never loaded) and style.css Roboto. */
+body{font-family:var(--qfa-font-ar)}
+body.qfa-ltr{font-family:var(--qfa-font-en)}
+.tasbeeh-tap strong{font-family:var(--qfa-font-ar)}
+
+/* Embedded English, such as the maintainer credit. */
+
+/* Admin pages (admin-auth.css used Tahoma for text, inputs and buttons). */
+.auth-shell,.auth-shell input,.auth-shell textarea,.auth-shell select,.auth-shell button{font-family:var(--qfa-font-ar)}
+
+/* Cairo sets slightly wider than the previous face. On wide screens, where
+   the menu used to fit on one row, keep each label on one line and trim the
+   side padding by 2px so the header keeps its original height. Narrower
+   screens behave exactly as before. */
+@media (min-width:1200px){
+  .custom-nav .nav-link{white-space:nowrap;padding-left:11px!important;padding-right:11px!important}
+}

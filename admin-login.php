@@ -1,5 +1,6 @@
 <?php
 require_once __DIR__ . '/includes/admin-auth.php';
+require_once __DIR__ . '/includes/totp.php';
 qfa_auth_start();
 if (qfa_auth_logged_in()) { header('Location: admin.php'); exit; }
 $error = '';
@@ -18,10 +19,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $email = strtolower(trim((string)($_POST['email'] ?? '')));
         $password = (string)($_POST['password'] ?? '');
         $data = qfa_auth_read();
-        if ($email === strtolower(QFA_ADMIN_EMAIL) && !empty($data['password_hash']) && password_verify($password, (string)$data['password_hash'])) {
+        // Always run password_verify, against a throwaway hash when the email
+        // does not match, so the response time does not reveal the admin email.
+        $hash = !empty($data['password_hash']) ? (string)$data['password_hash'] : '$2y$10$LS3Kx.u.joOTIdz2q8IJoOTM3.TLZdY5ouQ4LBvd.Cb0GQn1h4TQK';
+        $passwordOk = password_verify($password, $hash);
+        if ($email === strtolower(QFA_ADMIN_EMAIL) && !empty($data['password_hash']) && $passwordOk) {
             session_regenerate_id(true);
-            $_SESSION[QFA_ADMIN_SESSION] = true;
-            $_SESSION['qfa_admin_email'] = QFA_ADMIN_EMAIL;
+            if (qfa_totp_enabled($data)) {
+                // The password is right; the code from the authenticator app
+                // is still needed before this session becomes an admin one.
+                $_SESSION['qfa_2fa_pending'] = ['epoch' => qfa_auth_epoch($data), 'at' => time(), 'next' => $next];
+                header('Location: admin-2fa.php'); exit;
+            }
+            qfa_auth_mark_signed_in($data);
             header('Location: ' . $next); exit;
         }
         $error = 'بيانات الدخول غير صحيحة.';

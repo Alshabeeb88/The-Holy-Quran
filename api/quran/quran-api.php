@@ -23,7 +23,7 @@ class QuranForAll_API {
 		$this->folder_tafseer = 'includes/tafseer';
 		$this->rtl_languages = array('ar', 'ur', 'fa', 'ku', 'ug', 'dv', 'sd');
 		$this->default_language = 'ar';
-		$this->check_languages = array("ar", "en", "en_yusuf_ali", "en_transliteration", "fr", "nl", "tr", "ms", "id", "zh", "ja", "it", "ko", "ml", "pt", "es", "ur", "bn", "ta", "cz", "de", "fa", "ro", "ru", "sv", "sq", "az", "bs", "bg", "ha", "ku", "sj", "pl", "so", "sw", "tg", "tt", "th", "ug", "uz", "dv", "sd", "no");
+		$this->check_languages = array("ar", "en", "en_yusuf_ali", "en_transliteration", "fr", "nl", "tr", "ms", "id", "zh", "ja", "it", "ko", "ml", "pt", "es", "ur", "bn", "ta", "cz", "de", "fa", "ro", "ru", "sv", "sq", "az", "bs", "bg", "ha", "ku", "pl", "so", "sw", "tg", "tt", "th", "ug", "uz", "dv", "sd", "no");
 		$this->aya_count = array(0, 7, 286, 200, 176, 120, 165, 206, 75, 129, 109, 123, 111, 43, 52, 99, 128, 111, 110, 98, 135, 112, 78, 118, 64, 77, 227, 93, 88, 69, 60, 34, 30, 73, 54, 45, 83, 182, 88, 75, 85, 54, 53, 89, 59, 37, 35, 38, 29, 18, 45, 60, 49, 62, 55, 78, 96, 29, 22, 24, 13, 14, 11, 11, 18, 12, 12, 30, 52, 52, 44, 28, 28, 20, 56, 40, 31, 50, 40, 46, 42, 29, 19, 36, 25, 22, 17, 19, 26, 30, 20, 15, 21, 11, 8, 8, 19, 5, 8, 8, 11, 11, 8, 3, 9, 5, 4, 7, 3, 6, 3, 5, 4, 5, 6);
 		$this->tafseers = array(
 			6 => array('name' => 'التفسير الميسّر — مجمع الملك فهد', 'name_en' => 'Tafseer Muyassar — King Fahd Complex'),
@@ -166,6 +166,7 @@ class QuranForAll_API {
 	function surah_id( $get_key = 'surah_id' ){
 		$surah_id = ( isset($_REQUEST[$get_key]) ? intval($_REQUEST[$get_key]) : 1 );
 		if( $surah_id > 114 ) $surah_id = 114;
+		if( $surah_id < 1 ) $surah_id = 1;
 		return $surah_id;
 	}
 
@@ -176,6 +177,7 @@ class QuranForAll_API {
 		}
 
 		if( $surah_id > 114 ) $surah_id = 114;
+		if( $surah_id < 1 ) $surah_id = 1;
 		$surah_id_key = ( $surah_id - 1 );
 		return $surah_id_key;
 	}
@@ -584,9 +586,13 @@ class QuranForAll_API {
 	function get_folder_translate( $lang_name = '', $surah_id = 1, $root = false ){
 		$QURAN = '';
 		$path = $this->addRootPath( $root );
+		// Public language keys that are stored under a different folder name.
+		// Czech is published as "cz" (existing URLs) but its data lives in "cs".
+		$folder_alias = array( 'cz' => 'cs' );
 		if( empty($lang_name) ){
 			$lang = $this->get_language();
 			$file = ( in_array( $lang, $this->check_languages ) ? $lang : 'en' );
+			$file = ( isset($folder_alias[$file]) ? $folder_alias[$file] : $file );
 			if( file_exists($path.$this->folder_translate.'/'.$file.'/'.$surah_id.'.php') ){
 				$current_path = $path.$this->folder_translate.'/'.$file.'/'.$surah_id.'.php';
 			}else{
@@ -595,6 +601,7 @@ class QuranForAll_API {
 		}else{
 			$lang = $lang_name;
 			$file = ( in_array( $lang, $this->check_languages ) ? $lang : 'en' );
+			$file = ( isset($folder_alias[$file]) ? $folder_alias[$file] : $file );
 			if( file_exists($path.$this->folder_translate.'/'.$file.'/'.$surah_id.'.php') ){
 				$current_path = $path.$this->folder_translate.'/'.$file.'/'.$surah_id.'.php';
 			}else{
@@ -1277,7 +1284,10 @@ class QuranForAll_API {
 
 		$filename = $path.'includes/uthmani/'.$surah_id.'.php';//quran-uthmani, uthmani, quran
 		if( file_exists($filename) ){
-			require_once( $filename );
+			// include, not require_once: a second lookup of the same surah in one
+			// request must load the text again, or $q would be undefined.
+			$q = null;
+			include( $filename );
 			$QURAN = $q;
 		}
 
@@ -1288,12 +1298,15 @@ class QuranForAll_API {
 			$to = ( isset($_GET['t']) && intval($_GET['t']) != 0 ? intval($_GET['t']) : $ayatnumbers );
 			$reader_id = ( isset($_GET['x']) ? intval($_GET['x']) : $this->default_reader );
 
+			$from = max(1, $from);
+			$to = ( $to < 1 ? $ayatnumbers : $to );
 			$get_from = ( $from > $to ? 1 : $from );
 			$get_to = ( $to > $ayatnumbers || $from > $to ? $ayatnumbers : $to );
 
 			$trans = '';
 			if( is_array($lang) && count($lang) > 0 ){
 				$multi_trans = array();
+				$trans_loop = '';
 				foreach( $lang as $key => $value ){
 					if( $this->get_folder_translate($value, $surah_id, $root) != false ){
 						include( $this->get_folder_translate($value, $surah_id, $root) );
@@ -1392,7 +1405,6 @@ class QuranForAll_API {
 		}else{
 			return array( 'status' => 'error', 'msg' => 'Not found surah' );
 		}
-		return $s;
 	}
 
 	function api_tafseer(){
@@ -1420,7 +1432,10 @@ class QuranForAll_API {
 		$path = $this->addRootPath( $root );
 		$filename = $path.'includes/uthmani/'.$surah_id.'.php';//quran-uthmani, uthmani, quran
 		if( file_exists($filename) ){
-			require_once( $filename );
+			// include, not require_once: a second lookup of the same surah in one
+			// request must load the text again, or $q would be undefined.
+			$q = null;
+			include( $filename );
 			$QURAN = $q;
 		}
 

@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/includes/admin-auth.php';
 require_once __DIR__ . '/includes/social-image.php';
+require_once __DIR__ . '/includes/config-writer.php';
+require_once __DIR__ . '/includes/youtube.php';
 qfa_auth_require();
 
 function e(string $value): string {
@@ -17,23 +19,12 @@ function clean_setting(string $value, int $max): string {
         : substr($value, 0, $max);
 }
 
-function replace_define(string $code, string $name, string $value): string {
-    $replacement = "define('" . $name . "', " . var_export($value, true) . ");";
-    $pattern = "~define\\('" . preg_quote($name, '~') . "'\\s*,\\s*.*?\\);~";
-    return preg_replace($pattern, $replacement, $code, 1) ?? $code;
-}
-
-function replace_define_bool(string $code, string $name, bool $value): string {
-    $replacement = "define('" . $name . "', " . ($value ? 'true' : 'false') . ");";
-    $pattern = "~define\\('" . preg_quote($name, '~') . "'\\s*,\\s*.*?\\);~";
-    return preg_replace($pattern, $replacement, $code, 1) ?? $code;
-}
-
 function qfa_theme_label(string $value): string {
     $labels = [
         'emerald' => 'الأخضر الزمردي',
         'navy' => 'الأزرق الكحلي',
         'burgundy' => 'العنابي الملكي',
+        'mushaf' => 'مصحف',
     ];
     return $labels[$value] ?? $value;
 }
@@ -67,8 +58,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $newMemorialEnabled = isset($_POST['memorial_enabled']);
         $newMemorialTitle = clean_setting((string)($_POST['memorial_title'] ?? ''), 120);
         $newMemorialDua = clean_setting((string)($_POST['memorial_dua'] ?? ''), 180);
+        $oldHaramVideo = defined('HARAM_LIVE_VIDEO') ? (string)HARAM_LIVE_VIDEO : '';
+        $haramVideoInput = trim((string)($_POST['haram_live_video'] ?? ''));
+        $newHaramVideo = qfa_youtube_id($haramVideoInput);
 
-        $allowedColorSchemes = ['emerald', 'navy', 'burgundy'];
+        $allowedColorSchemes = ['emerald', 'navy', 'burgundy', 'mushaf'];
         $newColorScheme = (string)($_POST['color_scheme'] ?? 'emerald');
 
         $newAdminEmail = strtolower(trim((string)($_POST['admin_email'] ?? '')));
@@ -115,6 +109,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $changes[] = 'تم تحديث الدعاء المختصر';
         }
 
+        if ($oldHaramVideo !== $newHaramVideo) {
+            $changes[] = $newHaramVideo === '' ? 'تم إخفاء البث المباشر من الحرم' : 'تم تحديث فيديو البث المباشر من الحرم';
+        }
+
         if ($oldColorScheme !== $newColorScheme) {
             $changes[] = 'مظهر الموقع: ' . qfa_theme_label($oldColorScheme) . ' ← ' . qfa_theme_label($newColorScheme);
         }
@@ -147,6 +145,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $error = 'اسم الموقع والوصف مطلوبان.';
         } elseif ($newMemorialEnabled && $newMemorialTitle === '') {
             $error = 'اكتب عنوان الصدقة الجارية أو عطّل الشريط.';
+        } elseif ($haramVideoInput !== '' && $newHaramVideo === '') {
+            $error = 'رابط البث المباشر غير صحيح. الصق رابط فيديو من يوتيوب.';
         } elseif (!filter_var($newAdminEmail, FILTER_VALIDATE_EMAIL)) {
             $error = 'بريد المدير غير صحيح.';
         } elseif ($newContactEmail !== '' && !filter_var($newContactEmail, FILTER_VALIDATE_EMAIL)) {
@@ -177,148 +177,153 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         }
 
         if ($error === '') {
-            $code = (string)@file_get_contents($configFile);
+            $originalCode = (string)@file_get_contents($configFile);
 
-            if ($code === '') {
+            if ($originalCode === '') {
                 $error = 'تعذر قراءة إعدادات الموقع.';
             } else {
                 $socialImageRelative = defined('SOCIAL_SHARE_IMAGE') && SOCIAL_SHARE_IMAGE !== ''
                     ? (string)SOCIAL_SHARE_IMAGE
-                    : 'images/og.png';
+                    : 'images/social-share-default.jpg';
 
                 if ($socialImageCheck['uploaded']) {
                     $socialImageRelative = 'images/social-share.' . $socialImageCheck['ext'];
                 }
-                $code = replace_define($code, 'SITE_NAME', $newSiteName);
-                $code = replace_define($code, 'SITE_DESCRIPTION', $newDescription);
-                $code = replace_define($code, 'BROWSER_TITLE', $newBrowserTitle);
-                $code = replace_define_bool($code, 'MEMORIAL_ENABLED', $newMemorialEnabled);
-                $code = replace_define($code, 'MEMORIAL_TITLE', $newMemorialTitle);
-                $code = replace_define($code, 'MEMORIAL_DUA', $newMemorialDua);
-                $code = replace_define($code, 'COLOR_SCHEME', $newColorScheme);
-                $code = replace_define($code, 'SOCIAL_SHARE_IMAGE', $socialImageRelative);
-                $code = replace_define($code, 'ADMIN_EMAIL', $newAdminEmail);
-                $code = replace_define($code, 'CONTACT_EMAIL', $newContactEmail);
-                $code = replace_define($code, 'MAIL_FROM_EMAIL', $newMailFromEmail);
 
-                $socialImageSaved = true;
+                $newValues = [
+                    'SITE_NAME' => $newSiteName,
+                    'SITE_DESCRIPTION' => $newDescription,
+                    'BROWSER_TITLE' => $newBrowserTitle,
+                    'MEMORIAL_ENABLED' => $newMemorialEnabled,
+                    'MEMORIAL_TITLE' => $newMemorialTitle,
+                    'MEMORIAL_DUA' => $newMemorialDua,
+                    'HARAM_LIVE_VIDEO' => $newHaramVideo,
+                    'COLOR_SCHEME' => $newColorScheme,
+                    'SOCIAL_SHARE_IMAGE' => $socialImageRelative,
+                    'ADMIN_EMAIL' => $newAdminEmail,
+                    'CONTACT_EMAIL' => $newContactEmail,
+                    'MAIL_FROM_EMAIL' => $newMailFromEmail,
+                ];
 
-                if ($socialImageCheck['uploaded']) {
-                    $socialDir = __DIR__ . '/style/default/images';
+                $code = $originalCode;
+                foreach ($newValues as $name => $value) {
+                    $code = qfa_config_set($code, $name, $value);
+                }
+
+                if (!qfa_config_parses($code)) {
+                    $error = 'تعذر حفظ الإعدادات: القيم المدخلة تحتوي على رموز غير مسموحة.';
+                }
+
+                /*
+                 * The new image is stored next to the old one first; old images
+                 * are removed only once the config pointing at the new file has
+                 * been committed, so a failed save never leaves the site without
+                 * its share image.
+                 */
+                $socialDir = __DIR__ . '/style/default/images';
+                $socialTarget = '';
+                $socialUploadTmp = '';
+
+                if ($error === '' && $socialImageCheck['uploaded']) {
                     $socialTarget = $socialDir . '/social-share.' . $socialImageCheck['ext'];
 
                     if (!is_dir($socialDir) || !is_writable($socialDir)) {
-                        $socialImageSaved = false;
+                        $error = 'تعذر حفظ صورة المشاركة الجديدة.';
                     } else {
-                        $uploadTmp = $socialTarget . '.upload-' . bin2hex(random_bytes(5));
+                        $socialUploadTmp = $socialTarget . '.upload-' . bin2hex(random_bytes(5));
 
-                        $socialImageSaved = @move_uploaded_file(
-                            (string)($_FILES['social_share_image']['tmp_name'] ?? ''),
-                            $uploadTmp
-                        );
-
-                        if ($socialImageSaved) {
-                            @chmod($uploadTmp, 0644);
-
-                            if (!@rename($uploadTmp, $socialTarget)) {
-                                @unlink($uploadTmp);
-                                $socialImageSaved = false;
-                            } else {
-                                foreach (glob($socialDir . '/social-share.*') ?: [] as $oldSocialImage) {
-                                    if ($oldSocialImage !== $socialTarget) {
-                                        @unlink($oldSocialImage);
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-
-                if (!$socialImageSaved) {
-                    $error = 'تعذر حفظ صورة المشاركة الجديدة.';
-                }
-
-                if ($error !== '') {
-                    // Do not modify config.php when the image operation failed.
-                } else {
-
-                $tmp = $configFile . '.tmp-' . bin2hex(random_bytes(5));
-
-                if (@file_put_contents($tmp, $code, LOCK_EX) === false) {
-                    $error = 'تعذر حفظ الإعدادات الجديدة.';
-                } else {
-                    @chmod($tmp, 0640);
-
-                    if (!@rename($tmp, $configFile)) {
-                        @unlink($tmp);
-                        $error = 'تعذر اعتماد الإعدادات الجديدة.';
-                    } else {
-                        clearstatcache(true, $configFile);
-                        $verify = (string)@file_get_contents($configFile);
-
-                        $checks = [
-                            "define('SITE_NAME', " . var_export($newSiteName, true) . ");",
-                            "define('SITE_DESCRIPTION', " . var_export($newDescription, true) . ");",
-                            "define('BROWSER_TITLE', " . var_export($newBrowserTitle, true) . ");",
-                            "define('MEMORIAL_ENABLED', " . ($newMemorialEnabled ? 'true' : 'false') . ");",
-                            "define('MEMORIAL_TITLE', " . var_export($newMemorialTitle, true) . ");",
-                            "define('MEMORIAL_DUA', " . var_export($newMemorialDua, true) . ");",
-                            "define('COLOR_SCHEME', " . var_export($newColorScheme, true) . ");",
-                            "define('SOCIAL_SHARE_IMAGE', " . var_export($socialImageRelative, true) . ");",
-                            "define('ADMIN_EMAIL', " . var_export($newAdminEmail, true) . ");",
-                            "define('CONTACT_EMAIL', " . var_export($newContactEmail, true) . ");",
-                            "define('MAIL_FROM_EMAIL', " . var_export($newMailFromEmail, true) . ");",
-                        ];
-
-                        $verified = true;
-                        foreach ($checks as $check) {
-                            if (strpos($verify, $check) === false) {
-                                $verified = false;
-                                break;
-                            }
-                        }
-
-                        if (!$verified) {
-                            $error = 'تعذر التحقق من حفظ الإعدادات. حاول مرة أخرى.';
+                        if (!@move_uploaded_file((string)($_FILES['social_share_image']['tmp_name'] ?? ''), $socialUploadTmp)) {
+                            $socialUploadTmp = '';
+                            $error = 'تعذر حفظ صورة المشاركة الجديدة.';
                         } else {
-                            $authNeedsUpdate =
-                                $oldAdminEmail !== $newAdminEmail ||
-                                $passwordChangeRequested;
-
-                            if ($authNeedsUpdate) {
-                                $authData = qfa_auth_read();
-                                $authData['email'] = $newAdminEmail;
-
-                                if ($passwordChangeRequested) {
-                                    $authData['password_hash'] = password_hash(
-                                        $newPassword,
-                                        PASSWORD_DEFAULT
-                                    );
-                                }
-
-                                if (!qfa_auth_write($authData)) {
-                                    $rollbackTmp = $configFile . '.rollback-' . bin2hex(random_bytes(5));
-
-                                    if (@file_put_contents($rollbackTmp, $currentConfig, LOCK_EX) !== false) {
-                                        @chmod($rollbackTmp, 0640);
-
-                                        if (!@rename($rollbackTmp, $configFile)) {
-                                            @unlink($rollbackTmp);
-                                        }
-                                    }
-
-                                    $error = 'تعذر مزامنة بيانات المدير، وتمت محاولة استعادة الإعدادات السابقة.';
-                                }
-                            }
-
-                            if ($error === '') {
-                                $_SESSION['qfa_settings_changes'] = $changes;
-                                header('Location: admin-settings.php?saved=1&t=' . time(), true, 303);
-                                exit;
-                            }
+                            @chmod($socialUploadTmp, 0644);
                         }
                     }
                 }
+
+                $previousImage = '';
+                if ($error === '' && $socialUploadTmp !== '') {
+                    // Keep whatever currently sits at the target name so it can be
+                    // put back if the config commit fails.
+                    if (is_file($socialTarget)) {
+                        $previousImage = $socialTarget . '.previous-' . bin2hex(random_bytes(5));
+                        if (!@rename($socialTarget, $previousImage)) {
+                            $previousImage = '';
+                        }
+                    }
+                    if (!@rename($socialUploadTmp, $socialTarget)) {
+                        @unlink($socialUploadTmp);
+                        if ($previousImage !== '') {
+                            @rename($previousImage, $socialTarget);
+                        }
+                        $error = 'تعذر حفظ صورة المشاركة الجديدة.';
+                    }
+                }
+
+                if ($error === '' && !qfa_config_commit($configFile, $code, $newValues)) {
+                    $error = 'تعذر حفظ الإعدادات الجديدة، ولم يتغير شيء في الموقع.';
+                    // The live file may have been replaced before verification failed.
+                    qfa_config_commit($configFile, $originalCode, []);
+                    if ($socialUploadTmp !== '') {
+                        @unlink($socialTarget);
+                        if ($previousImage !== '') {
+                            @rename($previousImage, $socialTarget);
+                        }
+                    }
+                }
+
+                if ($error === '') {
+                    $authNeedsUpdate =
+                        $oldAdminEmail !== $newAdminEmail ||
+                        $passwordChangeRequested;
+
+                    if ($authNeedsUpdate) {
+                        $newAuthData = null;
+                        $authSaved = qfa_auth_update(static function (array $authData) use ($newAdminEmail, $passwordChangeRequested, $newPassword, &$newAuthData) {
+                            $authData['email'] = $newAdminEmail;
+
+                            if ($passwordChangeRequested) {
+                                $authData['password_hash'] = password_hash($newPassword, PASSWORD_DEFAULT);
+                                // Sign out every other session that used the old password.
+                                $authData['session_epoch'] = qfa_auth_epoch($authData) + 1;
+                            }
+
+                            $newAuthData = $authData;
+                            return $authData;
+                        });
+
+                        if (!$authSaved) {
+                            qfa_config_commit($configFile, $originalCode, []);
+                            if ($socialUploadTmp !== '') {
+                                @unlink($socialTarget);
+                                if ($previousImage !== '') {
+                                    @rename($previousImage, $socialTarget);
+                                }
+                            }
+                            $error = 'تعذر مزامنة بيانات المدير، وتمت استعادة الإعدادات السابقة.';
+                        } elseif ($passwordChangeRequested && is_array($newAuthData)) {
+                            // This session made the change, so it stays signed in.
+                            session_regenerate_id(true);
+                            $_SESSION['qfa_epoch'] = qfa_auth_epoch($newAuthData);
+                        }
+                    }
+                }
+
+                if ($error === '') {
+                    if ($previousImage !== '') {
+                        @unlink($previousImage);
+                    }
+                    if ($socialUploadTmp !== '') {
+                        foreach (glob($socialDir . '/social-share.*') ?: [] as $oldSocialImage) {
+                            if ($oldSocialImage !== $socialTarget && preg_match('~/social-share\.(jpg|jpeg|png|webp)$~', $oldSocialImage)) {
+                                @unlink($oldSocialImage);
+                            }
+                        }
+                    }
+
+                    $_SESSION['qfa_settings_changes'] = $changes;
+                    header('Location: admin-settings.php?saved=1&t=' . time(), true, 303);
+                    exit;
                 }
             }
         }
@@ -340,10 +345,11 @@ $browserTitle = defined('BROWSER_TITLE') ? (string)BROWSER_TITLE : '';
 $memorialEnabled = defined('MEMORIAL_ENABLED') ? (bool)MEMORIAL_ENABLED : false;
 $memorialTitle = defined('MEMORIAL_TITLE') ? (string)MEMORIAL_TITLE : '';
 $memorialDua = defined('MEMORIAL_DUA') ? (string)MEMORIAL_DUA : '';
+$haramVideo = defined('HARAM_LIVE_VIDEO') ? (string)HARAM_LIVE_VIDEO : '';
 $colorScheme = defined('COLOR_SCHEME') ? (string)COLOR_SCHEME : 'emerald';
 $socialShareImage = defined('SOCIAL_SHARE_IMAGE') && SOCIAL_SHARE_IMAGE !== ''
     ? (string)SOCIAL_SHARE_IMAGE
-    : 'images/og.png';
+    : 'images/social-share-default.jpg';
 $socialShareUrl = 'style/default/' . ltrim($socialShareImage, '/');
 $adminEmail = defined('ADMIN_EMAIL') ? (string)ADMIN_EMAIL : '';
 $contactEmail = defined('CONTACT_EMAIL') ? (string)CONTACT_EMAIL : '';
@@ -358,7 +364,11 @@ if (preg_match("~define\\('SITE_DESCRIPTION',\\s*'([^']*)'\\);~u", $currentConfi
 }
 
 if (preg_match("~define\\('COLOR_SCHEME',\\s*'([^']*)'\\);~u", $currentConfig, $m)) {
-    if (in_array($m[1], ['emerald', 'navy', 'burgundy'], true)) {
+    // The TOA Digital scheme was retired in v1.2.0; sites that used it now show "Mushaf".
+    if ($m[1] === 'toa') {
+        $m[1] = 'mushaf';
+    }
+    if (in_array($m[1], ['emerald', 'navy', 'burgundy', 'mushaf'], true)) {
         $colorScheme = $m[1];
     }
 }
@@ -450,6 +460,21 @@ $content = '
         <label>
           الدعاء المختصر
           <input type="text" name="memorial_dua" maxlength="180" value="'.e($memorialDua).'">
+        </label>
+      </section>
+
+      <section class="settings-panel">
+        <div class="panel-head">
+          <span class="panel-icon">▶</span>
+          <div>
+            <h2>البث المباشر من الحرم</h2>
+            <p>فيديو يوتيوب يظهر في الصفحة الرئيسية. اتركه فارغًا لإخفاء القسم.</p>
+          </div>
+        </div>
+
+        <label>
+          رابط الفيديو على يوتيوب
+          <input type="text" name="haram_live_video" dir="ltr" maxlength="200" placeholder="https://www.youtube.com/watch?v=..." value="'.e($haramVideo !== '' ? 'https://www.youtube.com/watch?v='.$haramVideo : '').'">
         </label>
       </section>
 
@@ -583,6 +608,18 @@ $content = '
             </span>
           </label>
 
+          <label class="theme-choice">
+            <input type="radio" name="color_scheme" value="mushaf" '.($colorScheme === 'mushaf' ? 'checked' : '').'>
+            <span class="theme-card">
+              <i class="theme-preview mushaf-preview"></i>
+              <span class="theme-text">
+                <b>مصحف</b>
+                <small>ورق دافئ للقراءة نهارًا، وفحمي هادئ ليلًا</small>
+              </span>
+              <i class="theme-check">✓</i>
+            </span>
+          </label>
+
         </div>
       </section>
 
@@ -598,370 +635,7 @@ $content = '
 
 <script src="style/default/js/admin-settings.js?v=1.0"></script>
 
-<style>
-.settings-page{
-  width:min(1180px,calc(100vw - 32px));
-  max-width:none;
-}
-
-.settings-head{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:16px;
-  margin-bottom:20px;
-}
-
-.settings-head h1{
-  margin:0 0 6px;
-}
-
-.settings-page form{
-  display:block;
-  margin-top:18px;
-}
-
-.settings-grid{
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:18px;
-}
-
-.settings-panel{
-  display:grid;
-  align-content:start;
-  gap:16px;
-  padding:20px;
-  border:1px solid #dbe7e3;
-  border-radius:16px;
-  background:#fff;
-}
-
-.settings-panel-wide{
-  grid-column:1/-1;
-}
-
-.panel-head{
-  display:flex;
-  align-items:center;
-  gap:12px;
-  padding-bottom:14px;
-  border-bottom:1px solid #e7efec;
-}
-
-.panel-head h2{
-  margin:0 0 4px;
-  font-size:19px;
-}
-
-.panel-head p{
-  margin:0;
-  color:#7c8c86;
-  font-size:12px;
-}
-
-.panel-icon{
-  display:grid;
-  place-items:center;
-  width:42px;
-  height:42px;
-  border-radius:12px;
-  background:#edf7f3;
-  color:#0c6654;
-  font-size:20px;
-  font-weight:800;
-  flex:0 0 42px;
-}
-
-.settings-panel label{
-  display:grid;
-  gap:7px;
-  font-weight:700;
-}
-
-.settings-panel input,
-.settings-panel textarea{
-  width:100%;
-  padding:12px;
-  border:1px solid #ccdcd6;
-  border-radius:10px;
-  font:inherit;
-}
-
-.settings-panel textarea{
-  min-height:110px;
-  resize:vertical;
-}
-
-.settings-check{
-  display:flex!important;
-  align-items:center;
-  gap:10px!important;
-  min-height:44px;
-}
-
-.settings-check input{
-  width:auto!important;
-  margin:0;
-}
-
-.theme-options{
-  display:grid;
-  grid-template-columns:repeat(3,minmax(0,1fr));
-  gap:12px;
-}
-
-.theme-choice{
-  display:block!important;
-  position:relative;
-  cursor:pointer;
-}
-
-.theme-choice input{
-  position:absolute;
-  opacity:0;
-  pointer-events:none;
-}
-
-.theme-card{
-  display:flex!important;
-  align-items:center;
-  gap:12px;
-  min-height:72px;
-  padding:12px 14px;
-  border:2px solid #d7e4df;
-  border-radius:14px;
-  background:#fff;
-}
-
-.theme-choice input:checked + .theme-card{
-  border-color:#0c7763;
-  box-shadow:0 0 0 3px rgba(12,119,99,.10);
-}
-
-.theme-preview{
-  display:block;
-  width:68px;
-  height:38px;
-  border-radius:9px;
-  flex:0 0 68px;
-}
-
-.emerald-preview{background:linear-gradient(135deg,#0c4f42,#0c7763)}
-.navy-preview{background:linear-gradient(135deg,#173b5f,#245f91)}
-.burgundy-preview{background:linear-gradient(135deg,#6b3141,#914b61)}
-
-.theme-text{
-  display:flex;
-  flex-direction:column;
-  gap:4px;
-  flex:1;
-}
-
-.theme-text small{
-  color:#7b8b85;
-}
-
-.theme-check{
-  display:none;
-  width:28px;
-  height:28px;
-  border-radius:50%;
-  align-items:center;
-  justify-content:center;
-  background:#0c7763;
-  color:#fff;
-  font-style:normal;
-  font-weight:800;
-}
-
-.theme-choice input:checked + .theme-card .theme-check{
-  display:flex;
-}
-
-.settings-actions{
-  display:flex;
-  align-items:center;
-  gap:14px;
-  margin-top:20px;
-}
-
-.settings-actions button{
-  min-width:190px;
-}
-
-.settings-error,.settings-success{
-  margin:15px 0;
-  padding:12px;
-  border-radius:10px;
-}
-
-.settings-error{background:#fff0ef;color:#a43d34}
-.settings-success{background:#edf8f3;color:#17684f}
-
-html[data-theme="dark"] .settings-panel,
-html[data-theme="dark"] .theme-card{
-  background:#16211e;
-  border-color:#2a3934;
-}
-
-html[data-theme="dark"] .panel-head{
-  border-color:#2a3934;
-}
-
-
-.social-image-layout{
-  display:grid;
-  grid-template-columns:minmax(260px,360px) 1fr;
-  gap:20px;
-  align-items:center;
-}
-
-.social-image-preview{
-  overflow:hidden;
-  border:1px solid #dbe7e3;
-  border-radius:14px;
-  background:#f5f8f7;
-  aspect-ratio:1200/630;
-}
-
-.social-image-preview img{
-  display:block;
-  width:100%;
-  height:100%;
-  object-fit:cover;
-}
-
-.social-image-controls{
-  display:grid;
-  gap:10px;
-}
-
-.social-image-controls small{
-  color:#7c8c86;
-}
-
-html[data-theme="dark"] .social-image-preview{
-  background:#16211e;
-  border-color:#2a3934;
-}
-
-
-.settings-modal-backdrop{
-  position:fixed;
-  inset:0;
-  z-index:99999;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:20px;
-  background:rgba(9,25,20,.58);
-  backdrop-filter:blur(4px);
-}
-
-.settings-modal{
-  width:min(480px,100%);
-  padding:28px;
-  border-radius:20px;
-  background:#fff;
-  box-shadow:0 24px 70px rgba(0,0,0,.22);
-  text-align:center;
-  animation:settingsModalIn .22s ease-out;
-}
-
-.settings-modal-check{
-  display:grid;
-  place-items:center;
-  width:58px;
-  height:58px;
-  margin:0 auto 14px;
-  border-radius:50%;
-  background:#e9f7f1;
-  color:#0c7763;
-  font-size:30px;
-  font-weight:900;
-}
-
-.settings-modal h2{
-  margin:0 0 8px;
-  font-size:21px;
-}
-
-.settings-modal p{
-  margin:0 0 12px;
-  color:#71817b;
-}
-
-.settings-modal ul{
-  margin:0 0 20px;
-  padding:0;
-  list-style:none;
-  text-align:right;
-}
-
-.settings-modal li{
-  padding:9px 0;
-  border-bottom:1px solid #edf1ef;
-}
-
-.settings-modal li:last-child{
-  border-bottom:0;
-}
-
-.settings-modal button{
-  min-width:130px;
-}
-
-.settings-modal-backdrop.is-closing{
-  opacity:0;
-  transition:opacity .2s ease;
-}
-
-html[data-theme="dark"] .settings-modal{
-  background:#16211e;
-}
-
-html[data-theme="dark"] .settings-modal li{
-  border-color:#2a3934;
-}
-
-@keyframes settingsModalIn{
-  from{opacity:0;transform:translateY(8px) scale(.98)}
-  to{opacity:1;transform:none}
-}
-
-@media(max-width:800px){
-  .settings-page{
-    width:min(100%,calc(100vw - 20px));
-  }
-
-  .settings-grid{
-    grid-template-columns:1fr;
-  }
-
-  .settings-panel-wide{
-    grid-column:auto;
-  }
-
-  .theme-options{
-    grid-template-columns:1fr;
-  }
-
-  .social-image-layout{
-    grid-template-columns:1fr;
-  }
-
-  .settings-actions{
-    flex-direction:column;
-    align-items:stretch;
-  }
-
-  .settings-actions button{
-    width:100%;
-  }
-}
-
-
+<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.2">
 ';
 
 qfa_auth_page('إعدادات الموقع', $content);
