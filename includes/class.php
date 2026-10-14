@@ -4202,6 +4202,23 @@ class QuranForAll extends QuranForAll_API {
 				return true;
 			}
 		}
+		// A posted form can override query values through $_REQUEST while the
+		// cache name is built from the query string, which would store one
+		// surah's page under another surah's address. Posts are never cached.
+		if( (isset($_SERVER['REQUEST_METHOD']) && $_SERVER['REQUEST_METHOD'] !== 'GET' && $_SERVER['REQUEST_METHOD'] !== 'HEAD') || !empty($_POST) ){
+			return true;
+		}
+		// Surah, ayah and tafseer numbers outside their real range are clamped
+		// when rendered, so caching them would only add duplicate files.
+		foreach( array('surah' => 114, 'ayah' => 286, 'type' => 100) as $key => $max ){
+			if( isset($_GET[$key]) && ( !is_scalar($_GET[$key]) || intval($_GET[$key]) < 1 || intval($_GET[$key]) > $max ) ){
+				return true;
+			}
+		}
+		// No cached page is paginated; page numbers only change the title.
+		if( isset($_GET['page']) && intval($_GET['page']) > 1 ){
+			return true;
+		}
 		return false;
 	}
 

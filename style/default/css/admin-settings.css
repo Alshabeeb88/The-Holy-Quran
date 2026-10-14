@@ -360,3 +360,29 @@ html[data-theme="dark"] .settings-modal li{
     width:100%;
   }
 }
+
+/* V1.2.1 footer links shown as buttons */
+.settings-actions{flex-wrap:wrap}
+.settings-actions a{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:46px;
+  padding:0 20px;
+  border:1px solid var(--border);
+  border-radius:12px;
+  background:var(--bg);
+  color:var(--green);
+  font-weight:700;
+  font-size:13px;
+  font-family:var(--qfa-font-ar,Tahoma,sans-serif);
+  text-decoration:none;
+  transition:background .15s,border-color .15s;
+}
+.settings-actions a:hover{border-color:var(--green)}
+.settings-actions a.settings-logout{background:#fff0ef;border-color:#f1c9c5;color:#a43d34}
+.settings-actions a.settings-logout:hover{border-color:#a43d34}
+html[data-theme="dark"] .settings-actions a.settings-logout{background:#321d19;border-color:#673a34;color:#ffb3a9}
+@media(max-width:640px){
+  .settings-actions a{width:100%}
+}
