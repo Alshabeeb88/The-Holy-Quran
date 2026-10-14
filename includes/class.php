@@ -629,12 +629,15 @@ class QuranForAll extends QuranForAll_API {
 		$is_home = ($action === 'home' && !isset($_GET['surah']) && !isset($_GET['reader_id']) && !isset($_GET['f']) && !isset($_GET['t']));
 		$page_class = $is_home ? 'home-page' : 'internal-page';
 		$allowed_appearance_styles = array('modern');
-		$allowed_color_schemes = array('emerald', 'navy', 'burgundy');
+		$allowed_color_schemes = array('emerald', 'navy', 'burgundy', 'toa');
 		$appearance_style = defined('APPEARANCE_STYLE') ? (string) APPEARANCE_STYLE : 'modern';
 		$color_scheme = defined('COLOR_SCHEME') ? (string) COLOR_SCHEME : 'emerald';
 		if( !in_array($appearance_style, $allowed_appearance_styles, true) ) $appearance_style = 'modern';
 		if( !in_array($color_scheme, $allowed_color_schemes, true) ) $color_scheme = 'emerald';
 		$page_class .= ' appearance-'.$appearance_style.' color-'.$color_scheme;
+		if( !( $this->is_rtl() == true || $this->is_rtl == true ) ){
+			$page_class .= ' qfa-ltr';
+		}
 		if( $action === 'morning_adhkar' ){
 			$page_class .= ' morning-adhkar-page-body';
 		}
@@ -656,25 +659,28 @@ class QuranForAll extends QuranForAll_API {
 		$headercode = '';
 		if( $this->is_rtl() == true || $this->is_rtl == true ){
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/bootstrap.rtl.min.css?v=5.1">'."\n";
-			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=58.7">'."\n";
-			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/rtl.css?v='.$this->version.'">'."\n";
+			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=58.8">'."\n";
+			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/rtl.css?v=5.2">'."\n";
 		}else{
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/bootstrap.min.css?v=5.1">'."\n";
-			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=58.7">'."\n";
+			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=58.8">'."\n";
 		}
 		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/all.min.css?v=5.15.4">'."\n";
 		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/hover-min.css?v=2.3.2">'."\n";
+		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/brand-fonts.css?v=1.0">'."\n";
 
 		$headercode .= $this->get_hreflang( $this->get_language() );
 
                 $this->footercode .= '<script src="'.$this->get_theme_folder_url().'/js/qfa-navigation.js?v=1.0" defer></script>';
 
+		// Maintainer credit: the TOA Digital symbol (white + gold, for the dark footer) at text size.
+		$toa_credit = '<span class="toa-credit"><img class="toa-mark" src="'.$this->get_theme_folder_url().'/images/toa-symbol.svg" alt="TOA Digital" width="31" height="16">© TOA Digital</span>';
 		if( $this->get_language() === 'ar' ){
 		        $release_version = is_file(dirname(__DIR__).'/VERSION') ? trim((string)file_get_contents(dirname(__DIR__).'/VERSION')) : $this->get_version();
-		        $copyright = 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: تركي الشبيب | استخدام مجاني غير تجاري | V'.$release_version;
+		        $copyright = 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: تركي الشبيب | '.$toa_credit.' | استخدام مجاني غير تجاري | V'.$release_version;
 		}else{
 		        $release_version = is_file(dirname(__DIR__).'/VERSION') ? trim((string)file_get_contents(dirname(__DIR__).'/VERSION')) : $this->get_version();
-		        $copyright = 'Original Developer: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">Ahmed Al-Anazi</a> | Enhanced and maintained by: Turki Alshabeeb | Free for noncommercial use | V'.$release_version;
+		        $copyright = 'Original Developer: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">Ahmed Al-Anazi</a> | Enhanced and maintained by: Turki Alshabeeb | '.$toa_credit.' | Free for noncommercial use | V'.$release_version;
 		}
 
 		//$clean = str_replace(array('"', "'", "-", "_", ".", "]", "[", "(", ")", "{", "}", "`", "!", ",", "|", "  ", ";"), array('', "", "", "", "", "", "", "", "", "", "", "", "", "", "", " ", ""), $this->title);
@@ -691,7 +697,7 @@ class QuranForAll extends QuranForAll_API {
 		}
 		$search  = array( '{title}', '{sitename}', '{description}','{style}', '{js}', '{bodycode}', '{footercode}', '{code}', '{nav}', '{copyright}', '{lang}', '{container-class}', '{site_url}', '{seo}', '{page-class}', '{admin-nav}', '{memorial-class}', '{memorial-title}', '{memorial-dua}' );
 		$replace = array( $title.$reader_name.$extra_title, $this->siteName, $description.$reader_name.$extra_title, $this->get_theme_folder_url(), $headercode.$this->headercode, $this->bodycode, $this->footercode, $this->headertext, $this->get_navbar(), $copyright.$this->copyright, $this->get_language(), $this->container_class, $site_url, $this->seo(), $page_class, $admin_nav, $memorial_enabled ? '' : ' memorial-bar-disabled', htmlspecialchars($memorial_title, ENT_QUOTES, 'UTF-8'), htmlspecialchars($memorial_dua, ENT_QUOTES, 'UTF-8') );
-		return str_replace($search, $replace, $text);
+		return qfa_strip_disabled_links( str_replace($search, $replace, $text) );
 	}
 
 	public function languages(){
@@ -1527,17 +1533,18 @@ class QuranForAll extends QuranForAll_API {
 	}
 
 	public function createfile($filename, $content){
-		if (!$handle = fopen($filename, 'w')) {
-			$text = '<div class="alert">Can not open this file ('.$filename.')</div>';
+		// Written to a temporary file and renamed, so a visitor never reads a
+		// half-written sitemap. A read-only folder used to end in a fatal error on
+		// PHP 8 (fwrite on false), which took the home page down with it.
+		$tmp = $filename.'.tmp-'.bin2hex(random_bytes(4));
+		if( @file_put_contents($tmp, $content, LOCK_EX) === false ){
+			return false;
 		}
-
-		if (fwrite($handle, $content) === FALSE) {
-			$text = '<div class="alert">can not write on this file ('.$filename.')</div>';
+		if( !@rename($tmp, $filename) ){
+			@unlink($tmp);
+			return false;
 		}
-
-		$text = '<div class="alert">SiteMap is created<br /><a href="'.$filename.'">'.$filename.'</a></div>';
-		fclose($handle);
-		return $text;
+		return true;
 	}
 
 	public function xml_surah(){
@@ -1554,14 +1561,14 @@ class QuranForAll extends QuranForAll_API {
 		$xml = '';
 		for($ix=1; $ix<=5; ++$ix){
 			$xml .= '<url>'."\n";
-			$xml .= '<loc>'.$this->url( array( 'action' => 'tafseer', 'type' => $ix ) ).'</loc>'."\n";
+			$xml .= '<loc>'.htmlspecialchars($this->url( array( 'action' => 'tafseer', 'type' => $ix ) ), ENT_XML1, 'UTF-8').'</loc>'."\n";
 			$xml .= '</url>'."\n";
 		}
 
 		for($iz=1; $iz<=5; ++$iz){
 			for($i2=1; $i2<=114; ++$i2){
 				$xml .= '<url>'."\n";
-				$xml .= '<loc>'.$this->url( array( 'action' => 'tafseer', 'type' => $iz, 'surah' => $i2 ) ).'</loc>'."\n";
+				$xml .= '<loc>'.htmlspecialchars($this->url( array( 'action' => 'tafseer', 'type' => $iz, 'surah' => $i2 ) ), ENT_XML1, 'UTF-8').'</loc>'."\n";
 				$xml .= '</url>'."\n";
 			}
 		}
@@ -1570,7 +1577,7 @@ class QuranForAll extends QuranForAll_API {
 			for($i2=1; $i2<=114; ++$i2){
 				for($i3=1; $i3<=$this->aya_count[$i2]; ++$i3){
 					$xml .= '<url>'."\n";
-					$xml .= '<loc>'.$this->url( array( 'action' => 'tafseer', 'type' => $i, 'surah' => $i2, 'ayah' => $i3 ) ).'</loc>'."\n";
+					$xml .= '<loc>'.htmlspecialchars($this->url( array( 'action' => 'tafseer', 'type' => $i, 'surah' => $i2, 'ayah' => $i3 ) ), ENT_XML1, 'UTF-8').'</loc>'."\n";
 					$xml .= '</url>'."\n";
 				}
 			}
@@ -1600,7 +1607,7 @@ class QuranForAll extends QuranForAll_API {
 				if($key != "ar"){
 					if( !empty($t_url) && $t_url != "index.html" ){
 						$xml .= '<url>'."\n";
-						$xml .= '<loc>'.$this->url( array( 'action' => 'translate', 'l' => $getkey ) ).'</loc>'."\n";
+						$xml .= '<loc>'.htmlspecialchars($this->url( array( 'action' => 'translate', 'l' => $getkey ) ), ENT_XML1, 'UTF-8').'</loc>'."\n";
 						$xml .= '</url>'."\n";
 					}
 				}
@@ -1622,7 +1629,7 @@ class QuranForAll extends QuranForAll_API {
 				if($keys != 'ar'){
 					for($i2=1; $i2<=114; ++$i2){
 						$xml .= '<url>'."\n";
-						$xml .= '<loc>'.$this->url( array( 'action' => 'translate', 'l' => $getkey, 'surah' => $i2 ) ).'</loc>'."\n";
+						$xml .= '<loc>'.htmlspecialchars($this->url( array( 'action' => 'translate', 'l' => $getkey, 'surah' => $i2 ) ), ENT_XML1, 'UTF-8').'</loc>'."\n";
 						$xml .= '</url>'."\n";
 					}
 				}
@@ -1639,7 +1646,7 @@ class QuranForAll extends QuranForAll_API {
 		      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
 		            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 		<url>
-		  <loc>'.$this->siteurl.'</loc>
+		  <loc>'.htmlspecialchars($this->siteurl, ENT_XML1, 'UTF-8').'</loc>
 		</url>'."\n";
 		$xml .= $code;
 		$xml .= '</urlset>';
@@ -1653,14 +1660,20 @@ class QuranForAll extends QuranForAll_API {
 		$sitemap_tafseer = 'sitemap-tafseer.xml';
 		$sitemap_language = 'sitemap-language.xml';
 
-		if( !file_exists($path.'/'.$sitemap_surah) ){
-			$this->createfile($path.'/'.$sitemap_surah, $this->xml_body($this->xml_surah()));
+		// Sitemaps were written once and never refreshed. They are now rebuilt
+		// when missing or older than a week, and left out (as an empty urlset)
+		// while their section is switched off in the control panel.
+		$stale = function( $file ){
+			return !file_exists($file) || ( time() - (int)@filemtime($file) ) > 604800;
+		};
+		if( $stale($path.'/'.$sitemap_surah) ){
+			$this->createfile($path.'/'.$sitemap_surah, $this->xml_body( qfa_page_enabled('quran') ? $this->xml_surah() : '' ));
 		}
-		if( !file_exists($path.'/'.$sitemap_tafseer) ){
-			$this->createfile($path.'/'.$sitemap_tafseer, $this->xml_body($this->xml_tafseer()));
+		if( $stale($path.'/'.$sitemap_tafseer) ){
+			$this->createfile($path.'/'.$sitemap_tafseer, $this->xml_body( qfa_page_enabled('tafseer') ? $this->xml_tafseer() : '' ));
 		}
-		if( !file_exists($path.'/'.$sitemap_language) ){
-			$this->createfile($path.'/'.$sitemap_language, $this->xml_body($this->xml_language()));
+		if( $stale($path.'/'.$sitemap_language) ){
+			$this->createfile($path.'/'.$sitemap_language, $this->xml_body( qfa_page_enabled('translations') ? $this->xml_language() : '' ));
 		}
 	}
 
@@ -2449,7 +2462,7 @@ class QuranForAll extends QuranForAll_API {
 	public function quran(){
 		$this->hide_breadcrumb = false;
 		$json_surah = $this->surah_name();
-		if( !isset($json['error']) && isset($json_surah['data']) && count($json_surah['data']) > 0 ){
+		if( !isset($json_surah['error']) && isset($json_surah['data']) && count($json_surah['data']) > 0 ){
 			$language_id = ( isset($json_surah['language_id']) ? $json_surah['language_id'] : '' );
 			$language_name = ( isset($json_surah['language_name']) ? $json_surah['language_name'] : '' );
 			$language_name_ar = ( isset($json_surah['language_name_ar']) ? $json_surah['language_name_ar'] : '' );
@@ -2518,6 +2531,8 @@ class QuranForAll extends QuranForAll_API {
 		$row = ( isset($_GET['row']) ? intval($_GET['row']) : 0 );
 
 		if($surah_id > 114){ $surah_id = 114; }
+		if($surah_id < 1){ $surah_id = 1; }
+		$readers_form = '';
 
 		if( $this->allw_readerform ){
 			$readers_form = $this->home_readers_form($surah_id, 0, $reader_id, 1);
@@ -3125,7 +3140,7 @@ class QuranForAll extends QuranForAll_API {
 
 						$categories .= '<tr>';
 						$categories .= '<th scope="row">'.$i.'</th>';
-						$categories .= '<td class="categories"><a href="'.$category_url.'">'.$category_name.'<a/></td>';
+						$categories .= '<td class="categories"><a href="'.$category_url.'">'.$category_name.'</a></td>';
 						$categories .= '<td>'.$category_count.'</td>';
 						$categories .= '</tr>';
 					}
@@ -3171,7 +3186,7 @@ class QuranForAll extends QuranForAll_API {
 			$url = ( isset($json['url']) ? $json['url'] : '' );
 			$flag = ( isset($json['flag']) ? $json['flag'] : '' );
 			$locale = ( isset($json['locale']) ? $json['locale'] : '' );
-			$books_count = ( isset($json['books_count']) ? $json['books_count'] : 0 );
+			$books_count = ( isset($json['books_count']) ? (int)$json['books_count'] : 0 );
 			$books_data = ( isset($json['books_data']) ? $json['books_data'] : '' );
 
 			$this->book_parent = $language_name;
@@ -3308,7 +3323,7 @@ class QuranForAll extends QuranForAll_API {
 
 						$categories .= '<tr>';
 						$categories .= '<th scope="row">'.$i.'</th>';
-						$categories .= '<td class="categories"><a href="'.$category_url.'">'.$category_name.'<a/></td>';
+						$categories .= '<td class="categories"><a href="'.$category_url.'">'.$category_name.'</a></td>';
 						$categories .= '<td>'.$category_count.'</td>';
 						$categories .= '</tr>';
 					}
@@ -3352,7 +3367,7 @@ class QuranForAll extends QuranForAll_API {
 			$id = ( isset($json['id']) ? $json['id'] : 0 );
 			$title = ( isset($json['title']) ? $json['title'] : '' );
 			$description = ( isset($json['category_description']) ? $json['category_description'] : '' );
-			$books_count = ( isset($json['books_count']) ? $json['books_count'] : 0 );
+			$books_count = ( isset($json['books_count']) ? (int)$json['books_count'] : 0 );
 			$books_data = ( isset($json['books_data']) ? $json['books_data'] : '' );
 			$parent_id = ( isset($json['parent_id']) ? $json['parent_id'] : '' );
 			$parent_key = ( isset($json['parent_key']) ? $json['parent_key'] : '' );
@@ -3867,6 +3882,17 @@ class QuranForAll extends QuranForAll_API {
 		return $html.$panel;
 	}
 
+	public function disabled_page(){
+		http_response_code(404);
+		header('X-Robots-Tag: noindex', true);
+		$this->title = 'الصفحة غير متاحة';
+		$this->description = $this->siteDescription;
+		$this->url = $this->siteurl;
+		$this->cache_allow_create = false;
+		$content = '<p>هذه الصفحة غير متاحة حاليًا.</p><p><a href="'.$this->siteurl.'/">العودة إلى الصفحة الرئيسية</a></p>';
+		return $this->Template_view_full( $this->tpl_content($this->title, $content) );
+	}
+
 	public function output(){
 		$action = ( isset($_GET['action']) ? $_GET['action'] : 'home' );
 		$surah_id = ( isset($_GET['surah']) && intval($_GET['surah']) != 0 && intval($_GET['surah']) < 115 ? intval($_GET['surah']) : 1 );
@@ -3878,9 +3904,15 @@ class QuranForAll extends QuranForAll_API {
 		$category_id = ( isset($_GET['category_id']) ? intval($_GET['category_id']) : 0 );
 		$page =  ( isset($_GET['page']) ? intval($_GET['page']) : 1 );
 
+		// A page switched off in the control panel answers 404 with a short notice.
+		$page_key = qfa_page_for_action( ($action == 'home' && isset($_GET['surah'])) ? 'surah' : (string)$action );
+		if( $page_key !== '' && !qfa_page_enabled($page_key) ){
+			return $this->disabled_page();
+		}
+
 		if( $action == 'translate' ){
 			if( $this->get_language() == 'ar' ){
-				$cfl = 'translate-ar.html';
+				$cfl = 'translate-ar'.$this->cache_variant().'.html';
 				if( $this->read_cache_file($cfl) == '' ){
 					$output = $this->Template_view_full( $this->tpl_content(word('select_surah'), $this->quran()) );
 					$this->create_cache_file($cfl, $output);
@@ -3889,9 +3921,9 @@ class QuranForAll extends QuranForAll_API {
 				}
 			}else{
 				if( isset($_GET['surah']) ){
-					$cfl = 'translate-'.$lang.'-surah-'.$surah_id.'.html';
+					$cfl = 'translate-'.$lang.'-surah-'.$surah_id.$this->cache_variant().'.html';
 				}else{
-					$cfl = 'translate-'.$lang.'.html';
+					$cfl = 'translate-'.$lang.$this->cache_variant().'.html';
 				}
 				if( $this->read_cache_file($cfl) == '' ){
 					//word('select_language')
@@ -3904,11 +3936,11 @@ class QuranForAll extends QuranForAll_API {
 			}
 		}elseif( $action == 'tafseer' ){
 			if( isset($_GET['surah']) && isset($_REQUEST['ayah']) ){
-				$cfl = 'tafseer-'.$type.'-surah-'.$surah_id .'-ayah-'.$aya.'.html';
+				$cfl = 'tafseer-'.$type.'-surah-'.$surah_id .'-ayah-'.$aya.$this->cache_variant().'.html';
 			}elseif( isset($_GET['surah']) && !isset($_REQUEST['ayah']) ){
-				$cfl = 'tafseer-'.$type.'-surah-'.$surah_id .'.html';
+				$cfl = 'tafseer-'.$type.'-surah-'.$surah_id.$this->cache_variant().'.html';
 			}else{
-				$cfl = 'tafseer-'.$type.'.html';
+				$cfl = 'tafseer-'.$type.$this->cache_variant().'.html';
 			}
 			if( $this->read_cache_file($cfl) == '' ){
 				$tafseer = $this->tafseer();
@@ -3918,7 +3950,7 @@ class QuranForAll extends QuranForAll_API {
 				$output = $this->read_cache_file($cfl);
 			}
 		}elseif( $action == 'languages' ){
-			$cfl = 'languages.html';
+			$cfl = 'languages'.$this->cache_variant().'.html';
 			if( $this->read_cache_file($cfl) == '' ){
 				$output = $this->Template_view_full( $this->tpl_content(word('select_language'), $this->get_languages()) );
 				$this->create_cache_file($cfl, $output);
@@ -3929,7 +3961,7 @@ class QuranForAll extends QuranForAll_API {
 			$this->title = word('quran');
 			$this->description = word('quran');
 			$this->url = $this->url( array( 'action' => 'quran' ) );
-			$cfl = 'quran.html';
+			$cfl = 'quran'.$this->cache_variant().'.html';
 			if( $this->read_cache_file($cfl) == '' ){
 				$output = $this->Template_view_full( $this->tpl_content($this->title, $this->quran()) );
 				$this->create_cache_file($cfl, $output);
@@ -3937,7 +3969,7 @@ class QuranForAll extends QuranForAll_API {
 				$output = $this->read_cache_file($cfl);
 			}
 		}elseif( $action == 'home' && isset($_GET['surah']) ){
-			$cfl = 'surah-'.$surah_id.'.html';
+			$cfl = 'surah-'.$surah_id.$this->cache_variant().'.html';
 			if( $this->read_cache_file($cfl) == '' ){
 				$content = $this->home_view_surah();
 				$output = $this->Template_view_full( $this->tpl_content($this->body_title, $content ) );
@@ -3958,6 +3990,9 @@ class QuranForAll extends QuranForAll_API {
 		}elseif( $action == 'tasbeeh' ){
 			$output = $this->Template_view_full( $this->tasbeeh_page() );
 		}elseif( $action == 'sadaqah_agent' ){
+			// The studio is private. sadaqah-agent.php checks the session, but this
+			// action is also reachable through index.php, so check it here too.
+			qfa_auth_require();
 			$output = $this->Template_view_full( $this->sadaqah_agent_page() );
 		}elseif( $action == 'books' ){
 			// Books pages are rendered live so legacy cached English headers never leak in.
@@ -3980,6 +4015,10 @@ class QuranForAll extends QuranForAll_API {
 			$output = $this->Template_view_full( $this->home_page() );
 			$this->create_xml();
 		}
+
+		// Header and footer links to disabled pages are already gone; links in the
+		// page body are unwrapped so their text stays.
+		$output = qfa_strip_disabled_links($output, 'unwrap');
 
 		return $this->ensure_page_share($output, $action);
 	}
@@ -4132,7 +4171,50 @@ class QuranForAll extends QuranForAll_API {
 		return $code;
 	}
 
+	/*
+	 * Pages seen by a signed-in administrator carry the private admin shortcut,
+	 * so they are neither stored in nor served from the shared cache.
+	 */
+	private function cache_bypass(){
+		if( function_exists('qfa_auth_logged_in') && qfa_auth_logged_in() ){
+			return true;
+		}
+		// Every distinct query makes its own cache file, so only cache the
+		// variants a visitor can reach from the site's own links. Ayah ranges
+		// and out-of-range numbers are rendered live instead of filling the disk.
+		foreach( array('f', 't') as $key ){
+			if( isset($_GET[$key]) && intval($_GET[$key]) != 0 ){
+				return true;
+			}
+		}
+		foreach( array('reader_id' => 300, 'page' => 2000) as $key => $max ){
+			if( isset($_GET[$key]) && ( !is_scalar($_GET[$key]) || intval($_GET[$key]) < 0 || intval($_GET[$key]) > $max ) ){
+				return true;
+			}
+		}
+		return false;
+	}
+
+	/*
+	 * Cache-name suffix for the request parameters that change a page's
+	 * content. Names used to ignore the reader, the ayah range and the
+	 * language, so the first visitor's variant was served to everyone.
+	 */
+	private function cache_variant(){
+		$parts = array();
+		foreach( array('reader_id' => 'r', 'f' => 'f', 't' => 't', 'page' => 'p') as $key => $short ){
+			if( isset($_GET[$key]) && is_scalar($_GET[$key]) && intval($_GET[$key]) != 0 ){
+				$parts[] = $short.intval($_GET[$key]);
+			}
+		}
+		$parts[] = 'l'.preg_replace('/[^a-z_]/', '', (string)$this->get_language());
+		return '-'.implode('-', $parts);
+	}
+
 	public function create_cache_file($file_name='', $content='' ){
+		if( $this->cache_bypass() ){
+			return;
+		}
 		if( $this->cache_active && $this->cache_allow_create ){
 			$cache_folder = $this->cache_folder;
 			$get_file_name = $this->cache_file_path($file_name);
@@ -4206,6 +4288,9 @@ class QuranForAll extends QuranForAll_API {
 	}
 
 	public function read_cache_file($file_path=''){
+		if( $this->cache_bypass() ){
+			return '';
+		}
 		if( $this->expire_cache_file($file_path) ){
 			return '';
 		}
@@ -4247,18 +4332,8 @@ class QuranForAll extends QuranForAll_API {
 							return '';
 						}
 
-						if( trim($get_content) == "" ){
-							$get_file_name = '';
-						}else{
-							$get_file_name = $prefix.$get_content;
-						}
-						$handle = fopen($current_file, "r");
-						$contents = $this->cache_strip_guard(fread($handle, filesize($current_file)));
-						$get_file_name = ( trim($contents) == "" ? '' : $prefix.$contents );
-						fclose($handle);
-						if( $contents == '' ){
-							$get_file_name = 'file_get_contents functions are not available and fread function are not working.';
-						}
+						// An empty cache file is a miss: the page is rendered again.
+						$get_file_name = ( trim((string)$get_content) == "" ? '' : $prefix.$get_content );
 					}
     			}else{
     				$get_file_name = '';
