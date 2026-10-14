@@ -645,7 +645,7 @@ $content = '
 
 <script src="style/default/js/admin-settings.js?v=1.0"></script>
 
-<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.2">
+<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.3">
 ';
 
 qfa_auth_page('إعدادات الموقع', $content);
