@@ -677,10 +677,10 @@ class QuranForAll extends QuranForAll_API {
 		$toa_credit = '<span class="toa-credit"><img class="toa-mark" src="'.$this->get_theme_folder_url().'/images/toa-symbol.svg" alt="TOA Digital" width="31" height="16">© TOA Digital</span>';
 		if( $this->get_language() === 'ar' ){
 		        $release_version = is_file(dirname(__DIR__).'/VERSION') ? trim((string)file_get_contents(dirname(__DIR__).'/VERSION')) : $this->get_version();
-		        $copyright = 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: تركي الشبيب | '.$toa_credit.' | استخدام مجاني غير تجاري | V'.$release_version;
+		        $copyright = 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: تركي بن عبيد | '.$toa_credit.' | استخدام مجاني غير تجاري | V'.$release_version;
 		}else{
 		        $release_version = is_file(dirname(__DIR__).'/VERSION') ? trim((string)file_get_contents(dirname(__DIR__).'/VERSION')) : $this->get_version();
-		        $copyright = 'Original Developer: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">Ahmed Al-Anazi</a> | Enhanced and maintained by: Turki Alshabeeb | '.$toa_credit.' | Free for noncommercial use | V'.$release_version;
+		        $copyright = 'Original Developer: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">Ahmed Al-Anazi</a> | Enhanced and maintained by: Turki bin Obaid | '.$toa_credit.' | Free for noncommercial use | V'.$release_version;
 		}
 
 		//$clean = str_replace(array('"', "'", "-", "_", ".", "]", "[", "(", ")", "{", "}", "`", "!", ",", "|", "  ", ";"), array('', "", "", "", "", "", "", "", "", "", "", "", "", "", "", " ", ""), $this->title);

@@ -48,7 +48,7 @@ This project is based on the original **Quran for All** platform:
 
 The original project's website identifies **Ahmed Al-Anazi** as the owner/developer and credits development/supervision to **Nawahi Software and Ahmed Al-Anazi**.
 
-**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki Alshabeeb**
+**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki bin Obaid**
 
 Full credit for the original project, original source code, concept, and original architecture belongs to their respective original rights holders.
 
@@ -64,11 +64,11 @@ This enhanced edition is licensed under the **PolyForm Noncommercial License 1.0
 
 It may be used, run, modified and redistributed free of charge **for noncommercial purposes**, provided that the license notices and the following attribution are preserved:
 
-**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki Alshabeeb**
+**Original Developer: Ahmed Al-Anazi | Enhanced and maintained by: Turki bin Obaid**
 
 Anyone redistributing it must pass on the full license text and attribution notices to their recipients. **Commercial use** requires separate written permission from the rights holder.
 
-The original developer, Ahmed Al-Anazi, granted Turki Alshabeeb explicit written permission to develop, publish and dispose of the script. On that authority, Turki Alshabeeb chose to release this edition free of charge for noncommercial use while preserving all rights and attribution. The permission is retained as private evidence; the original developer's email address and the correspondence itself are not published.
+The original developer, Ahmed Al-Anazi, granted Turki bin Obaid explicit written permission to develop, publish and dispose of the script. On that authority, Turki bin Obaid chose to release this edition free of charge for noncommercial use while preserving all rights and attribution. The permission is retained as private evidence; the original developer's email address and the correspondence itself are not published.
 
 Third-party materials distributed with the project are not covered -- see [NOTICE-AR.md](NOTICE-AR.md) and [ATTRIBUTION.md](ATTRIBUTION.md).
 
@@ -120,7 +120,7 @@ Third-party materials distributed with the project are not covered -- see [NOTIC
 
 ويعرّف الموقع الأصلي **أحمد العنزي** بصفته مالكًا/مطورًا للمشروع، كما ينسب التطوير والإشراف إلى **نواحي للبرمجيات وأحمد العنزي**.
 
-**المطور الأصلي: أحمد العنزي | تطوير وتحسين النسخة: تركي الشبيب**
+**المطور الأصلي: أحمد العنزي | تطوير وتحسين النسخة: تركي بن عبيد**
 
 جميع حقوق المشروع الأصلي والكود الأصلي والفكرة والبنية الأصلية محفوظة لأصحاب الحقوق الأصليين.
 
@@ -134,12 +134,12 @@ Third-party materials distributed with the project are not covered -- see [NOTIC
 
 يسمح الترخيص مجانًا بالاستخدام والتشغيل والتعديل وإعادة التوزيع **للأغراض غير التجارية**، بشرط المحافظة على إشعارات الحقوق والنسبة التالية:
 
-**المطور الأصلي: أحمد العنزي | تطوير وتحسين النسخة: تركي الشبيب**
+**المطور الأصلي: أحمد العنزي | تطوير وتحسين النسخة: تركي بن عبيد**
 
 ويجب على كل من يعيد التوزيع أن ينقل نص الترخيص وإشعارات النسبة كاملةً إلى من يوزّع إليه.
 
 **الاستخدام التجاري** — البيع أو التقديم ضمن خدمة أو اشتراك مدفوع — يتطلب إذنًا كتابيًا منفصلًا من صاحب الحقوق.
 
-منح المطور الأصلي **أحمد العنزي** موافقة كتابية صريحة لـ**تركي الشبيب** على تطوير السكربت ونشره والتصرف به، وبناءً على هذه الصلاحية اختار تركي الشبيب إتاحة هذه النسخة مجانًا للاستخدام غير التجاري مع حفظ الحقوق والنسبة. الموافقة محفوظة كإثبات خاص، ولا يُنشر بريد المطور الأصلي ولا صورة المراسلة.
+منح المطور الأصلي **أحمد العنزي** موافقة كتابية صريحة لـ**تركي بن عبيد** على تطوير السكربت ونشره والتصرف به، وبناءً على هذه الصلاحية اختار تركي بن عبيد إتاحة هذه النسخة مجانًا للاستخدام غير التجاري مع حفظ الحقوق والنسبة. الموافقة محفوظة كإثبات خاص، ولا يُنشر بريد المطور الأصلي ولا صورة المراسلة.
 
 ولا يشمل الترخيص مواد الأطراف الثالثة الموزعة مع المشروع — راجع [NOTICE-AR.md](NOTICE-AR.md) و[ATTRIBUTION.md](ATTRIBUTION.md).
