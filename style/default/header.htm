@@ -7,37 +7,11 @@
   <meta name="theme-color" content="#0c4f42">
   <title>{title}</title>
   {seo}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap">
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet"></noscript>
+  <link rel="preload" as="font" type="font/woff2" href="{style}/fonts/brand/Cairo-Variable.woff2" crossorigin>
   <link rel="shortcut icon" type="image/x-icon" href="{style}/favicon.ico">
   <script type="text/javascript" src="{style}/js/quran.js" defer></script>
   {js}
-  <script>
-    (function(){
-      try {
-        var savedTheme = localStorage.getItem('qfa_theme');
-        var initialTheme = savedTheme === 'dark' ? 'dark' : 'light';
-        document.documentElement.setAttribute('data-theme', initialTheme);
-        document.documentElement.style.setProperty('--breadcrumb-inline-color', initialTheme === 'dark' ? '#f1f5f3' : '#0b6555');
-        document.documentElement.style.setProperty('--breadcrumb-active-inline-color', initialTheme === 'dark' ? '#b7c7c1' : '#66756f');
-      } catch(e) {
-        document.documentElement.setAttribute('data-theme', 'light');
-        document.documentElement.style.setProperty('--breadcrumb-inline-color', '#0b6555');
-        document.documentElement.style.setProperty('--breadcrumb-active-inline-color', '#66756f');
-      }
-    })();
-  </script>
-  <script>
-    // V22: legacy hash routes are no longer valid. Redirect before the page renders.
-    (function(){
-      var h = window.location.hash;
-      if (h === '#contact-us') { window.location.replace('{site_url}contact.php'); }
-      if (h === '#date-converter') { window.location.replace('{site_url}date-converter.php'); }
-    })();
-  </script>
+  <script src="{style}/js/theme-init.js?v=1.0"></script>
 </head>
 <body class="{page-class}">
   {admin-nav}

@@ -13,10 +13,15 @@ const QFA_ADMIN_SESSION = 'qfa_admin_authenticated';
 // existing session without having to open one.
 const QFA_SESSION_NAME = 'qfa_admin';
 const QFA_AUTH_FILE = __DIR__ . '/admin_auth_store.php';
+const QFA_AUTH_LOCK = __DIR__ . '/.admin_auth.lock';
+// A signed-in session ends after this much inactivity, and in any case after
+// the absolute lifetime, so a forgotten browser does not stay an admin forever.
+const QFA_SESSION_IDLE = 7200;
+const QFA_SESSION_MAX = 43200;
 
 function qfa_auth_start(): void {
     $script = basename((string)($_SERVER['SCRIPT_NAME'] ?? ''));
-    if (in_array($script, ['admin.php','admin-login.php','forgot-password.php','reset-password.php','admin-logout.php','sadaqah-agent.php','admin-settings.php'], true)) {
+    if (in_array($script, ['admin.php','admin-login.php','forgot-password.php','reset-password.php','admin-logout.php','sadaqah-agent.php','admin-settings.php','admin-pages.php','admin-messages.php'], true)) {
         header('X-Robots-Tag: noindex, nofollow, noarchive', true);
         header('Cache-Control: no-store, private', true);
         header('X-Frame-Options: DENY', true);
@@ -75,7 +80,54 @@ function qfa_auth_read(): array {
     return is_array($data) ? $data : [];
 }
 
+/*
+ * Every change to the auth store goes through one exclusive lock and one
+ * atomic replace. Writers used to mix an in-place rewrite (password reset)
+ * with a rename (everything else), so a reset racing another write could land
+ * in a file that had already been replaced and be lost while reporting success.
+ */
+function qfa_auth_update(callable $change): bool {
+    $lock = @fopen(QFA_AUTH_LOCK, 'c');
+    if (!$lock) {
+        return false;
+    }
+    if (!flock($lock, LOCK_EX)) {
+        fclose($lock);
+        return false;
+    }
+
+    $data = $change(qfa_auth_read());
+    $ok = is_array($data) && qfa_auth_store($data);
+
+    flock($lock, LOCK_UN);
+    fclose($lock);
+    return $ok;
+}
+
 function qfa_auth_write(array $data): bool {
+    return qfa_auth_update(static function () use ($data) {
+        return $data;
+    });
+}
+
+/*
+ * Bumping the epoch signs out every existing admin session. It is called
+ * whenever the password changes, so a session opened with the old password
+ * (on a lost device, or by whoever learned it) stops working at once.
+ */
+function qfa_auth_epoch(array $data): int {
+    return (int)($data['session_epoch'] ?? 0);
+}
+
+function qfa_auth_mark_signed_in(array $data): void {
+    $_SESSION[QFA_ADMIN_SESSION] = true;
+    $_SESSION['qfa_admin_email'] = QFA_ADMIN_EMAIL;
+    $_SESSION['qfa_epoch'] = qfa_auth_epoch($data);
+    $_SESSION['qfa_signed_in_at'] = time();
+    $_SESSION['qfa_seen_at'] = time();
+}
+
+function qfa_auth_store(array $data): bool {
     $json = json_encode(
         $data,
         JSON_UNESCAPED_UNICODE |
@@ -128,7 +180,28 @@ function qfa_auth_logged_in(): bool {
     }
 
     qfa_auth_start();
-    return !empty($_SESSION[QFA_ADMIN_SESSION]);
+    if (empty($_SESSION[QFA_ADMIN_SESSION])) {
+        return false;
+    }
+
+    $now = time();
+    $valid = (int)($_SESSION['qfa_epoch'] ?? -1) === qfa_auth_epoch(qfa_auth_read())
+        && $now - (int)($_SESSION['qfa_seen_at'] ?? 0) <= QFA_SESSION_IDLE
+        && $now - (int)($_SESSION['qfa_signed_in_at'] ?? 0) <= QFA_SESSION_MAX;
+
+    if (!$valid) {
+        unset(
+            $_SESSION[QFA_ADMIN_SESSION],
+            $_SESSION['qfa_admin_email'],
+            $_SESSION['qfa_epoch'],
+            $_SESSION['qfa_signed_in_at'],
+            $_SESSION['qfa_seen_at']
+        );
+        return false;
+    }
+
+    $_SESSION['qfa_seen_at'] = $now;
+    return true;
 }
 
 function qfa_auth_require(): void {
@@ -177,8 +250,31 @@ function qfa_rate_dir(): string {
     return rtrim(sys_get_temp_dir(), DIRECTORY_SEPARATOR);
 }
 
+/*
+ * The client address used for rate limiting. Behind a reverse proxy or CDN
+ * every request arrives from the proxy, so all visitors would share a single
+ * counter and anyone could lock the administrator out. When the site owner
+ * lists their proxies in TRUSTED_PROXIES (config.php), the address the proxy
+ * appended to X-Forwarded-For is used instead. The header is never trusted
+ * from any other peer, because a client can send it freely.
+ */
+function qfa_client_ip(): string {
+    $peer = (string)($_SERVER['REMOTE_ADDR'] ?? 'unknown');
+    $trusted = defined('TRUSTED_PROXIES') && is_array(TRUSTED_PROXIES) ? TRUSTED_PROXIES : [];
+    if ($trusted === [] || !in_array($peer, $trusted, true)) {
+        return $peer;
+    }
+    $chain = array_map('trim', explode(',', (string)($_SERVER['HTTP_X_FORWARDED_FOR'] ?? '')));
+    for ($i = count($chain) - 1; $i >= 0; $i--) {
+        if (filter_var($chain[$i], FILTER_VALIDATE_IP) && !in_array($chain[$i], $trusted, true)) {
+            return $chain[$i];
+        }
+    }
+    return $peer;
+}
+
 function qfa_auth_rate_file(string $kind): string {
-    $ip = (string)($_SERVER['REMOTE_ADDR'] ?? 'unknown');
+    $ip = qfa_client_ip();
     return qfa_rate_dir() . DIRECTORY_SEPARATOR . 'qfa_auth_' . $kind . '_' . hash('sha256', $ip) . '.json';
 }
 
@@ -339,82 +435,32 @@ function qfa_auth_reset_password(string $token, string $newPassword): bool {
         return false;
     }
 
-    $handle = @fopen(QFA_AUTH_FILE, 'c+');
-    if (!$handle) {
-        return false;
-    }
+    return qfa_auth_update(static function (array $data) use ($token, $newPassword) {
+        $storedHash = (string)($data['reset_token_hash'] ?? '');
+        $expires = (int)($data['reset_expires'] ?? 0);
 
-    if (!flock($handle, LOCK_EX)) {
-        fclose($handle);
-        return false;
-    }
+        $valid = (
+            $storedHash !== '' &&
+            $expires >= time() &&
+            hash_equals($storedHash, hash('sha256', $token))
+        );
 
-    rewind($handle);
-    $raw = stream_get_contents($handle);
-    $raw = preg_replace('/^<\?php\s+exit;\s*\?>\s*/', '', (string)$raw);
+        if (!$valid) {
+            return false;
+        }
 
-    $data = json_decode((string)$raw, true);
+        /*
+         * التوكن يُستهلك داخل نفس القفل قبل إنهاء العملية.
+         * لذلك لا يمكن استخدام نفس الرابط مرة ثانية.
+         */
+        unset($data['reset_token_hash'], $data['reset_expires']);
 
-    if (!is_array($data)) {
-        flock($handle, LOCK_UN);
-        fclose($handle);
-        return false;
-    }
+        $data['password_hash'] = password_hash($newPassword, PASSWORD_DEFAULT);
+        $data['email'] = QFA_ADMIN_EMAIL;
+        $data['session_epoch'] = qfa_auth_epoch($data) + 1;
 
-    $storedHash = (string)($data['reset_token_hash'] ?? '');
-    $expires = (int)($data['reset_expires'] ?? 0);
-
-    $valid = (
-        $storedHash !== '' &&
-        $expires >= time() &&
-        hash_equals($storedHash, hash('sha256', $token))
-    );
-
-    if (!$valid) {
-        flock($handle, LOCK_UN);
-        fclose($handle);
-        return false;
-    }
-
-    /*
-     * التوكن يُستهلك داخل نفس القفل قبل إنهاء العملية.
-     * لذلك لا يمكن استخدام نفس الرابط مرة ثانية.
-     */
-    unset($data['reset_token_hash'], $data['reset_expires']);
-
-    $data['password_hash'] = password_hash($newPassword, PASSWORD_DEFAULT);
-    $data['email'] = QFA_ADMIN_EMAIL;
-
-    $json = json_encode(
-        $data,
-        JSON_UNESCAPED_UNICODE |
-        JSON_UNESCAPED_SLASHES |
-        JSON_PRETTY_PRINT
-    );
-
-    if ($json === false) {
-        flock($handle, LOCK_UN);
-        fclose($handle);
-        return false;
-    }
-
-    $payload = "<?php exit; ?>\n" . $json;
-
-    rewind($handle);
-
-    if (!ftruncate($handle, 0)) {
-        flock($handle, LOCK_UN);
-        fclose($handle);
-        return false;
-    }
-
-    $written = fwrite($handle, $payload);
-    fflush($handle);
-
-    flock($handle, LOCK_UN);
-    fclose($handle);
-
-    return $written !== false && $written === strlen($payload);
+        return $data;
+    });
 }
 
 function qfa_auth_send_reset(string $url): bool {
@@ -442,5 +488,5 @@ function qfa_auth_send_reset(string $url): bool {
 
 function qfa_auth_page(string $title, string $content): void {
     $darkScript = '<script src="style/default/js/admin-theme-init.js?v=1.0"></script>';
-    echo '<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'.htmlspecialchars($title, ENT_QUOTES, 'UTF-8').'</title>'.$darkScript.'<link rel="stylesheet" href="style/default/css/all.min.css"><link rel="stylesheet" href="style/default/css/admin-auth.css?v=1.1"></head><body><main class="auth-shell"><a class="auth-brand" href="/"><span><img src="style/default/images/quran-logo.png" alt="القرآن الكريم"></span><strong>القرآن الكريم</strong></a>'.$content.'</main></body></html>';
+    echo '<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'.htmlspecialchars($title, ENT_QUOTES, 'UTF-8').'</title>'.$darkScript.'<link rel="stylesheet" href="style/default/css/all.min.css"><link rel="stylesheet" href="style/default/css/admin-auth.css?v=1.1"><link rel="stylesheet" href="style/default/css/brand-fonts.css?v=1.0"></head><body><main class="auth-shell"><a class="auth-brand" href="/"><span><img src="style/default/images/quran-logo.png" alt="القرآن الكريم"></span><strong>القرآن الكريم</strong></a>'.$content.'</main></body></html>';
 }

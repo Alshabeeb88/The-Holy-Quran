@@ -18,6 +18,11 @@ function respond($ok, $message, $code = 200) {
     exit;
 }
 
+require_once __DIR__ . '/includes/pages.php';
+if (!qfa_page_enabled('contact')) {
+    respond(false, 'نموذج التواصل غير متاح حاليًا.', 404);
+}
+
 function text_len($value) {
     return function_exists('mb_strlen') ? mb_strlen($value, 'UTF-8') : strlen($value);
 }
