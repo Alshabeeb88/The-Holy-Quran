@@ -20,7 +20,7 @@ csrf() { grep -o 'name="csrf" value="[^"]*"' | head -1 | sed 's/.*value="//;s/"/
 T=$(curl -s -c "$J" -b "$J" "$U/install.php" | csrf)
 curl -s -c "$J" -b "$J" -o /dev/null -X POST "$U/install.php" --data-urlencode csrf="$T" \
   -d site_name=Test -d site_description=Desc -d site_url="$U" -d admin_email=a@b.co \
-  -d 'admin_password=Passw0rd!Strong1' -d 'admin_password_again=Passw0rd!Strong1' -d color_scheme=toa
+  -d 'admin_password=Passw0rd!Strong1' -d 'admin_password_again=Passw0rd!Strong1' -d color_scheme=mushaf
 test -f .qfa-installed || { echo "install failed"; exit 1; }
 
 fail=0
