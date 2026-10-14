@@ -69,6 +69,8 @@ function config_code(array $v): string {
         . "define('MEMORIAL_ENABLED', " . $bool($v['memorial_enabled']) . ");\n"
         . "define('MEMORIAL_TITLE', " . var_export($v['memorial_title'], true) . ");\n"
         . "define('MEMORIAL_DUA', " . var_export($v['memorial_dua'], true) . ");\n"
+        . "// YouTube video for the home page's live Haram block; '' hides the block.\n"
+        . "define('HARAM_LIVE_VIDEO', '');\n"
         . "define('ADMIN_EMAIL', " . var_export($v['admin_email'], true) . ");\n"
         . "define('THEME', 'style/default');\n"
         . "define('APPEARANCE_STYLE', " . var_export($v['appearance_style'], true) . ");\n"
@@ -100,7 +102,12 @@ function config_code(array $v): string {
         . "define('CONTACT_STORE_MESSAGES', true);\n"
         . "define('FOOTER_CODE', '');\n"
         . "define('HEADER_TEXT', '');\n"
-        . "define('BODY_CODE', '');\n";
+        . "define('BODY_CODE', '');\n"
+        . "// Main pages switched off from the control panel (admin-pages.php).\n"
+        . "define('DISABLED_PAGES', []);\n"
+        . "// Addresses of your own reverse proxies / CDN, e.g. ['10.0.0.1'], so login\n"
+        . "// rate limiting sees real visitor addresses. Leave empty when not behind one.\n"
+        . "define('TRUSTED_PROXIES', []);\n";
 }
 
 /*
@@ -147,7 +154,7 @@ if ($alreadyInstalled) {
         $appearanceStyle = 'modern';
         $colorScheme = (string)($_POST['color_scheme'] ?? 'emerald');
         $allowedStyles = ['modern'];
-        $allowedColors = ['emerald', 'navy', 'burgundy'];
+        $allowedColors = ['emerald', 'navy', 'burgundy', 'mushaf'];
 
         if ($siteName === '' || $description === '') $error = 'اكتب اسم الموقع ووصفه.';
         elseif (!filter_var($siteUrl, FILTER_VALIDATE_URL) || !preg_match('~^https?://~i', $siteUrl)) $error = 'رابط الموقع غير صحيح.';
@@ -274,8 +281,8 @@ $detectedHost = preg_match('~^[A-Za-z0-9.-]{1,253}(:[0-9]{1,5})?$~D', $rawHost) 
 $detectedPath = rtrim(str_replace('\\', '/', dirname((string)($_SERVER['SCRIPT_NAME'] ?? '/'))), '/');
 $detectedUrl = $detectedScheme . '://' . $detectedHost . ($detectedPath === '' ? '' : $detectedPath);
 ?>
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0c4f42"><title>تثبيت موقع القرآن الكريم</title><style>
-*{box-sizing:border-box}body{margin:0;background:#f3f7f5;color:#17372f;font-family:Tahoma,Arial,sans-serif}.shell{width:min(760px,calc(100% - 24px));margin:35px auto}.head,.card{border:1px solid #d8e5e0;border-radius:20px;background:#fff;box-shadow:0 15px 40px rgba(13,67,55,.08)}.head{margin-bottom:18px;padding:24px;text-align:center}.mark{display:grid;place-items:center;width:58px;height:58px;margin:0 auto 12px;border-radius:17px;background:#0c4f42;color:#e4c977;font-size:30px}.head h1{margin:0 0 7px;font-size:25px}.head p{margin:0;color:#70817b;line-height:1.8}.card{padding:24px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.full{grid-column:1/-1}label{display:block;font-weight:700;font-size:13px}input,textarea{display:block;width:100%;margin-top:7px;padding:12px;border:1px solid #cbdcd5;border-radius:11px;font:inherit;outline:none}textarea{min-height:85px;resize:vertical}input:focus,textarea:focus{border-color:#0c7763;box-shadow:0 0 0 3px rgba(12,119,99,.1)}.check{display:flex;align-items:center;gap:9px;padding:10px 0}.check input{width:auto;margin:0}.notice{margin-bottom:15px;padding:12px;border-radius:10px;background:#fff0ef;color:#a43d34}.success{padding:25px;text-align:center}.success a,button{display:inline-flex;justify-content:center;padding:13px 23px;border:0;border-radius:11px;background:#0c5c4c;color:#fff;font:inherit;font-weight:700;text-decoration:none;cursor:pointer}button{width:100%;margin-top:10px}.hint{margin-top:5px;color:#84928d;font-size:11px;line-height:1.6}.appearance-title{margin:4px 0 0;font-size:16px}.choice-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:10px}.choice{position:relative}.choice input{position:absolute;opacity:0;pointer-events:none}.choice span{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:9px;border:2px solid #dce7e3;border-radius:12px;background:#fff;cursor:pointer;text-align:center;transition:.2s}.choice input:checked+span{border-color:#0c7763;background:#edf7f3;box-shadow:0 0 0 3px rgba(12,119,99,.09)}.swatch{width:20px;height:20px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(0,0,0,.1)}.emerald{background:#0c5c4c}.navy{background:#17456b}.burgundy{background:#743947}.indigo{background:#4a4788}.sand{background:#8a6638}@media(max-width:650px){.shell{margin:16px auto}.head,.card{padding:17px;border-radius:15px}.grid{grid-template-columns:1fr}.full{grid-column:auto}.choice-grid{grid-template-columns:1fr}}
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0c4f42"><title>تثبيت موقع القرآن الكريم</title><link rel="stylesheet" href="style/default/css/brand-fonts.css?v=1.1"><style>
+*{box-sizing:border-box}body{margin:0;background:#f3f7f5;color:#17372f;font-family:"Cairo",Tahoma,Arial,sans-serif}.shell{width:min(760px,calc(100% - 24px));margin:35px auto}.head,.card{border:1px solid #d8e5e0;border-radius:20px;background:#fff;box-shadow:0 15px 40px rgba(13,67,55,.08)}.head{margin-bottom:18px;padding:24px;text-align:center}.mark{display:grid;place-items:center;width:58px;height:58px;margin:0 auto 12px;border-radius:17px;background:#0c4f42;color:#e4c977;font-size:30px}.head h1{margin:0 0 7px;font-size:25px}.head p{margin:0;color:#70817b;line-height:1.8}.card{padding:24px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}.full{grid-column:1/-1}label{display:block;font-weight:700;font-size:13px}input,textarea{display:block;width:100%;margin-top:7px;padding:12px;border:1px solid #cbdcd5;border-radius:11px;font:inherit;outline:none}textarea{min-height:85px;resize:vertical}input:focus,textarea:focus{border-color:#0c7763;box-shadow:0 0 0 3px rgba(12,119,99,.1)}.check{display:flex;align-items:center;gap:9px;padding:10px 0}.check input{width:auto;margin:0}.notice{margin-bottom:15px;padding:12px;border-radius:10px;background:#fff0ef;color:#a43d34}.success{padding:25px;text-align:center}.success a,button{display:inline-flex;justify-content:center;padding:13px 23px;border:0;border-radius:11px;background:#0c5c4c;color:#fff;font:inherit;font-weight:700;text-decoration:none;cursor:pointer}button{width:100%;margin-top:10px}.hint{margin-top:5px;color:#84928d;font-size:11px;line-height:1.6}.appearance-title{margin:4px 0 0;font-size:16px}.choice-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:10px}.choice{position:relative}.choice input{position:absolute;opacity:0;pointer-events:none}.choice span{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:9px;border:2px solid #dce7e3;border-radius:12px;background:#fff;cursor:pointer;text-align:center;transition:.2s}.choice input:checked+span{border-color:#0c7763;background:#edf7f3;box-shadow:0 0 0 3px rgba(12,119,99,.09)}.swatch{width:20px;height:20px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(0,0,0,.1)}.emerald{background:#0c5c4c}.navy{background:#17456b}.burgundy{background:#743947}.mushaf{background:linear-gradient(135deg,#F7F3EA 0 45%,#1F5446 45% 75%,#A9823A 75%)}.indigo{background:#4a4788}.sand{background:#8a6638}@media(max-width:650px){.shell{margin:16px auto}.head,.card{padding:17px;border-radius:15px}.grid{grid-template-columns:1fr}.full{grid-column:auto}.choice-grid{grid-template-columns:1fr}}
 </style></head><body><main class="shell"><section class="head"><span class="mark">ق</span><h1>تثبيت موقع القرآن الكريم</h1><p>أدخل بيانات الموقع الجديد مرة واحدة، وسيتولى المثبّت بقية الإعدادات.</p></section><section class="card">
 <?php if ($done): ?><div class="success"><h2>تم التثبيت بنجاح</h2><p>أصبح الموقع جاهزًا. احتفظ ببيانات المدير في مكان آمن.</p><a href="./">فتح الموقع</a></div>
 <?php else: ?><?php if ($error !== ''): ?><div class="notice"><?=h($error)?></div><?php endif; ?>
@@ -297,7 +304,7 @@ $detectedUrl = $detectedScheme . '://' . $detectedHost . ($detectedPath === '' ?
 <label>الدعاء المختصر<input name="memorial_dua" maxlength="180" value="<?=h((string)($_POST['memorial_dua'] ?? 'اللهم اغفر له وارحمه واجعل القرآن نورًا له'))?>"></label>
 <section class="full"><h2 class="appearance-title">لون الموقع</h2><span class="hint">التصميم العصري والخطوط والمقاسات ثابتة؛ اختر اللون المعتمد فقط.</span>
 <div class="choice-grid">
-<?php foreach (['emerald'=>'أخضر زمردي','navy'=>'أزرق كحلي','burgundy'=>'عنابي ملكي'] as $key=>$label): ?><label class="choice"><input type="radio" name="color_scheme" value="<?=$key?>" <?=((string)($_POST['color_scheme'] ?? 'emerald')===$key)?'checked':''?>><span><i class="swatch <?=$key?>"></i><?=$label?></span></label><?php endforeach; ?>
+<?php foreach (['emerald'=>'أخضر زمردي','navy'=>'أزرق كحلي','burgundy'=>'عنابي ملكي','mushaf'=>'مصحف'] as $key=>$label): ?><label class="choice"><input type="radio" name="color_scheme" value="<?=$key?>" <?=((string)($_POST['color_scheme'] ?? 'emerald')===$key)?'checked':''?>><span><i class="swatch <?=$key?>"></i><?=$label?></span></label><?php endforeach; ?>
 </div></section>
 <label class="full check"><input name="rewrite_rules" type="checkbox" value="1" checked> تفعيل الروابط المختصرة على Apache/cPanel</label>
 </div><button type="submit">تثبيت الموقع الآن</button></form><?php endif; ?><?php endif; ?>

@@ -27,12 +27,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
             $token = bin2hex(random_bytes(32));
 
-            $data = qfa_auth_read();
-            $data['reset_token_hash'] = hash('sha256', $token);
-            $data['reset_expires'] = time() + 1800;
-            $data['email'] = QFA_ADMIN_EMAIL;
+            $saved = qfa_auth_update(static function (array $data) use ($token) {
+                $data['reset_token_hash'] = hash('sha256', $token);
+                $data['reset_expires'] = time() + 1800;
+                $data['email'] = QFA_ADMIN_EMAIL;
+                return $data;
+            });
 
-            if (qfa_auth_write($data)) {
+            if ($saved) {
 $url = rtrim((string)SITE_URL, '/')
     . '/reset-password.php?token='
     . rawurlencode($token);

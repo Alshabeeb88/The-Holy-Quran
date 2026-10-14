@@ -426,7 +426,7 @@ class MUSLIM_LIBRARY {
 						}
 
 						$books_IDS = $this->IDs( $keyc );
-						if( in_array($book_id, $books_IDS) ){
+						if( is_array($books_IDS) && in_array($book_id, $books_IDS) ){
 							$cats[] = array( 'category_id' => $keyc, 'name' => $name, 'description' => $description );
 						}
 
@@ -434,7 +434,7 @@ class MUSLIM_LIBRARY {
 				}
 
 				$books_IDS2 = $this->IDs( $language_id );
-				if( in_array($book_id, $books_IDS2) ){
+				if( is_array($books_IDS2) && in_array($book_id, $books_IDS2) ){
 					$langs[] = array( 'language_id' => $language_id, 'name' => $language_title, 'language' => $key, 'categories' => $cats );
 					break;
 				}
@@ -450,6 +450,23 @@ class MUSLIM_LIBRARY {
 		}else{
 			return array( 'status' => 'error', 'msg' => 'Not found book' );
 		}
+	}
+
+	/*
+	 * Case-insensitive "contains" for the search box. The query used to be
+	 * dropped into a regular expression unescaped, so a "/" broke the search and
+	 * a crafted pattern could tie up the server across all 10,000 books.
+	 */
+	private function text_contains( $needle, $haystack ){
+		$needle = (string)$needle;
+		$haystack = (string)$haystack;
+		if( $needle === '' ){
+			return false;
+		}
+		if( function_exists('mb_stripos') ){
+			return mb_stripos($haystack, $needle, 0, 'UTF-8') !== false;
+		}
+		return stripos($haystack, $needle) !== false;
 	}
 
 	public function search(){
@@ -482,19 +499,19 @@ class MUSLIM_LIBRARY {
 							$data[] = $id;
 						}
 					}elseif( $search_author_id > 0 && !empty($search) ){
-						if( ($search_author_id == $author_id) && (preg_match("/{$search}/i", $title) || preg_match("/{$search}/i", $excerpt) || preg_match("/{$search}/i", $author_name) || preg_match("/{$search}/i", $publisher) || preg_match("/{$search}/i", $translator) ) ){
+						if( ($search_author_id == $author_id) && ($this->text_contains($search, $title) || $this->text_contains($search, $excerpt) || $this->text_contains($search, $author_name) || $this->text_contains($search, $publisher) || $this->text_contains($search, $translator) ) ){
 							$data[] = $id;
 						}
 					}elseif( !empty($search_author_name) && empty($search) ){
-						if( preg_match("/{$search_author_name}/i", $author_name) ){
+						if( $this->text_contains($search_author_name, $author_name) ){
 							$data[] = $id;
 						}
 					}elseif( !empty($search_author_name) && !empty($search) ){
-						if( (preg_match("/{$search_author_name}/i", $author_name)) && (preg_match("/{$search}/i", $title) || preg_match("/{$search}/i", $excerpt) || preg_match("/{$search}/i", $publisher) || preg_match("/{$search}/i", $translator) ) ){
+						if( ($this->text_contains($search_author_name, $author_name)) && ($this->text_contains($search, $title) || $this->text_contains($search, $excerpt) || $this->text_contains($search, $publisher) || $this->text_contains($search, $translator) ) ){
 							$data[] = $id;
 						}
 					}else{
-						if( preg_match("/{$search}/i", $title) || preg_match("/{$search}/i", $excerpt) || preg_match("/{$search}/i", $author_name) || preg_match("/{$search}/i", $publisher) || preg_match("/{$search}/i", $translator) ){
+						if( $this->text_contains($search, $title) || $this->text_contains($search, $excerpt) || $this->text_contains($search, $author_name) || $this->text_contains($search, $publisher) || $this->text_contains($search, $translator) ){
 							$data[] = $id;
 						}
 					}

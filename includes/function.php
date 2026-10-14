@@ -3,21 +3,28 @@ header('Content-Type: text/html; charset=utf-8');
 header('X-Content-Type-Options: nosniff', true);
 header('Referrer-Policy: strict-origin-when-cross-origin', true);
 header('X-Frame-Options: SAMEORIGIN', true);
-header('Strict-Transport-Security: max-age=15768000', true);
+// One year, the value HSTS preload lists and scanners expect. Browsers ignore
+// it on plain-HTTP responses, so it is safe to send everywhere.
+header('Strict-Transport-Security: max-age=31536000', true);
+// Only the Qibla page needs a browser feature (location); nothing needs the
+// camera, microphone or payments.
+header('Permissions-Policy: geolocation=(self), camera=(), microphone=(), payment=(), usb=()', true);
+header_remove('X-Powered-By');
 
 header(
     "Content-Security-Policy: "
     . "default-src 'self'; "
     . "script-src 'self'; "
-    . "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; "
-    . "font-src 'self' https://fonts.gstatic.com data:; "
+    . "style-src 'self' 'unsafe-inline'; "
+    . "font-src 'self' data:; "
     . "img-src 'self' data: https:; "
     . "media-src 'self' https://www.everyayah.com https://server6.mp3quran.net https://server7.mp3quran.net https://server8.mp3quran.net https://server9.mp3quran.net https://server10.mp3quran.net https://server11.mp3quran.net https://server12.mp3quran.net https://server13.mp3quran.net https://download.quranicaudio.com https://download.tvquran.com https://www.qurantranslations.net; "
     . "connect-src 'self' https://api.aladhan.com; "
     . "frame-src https://www.youtube.com https://www.youtube-nocookie.com; "
     . "object-src 'none'; "
     . "base-uri 'self'; "
-    . "form-action 'self';",
+    . "form-action 'self'; "
+    . "frame-ancestors 'self';",
     true
 );
 ini_set('display_errors', 0);
@@ -59,6 +66,8 @@ require_once(INC_PATH.'/MobileDetect.php');
 require_once(PATH.'/api/quran/quran-api.php');
 require_once(PATH.'/api/books/book-api.php');
 require_once(INC_PATH.'/class.php');
+require_once(INC_PATH.'/pages.php');
+require_once(INC_PATH.'/youtube.php');
 
 $detect = new \Detection\MobileDetect;
 
@@ -74,15 +83,10 @@ $get_lang = ( isset($_GET['l']) && !empty($_GET['l']) ? strip_tags($_GET['l']) :
 $quranforall = new QuranForAll();
 $quranforall->setDefaultLanguage( LANGUAGE );
 
-if( isset($_GET['book_id']) && intval($_GET['book_id']) != 0 ){
-  $quranforall->book();
-}
-if( isset($_GET['category_id']) && intval($_GET['category_id']) != 0 ){
-  $quranforall->books_category();
-}
-if( isset($_GET['name']) && $_GET['name'] != '' ){
-  $quranforall->books_language();
-}
+// The books pages are rendered by output() for their own actions. They used to
+// be rendered here as well, for any request carrying book_id, category_id or
+// name, before the language and site URL were set; that output was thrown away
+// and could leave a wrong title and URL behind on other pages.
 
 if( !empty($get_lang) && in_array($get_lang, $quranforall->check_languages) ){
   $path = INC_PATH.'/language/'.$get_lang.'.php';
@@ -145,6 +149,11 @@ $quranforall->home_allow_quran = ( defined('HOME_QURAN') ? HOME_QURAN : true );
 $quranforall->home_allow_tafseer = ( defined('HOME_TAFSEER') ? HOME_TAFSEER : true );
 $quranforall->home_allow_language = ( defined('HOME_LANGUAGE') ? HOME_LANGUAGE : true );
 $quranforall->home_allow_book = ( defined('HOME_BOOK') ? HOME_BOOK : true );
+// Pages switched off in the control panel also leave the home page.
+if( !qfa_page_enabled('quran') ) $quranforall->home_allow_quran = false;
+if( !qfa_page_enabled('tafseer') ) $quranforall->home_allow_tafseer = false;
+if( !qfa_page_enabled('translations') ) $quranforall->home_allow_language = false;
+if( !qfa_page_enabled('books') ) $quranforall->home_allow_book = false;
 
 $quranforall->setSiteName( ( defined('SITE_NAME') && !empty(SITE_NAME) ? SITE_NAME : word('site_name') ) );
 $quranforall->setSiteDescription( ( defined('SITE_DESCRIPTION') && !empty(SITE_DESCRIPTION) ? SITE_DESCRIPTION : word('site_description') ) );
@@ -193,7 +202,10 @@ function api_url( $url ){
 }
 
 function pagination_url( $page, $action_name = '' ){
-	global $mod_rewrite_allow, $quranforall;
+	global $quranforall;
+	// Used to read a global that was never set, so pagination ignored the
+	// short-URL setting.
+	$mod_rewrite_allow = $quranforall->mod_rewrite_allow;
 
 	$action = ( isset($_GET['action']) ? strip_tags($_GET['action']) : 'home' );
 	if( !empty($action_name) ){
@@ -206,10 +218,10 @@ function pagination_url( $page, $action_name = '' ){
 		if( $action == 'books_language' && !empty($language_name) ){
 			if( $page == 1 ){
 				$create_url = $quranforall->siteurl.'/books-in-%s.html';
-				$url = sprintf($create_url, $language_name);
+				$url = sprintf($create_url, rawurlencode($language_name));
 			}else{
 				$create_url = $quranforall->siteurl.'/%s-page-%d.html';
-				$url = sprintf($create_url, $language_name, $page);
+				$url = sprintf($create_url, rawurlencode($language_name), $page);
 			}
 		}elseif( $action == 'books_category' && !empty($category_id) ){
 			if( $page == 1 ){
@@ -224,17 +236,18 @@ function pagination_url( $page, $action_name = '' ){
 		}
 	}else{
 		if( $action == 'books_language' && !empty($language_name) ){
-			$create_url = $quranforall->siteurl.'/index.php?action=books_language&name='.$language_name.'&page=%d';
-			$url = sprintf($create_url, $page);
+			// The name is not part of the format string: a "%s" in it used to
+			// make sprintf() throw.
+			$url = $quranforall->siteurl.'/index.php?action=books_language&name='.rawurlencode($language_name).'&page='.intval($page);
 		}elseif( $action == 'books_category' && !empty($category_id) ){
-			$create_url = $quranforall->siteurl.'/index.php?action=books_category&category_id='.$category_id.'&page=%d';
-			$url = sprintf($create_url, $page);
+			$url = $quranforall->siteurl.'/index.php?action=books_category&category_id='.$category_id.'&page='.intval($page);
 		}else{
 			$url = $quranforall->siteurl.'/index.php';
 		}
 	}
 
-	return $url;
+	// The language name comes from the query string; escape it for the href.
+	return htmlspecialchars($url, ENT_QUOTES, 'UTF-8');
 }
 
 function pagination_code($posts, $perpage, $page, $urlpage){

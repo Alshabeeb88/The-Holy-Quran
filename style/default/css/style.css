@@ -2,7 +2,6 @@
 @font-face { font-family: "KFGQPC Uthmanic Script HAFS"; src: local("KFGQPC Uthmanic Script HAFS"), url("../fonts/UthmanicHafs.ttf"); }
 @font-face { font-family: "kitab"; src: local("kitab"), url("../fonts/Kitab-Regular.ttf"); }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 html {
   scroll-behavior: smooth;
 }
@@ -1918,3 +1917,73 @@ html[data-theme="dark"] body[class*="color-"].internal-page .listen_aya a.sm2_bu
     font-family:inherit!important;
   }
 }
+
+/* Maintainer credit in the footer rights line (v1.2.0) */
+/* Plain inline text on the same baseline as the rest of the line; the mark is
+   sized to the text so it does not lift the line. */
+.toa-credit{display:inline;white-space:nowrap;font-family:inherit;font-size:inherit;line-height:inherit}
+.toa-mark{display:inline-block;height:1.15em;width:auto;vertical-align:-.2em;margin-inline-end:.35em}
+
+/* V59 - "Mushaf" scheme: warm paper for daytime reading, neutral charcoal at night.
+   Colours live in --m-* variables; the rules below use them in both modes.
+   "html body.color-mushaf[class]" matches the weight of the dark-mode rules above so these win by order. */
+body.color-mushaf{
+  --m-bg:#F7F3EA;--m-bg2:#F1EBDD;--m-surface:#FFFDF8;--m-text:#2B2620;--m-muted:#7A7062;--m-border:#E6DDCB;
+  --m-primary:#1F5446;--m-primary-2:#2C6B59;--m-on-primary:#FFFDF8;--m-accent:#A9823A;--m-ayat:#2B2620;
+  --m-hero:radial-gradient(900px 400px at 85% 0%,rgba(169,130,58,.14),transparent 60%),radial-gradient(700px 380px at 0% 100%,rgba(31,84,70,.08),transparent 60%),#F7F3EA;
+  --m-hero-muted:#6B6255;--m-bar:#1F5446;--m-bar-text:#F3EBDA;
+  --m-footer:#1E2722;--m-footer-text:rgba(243,235,218,.72);--m-footer-link:#D9B871;
+  --m-shadow:0 1px 2px rgba(43,38,32,.04),0 12px 32px -12px rgba(43,38,32,.12);
+  --q-primary:var(--m-primary);--q-primary-2:var(--m-primary-2);--q-deep:var(--m-text);--q-gold:var(--m-accent);--q-dark-gold:var(--m-accent);
+  --q-soft:var(--m-bg2);--q-paper:var(--m-surface);--q-text:var(--m-text);--q-muted:var(--m-muted);--q-border:var(--m-border);
+  --q-hero-a:var(--m-bg);--q-hero-b:var(--m-bg2)
+}
+html[data-theme="dark"] body.color-mushaf{
+  --m-bg:#121314;--m-bg2:#161819;--m-surface:#1C1E20;--m-text:#E8E6E1;--m-muted:#9A9893;--m-border:#2C2F31;
+  --m-primary:#7FBFA6;--m-primary-2:#9CD0BB;--m-on-primary:#121314;--m-accent:#D2B074;--m-ayat:#EFEDE8;
+  --m-hero:radial-gradient(900px 400px at 85% 0%,rgba(210,176,116,.08),transparent 60%),#121314;
+  --m-hero-muted:#9A9893;--m-bar:#0C0D0E;--m-bar-text:#D2B074;
+  --m-footer:#0C0D0E;--m-footer-text:rgba(232,230,225,.55);--m-footer-link:#D2B074;
+  --m-shadow:0 1px 2px rgba(0,0,0,.2),0 12px 32px -12px rgba(0,0,0,.45);
+  --q-dark-bg:var(--m-bg);--q-dark-header:var(--m-surface);--q-dark-surface:var(--m-surface);--q-dark-card:var(--m-surface);
+  --q-dark-card-hover:var(--m-bg2);--q-dark-border:var(--m-border);--q-dark-accent:var(--m-accent);--q-dark-text:var(--m-text);--q-dark-muted:var(--m-muted)
+}
+html body.color-mushaf[class]{background:var(--m-bg)!important;color:var(--m-text)}
+html body.color-mushaf[class] .site-main,html body.color-mushaf[class] .section-1,html body.color-mushaf[class] .section-3,
+html body.color-mushaf[class] .site-tools-section,html body.color-mushaf[class] .utility-page,html body.color-mushaf[class] .contact-rebuilt{background:var(--m-bg)!important}
+html body.color-mushaf[class] .section-2{background:var(--m-bg2)!important}
+html body.color-mushaf[class] .memorial-bar{background:var(--m-bar)!important;color:var(--m-bar-text);border-bottom:1px solid var(--m-border)}
+html body.color-mushaf[class] .custom-nav,html body.color-mushaf[class] .mobile-safe-nav,html body.color-mushaf[class] .mobile-safe-menu,
+html body.color-mushaf[class] .mobile-fixed-header-stack{background:color-mix(in srgb,var(--m-surface) 88%,transparent)!important;border-bottom:1px solid var(--m-border)!important;box-shadow:none}
+html body.color-mushaf[class] .custom-nav .nav-link,html body.color-mushaf[class] .custom-navbar-brand,html body.color-mushaf[class] .custom-navbar-brand *{color:var(--m-text)!important}
+html body.color-mushaf[class] .site-hero,html body.color-mushaf[class] .internal-page-head{background:var(--m-hero)!important;border-bottom:1px solid var(--m-border)!important}
+html body.color-mushaf[class] .site-hero:after{color:color-mix(in srgb,var(--m-accent) 8%,transparent)}
+html body.color-mushaf[class] .hero-copy,html body.color-mushaf[class] .hero-copy h1,html body.color-mushaf[class] .internal-page-head *{color:var(--m-text)!important}
+html body.color-mushaf[class] .hero-copy h1 span{color:var(--m-accent)!important}
+html body.color-mushaf[class] .hero-copy p{color:var(--m-hero-muted)!important}
+html body.color-mushaf[class] .hero-kicker{color:var(--m-accent)!important;background:color-mix(in srgb,var(--m-accent) 10%,transparent)!important;border-color:color-mix(in srgb,var(--m-accent) 35%,transparent)!important}
+html body.color-mushaf[class] .hero-btn.btn-primary,html body.color-mushaf[class] .prayer-search button,html body.color-mushaf[class] .internal-page .btn-primary,
+html body.color-mushaf[class] .btn-primary.form-control{background:var(--m-primary)!important;border-color:var(--m-primary)!important;color:var(--m-on-primary)!important}
+html body.color-mushaf[class] .hero-btn-light{color:var(--m-text)!important;border-color:var(--m-border)!important;background:var(--m-surface)!important}
+html body.color-mushaf[class] .prayer-widget,html body.color-mushaf[class] .modern-card,html body.color-mushaf[class] .card-custom,
+html body.color-mushaf[class] .card-custom .card-header,html body.color-mushaf[class] .card-custom .card-body,html body.color-mushaf[class] .surah-text,
+html body.color-mushaf[class] .block,html body.color-mushaf[class] div.spacer,html body.color-mushaf[class] .utility-card,html body.color-mushaf[class] .utility-page-card,
+html body.color-mushaf[class] .form-control:not(.btn),html body.color-mushaf[class] .custom-breadcrumb .breadcrumb{background:var(--m-surface)!important;border-color:var(--m-border)!important;color:var(--m-text)!important;box-shadow:var(--m-shadow)!important}
+html body.color-mushaf[class] .prayer-widget *:not(button):not(i){color:inherit}
+html body.color-mushaf[class] .prayer-eyebrow,html body.color-mushaf[class] .aya-number{color:var(--m-accent)!important}
+html body.color-mushaf[class] .next-prayer,html body.color-mushaf[class] .prayer-times>div,html body.color-mushaf[class] .prayer-search input{background:var(--m-bg2)!important;border-color:var(--m-border)!important;color:var(--m-text)!important}
+html body.color-mushaf[class] .section-title h1,html body.color-mushaf[class] .section-title h2{color:var(--m-text)!important}
+html body.color-mushaf[class] div.spacer a,html body.color-mushaf[class] .breadcrumb a,html body.color-mushaf[class] .breadcrumb-link-force{color:var(--m-primary)!important}
+html body.color-mushaf[class] .ayat,html body.color-mushaf[class] span.ayat,html body.color-mushaf[class] .ayat2{color:var(--m-ayat)!important;background:transparent!important;line-height:2.3}
+html body.color-mushaf[class] .site-footer{background:var(--m-footer)!important;color:var(--m-footer-text)}
+html body.color-mushaf[class] .site-footer a,html body.color-mushaf[class] .footer-links a{color:var(--m-footer-link)!important}
+html body.color-mushaf[class] .footer-title{color:#fff!important}
+html body.color-mushaf[class] .footer-bottom{border-top-color:rgba(255,255,255,.08)!important}
+html body.color-mushaf[class] .theme-toggle{background:var(--m-surface)!important;border-color:var(--m-border)!important;color:var(--m-text)!important}
+html body.color-mushaf[class] .share{border-color:var(--m-border)!important;border-radius:14px}
+
+/* V59 - Long page lists (book categories) wrap instead of widening the page on phones. */
+.pagination{flex-wrap:wrap;justify-content:center;row-gap:6px}
+/* V59 - Between tablet and wide desktop (e.g. iPad landscape) the full menu and the
+   dark-mode label do not fit together; keep the switch, drop its label. */
+@media(min-width:992px) and (max-width:1199.98px){.theme-toggle-label{display:none}.theme-toggle{padding:5px}}
