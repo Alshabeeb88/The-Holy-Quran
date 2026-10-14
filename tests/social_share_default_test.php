@@ -149,7 +149,7 @@ check(
 );
 check(
     'the English footer carries the noncommercial notice',
-    strpos($class, 'Enhanced and maintained by: Turki Bin Obaid | \'.$toa_credit.\' | Free for noncommercial use | V') !== false
+    strpos($class, 'Enhanced and maintained by: Turki bin Obaid | \'.$toa_credit.\' | Free for noncommercial use | V') !== false
 );
 
 echo "\n$checks checks, $failures failures\n";
