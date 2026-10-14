@@ -1921,5 +1921,7 @@ html[data-theme="dark"] body[class*="color-"].internal-page .listen_aya a.sm2_bu
 }
 
 /* Maintainer credit in the footer rights line (v1.2.0) */
-.toa-credit{display:inline-flex;align-items:center;gap:4px;white-space:nowrap}
-.toa-mark{height:14px;width:auto;vertical-align:middle}
+/* Plain inline text on the same baseline as the rest of the line; the mark is
+   sized to the text so it does not lift the line. */
+.toa-credit{display:inline;white-space:nowrap;font-family:inherit;font-size:inherit;line-height:inherit}
+.toa-mark{display:inline-block;height:1.15em;width:auto;vertical-align:-.2em;margin-inline-end:.35em}

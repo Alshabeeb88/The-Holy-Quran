@@ -659,15 +659,15 @@ class QuranForAll extends QuranForAll_API {
 		$headercode = '';
 		if( $this->is_rtl() == true || $this->is_rtl == true ){
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/bootstrap.rtl.min.css?v=5.1">'."\n";
-			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=58.8">'."\n";
+			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=58.9">'."\n";
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/rtl.css?v=5.2">'."\n";
 		}else{
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/bootstrap.min.css?v=5.1">'."\n";
-			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=58.8">'."\n";
+			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=58.9">'."\n";
 		}
 		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/all.min.css?v=5.15.4">'."\n";
 		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/hover-min.css?v=2.3.2">'."\n";
-		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/brand-fonts.css?v=1.0">'."\n";
+		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/brand-fonts.css?v=1.1">'."\n";
 
 		$headercode .= $this->get_hreflang( $this->get_language() );
 
@@ -3767,6 +3767,14 @@ class QuranForAll extends QuranForAll_API {
 
 			if( !empty($this->headertext) ){
 				$read = str_replace('q-col-header col-md-12 text-center', 'q-col-header col-12 col-md-4', $read);
+			}
+
+			// Live Haram video from the settings; without one the block is left out.
+			$haram_video = function_exists('qfa_haram_video') ? qfa_haram_video() : '';
+			if( $haram_video === '' ){
+				$read = preg_replace('~\s*<section class="haram-live-section\b.*?</section>~s', '', $read) ?? $read;
+			}else{
+				$read = str_replace('Op4Wt3S5wRQ', $haram_video, $read);
 			}
 			$code = $this->tpl_replace($read);
 			fclose ($writefile);

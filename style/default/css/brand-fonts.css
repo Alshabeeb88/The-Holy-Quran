@@ -20,7 +20,6 @@ body.qfa-ltr{font-family:var(--qfa-font-en)}
 .tasbeeh-tap strong{font-family:var(--qfa-font-ar)}
 
 /* Embedded English, such as the maintainer credit. */
-.toa-credit{font-family:var(--qfa-font-en)}
 
 /* Admin pages (admin-auth.css used Tahoma for text, inputs and buttons). */
 .auth-shell,.auth-shell input,.auth-shell textarea,.auth-shell select,.auth-shell button{font-family:var(--qfa-font-ar)}

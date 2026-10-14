@@ -4,6 +4,7 @@ declare(strict_types=1);
 require_once __DIR__ . '/includes/admin-auth.php';
 require_once __DIR__ . '/includes/social-image.php';
 require_once __DIR__ . '/includes/config-writer.php';
+require_once __DIR__ . '/includes/youtube.php';
 qfa_auth_require();
 
 function e(string $value): string {
@@ -57,6 +58,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $newMemorialEnabled = isset($_POST['memorial_enabled']);
         $newMemorialTitle = clean_setting((string)($_POST['memorial_title'] ?? ''), 120);
         $newMemorialDua = clean_setting((string)($_POST['memorial_dua'] ?? ''), 180);
+        $oldHaramVideo = defined('HARAM_LIVE_VIDEO') ? (string)HARAM_LIVE_VIDEO : '';
+        $haramVideoInput = trim((string)($_POST['haram_live_video'] ?? ''));
+        $newHaramVideo = qfa_youtube_id($haramVideoInput);
 
         $allowedColorSchemes = ['emerald', 'navy', 'burgundy', 'toa'];
         $newColorScheme = (string)($_POST['color_scheme'] ?? 'emerald');
@@ -105,6 +109,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $changes[] = 'تم تحديث الدعاء المختصر';
         }
 
+        if ($oldHaramVideo !== $newHaramVideo) {
+            $changes[] = $newHaramVideo === '' ? 'تم إخفاء البث المباشر من الحرم' : 'تم تحديث فيديو البث المباشر من الحرم';
+        }
+
         if ($oldColorScheme !== $newColorScheme) {
             $changes[] = 'مظهر الموقع: ' . qfa_theme_label($oldColorScheme) . ' ← ' . qfa_theme_label($newColorScheme);
         }
@@ -137,6 +145,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $error = 'اسم الموقع والوصف مطلوبان.';
         } elseif ($newMemorialEnabled && $newMemorialTitle === '') {
             $error = 'اكتب عنوان الصدقة الجارية أو عطّل الشريط.';
+        } elseif ($haramVideoInput !== '' && $newHaramVideo === '') {
+            $error = 'رابط البث المباشر غير صحيح. الصق رابط فيديو من يوتيوب.';
         } elseif (!filter_var($newAdminEmail, FILTER_VALIDATE_EMAIL)) {
             $error = 'بريد المدير غير صحيح.';
         } elseif ($newContactEmail !== '' && !filter_var($newContactEmail, FILTER_VALIDATE_EMAIL)) {
@@ -187,6 +197,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     'MEMORIAL_ENABLED' => $newMemorialEnabled,
                     'MEMORIAL_TITLE' => $newMemorialTitle,
                     'MEMORIAL_DUA' => $newMemorialDua,
+                    'HARAM_LIVE_VIDEO' => $newHaramVideo,
                     'COLOR_SCHEME' => $newColorScheme,
                     'SOCIAL_SHARE_IMAGE' => $socialImageRelative,
                     'ADMIN_EMAIL' => $newAdminEmail,
@@ -334,6 +345,7 @@ $browserTitle = defined('BROWSER_TITLE') ? (string)BROWSER_TITLE : '';
 $memorialEnabled = defined('MEMORIAL_ENABLED') ? (bool)MEMORIAL_ENABLED : false;
 $memorialTitle = defined('MEMORIAL_TITLE') ? (string)MEMORIAL_TITLE : '';
 $memorialDua = defined('MEMORIAL_DUA') ? (string)MEMORIAL_DUA : '';
+$haramVideo = defined('HARAM_LIVE_VIDEO') ? (string)HARAM_LIVE_VIDEO : '';
 $colorScheme = defined('COLOR_SCHEME') ? (string)COLOR_SCHEME : 'emerald';
 $socialShareImage = defined('SOCIAL_SHARE_IMAGE') && SOCIAL_SHARE_IMAGE !== ''
     ? (string)SOCIAL_SHARE_IMAGE
@@ -444,6 +456,21 @@ $content = '
         <label>
           الدعاء المختصر
           <input type="text" name="memorial_dua" maxlength="180" value="'.e($memorialDua).'">
+        </label>
+      </section>
+
+      <section class="settings-panel">
+        <div class="panel-head">
+          <span class="panel-icon">▶</span>
+          <div>
+            <h2>البث المباشر من الحرم</h2>
+            <p>فيديو يوتيوب يظهر في الصفحة الرئيسية. اتركه فارغًا لإخفاء القسم.</p>
+          </div>
+        </div>
+
+        <label>
+          رابط الفيديو على يوتيوب
+          <input type="text" name="haram_live_video" dir="ltr" maxlength="200" placeholder="https://www.youtube.com/watch?v=..." value="'.e($haramVideo !== '' ? 'https://www.youtube.com/watch?v='.$haramVideo : '').'">
         </label>
       </section>
 
