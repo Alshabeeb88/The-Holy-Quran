@@ -18,10 +18,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $email = strtolower(trim((string)($_POST['email'] ?? '')));
         $password = (string)($_POST['password'] ?? '');
         $data = qfa_auth_read();
-        if ($email === strtolower(QFA_ADMIN_EMAIL) && !empty($data['password_hash']) && password_verify($password, (string)$data['password_hash'])) {
+        // Always run password_verify, against a throwaway hash when the email
+        // does not match, so the response time does not reveal the admin email.
+        $hash = !empty($data['password_hash']) ? (string)$data['password_hash'] : '$2y$10$LS3Kx.u.joOTIdz2q8IJoOTM3.TLZdY5ouQ4LBvd.Cb0GQn1h4TQK';
+        $passwordOk = password_verify($password, $hash);
+        if ($email === strtolower(QFA_ADMIN_EMAIL) && !empty($data['password_hash']) && $passwordOk) {
             session_regenerate_id(true);
-            $_SESSION[QFA_ADMIN_SESSION] = true;
-            $_SESSION['qfa_admin_email'] = QFA_ADMIN_EMAIL;
+            qfa_auth_mark_signed_in($data);
             header('Location: ' . $next); exit;
         }
         $error = 'بيانات الدخول غير صحيحة.';

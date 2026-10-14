@@ -24,6 +24,22 @@ $content = '
       </div>
     </a>
 
+    <a class="admin-dashboard-card" href="admin-pages.php">
+      <span class="admin-dashboard-icon"><i class="fas fa-th-list"></i></span>
+      <div>
+        <strong>إدارة الصفحات</strong>
+        <small>تفعيل أو تعطيل صفحات الموقع الرئيسية.</small>
+      </div>
+    </a>
+
+    <a class="admin-dashboard-card" href="admin-messages.php">
+      <span class="admin-dashboard-icon"><i class="fas fa-envelope-open-text"></i></span>
+      <div>
+        <strong>رسائل التواصل</strong>
+        <small>قراءة وحذف الرسائل المرسلة من نموذج التواصل.</small>
+      </div>
+    </a>
+
     <a class="admin-dashboard-card" href="sadaqah-agent.php">
       <span class="admin-dashboard-icon"><i class="fas fa-feather-alt"></i></span>
       <div>
