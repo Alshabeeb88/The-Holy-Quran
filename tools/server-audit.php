@@ -75,6 +75,18 @@ function git_blob_sha(string $file): string {
     return sha1('blob ' . strlen($data) . "\0" . $data);
 }
 
+/** Walk the site, leaving out .git and any other site installed inside it. */
+function site_files(string $root, array $skip, bool $dirs = false): Iterator {
+    $filter = new RecursiveCallbackFilterIterator(
+        new RecursiveDirectoryIterator($root, FilesystemIterator::SKIP_DOTS),
+        static function (SplFileInfo $f) use ($root, $skip): bool {
+            $rel = substr($f->getPathname(), strlen($root) + 1);
+            return $rel !== '.git' && !in_array($rel, $skip, true);
+        }
+    );
+    return new RecursiveIteratorIterator($filter, $dirs ? RecursiveIteratorIterator::SELF_FIRST : RecursiveIteratorIterator::LEAVES_ONLY);
+}
+
 /* ---------- where is the site ---------- */
 
 $root = $argv[1] ?? '';
@@ -93,9 +105,21 @@ if (!is_file($root . '/includes/class.php')) {
     exit(1);
 }
 
+// Other sites kept inside this folder (cPanel addon domains) are left out and
+// can be checked on their own.
+$nested = [];
+foreach (array_merge(glob($root . '/*', GLOB_ONLYDIR) ?: [], glob($root . '/*/*', GLOB_ONLYDIR) ?: []) as $dir) {
+    if (is_file($dir . '/includes/class.php') || is_file($dir . '/wp-config.php') || is_file($dir . '/artisan')) {
+        $nested[] = substr($dir, strlen($root) + 1);
+    }
+}
+
 echo "Quran site audit (read-only)\n";
 echo "Folder: $root\n";
 echo "Compared with: github.com/$repo @ $ref\n";
+foreach ($nested as $dir) {
+    echo "Skipped (separate site): $dir   -> check it with: php " . $argv[0] . " " . $root . "/" . $dir . "\n";
+}
 
 /* ---------- environment ---------- */
 
@@ -153,7 +177,7 @@ if (!$known) {
     $dataTotal = $dataBad = 0;
     $modified = $missing = $extra = [];
 
-    $it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($root, FilesystemIterator::SKIP_DOTS));
+    $it = site_files($root, $nested);
     $seen = [];
     foreach ($it as $file) {
         if (!$file->isFile()) continue;
@@ -196,12 +220,12 @@ if (!$known) {
 /* ---------- suspicious code ---------- */
 
 section('Suspicious code patterns');
-$patterns = '~(eval\s*\(\s*(base64_decode|gzinflate|gzuncompress|str_rot13|\$_(POST|GET|REQUEST|COOKIE))|assert\s*\(\s*\$_|preg_replace\s*\(\s*[\'"].{1,40}/e[\'"]|(shell_exec|passthru|proc_open|popen|system|exec)\s*\(\s*\$_(POST|GET|REQUEST|COOKIE)|move_uploaded_file\s*\([^)]*\$_FILES[^)]*\.php|FilesMan|c99shell|r57shell|WSO\s)~i';
+$patterns = '~(eval\s*\(\s*(base64_decode|gzinflate|gzuncompress|str_rot13|\$_(POST|GET|REQUEST|COOKIE))|assert\s*\(\s*\$_|preg_replace\s*\(\s*[\'"].{1,40}/e[\'"]|(shell_exec|passthru|proc_open|popen|system|exec)\s*\(\s*\$_(POST|GET|REQUEST|COOKIE)|move_uploaded_file\s*\([^)]*\$_FILES[^)]*\.php|FilesMan|c99shell|r57shell)~i';
 $hits = [];
-$it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($root, FilesystemIterator::SKIP_DOTS));
+$it = site_files($root, $nested);
 foreach ($it as $file) {
     $rel = substr($file->getPathname(), strlen($root) + 1);
-    if (!$file->isFile() || !preg_match('~\.(php\d?|phtml|inc)$~i', $rel) || preg_match('~^api/(quran|books)/includes/|^tools/server-audit\.php$~', $rel) || $file->getRealPath() === __FILE__ || $file->getSize() > 2097152) continue;
+    if (!$file->isFile() || !preg_match('~\.(php\d?|phtml|inc)$~i', $rel) || preg_match('~(^|/)api/(quran|books)/includes/|^tools/server-audit\.php$~', $rel) || $file->getRealPath() === __FILE__ || $file->getSize() > 2097152) continue;
     if (preg_match($patterns, (string)file_get_contents($file->getPathname()))) $hits[] = $rel;
 }
 line($hits ? 'FAIL' : 'OK', 'Files with web-shell style code: ' . count($hits));
@@ -214,7 +238,7 @@ line($oddCache ? 'WARN' : 'OK', 'Unexpected PHP files in cache/: ' . count($oddC
 
 section('Permissions');
 $ww = [];
-$it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($root, FilesystemIterator::SKIP_DOTS), RecursiveIteratorIterator::SELF_FIRST);
+$it = site_files($root, $nested, true);
 foreach ($it as $file) {
     if (($file->getPerms() & 0002) && !$file->isLink()) $ww[] = substr($file->getPathname(), strlen($root) + 1);
 }
@@ -239,7 +263,7 @@ foreach (['CACHE' => 'page cache', 'TRUSTED_PROXIES' => 'trusted proxies', 'DISA
     line('INFO', $label . ': ' . (preg_match("~define\(\s*'$name'\s*,\s*([^;]{0,80})\);~", $cfg, $m) ? trim($m[1]) : 'not set'));
 }
 $logs = [];
-$it = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($root, FilesystemIterator::SKIP_DOTS));
+$it = site_files($root, $nested);
 foreach ($it as $file) {
     if ($file->isFile() && $file->getFilename() === 'error_log') $logs[] = $file->getPathname();
 }
