@@ -3,7 +3,13 @@ header('Content-Type: text/html; charset=utf-8');
 header('X-Content-Type-Options: nosniff', true);
 header('Referrer-Policy: strict-origin-when-cross-origin', true);
 header('X-Frame-Options: SAMEORIGIN', true);
-header('Strict-Transport-Security: max-age=15768000', true);
+// One year, the value HSTS preload lists and scanners expect. Browsers ignore
+// it on plain-HTTP responses, so it is safe to send everywhere.
+header('Strict-Transport-Security: max-age=31536000', true);
+// Only the Qibla page needs a browser feature (location); nothing needs the
+// camera, microphone or payments.
+header('Permissions-Policy: geolocation=(self), camera=(), microphone=(), payment=(), usb=()', true);
+header_remove('X-Powered-By');
 
 header(
     "Content-Security-Policy: "
@@ -17,7 +23,8 @@ header(
     . "frame-src https://www.youtube.com https://www.youtube-nocookie.com; "
     . "object-src 'none'; "
     . "base-uri 'self'; "
-    . "form-action 'self';",
+    . "form-action 'self'; "
+    . "frame-ancestors 'self';",
     true
 );
 ini_set('display_errors', 0);

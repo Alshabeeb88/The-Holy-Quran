@@ -1,5 +1,8 @@
 RewriteEngine on
 
+# Tests and maintenance tools run from the terminal only.
+RewriteRule ^(tests|tools)/ - [R=404,L]
+
 # Private application artefacts. Each of these also carries an application-level
 # guard, so protection does not depend on this file alone.
 <FilesMatch "^(\.qfa-installed|\.qfa-install\.lock|\.admin_auth\.lock|admin_auth_store\.php(\.tmp-[0-9a-f]+)?|config\.php\.(tmp|rollback)-[0-9a-f]+|contact_messages\.php|contact_messages-archive\.php|contact_messages\.jsonl|x_studio_current\.php(\.bak|\.tmp-[0-9a-f]+)?)$">
@@ -60,9 +63,21 @@ ExpiresByType application/pdf "access 1 month"
 ExpiresByType text/x-javascript "access 1 month"
 ExpiresByType application/x-shockwave-flash "access 1 month"
 ExpiresByType image/x-icon "access 1 year"
+ExpiresByType image/webp "access 1 year"
+ExpiresByType image/svg+xml "access 1 year"
+ExpiresByType font/woff2 "access 1 year"
+ExpiresByType application/javascript "access 1 month"
+ExpiresByType text/javascript "access 1 month"
 ExpiresDefault "access 1 month"
 </IfModule>
 ## EXPIRES CACHING
+
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/xml application/json application/javascript text/javascript image/svg+xml
+</IfModule>
+<IfModule mod_mime.c>
+AddType font/woff2 .woff2
+</IfModule>
 
 # BEGIN cPanel-generated php ini directives, do not edit
 # Manual editing of this file may result in unexpected behavior.

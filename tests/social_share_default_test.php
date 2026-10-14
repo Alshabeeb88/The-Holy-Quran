@@ -7,6 +7,11 @@
  * Run: php -n tests/social_share_default_test.php
  */
 
+if (PHP_SAPI !== 'cli') {
+    http_response_code(404);
+    exit;
+}
+
 $root = dirname(__DIR__);
 $failures = 0;
 $checks = 0;
