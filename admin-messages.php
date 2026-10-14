@@ -143,7 +143,7 @@ $content = '
   </div>
 </section>
 
-<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.1">
+<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.2">
 <style>
 .message-item{padding:14px 0;border-bottom:1px solid #e6efec}
 .message-item:last-child{border-bottom:0}

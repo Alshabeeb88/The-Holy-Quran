@@ -24,7 +24,6 @@ function qfa_theme_label(string $value): string {
         'emerald' => 'الأخضر الزمردي',
         'navy' => 'الأزرق الكحلي',
         'burgundy' => 'العنابي الملكي',
-        'toa' => 'هوية TOA Digital',
         'mushaf' => 'مصحف',
     ];
     return $labels[$value] ?? $value;
@@ -63,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $haramVideoInput = trim((string)($_POST['haram_live_video'] ?? ''));
         $newHaramVideo = qfa_youtube_id($haramVideoInput);
 
-        $allowedColorSchemes = ['emerald', 'navy', 'burgundy', 'toa', 'mushaf'];
+        $allowedColorSchemes = ['emerald', 'navy', 'burgundy', 'mushaf'];
         $newColorScheme = (string)($_POST['color_scheme'] ?? 'emerald');
 
         $newAdminEmail = strtolower(trim((string)($_POST['admin_email'] ?? '')));
@@ -365,7 +364,11 @@ if (preg_match("~define\\('SITE_DESCRIPTION',\\s*'([^']*)'\\);~u", $currentConfi
 }
 
 if (preg_match("~define\\('COLOR_SCHEME',\\s*'([^']*)'\\);~u", $currentConfig, $m)) {
-    if (in_array($m[1], ['emerald', 'navy', 'burgundy', 'toa', 'mushaf'], true)) {
+    // The TOA Digital scheme was retired in v1.2.0; sites that used it now show "Mushaf".
+    if ($m[1] === 'toa') {
+        $m[1] = 'mushaf';
+    }
+    if (in_array($m[1], ['emerald', 'navy', 'burgundy', 'mushaf'], true)) {
         $colorScheme = $m[1];
     }
 }
@@ -606,18 +609,6 @@ $content = '
           </label>
 
           <label class="theme-choice">
-            <input type="radio" name="color_scheme" value="toa" '.($colorScheme === 'toa' ? 'checked' : '').'>
-            <span class="theme-card">
-              <i class="theme-preview toa-preview"></i>
-              <span class="theme-text">
-                <b>هوية TOA Digital</b>
-                <small>الأخضر والذهبي من الهوية البصرية المعتمدة</small>
-              </span>
-              <i class="theme-check">✓</i>
-            </span>
-          </label>
-
-          <label class="theme-choice">
             <input type="radio" name="color_scheme" value="mushaf" '.($colorScheme === 'mushaf' ? 'checked' : '').'>
             <span class="theme-card">
               <i class="theme-preview mushaf-preview"></i>
@@ -644,7 +635,7 @@ $content = '
 
 <script src="style/default/js/admin-settings.js?v=1.0"></script>
 
-<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.1">
+<link rel="stylesheet" href="style/default/css/admin-settings.css?v=1.2">
 ';
 
 qfa_auth_page('إعدادات الموقع', $content);

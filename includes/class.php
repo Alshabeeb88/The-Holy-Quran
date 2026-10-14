@@ -629,10 +629,11 @@ class QuranForAll extends QuranForAll_API {
 		$is_home = ($action === 'home' && !isset($_GET['surah']) && !isset($_GET['reader_id']) && !isset($_GET['f']) && !isset($_GET['t']));
 		$page_class = $is_home ? 'home-page' : 'internal-page';
 		$allowed_appearance_styles = array('modern');
-		$allowed_color_schemes = array('emerald', 'navy', 'burgundy', 'toa', 'mushaf');
+		$allowed_color_schemes = array('emerald', 'navy', 'burgundy', 'mushaf');
 		$appearance_style = defined('APPEARANCE_STYLE') ? (string) APPEARANCE_STYLE : 'modern';
 		$color_scheme = defined('COLOR_SCHEME') ? (string) COLOR_SCHEME : 'emerald';
 		if( !in_array($appearance_style, $allowed_appearance_styles, true) ) $appearance_style = 'modern';
+		if( $color_scheme === 'toa' ) $color_scheme = 'mushaf'; // TOA Digital scheme retired in v1.2.0.
 		if( !in_array($color_scheme, $allowed_color_schemes, true) ) $color_scheme = 'emerald';
 		$page_class .= ' appearance-'.$appearance_style.' color-'.$color_scheme;
 		if( !( $this->is_rtl() == true || $this->is_rtl == true ) ){
@@ -659,11 +660,11 @@ class QuranForAll extends QuranForAll_API {
 		$headercode = '';
 		if( $this->is_rtl() == true || $this->is_rtl == true ){
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/bootstrap.rtl.min.css?v=5.1">'."\n";
-			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=59.1">'."\n";
+			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=59.2">'."\n";
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/rtl.css?v=5.2">'."\n";
 		}else{
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/bootstrap.min.css?v=5.1">'."\n";
-			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=59.1">'."\n";
+			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=59.2">'."\n";
 		}
 		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/all.min.css?v=5.15.4">'."\n";
 		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/hover-min.css?v=2.3.2">'."\n";
