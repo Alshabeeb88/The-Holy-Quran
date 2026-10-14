@@ -659,11 +659,11 @@ class QuranForAll extends QuranForAll_API {
 		$headercode = '';
 		if( $this->is_rtl() == true || $this->is_rtl == true ){
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/bootstrap.rtl.min.css?v=5.1">'."\n";
-			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=58.9">'."\n";
+			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=59.0">'."\n";
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/rtl.css?v=5.2">'."\n";
 		}else{
 			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/bootstrap.min.css?v=5.1">'."\n";
-			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=58.9">'."\n";
+			$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/style.css?v=59.0">'."\n";
 		}
 		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/all.min.css?v=5.15.4">'."\n";
 		$headercode .= '<link rel="stylesheet" type="text/css" href="'.$this->get_theme_folder_url().'/css/hover-min.css?v=2.3.2">'."\n";
@@ -675,7 +675,7 @@ class QuranForAll extends QuranForAll_API {
 
 		// Maintainer credit: the TOA Digital symbol (white + gold, for the dark footer) at text size.
 		$toa_link = '<a target="_blank" rel="noopener" href="https://toa.sa/">';
-		$toa_credit = $toa_link.'<span class="toa-credit"><img class="toa-mark" src="'.$this->get_theme_folder_url().'/images/toa-symbol.svg" alt="TOA Digital" width="31" height="16">© TOA Digital</span></a>';
+		$toa_credit = '<span class="toa-credit"><img class="toa-mark" src="'.$this->get_theme_folder_url().'/images/toa-symbol.svg" alt="" width="31" height="16">© TOA Digital</span>';
 		if( $this->get_language() === 'ar' ){
 		        $release_version = is_file(dirname(__DIR__).'/VERSION') ? trim((string)file_get_contents(dirname(__DIR__).'/VERSION')) : $this->get_version();
 		        $copyright = 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: '.$toa_link.'تركي بن عبيد</a> | '.$toa_credit.' | استخدام مجاني غير تجاري | V'.$release_version;
