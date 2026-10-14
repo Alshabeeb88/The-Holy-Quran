@@ -150,6 +150,7 @@
 .navy-preview{background:linear-gradient(135deg,#173b5f,#245f91)}
 .burgundy-preview{background:linear-gradient(135deg,#6b3141,#914b61)}
 .toa-preview{background:linear-gradient(135deg,#053321,#0D3B2E 70%,#C79A2E)}
+.mushaf-preview{background:linear-gradient(135deg,#F7F3EA 0 45%,#1F5446 45% 75%,#A9823A 75%)}
 
 .theme-text{
   display:flex;
