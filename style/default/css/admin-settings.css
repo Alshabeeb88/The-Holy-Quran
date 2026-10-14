@@ -373,7 +373,9 @@ html[data-theme="dark"] .settings-modal li{
   border-radius:12px;
   background:var(--bg);
   color:var(--green);
-  font:700 13px Tahoma,Arial,sans-serif;
+  font-weight:700;
+  font-size:13px;
+  font-family:var(--qfa-font-ar,Tahoma,sans-serif);
   text-decoration:none;
   transition:background .15s,border-color .15s;
 }
