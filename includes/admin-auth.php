@@ -273,9 +273,33 @@ function qfa_client_ip(): string {
     return $peer;
 }
 
-function qfa_auth_rate_file(string $kind): string {
+/**
+ * The address a rate-limit counter is kept for.
+ *
+ * One IPv6 customer usually holds a whole /64, so counting each full IPv6
+ * address separately would hand a single attacker billions of fresh
+ * allowances. IPv6 clients are therefore counted per /64 network; IPv4
+ * addresses are counted as they are.
+ */
+function qfa_rate_client_key(): string {
     $ip = qfa_client_ip();
-    return qfa_rate_dir() . DIRECTORY_SEPARATOR . 'qfa_auth_' . $kind . '_' . hash('sha256', $ip) . '.json';
+    if (filter_var($ip, FILTER_VALIDATE_IP, FILTER_FLAG_IPV6)) {
+        $packed = @inet_pton($ip);
+        if (is_string($packed) && strlen($packed) === 16) {
+            return 'v6:' . bin2hex(substr($packed, 0, 8));
+        }
+    }
+    return $ip;
+}
+
+/**
+ * Kinds ending in "_all" share one counter for every visitor. They cap the
+ * total attempts against the single admin account, so rotating addresses
+ * cannot buy unlimited guesses.
+ */
+function qfa_auth_rate_file(string $kind): string {
+    $key = substr($kind, -4) === '_all' ? 'all' : qfa_rate_client_key();
+    return qfa_rate_dir() . DIRECTORY_SEPARATOR . 'qfa_auth_' . $kind . '_' . hash('sha256', $key) . '.json';
 }
 
 /**

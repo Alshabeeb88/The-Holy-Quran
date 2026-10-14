@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!qfa_auth_check_csrf((string)($_POST['csrf'] ?? ''))) {
         $message = '<div class="auth-error">انتهت صلاحية النموذج. أعد المحاولة.</div>';
 
-    } elseif (qfa_auth_rate_limited('reset', 4, 1800)) {
+    } elseif (qfa_auth_rate_limited('reset', 4, 1800) || qfa_auth_rate_limited('reset_all', 12, 1800)) {
         // Refused either way, but say which so the administrator is not told to
         // wait out a limit that was never reached. Neither message reveals a
         // path or any other server detail.

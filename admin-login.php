@@ -7,7 +7,7 @@ $error = '';
 $next = qfa_auth_safe_next((string)($_GET['next'] ?? $_POST['next'] ?? '/admin.php'));
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!qfa_auth_check_csrf((string)($_POST['csrf'] ?? ''))) $error = 'انتهت صلاحية النموذج. أعد المحاولة.';
-    elseif (qfa_auth_rate_limited('login', 6, 900)) {
+    elseif (qfa_auth_rate_limited('login', 6, 900) || qfa_auth_rate_limited('login_all', 30, 900)) {
         // Refused either way, but say which: telling the administrator to wait
         // out a limit that was never reached would send them down the wrong
         // path. Neither message discloses a filesystem path or server detail.
