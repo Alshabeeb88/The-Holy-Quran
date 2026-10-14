@@ -1,0 +1,51 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        php: ['7.4', '8.3', '8.4']
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+
+      - name: PHP syntax
+        run: |
+          git ls-files '*.php' | grep -v -E '^api/(quran|books)/includes/' | while read -r f; do
+            php -l "$f" > /dev/null || { echo "::error file=$f::syntax error"; exit 1; }
+          done
+
+      - name: Unit tests
+        run: |
+          php tests/config_writer_test.php
+          php tests/social_share_default_test.php
+          php tests/totp_test.php
+
+      - name: Quran and source data unchanged
+        run: |
+          php tools/build-data-manifest.php --check
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            if ! git diff --quiet "origin/${{ github.base_ref }}"...HEAD -- api/quran/includes api/books/includes; then
+              echo "::warning::This pull request changes Quran, tafseer, translation or book data files:"
+              git diff --stat "origin/${{ github.base_ref }}"...HEAD -- api/quran/includes api/books/includes
+            fi
+          fi
+
+      - name: Install and open every page
+        run: bash tests/smoke.sh

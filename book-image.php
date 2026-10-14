@@ -19,6 +19,9 @@ if ($src === '' || !filter_var($src, FILTER_VALIDATE_URL)) {
 }
 
 $parts = parse_url($src);
+if (isset($parts['port']) || isset($parts['user']) || isset($parts['pass'])) {
+    qfa_book_fallback($fallback);
+}
 $host = isset($parts['host']) ? strtolower($parts['host']) : '';
 $scheme = isset($parts['scheme']) ? strtolower($parts['scheme']) : '';
 $allowedHosts = array('muslim-library.com', 'www.muslim-library.com');
@@ -44,11 +47,15 @@ $type = (string)curl_getinfo($ch, CURLINFO_CONTENT_TYPE);
 $err = curl_errno($ch);
 curl_close($ch);
 
-if ($err || $code < 200 || $code >= 300 || !$data || stripos($type, 'image/') !== 0) {
+// Only plain raster formats are passed through. SVG is an image type that can
+// carry script, and it would run on this site's origin, so it is never relayed.
+$mime = strtolower(trim(explode(';', $type)[0]));
+$allowedTypes = array('image/jpeg', 'image/png', 'image/gif', 'image/webp');
+if ($err || $code < 200 || $code >= 300 || !$data || !in_array($mime, $allowedTypes, true)) {
     qfa_book_fallback($fallback);
 }
 
-header('Content-Type: '.$type);
+header('Content-Type: '.$mime);
 header('Cache-Control: public, max-age=604800');
 header('X-Content-Type-Options: nosniff');
 echo $data;

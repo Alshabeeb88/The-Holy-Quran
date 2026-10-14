@@ -7,6 +7,11 @@
  * Run: php -n tests/social_share_default_test.php
  */
 
+if (PHP_SAPI !== 'cli') {
+    http_response_code(404);
+    exit;
+}
+
 $root = dirname(__DIR__);
 $failures = 0;
 $checks = 0;
@@ -139,11 +144,12 @@ foreach( array('README.md', 'ATTRIBUTION.md', 'NOTICE-AR.md', 'LICENSE') as $doc
 $class = file_get_contents($root.'/includes/class.php');
 check(
     'the Arabic footer carries the full rights line',
-    strpos($class, 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: تركي الشبيب | استخدام مجاني غير تجاري | V') !== false
+    strpos($class, 'المطور الأصلي: <a target="_blank" rel="noopener noreferrer" href="https://quran-for-all.com/">أحمد العنزي</a> | تطوير وتحسين النسخة: \'.$toa_link.\'تركي بن عبيد</a> | \'.$toa_credit.\' | استخدام مجاني غير تجاري | V') !== false
+        && strpos($class, '© TOA Digital</span>') !== false
 );
 check(
     'the English footer carries the noncommercial notice',
-    strpos($class, 'Enhanced and maintained by: Turki Alshabeeb | Free for noncommercial use | V') !== false
+    strpos($class, 'Enhanced and maintained by: \'.$toa_link.\'Turki Bin Obaid</a> | \'.$toa_credit.\' | Free for noncommercial use | V') !== false
 );
 
 echo "\n$checks checks, $failures failures\n";
