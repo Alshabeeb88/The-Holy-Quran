@@ -67,6 +67,7 @@ require_once(PATH.'/api/quran/quran-api.php');
 require_once(PATH.'/api/books/book-api.php');
 require_once(INC_PATH.'/class.php');
 require_once(INC_PATH.'/pages.php');
+require_once(INC_PATH.'/youtube.php');
 
 $detect = new \Detection\MobileDetect;
 
