@@ -3,7 +3,7 @@
  * Read-only health and security check for a live install, meant for the
  * hosting terminal (cPanel > Terminal):
  *
- *   curl -fsSLo /tmp/qfa-audit.php https://raw.githubusercontent.com/Alshabeeb88/The-Holy-Quran/main/tools/server-audit.php
+ *   curl -fsSLo /tmp/qfa-audit.php https://raw.githubusercontent.com/toa-sa/The-Holy-Quran/main/tools/server-audit.php
  *   php /tmp/qfa-audit.php [site folder] [git ref]
  *
  * It changes nothing on the server. It compares every file with the
@@ -19,7 +19,7 @@ if (PHP_SAPI !== 'cli') {
 
 $started = microtime(true);
 $ref = $argv[2] ?? 'main';
-$repo = 'Alshabeeb88/The-Holy-Quran';
+$repo = 'toa-sa/The-Holy-Quran';
 $warnings = 0;
 $problems = 0;
 
