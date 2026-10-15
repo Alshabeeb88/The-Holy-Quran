@@ -14,7 +14,7 @@ This edition continues the original project's Quran-focused functionality while 
 
 ### Version
 
-Current release: **v1.2.0** — see [CHANGELOG.md](CHANGELOG.md)
+Current release: **v1.2.1** — see [CHANGELOG.md](CHANGELOG.md). Where the project stands and what comes next: [PROJECT-STATUS.md](PROJECT-STATUS.md)
 
 ### Highlights of this edition
 
@@ -35,6 +35,10 @@ Development and improvements in this edition include:
 - Qibla direction functionality.
 - Tasbeeh functionality.
 - Hijri/Gregorian date conversion.
+- Two-step sign-in (authenticator app) for the administrator, with recovery codes.
+- Page toggles, a contact-message inbox and a source-integrity check in the control panel.
+- The "Mushaf" colour theme (warm paper light mode, neutral charcoal dark mode), Al-Muyassar as the default Tafseer, and self-hosted Cairo and Montserrat fonts.
+- Automated checks on GitHub for every change.
 - UI, theme, sharing, and usability improvements.
 - Additional stability and compatibility improvements across Quran, Tafseer, translation, books, and audio functionality.
 
@@ -86,7 +90,7 @@ Third-party materials distributed with the project are not covered -- see [NOTIC
 
 ### الإصدار
 
-الإصدار الحالي: **v1.2.0** — راجع [CHANGELOG.md](CHANGELOG.md)
+الإصدار الحالي: **v1.2.1** — راجع [CHANGELOG.md](CHANGELOG.md). حالة المشروع وما أُنجز وما بعده: [PROJECT-STATUS.md](PROJECT-STATUS.md)
 
 ### أبرز تطويرات وتحسينات هذا الإصدار
 
@@ -107,6 +111,10 @@ Third-party materials distributed with the project are not covered -- see [NOTIC
 - وظيفة تحديد اتجاه القبلة.
 - وظيفة التسبيح.
 - محول التاريخ الهجري والميلادي.
+- التحقق بخطوتين لدخول المدير عبر تطبيق المصادقة، مع رموز استرداد.
+- إدارة الصفحات، وصندوق رسائل التواصل، وفحص سلامة المصادر في لوحة التحكم.
+- ثيم «مصحف» (ورق دافئ في الفاتح ورمادي فحمي في الداكن)، والتفسير الميسّر افتراضيًا، وخطوط Cairo وMontserrat باستضافة ذاتية.
+- فحص آلي على GitHub لكل تعديل.
 - تحسينات على الواجهة والثيمات والمشاركة وسهولة الاستخدام.
 - تحسينات إضافية على الاستقرار والتوافق في صفحات القرآن والتفسير والترجمات والكتب والصوتيات.
 
